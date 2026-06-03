@@ -7,7 +7,15 @@ set -e
 REMOTE_USER="jwebber533@gmail.com"
 REMOTE_HOST="100.99.237.66"
 REMOTE_DIR="C:/Users/jwebb/swarm"
-PASSWORD="3614"
+
+# Use SSH key or prompt for password
+if [ -f ~/.ssh/terrornode_key ]; then
+    SSH_AUTH="-i ~/.ssh/terrornode_key"
+else
+    echo "Enter MSI password:"
+    read -s PASSWORD
+    SSH_AUTH=""
+fi
 
 echo "=== Deploying to TerrorNode ==="
 

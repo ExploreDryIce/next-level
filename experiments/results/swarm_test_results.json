@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-06-03 11:27:26",
+  "tests": [
+    {
+      "name": "Broker Connectivity",
+      "passed": true,
+      "details": "3 nodes online"
+    },
+    {
+      "name": "Node Registration",
+      "passed": true,
+      "details": "3 nodes: ['macbook-m4', 'terrornode', 'towerseven']"
+    },
+    {
+      "name": "Pattern Injection",
+      "passed": true,
+      "details": "3 patterns injected and broadcast"
+    },
+    {
+      "name": "Pattern Broadcast",
+      "passed": true,
+      "details": "pool=3, relayed=9"
+    },
+    {
+      "name": "Query Routing",
+      "passed": true,
+      "details": "All domains routed correctly"
+    },
+    {
+      "name": "Cross-Domain Cascade",
+      "passed": true,
+      "details": "Cascade pattern propagated to all nodes"
+    },
+    {
+      "name": "Latency Measurement",
+      "passed": true,
+      "details": "avg=0.6ms, p50=0.6ms, p95=0.9ms"
+    }
+  ],
+  "all_passed": true
+}

@@ -1,0 +1,13 @@
+# Model checkpoints (large binary files)
+experiments/checkpoints/
+experiments/models/onnx/
+*.pt
+*.onnx
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store

@@ -1,0 +1,26 @@
+{
+  "financial": {
+    "financial": 0.379,
+    "health": 0.0,
+    "natural": 0.0,
+    "tech": 0.1586
+  },
+  "health": {
+    "financial": 0.0698,
+    "health": 0.0,
+    "natural": 0.0177,
+    "tech": 0.0
+  },
+  "natural": {
+    "financial": 0.1715,
+    "health": 0.0,
+    "natural": 0.0045,
+    "tech": 0.0
+  },
+  "tech": {
+    "financial": 0.1512,
+    "health": 0.0853,
+    "natural": 0.0,
+    "tech": 0.464
+  }
+}

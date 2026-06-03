@@ -1,0 +1,69 @@
+{
+  "solo_results": {
+    "financial": {
+      "top1_accuracy": 0.3181818181818182,
+      "top5_accuracy": 1.0,
+      "total_samples": 66
+    },
+    "health": {
+      "top1_accuracy": 0.0,
+      "top5_accuracy": 0.0,
+      "total_samples": 23
+    },
+    "natural": {
+      "top1_accuracy": 0.043478260869565216,
+      "top5_accuracy": 0.08695652173913043,
+      "total_samples": 23
+    },
+    "tech": {
+      "top1_accuracy": 0.0,
+      "top5_accuracy": 0.6923076923076923,
+      "total_samples": 26
+    }
+  },
+  "swarm_results": {
+    "financial": {
+      "top1_accuracy": 0.36363636363636365,
+      "top5_accuracy": 1.0,
+      "total_samples": 66
+    },
+    "health": {
+      "top1_accuracy": 0.0,
+      "top5_accuracy": 0.08695652173913043,
+      "total_samples": 23
+    },
+    "natural": {
+      "top1_accuracy": 0.0,
+      "top5_accuracy": 0.08695652173913043,
+      "total_samples": 23
+    },
+    "tech": {
+      "top1_accuracy": 0.23076923076923078,
+      "top5_accuracy": 0.7692307692307693,
+      "total_samples": 26
+    }
+  },
+  "patterns_extracted": {
+    "financial": 29,
+    "health": 5,
+    "natural": 0,
+    "tech": 13
+  },
+  "config": {
+    "context_dim": 64,
+    "d_model": 128,
+    "n_heads": 4,
+    "n_layers": 4,
+    "d_ff": 512,
+    "dropout": 0.1,
+    "max_seq_len": 256,
+    "time_encoding_dim": 32,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "warmup_steps": 100,
+    "max_grad_norm": 1.0
+  },
+  "epochs": 15,
+  "elapsed_seconds": 93.11337089538574,
+  "device": "mps"
+}

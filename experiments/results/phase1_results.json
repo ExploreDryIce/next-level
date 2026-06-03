@@ -1,0 +1,194 @@
+{
+  "size_comparison": {
+    "tiny": {
+      "model_size": "tiny",
+      "domain": "financial",
+      "params": 156521,
+      "best_val_loss": 1.2325206597646077,
+      "epochs": 20
+    },
+    "standard": {
+      "model_size": "standard",
+      "domain": "financial",
+      "params": 1114473,
+      "best_val_loss": 1.1658003330230713,
+      "epochs": 20
+    },
+    "large": {
+      "model_size": "large",
+      "domain": "financial",
+      "params": 4366953,
+      "best_val_loss": 1.1549323002497356,
+      "epochs": 20
+    }
+  },
+  "specialist_histories": {
+    "financial": {
+      "domain": "financial",
+      "curriculum_history": [
+        {
+          "phase": 0,
+          "domain_ratio": 0.7,
+          "lr": 0.0003,
+          "best_val_loss": 2.9804904460906982,
+          "train_size": 261
+        },
+        {
+          "phase": 1,
+          "domain_ratio": 0.8,
+          "lr": 0.0001,
+          "best_val_loss": 1.5561027924219768,
+          "train_size": 261
+        },
+        {
+          "phase": 2,
+          "domain_ratio": 0.9,
+          "lr": 5e-05,
+          "best_val_loss": 1.508716622988383,
+          "train_size": 261
+        }
+      ]
+    },
+    "health": {
+      "domain": "health",
+      "curriculum_history": [
+        {
+          "phase": 0,
+          "domain_ratio": 0.7,
+          "lr": 0.0003,
+          "best_val_loss": 40722.74609375,
+          "train_size": 90
+        },
+        {
+          "phase": 1,
+          "domain_ratio": 0.8,
+          "lr": 0.0001,
+          "best_val_loss": 38955.921875,
+          "train_size": 90
+        },
+        {
+          "phase": 2,
+          "domain_ratio": 0.9,
+          "lr": 5e-05,
+          "best_val_loss": 39829.328125,
+          "train_size": 90
+        }
+      ]
+    },
+    "natural": {
+      "domain": "natural",
+      "curriculum_history": [
+        {
+          "phase": 0,
+          "domain_ratio": 0.7,
+          "lr": 0.0003,
+          "best_val_loss": 1165954176.0,
+          "train_size": 90
+        },
+        {
+          "phase": 1,
+          "domain_ratio": 0.8,
+          "lr": 0.0001,
+          "best_val_loss": 1161045888.0,
+          "train_size": 90
+        },
+        {
+          "phase": 2,
+          "domain_ratio": 0.9,
+          "lr": 5e-05,
+          "best_val_loss": 1157611136.0,
+          "train_size": 90
+        }
+      ]
+    },
+    "tech": {
+      "domain": "tech",
+      "curriculum_history": [
+        {
+          "phase": 0,
+          "domain_ratio": 0.7,
+          "lr": 0.0003,
+          "best_val_loss": 1572055.875,
+          "train_size": 103
+        },
+        {
+          "phase": 1,
+          "domain_ratio": 0.8,
+          "lr": 0.0001,
+          "best_val_loss": 1373025.75,
+          "train_size": 103
+        },
+        {
+          "phase": 2,
+          "domain_ratio": 0.9,
+          "lr": 5e-05,
+          "best_val_loss": 1237360.25,
+          "train_size": 103
+        }
+      ]
+    }
+  },
+  "expertise_matrix": {
+    "financial": {
+      "financial": 0.379,
+      "health": 0.0,
+      "natural": 0.0,
+      "tech": 0.1586
+    },
+    "health": {
+      "financial": 0.0698,
+      "health": 0.0,
+      "natural": 0.0177,
+      "tech": 0.0
+    },
+    "natural": {
+      "financial": 0.1715,
+      "health": 0.0,
+      "natural": 0.0045,
+      "tech": 0.0
+    },
+    "tech": {
+      "financial": 0.1512,
+      "health": 0.0853,
+      "natural": 0.0,
+      "tech": 0.464
+    }
+  },
+  "export_results": {
+    "tiny": false,
+    "standard": false,
+    "large": false,
+    "specialist_financial": false,
+    "specialist_health": false,
+    "specialist_natural": false,
+    "specialist_tech": false
+  },
+  "elapsed_seconds": 52.451719999313354,
+  "device": "mps",
+  "model_configs": {
+    "tiny": {
+      "d_model": 64,
+      "n_heads": 2,
+      "n_layers": 2,
+      "d_ff": 256,
+      "time_encoding_dim": 16,
+      "description": "Edge/IoT anomaly detection (~100K params)"
+    },
+    "standard": {
+      "d_model": 128,
+      "n_heads": 4,
+      "n_layers": 4,
+      "d_ff": 512,
+      "time_encoding_dim": 32,
+      "description": "Small business node (~1.2M params)"
+    },
+    "large": {
+      "d_model": 256,
+      "n_heads": 8,
+      "n_layers": 4,
+      "d_ff": 1024,
+      "time_encoding_dim": 64,
+      "description": "Enterprise node (~4.5M params)"
+    }
+  }
+}

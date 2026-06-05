@@ -423,7 +423,7 @@ def main():
 
     parser = argparse.ArgumentParser(description="DVCE Swarm Node")
     parser.add_argument("--config", type=str, help="Path to node config JSON")
-    parser.add_argument("--profile", type=str, choices=["mac", "terrornode", "towerseven"],
+    parser.add_argument("--profile", type=str, choices=["mac", "terrornode", "towerseven", "mac_i5"],
                         help="Use a pre-configured profile")
     args = parser.parse_args()
 
@@ -439,6 +439,9 @@ def main():
     elif args.profile == "towerseven":
         from config import towerseven_config
         config = towerseven_config()
+    elif args.profile == "mac_i5":
+        from config import mac_i5_config
+        config = mac_i5_config()
     else:
         # Auto-detect based on platform
         system = platform.system()

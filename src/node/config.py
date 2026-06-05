@@ -123,3 +123,21 @@ def towerseven_config() -> NodeConfig:
         max_patterns_per_gossip=10,  # Smaller payloads
         pattern_confidence_threshold=0.7,  # Only share high-confidence
     )
+
+
+def mac_i5_config() -> NodeConfig:
+    """Old MacBook Pro i5 — health + logistics specialist, CPU-only."""
+    return NodeConfig(
+        node_id="mac-i5",
+        node_name="MacBook Pro i5 (Health/Logistics)",
+        domain="health",
+        broker_host="192.168.1.119",  # M4 Max local IP (runs broker)
+        broker_port=9876,
+        tailscale_ip=None,
+        model_size="standard",
+        device="cpu",
+        max_memory_mb=4096,  # 8GB total, leave half for OS
+        gossip_interval_seconds=120,  # Every 2 min
+        max_patterns_per_gossip=25,
+        pattern_confidence_threshold=0.6,
+    )

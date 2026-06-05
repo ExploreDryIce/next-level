@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.dvce.ingestion</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/webber/Desktop/dvce/.venv/bin/python</string>
+        <string>-m</string>
+        <string>dvce.services.ingestion.scheduler</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>WorkingDirectory</key>
+    <string>/Users/webber/Desktop/dvce</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PYTHONPATH</key>
+        <string>/Users/webber/Desktop/dvce/src</string>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/Users/webber/.dvce/logs/ingestion.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/webber/.dvce/logs/ingestion.error.log</string>
+    <key>ProcessType</key>
+    <string>Background</string>
+    <key>LowPriorityIO</key>
+    <true/>
+    <key>Nice</key>
+    <integer>15</integer>
+</dict>
+</plist>

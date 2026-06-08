@@ -68,6 +68,10 @@ class PatternBroker:
     async def start(self):
         """Start the broker server."""
         self.stats["start_time"] = time.time()
+
+        # Start NATS bridge (runs alongside TCP for backward compat)
+        await self._start_nats_bridge()
+
         self.server = await asyncio.start_server(
             self._handle_connection, self.host, self.port
         )
@@ -75,6 +79,7 @@ class PatternBroker:
         addr = self.server.sockets[0].getsockname()
         logger.info(f"🌐 Pattern Broker running on {addr[0]}:{addr[1]}")
         logger.info(f"   Pattern store: {self._store_path} ({len(self.pattern_pool)} patterns loaded)")
+        logger.info(f"   NATS bridge: {'connected' if self._nats_connected else 'unavailable (TCP only)'}")
         logger.info(f"   Waiting for swarm nodes to connect...")
 
         # Start periodic tasks
@@ -83,6 +88,17 @@ class PatternBroker:
 
         async with self.server:
             await self.server.serve_forever()
+
+    async def _start_nats_bridge(self):
+        """Initialize NATS JetStream bridge if available."""
+        self._nats_connected = False
+        try:
+            from nats_bridge import NATSBridge
+            self._nats = NATSBridge(node_id="broker")
+            self._nats_connected = await self._nats.connect()
+        except Exception as e:
+            logger.info(f"   NATS bridge not available: {e}")
+            self._nats = None
 
     async def _handle_connection(self, reader: asyncio.StreamReader, writer: asyncio.StreamWriter):
         """Handle a new node connection."""
@@ -146,8 +162,13 @@ class PatternBroker:
                     if len(self.pattern_pool) > self.max_pool_size:
                         self.pattern_pool = self.pattern_pool[-self.max_pool_size:]
 
-                    # Broadcast to other nodes
+                    # Broadcast to other nodes (TCP)
                     await self._broadcast_patterns(patterns, exclude_node=source_node)
+
+                    # Also publish to NATS JetStream for persistence + replay
+                    if self._nats_connected and self._nats:
+                        domain = node_info.domain if node_info else "general"
+                        asyncio.create_task(self._nats.publish_patterns(patterns, domain=domain))
 
                     if node_info:
                         node_info.patterns_received += len(patterns)

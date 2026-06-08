@@ -1,0 +1,245 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55c5a1a81ce7d617434c2013776a8cce231c5c64.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.01,
+              30.48
+            ],
+            [
+              -89.09,
+              30.48
+            ],
+            [
+              -89.12,
+              30.55
+            ],
+            [
+              -89.05,
+              30.55
+            ],
+            [
+              -89.01,
+              30.48
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.55c5a1a81ce7d617434c2013776a8cce231c5c64.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.55c5a1a81ce7d617434c2013776a8cce231c5c64.001.1",
+        "areaDesc": "Harrison, MS",
+        "geocode": {
+          "SAME": [
+            "028047"
+          ],
+          "UGC": [
+            "MSC047"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/MSC047"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d91e8953fbce7726cb81972fd1867f7716625304.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.d91e8953fbce7726cb81972fd1867f7716625304.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T13:56:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T19:23:00-05:00",
+        "effective": "2026-06-07T19:23:00-05:00",
+        "onset": "2026-06-07T19:23:00-05:00",
+        "expires": "2026-06-08T13:30:00-05:00",
+        "ends": "2026-06-08T21:48:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS New Orleans LA",
+        "headline": "Flood Warning issued June 7 at 7:23PM CDT until June 8 at 9:48PM CDT by NWS New Orleans LA",
+        "description": "...The Flood Warning is extended for the following rivers in\nMississippi...\n\nBiloxi River Near Lyman affecting Harrison County.\n\nFor the Biloxi River...including Lyman...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Biloxi River near Lyman.\n\n* WHEN...Until Monday evening.\n\n* IMPACTS...At 16.0 feet, Major flooding will occur in Retreat and\nRiverland Village Subdivisions at the 16 foot stage. Homes on lower\nFisherman Trail will remain flooded and lower River Road will be\nimpassable.\n\n* ADDITIONAL DETAILS...\n- At 6:45 PM CDT Sunday the stage was 15.1 feet.\n- Bankfull stage is 9.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours ending\nat 6:45 PM CDT Sunday was 15.2 feet.\n- Forecast...The river is expected to fall below flood stage\ntomorrow afternoon and continue falling to 4.5 feet Friday\nevening.\n- Flood stage is 12.0 feet.\n- Flood History...This crest compares to a previous crest of 15.1\nfeet on 12/19/1995.\n- http://www.weather.gov/safety/flood",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nMotorists should not attempt to drive around barricades or drive cars\nthrough flooded areas.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nAdditional information is available at www.weather.gov/lix.  Click on\nthe Rivers and Lakes menu for forecasts and observations.\n\nThe next statement will be issued when updates are needed.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSLIX"
+          ],
+          "WMOidentifier": [
+            "WGUS84 KLIX 080023"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING NOW IN EFFECT UNTIL MONDAY EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KLIX.FL.W.0056.000000T0000Z-260609T0248Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T21:48:00-05:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.82faf7c7b38d2952e8e7f61618a835f18c509ba3.001.1,2026-06-06T22:04:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.81f8f5ff715f998442a46725560223322c05063a.001.1,2026-06-06T19:37:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.71c49df8bf50e468b7ab9302b05cdeba14787cb3.001.1,2026-06-06T10:26:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLS"
+          ],
+          "NationalWeatherService": [
+            "FLW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f14c87d8a59eec7ea8b563c2afd7e81845903243.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -89.17,
+              30.39
+            ],
+            [
+              -89.22,
+              30.37
+            ],
+            [
+              -89.22,
+              30.41
+            ],
+            [
+              -89.19,
+              30.42
+            ],
+            [
+              -89.17,
+              30.39
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f14c87d8a59eec7ea8b563c2afd7e81845903243.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.f14c87d8a59eec7ea8b563c2afd7e81845903243.001.1",
+        "areaDesc": "Harrison, MS",
+        "geocode": {
+          "SAME": [
+            "028047"
+          ],
+          "UGC": [
+            "MSC047"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/MSC047"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3bb720cf83599f0106ff9b7d6456e92b7c77a4a7.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.3bb720cf83599f0106ff9b7d6456e92b7c77a4a7.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T07:28:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T19:22:00-05:00",
+        "effective": "2026-06-07T19:22:00-05:00",
+        "onset": "2026-06-07T19:22:00-05:00",
+        "expires": "2026-06-08T13:30:00-05:00",
+        "ends": "2026-06-09T17:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS New Orleans LA",
+        "headline": "Flood Warning issued June 7 at 7:22PM CDT until June 9 at 5:30PM CDT by NWS New Orleans LA",
+        "description": "...The Flood Warning continues for the following rivers in\nMississippi...\n\nWolf River Above Gulfport affecting Harrison County.\n\nFor the Wolf River...including Gulfport...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Wolf River above Gulfport.\n\n* WHEN...Until Tuesday afternoon.\n\n* IMPACTS...At 10.0 feet, Bells Ferry Road will be closed within a\nmile of the bridge as the road will be covered by swift moving\nriver current.\n\n* ADDITIONAL DETAILS...\n- At 6:45 PM CDT Sunday the stage was 9.5 feet.\n- Bankfull stage is 7.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours ending\nat 6:45 PM CDT Sunday was 9.8 feet.\n- Forecast...The river will fall below flood stage late Tuesday\nmorning to 4.6 feet Wednesday evening.\n- Flood stage is 8.0 feet.\n- Flood History...This crest compares to a previous crest of 9.5\nfeet on 03/17/1990.\n- http://www.weather.gov/safety/flood",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nMotorists should not attempt to drive around barricades or drive cars\nthrough flooded areas.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nAdditional information is available at www.weather.gov/lix.  Click on\nthe Rivers and Lakes menu for forecasts and observations.\n\nThe next statement will be issued when updates are needed.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSLIX"
+          ],
+          "WMOidentifier": [
+            "WGUS84 KLIX 080022"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING NOW IN EFFECT UNTIL TUESDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KLIX.FL.W.0057.000000T0000Z-260609T2230Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T17:30:00-05:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.18b47e392c7174125e8aaff505402018ff3a2f72.001.1,2026-06-06T22:07:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8d2f5aeadac6a12447d5c18e4c457751b3af03e2.001.1,2026-06-06T19:34:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.46d309c0e3a879372194d1011e5fec760381820b.001.1,2026-06-06T10:30:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLS"
+          ],
+          "NationalWeatherService": [
+            "FLW"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for Mississippi",
+  "updated": "2026-06-08T03:50:22+00:00"
+}

@@ -1,0 +1,472 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.199b6565faf989bed53838df88694d663c2ee694.001.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.199b6565faf989bed53838df88694d663c2ee694.001.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.199b6565faf989bed53838df88694d663c2ee694.001.2",
+        "areaDesc": "Kaibab Plateau; Marble and Glen Canyons; Grand Canyon Country; Coconino Plateau; Northeast Plateaus and Mesas Hwy 264 Northward; Chinle Valley; Chuska Mountains and Defiance Plateau; Little Colorado River Valley in Coconino County; Little Colorado River Valley in Navajo County; Little Colorado River Valley in Apache County; Western Mogollon Rim; Eastern Mogollon Rim; Black Mesa Area; Northeast Plateaus and Mesas South of Hwy 264",
+        "geocode": {
+          "SAME": [
+            "004005",
+            "004001",
+            "004017"
+          ],
+          "UGC": [
+            "AZZ104",
+            "AZZ105",
+            "AZZ106",
+            "AZZ107",
+            "AZZ109",
+            "AZZ110",
+            "AZZ111",
+            "AZZ112",
+            "AZZ113",
+            "AZZ114",
+            "AZZ115",
+            "AZZ116",
+            "AZZ139",
+            "AZZ140"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/AZZ104",
+          "https://api.weather.gov/zones/fire/AZZ105",
+          "https://api.weather.gov/zones/fire/AZZ106",
+          "https://api.weather.gov/zones/fire/AZZ107",
+          "https://api.weather.gov/zones/fire/AZZ109",
+          "https://api.weather.gov/zones/fire/AZZ110",
+          "https://api.weather.gov/zones/fire/AZZ111",
+          "https://api.weather.gov/zones/fire/AZZ112",
+          "https://api.weather.gov/zones/fire/AZZ113",
+          "https://api.weather.gov/zones/fire/AZZ114",
+          "https://api.weather.gov/zones/fire/AZZ115",
+          "https://api.weather.gov/zones/fire/AZZ116",
+          "https://api.weather.gov/zones/fire/AZZ139",
+          "https://api.weather.gov/zones/fire/AZZ140"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f194546214f771925627bfab5ff7a3462017c04.003.2",
+            "identifier": "urn:oid:2.49.0.1.840.0.2f194546214f771925627bfab5ff7a3462017c04.003.2",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T12:04:00-07:00"
+          }
+        ],
+        "sent": "2026-06-07T19:48:00-07:00",
+        "effective": "2026-06-07T19:48:00-07:00",
+        "onset": "2026-06-08T10:00:00-07:00",
+        "expires": "2026-06-08T15:00:00-07:00",
+        "ends": "2026-06-09T20:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Flagstaff AZ",
+        "headline": "Red Flag Warning issued June 7 at 7:48PM MST until June 9 at 8:00PM MST by NWS Flagstaff AZ",
+        "description": "* WHAT...Southwest winds 15 to 25 mph with gusts up to 45 mph and\nrelative humidity 8 to 14 percent. Winds will decrease to 5 to 15\nmph for a period Monday night before increasing again Tuesday\nmorning.\n\n* WHERE...Kaibab Plateau, Marble and Glen Canyons, Grand Canyon\nCountry, Coconino Plateau, Navajo Nation in Arizona, Little\nColorado River Valley, and the Mogollon Rim. This includes portions\nof the Apache-Sitgreaves, Coconino, and Kaibab national forests.\n\n* WHEN...From 10 AM MST /11 AM MDT/ Monday to 8 PM MST /9 PM MDT/\nTuesday.\n\n* IMPACTS...Rapid spread and growth of any new or existing fires.\nFires will have the potential to exhibit extreme fire behavior.\nElevated potential for new fire starts.",
+        "instruction": "Do your part: No open flames or sparks, keep vehicles off of dry\ngrass, properly dispose of cigarette butts, and avoid power equipment\nthat creates sparks. One less spark, one less wildfire.\n\nObey all fire restrictions. To view a map of current fire\nrestrictions, go to wildlandfire.az.gov/fire-restrictions.\n\nA Red Flag Warning is issued when we identify weather conditions that\npromote rapid spread of fire which may become life-threatening. This\ndoes not mean there is a fire. These conditions are either occurring\nnow or will begin soon. It is important to have multiple ways to\nreceive information from authorities.\n\nPlease advise the appropriate officials or fire crews in the field of\nthis Red Flag Warning.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWFGZ"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KFGZ 080248"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM MST /11 AM MDT/ MONDAY TO 8 PM MST /9 PM MDT/ TUESDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KFGZ.FW.W.0010.260608T1700Z-260610T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T20:00:00-07:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.199b6565faf989bed53838df88694d663c2ee694.003.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.199b6565faf989bed53838df88694d663c2ee694.003.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.199b6565faf989bed53838df88694d663c2ee694.003.1",
+        "areaDesc": "White Mountains",
+        "geocode": {
+          "SAME": [
+            "004001",
+            "004017"
+          ],
+          "UGC": [
+            "AZZ117"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/AZZ117"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.2f194546214f771925627bfab5ff7a3462017c04.004.2",
+            "identifier": "urn:oid:2.49.0.1.840.0.2f194546214f771925627bfab5ff7a3462017c04.004.2",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T12:04:00-07:00"
+          }
+        ],
+        "sent": "2026-06-07T19:48:00-07:00",
+        "effective": "2026-06-07T19:48:00-07:00",
+        "onset": "2026-06-08T10:00:00-07:00",
+        "expires": "2026-06-08T15:00:00-07:00",
+        "ends": "2026-06-09T20:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Flagstaff AZ",
+        "headline": "Red Flag Warning issued June 7 at 7:48PM MST until June 9 at 8:00PM MST by NWS Flagstaff AZ",
+        "description": "* WHAT...Southwest winds 15 to 25 mph with gusts up to 45 mph and\nrelative humidity 10 to 20 percent. Winds will decrease to 5 to 15\nmph for a period Monday night before increasing again Tuesday\nmorning.\n\n* WHERE...White Mountains. This includes portions of the\nApache-Sitgreaves National Forest.\n\n* WHEN...From 10 AM Monday to 8 PM MST Tuesday.\n\n* IMPACTS...Rapid spread and growth of any new or existing fires.\nFires will have the potential to exhibit extreme fire behavior.\nElevated potential for new fire starts.",
+        "instruction": "Do your part: No open flames or sparks, keep vehicles off of dry\ngrass, properly dispose of cigarette butts, and avoid power equipment\nthat creates sparks. One less spark, one less wildfire.\n\nObey all fire restrictions. To view a map of current fire\nrestrictions, go to wildlandfire.az.gov/fire-restrictions.\n\nA Red Flag Warning is issued when we identify weather conditions that\npromote rapid spread of fire which may become life-threatening. This\ndoes not mean there is a fire. These conditions are either occurring\nnow or will begin soon. It is important to have multiple ways to\nreceive information from authorities.\n\nPlease advise the appropriate officials or fire crews in the field of\nthis Red Flag Warning.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWFGZ"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KFGZ 080248"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM MONDAY TO 8 PM MST TUESDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KFGZ.FW.W.0010.260608T1700Z-260610T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T20:00:00-07:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.656834d7fd04ca9073cd135e535a644b5fca1fb7.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.656834d7fd04ca9073cd135e535a644b5fca1fb7.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.656834d7fd04ca9073cd135e535a644b5fca1fb7.001.1",
+        "areaDesc": "Lake Mead - AZ side; Lake Mohave - AZ side; Lake Mead - NV side; Lake Mohave - NV side",
+        "geocode": {
+          "SAME": [
+            "004015",
+            "032003"
+          ],
+          "UGC": [
+            "AZZ570",
+            "AZZ571",
+            "NVZ025",
+            "NVZ026"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/AZZ570",
+          "https://api.weather.gov/zones/forecast/AZZ571",
+          "https://api.weather.gov/zones/forecast/NVZ025",
+          "https://api.weather.gov/zones/forecast/NVZ026"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f942d0e75e88d6862d4437fae2be9f330ba02816.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.f942d0e75e88d6862d4437fae2be9f330ba02816.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T00:20:00-07:00"
+          }
+        ],
+        "sent": "2026-06-07T14:01:00-07:00",
+        "effective": "2026-06-07T14:01:00-07:00",
+        "onset": "2026-06-08T10:00:00-07:00",
+        "expires": "2026-06-08T04:00:00-07:00",
+        "ends": "2026-06-08T18:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Lake Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Las Vegas NV",
+        "headline": "Lake Wind Advisory issued June 7 at 2:01PM PDT until June 8 at 6:00PM PDT by NWS Las Vegas NV",
+        "description": "* WHAT...South winds 15 to 25 mph with gusts up to 35 mph expected.\n\n* WHERE...In Arizona, Lake Mead - AZ side and Lake Mohave - AZ side.\nIn Nevada, Lake Mead - NV side and Lake Mohave - NV side.\n\n* WHEN...From 10 AM PDT /10 AM MST/ to 6 PM PDT /6 PM MST/ Monday.\n\n* IMPACTS...Strong winds and rough waves on area lakes will create\nhazardous conditions for small craft.",
+        "instruction": "Winds this strong can make driving difficult, especially for\nhigh-profile vehicles. Use extra caution.",
+        "response": "Execute",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "NPWVEF"
+          ],
+          "WMOidentifier": [
+            "WWUS75 KVEF 072101"
+          ],
+          "NWSheadline": [
+            "LAKE WIND ADVISORY REMAINS IN EFFECT FROM 10 AM PDT /10 AM MST/ TO 6 PM PDT /6 PM MST/ MONDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KVEF.LW.Y.0007.260608T1700Z-260609T0100Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T18:00:00-07:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "LWY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ee8a869188df573b8277ba6bf5613d08ee3c089.001.3",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ee8a869188df573b8277ba6bf5613d08ee3c089.001.3",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.4ee8a869188df573b8277ba6bf5613d08ee3c089.001.3",
+        "areaDesc": "Lake Mead NRA/Colorado River-AZ side; Northwest Deserts/Northwest Plateau; Lake Mead NRA/Colorado River-NV side",
+        "geocode": {
+          "SAME": [
+            "004015",
+            "032003"
+          ],
+          "UGC": [
+            "AZZ101",
+            "AZZ102",
+            "NVZ466"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/AZZ101",
+          "https://api.weather.gov/zones/fire/AZZ102",
+          "https://api.weather.gov/zones/fire/NVZ466"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.11d7b67102772db0d0b34032ce81e0b7d099fc5f.002.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.11d7b67102772db0d0b34032ce81e0b7d099fc5f.002.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-06T22:58:00-07:00"
+          }
+        ],
+        "sent": "2026-06-07T13:05:00-07:00",
+        "effective": "2026-06-07T13:05:00-07:00",
+        "onset": "2026-06-07T13:05:00-07:00",
+        "expires": "2026-06-07T23:00:00-07:00",
+        "ends": "2026-06-07T23:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Las Vegas NV",
+        "headline": "Red Flag Warning issued June 7 at 1:05PM PDT until June 7 at 11:00PM PDT by NWS Las Vegas NV",
+        "description": "* AFFECTED AREA...Arizona fire weather zones 101 and 102 as well\nas Nevada fire weather zone 466.\n\n* TIMING...Until 11 PM PDT / MST this evening, and then again from\n10 AM PDT / MST Monday through 9 PM PDT / MST Tuesday.\n\n* WIND...Southwest winds 20 to 25 mph with gusts up to 40 mph.\n\n* HUMIDITY...5 to 15 percent.\n\n* IMPACTS...Any fires that develop will likely spread rapidly.\nOutdoor burning is not recommended.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now...or will shortly. A combination of\nstrong winds...low relative humidity...and warm temperatures can\ncontribute to extreme fire behavior.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWVEF"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KVEF 072005"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 11 PM PDT / MST THIS EVENING FOR STRONG WINDS AND LOW HUMIDITY FOR MOHAVE COUNTY AND THE NEVADA SIDE OF THE COLORADO RIVER VALLEY... ...ANOTHER RED FLAG WARNING IS IN EFFECT FROM 10 AM PDT / MST MONDAY TO 9 PM PDT / MST TUESDAY FOR STRONG WINDS AND LOW HUMIDITY FOR MOHAVE COUNTY AND THE NEVADA SIDE OF THE COLORADO RIVER VALLEY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KVEF.FW.W.0002.000000T0000Z-260608T0600Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-07T23:00:00-07:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1b739e9a8e268bb715dd052526d0105ccf277a1f.001.1,2026-06-06T08:47:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.389d84c51881deae092d30f3b2cb1aa43a4c1c44.001.1,2026-06-06T02:54:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0bf32314e5335822994b1f392945aaf47f2e4f3c.003.2,2026-06-05T12:36:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0bf32314e5335822994b1f392945aaf47f2e4f3c.001.2,2026-06-05T12:36:00-07:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ee8a869188df573b8277ba6bf5613d08ee3c089.001.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4ee8a869188df573b8277ba6bf5613d08ee3c089.001.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.4ee8a869188df573b8277ba6bf5613d08ee3c089.001.2",
+        "areaDesc": "Lake Mead NRA/Colorado River-AZ side; Northwest Deserts/Northwest Plateau; Lake Mead NRA/Colorado River-NV side",
+        "geocode": {
+          "SAME": [
+            "004015",
+            "032003"
+          ],
+          "UGC": [
+            "AZZ101",
+            "AZZ102",
+            "NVZ466"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/AZZ101",
+          "https://api.weather.gov/zones/fire/AZZ102",
+          "https://api.weather.gov/zones/fire/NVZ466"
+        ],
+        "references": [],
+        "sent": "2026-06-07T13:05:00-07:00",
+        "effective": "2026-06-07T13:05:00-07:00",
+        "onset": "2026-06-08T10:00:00-07:00",
+        "expires": "2026-06-07T23:00:00-07:00",
+        "ends": "2026-06-09T21:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Las Vegas NV",
+        "headline": "Red Flag Warning issued June 7 at 1:05PM PDT until June 9 at 9:00PM PDT by NWS Las Vegas NV",
+        "description": "* AFFECTED AREA...Arizona fire weather zones 101 and 102 as well\nas Nevada fire weather zone 466.\n\n* TIMING...Until 11 PM PDT / MST this evening, and then again from\n10 AM PDT / MST Monday through 9 PM PDT / MST Tuesday.\n\n* WIND...Southwest winds 20 to 25 mph with gusts up to 40 mph.\n\n* HUMIDITY...5 to 15 percent.\n\n* IMPACTS...Any fires that develop will likely spread rapidly.\nOutdoor burning is not recommended.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now...or will shortly. A combination of\nstrong winds...low relative humidity...and warm temperatures can\ncontribute to extreme fire behavior.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWVEF"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KVEF 072005"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 11 PM PDT / MST THIS EVENING FOR STRONG WINDS AND LOW HUMIDITY FOR MOHAVE COUNTY AND THE NEVADA SIDE OF THE COLORADO RIVER VALLEY... ...ANOTHER RED FLAG WARNING IS IN EFFECT FROM 10 AM PDT / MST MONDAY TO 9 PM PDT / MST TUESDAY FOR STRONG WINDS AND LOW HUMIDITY FOR MOHAVE COUNTY AND THE NEVADA SIDE OF THE COLORADO RIVER VALLEY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KVEF.FW.W.0003.260608T1700Z-260610T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T21:00:00-07:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for Arizona",
+  "updated": "2026-06-08T03:49:47+00:00"
+}

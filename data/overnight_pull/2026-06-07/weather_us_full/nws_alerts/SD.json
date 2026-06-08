@@ -1,0 +1,547 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3da54da60f9fa7c10dfecdf8e87d48c0c0381074.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -96.9,
+              44.5
+            ],
+            [
+              -96.84,
+              44.5
+            ],
+            [
+              -96.85,
+              44.49
+            ],
+            [
+              -96.89,
+              44.4
+            ],
+            [
+              -96.87,
+              44.33
+            ],
+            [
+              -96.92,
+              44.33
+            ],
+            [
+              -96.93,
+              44.42
+            ],
+            [
+              -96.9,
+              44.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3da54da60f9fa7c10dfecdf8e87d48c0c0381074.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.3da54da60f9fa7c10dfecdf8e87d48c0c0381074.001.1",
+        "areaDesc": "Brookings, SD",
+        "geocode": {
+          "SAME": [
+            "046011"
+          ],
+          "UGC": [
+            "SDC011"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/SDC011"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.142f3f88a503bfdef52ce04705064bffeae8f0b2.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.142f3f88a503bfdef52ce04705064bffeae8f0b2.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-06T20:49:00-05:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8479df986b4ae8250cea74cab6f0dc7b08cf021a.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.8479df986b4ae8250cea74cab6f0dc7b08cf021a.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T10:02:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T22:49:00-05:00",
+        "effective": "2026-06-07T22:49:00-05:00",
+        "onset": "2026-06-07T22:49:00-05:00",
+        "expires": "2026-06-09T01:00:00-05:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Sioux Falls SD",
+        "headline": "Flood Warning issued June 7 at 10:49PM CDT by NWS Sioux Falls SD",
+        "description": "...The Flood Warning continues for the following rivers in South\nDakota...\n\nBig Sioux River near Bruce affecting Brookings County.\n\n* WHAT...Minor flooding is occurring.\n\n* WHERE...Big Sioux River near Bruce.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 8.0 feet, The lower banks on the left side of the\nriver overflow.\n\n* ADDITIONAL DETAILS...\n- At 9:45 PM CDT Sunday the stage was 8.6 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 9:45 PM CDT Sunday was 9.3 feet.\n- Forecast...No forecast is available for this location.\n- Flood stage is 8.0 feet.\n- Stay up to date with the latest river observations and\nforecasts at: www.water.noaa.gov",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nCaution is urged when walking near riverbanks.\n\nAdditional forecast information is available at\nwww.weather.gov/siouxfalls.\n\nThe next statement will be issued by late Monday night.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSFSD"
+          ],
+          "WMOidentifier": [
+            "WGUS83 KFSD 080349"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING REMAINS IN EFFECT UNTIL FURTHER NOTICE"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.CON.KFSD.FL.W.0002.000000T0000Z-000000T0000Z/"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2503b552223892d445e49ab8baaf44409b384a1b.001.1,2026-06-06T09:43:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.25633d1a48d0b0f54b1ae7c090f3590d68eb6607.001.1,2026-06-05T23:08:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.904bad7abbcd30367f08af51fbfa1525f0b8c0d8.001.1,2026-06-05T09:16:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.eaea82bcd92a4a91b89dae864a056edce2aa7d98.001.1,2026-06-05T06:58:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLS"
+          ],
+          "NationalWeatherService": [
+            "FLW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db97cdef63dc61b05c9cdc0a31950503c2b7e90b.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -102,
+              45.94
+            ],
+            [
+              -101.5,
+              45.94
+            ],
+            [
+              -102,
+              45.67
+            ],
+            [
+              -102,
+              45.94
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db97cdef63dc61b05c9cdc0a31950503c2b7e90b.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.db97cdef63dc61b05c9cdc0a31950503c2b7e90b.001.1",
+        "areaDesc": "Corson",
+        "geocode": {
+          "SAME": [
+            "046031"
+          ],
+          "UGC": [
+            "SDZ003"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/SDZ003"
+        ],
+        "references": [],
+        "sent": "2026-06-07T21:37:00-06:00",
+        "effective": "2026-06-07T21:37:00-06:00",
+        "onset": "2026-06-07T21:37:00-06:00",
+        "expires": "2026-06-07T22:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Aberdeen SD",
+        "headline": "Special Weather Statement issued June 7 at 9:37PM MDT by NWS Aberdeen SD",
+        "description": "At 937 PM MDT, Doppler radar was tracking a strong thunderstorm near\nThunder Hawk, or 10 miles southeast of Lemmon, moving northeast at 30\nmph.\n\nHAZARD...Wind gusts up to 50 mph and half inch hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nMorristown, Watauga, Keldron, and Thunder Hawk.",
+        "instruction": "If outdoors, consider seeking shelter inside a building.\n\nA Severe Thunderstorm Watch remains in effect until midnight MDT for\nnorth central South Dakota.",
+        "response": "Execute",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "SPSABR"
+          ],
+          "WMOidentifier": [
+            "WWUS83 KABR 080337"
+          ],
+          "NWSheadline": [
+            "A STRONG THUNDERSTORM WILL IMPACT NORTHWESTERN CORSON COUNTY THROUGH 1000 PM MDT"
+          ],
+          "eventMotionDescription": [
+            "2026-06-08T03:37:00-00:00...storm...225DEG...27KT...45.84,-102.0"
+          ],
+          "maxWindGust": [
+            "50 MPH"
+          ],
+          "maxHailSize": [
+            "0.50"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "SPS"
+          ],
+          "NationalWeatherService": [
+            "SPS"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.682023ab3c99b65c88bb5d2e141efe229fd9e991.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.682023ab3c99b65c88bb5d2e141efe229fd9e991.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.682023ab3c99b65c88bb5d2e141efe229fd9e991.002.1",
+        "areaDesc": "Perkins, SD",
+        "geocode": {
+          "SAME": [
+            "046105"
+          ],
+          "UGC": [
+            "SDC105"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/SDC105"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9a00542a980196b567a642e7684f4760d87ace19.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.9a00542a980196b567a642e7684f4760d87ace19.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T14:58:00-06:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5490582684321fe9946b5a7386109a28bd31dbaf.002.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.5490582684321fe9946b5a7386109a28bd31dbaf.002.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T19:49:00-06:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.854e04e4a44b2f16ff7965cc74f0baf210701d06.002.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.854e04e4a44b2f16ff7965cc74f0baf210701d06.002.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T20:35:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T21:34:00-06:00",
+        "effective": "2026-06-07T21:34:00-06:00",
+        "onset": "2026-06-07T21:34:00-06:00",
+        "expires": "2026-06-08T00:00:00-06:00",
+        "ends": "2026-06-08T00:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Severe Thunderstorm Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Rapid City SD",
+        "headline": "Severe Thunderstorm Watch issued June 7 at 9:34PM MDT until June 8 at 12:00AM MDT by NWS Rapid City SD",
+        "description": "SEVERE THUNDERSTORM WATCH 285, PREVIOUSLY IN EFFECT UNTIL 10 PM\nMDT THIS EVENING, IS NOW IN EFFECT UNTIL MIDNIGHT MDT TONIGHT FOR\nTHE FOLLOWING AREAS\n\nIN SOUTH DAKOTA THIS WATCH INCLUDES 1 COUNTY\n\nIN NORTHWEST SOUTH DAKOTA\n\nPERKINS\n\nTHIS INCLUDES THE CITIES OF BISON AND LEMMON.",
+        "instruction": null,
+        "response": "Monitor",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "WCNUNR"
+          ],
+          "WMOidentifier": [
+            "WWUS63 KUNR 080334"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KUNR.SV.A.0285.000000T0000Z-260608T0600Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T00:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "SVA"
+          ],
+          "NationalWeatherService": [
+            "SVA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4422bbe142a0735f5c44b197082a126190803656.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4422bbe142a0735f5c44b197082a126190803656.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.4422bbe142a0735f5c44b197082a126190803656.001.1",
+        "areaDesc": "Corson, SD",
+        "geocode": {
+          "SAME": [
+            "046031"
+          ],
+          "UGC": [
+            "SDC031"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/SDC031"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f5a9b6b393975f9d29c531dcb4aebd9de09e58a9.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.f5a9b6b393975f9d29c531dcb4aebd9de09e58a9.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T15:59:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T22:32:00-05:00",
+        "effective": "2026-06-07T22:32:00-05:00",
+        "onset": "2026-06-07T22:32:00-05:00",
+        "expires": "2026-06-08T01:00:00-05:00",
+        "ends": "2026-06-08T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Severe Thunderstorm Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Aberdeen SD",
+        "headline": "Severe Thunderstorm Watch issued June 7 at 10:32PM CDT until June 8 at 1:00AM CDT by NWS Aberdeen SD",
+        "description": "SEVERE THUNDERSTORM WATCH 285, PREVIOUSLY IN EFFECT UNTIL 10 PM\nMDT THIS EVENING, IS NOW IN EFFECT UNTIL MIDNIGHT MDT TONIGHT FOR\nTHE FOLLOWING AREAS\n\nIN SOUTH DAKOTA THIS WATCH INCLUDES 1 COUNTY\n\nIN NORTH CENTRAL SOUTH DAKOTA\n\nCORSON\n\nTHIS INCLUDES THE CITIES OF MCINTOSH.",
+        "instruction": null,
+        "response": "Monitor",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "WCNABR"
+          ],
+          "WMOidentifier": [
+            "WWUS63 KABR 080332"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KABR.SV.A.0285.000000T0000Z-260608T0600Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T01:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "SVA"
+          ],
+          "NationalWeatherService": [
+            "SVA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d009d37e2c36b09bcb7c20e7e69afbaa7dd21f81.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -102.45,
+              45.06
+            ],
+            [
+              -103.14,
+              45.06
+            ],
+            [
+              -102.75,
+              45.89
+            ],
+            [
+              -102.16,
+              45.95
+            ],
+            [
+              -102.08,
+              45.94
+            ],
+            [
+              -102.45,
+              45.06
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d009d37e2c36b09bcb7c20e7e69afbaa7dd21f81.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.d009d37e2c36b09bcb7c20e7e69afbaa7dd21f81.001.1",
+        "areaDesc": "Harding; Northern Perkins; Butte; Southern Perkins",
+        "geocode": {
+          "SAME": [
+            "046063",
+            "046105",
+            "046019"
+          ],
+          "UGC": [
+            "SDZ001",
+            "SDZ002",
+            "SDZ012",
+            "SDZ078"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/SDZ001",
+          "https://api.weather.gov/zones/forecast/SDZ002",
+          "https://api.weather.gov/zones/forecast/SDZ012",
+          "https://api.weather.gov/zones/forecast/SDZ078"
+        ],
+        "references": [],
+        "sent": "2026-06-07T21:27:00-06:00",
+        "effective": "2026-06-07T21:27:00-06:00",
+        "onset": "2026-06-07T21:27:00-06:00",
+        "expires": "2026-06-07T22:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Rapid City SD",
+        "headline": "Special Weather Statement issued June 7 at 9:27PM MDT by NWS Rapid City SD",
+        "description": "At 927 PM MDT, Doppler radar was tracking strong thunderstorms along\na line extending from 4 miles east of Lodgepole to Zeona. Movement\nwas east at 25 mph.\n\nHAZARD...Wind gusts up to 50 mph and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects. Minor hail damage to vegetation is\npossible.\n\nLocations impacted include...\nLemmon, Bison, Lodgepole, Sorum, Zeona, Shadehill, Prairie City,\nDate, Owen Lake, Shadehill Reservoir, and southeastern Slim Buttes.",
+        "instruction": "If outdoors, consider seeking shelter inside a building.\n\nA Severe Thunderstorm Watch remains in effect until midnight MDT for\nnorthwestern South Dakota.",
+        "response": "Execute",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "SPSUNR"
+          ],
+          "WMOidentifier": [
+            "WWUS83 KUNR 080327"
+          ],
+          "NWSheadline": [
+            "STRONG THUNDERSTORMS WILL IMPACT SOUTHEASTERN HARDING... NORTHEASTERN BUTTE AND PERKINS COUNTIES THROUGH 1000 PM MDT"
+          ],
+          "eventMotionDescription": [
+            "2026-06-08T03:27:00-00:00...storm...253DEG...22KT...45.83,-102.57 45.2,-102.93"
+          ],
+          "maxWindGust": [
+            "50 MPH"
+          ],
+          "maxHailSize": [
+            "0.75"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "SPS"
+          ],
+          "NationalWeatherService": [
+            "SPS"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for South Dakota",
+  "updated": "2026-06-08T03:50:22+00:00"
+}

@@ -1,0 +1,533 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9895244cc68374c022779cfa29b6832e15c4321d.003.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9895244cc68374c022779cfa29b6832e15c4321d.003.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.9895244cc68374c022779cfa29b6832e15c4321d.003.1",
+        "areaDesc": "Benton; Carroll; Craig; Ottawa; Mayes; Delaware",
+        "geocode": {
+          "SAME": [
+            "005007",
+            "005015",
+            "040035",
+            "040115",
+            "040097",
+            "040041"
+          ],
+          "UGC": [
+            "ARZ001",
+            "ARZ002",
+            "OKZ057",
+            "OKZ058",
+            "OKZ062",
+            "OKZ063"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/ARZ001",
+          "https://api.weather.gov/zones/forecast/ARZ002",
+          "https://api.weather.gov/zones/forecast/OKZ057",
+          "https://api.weather.gov/zones/forecast/OKZ058",
+          "https://api.weather.gov/zones/forecast/OKZ062",
+          "https://api.weather.gov/zones/forecast/OKZ063"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4a4a1154601ef86f730d9316667bc06b960cc92.003.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.c4a4a1154601ef86f730d9316667bc06b960cc92.003.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T19:14:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T22:45:00-05:00",
+        "effective": "2026-06-07T22:45:00-05:00",
+        "onset": "2026-06-07T22:45:00-05:00",
+        "expires": "2026-06-08T13:00:00-05:00",
+        "ends": "2026-06-08T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Watch issued June 7 at 10:45PM CDT until June 8 at 1:00PM CDT by NWS Tulsa OK",
+        "description": "* WHAT...Flash flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of northwest Arkansas, including the following\ncounties, Benton and Carroll and northeast Oklahoma, including the\nfollowing counties, Craig, Delaware, Mayes and Ottawa.\n\n* WHEN...Through Monday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\n\n* ADDITIONAL DETAILS...\n- Multiple rounds of showers and  thunderstorms overnight will\nresult in heavy rainfall with localized totals of 4 to 6\ninches possible in spots.\n- http://www.weather.gov/safety/flood",
+        "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFATSA"
+          ],
+          "WMOidentifier": [
+            "WGUS64 KTSA 080345"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH REMAINS IN EFFECT THROUGH MONDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.CON.KTSA.FA.A.0002.000000T0000Z-260608T1800Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T13:00:00-05:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8ef8534e1183cc65ef1f084214d78c0bf27f598c.001.1,2026-06-07T12:02:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ac972704ffb6af7f3f38100ecf69f7c31ef89f71.001.1,2026-06-07T06:52:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.35abbae3e8969a56319d4d4614618d64700a523a.002.1,2026-06-06T23:46:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.35abbae3e8969a56319d4d4614618d64700a523a.001.1,2026-06-06T23:46:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3524452ba4f666cb48d584b26f0462773f7f55dc.001.1,2026-06-06T11:03:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFA"
+          ],
+          "NationalWeatherService": [
+            "FAA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9895244cc68374c022779cfa29b6832e15c4321d.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9895244cc68374c022779cfa29b6832e15c4321d.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.9895244cc68374c022779cfa29b6832e15c4321d.002.1",
+        "areaDesc": "Washington; Madison; Northern Crawford; Northern Franklin; Southern Crawford; Central and Southern Franklin; Washington; Nowata; Tulsa; Rogers; Wagoner; Cherokee; Adair; Muskogee; Western Osage; Northern Sequoyah; Northeast Osage; Central and Southern Sequoyah; Southeast Osage",
+        "geocode": {
+          "SAME": [
+            "005143",
+            "005087",
+            "005033",
+            "005047",
+            "040147",
+            "040105",
+            "040143",
+            "040131",
+            "040145",
+            "040021",
+            "040001",
+            "040101",
+            "040113",
+            "040135"
+          ],
+          "UGC": [
+            "ARZ010",
+            "ARZ011",
+            "ARZ119",
+            "ARZ120",
+            "ARZ219",
+            "ARZ220",
+            "OKZ055",
+            "OKZ056",
+            "OKZ060",
+            "OKZ061",
+            "OKZ067",
+            "OKZ068",
+            "OKZ069",
+            "OKZ070",
+            "OKZ154",
+            "OKZ172",
+            "OKZ254",
+            "OKZ272",
+            "OKZ354"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/ARZ010",
+          "https://api.weather.gov/zones/forecast/ARZ011",
+          "https://api.weather.gov/zones/forecast/ARZ119",
+          "https://api.weather.gov/zones/forecast/ARZ120",
+          "https://api.weather.gov/zones/forecast/ARZ219",
+          "https://api.weather.gov/zones/forecast/ARZ220",
+          "https://api.weather.gov/zones/forecast/OKZ055",
+          "https://api.weather.gov/zones/forecast/OKZ056",
+          "https://api.weather.gov/zones/forecast/OKZ060",
+          "https://api.weather.gov/zones/forecast/OKZ061",
+          "https://api.weather.gov/zones/forecast/OKZ067",
+          "https://api.weather.gov/zones/forecast/OKZ068",
+          "https://api.weather.gov/zones/forecast/OKZ069",
+          "https://api.weather.gov/zones/forecast/OKZ070",
+          "https://api.weather.gov/zones/forecast/OKZ154",
+          "https://api.weather.gov/zones/forecast/OKZ172",
+          "https://api.weather.gov/zones/forecast/OKZ254",
+          "https://api.weather.gov/zones/forecast/OKZ272",
+          "https://api.weather.gov/zones/forecast/OKZ354"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4a4a1154601ef86f730d9316667bc06b960cc92.002.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.c4a4a1154601ef86f730d9316667bc06b960cc92.002.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T19:14:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T22:45:00-05:00",
+        "effective": "2026-06-07T22:45:00-05:00",
+        "onset": "2026-06-07T22:45:00-05:00",
+        "expires": "2026-06-08T13:00:00-05:00",
+        "ends": "2026-06-08T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Tulsa OK",
+        "headline": "Flood Watch issued June 7 at 10:45PM CDT until June 8 at 1:00PM CDT by NWS Tulsa OK",
+        "description": "* WHAT...Flash flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of Arkansas, including the following counties,\nCentral and Southern Franklin, Madison, Northern Crawford,\nNorthern Franklin, Southern Crawford and Washington AR and\nOklahoma, including the following counties, Adair, Central and\nSouthern Sequoyah, Cherokee, Muskogee, Northeast Osage, Northern\nSequoyah, Nowata, Rogers, Southeast Osage, Tulsa, Wagoner,\nWashington OK and Western Osage.\n\n* WHEN...Through Monday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\n\n* ADDITIONAL DETAILS...\n- Multiple rounds of showers and  thunderstorms overnight will\nresult in heavy rainfall with localized totals of 4 to 6\ninches possible in spots.\n- http://www.weather.gov/safety/flood",
+        "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFATSA"
+          ],
+          "WMOidentifier": [
+            "WGUS64 KTSA 080345"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH NOW IN EFFECT THROUGH MONDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KTSA.FA.A.0002.000000T0000Z-260608T1800Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T13:00:00-05:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8ef8534e1183cc65ef1f084214d78c0bf27f598c.002.1,2026-06-07T12:02:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ac972704ffb6af7f3f38100ecf69f7c31ef89f71.001.1,2026-06-07T06:52:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.35abbae3e8969a56319d4d4614618d64700a523a.002.1,2026-06-06T23:46:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.35abbae3e8969a56319d4d4614618d64700a523a.001.1,2026-06-06T23:46:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3524452ba4f666cb48d584b26f0462773f7f55dc.001.1,2026-06-06T11:03:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFA"
+          ],
+          "NationalWeatherService": [
+            "FAA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c28dc409cd309598be60689b84940edce61ebd4d.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c28dc409cd309598be60689b84940edce61ebd4d.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.c28dc409cd309598be60689b84940edce61ebd4d.001.1",
+        "areaDesc": "Western and Northern Logan County; Northern Scott County; Polk County Lower Elevations; Southern and Eastern Logan County; Central and Southern Scott County; Northern Polk County Higher Elevations; Southeast Polk County Higher Elevations",
+        "geocode": {
+          "SAME": [
+            "005083",
+            "005127",
+            "005113"
+          ],
+          "UGC": [
+            "ARZ130",
+            "ARZ137",
+            "ARZ140",
+            "ARZ230",
+            "ARZ237",
+            "ARZ240",
+            "ARZ340"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/ARZ130",
+          "https://api.weather.gov/zones/forecast/ARZ137",
+          "https://api.weather.gov/zones/forecast/ARZ140",
+          "https://api.weather.gov/zones/forecast/ARZ230",
+          "https://api.weather.gov/zones/forecast/ARZ237",
+          "https://api.weather.gov/zones/forecast/ARZ240",
+          "https://api.weather.gov/zones/forecast/ARZ340"
+        ],
+        "references": [],
+        "sent": "2026-06-07T22:16:00-05:00",
+        "effective": "2026-06-07T22:16:00-05:00",
+        "onset": "2026-06-07T22:16:00-05:00",
+        "expires": "2026-06-07T22:31:15-05:00",
+        "ends": "2026-06-08T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Observed",
+        "urgency": "Past",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "The Flood Watch has been cancelled.",
+        "description": "The Flood Watch has been cancelled and is no longer in effect.",
+        "instruction": null,
+        "response": "AllClear",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFALZK"
+          ],
+          "WMOidentifier": [
+            "WGUS64 KLZK 080316"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH IS CANCELLED"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.CAN.KLZK.FA.A.0002.000000T0000Z-260608T0600Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T01:00:00-05:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6aa70ed5aac812276bd955074f54070e311f2f23.001.1,2026-06-07T07:02:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFA"
+          ],
+          "NationalWeatherService": [
+            "FAA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c28dc409cd309598be60689b84940edce61ebd4d.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c28dc409cd309598be60689b84940edce61ebd4d.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.c28dc409cd309598be60689b84940edce61ebd4d.002.1",
+        "areaDesc": "Marion; Boone County Except Southwest; Newton County Higher Elevations; Searcy County Lower Elevations; Boone County Higher Elevations; Newton County Lower Elevations; Northwest Searcy County Higher Elevations; Eastern, Central, and Southern Searcy County Higher Elevations",
+        "geocode": {
+          "SAME": [
+            "005089",
+            "005009",
+            "005101",
+            "005129"
+          ],
+          "UGC": [
+            "ARZ004",
+            "ARZ103",
+            "ARZ112",
+            "ARZ113",
+            "ARZ203",
+            "ARZ212",
+            "ARZ213",
+            "ARZ313"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/ARZ004",
+          "https://api.weather.gov/zones/forecast/ARZ103",
+          "https://api.weather.gov/zones/forecast/ARZ112",
+          "https://api.weather.gov/zones/forecast/ARZ113",
+          "https://api.weather.gov/zones/forecast/ARZ203",
+          "https://api.weather.gov/zones/forecast/ARZ212",
+          "https://api.weather.gov/zones/forecast/ARZ213",
+          "https://api.weather.gov/zones/forecast/ARZ313"
+        ],
+        "references": [],
+        "sent": "2026-06-07T22:16:00-05:00",
+        "effective": "2026-06-07T22:16:00-05:00",
+        "onset": "2026-06-07T22:16:00-05:00",
+        "expires": "2026-06-08T13:00:00-05:00",
+        "ends": "2026-06-08T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Flood Watch issued June 7 at 10:16PM CDT until June 8 at 1:00PM CDT by NWS Little Rock AR",
+        "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...A portion of north central Arkansas, including the\nfollowing areas, Boone County Except Southwest, Boone County\nHigher Elevations, Eastern, Central, and Southern Searcy County\nHigher Elevations, Marion, Newton County Higher Elevations, Newton\nCounty Lower Elevations, Northwest Searcy County Higher Elevations\nand Searcy County Lower Elevations.\n\n* WHEN...Through Monday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks. Low-water\ncrossings may be flooded.\n\n* ADDITIONAL DETAILS...\n- Portions of northwest to north central Arkansas have received\n1 to 2 inches of rainfall in the past day and will be primed\nfor additional excessive rainfall forecast early Monday\nmorning. Rainfall amounts of 2 to 4 inches will be possible\nduring the early Monday morning timeframe.\n- http://www.weather.gov/safety/flood",
+        "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFALZK"
+          ],
+          "WMOidentifier": [
+            "WGUS64 KLZK 080316"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH IN EFFECT THROUGH MONDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXB.KLZK.FA.A.0002.000000T0000Z-260608T1800Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T13:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFA"
+          ],
+          "NationalWeatherService": [
+            "FAA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c28dc409cd309598be60689b84940edce61ebd4d.003.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c28dc409cd309598be60689b84940edce61ebd4d.003.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.c28dc409cd309598be60689b84940edce61ebd4d.003.1",
+        "areaDesc": "Southern Johnson County; Johnson County Higher Elevations",
+        "geocode": {
+          "SAME": [
+            "005071"
+          ],
+          "UGC": [
+            "ARZ121",
+            "ARZ221"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/ARZ121",
+          "https://api.weather.gov/zones/forecast/ARZ221"
+        ],
+        "references": [],
+        "sent": "2026-06-07T22:16:00-05:00",
+        "effective": "2026-06-07T22:16:00-05:00",
+        "onset": "2026-06-07T22:16:00-05:00",
+        "expires": "2026-06-08T13:00:00-05:00",
+        "ends": "2026-06-08T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Little Rock AR",
+        "headline": "Flood Watch issued June 7 at 10:16PM CDT until June 8 at 1:00PM CDT by NWS Little Rock AR",
+        "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...A portion of western Arkansas, including the following\nareas, Johnson County Higher Elevations and Southern Johnson\nCounty.\n\n* WHEN...Through Monday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks. Low-water\ncrossings may be flooded.\n\n* ADDITIONAL DETAILS...\n- Portions of west central Arkansas have received 1 to 3 inches\nof rainfall in the past day and will be primed for additional\nexcessive rainfall forecast early Monday morning. Rainfall\namounts of 2 to 3 inches will be possible during the early\nMonday morning timeframe.\n- http://www.weather.gov/safety/flood",
+        "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFALZK"
+          ],
+          "WMOidentifier": [
+            "WGUS64 KLZK 080316"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH NOW IN EFFECT THROUGH MONDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KLZK.FA.A.0002.000000T0000Z-260608T1800Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T13:00:00-05:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6aa70ed5aac812276bd955074f54070e311f2f23.001.1,2026-06-07T07:02:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFA"
+          ],
+          "NationalWeatherService": [
+            "FAA"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for Arkansas",
+  "updated": "2026-06-08T03:49:47+00:00"
+}

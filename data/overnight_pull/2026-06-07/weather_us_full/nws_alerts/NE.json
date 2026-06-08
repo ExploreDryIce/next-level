@@ -1,0 +1,877 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f664dc6f983443131f64cb285b4be6dbe3080ba5.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -102.86,
+              41.63
+            ],
+            [
+              -102.64,
+              41.69
+            ],
+            [
+              -102.64,
+              41.4
+            ],
+            [
+              -102.61,
+              41.4
+            ],
+            [
+              -102.61,
+              41.09
+            ],
+            [
+              -103.24,
+              41
+            ],
+            [
+              -102.89,
+              41.34
+            ],
+            [
+              -103.1,
+              41.41
+            ],
+            [
+              -102.86,
+              41.63
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f664dc6f983443131f64cb285b4be6dbe3080ba5.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.f664dc6f983443131f64cb285b4be6dbe3080ba5.001.1",
+        "areaDesc": "Cheyenne, NE; Morrill, NE",
+        "geocode": {
+          "SAME": [
+            "031033",
+            "031123"
+          ],
+          "UGC": [
+            "NEC033",
+            "NEC123"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/NEC033",
+          "https://api.weather.gov/zones/county/NEC123"
+        ],
+        "references": [],
+        "sent": "2026-06-07T21:14:00-06:00",
+        "effective": "2026-06-07T21:14:00-06:00",
+        "onset": "2026-06-07T21:14:00-06:00",
+        "expires": "2026-06-08T00:15:00-06:00",
+        "ends": "2026-06-08T00:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flash Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cheyenne WY",
+        "headline": "Flash Flood Warning issued June 7 at 9:14PM MDT until June 8 at 12:15AM MDT by NWS Cheyenne WY",
+        "description": "FFWCYS\n\nThe National Weather Service in Cheyenne has issued a\n\n* Flash Flood Warning for...\nEastern Cheyenne County in the panhandle of Nebraska...\nSoutheastern Morrill County in the panhandle of Nebraska...\n\n* Until 1215 AM MDT.\n\n* At 914 PM MDT, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. Between 1 and 1.5 inches of\nrain have fallen. Flash flooding is ongoing or expected to begin\nshortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar.\n\nIMPACT...Flash flooding of small creeks and streams, urban\nareas, highways, streets and underpasses as well as\nother poor drainage and low-lying areas.\n\n* Some locations that will experience flash flooding include...\nSidney, Lodgepole, Dalton, Broadwater, Colton, Sunol, Sidney\nMunicipal Airport, Lorenzo and Cheyenne County Fairgrounds.\n\nThis includes Interstate 80 in Nebraska between mile markers 53 and\n77.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nBe aware of your surroundings and do not drive on flooded roads.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFWCYS"
+          ],
+          "WMOidentifier": [
+            "WGUS55 KCYS 080314"
+          ],
+          "flashFloodDetection": [
+            "RADAR INDICATED"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.NEW.KCYS.FF.W.0004.260608T0314Z-260608T0615Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T00:15:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFW"
+          ],
+          "NationalWeatherService": [
+            "FFW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ba6803a65112d56481c5bda3a0f62a89300d51bf.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -102.59,
+              42.01
+            ],
+            [
+              -102.32,
+              42.01
+            ],
+            [
+              -101.99,
+              41.66
+            ],
+            [
+              -101.98,
+              41.43
+            ],
+            [
+              -102.61,
+              41.22
+            ],
+            [
+              -102.61,
+              41.39
+            ],
+            [
+              -102.64,
+              41.4
+            ],
+            [
+              -102.64,
+              41.74
+            ],
+            [
+              -102.67,
+              41.75
+            ],
+            [
+              -102.68,
+              41.77
+            ],
+            [
+              -102.68,
+              41.91
+            ],
+            [
+              -102.59,
+              42.01
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ba6803a65112d56481c5bda3a0f62a89300d51bf.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.ba6803a65112d56481c5bda3a0f62a89300d51bf.001.1",
+        "areaDesc": "Garden, NE",
+        "geocode": {
+          "SAME": [
+            "031069"
+          ],
+          "UGC": [
+            "NEC069"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/NEC069"
+        ],
+        "references": [],
+        "sent": "2026-06-07T21:12:00-06:00",
+        "effective": "2026-06-07T21:12:00-06:00",
+        "onset": "2026-06-07T21:12:00-06:00",
+        "expires": "2026-06-07T22:15:00-06:00",
+        "ends": "2026-06-07T22:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Severe Thunderstorm Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS North Platte NE",
+        "headline": "Severe Thunderstorm Warning issued June 7 at 9:12PM MDT until June 7 at 10:15PM MDT by NWS North Platte NE",
+        "description": "SVRLBF\n\nThe National Weather Service in North Platte has issued a\n\n* Severe Thunderstorm Warning for...\nGarden County in the Panhandle of Nebraska...\n\n* Until 1015 PM MDT.\n\n* At 912 PM MDT, severe thunderstorms were located along a line\nextending from near Broadwater to 11 miles north of Lodgepole,\nmoving northeast at 35 mph.\n\nHAZARD...60 mph wind gusts and penny size hail.\n\nSOURCE...Radar indicated.\n\nIMPACT...Expect damage to roofs, siding, and trees.\n\n* Locations impacted include...\nOshkosh, Lisco, Crescent Lake National Wildlife Refuge, Rackett,\nDogtown Flats, Deer Lake, Britton Lake, Richardson Lake, Miles\nLake, Mumper, Herman Lake, Jerry Lake, Adams Flats, Bluewater\nBattlefield State Historical Park, Sugar Loaf Hill, Tralnor Lake,\nand Bourquim Hill.",
+        "instruction": "For your protection move to an interior room on the lowest floor of a\nbuilding.\n\nTo report severe weather, contact your nearest law enforcement\nagency. They will send your report to the National Weather Service\noffice in North Platte.",
+        "response": "Shelter",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "SVRLBF"
+          ],
+          "WMOidentifier": [
+            "WUUS53 KLBF 080312"
+          ],
+          "eventMotionDescription": [
+            "2026-06-08T03:12:00-00:00...storm...227DEG...31KT...41.66,-102.82 41.32,-102.64"
+          ],
+          "windThreat": [
+            "RADAR INDICATED"
+          ],
+          "maxWindGust": [
+            "60 MPH"
+          ],
+          "hailThreat": [
+            "RADAR INDICATED"
+          ],
+          "maxHailSize": [
+            "0.75"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.NEW.KLBF.SV.W.0057.260608T0312Z-260608T0415Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-07T22:15:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "SVR"
+          ],
+          "NationalWeatherService": [
+            "SVW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa2a517c4772fdaad5b1d09ea723767733e0a39b.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -103.39,
+              41.5
+            ],
+            [
+              -102.86,
+              41.34
+            ],
+            [
+              -103.22,
+              41
+            ],
+            [
+              -103.62,
+              41
+            ],
+            [
+              -103.85,
+              41.12
+            ],
+            [
+              -103.39,
+              41.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.aa2a517c4772fdaad5b1d09ea723767733e0a39b.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.aa2a517c4772fdaad5b1d09ea723767733e0a39b.001.1",
+        "areaDesc": "Banner, NE; Cheyenne, NE; Kimball, NE; Morrill, NE",
+        "geocode": {
+          "SAME": [
+            "031007",
+            "031033",
+            "031105",
+            "031123"
+          ],
+          "UGC": [
+            "NEC007",
+            "NEC033",
+            "NEC105",
+            "NEC123"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/NEC007",
+          "https://api.weather.gov/zones/county/NEC033",
+          "https://api.weather.gov/zones/county/NEC105",
+          "https://api.weather.gov/zones/county/NEC123"
+        ],
+        "references": [],
+        "sent": "2026-06-07T20:14:00-06:00",
+        "effective": "2026-06-07T20:14:00-06:00",
+        "onset": "2026-06-07T20:14:00-06:00",
+        "expires": "2026-06-07T23:15:00-06:00",
+        "ends": "2026-06-07T23:15:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flash Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cheyenne WY",
+        "headline": "Flash Flood Warning issued June 7 at 8:14PM MDT until June 7 at 11:15PM MDT by NWS Cheyenne WY",
+        "description": "FFWCYS\n\nThe National Weather Service in Cheyenne has issued a\n\n* Flash Flood Warning for...\nSoutheastern Banner County in the panhandle of Nebraska...\nWestern Cheyenne County in the panhandle of Nebraska...\nEastern Kimball County in the panhandle of Nebraska...\nSouthwestern Morrill County in the panhandle of Nebraska...\n\n* Until 1115 PM MDT.\n\n* At 814 PM MDT, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. Flash flooding is ongoing or\nexpected to begin shortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar.\n\nIMPACT...Flash flooding of small creeks and streams, urban\nareas, highways, streets and underpasses as well as\nother poor drainage and low-lying areas.\n\n* Some locations that will experience flash flooding include...\nKimball, Potter, Dix, Gurley, Brownson, Kimball Municipal Airport\nand Kimball County Fairgrounds.\n\nThis includes Interstate 80 in Nebraska between mile markers 16 and\n29...and\nbetween mile markers 30 and 33...and\nbetween mile markers 34 and 35...and\nbetween mile markers 36 and 52.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFWCYS"
+          ],
+          "WMOidentifier": [
+            "WGUS55 KCYS 080214"
+          ],
+          "flashFloodDetection": [
+            "RADAR INDICATED"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.NEW.KCYS.FF.W.0003.260608T0214Z-260608T0515Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-07T23:15:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFW"
+          ],
+          "NationalWeatherService": [
+            "FFW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8783a7fdbdaa4ec188c55ad89731765d373a42aa.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.02,
+              42.07
+            ],
+            [
+              -97,
+              42.13
+            ],
+            [
+              -96.96,
+              42.15
+            ],
+            [
+              -96.9,
+              42.16
+            ],
+            [
+              -96.86,
+              42.15
+            ],
+            [
+              -96.85,
+              42.12
+            ],
+            [
+              -96.87,
+              42.09
+            ],
+            [
+              -96.85,
+              42.06
+            ],
+            [
+              -96.84,
+              42.05
+            ],
+            [
+              -96.86,
+              42.02
+            ],
+            [
+              -96.89,
+              42.04
+            ],
+            [
+              -96.93,
+              42
+            ],
+            [
+              -97,
+              42.01
+            ],
+            [
+              -97.02,
+              42.07
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8783a7fdbdaa4ec188c55ad89731765d373a42aa.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.8783a7fdbdaa4ec188c55ad89731765d373a42aa.001.1",
+        "areaDesc": "Cuming, NE; Wayne, NE",
+        "geocode": {
+          "SAME": [
+            "031039",
+            "031179"
+          ],
+          "UGC": [
+            "NEC039",
+            "NEC179"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/NEC039",
+          "https://api.weather.gov/zones/county/NEC179"
+        ],
+        "references": [],
+        "sent": "2026-06-07T20:04:00-05:00",
+        "effective": "2026-06-07T20:04:00-05:00",
+        "onset": "2026-06-07T20:04:00-05:00",
+        "expires": "2026-06-07T23:00:00-05:00",
+        "ends": "2026-06-07T23:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Omaha/Valley NE",
+        "headline": "Flood Advisory issued June 7 at 8:04PM CDT until June 7 at 11:00PM CDT by NWS Omaha/Valley NE",
+        "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...Northwestern Cuming County in northeastern Nebraska...\nSoutheastern Wayne County in northeastern Nebraska...\n\n* WHEN...Until 1100 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 758 PM CDT, local law enforcement reported heavy rain is\nleading to flooding in portions of northwestern Cuming County,\nincluding near the intersections of 4.5 Road and W, and 6th and\nX. Minor flooding is already occurring. Between 3 and 4 inches of\nrain have fallen.\n- This includes the following streams and drainages...\nPlum Creek, Rattlesnake Creek, Kane Creek, Logan Creek Dredge,\nSand Creek, Dry Creek, Coon Creek and Elkhorn River. Flooding\nimpacts will continue, but no additional rainfall is expected.\n- Some locations that will experience flooding include...\nMainly rural areas of Northwestern Cuming and Southeastern Wayne\nCounties.\n- http://www.weather.gov/safety/flood",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe aware of your surroundings and do not drive on flooded roads.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSOAX"
+          ],
+          "WMOidentifier": [
+            "WGUS83 KOAX 080104"
+          ],
+          "NWSheadline": [
+            "FLOOD ADVISORY IN EFFECT UNTIL 11 PM CDT THIS EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KOAX.FA.Y.0009.260608T0104Z-260608T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-07T23:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FAY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90457b69cabf66e7e9e6a8074983d64e112d557f.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.83,
+              40.93
+            ],
+            [
+              -97.57,
+              40.95
+            ],
+            [
+              -97.49,
+              40.87
+            ],
+            [
+              -97.37,
+              40.86
+            ],
+            [
+              -97.37,
+              40.69
+            ],
+            [
+              -97.82,
+              40.63
+            ],
+            [
+              -97.82,
+              40.7
+            ],
+            [
+              -98.1,
+              40.7
+            ],
+            [
+              -98.11,
+              40.91
+            ],
+            [
+              -97.91,
+              40.92
+            ],
+            [
+              -97.83,
+              40.93
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.90457b69cabf66e7e9e6a8074983d64e112d557f.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.90457b69cabf66e7e9e6a8074983d64e112d557f.001.1",
+        "areaDesc": "Fillmore, NE; Hamilton, NE; York, NE",
+        "geocode": {
+          "SAME": [
+            "031059",
+            "031081",
+            "031185"
+          ],
+          "UGC": [
+            "NEC059",
+            "NEC081",
+            "NEC185"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/NEC059",
+          "https://api.weather.gov/zones/county/NEC081",
+          "https://api.weather.gov/zones/county/NEC185"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a1102066e7179f8896d85cb988ad42b6d20b298.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.8a1102066e7179f8896d85cb988ad42b6d20b298.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-06T18:54:00-05:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.dc4625a7233e5365d901232fdc5a087e64624c84.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.dc4625a7233e5365d901232fdc5a087e64624c84.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T13:49:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T13:56:00-05:00",
+        "effective": "2026-06-07T13:56:00-05:00",
+        "onset": "2026-06-07T13:56:00-05:00",
+        "expires": "2026-06-08T10:00:00-05:00",
+        "ends": "2026-06-08T10:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Hastings NE",
+        "headline": "Flood Warning issued June 7 at 1:56PM CDT until June 8 at 10:00AM CDT by NWS Hastings NE",
+        "description": "* WHAT...Small stream flooding caused by Friday night's excessive\nrainfall continues.\n\n* WHERE...York County in east central Nebraska...\nNorthern Fillmore County in south central Nebraska...\nSoutheastern Hamilton County in south central Nebraska...\n\n* WHEN...Until 1000 AM CDT Monday.\n\n* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying\nand flood-prone locations is imminent or occurring. Expect many\nareas of slow moving or standing water.\n\n* ADDITIONAL DETAILS...\n- At 150 PM CDT, emergency management reported continued flooding\nin the warned area. Flooding is already occurring. Between 2 and\n5 inches of rain Friday night continues to result in runoff\nthrough area creeks and rivers.\n- This includes the following streams and drainages...\nWest Fork Big Blue River, Lincoln Creek, and Beaver Creek\nFlooding impacts will continue, but no additional rainfall is\nexpected. River gauges indicate continued flooding along the West\nFork Big Blue River from Grafton to McCool Junction.\n- http://www.weather.gov/safety/flood",
+        "instruction": "Be aware of your surroundings and do not drive on flooded roads.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLWGID"
+          ],
+          "WMOidentifier": [
+            "WGUS43 KGID 071856"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING NOW IN EFFECT UNTIL 10 AM CDT MONDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KGID.FA.W.0004.000000T0000Z-260608T1500Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T10:00:00-05:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.59577f808693e6e0b009a99ff20afca4e22eadd7.002.1,2026-06-06T18:48:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3b127b74652bff41670a0af3a46b110c5d64d21e.001.1,2026-06-06T16:04:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.beee6b2fc53b1c66a6ef6a5bac8df35a50a3e8fa.001.1,2026-06-06T06:10:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLW"
+          ],
+          "NationalWeatherService": [
+            "FAW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d777efc6ecf4cd0fe2d2e92db1d825a7650f9519.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d777efc6ecf4cd0fe2d2e92db1d825a7650f9519.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.d777efc6ecf4cd0fe2d2e92db1d825a7650f9519.001.1",
+        "areaDesc": "Pine Ridge/Nebraska National Forest; Box Butte/South Sioux/Niobrara River; Lower North Platte River Basin/Scottsbluff National Monument; Lodgepole Creek/Southern Nebraska Panhandle; Laramie Foothills and High Plains; Laramie East High Plains; Bordeaux/Chugwater/Wheatland; Goshen/Middle-Lower North Platte River Basin",
+        "geocode": {
+          "SAME": [
+            "031045",
+            "031165",
+            "031013",
+            "031123",
+            "031157",
+            "031007",
+            "031033",
+            "031105",
+            "056015",
+            "056001",
+            "056021",
+            "056031"
+          ],
+          "UGC": [
+            "NEZ434",
+            "NEZ435",
+            "NEZ436",
+            "NEZ437",
+            "WYZ430",
+            "WYZ431",
+            "WYZ432",
+            "WYZ433"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/NEZ434",
+          "https://api.weather.gov/zones/fire/NEZ435",
+          "https://api.weather.gov/zones/fire/NEZ436",
+          "https://api.weather.gov/zones/fire/NEZ437",
+          "https://api.weather.gov/zones/fire/WYZ430",
+          "https://api.weather.gov/zones/fire/WYZ431",
+          "https://api.weather.gov/zones/fire/WYZ432",
+          "https://api.weather.gov/zones/fire/WYZ433"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:54:00-06:00",
+        "effective": "2026-06-07T12:54:00-06:00",
+        "onset": "2026-06-09T12:00:00-06:00",
+        "expires": "2026-06-08T06:00:00-06:00",
+        "ends": "2026-06-10T21:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cheyenne WY",
+        "headline": "Fire Weather Watch issued June 7 at 12:54PM MDT until June 10 at 9:00PM MDT by NWS Cheyenne WY",
+        "description": "The National Weather Service in Cheyenne has issued a Fire\nWeather Watch, which is in effect from Tuesday afternoon through\nWednesday evening.\n\n* AFFECTED AREA...Fire weather zone 434, 435, 436, 437, 430, 431,\n432, 433.\n\n* WIND...West to southwest winds 15 to 30 MPH with frequent gusts\nup to 40 MPH.\n\n* HUMIDITY...8 to 14 percent. Overnight recoveries as low as 25\npercent.\n\n* IMPACTS...any fires that develop will likely spread rapidly.\nOutdoor burning is not recommended.",
+        "instruction": "A Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWCYS"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KCYS 071854"
+          ],
+          "NWSheadline": [
+            "FIRE WEATHER WATCH IN EFFECT FROM TUESDAY AFTERNOON THROUGH WEDNESDAY EVENING FOR FIRE WEATHER ZONES 430, 431, 432, 433, 434, 435, 436, AND 437"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KCYS.FW.A.0015.260609T1800Z-260611T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-10T21:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5bbd128b01492ce107aeb8c17e5f1bc63fd16d27.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5bbd128b01492ce107aeb8c17e5f1bc63fd16d27.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.5bbd128b01492ce107aeb8c17e5f1bc63fd16d27.001.1",
+        "areaDesc": "Eastern Panhandle/Crescent Lake NWR",
+        "geocode": {
+          "SAME": [
+            "031005",
+            "031031",
+            "031049",
+            "031069",
+            "031075",
+            "031101",
+            "031161"
+          ],
+          "UGC": [
+            "NEZ204"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/NEZ204"
+        ],
+        "references": [],
+        "sent": "2026-06-07T13:39:00-05:00",
+        "effective": "2026-06-07T13:39:00-05:00",
+        "onset": "2026-06-09T13:00:00-05:00",
+        "expires": "2026-06-07T21:45:00-05:00",
+        "ends": "2026-06-09T22:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS North Platte NE",
+        "headline": "Fire Weather Watch issued June 7 at 1:39PM CDT until June 9 at 10:00PM CDT by NWS North Platte NE",
+        "description": "The National Weather Service in North Platte has issued a Fire\nWeather Watch for above average temperatures, low relative\nhumidity, and gusty southwest winds, which is in effect from\nTuesday afternoon through Tuesday evening.\n\n* AFFECTED AREA...Fire Weather Zone 204 Eastern\nPanhandle/Crescent Lake NWR.\n\n* TIMING...Noon MDT through 9 PM MDT.\n\n* WINDS...Southwest 15 to 25 mph with gusts up to 45 mph.\n\n* RELATIVE HUMIDITY...As low as 12 percent.\n\n* TEMPERATURES...Up to 100.\n\n* LIGHTNING...Possible in the evening.\n\n* IMPACTS...Any fire starts may rapidly grow and spread. Fires\nwill be difficult to control.",
+        "instruction": "A Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWLBF"
+          ],
+          "WMOidentifier": [
+            "WWUS83 KLBF 071839"
+          ],
+          "NWSheadline": [
+            "FIRE WEATHER WATCH IN EFFECT FROM TUESDAY AFTERNOON THROUGH TUESDAY EVENING FOR ABOVE AVERAGE TEMPERATURES, LOW RELATIVE HUMIDITY, AND GUSTY SOUTHWEST WINDS FOR THE EASTERN PANHANDLE AND WESTERN SANDHILLS"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KLBF.FW.A.0019.260609T1800Z-260610T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T22:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWA"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for Nebraska",
+  "updated": "2026-06-08T03:50:22+00:00"
+}

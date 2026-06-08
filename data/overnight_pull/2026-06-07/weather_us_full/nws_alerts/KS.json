@@ -1,0 +1,603 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19f533a1384aac7667c5bc4d7e313dbcca40517c.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.19f533a1384aac7667c5bc4d7e313dbcca40517c.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.19f533a1384aac7667c5bc4d7e313dbcca40517c.001.1",
+        "areaDesc": "Linn; Mercer; Putnam; Schuyler; Grundy; Sullivan; Adair; Livingston; Linn; Macon; Ray; Carroll; Chariton; Randolph; Lafayette; Cass; Bates",
+        "geocode": {
+          "SAME": [
+            "020107",
+            "029129",
+            "029171",
+            "029197",
+            "029079",
+            "029211",
+            "029001",
+            "029117",
+            "029115",
+            "029121",
+            "029177",
+            "029033",
+            "029041",
+            "029175",
+            "029107",
+            "029037",
+            "029013"
+          ],
+          "UGC": [
+            "KSZ060",
+            "MOZ006",
+            "MOZ007",
+            "MOZ008",
+            "MOZ015",
+            "MOZ016",
+            "MOZ017",
+            "MOZ023",
+            "MOZ024",
+            "MOZ025",
+            "MOZ030",
+            "MOZ031",
+            "MOZ032",
+            "MOZ033",
+            "MOZ038",
+            "MOZ043",
+            "MOZ053"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/KSZ060",
+          "https://api.weather.gov/zones/forecast/MOZ006",
+          "https://api.weather.gov/zones/forecast/MOZ007",
+          "https://api.weather.gov/zones/forecast/MOZ008",
+          "https://api.weather.gov/zones/forecast/MOZ015",
+          "https://api.weather.gov/zones/forecast/MOZ016",
+          "https://api.weather.gov/zones/forecast/MOZ017",
+          "https://api.weather.gov/zones/forecast/MOZ023",
+          "https://api.weather.gov/zones/forecast/MOZ024",
+          "https://api.weather.gov/zones/forecast/MOZ025",
+          "https://api.weather.gov/zones/forecast/MOZ030",
+          "https://api.weather.gov/zones/forecast/MOZ031",
+          "https://api.weather.gov/zones/forecast/MOZ032",
+          "https://api.weather.gov/zones/forecast/MOZ033",
+          "https://api.weather.gov/zones/forecast/MOZ038",
+          "https://api.weather.gov/zones/forecast/MOZ043",
+          "https://api.weather.gov/zones/forecast/MOZ053"
+        ],
+        "references": [],
+        "sent": "2026-06-07T22:22:00-05:00",
+        "effective": "2026-06-07T22:22:00-05:00",
+        "onset": "2026-06-07T22:22:00-05:00",
+        "expires": "2026-06-08T07:00:00-05:00",
+        "ends": "2026-06-08T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Kansas City/Pleasant Hill MO",
+        "headline": "Flood Watch issued June 7 at 10:22PM CDT until June 8 at 1:00PM CDT by NWS Kansas City/Pleasant Hill MO",
+        "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of east central Kansas, including the following\narea, Linn KS and Missouri, including the following areas, Adair,\nBates, Carroll, Cass, Chariton, Grundy, Lafayette, Linn MO,\nLivingston, Macon, Mercer, Putnam, Randolph, Ray, Schuyler and\nSullivan.\n\n* WHEN...Through Monday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks.\n\n* ADDITIONAL DETAILS...\n- Periods of heavy rain are possible with showers and thunderstorms\ntonight through Monday morning.\n- http://www.weather.gov/safety/flood",
+        "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFAEAX"
+          ],
+          "WMOidentifier": [
+            "WGUS63 KEAX 080322"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH IN EFFECT THROUGH MONDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXA.KEAX.FA.A.0007.000000T0000Z-260608T1800Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T13:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFA"
+          ],
+          "NationalWeatherService": [
+            "FAA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d49d45008ff66acd7491bfbe7c80b188c45c59c.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.35,
+              39.01
+            ],
+            [
+              -95.28,
+              39.03
+            ],
+            [
+              -95.2,
+              38.99
+            ],
+            [
+              -95.31,
+              38.87
+            ],
+            [
+              -95.39,
+              38.93
+            ],
+            [
+              -95.35,
+              39.01
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0d49d45008ff66acd7491bfbe7c80b188c45c59c.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.0d49d45008ff66acd7491bfbe7c80b188c45c59c.001.1",
+        "areaDesc": "Douglas, KS",
+        "geocode": {
+          "SAME": [
+            "020045"
+          ],
+          "UGC": [
+            "KSC045"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/KSC045"
+        ],
+        "references": [],
+        "sent": "2026-06-07T21:40:00-05:00",
+        "effective": "2026-06-07T21:40:00-05:00",
+        "onset": "2026-06-07T21:40:00-05:00",
+        "expires": "2026-06-08T00:30:00-05:00",
+        "ends": "2026-06-08T00:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flash Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Topeka KS",
+        "headline": "Flash Flood Warning issued June 7 at 9:40PM CDT until June 8 at 12:30AM CDT by NWS Topeka KS",
+        "description": "FFWTOP\n\nThe National Weather Service in Topeka has issued a\n\n* Flash Flood Warning for...\nNorth Central Douglas County in east central Kansas...\n\n* Until 1230 AM CDT.\n\n* At 939 PM CDT, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. Between 1.5 and 2.5 inches of\nrain have fallen. Additional rainfall amounts of 0.5 to 1 inch are\npossible in the warned area. Flash flooding is ongoing or expected\nto begin shortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Radar.\n\nIMPACT...Flash flooding of small creeks and streams, urban\nareas, highways, streets and underpasses as well as\nother poor drainage and low-lying areas.\n\n* Some locations that will experience flash flooding include...\nLawrence.\n\nThis includes Kansas Turnpike between mile markers 197 and 204.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFWTOP"
+          ],
+          "WMOidentifier": [
+            "WGUS53 KTOP 080240"
+          ],
+          "flashFloodDetection": [
+            "RADAR INDICATED"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.NEW.KTOP.FF.W.0018.260608T0240Z-260608T0530Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T00:30:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFW"
+          ],
+          "NationalWeatherService": [
+            "FFW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bbe9750a6e5f3e94bcf8c2e2d75704bcfd5228a5.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bbe9750a6e5f3e94bcf8c2e2d75704bcfd5228a5.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.bbe9750a6e5f3e94bcf8c2e2d75704bcfd5228a5.002.1",
+        "areaDesc": "Bourbon; Crawford; Cherokee; Benton; Vernon; St. Clair; Hickory; Camden; Barton; Cedar; Polk; Dallas; Laclede; Jasper; Dade; Greene; Webster; Wright; Newton; Lawrence; Christian; Douglas; McDonald; Barry; Stone; Taney; Ozark",
+        "geocode": {
+          "SAME": [
+            "020011",
+            "020037",
+            "020021",
+            "029015",
+            "029217",
+            "029185",
+            "029085",
+            "029029",
+            "029011",
+            "029039",
+            "029167",
+            "029059",
+            "029105",
+            "029097",
+            "029057",
+            "029077",
+            "029225",
+            "029229",
+            "029145",
+            "029109",
+            "029043",
+            "029067",
+            "029119",
+            "029009",
+            "029209",
+            "029213",
+            "029153"
+          ],
+          "UGC": [
+            "KSZ073",
+            "KSZ097",
+            "KSZ101",
+            "MOZ055",
+            "MOZ066",
+            "MOZ067",
+            "MOZ068",
+            "MOZ069",
+            "MOZ077",
+            "MOZ078",
+            "MOZ079",
+            "MOZ080",
+            "MOZ081",
+            "MOZ088",
+            "MOZ089",
+            "MOZ090",
+            "MOZ091",
+            "MOZ092",
+            "MOZ093",
+            "MOZ094",
+            "MOZ095",
+            "MOZ096",
+            "MOZ101",
+            "MOZ102",
+            "MOZ103",
+            "MOZ104",
+            "MOZ105"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/KSZ073",
+          "https://api.weather.gov/zones/forecast/KSZ097",
+          "https://api.weather.gov/zones/forecast/KSZ101",
+          "https://api.weather.gov/zones/forecast/MOZ055",
+          "https://api.weather.gov/zones/forecast/MOZ066",
+          "https://api.weather.gov/zones/forecast/MOZ067",
+          "https://api.weather.gov/zones/forecast/MOZ068",
+          "https://api.weather.gov/zones/forecast/MOZ069",
+          "https://api.weather.gov/zones/forecast/MOZ077",
+          "https://api.weather.gov/zones/forecast/MOZ078",
+          "https://api.weather.gov/zones/forecast/MOZ079",
+          "https://api.weather.gov/zones/forecast/MOZ080",
+          "https://api.weather.gov/zones/forecast/MOZ081",
+          "https://api.weather.gov/zones/forecast/MOZ088",
+          "https://api.weather.gov/zones/forecast/MOZ089",
+          "https://api.weather.gov/zones/forecast/MOZ090",
+          "https://api.weather.gov/zones/forecast/MOZ091",
+          "https://api.weather.gov/zones/forecast/MOZ092",
+          "https://api.weather.gov/zones/forecast/MOZ093",
+          "https://api.weather.gov/zones/forecast/MOZ094",
+          "https://api.weather.gov/zones/forecast/MOZ095",
+          "https://api.weather.gov/zones/forecast/MOZ096",
+          "https://api.weather.gov/zones/forecast/MOZ101",
+          "https://api.weather.gov/zones/forecast/MOZ102",
+          "https://api.weather.gov/zones/forecast/MOZ103",
+          "https://api.weather.gov/zones/forecast/MOZ104",
+          "https://api.weather.gov/zones/forecast/MOZ105"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47aa42e11d3041774c0a2fa8a5c41ffad8dadc5a.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.47aa42e11d3041774c0a2fa8a5c41ffad8dadc5a.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T03:37:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T13:53:00-05:00",
+        "effective": "2026-06-07T13:53:00-05:00",
+        "onset": "2026-06-07T13:53:00-05:00",
+        "expires": "2026-06-08T13:00:00-05:00",
+        "ends": "2026-06-08T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Flood Watch issued June 7 at 1:53PM CDT until June 8 at 1:00PM CDT by NWS Springfield MO",
+        "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of southeast Kansas, including the following\nareas, Bourbon, Cherokee and Crawford and Missouri, including the\nfollowing areas, Barry, Barton, Benton, Camden, Cedar, Christian,\nDade, Dallas, Douglas, Greene, Hickory, Jasper, Laclede, Lawrence,\nMcDonald, Newton, Ozark, Polk, St. Clair, Stone, Taney, Vernon,\nWebster and Wright.\n\n* WHEN...Through Monday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas. Low-water\ncrossings may be flooded.\n\n* ADDITIONAL DETAILS...\n- Showers and thunderstorms with rainfall rates of 2 to 3\ninches per hour are expected today through Monday which may\nlead to flash flooding in urban and low-lying areas. Rainfall\namounts of 1 to 3 inches expected with locally higher amounts\nup to 5 to 7 inches possible.\n- http://www.weather.gov/safety/flood",
+        "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFASGF"
+          ],
+          "WMOidentifier": [
+            "WGUS63 KSGF 071853"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH REMAINS IN EFFECT THROUGH MONDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.CON.KSGF.FA.A.0005.000000T0000Z-260608T1800Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T13:00:00-05:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6785a3230addc3ba3608692bc912b8ded81a0516.001.1,2026-06-06T12:12:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFA"
+          ],
+          "NationalWeatherService": [
+            "FAA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd629762a583ac603300e1ff94630e8b6ceabbf7.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd629762a583ac603300e1ff94630e8b6ceabbf7.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.bd629762a583ac603300e1ff94630e8b6ceabbf7.001.1",
+        "areaDesc": "Yuma; Kit Carson County; Cheyenne; Cheyenne; Sherman; Wallace",
+        "geocode": {
+          "SAME": [
+            "008125",
+            "008063",
+            "008017",
+            "020023",
+            "020181",
+            "020199"
+          ],
+          "UGC": [
+            "COZ252",
+            "COZ253",
+            "COZ254",
+            "KSZ001",
+            "KSZ013",
+            "KSZ027"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ252",
+          "https://api.weather.gov/zones/fire/COZ253",
+          "https://api.weather.gov/zones/fire/COZ254",
+          "https://api.weather.gov/zones/fire/KSZ001",
+          "https://api.weather.gov/zones/fire/KSZ013",
+          "https://api.weather.gov/zones/fire/KSZ027"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:45:00-06:00",
+        "effective": "2026-06-07T12:45:00-06:00",
+        "onset": "2026-06-09T12:00:00-06:00",
+        "expires": "2026-06-08T03:00:00-06:00",
+        "ends": "2026-06-09T21:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Goodland KS",
+        "headline": "Fire Weather Watch issued June 7 at 12:45PM MDT until June 9 at 9:00PM MDT by NWS Goodland KS",
+        "description": "The National Weather Service in Goodland has issued a Fire\nWeather Watch for wind and low relative humidity, which is in\neffect from Tuesday afternoon through Tuesday evening.\n\n* AFFECTED AREA...Fire Weather Zones 001 Cheyenne KS, 013\nSherman, 027 Wallace, 252 Yuma, 253 Kit Carson and 254\nCheyenne CO.\n\n* TIMING...From Tuesday afternoon through Tuesday evening.\n\n* WINDS...South 20 to 30 mph with gusts up to 50 mph.\n\n* RELATIVE HUMIDITY...As low as 12 percent.\n\n* IMPACTS...Unpredictable fire behavior. Any fires that develop\nmay rapidly grow and spread out of control.",
+        "instruction": "A Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nred flag warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGLD"
+          ],
+          "WMOidentifier": [
+            "WWUS83 KGLD 071845"
+          ],
+          "NWSheadline": [
+            "FIRE WEATHER WATCH IN EFFECT FROM TUESDAY AFTERNOON THROUGH TUESDAY EVENING FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES 001, 013, 027, 252, 253, AND 254"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KGLD.FW.A.0026.260609T1800Z-260610T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T21:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.944219cd51f9e2dd9cc1811194c6249b2f1a3d65.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.944219cd51f9e2dd9cc1811194c6249b2f1a3d65.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.944219cd51f9e2dd9cc1811194c6249b2f1a3d65.001.1",
+        "areaDesc": "Wilson; Neosho; Chautauqua; Montgomery; Labette",
+        "geocode": {
+          "SAME": [
+            "020205",
+            "020133",
+            "020019",
+            "020125",
+            "020099"
+          ],
+          "UGC": [
+            "KSZ095",
+            "KSZ096",
+            "KSZ098",
+            "KSZ099",
+            "KSZ100"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/KSZ095",
+          "https://api.weather.gov/zones/forecast/KSZ096",
+          "https://api.weather.gov/zones/forecast/KSZ098",
+          "https://api.weather.gov/zones/forecast/KSZ099",
+          "https://api.weather.gov/zones/forecast/KSZ100"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:12:00-05:00",
+        "effective": "2026-06-07T12:12:00-05:00",
+        "onset": "2026-06-07T12:12:00-05:00",
+        "expires": "2026-06-07T20:15:00-05:00",
+        "ends": "2026-06-08T10:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Wichita KS",
+        "headline": "Flood Watch issued June 7 at 12:12PM CDT until June 8 at 10:00AM CDT by NWS Wichita KS",
+        "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...A portion of southeast Kansas, including the following\ncounties, Chautauqua, Labette, Montgomery, Neosho and Wilson.\n\n* WHEN...Through Monday morning.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\n\n* ADDITIONAL DETAILS...\n- Additional showers and storms producing very high rainfall\nrates are expected late tonight into Monday morning across\nfar southeast Kansas. With ground already saturated, flooding\nwill be likely.",
+        "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFAICT"
+          ],
+          "WMOidentifier": [
+            "WGUS63 KICT 071712"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH NOW IN EFFECT THROUGH MONDAY MORNING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KICT.FA.A.0001.000000T0000Z-260608T1500Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T10:00:00-05:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1b991ceeefdd9b277019eae7a0953bce18d8d67b.001.1,2026-06-07T02:36:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.50e49e07b5dfaff346f4b3ff8ef2f6faf4a07ed2.001.1,2026-06-06T14:22:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFA"
+          ],
+          "NationalWeatherService": [
+            "FAA"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for Kansas",
+  "updated": "2026-06-08T03:50:21+00:00"
+}

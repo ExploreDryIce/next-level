@@ -1,0 +1,1851 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c448d68481c426a7af5b87535dfe11f9fcb04b48.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c448d68481c426a7af5b87535dfe11f9fcb04b48.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.c448d68481c426a7af5b87535dfe11f9fcb04b48.002.1",
+        "areaDesc": "Pueblo County Including Pueblo",
+        "geocode": {
+          "SAME": [
+            "008101"
+          ],
+          "UGC": [
+            "COZ228"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ228"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e4e61e1696f7015dda846261594c2e8f0218e552.002.2",
+            "identifier": "urn:oid:2.49.0.1.840.0.e4e61e1696f7015dda846261594c2e8f0218e552.002.2",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T12:33:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T21:05:00-06:00",
+        "effective": "2026-06-07T21:05:00-06:00",
+        "onset": "2026-06-08T12:00:00-06:00",
+        "expires": "2026-06-08T13:15:00-06:00",
+        "ends": "2026-06-08T19:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pueblo CO",
+        "headline": "Red Flag Warning issued June 7 at 9:05PM MDT until June 8 at 7:00PM MDT by NWS Pueblo CO",
+        "description": "...FIRE WEATHER WATCH REMAINS IN EFFECT FROM TUESDAY AFTERNOON\nTHROUGH TUESDAY EVENING FOR FOR GUSTY WINDS AND LOW RELATIVE\nHUMIDITY FOR FIRE WEATHER ZONE 228...\n\n* AFFECTED AREA...Fire Weather Zone 228.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 45 mph.\n\n* RELATIVE HUMIDITY...As low as 10 percent.\n\n* IMPACTS...Elevated fire danger is expected. Fires will catch\nand spread rapidly and erratically.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWPUB"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KPUB 080305"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT FROM NOON TO 7 PM MDT MONDAY FOR FOR GUSTY WINDS AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONE 228"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KPUB.FW.W.0056.260608T1800Z-260609T0100Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T19:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c448d68481c426a7af5b87535dfe11f9fcb04b48.001.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c448d68481c426a7af5b87535dfe11f9fcb04b48.001.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.c448d68481c426a7af5b87535dfe11f9fcb04b48.001.2",
+        "areaDesc": "Fremont County Including Canon City/Howard/Texas Creek; Huerfano County Including Walsenburg",
+        "geocode": {
+          "SAME": [
+            "008041",
+            "008043",
+            "008119",
+            "008055"
+          ],
+          "UGC": [
+            "COZ222",
+            "COZ229"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ222",
+          "https://api.weather.gov/zones/fire/COZ229"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e4e61e1696f7015dda846261594c2e8f0218e552.001.2",
+            "identifier": "urn:oid:2.49.0.1.840.0.e4e61e1696f7015dda846261594c2e8f0218e552.001.2",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T12:33:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T21:05:00-06:00",
+        "effective": "2026-06-07T21:05:00-06:00",
+        "onset": "2026-06-08T12:00:00-06:00",
+        "expires": "2026-06-08T13:15:00-06:00",
+        "ends": "2026-06-08T19:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pueblo CO",
+        "headline": "Red Flag Warning issued June 7 at 9:05PM MDT until June 8 at 7:00PM MDT by NWS Pueblo CO",
+        "description": "...FIRE WEATHER WATCH REMAINS IN EFFECT FROM TUESDAY AFTERNOON\nTHROUGH TUESDAY EVENING FOR FOR GUSTY WINDS AND LOW RELATIVE\nHUMIDITY FOR FIRE WEATHER ZONES 222 AND 229...\n\n...RED FLAG WARNING HAS EXPIRED FOR FOR GUSTY WINDS AND LOW\nRELATIVE HUMIDITY FOR FIRE WEATHER ZONES 222 AND 229...\n\n* AFFECTED AREA...Fire Weather Zones 222 and 229.\n\n* WINDS...Southwest 25 to 35 mph with gusts up to 50 mph.\n\n* RELATIVE HUMIDITY...As low as 7 percent.\n\n* IMPACTS...Elevated fire danger is expected. Fires will catch\nand spread rapidly and erratically.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWPUB"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KPUB 080305"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT FROM NOON TO 7 PM MDT MONDAY FOR FOR GUSTY WINDS AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES 222 AND 229"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KPUB.FW.W.0056.260608T1800Z-260609T0100Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T19:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c448d68481c426a7af5b87535dfe11f9fcb04b48.001.3",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c448d68481c426a7af5b87535dfe11f9fcb04b48.001.3",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.c448d68481c426a7af5b87535dfe11f9fcb04b48.001.3",
+        "areaDesc": "Fremont County Including Canon City/Howard/Texas Creek; Huerfano County Including Walsenburg",
+        "geocode": {
+          "SAME": [
+            "008041",
+            "008043",
+            "008119",
+            "008055"
+          ],
+          "UGC": [
+            "COZ222",
+            "COZ229"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ222",
+          "https://api.weather.gov/zones/fire/COZ229"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e4e61e1696f7015dda846261594c2e8f0218e552.001.3",
+            "identifier": "urn:oid:2.49.0.1.840.0.e4e61e1696f7015dda846261594c2e8f0218e552.001.3",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T12:33:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T21:05:00-06:00",
+        "effective": "2026-06-07T21:05:00-06:00",
+        "onset": "2026-06-09T12:00:00-06:00",
+        "expires": "2026-06-08T13:15:00-06:00",
+        "ends": "2026-06-09T20:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pueblo CO",
+        "headline": "Fire Weather Watch issued June 7 at 9:05PM MDT until June 9 at 8:00PM MDT by NWS Pueblo CO",
+        "description": "...FIRE WEATHER WATCH REMAINS IN EFFECT FROM TUESDAY AFTERNOON\nTHROUGH TUESDAY EVENING FOR FOR GUSTY WINDS AND LOW RELATIVE\nHUMIDITY FOR FIRE WEATHER ZONES 222 AND 229...\n\n...RED FLAG WARNING HAS EXPIRED FOR FOR GUSTY WINDS AND LOW\nRELATIVE HUMIDITY FOR FIRE WEATHER ZONES 222 AND 229...\n\n* AFFECTED AREA...Fire Weather Zones 222 and 229.\n\n* WINDS...Southwest 25 to 35 mph with gusts up to 50 mph.\n\n* RELATIVE HUMIDITY...As low as 7 percent.\n\n* IMPACTS...Elevated fire danger is expected. Fires will catch\nand spread rapidly and erratically.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWPUB"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KPUB 080305"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT FROM NOON TO 7 PM MDT MONDAY FOR FOR GUSTY WINDS AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES 222 AND 229"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KPUB.FW.A.0050.260609T1800Z-260610T0200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T20:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c448d68481c426a7af5b87535dfe11f9fcb04b48.002.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c448d68481c426a7af5b87535dfe11f9fcb04b48.002.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.c448d68481c426a7af5b87535dfe11f9fcb04b48.002.2",
+        "areaDesc": "Pueblo County Including Pueblo",
+        "geocode": {
+          "SAME": [
+            "008101"
+          ],
+          "UGC": [
+            "COZ228"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ228"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e4e61e1696f7015dda846261594c2e8f0218e552.002.3",
+            "identifier": "urn:oid:2.49.0.1.840.0.e4e61e1696f7015dda846261594c2e8f0218e552.002.3",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T12:33:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T21:05:00-06:00",
+        "effective": "2026-06-07T21:05:00-06:00",
+        "onset": "2026-06-09T12:00:00-06:00",
+        "expires": "2026-06-08T13:15:00-06:00",
+        "ends": "2026-06-09T20:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pueblo CO",
+        "headline": "Fire Weather Watch issued June 7 at 9:05PM MDT until June 9 at 8:00PM MDT by NWS Pueblo CO",
+        "description": "...FIRE WEATHER WATCH REMAINS IN EFFECT FROM TUESDAY AFTERNOON\nTHROUGH TUESDAY EVENING FOR FOR GUSTY WINDS AND LOW RELATIVE\nHUMIDITY FOR FIRE WEATHER ZONE 228...\n\n* AFFECTED AREA...Fire Weather Zone 228.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 45 mph.\n\n* RELATIVE HUMIDITY...As low as 10 percent.\n\n* IMPACTS...Elevated fire danger is expected. Fires will catch\nand spread rapidly and erratically.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWPUB"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KPUB 080305"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT FROM NOON TO 7 PM MDT MONDAY FOR FOR GUSTY WINDS AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONE 228"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KPUB.FW.A.0050.260609T1800Z-260610T0200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T20:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c448d68481c426a7af5b87535dfe11f9fcb04b48.003.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c448d68481c426a7af5b87535dfe11f9fcb04b48.003.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.c448d68481c426a7af5b87535dfe11f9fcb04b48.003.1",
+        "areaDesc": "Western Las Animas County Including Trinidad and Thatcher; Crowley County Including Ordway; Kiowa County Including Eads; Bent County Including Las Animas",
+        "geocode": {
+          "SAME": [
+            "008071",
+            "008025",
+            "008061",
+            "008011"
+          ],
+          "UGC": [
+            "COZ230",
+            "COZ231",
+            "COZ234",
+            "COZ235"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ230",
+          "https://api.weather.gov/zones/fire/COZ231",
+          "https://api.weather.gov/zones/fire/COZ234",
+          "https://api.weather.gov/zones/fire/COZ235"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e4e61e1696f7015dda846261594c2e8f0218e552.003.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.e4e61e1696f7015dda846261594c2e8f0218e552.003.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T12:33:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T21:05:00-06:00",
+        "effective": "2026-06-07T21:05:00-06:00",
+        "onset": "2026-06-09T12:00:00-06:00",
+        "expires": "2026-06-08T13:15:00-06:00",
+        "ends": "2026-06-09T20:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Pueblo CO",
+        "headline": "Fire Weather Watch issued June 7 at 9:05PM MDT until June 9 at 8:00PM MDT by NWS Pueblo CO",
+        "description": "* AFFECTED AREA...Fire Weather Zones 230, 231, 234 and 235.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 50 mph.\n\n* RELATIVE HUMIDITY...As low as 13 percent.\n\n* IMPACTS...Fires will catch and spread quickly. Exercise\nextreme caution with any outdoor burning.",
+        "instruction": "A Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWPUB"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KPUB 080305"
+          ],
+          "NWSheadline": [
+            "FIRE WEATHER WATCH REMAINS IN EFFECT FROM TUESDAY AFTERNOON THROUGH TUESDAY EVENING FOR FOR GUSTY WINDS AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES 230, 231, 234, AND 235"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KPUB.FW.A.0050.260609T1800Z-260610T0200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T20:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd629762a583ac603300e1ff94630e8b6ceabbf7.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bd629762a583ac603300e1ff94630e8b6ceabbf7.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.bd629762a583ac603300e1ff94630e8b6ceabbf7.001.1",
+        "areaDesc": "Yuma; Kit Carson County; Cheyenne; Cheyenne; Sherman; Wallace",
+        "geocode": {
+          "SAME": [
+            "008125",
+            "008063",
+            "008017",
+            "020023",
+            "020181",
+            "020199"
+          ],
+          "UGC": [
+            "COZ252",
+            "COZ253",
+            "COZ254",
+            "KSZ001",
+            "KSZ013",
+            "KSZ027"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ252",
+          "https://api.weather.gov/zones/fire/COZ253",
+          "https://api.weather.gov/zones/fire/COZ254",
+          "https://api.weather.gov/zones/fire/KSZ001",
+          "https://api.weather.gov/zones/fire/KSZ013",
+          "https://api.weather.gov/zones/fire/KSZ027"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:45:00-06:00",
+        "effective": "2026-06-07T12:45:00-06:00",
+        "onset": "2026-06-09T12:00:00-06:00",
+        "expires": "2026-06-08T03:00:00-06:00",
+        "ends": "2026-06-09T21:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Goodland KS",
+        "headline": "Fire Weather Watch issued June 7 at 12:45PM MDT until June 9 at 9:00PM MDT by NWS Goodland KS",
+        "description": "The National Weather Service in Goodland has issued a Fire\nWeather Watch for wind and low relative humidity, which is in\neffect from Tuesday afternoon through Tuesday evening.\n\n* AFFECTED AREA...Fire Weather Zones 001 Cheyenne KS, 013\nSherman, 027 Wallace, 252 Yuma, 253 Kit Carson and 254\nCheyenne CO.\n\n* TIMING...From Tuesday afternoon through Tuesday evening.\n\n* WINDS...South 20 to 30 mph with gusts up to 50 mph.\n\n* RELATIVE HUMIDITY...As low as 12 percent.\n\n* IMPACTS...Unpredictable fire behavior. Any fires that develop\nmay rapidly grow and spread out of control.",
+        "instruction": "A Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nred flag warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGLD"
+          ],
+          "WMOidentifier": [
+            "WWUS83 KGLD 071845"
+          ],
+          "NWSheadline": [
+            "FIRE WEATHER WATCH IN EFFECT FROM TUESDAY AFTERNOON THROUGH TUESDAY EVENING FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES 001, 013, 027, 252, 253, AND 254"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KGLD.FW.A.0026.260609T1800Z-260610T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T21:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.001.4",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.001.4",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.001.4",
+        "areaDesc": "Southwest Colorado Upper East Forecast Area",
+        "geocode": {
+          "SAME": [
+            "008007",
+            "008033",
+            "008053",
+            "008067",
+            "008083",
+            "008111"
+          ],
+          "UGC": [
+            "COZ295"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ295"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-10T10:00:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-10T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Fire Weather Watch issued June 7 at 12:36PM MDT until June 10 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "The National Weather Service in Grand Junction has issued a Red\nFlag Warning for gusty winds, low relative humidity and dry\nfuels, which is in effect until 10 PM MDT this evening. A Red\nFlag Warning has also been issued from 10 AM to 10 PM MDT Monday.\nIn addition, a Red Flag Warning for gusty winds, low relative\nhumidity and dry fuels has been issued. This Red Flag Warning is\nin effect from 10 AM to 10 PM MDT Tuesday. In addition, a Fire\nWeather Watch for gusty winds, low relative humidity and dry\nfuels has been issued. This Fire Weather Watch is in effect from\nWednesday morning through Wednesday evening.\n\n* AFFECTED AREA...In Colorado, Fire Weather Zone 295 Southwest\nColorado Upper East Forecast Area.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 15 to 25 mph with gusts up to 55 mph.\n\n* RELATIVE HUMIDITY...10 to 15 percent.\n\n* IMPACTS...Elevated fire danger is expected. Fires will catch\nand spread rapidly and erratically.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295... ...RED FLAG WARNING IN EFFECT FROM 10 AM TO 10 PM MDT MONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295... ...RED FLAG WARNING IN EFFECT FROM 10 AM TO 10 PM MDT TUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295... ...FIRE WEATHER WATCH IN EFFECT FROM WEDNESDAY MORNING THROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.EXA.KGJT.FW.A.0013.260610T1600Z-260611T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-10T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.1",
+        "areaDesc": "Little Snake; White River; Southwest Colorado Lower Forecast Area; Paradox Valley; Northern San Juan; North Fork; Gunnison Basin; Eastern Uintah Basin; Book Cliffs; Colorado River Basin; Southeast Utah",
+        "geocode": {
+          "SAME": [
+            "008081",
+            "008107",
+            "008045",
+            "008103",
+            "008033",
+            "008067",
+            "008083",
+            "008085",
+            "008113",
+            "008051",
+            "008053",
+            "008091",
+            "008029",
+            "049009",
+            "049047",
+            "049019",
+            "049015",
+            "049037",
+            "049055"
+          ],
+          "UGC": [
+            "COZ200",
+            "COZ202",
+            "COZ207",
+            "COZ290",
+            "COZ291",
+            "COZ292",
+            "COZ293",
+            "UTZ486",
+            "UTZ487",
+            "UTZ490",
+            "UTZ491"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ200",
+          "https://api.weather.gov/zones/fire/COZ202",
+          "https://api.weather.gov/zones/fire/COZ207",
+          "https://api.weather.gov/zones/fire/COZ290",
+          "https://api.weather.gov/zones/fire/COZ291",
+          "https://api.weather.gov/zones/fire/COZ292",
+          "https://api.weather.gov/zones/fire/COZ293",
+          "https://api.weather.gov/zones/fire/UTZ486",
+          "https://api.weather.gov/zones/fire/UTZ487",
+          "https://api.weather.gov/zones/fire/UTZ490",
+          "https://api.weather.gov/zones/fire/UTZ491"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c6394b0689cd0075513696485a9fef312e8641af.001.2",
+            "identifier": "urn:oid:2.49.0.1.840.0.c6394b0689cd0075513696485a9fef312e8641af.001.2",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-06T20:57:00-06:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c6394b0689cd0075513696485a9fef312e8641af.003.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.c6394b0689cd0075513696485a9fef312e8641af.003.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-06T20:57:00-06:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.5",
+            "identifier": "urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.5",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T11:38:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-07T12:36:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-07T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Red Flag Warning issued June 7 at 12:36PM MDT until June 7 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "* AFFECTED AREA...In Colorado, Fire Weather Zone 200 Little\nSnake Forecast Area, Fire Weather Zone 202 White River\nForecast Area, Fire Weather Zone 207 Southwest Colorado Lower\nForecast Area, Fire Weather Zone 290 Paradox Valley Forecast\nArea, Fire Weather Zone 291 Northern San Juan Forecast Area,\nFire Weather Zone 292 North Fork Forecast Area and Fire\nWeather Zone 293 Gunnison Basin Forecast Area. In Utah, Fire\nWeather Zone 486 Eastern Uinta Basin, Fire Weather Zone 487\nBook Cliffs, Fire Weather Zone 490 Colorado River Basin and\nFire Weather Zone 491 Southeast Utah.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 50 mph.\n\n* RELATIVE HUMIDITY...7 to 12 percent.\n\n* IMPACTS...Fires will catch and spread quickly. Exercise\nextreme caution with any outdoor burning.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT MONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT TUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...FIRE WEATHER WATCH REMAINS IN EFFECT FROM WEDNESDAY MORNING THROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 291, 292, 293, 486, 487, 490, AND 491"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KGJT.FW.W.0022.000000T0000Z-260608T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-07T22:00:00-06:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.57daf83bc84469ba1120438c5012c6437db573d5.003.1,2026-06-06T12:30:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.57daf83bc84469ba1120438c5012c6437db573d5.001.2,2026-06-06T12:30:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f572406e65f4475a263ea6ece90479c0bc17563e.003.1,2026-06-05T21:55:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f572406e65f4475a263ea6ece90479c0bc17563e.001.2,2026-06-05T21:55:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ace6b3b86f5f0e26d22b6ddf13c4656a1ee3f7d2.003.1,2026-06-05T10:47:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ace6b3b86f5f0e26d22b6ddf13c4656a1ee3f7d2.001.3,2026-06-05T10:47:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.003.4",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.003.4",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.003.4",
+        "areaDesc": "Lower Colorado River; Colorado River Headwaters",
+        "geocode": {
+          "SAME": [
+            "008045",
+            "008077",
+            "008103",
+            "008037",
+            "008097"
+          ],
+          "UGC": [
+            "COZ203",
+            "COZ205"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ203",
+          "https://api.weather.gov/zones/fire/COZ205"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.002.4",
+            "identifier": "urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.002.4",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T11:38:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-10T10:00:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-10T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Fire Weather Watch issued June 7 at 12:36PM MDT until June 10 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT\nMONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR\nFIRE WEATHER ZONE 203 AND 205 BELOW 8000 FEET...\n\n...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT\nTUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR\nFIRE WEATHER ZONE 203 AND 205 BELOW 8000 FEET...\n\n...FIRE WEATHER WATCH REMAINS IN EFFECT FROM WEDNESDAY MORNING\nTHROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY\nAND DRY FUELS FOR FIRE WEATHER ZONES 203 AND 205...\n\n* AFFECTED AREA...In Colorado, Fire Weather Zone 203 Lower\nColorado River and Fire Weather Zone 205 Colorado River\nHeadwaters below 8000 feet.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 55 mph.\n\n* RELATIVE HUMIDITY...8 to 13 percent.\n\n* IMPACTS...Elevated fire danger is expected. Fires will catch\nand spread rapidly and erratically.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 203 AND 205 BELOW 8000 FEET"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KGJT.FW.A.0013.260610T1600Z-260611T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-10T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.4",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.4",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.4",
+        "areaDesc": "Little Snake; White River; Southwest Colorado Lower Forecast Area; Paradox Valley; Northern San Juan; North Fork; Gunnison Basin; Eastern Uintah Basin; Book Cliffs; Colorado River Basin; Southeast Utah",
+        "geocode": {
+          "SAME": [
+            "008081",
+            "008107",
+            "008045",
+            "008103",
+            "008033",
+            "008067",
+            "008083",
+            "008085",
+            "008113",
+            "008051",
+            "008053",
+            "008091",
+            "008029",
+            "049009",
+            "049047",
+            "049019",
+            "049015",
+            "049037",
+            "049055"
+          ],
+          "UGC": [
+            "COZ200",
+            "COZ202",
+            "COZ207",
+            "COZ290",
+            "COZ291",
+            "COZ292",
+            "COZ293",
+            "UTZ486",
+            "UTZ487",
+            "UTZ490",
+            "UTZ491"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ200",
+          "https://api.weather.gov/zones/fire/COZ202",
+          "https://api.weather.gov/zones/fire/COZ207",
+          "https://api.weather.gov/zones/fire/COZ290",
+          "https://api.weather.gov/zones/fire/COZ291",
+          "https://api.weather.gov/zones/fire/COZ292",
+          "https://api.weather.gov/zones/fire/COZ293",
+          "https://api.weather.gov/zones/fire/UTZ486",
+          "https://api.weather.gov/zones/fire/UTZ487",
+          "https://api.weather.gov/zones/fire/UTZ490",
+          "https://api.weather.gov/zones/fire/UTZ491"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.4",
+            "identifier": "urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.4",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T11:38:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-10T10:00:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-10T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Fire Weather Watch issued June 7 at 12:36PM MDT until June 10 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "* AFFECTED AREA...In Colorado, Fire Weather Zone 200 Little\nSnake Forecast Area, Fire Weather Zone 202 White River\nForecast Area, Fire Weather Zone 207 Southwest Colorado Lower\nForecast Area, Fire Weather Zone 290 Paradox Valley Forecast\nArea, Fire Weather Zone 291 Northern San Juan Forecast Area,\nFire Weather Zone 292 North Fork Forecast Area and Fire\nWeather Zone 293 Gunnison Basin Forecast Area. In Utah, Fire\nWeather Zone 486 Eastern Uinta Basin, Fire Weather Zone 487\nBook Cliffs, Fire Weather Zone 490 Colorado River Basin and\nFire Weather Zone 491 Southeast Utah.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 50 mph.\n\n* RELATIVE HUMIDITY...7 to 12 percent.\n\n* IMPACTS...Fires will catch and spread quickly. Exercise\nextreme caution with any outdoor burning.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT MONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT TUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...FIRE WEATHER WATCH REMAINS IN EFFECT FROM WEDNESDAY MORNING THROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 291, 292, 293, 486, 487, 490, AND 491"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KGJT.FW.A.0013.260610T1600Z-260611T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-10T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.3",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.3",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.3",
+        "areaDesc": "Little Snake; White River; Southwest Colorado Lower Forecast Area; Paradox Valley; Northern San Juan; North Fork; Gunnison Basin; Eastern Uintah Basin; Book Cliffs; Colorado River Basin; Southeast Utah",
+        "geocode": {
+          "SAME": [
+            "008081",
+            "008107",
+            "008045",
+            "008103",
+            "008033",
+            "008067",
+            "008083",
+            "008085",
+            "008113",
+            "008051",
+            "008053",
+            "008091",
+            "008029",
+            "049009",
+            "049047",
+            "049019",
+            "049015",
+            "049037",
+            "049055"
+          ],
+          "UGC": [
+            "COZ200",
+            "COZ202",
+            "COZ207",
+            "COZ290",
+            "COZ291",
+            "COZ292",
+            "COZ293",
+            "UTZ486",
+            "UTZ487",
+            "UTZ490",
+            "UTZ491"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ200",
+          "https://api.weather.gov/zones/fire/COZ202",
+          "https://api.weather.gov/zones/fire/COZ207",
+          "https://api.weather.gov/zones/fire/COZ290",
+          "https://api.weather.gov/zones/fire/COZ291",
+          "https://api.weather.gov/zones/fire/COZ292",
+          "https://api.weather.gov/zones/fire/COZ293",
+          "https://api.weather.gov/zones/fire/UTZ486",
+          "https://api.weather.gov/zones/fire/UTZ487",
+          "https://api.weather.gov/zones/fire/UTZ490",
+          "https://api.weather.gov/zones/fire/UTZ491"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.2",
+            "identifier": "urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.2",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T11:38:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-09T10:00:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-09T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Red Flag Warning issued June 7 at 12:36PM MDT until June 9 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "* AFFECTED AREA...In Colorado, Fire Weather Zone 200 Little\nSnake Forecast Area, Fire Weather Zone 202 White River\nForecast Area, Fire Weather Zone 207 Southwest Colorado Lower\nForecast Area, Fire Weather Zone 290 Paradox Valley Forecast\nArea, Fire Weather Zone 291 Northern San Juan Forecast Area,\nFire Weather Zone 292 North Fork Forecast Area and Fire\nWeather Zone 293 Gunnison Basin Forecast Area. In Utah, Fire\nWeather Zone 486 Eastern Uinta Basin, Fire Weather Zone 487\nBook Cliffs, Fire Weather Zone 490 Colorado River Basin and\nFire Weather Zone 491 Southeast Utah.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 50 mph.\n\n* RELATIVE HUMIDITY...7 to 12 percent.\n\n* IMPACTS...Fires will catch and spread quickly. Exercise\nextreme caution with any outdoor burning.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT MONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT TUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...FIRE WEATHER WATCH REMAINS IN EFFECT FROM WEDNESDAY MORNING THROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 291, 292, 293, 486, 487, 490, AND 491"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KGJT.FW.W.0024.260609T1600Z-260610T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.003.3",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.003.3",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.003.3",
+        "areaDesc": "Lower Colorado River; Colorado River Headwaters",
+        "geocode": {
+          "SAME": [
+            "008045",
+            "008077",
+            "008103",
+            "008037",
+            "008097"
+          ],
+          "UGC": [
+            "COZ203",
+            "COZ205"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ203",
+          "https://api.weather.gov/zones/fire/COZ205"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.002.2",
+            "identifier": "urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.002.2",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T11:38:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-09T10:00:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-09T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Red Flag Warning issued June 7 at 12:36PM MDT until June 9 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT\nMONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR\nFIRE WEATHER ZONE 203 AND 205 BELOW 8000 FEET...\n\n...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT\nTUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR\nFIRE WEATHER ZONE 203 AND 205 BELOW 8000 FEET...\n\n...FIRE WEATHER WATCH REMAINS IN EFFECT FROM WEDNESDAY MORNING\nTHROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY\nAND DRY FUELS FOR FIRE WEATHER ZONES 203 AND 205...\n\n* AFFECTED AREA...In Colorado, Fire Weather Zone 203 Lower\nColorado River and Fire Weather Zone 205 Colorado River\nHeadwaters below 8000 feet.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 55 mph.\n\n* RELATIVE HUMIDITY...8 to 13 percent.\n\n* IMPACTS...Elevated fire danger is expected. Fires will catch\nand spread rapidly and erratically.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 203 AND 205 BELOW 8000 FEET"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KGJT.FW.W.0024.260609T1600Z-260610T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.001.3",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.001.3",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.001.3",
+        "areaDesc": "Southwest Colorado Upper East Forecast Area",
+        "geocode": {
+          "SAME": [
+            "008007",
+            "008033",
+            "008053",
+            "008067",
+            "008083",
+            "008111"
+          ],
+          "UGC": [
+            "COZ295"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ295"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-09T10:00:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-09T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Red Flag Warning issued June 7 at 12:36PM MDT until June 9 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "The National Weather Service in Grand Junction has issued a Red\nFlag Warning for gusty winds, low relative humidity and dry\nfuels, which is in effect until 10 PM MDT this evening. A Red\nFlag Warning has also been issued from 10 AM to 10 PM MDT Monday.\nIn addition, a Red Flag Warning for gusty winds, low relative\nhumidity and dry fuels has been issued. This Red Flag Warning is\nin effect from 10 AM to 10 PM MDT Tuesday. In addition, a Fire\nWeather Watch for gusty winds, low relative humidity and dry\nfuels has been issued. This Fire Weather Watch is in effect from\nWednesday morning through Wednesday evening.\n\n* AFFECTED AREA...In Colorado, Fire Weather Zone 295 Southwest\nColorado Upper East Forecast Area.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 15 to 25 mph with gusts up to 55 mph.\n\n* RELATIVE HUMIDITY...10 to 15 percent.\n\n* IMPACTS...Elevated fire danger is expected. Fires will catch\nand spread rapidly and erratically.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295... ...RED FLAG WARNING IN EFFECT FROM 10 AM TO 10 PM MDT MONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295... ...RED FLAG WARNING IN EFFECT FROM 10 AM TO 10 PM MDT TUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295... ...FIRE WEATHER WATCH IN EFFECT FROM WEDNESDAY MORNING THROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.EXA.KGJT.FW.W.0024.260609T1600Z-260610T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.2",
+        "areaDesc": "Little Snake; White River; Southwest Colorado Lower Forecast Area; Paradox Valley; Northern San Juan; North Fork; Gunnison Basin; Eastern Uintah Basin; Book Cliffs; Colorado River Basin; Southeast Utah",
+        "geocode": {
+          "SAME": [
+            "008081",
+            "008107",
+            "008045",
+            "008103",
+            "008033",
+            "008067",
+            "008083",
+            "008085",
+            "008113",
+            "008051",
+            "008053",
+            "008091",
+            "008029",
+            "049009",
+            "049047",
+            "049019",
+            "049015",
+            "049037",
+            "049055"
+          ],
+          "UGC": [
+            "COZ200",
+            "COZ202",
+            "COZ207",
+            "COZ290",
+            "COZ291",
+            "COZ292",
+            "COZ293",
+            "UTZ486",
+            "UTZ487",
+            "UTZ490",
+            "UTZ491"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ200",
+          "https://api.weather.gov/zones/fire/COZ202",
+          "https://api.weather.gov/zones/fire/COZ207",
+          "https://api.weather.gov/zones/fire/COZ290",
+          "https://api.weather.gov/zones/fire/COZ291",
+          "https://api.weather.gov/zones/fire/COZ292",
+          "https://api.weather.gov/zones/fire/COZ293",
+          "https://api.weather.gov/zones/fire/UTZ486",
+          "https://api.weather.gov/zones/fire/UTZ487",
+          "https://api.weather.gov/zones/fire/UTZ490",
+          "https://api.weather.gov/zones/fire/UTZ491"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.3",
+            "identifier": "urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.3",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T11:38:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-08T10:00:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-08T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Red Flag Warning issued June 7 at 12:36PM MDT until June 8 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "* AFFECTED AREA...In Colorado, Fire Weather Zone 200 Little\nSnake Forecast Area, Fire Weather Zone 202 White River\nForecast Area, Fire Weather Zone 207 Southwest Colorado Lower\nForecast Area, Fire Weather Zone 290 Paradox Valley Forecast\nArea, Fire Weather Zone 291 Northern San Juan Forecast Area,\nFire Weather Zone 292 North Fork Forecast Area and Fire\nWeather Zone 293 Gunnison Basin Forecast Area. In Utah, Fire\nWeather Zone 486 Eastern Uinta Basin, Fire Weather Zone 487\nBook Cliffs, Fire Weather Zone 490 Colorado River Basin and\nFire Weather Zone 491 Southeast Utah.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 50 mph.\n\n* RELATIVE HUMIDITY...7 to 12 percent.\n\n* IMPACTS...Fires will catch and spread quickly. Exercise\nextreme caution with any outdoor burning.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT MONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT TUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...FIRE WEATHER WATCH REMAINS IN EFFECT FROM WEDNESDAY MORNING THROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 291, 292, 293, 486, 487, 490, AND 491"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KGJT.FW.W.0023.260608T1600Z-260609T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.001.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.001.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.001.2",
+        "areaDesc": "Southwest Colorado Upper East Forecast Area",
+        "geocode": {
+          "SAME": [
+            "008007",
+            "008033",
+            "008053",
+            "008067",
+            "008083",
+            "008111"
+          ],
+          "UGC": [
+            "COZ295"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ295"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-08T10:00:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-08T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Red Flag Warning issued June 7 at 12:36PM MDT until June 8 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "The National Weather Service in Grand Junction has issued a Red\nFlag Warning for gusty winds, low relative humidity and dry\nfuels, which is in effect until 10 PM MDT this evening. A Red\nFlag Warning has also been issued from 10 AM to 10 PM MDT Monday.\nIn addition, a Red Flag Warning for gusty winds, low relative\nhumidity and dry fuels has been issued. This Red Flag Warning is\nin effect from 10 AM to 10 PM MDT Tuesday. In addition, a Fire\nWeather Watch for gusty winds, low relative humidity and dry\nfuels has been issued. This Fire Weather Watch is in effect from\nWednesday morning through Wednesday evening.\n\n* AFFECTED AREA...In Colorado, Fire Weather Zone 295 Southwest\nColorado Upper East Forecast Area.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 15 to 25 mph with gusts up to 55 mph.\n\n* RELATIVE HUMIDITY...10 to 15 percent.\n\n* IMPACTS...Elevated fire danger is expected. Fires will catch\nand spread rapidly and erratically.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295... ...RED FLAG WARNING IN EFFECT FROM 10 AM TO 10 PM MDT MONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295... ...RED FLAG WARNING IN EFFECT FROM 10 AM TO 10 PM MDT TUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295... ...FIRE WEATHER WATCH IN EFFECT FROM WEDNESDAY MORNING THROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.EXA.KGJT.FW.W.0023.260608T1600Z-260609T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.003.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.003.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.003.2",
+        "areaDesc": "Lower Colorado River; Colorado River Headwaters",
+        "geocode": {
+          "SAME": [
+            "008045",
+            "008077",
+            "008103",
+            "008037",
+            "008097"
+          ],
+          "UGC": [
+            "COZ203",
+            "COZ205"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ203",
+          "https://api.weather.gov/zones/fire/COZ205"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.002.3",
+            "identifier": "urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.002.3",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T11:38:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-08T10:00:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-08T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Red Flag Warning issued June 7 at 12:36PM MDT until June 8 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT\nMONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR\nFIRE WEATHER ZONE 203 AND 205 BELOW 8000 FEET...\n\n...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT\nTUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR\nFIRE WEATHER ZONE 203 AND 205 BELOW 8000 FEET...\n\n...FIRE WEATHER WATCH REMAINS IN EFFECT FROM WEDNESDAY MORNING\nTHROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY\nAND DRY FUELS FOR FIRE WEATHER ZONES 203 AND 205...\n\n* AFFECTED AREA...In Colorado, Fire Weather Zone 203 Lower\nColorado River and Fire Weather Zone 205 Colorado River\nHeadwaters below 8000 feet.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 55 mph.\n\n* RELATIVE HUMIDITY...8 to 13 percent.\n\n* IMPACTS...Elevated fire danger is expected. Fires will catch\nand spread rapidly and erratically.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 203 AND 205 BELOW 8000 FEET"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KGJT.FW.W.0023.260608T1600Z-260609T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.001.1",
+        "areaDesc": "Southwest Colorado Upper East Forecast Area",
+        "geocode": {
+          "SAME": [
+            "008007",
+            "008033",
+            "008053",
+            "008067",
+            "008083",
+            "008111"
+          ],
+          "UGC": [
+            "COZ295"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ295"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-07T12:36:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-07T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Red Flag Warning issued June 7 at 12:36PM MDT until June 7 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "The National Weather Service in Grand Junction has issued a Red\nFlag Warning for gusty winds, low relative humidity and dry\nfuels, which is in effect until 10 PM MDT this evening. A Red\nFlag Warning has also been issued from 10 AM to 10 PM MDT Monday.\nIn addition, a Red Flag Warning for gusty winds, low relative\nhumidity and dry fuels has been issued. This Red Flag Warning is\nin effect from 10 AM to 10 PM MDT Tuesday. In addition, a Fire\nWeather Watch for gusty winds, low relative humidity and dry\nfuels has been issued. This Fire Weather Watch is in effect from\nWednesday morning through Wednesday evening.\n\n* AFFECTED AREA...In Colorado, Fire Weather Zone 295 Southwest\nColorado Upper East Forecast Area.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 15 to 25 mph with gusts up to 55 mph.\n\n* RELATIVE HUMIDITY...10 to 15 percent.\n\n* IMPACTS...Elevated fire danger is expected. Fires will catch\nand spread rapidly and erratically.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295... ...RED FLAG WARNING IN EFFECT FROM 10 AM TO 10 PM MDT MONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295... ...RED FLAG WARNING IN EFFECT FROM 10 AM TO 10 PM MDT TUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295... ...FIRE WEATHER WATCH IN EFFECT FROM WEDNESDAY MORNING THROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 295"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.EXA.KGJT.FW.W.0022.000000T0000Z-260608T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-07T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.003.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.003.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.003.1",
+        "areaDesc": "Lower Colorado River; Colorado River Headwaters",
+        "geocode": {
+          "SAME": [
+            "008045",
+            "008077",
+            "008103",
+            "008037",
+            "008097"
+          ],
+          "UGC": [
+            "COZ203",
+            "COZ205"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ203",
+          "https://api.weather.gov/zones/fire/COZ205"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c6394b0689cd0075513696485a9fef312e8641af.002.2",
+            "identifier": "urn:oid:2.49.0.1.840.0.c6394b0689cd0075513696485a9fef312e8641af.002.2",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-06T20:57:00-06:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c6394b0689cd0075513696485a9fef312e8641af.004.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.c6394b0689cd0075513696485a9fef312e8641af.004.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-06T20:57:00-06:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.002.5",
+            "identifier": "urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.002.5",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T11:38:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-07T12:36:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-07T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Red Flag Warning issued June 7 at 12:36PM MDT until June 7 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT\nMONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR\nFIRE WEATHER ZONE 203 AND 205 BELOW 8000 FEET...\n\n...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT\nTUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR\nFIRE WEATHER ZONE 203 AND 205 BELOW 8000 FEET...\n\n...FIRE WEATHER WATCH REMAINS IN EFFECT FROM WEDNESDAY MORNING\nTHROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY\nAND DRY FUELS FOR FIRE WEATHER ZONES 203 AND 205...\n\n* AFFECTED AREA...In Colorado, Fire Weather Zone 203 Lower\nColorado River and Fire Weather Zone 205 Colorado River\nHeadwaters below 8000 feet.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 55 mph.\n\n* RELATIVE HUMIDITY...8 to 13 percent.\n\n* IMPACTS...Elevated fire danger is expected. Fires will catch\nand spread rapidly and erratically.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONE 203 AND 205 BELOW 8000 FEET"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KGJT.FW.W.0022.000000T0000Z-260608T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-07T22:00:00-06:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.57daf83bc84469ba1120438c5012c6437db573d5.004.1,2026-06-06T12:30:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.57daf83bc84469ba1120438c5012c6437db573d5.002.2,2026-06-06T12:30:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f572406e65f4475a263ea6ece90479c0bc17563e.004.1,2026-06-05T21:55:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f572406e65f4475a263ea6ece90479c0bc17563e.002.2,2026-06-05T21:55:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ace6b3b86f5f0e26d22b6ddf13c4656a1ee3f7d2.004.1,2026-06-05T10:47:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ace6b3b86f5f0e26d22b6ddf13c4656a1ee3f7d2.002.3,2026-06-05T10:47:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0ff58b5aeb15759275ff42fd889770dfa5b5f320.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0ff58b5aeb15759275ff42fd889770dfa5b5f320.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.0ff58b5aeb15759275ff42fd889770dfa5b5f320.001.1",
+        "areaDesc": "Larimer County Below 6000 Feet/Northwest Weld County; Boulder And Jefferson Counties Below 6000 Feet/West Broomfield County; North Douglas County Below 6000 Feet/Denver/West Adams and Arapahoe Counties/East Broomfield County; Elbert/Central and East Douglas Counties Above 6000 Feet; Northeast Weld County; Central and South Weld County; Morgan County; Central and East Adams and Arapahoe Counties; North and Northeast Elbert County Below 6000 Feet/North Lincoln County; Southeast Elbert County Below 6000 Feet/South Lincoln County; Logan County; Washington County; Sedgwick County; Phillips County",
+        "geocode": {
+          "SAME": [
+            "008069",
+            "008123",
+            "008013",
+            "008014",
+            "008059",
+            "008001",
+            "008005",
+            "008031",
+            "008035",
+            "008039",
+            "008087",
+            "008073",
+            "008075",
+            "008121",
+            "008115",
+            "008095"
+          ],
+          "UGC": [
+            "COZ238",
+            "COZ239",
+            "COZ240",
+            "COZ241",
+            "COZ242",
+            "COZ243",
+            "COZ244",
+            "COZ245",
+            "COZ246",
+            "COZ247",
+            "COZ248",
+            "COZ249",
+            "COZ250",
+            "COZ251"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ238",
+          "https://api.weather.gov/zones/fire/COZ239",
+          "https://api.weather.gov/zones/fire/COZ240",
+          "https://api.weather.gov/zones/fire/COZ241",
+          "https://api.weather.gov/zones/fire/COZ242",
+          "https://api.weather.gov/zones/fire/COZ243",
+          "https://api.weather.gov/zones/fire/COZ244",
+          "https://api.weather.gov/zones/fire/COZ245",
+          "https://api.weather.gov/zones/fire/COZ246",
+          "https://api.weather.gov/zones/fire/COZ247",
+          "https://api.weather.gov/zones/fire/COZ248",
+          "https://api.weather.gov/zones/fire/COZ249",
+          "https://api.weather.gov/zones/fire/COZ250",
+          "https://api.weather.gov/zones/fire/COZ251"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:32:00-06:00",
+        "effective": "2026-06-07T12:32:00-06:00",
+        "onset": "2026-06-09T12:00:00-06:00",
+        "expires": "2026-06-08T06:45:00-06:00",
+        "ends": "2026-06-09T21:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Denver CO",
+        "headline": "Fire Weather Watch issued June 7 at 12:32PM MDT until June 9 at 9:00PM MDT by NWS Denver CO",
+        "description": "The National Weather Service in Denver has issued a Fire Weather\nWatch for wind and low relative humidity, which is in effect from\nTuesday afternoon through Tuesday evening.\n\n* AFFECTED AREA...Fire Weather Zones 238, 239, 240, 241, 242,\n243, 244, 245, 246, 247, 248, 249, 250 and 251.\n\n* TIMING...From Tuesday afternoon through Tuesday evening.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 40 mph.\n\n* RELATIVE HUMIDITY...As low as 8 percent.\n\n* IMPACTS...Conditions will be favorable for rapid fire spread.\nAvoid outdoor burning and any activity that may produce a\nspark and start a wildfire.",
+        "instruction": "A Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWBOU"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KBOU 071832"
+          ],
+          "NWSheadline": [
+            "FIRE WEATHER WATCH IN EFFECT FROM TUESDAY AFTERNOON THROUGH TUESDAY EVENING FOR WIND AND LOW RELATIVE HUMIDITY FOR THE PLAINS OF NORTHEASTERN COLORADO"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KBOU.FW.A.0031.260609T1800Z-260610T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T21:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWA"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for Colorado",
+  "updated": "2026-06-08T03:49:47+00:00"
+}

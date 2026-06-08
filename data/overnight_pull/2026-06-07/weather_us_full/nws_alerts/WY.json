@@ -1,0 +1,298 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a80e56c470dd7b92df858a3529c3ea6bd8b27dea.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a80e56c470dd7b92df858a3529c3ea6bd8b27dea.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a80e56c470dd7b92df858a3529c3ea6bd8b27dea.001.1",
+        "areaDesc": "Northeast Johnson County",
+        "geocode": {
+          "SAME": [
+            "056019"
+          ],
+          "UGC": [
+            "WYZ010"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/WYZ010"
+        ],
+        "references": [],
+        "sent": "2026-06-07T19:17:00-06:00",
+        "effective": "2026-06-07T19:17:00-06:00",
+        "onset": "2026-06-07T19:17:00-06:00",
+        "expires": "2026-06-07T22:00:00-06:00",
+        "ends": "2026-06-07T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "High Wind Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Riverton WY",
+        "headline": "High Wind Warning issued June 7 at 7:17PM MDT until June 7 at 10:00PM MDT by NWS Riverton WY",
+        "description": "* WHAT...Northwest winds 35 to 45 mph with gusts up to 65 mph.\n\n* WHERE...Northeast Johnson County.\n\n* WHEN...Until 10 PM MDT this evening.\n\n* IMPACTS...Very strong wind will occur and may cause some tree\ndamage. Travel will be difficult, especially for high profile\nvehicles.",
+        "instruction": "Remain in the lower levels of your home during the windstorm, and\navoid windows. Watch for falling debris and tree limbs. Use caution\nif you must drive.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "NPWRIW"
+          ],
+          "WMOidentifier": [
+            "WWUS75 KRIW 080117"
+          ],
+          "NWSheadline": [
+            "HIGH WIND WARNING IN EFFECT UNTIL 10 PM MDT THIS EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.NEW.KRIW.HW.W.0011.260608T0117Z-260608T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-07T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "HWW"
+          ],
+          "NationalWeatherService": [
+            "HWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.278ceaae813668df70ccfdaccdb41f1788b700c3.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.278ceaae813668df70ccfdaccdb41f1788b700c3.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.278ceaae813668df70ccfdaccdb41f1788b700c3.001.1",
+        "areaDesc": "Converse County Lower Elevations; Ferris/Seminoe/Shirley Mountains; Shirley Basin; Central Laramie Range and Southwest Platte County; East Platte County; Central Carbon County; North Snowy Range Foothills; Southwest Carbon County; Upper North Platte River Basin; Laramie Valley; South Laramie Range; South Laramie Range Foothills; Central Laramie County; East Laramie County",
+        "geocode": {
+          "SAME": [
+            "056009",
+            "056007",
+            "056001",
+            "056021",
+            "056031"
+          ],
+          "UGC": [
+            "WYZ101",
+            "WYZ104",
+            "WYZ105",
+            "WYZ106",
+            "WYZ107",
+            "WYZ109",
+            "WYZ110",
+            "WYZ111",
+            "WYZ113",
+            "WYZ115",
+            "WYZ116",
+            "WYZ117",
+            "WYZ118",
+            "WYZ119"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/WYZ101",
+          "https://api.weather.gov/zones/forecast/WYZ104",
+          "https://api.weather.gov/zones/forecast/WYZ105",
+          "https://api.weather.gov/zones/forecast/WYZ106",
+          "https://api.weather.gov/zones/forecast/WYZ107",
+          "https://api.weather.gov/zones/forecast/WYZ109",
+          "https://api.weather.gov/zones/forecast/WYZ110",
+          "https://api.weather.gov/zones/forecast/WYZ111",
+          "https://api.weather.gov/zones/forecast/WYZ113",
+          "https://api.weather.gov/zones/forecast/WYZ115",
+          "https://api.weather.gov/zones/forecast/WYZ116",
+          "https://api.weather.gov/zones/forecast/WYZ117",
+          "https://api.weather.gov/zones/forecast/WYZ118",
+          "https://api.weather.gov/zones/forecast/WYZ119"
+        ],
+        "references": [],
+        "sent": "2026-06-07T16:35:00-06:00",
+        "effective": "2026-06-07T16:35:00-06:00",
+        "onset": "2026-06-07T16:35:00-06:00",
+        "expires": "2026-06-07T22:00:00-06:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Observed",
+        "urgency": "Expected",
+        "event": "Special Weather Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cheyenne WY",
+        "headline": "Special Weather Statement issued June 7 at 4:35PM MDT by NWS Cheyenne WY",
+        "description": "Gusty showers are ongoing across portions of southeast Wyoming,\nwith a few sensors gusting between 50 and 55 mph as showers move\npast. These showers are anticipated to continue throughout much of\nthe evening, likely until 10PM tonight. Use caution if traveling\nalong Interstate 25 or Interstate 80 in southeast Wyoming, as\nsudden, erratic gusts to 55 mph will be possible.",
+        "instruction": null,
+        "response": "Execute",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "SPSCYS"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KCYS 072235"
+          ],
+          "NWSheadline": [
+            "GUSTY SHOWERS EXPECTED THROUGH THE AFTERNOON ALONG INTERSTATE 25 AND INTERSTATE 80 IN SOUTHEAST WYOMING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "SPS"
+          ],
+          "NationalWeatherService": [
+            "SPS"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d777efc6ecf4cd0fe2d2e92db1d825a7650f9519.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d777efc6ecf4cd0fe2d2e92db1d825a7650f9519.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.d777efc6ecf4cd0fe2d2e92db1d825a7650f9519.001.1",
+        "areaDesc": "Pine Ridge/Nebraska National Forest; Box Butte/South Sioux/Niobrara River; Lower North Platte River Basin/Scottsbluff National Monument; Lodgepole Creek/Southern Nebraska Panhandle; Laramie Foothills and High Plains; Laramie East High Plains; Bordeaux/Chugwater/Wheatland; Goshen/Middle-Lower North Platte River Basin",
+        "geocode": {
+          "SAME": [
+            "031045",
+            "031165",
+            "031013",
+            "031123",
+            "031157",
+            "031007",
+            "031033",
+            "031105",
+            "056015",
+            "056001",
+            "056021",
+            "056031"
+          ],
+          "UGC": [
+            "NEZ434",
+            "NEZ435",
+            "NEZ436",
+            "NEZ437",
+            "WYZ430",
+            "WYZ431",
+            "WYZ432",
+            "WYZ433"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/NEZ434",
+          "https://api.weather.gov/zones/fire/NEZ435",
+          "https://api.weather.gov/zones/fire/NEZ436",
+          "https://api.weather.gov/zones/fire/NEZ437",
+          "https://api.weather.gov/zones/fire/WYZ430",
+          "https://api.weather.gov/zones/fire/WYZ431",
+          "https://api.weather.gov/zones/fire/WYZ432",
+          "https://api.weather.gov/zones/fire/WYZ433"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:54:00-06:00",
+        "effective": "2026-06-07T12:54:00-06:00",
+        "onset": "2026-06-09T12:00:00-06:00",
+        "expires": "2026-06-08T06:00:00-06:00",
+        "ends": "2026-06-10T21:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Cheyenne WY",
+        "headline": "Fire Weather Watch issued June 7 at 12:54PM MDT until June 10 at 9:00PM MDT by NWS Cheyenne WY",
+        "description": "The National Weather Service in Cheyenne has issued a Fire\nWeather Watch, which is in effect from Tuesday afternoon through\nWednesday evening.\n\n* AFFECTED AREA...Fire weather zone 434, 435, 436, 437, 430, 431,\n432, 433.\n\n* WIND...West to southwest winds 15 to 30 MPH with frequent gusts\nup to 40 MPH.\n\n* HUMIDITY...8 to 14 percent. Overnight recoveries as low as 25\npercent.\n\n* IMPACTS...any fires that develop will likely spread rapidly.\nOutdoor burning is not recommended.",
+        "instruction": "A Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWCYS"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KCYS 071854"
+          ],
+          "NWSheadline": [
+            "FIRE WEATHER WATCH IN EFFECT FROM TUESDAY AFTERNOON THROUGH WEDNESDAY EVENING FOR FIRE WEATHER ZONES 430, 431, 432, 433, 434, 435, 436, AND 437"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KCYS.FW.A.0015.260609T1800Z-260611T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-10T21:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWA"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for Wyoming",
+  "updated": "2026-06-08T03:50:22+00:00"
+}

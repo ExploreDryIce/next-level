@@ -431,7 +431,7 @@
   },
   {
     "event_type": "crypto_surge_eth",
-    "timestamp": 1780887287.52475,
+    "timestamp": 1780890656.127357,
     "severity_score": 0.29,
     "domain": "financial",
     "source": "coingecko",
@@ -444,7 +444,7 @@
   },
   {
     "event_type": "crypto_surge_hype",
-    "timestamp": 1780887287.524757,
+    "timestamp": 1780890656.127361,
     "severity_score": 0.305,
     "domain": "financial",
     "source": "coingecko",

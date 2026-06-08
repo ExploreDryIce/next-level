@@ -1,0 +1,256 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5b07136a5ea3182db10c3dad7ad5dd16a1bab4c.001.3",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5b07136a5ea3182db10c3dad7ad5dd16a1bab4c.001.3",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.c5b07136a5ea3182db10c3dad7ad5dd16a1bab4c.001.3",
+        "areaDesc": "West Central Mountains",
+        "geocode": {
+          "SAME": [
+            "035001",
+            "035006",
+            "035031",
+            "035043",
+            "035045",
+            "035061"
+          ],
+          "UGC": [
+            "NMZ105"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/NMZ105"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:08:00-06:00",
+        "effective": "2026-06-07T12:08:00-06:00",
+        "onset": "2026-06-08T12:00:00-06:00",
+        "expires": "2026-06-08T03:00:00-06:00",
+        "ends": "2026-06-08T21:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Albuquerque NM",
+        "headline": "Red Flag Warning issued June 7 at 12:08PM MDT until June 8 at 9:00PM MDT by NWS Albuquerque NM",
+        "description": "...RED FLAG WARNING IN EFFECT FROM NOON TO 9 PM MDT MONDAY DUE TO\nSTRONG WINDS AND LOW RELATIVE HUMIDITY FOR THE WEST CENTRAL\nMOUNTAINS...\n\n...RED FLAG WARNING IN EFFECT FROM NOON TO 9 PM MDT TUESDAY DUE TO\nSTRONG WINDS AND LOW RELATIVE HUMIDITY FOR THE WEST CENTRAL MOUNTAINS\nAND THE NORTHWEST PLATEAU...\n...\n\n.Strong southwest winds with low humidity, hot temperatures, and deep\nmixing will increase the risk for rapid fire spread over far west\ncentral New Mexico, including Gallup, Monday before expanding to much\nof northwest and west-central NM Tuesday. Any dry lightning strikes\nthat occur over west central New Mexico Monday may result in fire\nstarts that rapidly spread Tuesday.\n\nThe National Weather Service in Albuquerque NM has issued a Red Flag\nWarning in effect from noon to 9 PM MDT Tuesday, and a Red Flag\nWarning in effect from noon to 9 PM MDT Monday.\n\n* AFFECTED AREA...West Central Mountains (Zone 105).\n\n* TIMING...For the first Red Flag Warning, from noon to 9 PM MDT\nMonday. For the second Red Flag Warning, from noon to 9 PM MDT\nTuesday.\n\n* 20 FOOT WINDS...For the first Red Flag Warning, southwest winds 20\nto 25 mph with gusts up to 40 mph across far west central New\nMexico, including Gallup. For the second Red Flag Warning,\nsouthwest winds 20 to 30 mph with gusts up to 45 mph.\n\n* RELATIVE HUMIDITY...For the first Red Flag Warning, minimum\nrelative humidity values between 7 to 15 percent, and for the\nsecond Red Flag Warning, minimum relative humidity values between 6\nto 15 percent.\n\n* IMPACTS...Any fires that develop will spread rapidly. Outdoor\nburning is not recommended.",
+        "instruction": "Please advise the appropriate officials or fire crews in the field of\nthis Red Flag Warning.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWABQ"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KABQ 071808"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING IN EFFECT FROM NOON TO 9 PM MDT TUESDAY... ...RED FLAG WARNING IN EFFECT FROM NOON TO 9 PM MDT MONDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KABQ.FW.W.0042.260608T1800Z-260609T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T21:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5b07136a5ea3182db10c3dad7ad5dd16a1bab4c.001.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5b07136a5ea3182db10c3dad7ad5dd16a1bab4c.001.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.c5b07136a5ea3182db10c3dad7ad5dd16a1bab4c.001.2",
+        "areaDesc": "West Central Mountains",
+        "geocode": {
+          "SAME": [
+            "035001",
+            "035006",
+            "035031",
+            "035043",
+            "035045",
+            "035061"
+          ],
+          "UGC": [
+            "NMZ105"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/NMZ105"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:08:00-06:00",
+        "effective": "2026-06-07T12:08:00-06:00",
+        "onset": "2026-06-09T12:00:00-06:00",
+        "expires": "2026-06-08T03:00:00-06:00",
+        "ends": "2026-06-09T21:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Albuquerque NM",
+        "headline": "Red Flag Warning issued June 7 at 12:08PM MDT until June 9 at 9:00PM MDT by NWS Albuquerque NM",
+        "description": "...RED FLAG WARNING IN EFFECT FROM NOON TO 9 PM MDT MONDAY DUE TO\nSTRONG WINDS AND LOW RELATIVE HUMIDITY FOR THE WEST CENTRAL\nMOUNTAINS...\n\n...RED FLAG WARNING IN EFFECT FROM NOON TO 9 PM MDT TUESDAY DUE TO\nSTRONG WINDS AND LOW RELATIVE HUMIDITY FOR THE WEST CENTRAL MOUNTAINS\nAND THE NORTHWEST PLATEAU...\n...\n\n.Strong southwest winds with low humidity, hot temperatures, and deep\nmixing will increase the risk for rapid fire spread over far west\ncentral New Mexico, including Gallup, Monday before expanding to much\nof northwest and west-central NM Tuesday. Any dry lightning strikes\nthat occur over west central New Mexico Monday may result in fire\nstarts that rapidly spread Tuesday.\n\nThe National Weather Service in Albuquerque NM has issued a Red Flag\nWarning in effect from noon to 9 PM MDT Tuesday, and a Red Flag\nWarning in effect from noon to 9 PM MDT Monday.\n\n* AFFECTED AREA...West Central Mountains (Zone 105).\n\n* TIMING...For the first Red Flag Warning, from noon to 9 PM MDT\nMonday. For the second Red Flag Warning, from noon to 9 PM MDT\nTuesday.\n\n* 20 FOOT WINDS...For the first Red Flag Warning, southwest winds 20\nto 25 mph with gusts up to 40 mph across far west central New\nMexico, including Gallup. For the second Red Flag Warning,\nsouthwest winds 20 to 30 mph with gusts up to 45 mph.\n\n* RELATIVE HUMIDITY...For the first Red Flag Warning, minimum\nrelative humidity values between 7 to 15 percent, and for the\nsecond Red Flag Warning, minimum relative humidity values between 6\nto 15 percent.\n\n* IMPACTS...Any fires that develop will spread rapidly. Outdoor\nburning is not recommended.",
+        "instruction": "Please advise the appropriate officials or fire crews in the field of\nthis Red Flag Warning.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWABQ"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KABQ 071808"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING IN EFFECT FROM NOON TO 9 PM MDT TUESDAY... ...RED FLAG WARNING IN EFFECT FROM NOON TO 9 PM MDT MONDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KABQ.FW.W.0043.260609T1800Z-260610T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T21:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5b07136a5ea3182db10c3dad7ad5dd16a1bab4c.002.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5b07136a5ea3182db10c3dad7ad5dd16a1bab4c.002.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.c5b07136a5ea3182db10c3dad7ad5dd16a1bab4c.002.2",
+        "areaDesc": "Northwest Plateau",
+        "geocode": {
+          "SAME": [
+            "035031",
+            "035039",
+            "035043",
+            "035045"
+          ],
+          "UGC": [
+            "NMZ101"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/NMZ101"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:08:00-06:00",
+        "effective": "2026-06-07T12:08:00-06:00",
+        "onset": "2026-06-09T12:00:00-06:00",
+        "expires": "2026-06-08T03:00:00-06:00",
+        "ends": "2026-06-09T21:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Albuquerque NM",
+        "headline": "Red Flag Warning issued June 7 at 12:08PM MDT until June 9 at 9:00PM MDT by NWS Albuquerque NM",
+        "description": "...RED FLAG WARNING IN EFFECT FROM NOON TO 9 PM MDT MONDAY DUE TO\nSTRONG WINDS AND LOW RELATIVE HUMIDITY FOR THE WEST CENTRAL\nMOUNTAINS...\n\n...RED FLAG WARNING IN EFFECT FROM NOON TO 9 PM MDT TUESDAY DUE TO\nSTRONG WINDS AND LOW RELATIVE HUMIDITY FOR THE WEST CENTRAL MOUNTAINS\nAND THE NORTHWEST PLATEAU...\n...\n\n.Strong southwest winds with low humidity, hot temperatures, and deep\nmixing will increase the risk for rapid fire spread over far west\ncentral New Mexico, including Gallup, Monday before expanding to much\nof northwest and west-central NM Tuesday. Any dry lightning strikes\nthat occur over west central New Mexico Monday may result in fire\nstarts that rapidly spread Tuesday.\n\nThe National Weather Service in Albuquerque NM has issued a Red Flag\nWarning in effect from noon to 9 PM MDT Tuesday.\n\n* AFFECTED AREA...Northwest Plateau (Zone 101).\n\n* TIMING...From noon to 9 PM MDT Tuesday.\n\n* 20 FOOT WINDS...Southwest winds 20 to 25 mph with gusts up to 40\nmph.\n\n* RELATIVE HUMIDITY...Relative Humidity between 5 to 13 percent.\n\n* IMPACTS...Any fires that develop will spread rapidly. Outdoor\nburning is not recommended.",
+        "instruction": "Please advise the appropriate officials or fire crews in the field of\nthis Red Flag Warning.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWABQ"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KABQ 071808"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING IN EFFECT FROM NOON TO 9 PM MDT TUESDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KABQ.FW.W.0043.260609T1800Z-260610T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T21:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for New Mexico",
+  "updated": "2026-06-08T03:50:22+00:00"
+}

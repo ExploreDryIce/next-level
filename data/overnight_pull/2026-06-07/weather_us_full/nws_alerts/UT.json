@@ -1,0 +1,1018 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.1",
+        "areaDesc": "Little Snake; White River; Southwest Colorado Lower Forecast Area; Paradox Valley; Northern San Juan; North Fork; Gunnison Basin; Eastern Uintah Basin; Book Cliffs; Colorado River Basin; Southeast Utah",
+        "geocode": {
+          "SAME": [
+            "008081",
+            "008107",
+            "008045",
+            "008103",
+            "008033",
+            "008067",
+            "008083",
+            "008085",
+            "008113",
+            "008051",
+            "008053",
+            "008091",
+            "008029",
+            "049009",
+            "049047",
+            "049019",
+            "049015",
+            "049037",
+            "049055"
+          ],
+          "UGC": [
+            "COZ200",
+            "COZ202",
+            "COZ207",
+            "COZ290",
+            "COZ291",
+            "COZ292",
+            "COZ293",
+            "UTZ486",
+            "UTZ487",
+            "UTZ490",
+            "UTZ491"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ200",
+          "https://api.weather.gov/zones/fire/COZ202",
+          "https://api.weather.gov/zones/fire/COZ207",
+          "https://api.weather.gov/zones/fire/COZ290",
+          "https://api.weather.gov/zones/fire/COZ291",
+          "https://api.weather.gov/zones/fire/COZ292",
+          "https://api.weather.gov/zones/fire/COZ293",
+          "https://api.weather.gov/zones/fire/UTZ486",
+          "https://api.weather.gov/zones/fire/UTZ487",
+          "https://api.weather.gov/zones/fire/UTZ490",
+          "https://api.weather.gov/zones/fire/UTZ491"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c6394b0689cd0075513696485a9fef312e8641af.001.2",
+            "identifier": "urn:oid:2.49.0.1.840.0.c6394b0689cd0075513696485a9fef312e8641af.001.2",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-06T20:57:00-06:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c6394b0689cd0075513696485a9fef312e8641af.003.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.c6394b0689cd0075513696485a9fef312e8641af.003.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-06T20:57:00-06:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.5",
+            "identifier": "urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.5",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T11:38:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-07T12:36:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-07T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Red Flag Warning issued June 7 at 12:36PM MDT until June 7 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "* AFFECTED AREA...In Colorado, Fire Weather Zone 200 Little\nSnake Forecast Area, Fire Weather Zone 202 White River\nForecast Area, Fire Weather Zone 207 Southwest Colorado Lower\nForecast Area, Fire Weather Zone 290 Paradox Valley Forecast\nArea, Fire Weather Zone 291 Northern San Juan Forecast Area,\nFire Weather Zone 292 North Fork Forecast Area and Fire\nWeather Zone 293 Gunnison Basin Forecast Area. In Utah, Fire\nWeather Zone 486 Eastern Uinta Basin, Fire Weather Zone 487\nBook Cliffs, Fire Weather Zone 490 Colorado River Basin and\nFire Weather Zone 491 Southeast Utah.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 50 mph.\n\n* RELATIVE HUMIDITY...7 to 12 percent.\n\n* IMPACTS...Fires will catch and spread quickly. Exercise\nextreme caution with any outdoor burning.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT MONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT TUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...FIRE WEATHER WATCH REMAINS IN EFFECT FROM WEDNESDAY MORNING THROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 291, 292, 293, 486, 487, 490, AND 491"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KGJT.FW.W.0022.000000T0000Z-260608T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-07T22:00:00-06:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.57daf83bc84469ba1120438c5012c6437db573d5.003.1,2026-06-06T12:30:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.57daf83bc84469ba1120438c5012c6437db573d5.001.2,2026-06-06T12:30:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f572406e65f4475a263ea6ece90479c0bc17563e.003.1,2026-06-05T21:55:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f572406e65f4475a263ea6ece90479c0bc17563e.001.2,2026-06-05T21:55:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ace6b3b86f5f0e26d22b6ddf13c4656a1ee3f7d2.003.1,2026-06-05T10:47:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ace6b3b86f5f0e26d22b6ddf13c4656a1ee3f7d2.001.3,2026-06-05T10:47:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.2",
+        "areaDesc": "Little Snake; White River; Southwest Colorado Lower Forecast Area; Paradox Valley; Northern San Juan; North Fork; Gunnison Basin; Eastern Uintah Basin; Book Cliffs; Colorado River Basin; Southeast Utah",
+        "geocode": {
+          "SAME": [
+            "008081",
+            "008107",
+            "008045",
+            "008103",
+            "008033",
+            "008067",
+            "008083",
+            "008085",
+            "008113",
+            "008051",
+            "008053",
+            "008091",
+            "008029",
+            "049009",
+            "049047",
+            "049019",
+            "049015",
+            "049037",
+            "049055"
+          ],
+          "UGC": [
+            "COZ200",
+            "COZ202",
+            "COZ207",
+            "COZ290",
+            "COZ291",
+            "COZ292",
+            "COZ293",
+            "UTZ486",
+            "UTZ487",
+            "UTZ490",
+            "UTZ491"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ200",
+          "https://api.weather.gov/zones/fire/COZ202",
+          "https://api.weather.gov/zones/fire/COZ207",
+          "https://api.weather.gov/zones/fire/COZ290",
+          "https://api.weather.gov/zones/fire/COZ291",
+          "https://api.weather.gov/zones/fire/COZ292",
+          "https://api.weather.gov/zones/fire/COZ293",
+          "https://api.weather.gov/zones/fire/UTZ486",
+          "https://api.weather.gov/zones/fire/UTZ487",
+          "https://api.weather.gov/zones/fire/UTZ490",
+          "https://api.weather.gov/zones/fire/UTZ491"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.3",
+            "identifier": "urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.3",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T11:38:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-08T10:00:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-08T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Red Flag Warning issued June 7 at 12:36PM MDT until June 8 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "* AFFECTED AREA...In Colorado, Fire Weather Zone 200 Little\nSnake Forecast Area, Fire Weather Zone 202 White River\nForecast Area, Fire Weather Zone 207 Southwest Colorado Lower\nForecast Area, Fire Weather Zone 290 Paradox Valley Forecast\nArea, Fire Weather Zone 291 Northern San Juan Forecast Area,\nFire Weather Zone 292 North Fork Forecast Area and Fire\nWeather Zone 293 Gunnison Basin Forecast Area. In Utah, Fire\nWeather Zone 486 Eastern Uinta Basin, Fire Weather Zone 487\nBook Cliffs, Fire Weather Zone 490 Colorado River Basin and\nFire Weather Zone 491 Southeast Utah.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 50 mph.\n\n* RELATIVE HUMIDITY...7 to 12 percent.\n\n* IMPACTS...Fires will catch and spread quickly. Exercise\nextreme caution with any outdoor burning.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT MONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT TUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...FIRE WEATHER WATCH REMAINS IN EFFECT FROM WEDNESDAY MORNING THROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 291, 292, 293, 486, 487, 490, AND 491"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KGJT.FW.W.0023.260608T1600Z-260609T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.3",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.3",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.3",
+        "areaDesc": "Little Snake; White River; Southwest Colorado Lower Forecast Area; Paradox Valley; Northern San Juan; North Fork; Gunnison Basin; Eastern Uintah Basin; Book Cliffs; Colorado River Basin; Southeast Utah",
+        "geocode": {
+          "SAME": [
+            "008081",
+            "008107",
+            "008045",
+            "008103",
+            "008033",
+            "008067",
+            "008083",
+            "008085",
+            "008113",
+            "008051",
+            "008053",
+            "008091",
+            "008029",
+            "049009",
+            "049047",
+            "049019",
+            "049015",
+            "049037",
+            "049055"
+          ],
+          "UGC": [
+            "COZ200",
+            "COZ202",
+            "COZ207",
+            "COZ290",
+            "COZ291",
+            "COZ292",
+            "COZ293",
+            "UTZ486",
+            "UTZ487",
+            "UTZ490",
+            "UTZ491"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ200",
+          "https://api.weather.gov/zones/fire/COZ202",
+          "https://api.weather.gov/zones/fire/COZ207",
+          "https://api.weather.gov/zones/fire/COZ290",
+          "https://api.weather.gov/zones/fire/COZ291",
+          "https://api.weather.gov/zones/fire/COZ292",
+          "https://api.weather.gov/zones/fire/COZ293",
+          "https://api.weather.gov/zones/fire/UTZ486",
+          "https://api.weather.gov/zones/fire/UTZ487",
+          "https://api.weather.gov/zones/fire/UTZ490",
+          "https://api.weather.gov/zones/fire/UTZ491"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.2",
+            "identifier": "urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.2",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T11:38:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-09T10:00:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-09T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Red Flag Warning issued June 7 at 12:36PM MDT until June 9 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "* AFFECTED AREA...In Colorado, Fire Weather Zone 200 Little\nSnake Forecast Area, Fire Weather Zone 202 White River\nForecast Area, Fire Weather Zone 207 Southwest Colorado Lower\nForecast Area, Fire Weather Zone 290 Paradox Valley Forecast\nArea, Fire Weather Zone 291 Northern San Juan Forecast Area,\nFire Weather Zone 292 North Fork Forecast Area and Fire\nWeather Zone 293 Gunnison Basin Forecast Area. In Utah, Fire\nWeather Zone 486 Eastern Uinta Basin, Fire Weather Zone 487\nBook Cliffs, Fire Weather Zone 490 Colorado River Basin and\nFire Weather Zone 491 Southeast Utah.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 50 mph.\n\n* RELATIVE HUMIDITY...7 to 12 percent.\n\n* IMPACTS...Fires will catch and spread quickly. Exercise\nextreme caution with any outdoor burning.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT MONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT TUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...FIRE WEATHER WATCH REMAINS IN EFFECT FROM WEDNESDAY MORNING THROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 291, 292, 293, 486, 487, 490, AND 491"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KGJT.FW.W.0024.260609T1600Z-260610T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.4",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.4",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.a2dfefd978a7c4c5702bfd334553a1c3f46d2904.002.4",
+        "areaDesc": "Little Snake; White River; Southwest Colorado Lower Forecast Area; Paradox Valley; Northern San Juan; North Fork; Gunnison Basin; Eastern Uintah Basin; Book Cliffs; Colorado River Basin; Southeast Utah",
+        "geocode": {
+          "SAME": [
+            "008081",
+            "008107",
+            "008045",
+            "008103",
+            "008033",
+            "008067",
+            "008083",
+            "008085",
+            "008113",
+            "008051",
+            "008053",
+            "008091",
+            "008029",
+            "049009",
+            "049047",
+            "049019",
+            "049015",
+            "049037",
+            "049055"
+          ],
+          "UGC": [
+            "COZ200",
+            "COZ202",
+            "COZ207",
+            "COZ290",
+            "COZ291",
+            "COZ292",
+            "COZ293",
+            "UTZ486",
+            "UTZ487",
+            "UTZ490",
+            "UTZ491"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/COZ200",
+          "https://api.weather.gov/zones/fire/COZ202",
+          "https://api.weather.gov/zones/fire/COZ207",
+          "https://api.weather.gov/zones/fire/COZ290",
+          "https://api.weather.gov/zones/fire/COZ291",
+          "https://api.weather.gov/zones/fire/COZ292",
+          "https://api.weather.gov/zones/fire/COZ293",
+          "https://api.weather.gov/zones/fire/UTZ486",
+          "https://api.weather.gov/zones/fire/UTZ487",
+          "https://api.weather.gov/zones/fire/UTZ490",
+          "https://api.weather.gov/zones/fire/UTZ491"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.4",
+            "identifier": "urn:oid:2.49.0.1.840.0.80dadf0b7dc9b422de1b650bab974f95173bc1e5.001.4",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T11:38:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T12:36:00-06:00",
+        "effective": "2026-06-07T12:36:00-06:00",
+        "onset": "2026-06-10T10:00:00-06:00",
+        "expires": "2026-06-08T02:45:00-06:00",
+        "ends": "2026-06-10T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Grand Junction CO",
+        "headline": "Fire Weather Watch issued June 7 at 12:36PM MDT until June 10 at 10:00PM MDT by NWS Grand Junction CO",
+        "description": "* AFFECTED AREA...In Colorado, Fire Weather Zone 200 Little\nSnake Forecast Area, Fire Weather Zone 202 White River\nForecast Area, Fire Weather Zone 207 Southwest Colorado Lower\nForecast Area, Fire Weather Zone 290 Paradox Valley Forecast\nArea, Fire Weather Zone 291 Northern San Juan Forecast Area,\nFire Weather Zone 292 North Fork Forecast Area and Fire\nWeather Zone 293 Gunnison Basin Forecast Area. In Utah, Fire\nWeather Zone 486 Eastern Uinta Basin, Fire Weather Zone 487\nBook Cliffs, Fire Weather Zone 490 Colorado River Basin and\nFire Weather Zone 491 Southeast Utah.\n\n* TIMING...For the first Red Flag Warning, until 10 PM MDT this\nevening. For the second Red Flag Warning, from 10 AM to 10 PM\nMDT Monday. For the third Red Flag Warning, from 10 AM to 10\nPM MDT Tuesday. For the Fire Weather Watch, from Wednesday\nmorning through Wednesday evening.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 50 mph.\n\n* RELATIVE HUMIDITY...7 to 12 percent.\n\n* IMPACTS...Fires will catch and spread quickly. Exercise\nextreme caution with any outdoor burning.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now, or will shortly. A combination of\nstrong winds, low relative humidity, and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWGJT"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KGJT 071836"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT MONDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...RED FLAG WARNING REMAINS IN EFFECT FROM 10 AM TO 10 PM MDT TUESDAY FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 292, 486, 487, 490, AND 491... ...FIRE WEATHER WATCH REMAINS IN EFFECT FROM WEDNESDAY MORNING THROUGH WEDNESDAY EVENING FOR GUSTY WINDS, LOW RELATIVE HUMIDITY AND DRY FUELS FOR FIRE WEATHER ZONES 200, 202, 207, 290, 291, 292, 293, 486, 487, 490, AND 491"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KGJT.FW.A.0013.260610T1600Z-260611T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-10T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87578286da5b90eb2aa93a191832a306ebf334fd.002.3",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87578286da5b90eb2aa93a191832a306ebf334fd.002.3",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.87578286da5b90eb2aa93a191832a306ebf334fd.002.3",
+        "areaDesc": "Central Utah West Desert; Color Country West Desert; Mojave Desert",
+        "geocode": {
+          "SAME": [
+            "049001",
+            "049023",
+            "049027",
+            "049039",
+            "049041",
+            "049049",
+            "049021",
+            "049053"
+          ],
+          "UGC": [
+            "UTZ492",
+            "UTZ495",
+            "UTZ497"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/UTZ492",
+          "https://api.weather.gov/zones/fire/UTZ495",
+          "https://api.weather.gov/zones/fire/UTZ497"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9257316060f8d6a1cf0472580d5d10d5bc91e168.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.9257316060f8d6a1cf0472580d5d10d5bc91e168.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T03:22:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T12:05:00-06:00",
+        "effective": "2026-06-07T12:05:00-06:00",
+        "onset": "2026-06-07T12:05:00-06:00",
+        "expires": "2026-06-08T00:00:00-06:00",
+        "ends": "2026-06-07T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Salt Lake City UT",
+        "headline": "Red Flag Warning issued June 7 at 12:05PM MDT until June 7 at 10:00PM MDT by NWS Salt Lake City UT",
+        "description": "...RED FLAG WARNING IN EFFECT FROM 10 AM MONDAY TO 10 PM MDT\nTUESDAY FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES\n492, 495, AND 497...\n\nThe National Weather Service in Salt Lake City has issued a Red\nFlag Warning for gusty wind and low relative humidity, which is\nin effect through 10 PM MDT tonight. A Red Flag Warning has also\nbeen issued from 10 AM Monday to 10 PM Tuesday. The Fire Weather\nWatch is no longer in effect for Wednesday.\n\n* AFFECTED AREA...Fire Weather Zone 492 Central Utah West\nDesert, Fire Weather Zone 495 Color Country West Desert and\nFire Weather Zone 497 Mojave Desert.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 40 mph.\n\n* RELATIVE HUMIDITY...As low as 8 percent.\n\n* IMPACTS...Critical fire weather conditions are expected. Any\nnew fire starts or existing fires may spread rapidly.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now...or are imminent. A combination of\nstrong winds...low relative humidity...and warm temperatures can\ncontribute to extreme fire behavior.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWSLC"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KSLC 071805"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES 492, 495, AND 497"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KSLC.FW.W.0004.000000T0000Z-260608T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-07T22:00:00-06:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7ccc06a52443323b1c4f2e8378a1b565904c6789.001.1,2026-06-06T22:27:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.80a37709f47b61e3ffca31defcc5638077b2088c.001.1,2026-06-06T12:57:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4537d758fc88b4732ec62dcb6243657157dd68a1.001.1,2026-06-05T21:49:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.467643c19be94c7f46190532cc74868c6ce0e75b.001.1,2026-06-05T12:11:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87578286da5b90eb2aa93a191832a306ebf334fd.001.3",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87578286da5b90eb2aa93a191832a306ebf334fd.001.3",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.87578286da5b90eb2aa93a191832a306ebf334fd.001.3",
+        "areaDesc": "Tavaputs Plateau; San Rafael Swell; Central Utah Mountains; Henry Mountains; Color Country Mountains; Grand Staircase",
+        "geocode": {
+          "SAME": [
+            "049007",
+            "049013",
+            "049015",
+            "049049",
+            "049041",
+            "049055",
+            "049001",
+            "049017",
+            "049021",
+            "049027",
+            "049031",
+            "049039",
+            "049025",
+            "049053",
+            "049037"
+          ],
+          "UGC": [
+            "UTZ484",
+            "UTZ489",
+            "UTZ493",
+            "UTZ494",
+            "UTZ496",
+            "UTZ498"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/UTZ484",
+          "https://api.weather.gov/zones/fire/UTZ489",
+          "https://api.weather.gov/zones/fire/UTZ493",
+          "https://api.weather.gov/zones/fire/UTZ494",
+          "https://api.weather.gov/zones/fire/UTZ496",
+          "https://api.weather.gov/zones/fire/UTZ498"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9257316060f8d6a1cf0472580d5d10d5bc91e168.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.9257316060f8d6a1cf0472580d5d10d5bc91e168.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T03:22:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T12:05:00-06:00",
+        "effective": "2026-06-07T12:05:00-06:00",
+        "onset": "2026-06-07T12:05:00-06:00",
+        "expires": "2026-06-08T00:00:00-06:00",
+        "ends": "2026-06-07T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Salt Lake City UT",
+        "headline": "Red Flag Warning issued June 7 at 12:05PM MDT until June 7 at 10:00PM MDT by NWS Salt Lake City UT",
+        "description": "...RED FLAG WARNING IN EFFECT FROM 10 AM MONDAY TO 10 PM MDT\nTUESDAY FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES\n484, 489, 493, 494, 496, AND 498...\n\n...FIRE WEATHER WATCH NOW IN EFFECT FROM WEDNESDAY MORNING\nTHROUGH WEDNESDAY EVENING FOR WIND AND LOW RELATIVE HUMIDITY FOR\nFIRE WEATHER ZONES 484, 489, 493, 494, 496, AND 498...\n\nThe National Weather Service in Salt Lake City has issued a Red\nFlag Warning for gusty wind and low relative humidity, which is\nin effect through 10 PM MDT tonight. A Red Flag Warning has also\nbeen issued from 10 AM Monday to 10 PM Tuesday. A Fire Weather\nWatch also remains in effect Wednesday morning through Wednesday\nevening for the area.\n\n* AFFECTED AREA...Fire Weather Zone 484 Tavaputs Plateau, Fire\nWeather Zone 489 San Rafael Swell, Fire Weather Zone 493\nCentral Utah Mountains, Fire Weather Zone 494 Henry Mountains,\nFire Weather Zone 496 Color Country Mountains and Fire Weather\nZone 498 Grand Staircase.\n\n* WINDS...Southwest 20 to 25 mph with gusts up to 40 mph.\n\n* RELATIVE HUMIDITY...As low as 7 percent.\n\n* IMPACTS...Critical fire weather conditions are expected. Any\nnew fire starts or existing fires may spread rapidly.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now...or are imminent. A combination of\nstrong winds...low relative humidity...and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that there is a potential for critical\nfire weather conditions. Continue to monitor for the latest\nforecasts and for possible Red Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWSLC"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KSLC 071805"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES 484, 489, 493, 494, 496, AND 498"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KSLC.FW.W.0004.000000T0000Z-260608T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-07T22:00:00-06:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7ccc06a52443323b1c4f2e8378a1b565904c6789.001.1,2026-06-06T22:27:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.80a37709f47b61e3ffca31defcc5638077b2088c.001.1,2026-06-06T12:57:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4537d758fc88b4732ec62dcb6243657157dd68a1.001.1,2026-06-05T21:49:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.467643c19be94c7f46190532cc74868c6ce0e75b.001.1,2026-06-05T12:11:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87578286da5b90eb2aa93a191832a306ebf334fd.002.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87578286da5b90eb2aa93a191832a306ebf334fd.002.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.87578286da5b90eb2aa93a191832a306ebf334fd.002.2",
+        "areaDesc": "Central Utah West Desert; Color Country West Desert; Mojave Desert",
+        "geocode": {
+          "SAME": [
+            "049001",
+            "049023",
+            "049027",
+            "049039",
+            "049041",
+            "049049",
+            "049021",
+            "049053"
+          ],
+          "UGC": [
+            "UTZ492",
+            "UTZ495",
+            "UTZ497"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/UTZ492",
+          "https://api.weather.gov/zones/fire/UTZ495",
+          "https://api.weather.gov/zones/fire/UTZ497"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:05:00-06:00",
+        "effective": "2026-06-07T12:05:00-06:00",
+        "onset": "2026-06-08T10:00:00-06:00",
+        "expires": "2026-06-08T00:00:00-06:00",
+        "ends": "2026-06-09T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Salt Lake City UT",
+        "headline": "Red Flag Warning issued June 7 at 12:05PM MDT until June 9 at 10:00PM MDT by NWS Salt Lake City UT",
+        "description": "...RED FLAG WARNING IN EFFECT FROM 10 AM MONDAY TO 10 PM MDT\nTUESDAY FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES\n492, 495, AND 497...\n\nThe National Weather Service in Salt Lake City has issued a Red\nFlag Warning for gusty wind and low relative humidity, which is\nin effect through 10 PM MDT tonight. A Red Flag Warning has also\nbeen issued from 10 AM Monday to 10 PM Tuesday. The Fire Weather\nWatch is no longer in effect for Wednesday.\n\n* AFFECTED AREA...Fire Weather Zone 492 Central Utah West\nDesert, Fire Weather Zone 495 Color Country West Desert and\nFire Weather Zone 497 Mojave Desert.\n\n* WINDS...Southwest 20 to 30 mph with gusts up to 40 mph.\n\n* RELATIVE HUMIDITY...As low as 8 percent.\n\n* IMPACTS...Critical fire weather conditions are expected. Any\nnew fire starts or existing fires may spread rapidly.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now...or are imminent. A combination of\nstrong winds...low relative humidity...and warm temperatures can\ncontribute to extreme fire behavior.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWSLC"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KSLC 071805"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES 492, 495, AND 497"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KSLC.FW.W.0005.260608T1600Z-260610T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87578286da5b90eb2aa93a191832a306ebf334fd.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87578286da5b90eb2aa93a191832a306ebf334fd.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.87578286da5b90eb2aa93a191832a306ebf334fd.001.1",
+        "areaDesc": "Tavaputs Plateau; San Rafael Swell; Central Utah Mountains; Henry Mountains; Color Country Mountains; Grand Staircase",
+        "geocode": {
+          "SAME": [
+            "049007",
+            "049013",
+            "049015",
+            "049049",
+            "049041",
+            "049055",
+            "049001",
+            "049017",
+            "049021",
+            "049027",
+            "049031",
+            "049039",
+            "049025",
+            "049053",
+            "049037"
+          ],
+          "UGC": [
+            "UTZ484",
+            "UTZ489",
+            "UTZ493",
+            "UTZ494",
+            "UTZ496",
+            "UTZ498"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/UTZ484",
+          "https://api.weather.gov/zones/fire/UTZ489",
+          "https://api.weather.gov/zones/fire/UTZ493",
+          "https://api.weather.gov/zones/fire/UTZ494",
+          "https://api.weather.gov/zones/fire/UTZ496",
+          "https://api.weather.gov/zones/fire/UTZ498"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:05:00-06:00",
+        "effective": "2026-06-07T12:05:00-06:00",
+        "onset": "2026-06-08T10:00:00-06:00",
+        "expires": "2026-06-08T00:00:00-06:00",
+        "ends": "2026-06-09T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Red Flag Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Salt Lake City UT",
+        "headline": "Red Flag Warning issued June 7 at 12:05PM MDT until June 9 at 10:00PM MDT by NWS Salt Lake City UT",
+        "description": "...RED FLAG WARNING IN EFFECT FROM 10 AM MONDAY TO 10 PM MDT\nTUESDAY FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES\n484, 489, 493, 494, 496, AND 498...\n\n...FIRE WEATHER WATCH NOW IN EFFECT FROM WEDNESDAY MORNING\nTHROUGH WEDNESDAY EVENING FOR WIND AND LOW RELATIVE HUMIDITY FOR\nFIRE WEATHER ZONES 484, 489, 493, 494, 496, AND 498...\n\nThe National Weather Service in Salt Lake City has issued a Red\nFlag Warning for gusty wind and low relative humidity, which is\nin effect through 10 PM MDT tonight. A Red Flag Warning has also\nbeen issued from 10 AM Monday to 10 PM Tuesday. A Fire Weather\nWatch also remains in effect Wednesday morning through Wednesday\nevening for the area.\n\n* AFFECTED AREA...Fire Weather Zone 484 Tavaputs Plateau, Fire\nWeather Zone 489 San Rafael Swell, Fire Weather Zone 493\nCentral Utah Mountains, Fire Weather Zone 494 Henry Mountains,\nFire Weather Zone 496 Color Country Mountains and Fire Weather\nZone 498 Grand Staircase.\n\n* WINDS...Southwest 20 to 25 mph with gusts up to 40 mph.\n\n* RELATIVE HUMIDITY...As low as 7 percent.\n\n* IMPACTS...Critical fire weather conditions are expected. Any\nnew fire starts or existing fires may spread rapidly.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now...or are imminent. A combination of\nstrong winds...low relative humidity...and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that there is a potential for critical\nfire weather conditions. Continue to monitor for the latest\nforecasts and for possible Red Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWSLC"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KSLC 071805"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES 484, 489, 493, 494, 496, AND 498"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KSLC.FW.W.0005.260608T1600Z-260610T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T22:00:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87578286da5b90eb2aa93a191832a306ebf334fd.001.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.87578286da5b90eb2aa93a191832a306ebf334fd.001.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.87578286da5b90eb2aa93a191832a306ebf334fd.001.2",
+        "areaDesc": "Tavaputs Plateau; San Rafael Swell; Central Utah Mountains; Henry Mountains; Color Country Mountains; Grand Staircase",
+        "geocode": {
+          "SAME": [
+            "049007",
+            "049013",
+            "049015",
+            "049049",
+            "049041",
+            "049055",
+            "049001",
+            "049017",
+            "049021",
+            "049027",
+            "049031",
+            "049039",
+            "049025",
+            "049053",
+            "049037"
+          ],
+          "UGC": [
+            "UTZ484",
+            "UTZ489",
+            "UTZ493",
+            "UTZ494",
+            "UTZ496",
+            "UTZ498"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/UTZ484",
+          "https://api.weather.gov/zones/fire/UTZ489",
+          "https://api.weather.gov/zones/fire/UTZ493",
+          "https://api.weather.gov/zones/fire/UTZ494",
+          "https://api.weather.gov/zones/fire/UTZ496",
+          "https://api.weather.gov/zones/fire/UTZ498"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9257316060f8d6a1cf0472580d5d10d5bc91e168.001.2",
+            "identifier": "urn:oid:2.49.0.1.840.0.9257316060f8d6a1cf0472580d5d10d5bc91e168.001.2",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T03:22:00-06:00"
+          }
+        ],
+        "sent": "2026-06-07T12:05:00-06:00",
+        "effective": "2026-06-07T12:05:00-06:00",
+        "onset": "2026-06-10T10:00:00-06:00",
+        "expires": "2026-06-08T00:00:00-06:00",
+        "ends": "2026-06-10T22:00:00-06:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Salt Lake City UT",
+        "headline": "Fire Weather Watch issued June 7 at 12:05PM MDT until June 10 at 10:00PM MDT by NWS Salt Lake City UT",
+        "description": "...RED FLAG WARNING IN EFFECT FROM 10 AM MONDAY TO 10 PM MDT\nTUESDAY FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES\n484, 489, 493, 494, 496, AND 498...\n\n...FIRE WEATHER WATCH NOW IN EFFECT FROM WEDNESDAY MORNING\nTHROUGH WEDNESDAY EVENING FOR WIND AND LOW RELATIVE HUMIDITY FOR\nFIRE WEATHER ZONES 484, 489, 493, 494, 496, AND 498...\n\nThe National Weather Service in Salt Lake City has issued a Red\nFlag Warning for gusty wind and low relative humidity, which is\nin effect through 10 PM MDT tonight. A Red Flag Warning has also\nbeen issued from 10 AM Monday to 10 PM Tuesday. A Fire Weather\nWatch also remains in effect Wednesday morning through Wednesday\nevening for the area.\n\n* AFFECTED AREA...Fire Weather Zone 484 Tavaputs Plateau, Fire\nWeather Zone 489 San Rafael Swell, Fire Weather Zone 493\nCentral Utah Mountains, Fire Weather Zone 494 Henry Mountains,\nFire Weather Zone 496 Color Country Mountains and Fire Weather\nZone 498 Grand Staircase.\n\n* WINDS...Southwest 20 to 25 mph with gusts up to 40 mph.\n\n* RELATIVE HUMIDITY...As low as 7 percent.\n\n* IMPACTS...Critical fire weather conditions are expected. Any\nnew fire starts or existing fires may spread rapidly.",
+        "instruction": "A Red Flag Warning means that critical fire weather conditions\nare either occurring now...or are imminent. A combination of\nstrong winds...low relative humidity...and warm temperatures can\ncontribute to extreme fire behavior.\n\nA Fire Weather Watch means that there is a potential for critical\nfire weather conditions. Continue to monitor for the latest\nforecasts and for possible Red Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWSLC"
+          ],
+          "WMOidentifier": [
+            "WWUS85 KSLC 071805"
+          ],
+          "NWSheadline": [
+            "RED FLAG WARNING REMAINS IN EFFECT UNTIL 10 PM MDT THIS EVENING FOR WIND AND LOW RELATIVE HUMIDITY FOR FIRE WEATHER ZONES 484, 489, 493, 494, 496, AND 498"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.EXT.KSLC.FW.A.0004.260610T1600Z-260611T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-10T22:00:00-06:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7ccc06a52443323b1c4f2e8378a1b565904c6789.001.2,2026-06-06T22:27:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.80a37709f47b61e3ffca31defcc5638077b2088c.001.2,2026-06-06T12:57:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4537d758fc88b4732ec62dcb6243657157dd68a1.001.2,2026-06-05T21:49:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.467643c19be94c7f46190532cc74868c6ce0e75b.001.2,2026-06-05T12:11:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b3920080e6e94bed8ee131a3584ab53a3d623393.001.1,2026-06-04T22:10:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ca05cba6d1dcad42c51578d7bb0eb330e25b7bc2.001.1,2026-06-04T11:23:00-06:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWA"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for Utah",
+  "updated": "2026-06-08T03:50:22+00:00"
+}

@@ -1,0 +1,220 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e7a1ad7baeefea6283cd51ff2132fa18fb17b9af.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e7a1ad7baeefea6283cd51ff2132fa18fb17b9af.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.e7a1ad7baeefea6283cd51ff2132fa18fb17b9af.001.1",
+        "areaDesc": "Northern Panhandle; Northeast Mountains; Okanogan Highlands; Western Okanogan County",
+        "geocode": {
+          "SAME": [
+            "016017",
+            "016021",
+            "016055",
+            "053051",
+            "053063",
+            "053065",
+            "053019",
+            "053047"
+          ],
+          "UGC": [
+            "IDZ001",
+            "WAZ037",
+            "WAZ038",
+            "WAZ049"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/IDZ001",
+          "https://api.weather.gov/zones/forecast/WAZ037",
+          "https://api.weather.gov/zones/forecast/WAZ038",
+          "https://api.weather.gov/zones/forecast/WAZ049"
+        ],
+        "references": [],
+        "sent": "2026-06-07T11:39:00-07:00",
+        "effective": "2026-06-07T11:39:00-07:00",
+        "onset": "2026-06-08T00:00:00-07:00",
+        "expires": "2026-06-08T08:00:00-07:00",
+        "ends": "2026-06-08T08:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Frost Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Spokane WA",
+        "headline": "Frost Advisory issued June 7 at 11:39AM PDT until June 8 at 8:00AM PDT by NWS Spokane WA",
+        "description": "* WHAT...Temperatures as low as 30 will result in frost formation.\n\n* WHERE...Springdale-Hunters Road, Sherman Pass, Winthrop,\nSchweitzer Mountain Road, Twisp, Tiger, Conconully, Republic,\nMethow, Kettle Falls, Wauconda, Fruitland, Orin-Rice Road, Priest\nRiver, Athol, Boulder Creek Road, Metaline Falls, Sandpoint, Clark\nFork, Bonners Ferry, Newport, Chewelah, Chesaw Road, Ione,\nMetaline, Eastport, Colville, Inchelium, Flowery Trail Road,\nMazama, Highway 20 Wauconda Summit, Loup Loup Pass, Deer Park, and\nNorthport.\n\n* WHEN...From midnight tonight to 8 AM PDT Monday.\n\n* IMPACTS...Frost could harm sensitive outdoor vegetation. Sensitive\noutdoor plants may be killed if left uncovered.",
+        "instruction": "Take steps now to protect tender plants from the cold.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "NPWOTX"
+          ],
+          "WMOidentifier": [
+            "WWUS76 KOTX 071839"
+          ],
+          "NWSheadline": [
+            "FROST ADVISORY IN EFFECT FROM MIDNIGHT TONIGHT TO 8 AM PDT MONDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KOTX.FR.Y.0007.260608T0700Z-260608T1500Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T08:00:00-07:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FRY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f4dfd0367d415f0b2afabe605ae383dc10d71e86.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -120.76,
+              48.49
+            ],
+            [
+              -120.57,
+              48.32
+            ],
+            [
+              -120.67,
+              48.25
+            ],
+            [
+              -121.01,
+              48.31
+            ],
+            [
+              -121.03,
+              48.48
+            ],
+            [
+              -120.76,
+              48.49
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f4dfd0367d415f0b2afabe605ae383dc10d71e86.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.f4dfd0367d415f0b2afabe605ae383dc10d71e86.001.1",
+        "areaDesc": "Chelan, WA",
+        "geocode": {
+          "SAME": [
+            "053007"
+          ],
+          "UGC": [
+            "WAC007"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/WAC007"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e8aea2e2e6214098864c5d8d682e181e3e0d8117.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.e8aea2e2e6214098864c5d8d682e181e3e0d8117.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-06T12:06:00-07:00"
+          }
+        ],
+        "sent": "2026-06-07T11:33:00-07:00",
+        "effective": "2026-06-07T11:33:00-07:00",
+        "onset": "2026-06-07T11:33:00-07:00",
+        "expires": "2026-06-08T12:15:00-07:00",
+        "ends": null,
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Spokane WA",
+        "headline": "Flood Warning issued June 7 at 11:33AM PDT by NWS Spokane WA",
+        "description": "...The Flood Warning continues for the following rivers in\nWashington...\n\nStehekin River at Stehekin affecting Chelan County.\n\nFor the Stehekin River...including Stehekin...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is occurring and forecast to continue.\n\n* WHERE...Stehekin River at Stehekin.\n\n* WHEN...Until further notice.\n\n* IMPACTS...At 20.5 feet, water inundates some properties and\novertops the temporary corduroy bridge. Company Creek Road\ninundated at northern end. Battalion Creek culverts are beginning\nto be overtopped. Water begins damaging Wood Road.\n\n* ADDITIONAL DETAILS...\n- At 10:30 AM PDT Sunday the stage was 20.4 feet.\n- Bankfull stage is 19.5 feet.\n- Forecast...The river is currently below flood stage and is in\naction stage. However, it will then rise above flood stage\nTuesday morning to 20.9 feet late Wednesday morning. It will\ncontinue to fluctuate between below and above flood stage\nthrough the week.\n- Flood stage is 20.5 feet.\n- http://www.weather.gov/safety/flood",
+        "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nThis warning will be in effect until the river falls below its flood\nstage.\n\nAdditional information is available at www.weather.gov.\n\nThe next statement will be issued Monday afternoon at 1215 PM PDT.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSOTX"
+          ],
+          "WMOidentifier": [
+            "WGUS86 KOTX 071833"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING FOR SNOWMELT REMAINS IN EFFECT UNTIL FURTHER NOTICE"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.CON.KOTX.FL.W.0007.000000T0000Z-000000T0000Z/"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.65b54d57cf2190ced783803eac7d5476be2c6822.001.1,2026-06-05T11:12:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.070f9c0a93df06e8453b413018f0f8f06a4a939e.001.1,2026-06-04T11:38:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ca76b569853153e15d4e263fa8e0e644f6bf9409.001.1,2026-06-03T12:19:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7ed28794f7db71d9ef26866ba28d8e497c99899f.001.1,2026-06-02T12:07:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f4559260429b8389f87ef87c42cce5c6253af2b2.001.1,2026-06-01T12:21:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.058ced2ddffb806a50ce04eee2f5edb1b019297a.001.1,2026-05-31T08:44:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2cafef32120da88355c5574e7105f8166c8617f0.001.1,2026-05-29T09:52:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.07d60498ca1974461904a3b29bfe0323354b2248.001.1,2026-05-28T11:39:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a02d8f7b05d0650c274eb0626729a036becc93a5.001.1,2026-05-27T11:46:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a92175120a7dbe0cad1d1ccb53a3e05a153f465a.001.1,2026-05-26T12:15:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c2cc755eab1ae15643cc1a6625b1c19a0e61b77e.001.1,2026-05-25T12:16:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d35e053570351afc1595fd49ac72d50e489ed2cf.001.1,2026-05-24T11:37:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.428352ff09e43d74f78e49785ce2c11209528afa.001.1,2026-05-23T11:25:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5e96f9e0ef6fe34f04e0f4561a966369de60f0df.001.1,2026-05-22T12:05:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8173bad65346c188c47bea014cd839e79dbdd8a2.001.1,2026-05-21T12:14:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ece78144cb07a27f52eeab607d2a249fcb675d46.001.1,2026-05-20T11:42:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.341b2e2a57662989fc861db13a5d7ff911c2c628.001.1,2026-05-19T12:00:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2065eb466c3e6a0e6e40c30f17bdc4e5893c8de5.001.1,2026-05-18T11:16:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.347995cc4d54cd44f3354d2f4d711b8f5e21ac0a.001.1,2026-05-17T11:53:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2ec29773247f00494b8b3290f4a2a433edda3e09.001.1,2026-05-16T11:51:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.82fc471559645fcc3fefe49b4855bde43a7dde2b.001.1,2026-05-15T12:04:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fab1eb0da3247c25d7438b4a78e33846421b5825.001.1,2026-05-14T11:56:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ec2d85723f24990f83a6a418a1341ee537bda767.001.1,2026-05-13T10:46:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ee842a9d500fd2040fa527002fb87bc8cf9bdcf9.001.1,2026-05-12T11:47:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d8cabbb40f02c5b04bb902f4ff68d54b448daa4c.001.1,2026-05-11T11:34:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.583cb34f8e5b45d1cb96ab2c805d91cfc90b2b45.001.1,2026-05-10T11:26:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.eec208f9ef98d9dd00dbc71dd5614c1ed74ef042.001.1,2026-05-09T11:06:00-07:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7831f7ccb69521677c23c580ae308a52c00ff9ed.001.1,2026-05-08T11:55:00-07:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLS"
+          ],
+          "NationalWeatherService": [
+            "FLW"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for Washington",
+  "updated": "2026-06-08T03:50:22+00:00"
+}

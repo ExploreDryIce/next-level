@@ -1,0 +1,165 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b6d8736fc48636a39c31c1d1d963ae0e84e5e6a.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b6d8736fc48636a39c31c1d1d963ae0e84e5e6a.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.5b6d8736fc48636a39c31c1d1d963ae0e84e5e6a.001.1",
+        "areaDesc": "Cherokee; Clay; Scott; Campbell; Morgan; Anderson; Union; Roane; Loudon; Knox; NW Blount; Blount Smoky Mountains; North Sevier; Sevier Smoky Mountains; Sequatchie; Bledsoe; Rhea; Meigs; McMinn; Northwest Monroe; Southeast Monroe; Marion; Hamilton; Bradley; West Polk; East Polk",
+        "geocode": {
+          "SAME": [
+            "037039",
+            "037043",
+            "047151",
+            "047013",
+            "047129",
+            "047001",
+            "047173",
+            "047145",
+            "047105",
+            "047093",
+            "047009",
+            "047155",
+            "047153",
+            "047007",
+            "047143",
+            "047121",
+            "047107",
+            "047123",
+            "047115",
+            "047065",
+            "047011",
+            "047139"
+          ],
+          "UGC": [
+            "NCZ060",
+            "NCZ061",
+            "TNZ012",
+            "TNZ013",
+            "TNZ035",
+            "TNZ036",
+            "TNZ037",
+            "TNZ067",
+            "TNZ068",
+            "TNZ069",
+            "TNZ071",
+            "TNZ072",
+            "TNZ073",
+            "TNZ074",
+            "TNZ081",
+            "TNZ082",
+            "TNZ083",
+            "TNZ084",
+            "TNZ085",
+            "TNZ086",
+            "TNZ087",
+            "TNZ098",
+            "TNZ099",
+            "TNZ100",
+            "TNZ101",
+            "TNZ102"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/NCZ060",
+          "https://api.weather.gov/zones/forecast/NCZ061",
+          "https://api.weather.gov/zones/forecast/TNZ012",
+          "https://api.weather.gov/zones/forecast/TNZ013",
+          "https://api.weather.gov/zones/forecast/TNZ035",
+          "https://api.weather.gov/zones/forecast/TNZ036",
+          "https://api.weather.gov/zones/forecast/TNZ037",
+          "https://api.weather.gov/zones/forecast/TNZ067",
+          "https://api.weather.gov/zones/forecast/TNZ068",
+          "https://api.weather.gov/zones/forecast/TNZ069",
+          "https://api.weather.gov/zones/forecast/TNZ071",
+          "https://api.weather.gov/zones/forecast/TNZ072",
+          "https://api.weather.gov/zones/forecast/TNZ073",
+          "https://api.weather.gov/zones/forecast/TNZ074",
+          "https://api.weather.gov/zones/forecast/TNZ081",
+          "https://api.weather.gov/zones/forecast/TNZ082",
+          "https://api.weather.gov/zones/forecast/TNZ083",
+          "https://api.weather.gov/zones/forecast/TNZ084",
+          "https://api.weather.gov/zones/forecast/TNZ085",
+          "https://api.weather.gov/zones/forecast/TNZ086",
+          "https://api.weather.gov/zones/forecast/TNZ087",
+          "https://api.weather.gov/zones/forecast/TNZ098",
+          "https://api.weather.gov/zones/forecast/TNZ099",
+          "https://api.weather.gov/zones/forecast/TNZ100",
+          "https://api.weather.gov/zones/forecast/TNZ101",
+          "https://api.weather.gov/zones/forecast/TNZ102"
+        ],
+        "references": [],
+        "sent": "2026-06-07T14:09:00-04:00",
+        "effective": "2026-06-07T14:09:00-04:00",
+        "onset": "2026-06-08T07:00:00-04:00",
+        "expires": "2026-06-08T03:00:00-04:00",
+        "ends": "2026-06-08T21:00:00-04:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Morristown TN",
+        "headline": "Flood Watch issued June 7 at 2:09PM EDT until June 8 at 9:00PM EDT by NWS Morristown TN",
+        "description": "* WHAT...Flash flooding caused by excessive rainfall is possible.\n\n* WHERE...Portions of southwest North Carolina, including the\nfollowing areas, Cherokee and Clay and east Tennessee, including\nthe following areas, Anderson, Bledsoe, Blount Smoky Mountains,\nBradley, Campbell, East Polk, Hamilton, Knox, Loudon, Marion,\nMcMinn, Meigs, Morgan, North Sevier, Northwest Blount, Northwest\nMonroe, Rhea, Roane, Scott TN, Sequatchie, Sevier Smoky Mountains,\nSoutheast Monroe, Union and West Polk.\n\n* WHEN...From Monday morning through Monday evening.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\n\n* ADDITIONAL DETAILS...\n- Showers and thunderstorms will move into the area Monday,\nsome with very heavy rainfall.  Rainfall rates of 1 to 3\ninches per hour will be possible and some locations will\nalready heave wet ground, which will lead to the risk of\nisolated flash flooding especially in areas that see repeated\nor prolonged periods of heavy rain.\n- http://www.weather.gov/safety/flood",
+        "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFAMRX"
+          ],
+          "WMOidentifier": [
+            "WGUS64 KMRX 071809"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH IN EFFECT FROM MONDAY MORNING THROUGH MONDAY EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.NEW.KMRX.FA.A.0005.260608T1100Z-260609T0100Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T21:00:00-04:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFA"
+          ],
+          "NationalWeatherService": [
+            "FAA"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for North Carolina",
+  "updated": "2026-06-08T03:50:22+00:00"
+}

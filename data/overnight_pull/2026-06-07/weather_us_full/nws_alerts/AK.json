@@ -1,0 +1,98 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.766e4514aae4f0d3ce7f9a4ad7aa008367b6328a.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.766e4514aae4f0d3ce7f9a4ad7aa008367b6328a.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.766e4514aae4f0d3ce7f9a4ad7aa008367b6328a.001.1",
+        "areaDesc": "Central Brooks Range",
+        "geocode": {
+          "SAME": [
+            "002185"
+          ],
+          "UGC": [
+            "AKZ809"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/AKZ809"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8776e85d2acfe124d810b84aa6646f8989aac359.001.2",
+            "identifier": "urn:oid:2.49.0.1.840.0.8776e85d2acfe124d810b84aa6646f8989aac359.001.2",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-06T12:58:00-08:00"
+          }
+        ],
+        "sent": "2026-06-07T15:35:00-08:00",
+        "effective": "2026-06-07T15:35:00-08:00",
+        "onset": "2026-06-07T15:35:00-08:00",
+        "expires": "2026-06-08T22:00:00-08:00",
+        "ends": "2026-06-08T22:00:00-08:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Winter Weather Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fairbanks AK",
+        "headline": "Winter Weather Advisory issued June 7 at 3:35PM AKDT until June 8 at 10:00PM AKDT by NWS Fairbanks AK",
+        "description": "* WHAT...Snow. Total snow accumulations between 4 and 8 inches.\nWinds gusting as high as 30 mph at Atigun Pass.\n\n* WHERE...Central Brooks Range.\n\n* WHEN...Until 10 PM AKDT Monday.\n\n* IMPACTS...Travel could be difficult. Gusty winds could lead to\nareas of blowing snow which could significantly reduce visibility.\n\n* ADDITIONAL DETAILS...Heaviest snow totals are expected across the\nsouthern Arctic Plains and northern slopes of the Brooks Range.",
+        "instruction": "Slow down and use caution while traveling. Visit 511.alaska.gov or\ncall 5 1 1 for the latest road conditions.",
+        "response": "Execute",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "WSWNSB"
+          ],
+          "WMOidentifier": [
+            "WWAK41 PAFG 072335"
+          ],
+          "NWSheadline": [
+            "WINTER WEATHER ADVISORY REMAINS IN EFFECT UNTIL 10 PM AKDT MONDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.PAFG.WW.Y.0070.000000T0000Z-260609T0600Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T22:00:00-08:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "WWY"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for Alaska",
+  "updated": "2026-06-08T03:49:47+00:00"
+}

@@ -1,0 +1,960 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.15f356c1ac451cc909e42969a6dce1790cc2fd6b.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -86.49,
+              34.76
+            ],
+            [
+              -86.38,
+              34.75
+            ],
+            [
+              -86.39,
+              34.61
+            ],
+            [
+              -86.47,
+              34.47
+            ],
+            [
+              -86.55,
+              34.54
+            ],
+            [
+              -86.49,
+              34.76
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.15f356c1ac451cc909e42969a6dce1790cc2fd6b.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.15f356c1ac451cc909e42969a6dce1790cc2fd6b.001.1",
+        "areaDesc": "Madison, AL",
+        "geocode": {
+          "SAME": [
+            "001089"
+          ],
+          "UGC": [
+            "ALC089"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ALC089"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.23d06136f9c25c68b8e1f3a0dbaad5471e200e9b.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.23d06136f9c25c68b8e1f3a0dbaad5471e200e9b.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T13:47:00-05:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.959483992f298163bf11d3af506ad73096226a41.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.959483992f298163bf11d3af506ad73096226a41.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T15:20:00-05:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b3ba17eb46c1fbab556f7de6491323e4d14f7895.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.b3ba17eb46c1fbab556f7de6491323e4d14f7895.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T20:18:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T21:57:00-05:00",
+        "effective": "2026-06-07T21:57:00-05:00",
+        "onset": "2026-06-07T21:57:00-05:00",
+        "expires": "2026-06-08T10:00:00-05:00",
+        "ends": "2026-06-09T09:49:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued June 7 at 9:57PM CDT until June 9 at 9:49AM CDT by NWS Huntsville AL",
+        "description": "...The Flood Warning continues for the following rivers in Alabama...\n\nFlint River at Brownsboro affecting Madison County.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Flint River at Brownsboro.\n\n* WHEN...Until late Tuesday morning.\n\n* IMPACTS...At 21.0 feet, Floodwaters reach a house trailer off of\nBrownsboro Road and waters likely cover Brownsboro Road to the\npoint that it must be closed.\n\n* ADDITIONAL DETAILS...\n- At 9:30 PM CDT Sunday the stage was 20.2 feet.\n- Bankfull stage is 15.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 9:30 PM CDT Sunday was 20.2 feet.\n- Forecast...The river is expected to rise to a crest of 21.5\nfeet tomorrow morning. It will then fall below flood stage\nearly Tuesday morning.\n- Flood stage is 17.0 feet.",
+        "instruction": "Be especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nMotorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nTurn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nAdditional information is available at www.weather.gov.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSHUN"
+          ],
+          "WMOidentifier": [
+            "WGUS84 KHUN 080257"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING REMAINS IN EFFECT UNTIL LATE TUESDAY MORNING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.CON.KHUN.FL.W.0005.000000T0000Z-260609T1449Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T09:49:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLS"
+          ],
+          "NationalWeatherService": [
+            "FLW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.69404eb39afe9b515e0fe0a770c28afd09e2b4e4.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -86.67,
+              34.57
+            ],
+            [
+              -86.68,
+              34.58
+            ],
+            [
+              -86.7,
+              34.59
+            ],
+            [
+              -86.72,
+              34.59
+            ],
+            [
+              -86.74,
+              34.57
+            ],
+            [
+              -86.73,
+              34.86
+            ],
+            [
+              -86.66,
+              34.86
+            ],
+            [
+              -86.67,
+              34.57
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.69404eb39afe9b515e0fe0a770c28afd09e2b4e4.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.69404eb39afe9b515e0fe0a770c28afd09e2b4e4.001.1",
+        "areaDesc": "Madison, AL",
+        "geocode": {
+          "SAME": [
+            "001089"
+          ],
+          "UGC": [
+            "ALC089"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ALC089"
+        ],
+        "references": [],
+        "sent": "2026-06-07T21:54:00-05:00",
+        "effective": "2026-06-07T21:54:00-05:00",
+        "onset": "2026-06-07T21:54:00-05:00",
+        "expires": "2026-06-08T03:00:00-05:00",
+        "ends": "2026-06-08T03:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued June 7 at 9:54PM CDT until June 8 at 3:00AM CDT by NWS Huntsville AL",
+        "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of north central Alabama, including the\nfollowing county, Madison.\n\n* WHEN...Until 300 AM CDT.\n\n* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying\nand flood-prone locations is imminent or occurring.\n\n* ADDITIONAL DETAILS...\n- At 954 PM CDT, the public reported heavy rain in the warned\narea due to thunderstorms. Flooding is already occurring.\nBetween 2 and 4 inches of rain have fallen.\n- Additional rainfall amounts of 0.2 to 0.5 inches are possible\nin the warned area.\n- Some locations that will experience flooding include...\nNorthwestern Huntsville, Madison, Redstone Arsenal, Triana,\nMarshall Space Flight Center and Harvest.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLWHUN"
+          ],
+          "WMOidentifier": [
+            "WGUS44 KHUN 080254"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING IN EFFECT UNTIL 3 AM CDT MONDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.NEW.KHUN.FA.W.0009.260608T0254Z-260608T0800Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T03:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLW"
+          ],
+          "NationalWeatherService": [
+            "FAW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.53bd3b4bb82d087a2a0b42d792382090a661bd76.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -86.55,
+              33.56
+            ],
+            [
+              -86.52,
+              33.55
+            ],
+            [
+              -86.52,
+              33.52
+            ],
+            [
+              -86.56,
+              33.52
+            ],
+            [
+              -86.6,
+              33.47
+            ],
+            [
+              -86.67,
+              33.47
+            ],
+            [
+              -86.67,
+              33.45
+            ],
+            [
+              -86.69,
+              33.45
+            ],
+            [
+              -86.72,
+              33.42
+            ],
+            [
+              -86.75,
+              33.42
+            ],
+            [
+              -86.76,
+              33.39
+            ],
+            [
+              -86.83,
+              33.36
+            ],
+            [
+              -86.87,
+              33.33
+            ],
+            [
+              -86.88,
+              33.33
+            ],
+            [
+              -87.02,
+              33.45
+            ],
+            [
+              -86.92,
+              33.52
+            ],
+            [
+              -86.8,
+              33.68
+            ],
+            [
+              -86.69,
+              33.7
+            ],
+            [
+              -86.61,
+              33.69
+            ],
+            [
+              -86.55,
+              33.64
+            ],
+            [
+              -86.55,
+              33.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.53bd3b4bb82d087a2a0b42d792382090a661bd76.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.53bd3b4bb82d087a2a0b42d792382090a661bd76.001.1",
+        "areaDesc": "Jefferson, AL",
+        "geocode": {
+          "SAME": [
+            "001073"
+          ],
+          "UGC": [
+            "ALC073"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ALC073"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d9c05340fd7f397e3b3393b1c9a3e13e2170dd1.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.4d9c05340fd7f397e3b3393b1c9a3e13e2170dd1.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T20:47:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T21:26:00-05:00",
+        "effective": "2026-06-07T21:26:00-05:00",
+        "onset": "2026-06-07T21:26:00-05:00",
+        "expires": "2026-06-08T00:00:00-05:00",
+        "ends": "2026-06-08T00:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flash Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flash Flood Warning issued June 7 at 9:26PM CDT until June 8 at 12:00AM CDT by NWS Birmingham AL",
+        "description": "At 926 PM CDT, local law enforcement reported thunderstorms\nproducing heavy rain across the warned area. Between 1.5 and 2\ninches of rain have fallen. Additional rainfall amounts of 1 to 3\ninches are possible in the warned area. Flash flooding is ongoing or\nexpected to begin shortly.\n\nHAZARD...Flash flooding caused by thunderstorms.\n\nSOURCE...Law enforcement reported.\n\nIMPACT...Flash flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other poor\ndrainage and low-lying areas.\n\nSome locations that will experience flash flooding include...\nBirmingham, Hoover, Vestavia Hills, Bessemer, Homewood, Mountain\nBrook, Trussville, Hueytown, Gardendale, Irondale, Leeds, Moody,\nFairfield, Fultondale, Center Point, Pleasant Grove, Clay, Pinson,\nTarrant and Midfield.",
+        "instruction": "Be especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nBe aware of your surroundings and do not drive on flooded roads.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFSBMX"
+          ],
+          "WMOidentifier": [
+            "WGUS74 KBMX 080226"
+          ],
+          "NWSheadline": [
+            "FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL MIDNIGHT CDT TONIGHT FOR SOUTHEASTERN JEFFERSON COUNTY"
+          ],
+          "flashFloodDetection": [
+            "OBSERVED"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.CON.KBMX.FF.W.0011.000000T0000Z-260608T0500Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T00:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFS"
+          ],
+          "NationalWeatherService": [
+            "FFW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f32a7c72b7b0bd966d9fe7232cedcd5f4186b864.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -86.28,
+              34.91
+            ],
+            [
+              -86.06,
+              34.89
+            ],
+            [
+              -86.37,
+              34.42
+            ],
+            [
+              -86.53,
+              34.5
+            ],
+            [
+              -86.28,
+              34.91
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f32a7c72b7b0bd966d9fe7232cedcd5f4186b864.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.f32a7c72b7b0bd966d9fe7232cedcd5f4186b864.001.1",
+        "areaDesc": "Jackson, AL; Madison, AL; Marshall, AL",
+        "geocode": {
+          "SAME": [
+            "001071",
+            "001089",
+            "001095"
+          ],
+          "UGC": [
+            "ALC071",
+            "ALC089",
+            "ALC095"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ALC071",
+          "https://api.weather.gov/zones/county/ALC089",
+          "https://api.weather.gov/zones/county/ALC095"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fdc22d2c635a03ce8efd2a32ab5794e354c983c4.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.fdc22d2c635a03ce8efd2a32ab5794e354c983c4.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T13:44:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T20:14:00-05:00",
+        "effective": "2026-06-07T20:14:00-05:00",
+        "onset": "2026-06-07T23:58:00-05:00",
+        "expires": "2026-06-08T08:15:00-05:00",
+        "ends": "2026-06-10T18:08:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued June 7 at 8:14PM CDT until June 10 at 6:08PM CDT by NWS Huntsville AL",
+        "description": "...The Flood Warning is extended for the following rivers in\nAlabama...\n\nPaint Rock River near Woodville affecting Madison, Jackson and\nMarshall Counties.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Paint Rock River near Woodville.\n\n* WHEN...From this evening to Wednesday evening.\n\n* IMPACTS...At 19.0 feet, Water is covering Alabama State Route 65\nabout two miles north of U.S. Highway 72. Several County Roads in\nPaint Rock Valley are flooded...including Jackson County Road 20.\n\n* ADDITIONAL DETAILS...\n- At 8:00 PM CDT Sunday the stage was 13.1 feet.\n- Bankfull stage is 12.0 feet.\n- Forecast...The river is expected to rise above flood stage\nlate this evening, then eventually crest at 18.5 feet early\nTuesday morning. It will then fall below flood stage early\nWednesday afternoon.\n- Flood stage is 15.0 feet.",
+        "instruction": "Please report observed flooding to local emergency services or law\nenforcement and request they pass this information to the National\nWeather Service when you can do so safely.\n\nMotorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nTurn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nAdditional information is available at www.weather.gov.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSHUN"
+          ],
+          "WMOidentifier": [
+            "WGUS84 KHUN 080114"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING NOW IN EFFECT FROM THIS EVENING TO WEDNESDAY EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KHUN.FL.W.0004.260608T0458Z-260610T2308Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-10T18:08:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLS"
+          ],
+          "NationalWeatherService": [
+            "FLW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.40c388283c21ac95553c31ada033c2d7ee5965b9.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -86.06,
+              33.85
+            ],
+            [
+              -86.07,
+              33.52
+            ],
+            [
+              -86.48,
+              33.51
+            ],
+            [
+              -86.48,
+              33.55
+            ],
+            [
+              -86.52,
+              33.55
+            ],
+            [
+              -86.52,
+              33.52
+            ],
+            [
+              -86.57,
+              33.51
+            ],
+            [
+              -86.98,
+              33.49
+            ],
+            [
+              -86.96,
+              33.71
+            ],
+            [
+              -86.55,
+              33.83
+            ],
+            [
+              -86.06,
+              33.85
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.40c388283c21ac95553c31ada033c2d7ee5965b9.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.40c388283c21ac95553c31ada033c2d7ee5965b9.001.1",
+        "areaDesc": "Blount, AL; Calhoun, AL; Jefferson, AL; St. Clair, AL; Talladega, AL",
+        "geocode": {
+          "SAME": [
+            "001009",
+            "001015",
+            "001073",
+            "001115",
+            "001121"
+          ],
+          "UGC": [
+            "ALC009",
+            "ALC015",
+            "ALC073",
+            "ALC115",
+            "ALC121"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ALC009",
+          "https://api.weather.gov/zones/county/ALC015",
+          "https://api.weather.gov/zones/county/ALC073",
+          "https://api.weather.gov/zones/county/ALC115",
+          "https://api.weather.gov/zones/county/ALC121"
+        ],
+        "references": [],
+        "sent": "2026-06-07T20:07:00-05:00",
+        "effective": "2026-06-07T20:07:00-05:00",
+        "onset": "2026-06-07T20:07:00-05:00",
+        "expires": "2026-06-07T23:15:00-05:00",
+        "ends": "2026-06-07T23:15:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Advisory issued June 7 at 8:07PM CDT until June 7 at 11:15PM CDT by NWS Birmingham AL",
+        "description": "* WHAT...Urban and small stream flooding caused by excessive\nrainfall is expected.\n\n* WHERE...A portion of central Alabama, including the following\ncounties, Blount, Calhoun, Jefferson, St. Clair and Talladega.\n\n* WHEN...Until 1115 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 807 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. This will cause urban and small stream\nflooding.\n- Some locations that will experience flooding include...\nBirmingham, Mountain Brook, Trussville, Gardendale, Pell\nCity, Irondale, Leeds, Moody, Fairfield, Fultondale,\nSpringville, Odenville, Center Point, Pleasant Grove, Clay,\nPinson, Tarrant, Lincoln, Adamsville and Margaret.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nBe aware of your surroundings and do not drive on flooded roads.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSBMX"
+          ],
+          "WMOidentifier": [
+            "WGUS84 KBMX 080107"
+          ],
+          "NWSheadline": [
+            "FLOOD ADVISORY IN EFFECT UNTIL 1115 PM CDT THIS EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KBMX.FA.Y.0034.260608T0107Z-260608T0415Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-07T23:15:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FAY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c60ab939f20b7cb0bd7f235089559d86ed3870d8.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.25,
+              33.17
+            ],
+            [
+              -85.18,
+              32.86
+            ],
+            [
+              -85.18,
+              32.85
+            ],
+            [
+              -85.16,
+              32.86
+            ],
+            [
+              -85.16,
+              32.85
+            ],
+            [
+              -85.15,
+              32.84
+            ],
+            [
+              -85.17,
+              32.83
+            ],
+            [
+              -85.17,
+              32.81
+            ],
+            [
+              -85.15,
+              32.79
+            ],
+            [
+              -85.14,
+              32.79
+            ],
+            [
+              -85.12,
+              32.77
+            ],
+            [
+              -85.14,
+              32.77
+            ],
+            [
+              -85.14,
+              32.76
+            ],
+            [
+              -85.14,
+              32.75
+            ],
+            [
+              -85.11,
+              32.74
+            ],
+            [
+              -85.12,
+              32.72
+            ],
+            [
+              -85.12,
+              32.7
+            ],
+            [
+              -85.37,
+              32.66
+            ],
+            [
+              -85.53,
+              33.15
+            ],
+            [
+              -85.25,
+              33.17
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c60ab939f20b7cb0bd7f235089559d86ed3870d8.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.c60ab939f20b7cb0bd7f235089559d86ed3870d8.001.1",
+        "areaDesc": "Chambers, AL; Lee, AL; Randolph, AL",
+        "geocode": {
+          "SAME": [
+            "001017",
+            "001081",
+            "001111"
+          ],
+          "UGC": [
+            "ALC017",
+            "ALC081",
+            "ALC111"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ALC017",
+          "https://api.weather.gov/zones/county/ALC081",
+          "https://api.weather.gov/zones/county/ALC111"
+        ],
+        "references": [],
+        "sent": "2026-06-07T19:47:00-05:00",
+        "effective": "2026-06-07T19:47:00-05:00",
+        "onset": "2026-06-07T19:47:00-05:00",
+        "expires": "2026-06-07T23:00:00-05:00",
+        "ends": "2026-06-07T23:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Minor",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Birmingham AL",
+        "headline": "Flood Advisory issued June 7 at 7:47PM CDT until June 7 at 11:00PM CDT by NWS Birmingham AL",
+        "description": "* WHAT...Small stream flooding caused by excessive rainfall is\nexpected.\n\n* WHERE...A portion of central Alabama, including the following\ncounties, Chambers, Lee and Randolph.\n\n* WHEN...Until 1100 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\n\n* ADDITIONAL DETAILS...\n- At 747 PM CDT, Doppler radar indicated heavy rain due to\nthunderstorms. This will cause small stream flooding.\n- Some locations that will experience flooding include...\nOpelika, Valley, Lanett, Roanoke, Lafayette, Stroud, La\nFayette, Lakeview, Five Points, Cusseta, Denson, Fredonia,\nBuffalo, Chambers County Lake, Veasey Creek Park, Huguley,\nAmity Park, Post Oak Forks, Penton and Welch.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSBMX"
+          ],
+          "WMOidentifier": [
+            "WGUS84 KBMX 080047"
+          ],
+          "NWSheadline": [
+            "FLOOD ADVISORY IN EFFECT UNTIL 11 PM CDT THIS EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KBMX.FA.Y.0033.260608T0047Z-260608T0400Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-07T23:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FAY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd609abd3c8e9c790cfeb877a706fb4e8831d658.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd609abd3c8e9c790cfeb877a706fb4e8831d658.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.cd609abd3c8e9c790cfeb877a706fb4e8831d658.001.1",
+        "areaDesc": "Lauderdale; Limestone; Madison; Jackson; Moore; Lincoln; Franklin",
+        "geocode": {
+          "SAME": [
+            "001077",
+            "001083",
+            "001089",
+            "001071",
+            "047127",
+            "047103",
+            "047051"
+          ],
+          "UGC": [
+            "ALZ001",
+            "ALZ005",
+            "ALZ006",
+            "ALZ009",
+            "TNZ076",
+            "TNZ096",
+            "TNZ097"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/ALZ001",
+          "https://api.weather.gov/zones/forecast/ALZ005",
+          "https://api.weather.gov/zones/forecast/ALZ006",
+          "https://api.weather.gov/zones/forecast/ALZ009",
+          "https://api.weather.gov/zones/forecast/TNZ076",
+          "https://api.weather.gov/zones/forecast/TNZ096",
+          "https://api.weather.gov/zones/forecast/TNZ097"
+        ],
+        "references": [],
+        "sent": "2026-06-07T13:12:00-05:00",
+        "effective": "2026-06-07T13:12:00-05:00",
+        "onset": "2026-06-08T06:00:00-05:00",
+        "expires": "2026-06-08T10:00:00-05:00",
+        "ends": "2026-06-08T20:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Watch issued June 7 at 1:12PM CDT until June 8 at 8:00PM CDT by NWS Huntsville AL",
+        "description": "* WHAT...Flooding caused by excessive rainfall is possible.\n\n* WHERE...Portions of Alabama, including the following areas,\nJackson, Lauderdale, Limestone and Madison and southern middle\nTennessee, including the following areas, Franklin TN, Lincoln and\nMoore.\n\n* WHEN...From Monday morning through Monday evening.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks. Flooding may occur\nin poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- Recent heavy rainfall has caused saturated soils, which will\nincrease the risk of flash flooding as additional rainfall\nmoves in.\n- http://www.weather.gov/safety/flood",
+        "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFAHUN"
+          ],
+          "WMOidentifier": [
+            "WGUS64 KHUN 071812"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH IN EFFECT FROM MONDAY MORNING THROUGH MONDAY EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.NEW.KHUN.FA.A.0005.260608T1100Z-260609T0100Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T20:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFA"
+          ],
+          "NationalWeatherService": [
+            "FAA"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for Alabama",
+  "updated": "2026-06-08T03:49:47+00:00"
+}

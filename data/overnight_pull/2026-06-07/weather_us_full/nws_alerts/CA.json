@@ -1,0 +1,684 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.297bfddc5aff6114caf4757a53a450a5e64cc87e.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.297bfddc5aff6114caf4757a53a450a5e64cc87e.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.297bfddc5aff6114caf4757a53a450a5e64cc87e.002.1",
+        "areaDesc": "Ventura County Beaches",
+        "geocode": {
+          "SAME": [
+            "006111"
+          ],
+          "UGC": [
+            "CAZ354"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/CAZ354"
+        ],
+        "references": [],
+        "sent": "2026-06-07T19:22:00-07:00",
+        "effective": "2026-06-07T19:22:00-07:00",
+        "onset": "2026-06-09T08:00:00-07:00",
+        "expires": "2026-06-08T09:15:00-07:00",
+        "ends": "2026-06-11T20:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Beach Hazards Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Los Angeles/Oxnard CA",
+        "headline": "Beach Hazards Statement issued June 7 at 7:22PM PDT until June 11 at 8:00PM PDT by NWS Los Angeles/Oxnard CA",
+        "description": "* WHAT...Dangerous rip currents and breaking waves due to elevated\nsurf of 3 to 6 feet with local sets to 7 feet on south facing\nbeaches.\n\n* WHERE...Ventura County Beaches.\ndue to elevated\nsurf of 3 to 6 feet with local sets to 7 feet on south facing\nbeaches.\n* WHEN...From Tuesday morning through Thursday evening.\n\n* IMPACTS...There is an increased risk of ocean drowning. Rip\ncurrents can pull swimmers and surfers out to sea. Waves can\nwash people off beaches and rocks, and capsize small boats\nnearshore.",
+        "instruction": "Remain out of the water due to hazardous swimming conditions, or\nstay near occupied lifeguard towers. Rock jetties can be deadly\nin such conditions, stay off the rocks.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CFWLOX"
+          ],
+          "WMOidentifier": [
+            "WHUS46 KLOX 080222"
+          ],
+          "NWSheadline": [
+            "BEACH HAZARDS STATEMENT IN EFFECT FROM TUESDAY MORNING THROUGH THURSDAY EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KLOX.BH.S.0008.260609T1500Z-260612T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-11T20:00:00-07:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "BHS"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.297bfddc5aff6114caf4757a53a450a5e64cc87e.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.297bfddc5aff6114caf4757a53a450a5e64cc87e.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.297bfddc5aff6114caf4757a53a450a5e64cc87e.001.1",
+        "areaDesc": "Catalina and Santa Barbara Islands; Malibu Coast; Los Angeles County Beaches",
+        "geocode": {
+          "SAME": [
+            "006037"
+          ],
+          "UGC": [
+            "CAZ087",
+            "CAZ362",
+            "CAZ366"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/CAZ087",
+          "https://api.weather.gov/zones/forecast/CAZ362",
+          "https://api.weather.gov/zones/forecast/CAZ366"
+        ],
+        "references": [],
+        "sent": "2026-06-07T19:22:00-07:00",
+        "effective": "2026-06-07T19:22:00-07:00",
+        "onset": "2026-06-09T08:00:00-07:00",
+        "expires": "2026-06-08T09:15:00-07:00",
+        "ends": "2026-06-11T20:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Beach Hazards Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Los Angeles/Oxnard CA",
+        "headline": "Beach Hazards Statement issued June 7 at 7:22PM PDT until June 11 at 8:00PM PDT by NWS Los Angeles/Oxnard CA",
+        "description": "* WHAT...Dangerous rip currents and breaking waves due to elevated\nsurf of 3 to 6 feet with local sets to 7 feet on south facing\nbeaches.\n\n* WHERE...Catalina and Santa Barbara Islands, Malibu Coast and\nLos Angeles County Beaches.\n\n* WHEN...From Tuesday morning through Thursday evening.\n\n* IMPACTS...There is an increased risk of ocean drowning. Rip\ncurrents can pull swimmers and surfers out to sea. Waves can\nwash people off beaches and rocks, and capsize small boats\nnearshore.",
+        "instruction": "Remain out of the water due to hazardous swimming conditions, or\nstay near occupied lifeguard towers. Rock jetties can be deadly\nin such conditions, stay off the rocks.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CFWLOX"
+          ],
+          "WMOidentifier": [
+            "WHUS46 KLOX 080222"
+          ],
+          "NWSheadline": [
+            "BEACH HAZARDS STATEMENT IN EFFECT FROM TUESDAY MORNING THROUGH THURSDAY EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KLOX.BH.S.0008.260609T1500Z-260612T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-11T20:00:00-07:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "BHS"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e286c76b5f93353a23273d0bc57e1756dc620c2c.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e286c76b5f93353a23273d0bc57e1756dc620c2c.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.e286c76b5f93353a23273d0bc57e1756dc620c2c.001.1",
+        "areaDesc": "Santa Barbara County Southwestern Coast; Santa Ynez Mountains Western Range",
+        "geocode": {
+          "SAME": [
+            "006083"
+          ],
+          "UGC": [
+            "CAZ349",
+            "CAZ351"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/CAZ349",
+          "https://api.weather.gov/zones/forecast/CAZ351"
+        ],
+        "references": [],
+        "sent": "2026-06-07T18:10:00-07:00",
+        "effective": "2026-06-07T18:10:00-07:00",
+        "onset": "2026-06-08T17:00:00-07:00",
+        "expires": "2026-06-08T15:15:00-07:00",
+        "ends": "2026-06-09T00:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Los Angeles/Oxnard CA",
+        "headline": "Wind Advisory issued June 7 at 6:10PM PDT until June 9 at 12:00AM PDT by NWS Los Angeles/Oxnard CA",
+        "description": "* WHAT...Northwest winds 20 to 30 mph with gusts up to 45 mph\nexpected.\n\n* WHERE...Santa Barbara County Southwestern Coast and Santa Ynez\nMountains Western Range.\n\n* WHEN...From 5 PM Monday to midnight PDT Monday Night.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+        "instruction": "Winds this strong can make driving difficult, especially for high\nprofile vehicles. Use extra caution.",
+        "response": "Execute",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "NPWLOX"
+          ],
+          "WMOidentifier": [
+            "WWUS76 KLOX 080110"
+          ],
+          "NWSheadline": [
+            "WIND ADVISORY IN EFFECT FROM 5 PM MONDAY TO MIDNIGHT PDT MONDAY NIGHT"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KLOX.WI.Y.0040.260609T0000Z-260609T0700Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T00:00:00-07:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "WIY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e286c76b5f93353a23273d0bc57e1756dc620c2c.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e286c76b5f93353a23273d0bc57e1756dc620c2c.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.e286c76b5f93353a23273d0bc57e1756dc620c2c.002.1",
+        "areaDesc": "Interstate 5 Corridor",
+        "geocode": {
+          "SAME": [
+            "006037"
+          ],
+          "UGC": [
+            "CAZ378"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/CAZ378"
+        ],
+        "references": [],
+        "sent": "2026-06-07T18:10:00-07:00",
+        "effective": "2026-06-07T18:10:00-07:00",
+        "onset": "2026-06-08T21:00:00-07:00",
+        "expires": "2026-06-08T15:15:00-07:00",
+        "ends": "2026-06-09T10:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Los Angeles/Oxnard CA",
+        "headline": "Wind Advisory issued June 7 at 6:10PM PDT until June 9 at 10:00AM PDT by NWS Los Angeles/Oxnard CA",
+        "description": "* WHAT...Northwest winds 20 to 30 mph with gusts up to 45 mph\nexpected.\n\n* WHERE...Interstate 5 Corridor.\n\n* WHEN...From 9 PM Monday to 10 AM PDT Tuesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+        "instruction": "Winds this strong can make driving difficult, especially for high\nprofile vehicles. Use extra caution.",
+        "response": "Execute",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "NPWLOX"
+          ],
+          "WMOidentifier": [
+            "WWUS76 KLOX 080110"
+          ],
+          "NWSheadline": [
+            "WIND ADVISORY IN EFFECT FROM 9 PM MONDAY TO 10 AM PDT TUESDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KLOX.WI.Y.0040.260609T0400Z-260609T1700Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T10:00:00-07:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "WIY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.637c288d6608112a72dc92f3bfa531f8a0e1c523.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.637c288d6608112a72dc92f3bfa531f8a0e1c523.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.637c288d6608112a72dc92f3bfa531f8a0e1c523.001.1",
+        "areaDesc": "Mojave Desert Slopes",
+        "geocode": {
+          "SAME": [
+            "006029"
+          ],
+          "UGC": [
+            "CAZ338"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/CAZ338"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b92c9d535b333665614298da386f368c0e2d9c24.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.b92c9d535b333665614298da386f368c0e2d9c24.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T09:59:00-07:00"
+          }
+        ],
+        "sent": "2026-06-07T17:37:00-07:00",
+        "effective": "2026-06-07T17:37:00-07:00",
+        "onset": "2026-06-07T17:37:00-07:00",
+        "expires": "2026-06-08T03:00:00-07:00",
+        "ends": "2026-06-09T05:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Hanford CA",
+        "headline": "Wind Advisory issued June 7 at 5:37PM PDT until June 9 at 5:00AM PDT by NWS Hanford CA",
+        "description": "* WHAT...West winds 30 to 40 mph with gusts up to 60 mph.\n\n* WHERE...Mojave Desert Slopes.\n\n* WHEN...Until 5 AM PDT Tuesday.\n\n* IMPACTS...Gusty winds will blow around unsecured objects. Tree\nlimbs could be blown down and a few power outages may result.",
+        "instruction": "Winds this strong can make driving difficult, especially for high\nprofile vehicles. Use extra caution.",
+        "response": "Execute",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "NPWHNX"
+          ],
+          "WMOidentifier": [
+            "WWUS76 KHNX 080037"
+          ],
+          "NWSheadline": [
+            "WIND ADVISORY REMAINS IN EFFECT UNTIL 5 AM PDT TUESDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KHNX.WI.Y.0026.000000T0000Z-260609T1200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T05:00:00-07:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "WIY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.255ad6dff7013ab1fb84d99aa0b7ad4a902552c9.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.255ad6dff7013ab1fb84d99aa0b7ad4a902552c9.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.255ad6dff7013ab1fb84d99aa0b7ad4a902552c9.001.1",
+        "areaDesc": "San Diego County Coastal Areas; Orange County Coastal",
+        "geocode": {
+          "SAME": [
+            "006073",
+            "006059"
+          ],
+          "UGC": [
+            "CAZ043",
+            "CAZ552"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/CAZ043",
+          "https://api.weather.gov/zones/forecast/CAZ552"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:19:00-07:00",
+        "effective": "2026-06-07T12:19:00-07:00",
+        "onset": "2026-06-09T03:00:00-07:00",
+        "expires": "2026-06-07T23:30:00-07:00",
+        "ends": "2026-06-11T17:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Beach Hazards Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS San Diego CA",
+        "headline": "Beach Hazards Statement issued June 7 at 12:19PM PDT until June 11 at 5:00PM PDT by NWS San Diego CA",
+        "description": "* WHAT...South swell from 190 degrees with a period of 18 to 19\nseconds will generate surf of 4 to 7 feet with sets up to 8 feet.\nHigh rip current risk.\n\n* WHERE...San Diego County Coastal Areas and Orange County\nCoastal Areas.\n\n* WHEN...From late Monday night through Thursday afternoon.\n\n* IMPACTS...Hazardous swimming conditions and a high rip current\nrisk. If you become caught in a rip current, yell for help.\nRemain calm and do not exhaust yourself and stay afloat while\nwaiting for help. If you have to swim out of a rip current, SWIM\nPARALLEL TO SHORE and back toward the beach when possible. Do\nnot attempt to swim directly against a rip current as you will\ntire quickly.\n\n* ADDITIONAL DETAILS....Highest surf will be at south-facing\nbeaches and peak Tuesday and Wednesday. Swell and surf will\nslowly subside beginning Thursday with a shorter period, but\nwill remain elevated into Friday.",
+        "instruction": "Remain out of the water to avoid hazardous swimming conditions.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CFWSGX"
+          ],
+          "WMOidentifier": [
+            "WHUS46 KSGX 071919"
+          ],
+          "NWSheadline": [
+            "BEACH HAZARDS STATEMENT IN EFFECT FROM LATE MONDAY NIGHT THROUGH THURSDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KSGX.BH.S.0005.260609T1000Z-260612T0000Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-11T17:00:00-07:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "BHS"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1cccf204805984915fe4a9c38dfc90260f25f491.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1cccf204805984915fe4a9c38dfc90260f25f491.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.1cccf204805984915fe4a9c38dfc90260f25f491.001.1",
+        "areaDesc": "South-Central Shasta County Including Redding Metro; Northern Sacramento Valley in Tehama County; Central Glenn County Including Interstate 5; Eastern Glenn County; Butte County Below 1000 ft; Central Colusa County Including Interstate 5; Eastern Colusa County; Sutter and Yuba Counties Below 1000 ft; Western Yolo County Including Capay Valley and Interstate 505; Central Yolo and Northeast Solano Counties Including Woodland and Davis; Sacramento Metro and Western El Dorado and Amador Counties; Central Solano County Including Fairfield and Vacaville; Sacramento County Delta",
+        "geocode": {
+          "SAME": [
+            "006089",
+            "006103",
+            "006021",
+            "006007",
+            "006011",
+            "006057",
+            "006061",
+            "006101",
+            "006115",
+            "006095",
+            "006113",
+            "006005",
+            "006017",
+            "006067"
+          ],
+          "UGC": [
+            "CAZ124",
+            "CAZ142",
+            "CAZ144",
+            "CAZ145",
+            "CAZ146",
+            "CAZ148",
+            "CAZ149",
+            "CAZ150",
+            "CAZ152",
+            "CAZ153",
+            "CAZ154",
+            "CAZ155",
+            "CAZ157"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/fire/CAZ124",
+          "https://api.weather.gov/zones/fire/CAZ142",
+          "https://api.weather.gov/zones/fire/CAZ144",
+          "https://api.weather.gov/zones/fire/CAZ145",
+          "https://api.weather.gov/zones/fire/CAZ146",
+          "https://api.weather.gov/zones/fire/CAZ148",
+          "https://api.weather.gov/zones/fire/CAZ149",
+          "https://api.weather.gov/zones/fire/CAZ150",
+          "https://api.weather.gov/zones/fire/CAZ152",
+          "https://api.weather.gov/zones/fire/CAZ153",
+          "https://api.weather.gov/zones/fire/CAZ154",
+          "https://api.weather.gov/zones/fire/CAZ155",
+          "https://api.weather.gov/zones/fire/CAZ157"
+        ],
+        "references": [],
+        "sent": "2026-06-07T10:06:00-07:00",
+        "effective": "2026-06-07T10:06:00-07:00",
+        "onset": "2026-06-10T11:00:00-07:00",
+        "expires": "2026-06-08T10:15:00-07:00",
+        "ends": "2026-06-11T17:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Fire Weather Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Sacramento CA",
+        "headline": "Fire Weather Watch issued June 7 at 10:06AM PDT until June 11 at 5:00PM PDT by NWS Sacramento CA",
+        "description": "The National Weather Service in Sacramento has issued a Fire\nWeather Watch for gusty winds and low humidity, which is in\neffect from Wednesday morning through Thursday afternoon.\n\n* Winds...North winds 15 to 25 mph. Gusts 30 to 40 mph, strongest along\nthe far western Sacramento Valley.\n\n* Humidity...Daytime minimum humidities of 9 to 15%; Overnight\nmaximum relative humidities 25 to 50%\n\n* Highest Threat...Along and west of the Interstate 5 corridor in\nthe Sacramento Valley.\n\n* Impacts...The combination of gusty winds and low humidity can\ncause fire to rapidly grow in size and intensity. Outdoor\nburning is not recommended",
+        "instruction": "A Fire Weather Watch means that critical fire weather conditions\nare forecast to occur. Listen for later forecasts and possible\nRed Flag Warnings.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "RFWSTO"
+          ],
+          "WMOidentifier": [
+            "WWUS86 KSTO 071706"
+          ],
+          "NWSheadline": [
+            "FIRE WEATHER WATCH IN EFFECT FROM WEDNESDAY MORNING THROUGH THURSDAY AFTERNOON FOR GUSTY WINDS AND LOW HUMIDITY FOR FIRE ZONES 124,142,144,145,146,148,149,150,152,153,154,155 AND 157"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KSTO.FW.A.0002.260610T1800Z-260612T0000Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-11T17:00:00-07:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "FWA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03b0b95c1233a140bb43aa499543292286ec2b4c.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.03b0b95c1233a140bb43aa499543292286ec2b4c.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.03b0b95c1233a140bb43aa499543292286ec2b4c.001.1",
+        "areaDesc": "Greater Lake Tahoe Area; Greater Lake Tahoe Area",
+        "geocode": {
+          "SAME": [
+            "006003",
+            "006017",
+            "006057",
+            "006061",
+            "032005",
+            "032031",
+            "032510"
+          ],
+          "UGC": [
+            "CAZ072",
+            "NVZ002"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/CAZ072",
+          "https://api.weather.gov/zones/forecast/NVZ002"
+        ],
+        "references": [],
+        "sent": "2026-06-07T09:22:00-07:00",
+        "effective": "2026-06-07T09:22:00-07:00",
+        "onset": "2026-06-08T11:00:00-07:00",
+        "expires": "2026-06-08T17:00:00-07:00",
+        "ends": "2026-06-08T23:00:00-07:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Lake Wind Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Reno NV",
+        "headline": "Lake Wind Advisory issued June 7 at 9:22AM PDT until June 8 at 11:00PM PDT by NWS Reno NV",
+        "description": "* WHAT...Southwest winds 15 to 25 mph with gusts up to 35 mph and\nwaves 1 to 3 feet for Lake Tahoe.\n\n* WHERE...Greater Lake Tahoe Area.\n\n* WHEN...From 11 AM to 11 PM PDT Monday.\n\n* IMPACTS...Small boats, kayaks and paddle boards will be prone to\ncapsizing and should remain off lake waters until conditions\nimprove.",
+        "instruction": "Check lake conditions before heading out and be prepared for a\nsudden increase in winds and wave heights. Consider postponing\nboating activities on the lake until a day with less wind.",
+        "response": "Execute",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "NPWREV"
+          ],
+          "WMOidentifier": [
+            "WWUS75 KREV 071622"
+          ],
+          "NWSheadline": [
+            "LAKE WIND ADVISORY IN EFFECT FROM 11 AM TO 11 PM PDT MONDAY FOR LAKE TAHOE"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.NEW.KREV.LW.Y.0018.260608T1800Z-260609T0600Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T23:00:00-07:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "LWY"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for California",
+  "updated": "2026-06-08T03:49:47+00:00"
+}

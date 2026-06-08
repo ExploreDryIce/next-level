@@ -18,6 +18,7 @@ import asyncio
 import json
 import time
 import logging
+from pathlib import Path
 from typing import Dict, List, Set
 from dataclasses import dataclass, field
 
@@ -42,20 +43,27 @@ class PatternBroker:
     
     Runs on the coordinator node (Mac). All other nodes connect to this.
     Receives patterns, decides relevance, forwards to interested nodes.
+    Persists patterns to disk so intelligence survives restarts.
     """
 
     def __init__(self, host: str = "0.0.0.0", port: int = 9876):
         self.host = host
         self.port = port
         self.nodes: Dict[str, ConnectedNode] = {}
-        self.pattern_pool: List[dict] = []  # All patterns received
-        self.max_pool_size = 10000
+        self.pattern_pool: List[dict] = []
+        self.max_pool_size = 50000
         self.server = None
         self.stats = {
             "total_patterns_relayed": 0,
             "total_connections": 0,
             "start_time": 0,
         }
+
+        # Persistence
+        self._store_path = Path.home() / ".dvce" / "swarm" / "pattern_store.json"
+        self._store_path.parent.mkdir(parents=True, exist_ok=True)
+        self._dirty = False  # Patterns modified since last save
+        self._load_pattern_store()
 
     async def start(self):
         """Start the broker server."""
@@ -66,7 +74,12 @@ class PatternBroker:
 
         addr = self.server.sockets[0].getsockname()
         logger.info(f"🌐 Pattern Broker running on {addr[0]}:{addr[1]}")
+        logger.info(f"   Pattern store: {self._store_path} ({len(self.pattern_pool)} patterns loaded)")
         logger.info(f"   Waiting for swarm nodes to connect...")
+
+        # Start periodic tasks
+        asyncio.create_task(self._periodic_save())
+        asyncio.create_task(self._periodic_cleanup())
 
         async with self.server:
             await self.server.serve_forever()
@@ -127,6 +140,7 @@ class PatternBroker:
                     for p in patterns:
                         p["received_at"] = time.time()
                         self.pattern_pool.append(p)
+                    self._dirty = True
 
                     # Trim pool if too large
                     if len(self.pattern_pool) > self.max_pool_size:
@@ -217,6 +231,7 @@ class PatternBroker:
             "connected_nodes": len(self.nodes),
             "pattern_pool_size": len(self.pattern_pool),
             "total_patterns_relayed": self.stats["total_patterns_relayed"],
+            "pattern_store_path": str(self._store_path),
             "nodes": [
                 {
                     "node_id": n.node_id,
@@ -229,6 +244,55 @@ class PatternBroker:
                 for n in self.nodes.values()
             ],
         }
+
+    # ─── PERSISTENCE ───
+
+    def _load_pattern_store(self):
+        """Load persisted patterns from disk on startup."""
+        if self._store_path.exists():
+            try:
+                data = json.loads(self._store_path.read_text())
+                # Filter expired patterns
+                now = time.time()
+                self.pattern_pool = [
+                    p for p in data
+                    if (now - p.get("timestamp", 0)) / 86400 <= p.get("ttl", 7)
+                ]
+                logger.info(f"   Loaded {len(self.pattern_pool)} patterns from store (filtered {len(data) - len(self.pattern_pool)} expired)")
+            except Exception as e:
+                logger.warning(f"   Failed to load pattern store: {e}")
+                self.pattern_pool = []
+
+    def _save_pattern_store(self):
+        """Save current pattern pool to disk."""
+        try:
+            self._store_path.write_text(json.dumps(self.pattern_pool, indent=None))
+            self._dirty = False
+            logger.debug(f"   Saved {len(self.pattern_pool)} patterns to store")
+        except Exception as e:
+            logger.error(f"   Failed to save pattern store: {e}")
+
+    async def _periodic_save(self):
+        """Save pattern store every 30 seconds if dirty."""
+        while True:
+            await asyncio.sleep(30)
+            if self._dirty:
+                self._save_pattern_store()
+
+    async def _periodic_cleanup(self):
+        """Remove expired patterns every hour."""
+        while True:
+            await asyncio.sleep(3600)  # 1 hour
+            now = time.time()
+            before = len(self.pattern_pool)
+            self.pattern_pool = [
+                p for p in self.pattern_pool
+                if (now - p.get("timestamp", 0)) / 86400 <= p.get("ttl", 7)
+            ]
+            removed = before - len(self.pattern_pool)
+            if removed > 0:
+                logger.info(f"   🧹 Cleanup: removed {removed} expired patterns")
+                self._dirty = True
 
 
 # ============================================================================

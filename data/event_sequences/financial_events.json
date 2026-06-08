@@ -430,175 +430,6 @@
     }
   },
   {
-    "event_type": "crypto_surge_eth",
-    "timestamp": 1780890656.127357,
-    "severity_score": 0.29,
-    "domain": "financial",
-    "source": "coingecko",
-    "metadata": {
-      "coin": "Ethereum",
-      "price": 1682.42,
-      "change_24h_pct": 5.79031,
-      "market_cap": 203056181926
-    }
-  },
-  {
-    "event_type": "crypto_surge_hype",
-    "timestamp": 1780890656.127361,
-    "severity_score": 0.305,
-    "domain": "financial",
-    "source": "coingecko",
-    "metadata": {
-      "coin": "Hyperliquid",
-      "price": 61.31,
-      "change_24h_pct": 6.102,
-      "market_cap": 13579530442
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780662263.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "How low can Bitcoin price go if $60K support fails?",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780663172.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "JPMorgan, Citi-backed Clearing House plans tokenized deposit network in 2027: WSJ",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780663604.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "House GOP eyes summer vote on prediction market restrictions for lawmakers",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780664042.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Bearish zcash bets hit record high as privacy token's price crashes",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780664234.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "U.S. job growth blows past forecasts, setting stage for Fed rate hikes",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780664400.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Bitcoin needs one more thing to happen to spark BTC price 'rally:' Analysis",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780665039.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "CoinDesk 20 performance update: Bitcoin (BTC) price drops 2.8% as index declines",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780665521.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Zcash weighs new shielded pool after counterfeiting flaw",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780670755.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Visa tests private stablecoin settlement with Brale, Canton",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780671186.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "XRP falls toward $1.10 as liquidation-driven selloff pushes token to multi-month lows",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780671748.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Bitcoin loses $60,000, falls to weakest price since October 2024",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780671955.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Alsobrooks says Clarity Act needs ethics deal before Senate vote",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780674194.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Bitcoin teases 'seller exhaustion' as BTC price downside reaches $60.3K",
-      "category": "crypto"
-    }
-  },
-  {
     "event_type": "market_news_crypto",
     "timestamp": 1780674553.0,
     "severity_score": 0.3,
@@ -629,17 +460,6 @@
     "metadata": {
       "headline": "Saylor says Bitcoin needs \u2018disciplined expansion\u2019 as analysts weigh demand reset",
       "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780676801.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Global oil inventories depleted, next price spike could roil economies, markets - Reuters",
-      "category": "business"
     }
   },
   {
@@ -676,17 +496,6 @@
     }
   },
   {
-    "event_type": "market_news_top news",
-    "timestamp": 1780680337.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "Trump wants Bill Pulte to fire big chunk of national intelligence office staff: WSJ",
-      "category": "top news"
-    }
-  },
-  {
     "event_type": "market_news_crypto",
     "timestamp": 1780682553.0,
     "severity_score": 0.3,
@@ -695,17 +504,6 @@
     "metadata": {
       "headline": "AI exposed a massive flaw in top crypto network and experts warn banks could be next",
       "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1780682794.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "As AI-related stocks dive, the market's winners have one thing in common",
-      "category": "top news"
     }
   },
   {
@@ -731,28 +529,6 @@
     }
   },
   {
-    "event_type": "market_news_business",
-    "timestamp": 1780683809.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Iran World Cup squad still in visa limbo 10 days before first match, ambassador says - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780685442.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Stocks fall sharply as strong jobs data fuels rate hike bets; oil set for weekly gain - Reuters",
-      "category": "business"
-    }
-  },
-  {
     "event_type": "market_news_crypto",
     "timestamp": 1780687640.0,
     "severity_score": 0.7,
@@ -772,17 +548,6 @@
     "metadata": {
       "headline": "Bitcoin bears face $2.6B trap as BTC funding rate drops: Is a short squeeze brewing?",
       "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780689671.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Witkoff, Kushner meet nuclear experts at national lab in Tennessee, source says - Reuters",
-      "category": "business"
     }
   },
   {
@@ -808,28 +573,6 @@
     }
   },
   {
-    "event_type": "market_news_business",
-    "timestamp": 1780695540.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Israeli forces shoot dead Palestinian baby, wound his parents in West Bank - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780697854.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Iran has launched multiple drones towards the Strait of Hormuz, CNN reports - Reuters",
-      "category": "business"
-    }
-  },
-  {
     "event_type": "market_news_crypto",
     "timestamp": 1780697909.0,
     "severity_score": 0.3,
@@ -838,50 +581,6 @@
     "metadata": {
       "headline": "ETH falls to 13-month low on Zcash bug news and Bitcoin drop to sub-$60K: Is $1.4K next?",
       "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780698448.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Trump, campaigning for Republicans in Wisconsin, vows quick end to Iran war - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780700748.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "US judge strikes down Trump policies targeting immigrants from 39 countries - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780701111.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "US strikes Iran radar sites after Iranian drone launch - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780703510.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "US energy secretary says lower gas prices will ultimately take resolution with Iran - Reuters",
-      "category": "business"
     }
   },
   {
@@ -896,28 +595,6 @@
     }
   },
   {
-    "event_type": "market_news_top news",
-    "timestamp": 1780716632.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Bloomberg",
-    "metadata": {
-      "headline": "Gold falls most in two months as jobs fuel Fed rate-hike bets",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1780727985.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Bloomberg",
-    "metadata": {
-      "headline": "Netflix picks investor Jay Hoag as chairman after Hastings",
-      "category": "top news"
-    }
-  },
-  {
     "event_type": "market_news_crypto",
     "timestamp": 1780728017.0,
     "severity_score": 0.3,
@@ -926,28 +603,6 @@
     "metadata": {
       "headline": "Bitcoin back above $61,000 after rout leads to $1.6 billion liquidations",
       "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1780729097.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Bloomberg",
-    "metadata": {
-      "headline": "World Cup workers threaten strike before $2,000-a-ticket game",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780729200.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Trump's 'crazy' rebuke undercuts Netanyahu at a critical moment - Reuters",
-      "category": "business"
     }
   },
   {
@@ -981,28 +636,6 @@
     "metadata": {
       "headline": "Are retail traders selling their bitcoin to buy the SpaceX IPO?",
       "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780741261.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Russia's Sechin says US companies benefit from Strait of Hormuz closure - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780744642.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Israeli strike kills three Lebanese soldiers, military probes incident - Reuters",
-      "category": "business"
     }
   },
   {
@@ -1047,28 +680,6 @@
     "metadata": {
       "headline": "A crypto pioneer who turned a $20 million family stake into a billion-dollar fund doubles down on bi",
       "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780758120.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "U.S.-Iran strikes, Wall Street fears, Paramount lawsuit and Cape Verde - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780759394.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Lebanese army chief leaves for Pakistan at invitation of counterpart - Reuters",
-      "category": "business"
     }
   },
   {
@@ -1149,6 +760,17 @@
     }
   },
   {
+    "event_type": "market_news_business",
+    "timestamp": 1780775100.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "High fuel costs to trigger airline failures and consolidation, industry chief says - Reuters",
+      "category": "business"
+    }
+  },
+  {
     "event_type": "market_news_crypto",
     "timestamp": 1780775934.0,
     "severity_score": 0.7,
@@ -1172,17 +794,6 @@
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1780777176.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Airline chiefs grapple with fuel shock, fare test at Rio summit - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
     "timestamp": 1780777656.0,
     "severity_score": 0.3,
     "domain": "financial",
@@ -1194,23 +805,23 @@
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1780778576.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "High fuel costs to trigger airline failures and consolidation, industry chief says - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780781025.0,
+    "timestamp": 1780780980.0,
     "severity_score": 0.7,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
       "headline": "Domestic cooking gas rates in Delhi increased by 29 rupees per cylinder - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780784026.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "US strikes Iranian sites after Iran launches drones in latest Gulf flare-up - Reuters",
       "category": "business"
     }
   },
@@ -1227,17 +838,6 @@
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1780786271.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "US strikes Iranian sites after Iran launches drones in latest Gulf flare-up - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
     "timestamp": 1780800360.0,
     "severity_score": 0.3,
     "domain": "financial",
@@ -1249,12 +849,34 @@
   },
   {
     "event_type": "market_news_business",
+    "timestamp": 1780800625.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Israeli forces shoot dead Palestinian baby, wound his parents in West Bank - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
     "timestamp": 1780801740.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
       "headline": "Ethiopian Airlines set to decide on regional jet order in next three months - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780804663.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Etihad Airways orders widebody planes, sees return to pre-war capacity in June - Reuters",
       "category": "business"
     }
   },
@@ -1278,6 +900,17 @@
     "metadata": {
       "headline": "Israeli military says it hit Hezbollah in Beirut suburbs - Reuters",
       "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1780826492.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Bloomberg",
+    "metadata": {
+      "headline": "China puts EVs on a diet as battery boom adds bulk",
+      "category": "top news"
     }
   },
   {
@@ -1310,6 +943,17 @@
     "source": "finnhub_Reuters",
     "metadata": {
       "headline": "Global airlines slash 2026 profit forecast on fuel shock from Iran war - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780837860.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Iran's World Cup team arrive in Tijuana with US tensions high - Reuters",
       "category": "business"
     }
   },
@@ -1447,12 +1091,23 @@
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1780861241.0,
+    "timestamp": 1780857223.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "Iran's World Cup team arrive in Tijuana with US tensions high - Reuters",
+      "headline": "Boehringer-Zealand's obesity drug shows promise in cutting visceral, liver fat - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780857703.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Israeli military police investigating soldier's killing of 7-month-old Palestinian - Reuters",
       "category": "business"
     }
   },
@@ -1475,6 +1130,17 @@
     "source": "finnhub_Reuters",
     "metadata": {
       "headline": "US troops, families adjust to new normal of Iran war - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780862538.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "At least 21 Iraqis killed, 19 wounded in bus crash and fire near Nassiriya - Reuters",
       "category": "business"
     }
   },
@@ -1518,7 +1184,18 @@
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "Oil prices rise more than $2 on Israel strikes on Lebanon - Reuters",
+      "headline": "Oil prices climb more than $4 after Israeli strikes on Iran and Lebanon - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780874372.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "South Korea's Naver to build gigawatt-scale AI factories using Nvidia technology - Reuters",
       "category": "business"
     }
   },
@@ -1530,6 +1207,28 @@
     "source": "finnhub_Reuters",
     "metadata": {
       "headline": "UK firms pause hiring as Iran war stings, REC survey shows - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780875840.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Tumbling tech darlings slam brakes on AI rally - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780877040.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Japan's economy cools on weak capex in Q1, revised data shows - Reuters",
       "category": "business"
     }
   },
@@ -1552,6 +1251,281 @@
     "source": "finnhub_Forexlive",
     "metadata": {
       "headline": "Bitcoin analysis as the futures market opens, post Friday's crash",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780882560.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "India Inc hikes prices, shrinks packs as Iran war squeezes margins - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780883040.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Israel hits Iran petrochemical plant in new strikes after Trump reprimand - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780883520.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Gold hits over two-month low as strong US jobs data boosts rate-hike bets - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780885080.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Israeli military says it struck targets in western and central Iran - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1780889219.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Justin Sun\u2019s HTX delists Trump family\u2019s USD1 amid freeze fight",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780891440.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "China's global e-commerce push stalls as Iran war lifts costs, dampens demand - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1780892513.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Bitcoin falls back below $63,000 as Iran-Israel trade strikes and Korean stocks crash",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780893000.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Hormuz strait will be open but with transit fees, Iran envoy to Moscow quoted - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1780893287.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Tokenization firm Securitize clears key SEC hurdle for NYSE listing",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1780895286.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Major cryptocurrencies under pressure as oil jumps 3%",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780895940.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Bank of England's Taylor sees rates on hold barring worst-case scenario - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780897380.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Vietnam cbank vice governor says country will lean towards fiscal policy to meet growth target - Reu",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1780898002.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Bitcoin pump to $63,700 triggers the most short liquidations since late April",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780898580.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Oil market calm masks a host of unknowns - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1780898815.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "XRP steadies above $1.10 to bounce from four-month lows",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1780902075.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Galaxy drops CLARITY Act odds to 60% as time is running out",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1780902150.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Arthur Hayes dumps WLD days after Maelstrom\u2019s AI IPO pitch",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1780906257.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Zcash bounces 45% as developers propose new Ironwood upgrade",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1780906770.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "CME is letting traders bet on bitcoin volatility, not price, and two firms have already placed bets",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780909172.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Iran blames US for latest exchanges of fire with Israel - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1780910023.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Private jet market defies Iran war gloom as rich flock to Monaco GP, Cannes - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1780911605.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Weight loss drug maker sinks 25% after new safety data spooks investors",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1780911981.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "U.S. inflation, European Central Bank rate decision: Crypto Week Ahead",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1780912658.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Gold slips below 200-day moving average offering glimmer of hope for bitcoin bulls",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1780912967.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Zcash teams propose Ironwood pool to restore supply verification after Orchard flaw",
       "category": "crypto"
     }
   },

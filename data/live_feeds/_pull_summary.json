@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-06-07T21:26:20.128629",
+  "total_attempted": 13,
+  "total_success": 12,
+  "results": {
+    "USGS Earthquakes (24h)": {
+      "file": "usgs_earthquakes.json",
+      "status": "ok",
+      "stat": "55 features"
+    },
+    "Open-Meteo Nashville 7d": {
+      "file": "open_meteo_nashville.json",
+      "status": "ok",
+      "stat": "168 hours"
+    },
+    "IPWHOIS 8.8.8.8": {
+      "file": "ipwhois_sample.json",
+      "status": "ok",
+      "stat": "28 keys"
+    },
+    "Zippopotam 37201": {
+      "file": "zippopotam_37201.json",
+      "status": "ok",
+      "stat": "4 keys"
+    },
+    "NWS Alerts TN": {
+      "file": "nws_alerts_tn.json",
+      "status": "ok",
+      "stat": "6 features"
+    },
+    "OpenFEMA Disasters 2024+": {
+      "file": "fema_disasters.json",
+      "status": "ok",
+      "stat": "0 records"
+    },
+    "REST Countries": {
+      "file": "rest_countries.json",
+      "status": "ok",
+      "stat": "250 items"
+    },
+    "UK Carbon Intensity": {
+      "file": "uk_carbon_intensity.json",
+      "status": "ok",
+      "stat": "1 items"
+    },
+    "URLhaus Recent": {
+      "status": "http_401"
+    },
+    "CoinGecko Top 10": {
+      "file": "coingecko_top10.json",
+      "status": "ok",
+      "stat": "10 items"
+    },
+    "Frankfurter USD Rates": {
+      "file": "frankfurter_rates.json",
+      "status": "ok",
+      "stat": "29 currencies"
+    },
+    "Coinpaprika BTC": {
+      "file": "coinpaprika_btc.json",
+      "status": "ok",
+      "stat": "10 keys"
+    },
+    "Open-Meteo Historical Nashville": {
+      "file": "open_meteo_historical.json",
+      "status": "ok",
+      "stat": "9 keys"
+    }
+  }
+}

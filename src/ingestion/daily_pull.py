@@ -249,6 +249,28 @@ def pull_keyed_feeds(keys: dict) -> dict:
                 results[name] = f"error: {str(e)[:40]}"
             time.sleep(15)  # 5 calls/min = 12sec spacing minimum
 
+    # OpenWeatherMap (if key available)
+    owm_key = keys.get("openweathermap")
+    if owm_key:
+        owm_cities = [
+            ("nashville", 36.16, -86.78), ("memphis", 35.15, -90.05),
+            ("atlanta", 33.749, -84.388), ("kansas_city", 39.099, -94.578),
+            ("boston", 42.36, -71.06), ("cleveland", 41.50, -81.69),
+            ("philadelphia", 39.95, -75.17), ("phoenix", 33.45, -112.07),
+            ("dallas", 32.78, -96.80), ("seattle", 47.61, -122.33),
+        ]
+        for city, lat, lon in owm_cities:
+            try:
+                r = client.get(f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={owm_key}&units=imperial")
+                if r.status_code == 200:
+                    (FEEDS_DIR / f"owm_{city}.json").write_text(json.dumps(r.json(), indent=2))
+                    results[f"owm_{city}"] = "ok"
+                else:
+                    results[f"owm_{city}"] = f"http_{r.status_code}"
+            except Exception as e:
+                results[f"owm_{city}"] = f"error: {str(e)[:40]}"
+            time.sleep(1)
+
     client.close()
     return results
 

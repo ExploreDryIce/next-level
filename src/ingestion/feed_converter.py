@@ -384,6 +384,88 @@ def convert_fema_disasters() -> List[Dict[str, Any]]:
     return sorted(events, key=lambda e: e["timestamp"])
 
 
+def convert_finnhub_news() -> List[Dict[str, Any]]:
+    """Finnhub market news → financial domain events."""
+    events = []
+
+    for filename in ["finnhub_market_news.json", "finnhub_crypto_news.json"]:
+        path = DATA_DIR / filename
+        if not path.exists():
+            continue
+
+        data = json.loads(path.read_text())
+        if not isinstance(data, list):
+            continue
+
+        for article in data[:50]:  # Cap at 50 per source
+            ts = article.get("datetime", 0)
+            headline = article.get("headline", "")
+            category = article.get("category", "general")
+            source = article.get("source", "unknown")
+
+            # Classify severity by keywords
+            severity = 0.3
+            high_impact = ["crash", "surge", "plunge", "soar", "collapse", "rally",
+                          "fed", "rate", "inflation", "recession", "crisis", "default"]
+            if any(word in headline.lower() for word in high_impact):
+                severity = 0.7
+
+            events.append({
+                "event_type": f"market_news_{category}",
+                "timestamp": float(ts),
+                "severity_score": severity,
+                "domain": "financial",
+                "source": f"finnhub_{source}",
+                "metadata": {"headline": headline[:100], "category": category},
+            })
+
+    return sorted(events, key=lambda e: e["timestamp"])
+
+
+def convert_finnhub_economic_calendar() -> List[Dict[str, Any]]:
+    """Finnhub economic calendar → financial domain events."""
+    path = DATA_DIR / "finnhub_economic_calendar.json"
+    if not path.exists():
+        return []
+
+    data = json.loads(path.read_text())
+    calendar = data.get("economicCalendar", [])
+    events = []
+
+    high_impact_events = ["CPI", "GDP", "NFP", "Unemployment", "FOMC", "Fed",
+                          "Interest Rate", "Retail Sales", "PMI", "Housing"]
+
+    for item in calendar[:100]:
+        event_name = item.get("event", "")
+        country = item.get("country", "")
+        time_str = item.get("time", "")
+        impact = item.get("impact", "low")
+
+        try:
+            ts = datetime.fromisoformat(time_str.replace("Z", "+00:00")).timestamp()
+        except:
+            ts = datetime.now().timestamp()
+
+        # Severity from impact
+        severity_map = {"high": 0.8, "medium": 0.5, "low": 0.2}
+        severity = severity_map.get(impact, 0.3)
+
+        # Boost if it's a well-known indicator
+        if any(term in event_name for term in high_impact_events):
+            severity = min(1.0, severity + 0.2)
+
+        events.append({
+            "event_type": f"economic_event_{country.lower()}",
+            "timestamp": ts,
+            "severity_score": round(severity, 3),
+            "domain": "financial",
+            "source": "finnhub_calendar",
+            "metadata": {"event": event_name, "country": country, "impact": impact},
+        })
+
+    return sorted(events, key=lambda e: e["timestamp"])
+
+
 def convert_all() -> Dict[str, List[Dict[str, Any]]]:
     """Run all converters and return events by domain."""
     all_events = {
@@ -400,6 +482,8 @@ def convert_all() -> Dict[str, List[Dict[str, Any]]]:
         ("weather", convert_nws_alerts),
         ("financial", convert_treasury),
         ("financial", convert_crypto),
+        ("financial", convert_finnhub_news),
+        ("financial", convert_finnhub_economic_calendar),
         ("grid", convert_solar_flares),
         ("cyber", convert_nvd_vulnerabilities),
         ("grid", convert_carbon_intensity),

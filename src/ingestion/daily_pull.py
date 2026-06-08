@@ -174,6 +174,33 @@ def pull_keyed_feeds(keys: dict) -> dict:
                 pass
             time.sleep(1)
 
+    # Finnhub (if key available)
+    finnhub_key = keys.get("finnhub")
+    if finnhub_key:
+        today = datetime.now().strftime("%Y-%m-%d")
+        week_ago = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
+        finnhub_feeds = [
+            ("finnhub_market_news", f"https://finnhub.io/api/v1/news?category=general&token={finnhub_key}"),
+            ("finnhub_crypto_news", f"https://finnhub.io/api/v1/news?category=crypto&token={finnhub_key}"),
+            ("finnhub_spy_quote", f"https://finnhub.io/api/v1/quote?symbol=SPY&token={finnhub_key}"),
+            ("finnhub_aapl_quote", f"https://finnhub.io/api/v1/quote?symbol=AAPL&token={finnhub_key}"),
+            ("finnhub_economic_calendar", f"https://finnhub.io/api/v1/calendar/economic?token={finnhub_key}"),
+            ("finnhub_earnings_calendar", f"https://finnhub.io/api/v1/calendar/earnings?from={week_ago}&to={today}&token={finnhub_key}"),
+            ("finnhub_ipo_calendar", f"https://finnhub.io/api/v1/calendar/ipo?from={week_ago}&to={today}&token={finnhub_key}"),
+            ("finnhub_market_status", f"https://finnhub.io/api/v1/stock/market-status?exchange=US&token={finnhub_key}"),
+        ]
+        for name, url in finnhub_feeds:
+            try:
+                r = client.get(url)
+                if r.status_code == 200:
+                    (FEEDS_DIR / f"{name}.json").write_text(json.dumps(r.json(), indent=2)[:200000])
+                    results[name] = "ok"
+                else:
+                    results[name] = f"http_{r.status_code}"
+            except Exception as e:
+                results[name] = f"error: {str(e)[:40]}"
+            time.sleep(1)
+
     client.close()
     return results
 

@@ -1,0 +1,194 @@
+{
+  "ipoCalendar": [
+    {
+      "date": "2026-06-05",
+      "exchange": "NYSE",
+      "name": "FutureCorp Space Acquisition 1",
+      "numberOfShares": 20000000,
+      "price": "10.00",
+      "status": "expected",
+      "symbol": "FTRAU",
+      "totalSharesValue": 200000000
+    },
+    {
+      "date": "2026-06-05",
+      "exchange": "NYSE",
+      "name": "WhiteHawk Income Corp",
+      "numberOfShares": 6925000,
+      "price": "25.00-27.00",
+      "status": "expected",
+      "symbol": "WHK",
+      "totalSharesValue": 215021250
+    },
+    {
+      "date": "2026-06-05",
+      "exchange": "NASDAQ Global",
+      "name": "Innovative Digital Investors Acquisition Corp.",
+      "numberOfShares": 12500000,
+      "price": "10.00",
+      "status": "expected",
+      "symbol": "IDIAU",
+      "totalSharesValue": 143750000
+    },
+    {
+      "date": "2026-06-04",
+      "exchange": "NASDAQ Global Select",
+      "name": "INNIO N.V.",
+      "numberOfShares": 90000000,
+      "price": "27.00",
+      "status": "priced",
+      "symbol": "INIO",
+      "totalSharesValue": 2430000000
+    },
+    {
+      "date": "2026-06-04",
+      "exchange": "NYSE",
+      "name": "Sunshine Silver Mining & Refining Co",
+      "numberOfShares": 20000000,
+      "price": "13.50",
+      "status": "priced",
+      "symbol": "SSMR",
+      "totalSharesValue": 270000000
+    },
+    {
+      "date": "2026-06-04",
+      "exchange": "NASDAQ Global",
+      "name": "Quantinuum Inc.",
+      "numberOfShares": 28000000,
+      "price": "60.00",
+      "status": "priced",
+      "symbol": "QNT",
+      "totalSharesValue": 1680000000
+    },
+    {
+      "date": "2026-06-04",
+      "exchange": "NASDAQ Global",
+      "name": "InterPrivate Investment Partners V, Inc.",
+      "numberOfShares": 17500000,
+      "price": "10.00",
+      "status": "priced",
+      "symbol": "IPVVU",
+      "totalSharesValue": 175000000
+    },
+    {
+      "date": "2026-06-04",
+      "exchange": "NASDAQ Global Select",
+      "name": "Liftoff Mobile, Inc.",
+      "numberOfShares": 19000000,
+      "price": "23.00",
+      "status": "priced",
+      "symbol": "LFTO",
+      "totalSharesValue": 437000000
+    },
+    {
+      "date": "2026-06-04",
+      "exchange": "NASDAQ Global",
+      "name": "Long Table Growth Corp.",
+      "numberOfShares": 15000000,
+      "price": "10.00",
+      "status": "priced",
+      "symbol": "LTGRU",
+      "totalSharesValue": 150000000
+    },
+    {
+      "date": "2026-06-04",
+      "exchange": null,
+      "name": "Watu Metals Acquisition Corp",
+      "numberOfShares": null,
+      "price": null,
+      "status": "filed",
+      "symbol": "",
+      "totalSharesValue": 115000000
+    },
+    {
+      "date": "2026-06-04",
+      "exchange": null,
+      "name": "Meridian3 Industrials Acquisition Corp",
+      "numberOfShares": null,
+      "price": null,
+      "status": "filed",
+      "symbol": "MIACU",
+      "totalSharesValue": 201250000
+    },
+    {
+      "date": "2026-06-03",
+      "exchange": "NYSE",
+      "name": "Applied Aerospace & Defense, Inc.",
+      "numberOfShares": 32500000,
+      "price": "20.00",
+      "status": "priced",
+      "symbol": "AADX",
+      "totalSharesValue": 650000000
+    },
+    {
+      "date": "2026-06-03",
+      "exchange": "NASDAQ Global",
+      "name": "Keystone Acquisition Corp.",
+      "numberOfShares": 25000000,
+      "price": "10.00",
+      "status": "priced",
+      "symbol": "KEYYU",
+      "totalSharesValue": 250000000
+    },
+    {
+      "date": "2026-06-03",
+      "exchange": "NASDAQ Global",
+      "name": "Aeon Acquisition I Corp.",
+      "numberOfShares": 12500000,
+      "price": "10.00",
+      "status": "priced",
+      "symbol": "AESPU",
+      "totalSharesValue": 125000000
+    },
+    {
+      "date": "2026-06-03",
+      "exchange": "NASDAQ Global",
+      "name": "AmperCap Acquisition Co",
+      "numberOfShares": 12500000,
+      "price": "10.00",
+      "status": "priced",
+      "symbol": "APMCU",
+      "totalSharesValue": 125000000
+    },
+    {
+      "date": "2026-06-03",
+      "exchange": null,
+      "name": "Norient Acquisition",
+      "numberOfShares": null,
+      "price": null,
+      "status": "filed",
+      "symbol": "NORTU",
+      "totalSharesValue": 120750000
+    },
+    {
+      "date": "2026-06-03",
+      "exchange": null,
+      "name": "Gores Holdings XI, Inc.",
+      "numberOfShares": null,
+      "price": null,
+      "status": "filed",
+      "symbol": "GHXIU",
+      "totalSharesValue": 358800000
+    },
+    {
+      "date": "2026-06-02",
+      "exchange": null,
+      "name": "CopperTech Metals Inc.",
+      "numberOfShares": null,
+      "price": null,
+      "status": "filed",
+      "symbol": "CUX",
+      "totalSharesValue": 100000000
+    },
+    {
+      "date": "2026-06-01",
+      "exchange": null,
+      "name": "BLACK UNICORN FACTORY",
+      "numberOfShares": null,
+      "price": null,
+      "status": "withdrawn",
+      "symbol": null,
+      "totalSharesValue": null
+    }
+  ]
+}

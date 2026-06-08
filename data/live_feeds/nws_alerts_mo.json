@@ -10,6 +10,487 @@
   "type": "FeatureCollection",
   "features": [
     {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79f7ee9edb4d6c56194075d58d8d38de6819bee2.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79f7ee9edb4d6c56194075d58d8d38de6819bee2.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.79f7ee9edb4d6c56194075d58d8d38de6819bee2.002.1",
+        "areaDesc": "Boone; Moniteau; Cole; Osage; Callaway",
+        "geocode": {
+          "SAME": [
+            "029019",
+            "029135",
+            "029051",
+            "029151",
+            "029027"
+          ],
+          "UGC": [
+            "MOZ041",
+            "MOZ047",
+            "MOZ048",
+            "MOZ049",
+            "MOZ050"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/MOZ041",
+          "https://api.weather.gov/zones/forecast/MOZ047",
+          "https://api.weather.gov/zones/forecast/MOZ048",
+          "https://api.weather.gov/zones/forecast/MOZ049",
+          "https://api.weather.gov/zones/forecast/MOZ050"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89c8075c2f716480712c37fc591ba6cfb2eb2eec.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.89c8075c2f716480712c37fc591ba6cfb2eb2eec.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T13:26:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T21:51:00-05:00",
+        "effective": "2026-06-07T21:51:00-05:00",
+        "onset": "2026-06-07T21:51:00-05:00",
+        "expires": "2026-06-08T13:00:00-05:00",
+        "ends": "2026-06-08T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Watch issued June 7 at 9:51PM CDT until June 8 at 1:00PM CDT by NWS St Louis MO",
+        "description": "* WHAT...Flash flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...A portion of central Missouri, including the following\nareas, Boone MO, Callaway MO, Cole MO, Moniteau MO and Osage MO.\n\n* WHEN...Through Monday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\n\n* ADDITIONAL DETAILS...\n- Multiple rounds of showers and thunderstorms with very heavy\nrainfall are expected across the watch area through Monday\nmorning. Rainfall of 1 to 3 inches is possible with locally\nhigher amounts which could result in flash flooding where soils\nare already moistening.",
+        "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFALSX"
+          ],
+          "WMOidentifier": [
+            "WGUS63 KLSX 080251"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH REMAINS IN EFFECT THROUGH MONDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.CON.KLSX.FA.A.0005.000000T0000Z-260608T1800Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T13:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFA"
+          ],
+          "NationalWeatherService": [
+            "FAA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66679570238034224c2b3ad62dc3cc9f5264a825.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -92.76,
+              37.07
+            ],
+            [
+              -92.68,
+              37.07
+            ],
+            [
+              -92.68,
+              37.24
+            ],
+            [
+              -92.55,
+              37.37
+            ],
+            [
+              -92.24,
+              37.19
+            ],
+            [
+              -92.25,
+              37.06
+            ],
+            [
+              -92.5,
+              36.87
+            ],
+            [
+              -92.77,
+              36.87
+            ],
+            [
+              -92.76,
+              37.07
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66679570238034224c2b3ad62dc3cc9f5264a825.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.66679570238034224c2b3ad62dc3cc9f5264a825.001.1",
+        "areaDesc": "Douglas, MO; Wright, MO",
+        "geocode": {
+          "SAME": [
+            "029067",
+            "029229"
+          ],
+          "UGC": [
+            "MOC067",
+            "MOC229"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/MOC067",
+          "https://api.weather.gov/zones/county/MOC229"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5cb44d15a23cb276c73920a94d2dd3b49fd968c.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.c5cb44d15a23cb276c73920a94d2dd3b49fd968c.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T21:20:00-05:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f355c845de3e5d860b21bef154a7a35077a0694.002.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.1f355c845de3e5d860b21bef154a7a35077a0694.002.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T21:41:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T21:51:00-05:00",
+        "effective": "2026-06-07T21:51:00-05:00",
+        "onset": "2026-06-07T21:51:00-05:00",
+        "expires": "2026-06-07T22:01:00-05:00",
+        "ends": "2026-06-07T22:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Tornado Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Tornado Warning issued June 7 at 9:51PM CDT until June 7 at 10:00PM CDT by NWS Springfield MO",
+        "description": "The storm which prompted the warning has weakened below severe\nlimits, and no longer appears capable of producing a tornado.\nTherefore, the warning will be allowed to expire.  However, heavy\nrain is still possible with this thunderstorm.\n\nA Tornado Watch remains in effect until 1000 PM CDT for southwestern\nMissouri.",
+        "instruction": null,
+        "response": "Shelter",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "SVSSGF"
+          ],
+          "WMOidentifier": [
+            "WWUS53 KSGF 080251"
+          ],
+          "NWSheadline": [
+            "THE TORNADO WARNING FOR SOUTHERN WRIGHT AND NORTHWESTERN DOUGLAS COUNTIES WILL EXPIRE AT 1000 PM CDT"
+          ],
+          "eventMotionDescription": [
+            "2026-06-08T02:51:00-00:00...storm...246DEG...19KT...37.09,-92.56"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXP.KSGF.TO.W.0057.000000T0000Z-260608T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-07T22:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "SVS"
+          ],
+          "NationalWeatherService": [
+            "TOW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79f7ee9edb4d6c56194075d58d8d38de6819bee2.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.79f7ee9edb4d6c56194075d58d8d38de6819bee2.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.79f7ee9edb4d6c56194075d58d8d38de6819bee2.001.1",
+        "areaDesc": "Adams; Knox; Lewis; Shelby; Marion; Monroe; Ralls; Audrain",
+        "geocode": {
+          "SAME": [
+            "017001",
+            "029103",
+            "029111",
+            "029205",
+            "029127",
+            "029137",
+            "029173",
+            "029007"
+          ],
+          "UGC": [
+            "ILZ095",
+            "MOZ018",
+            "MOZ019",
+            "MOZ026",
+            "MOZ027",
+            "MOZ034",
+            "MOZ035",
+            "MOZ042"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/ILZ095",
+          "https://api.weather.gov/zones/forecast/MOZ018",
+          "https://api.weather.gov/zones/forecast/MOZ019",
+          "https://api.weather.gov/zones/forecast/MOZ026",
+          "https://api.weather.gov/zones/forecast/MOZ027",
+          "https://api.weather.gov/zones/forecast/MOZ034",
+          "https://api.weather.gov/zones/forecast/MOZ035",
+          "https://api.weather.gov/zones/forecast/MOZ042"
+        ],
+        "references": [],
+        "sent": "2026-06-07T21:51:00-05:00",
+        "effective": "2026-06-07T21:51:00-05:00",
+        "onset": "2026-06-07T21:51:00-05:00",
+        "expires": "2026-06-08T13:00:00-05:00",
+        "ends": "2026-06-08T13:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Watch issued June 7 at 9:51PM CDT until June 8 at 1:00PM CDT by NWS St Louis MO",
+        "description": "* WHAT...Flash flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of west central Illinois, including the following\narea, Adams IL and Missouri, including the following areas, Audrain\nMO, Knox MO, Lewis MO, Marion MO, Monroe MO, Ralls MO and Shelby\nMO.\n\n* WHEN...Through Monday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\n\n* ADDITIONAL DETAILS...\n- Multiple rounds of showers and thunderstorms with very heavy\nrainfall are expected across the watch area through Monday\nmorning. Rainfall of 1 to 3 inches is possible with locally\nhigher amounts which could result in flash flooding where soils\nare already moistening.",
+        "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFALSX"
+          ],
+          "WMOidentifier": [
+            "WGUS63 KLSX 080251"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH IN EFFECT THROUGH MONDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXA.KLSX.FA.A.0005.000000T0000Z-260608T1800Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T13:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFA"
+          ],
+          "NationalWeatherService": [
+            "FAA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d79becaa4ac665bf270dafe363b733ed838ba35.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -92.71,
+              38.5
+            ],
+            [
+              -92.62,
+              38.43
+            ],
+            [
+              -92.48,
+              38.43
+            ],
+            [
+              -92.58,
+              38.21
+            ],
+            [
+              -92.64,
+              38.21
+            ],
+            [
+              -92.68,
+              38.21
+            ],
+            [
+              -92.7,
+              38.22
+            ],
+            [
+              -92.71,
+              38.22
+            ],
+            [
+              -92.75,
+              38.22
+            ],
+            [
+              -92.76,
+              38.23
+            ],
+            [
+              -92.71,
+              38.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4d79becaa4ac665bf270dafe363b733ed838ba35.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.4d79becaa4ac665bf270dafe363b733ed838ba35.001.1",
+        "areaDesc": "Miller, MO; Morgan, MO",
+        "geocode": {
+          "SAME": [
+            "029131",
+            "029141"
+          ],
+          "UGC": [
+            "MOC131",
+            "MOC141"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/MOC131",
+          "https://api.weather.gov/zones/county/MOC141"
+        ],
+        "references": [],
+        "sent": "2026-06-07T21:46:00-05:00",
+        "effective": "2026-06-07T21:46:00-05:00",
+        "onset": "2026-06-07T21:46:00-05:00",
+        "expires": "2026-06-08T03:45:00-05:00",
+        "ends": "2026-06-08T03:45:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Immediate",
+        "event": "Flash Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Flash Flood Warning issued June 7 at 9:46PM CDT until June 8 at 3:45AM CDT by NWS Springfield MO",
+        "description": "FFWSGF\n\nThe National Weather Service in Springfield has issued a\n\n* Flash Flood Warning for...\nNorthwestern Miller County in central Missouri...\nSoutheastern Morgan County in central Missouri...\n\n* Until 345 AM CDT.\n\n* At 946 PM CDT, Doppler radar indicated thunderstorms producing\nheavy rain across the warned area. Between 2 and 4 inches of rain\nhave fallen. The expected rainfall rate is 2 to 4 inches in 1\nhour. Additional rainfall amounts of 2 to 4 inches are possible in\nthe warned area. Flash flooding is ongoing or expected to begin\nshortly.\n\nHAZARD...Life threatening flash flooding. Thunderstorms\nproducing flash flooding.\n\nSOURCE...Radar.\n\nIMPACT...Life threatening flash flooding of creeks and streams,\nurban areas, highways, streets and underpasses.\n\n* Some locations that will experience flash flooding include...\nEldon, Lake Ozark, Barnett, Olean, Bagnell, Lakeside, Aurora\nSprings, Rocky Mount, Lakeview and Lake of The Ozarks.\n\nThis includes the following low water crossings...\nBlue Springs Creek at Highway Z.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Many flood\ndeaths occur in vehicles.\n\nMove to higher ground now. Act quickly to protect your life.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFWSGF"
+          ],
+          "WMOidentifier": [
+            "WGUS53 KSGF 080246"
+          ],
+          "flashFloodDetection": [
+            "RADAR INDICATED"
+          ],
+          "flashFloodDamageThreat": [
+            "CONSIDERABLE"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.NEW.KSGF.FF.W.0039.260608T0246Z-260608T0845Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T03:45:00-05:00"
+          ],
+          "WEAHandling": [
+            "Imminent Threat"
+          ],
+          "CMAMtext": [
+            "NWS: FLASH FLOOD WARNING this area til 3:45 AM CDT. Avoid flooded areas."
+          ],
+          "CMAMlongtext": [
+            "National Weather Service: A FLASH FLOOD WARNING is in effect for this area until 3:45 AM CDT. This is a dangerous and life-threatening situation. Do not attempt to travel unless you are fleeing an area subject to flooding or under an evacuation order."
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFW"
+          ],
+          "NationalWeatherService": [
+            "FFW"
+          ]
+        }
+      }
+    },
+    {
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e2e5a026f2d1d467a473dad0f72d1615148f05f8.001.1",
       "type": "Feature",
       "geometry": null,
@@ -120,146 +601,6 @@
           ],
           "NationalWeatherService": [
             "FAA"
-          ]
-        }
-      }
-    },
-    {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f355c845de3e5d860b21bef154a7a35077a0694.002.1",
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -92.76,
-              37.07
-            ],
-            [
-              -92.68,
-              37.07
-            ],
-            [
-              -92.68,
-              37.24
-            ],
-            [
-              -92.55,
-              37.37
-            ],
-            [
-              -92.24,
-              37.19
-            ],
-            [
-              -92.25,
-              37.06
-            ],
-            [
-              -92.5,
-              36.87
-            ],
-            [
-              -92.77,
-              36.87
-            ],
-            [
-              -92.76,
-              37.07
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f355c845de3e5d860b21bef154a7a35077a0694.002.1",
-        "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.1f355c845de3e5d860b21bef154a7a35077a0694.002.1",
-        "areaDesc": "Douglas, MO; Wright, MO",
-        "geocode": {
-          "SAME": [
-            "029067",
-            "029229"
-          ],
-          "UGC": [
-            "MOC067",
-            "MOC229"
-          ]
-        },
-        "affectedZones": [
-          "https://api.weather.gov/zones/county/MOC067",
-          "https://api.weather.gov/zones/county/MOC229"
-        ],
-        "references": [
-          {
-            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c5cb44d15a23cb276c73920a94d2dd3b49fd968c.001.1",
-            "identifier": "urn:oid:2.49.0.1.840.0.c5cb44d15a23cb276c73920a94d2dd3b49fd968c.001.1",
-            "sender": "w-nws.webmaster@noaa.gov",
-            "sent": "2026-06-07T21:20:00-05:00"
-          }
-        ],
-        "sent": "2026-06-07T21:41:00-05:00",
-        "effective": "2026-06-07T21:41:00-05:00",
-        "onset": "2026-06-07T21:41:00-05:00",
-        "expires": "2026-06-07T22:00:00-05:00",
-        "ends": "2026-06-07T22:00:00-05:00",
-        "status": "Actual",
-        "messageType": "Update",
-        "category": "Met",
-        "severity": "Extreme",
-        "certainty": "Observed",
-        "urgency": "Immediate",
-        "event": "Tornado Warning",
-        "sender": "w-nws.webmaster@noaa.gov",
-        "senderName": "NWS Springfield MO",
-        "headline": "Tornado Warning issued June 7 at 9:41PM CDT until June 7 at 10:00PM CDT by NWS Springfield MO",
-        "description": "At 941 PM CDT, a severe thunderstorm capable of producing a tornado\nwas located near Mansfield, or 8 miles north of Ava, moving northeast\nat 35 mph.\n\nHAZARD...Tornado.\n\nSOURCE...Radar indicated rotation.\n\nIMPACT...Flying debris will be dangerous to those caught without\nshelter. Mobile homes will be damaged or destroyed. Damage\nto roofs, windows, and vehicles will occur.  Tree damage is\nlikely.\n\nLocations impacted include...\nMountain Grove, Ava, Mansfield, Norwood, Hartville, Brushyknob, and\nOdin.",
-        "instruction": "TAKE COVER NOW! Move to a basement or an interior room on the lowest\nfloor of a sturdy building. Avoid windows. If you are outdoors, in a\nmobile home, or in a vehicle, move to the closest substantial shelter\nand protect yourself from flying debris.\n\nTorrential rainfall is occurring with this storm, and may lead to\nflash flooding. Do not drive your vehicle through flooded roadways.",
-        "response": "Shelter",
-        "note": null,
-        "parameters": {
-          "AWIPSidentifier": [
-            "SVSSGF"
-          ],
-          "WMOidentifier": [
-            "WWUS53 KSGF 080241"
-          ],
-          "NWSheadline": [
-            "A TORNADO WARNING REMAINS IN EFFECT UNTIL 1000 PM CDT FOR SOUTHERN WRIGHT AND NORTHWESTERN DOUGLAS COUNTIES"
-          ],
-          "eventMotionDescription": [
-            "2026-06-08T02:41:00-00:00...storm...243DEG...31KT...37.07,-92.61"
-          ],
-          "maxHailSize": [
-            "0.00"
-          ],
-          "tornadoDetection": [
-            "RADAR INDICATED"
-          ],
-          "BLOCKCHANNEL": [
-            "EAS",
-            "NWEM",
-            "CMAS"
-          ],
-          "EAS-ORG": [
-            "WXR"
-          ],
-          "VTEC": [
-            "/O.CON.KSGF.TO.W.0057.000000T0000Z-260608T0300Z/"
-          ],
-          "eventEndingTime": [
-            "2026-06-07T22:00:00-05:00"
-          ]
-        },
-        "scope": "Public",
-        "code": "IPAWSv1.0",
-        "language": "en-US",
-        "web": "http://www.weather.gov",
-        "eventCode": {
-          "SAME": [
-            "SVS"
-          ],
-          "NationalWeatherService": [
-            "TOW"
           ]
         }
       }
@@ -818,141 +1159,7 @@
       }
     },
     {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.002.1",
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -93.14,
-              39.35
-            ],
-            [
-              -93.05,
-              39.39
-            ],
-            [
-              -92.79,
-              39.24
-            ],
-            [
-              -92.87,
-              39.06
-            ],
-            [
-              -92.96,
-              39.07
-            ],
-            [
-              -93.14,
-              39.35
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.002.1",
-        "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.002.1",
-        "areaDesc": "Chariton, MO; Howard, MO; Saline, MO",
-        "geocode": {
-          "SAME": [
-            "029041",
-            "029089",
-            "029195"
-          ],
-          "UGC": [
-            "MOC041",
-            "MOC089",
-            "MOC195"
-          ]
-        },
-        "affectedZones": [
-          "https://api.weather.gov/zones/county/MOC041",
-          "https://api.weather.gov/zones/county/MOC089",
-          "https://api.weather.gov/zones/county/MOC195"
-        ],
-        "references": [
-          {
-            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b2dce5c3b41742136b00818bc526872bfd1d9fd.001.1",
-            "identifier": "urn:oid:2.49.0.1.840.0.3b2dce5c3b41742136b00818bc526872bfd1d9fd.001.1",
-            "sender": "w-nws.webmaster@noaa.gov",
-            "sent": "2026-06-06T21:01:00-05:00"
-          },
-          {
-            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66560903f4a0ebc4efc8466fa0514a44df229645.001.1",
-            "identifier": "urn:oid:2.49.0.1.840.0.66560903f4a0ebc4efc8466fa0514a44df229645.001.1",
-            "sender": "w-nws.webmaster@noaa.gov",
-            "sent": "2026-06-07T09:33:00-05:00"
-          },
-          {
-            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f08ebe247be92c4557197878a0d0129342d2a79a.001.1",
-            "identifier": "urn:oid:2.49.0.1.840.0.f08ebe247be92c4557197878a0d0129342d2a79a.001.1",
-            "sender": "w-nws.webmaster@noaa.gov",
-            "sent": "2026-06-07T13:50:00-05:00"
-          }
-        ],
-        "sent": "2026-06-07T20:45:00-05:00",
-        "effective": "2026-06-07T20:45:00-05:00",
-        "onset": "2026-06-07T20:45:00-05:00",
-        "expires": "2026-06-08T20:45:00-05:00",
-        "ends": "2026-06-09T21:00:00-05:00",
-        "status": "Actual",
-        "messageType": "Update",
-        "category": "Met",
-        "severity": "Severe",
-        "certainty": "Observed",
-        "urgency": "Immediate",
-        "event": "Flood Warning",
-        "sender": "w-nws.webmaster@noaa.gov",
-        "senderName": "NWS Kansas City/Pleasant Hill MO",
-        "headline": "Flood Warning issued June 7 at 8:45PM CDT until June 9 at 9:00PM CDT by NWS Kansas City/Pleasant Hill MO",
-        "description": "...The Flood Warning is extended for the following rivers in\nMissouri...\n\nMissouri River at Boonville affecting Cooper, Moniteau, Boone and\nHoward Counties.\n\nMissouri River at Glasgow affecting Chariton, Howard and Saline\nCounties.\n\nMissouri River at Waverly affecting Lafayette, Saline and Carroll\nCounties.\n\n...The Flood Warning continues for the following rivers in\nMissouri...\n\nMissouri River At Miami affecting Chariton, Carroll and Saline\nCounties.\n\nMissouri River at Napoleon affecting Lafayette, Jackson and Ray\nCounties.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Missouri River at Glasgow.\n\n* WHEN...Until Tuesday evening.\n\n* IMPACTS...At 25.0 feet, Farmland along the river floods. At 27.0\nfeet, Many agricultural levees are overtopped. Widespread flooding\nof rural areas occurs. Secondary roads and homes behind levees may\nbe inundated.\n\n* ADDITIONAL DETAILS...\n- At 8:30 PM CDT Sunday the stage was 25.7 feet.\n- Forecast...The river is expected to rise to a crest of 25.8 feet\njust after midnight tonight. It will then fall below flood stage\nlate tomorrow evening.\n- Flood stage is 25.0 feet.\n- http://www.weather.gov/safety/flood",
-        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nMotorists should not attempt to drive around barricades or drive cars\nthrough flooded areas.\n\nThis product along with additional weather and stream information is\navailable at www.weather.gov/kc/.",
-        "response": "Avoid",
-        "note": null,
-        "parameters": {
-          "AWIPSidentifier": [
-            "FLSEAX"
-          ],
-          "WMOidentifier": [
-            "WGUS83 KEAX 080145"
-          ],
-          "NWSheadline": [
-            "FLOOD WARNING NOW IN EFFECT UNTIL TUESDAY EVENING"
-          ],
-          "BLOCKCHANNEL": [
-            "EAS",
-            "NWEM",
-            "CMAS"
-          ],
-          "EAS-ORG": [
-            "WXR"
-          ],
-          "VTEC": [
-            "/O.EXT.KEAX.FL.W.0127.000000T0000Z-260610T0200Z/"
-          ],
-          "eventEndingTime": [
-            "2026-06-09T21:00:00-05:00"
-          ]
-        },
-        "scope": "Public",
-        "code": "IPAWSv1.0",
-        "language": "en-US",
-        "web": "http://www.weather.gov",
-        "eventCode": {
-          "SAME": [
-            "FLS"
-          ],
-          "NationalWeatherService": [
-            "FLW"
-          ]
-        }
-      }
-    },
-    {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.004.1",
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.005.1",
       "type": "Feature",
       "geometry": {
         "type": "Polygon",
@@ -960,66 +1167,78 @@
           [
             [
               -93.86,
-              39.25
-            ],
-            [
-              -93.31,
-              39.33
-            ],
-            [
-              -93.27,
               39.28
             ],
             [
-              -93.3,
-              39.22
+              -93.84,
+              39.17
             ],
             [
-              -93.84,
-              39.18
+              -94.05,
+              39.11
+            ],
+            [
+              -94.15,
+              39.16
+            ],
+            [
+              -94.33,
+              39.16
+            ],
+            [
+              -94.31,
+              39.26
+            ],
+            [
+              -94.16,
+              39.26
+            ],
+            [
+              -94.04,
+              39.21
             ],
             [
               -93.86,
-              39.25
+              39.28
             ]
           ]
         ]
       },
       "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.004.1",
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.005.1",
         "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.004.1",
-        "areaDesc": "Carroll, MO; Lafayette, MO; Saline, MO",
+        "id": "urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.005.1",
+        "areaDesc": "Jackson, MO; Lafayette, MO; Ray, MO",
         "geocode": {
           "SAME": [
-            "029033",
+            "029095",
             "029107",
-            "029195"
+            "029177"
           ],
           "UGC": [
-            "MOC033",
+            "MOC095",
             "MOC107",
-            "MOC195"
+            "MOC177"
           ]
         },
         "affectedZones": [
-          "https://api.weather.gov/zones/county/MOC033",
+          "https://api.weather.gov/zones/county/MOC095",
           "https://api.weather.gov/zones/county/MOC107",
-          "https://api.weather.gov/zones/county/MOC195"
+          "https://api.weather.gov/zones/county/MOC177"
         ],
         "references": [
           {
-            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95d0ea28165a51ff9c2061f66e80180333e2c7f2.001.1",
-            "identifier": "urn:oid:2.49.0.1.840.0.95d0ea28165a51ff9c2061f66e80180333e2c7f2.001.1",
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3dbbcb50318980ce7f48e757e2dc17917622317f.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.3dbbcb50318980ce7f48e757e2dc17917622317f.001.1",
             "sender": "w-nws.webmaster@noaa.gov",
-            "sent": "2026-06-07T09:28:00-05:00"
+            "sent": "2026-06-07T13:24:00-05:00"
           }
         ],
         "sent": "2026-06-07T20:45:00-05:00",
         "effective": "2026-06-07T20:45:00-05:00",
         "onset": "2026-06-07T20:45:00-05:00",
         "expires": "2026-06-08T20:45:00-05:00",
-        "ends": "2026-06-09T16:00:00-05:00",
+        "ends": "2026-06-08T22:17:00-05:00",
         "status": "Actual",
         "messageType": "Update",
         "category": "Met",
@@ -1029,8 +1248,8 @@
         "event": "Flood Warning",
         "sender": "w-nws.webmaster@noaa.gov",
         "senderName": "NWS Kansas City/Pleasant Hill MO",
-        "headline": "Flood Warning issued June 7 at 8:45PM CDT until June 9 at 4:00PM CDT by NWS Kansas City/Pleasant Hill MO",
-        "description": "...The Flood Warning is extended for the following rivers in\nMissouri...\n\nMissouri River at Boonville affecting Cooper, Moniteau, Boone and\nHoward Counties.\n\nMissouri River at Glasgow affecting Chariton, Howard and Saline\nCounties.\n\nMissouri River at Waverly affecting Lafayette, Saline and Carroll\nCounties.\n\n...The Flood Warning continues for the following rivers in\nMissouri...\n\nMissouri River At Miami affecting Chariton, Carroll and Saline\nCounties.\n\nMissouri River at Napoleon affecting Lafayette, Jackson and Ray\nCounties.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Missouri River at Waverly.\n\n* WHEN...Until Tuesday afternoon.\n\n* IMPACTS...At 23.5 feet, Rural areas along the river which are not\nprotected by levees flood.\n\n* ADDITIONAL DETAILS...\n- At 8:00 PM CDT Sunday the stage was 21.8 feet.\n- Forecast...The river is expected to fall below flood stage\ntomorrow afternoon and continue falling to 13.7 feet Sunday, June\n14.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
+        "headline": "Flood Warning issued June 7 at 8:45PM CDT until June 8 at 10:17PM CDT by NWS Kansas City/Pleasant Hill MO",
+        "description": "...The Flood Warning is extended for the following rivers in\nMissouri...\n\nMissouri River at Boonville affecting Cooper, Moniteau, Boone and\nHoward Counties.\n\nMissouri River at Glasgow affecting Chariton, Howard and Saline\nCounties.\n\nMissouri River at Waverly affecting Lafayette, Saline and Carroll\nCounties.\n\n...The Flood Warning continues for the following rivers in\nMissouri...\n\nMissouri River At Miami affecting Chariton, Carroll and Saline\nCounties.\n\nMissouri River at Napoleon affecting Lafayette, Jackson and Ray\nCounties.\n\n* WHAT...Minor flooding is occurring.\n\n* WHERE...Missouri River at Napoleon.\n\n* WHEN...Until Monday evening.\n\n* IMPACTS...At 17.0 feet, Low-lying areas unprotected by levees begin\nto flood.\n\n* ADDITIONAL DETAILS...\n- At 8:00 PM CDT Sunday the stage was 17.2 feet.\n- Forecast...The river is expected to fall below flood stage late\nthis evening and continue falling to 11.1 feet Friday evening.\n- Flood stage is 17.0 feet.\n- http://www.weather.gov/safety/flood",
         "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nMotorists should not attempt to drive around barricades or drive cars\nthrough flooded areas.\n\nThis product along with additional weather and stream information is\navailable at www.weather.gov/kc/.",
         "response": "Avoid",
         "note": null,
@@ -1042,7 +1261,7 @@
             "WGUS83 KEAX 080145"
           ],
           "NWSheadline": [
-            "FLOOD WARNING NOW IN EFFECT UNTIL TUESDAY AFTERNOON"
+            "FLOOD WARNING NOW IN EFFECT UNTIL MONDAY EVENING"
           ],
           "BLOCKCHANNEL": [
             "EAS",
@@ -1053,13 +1272,13 @@
             "WXR"
           ],
           "VTEC": [
-            "/O.EXT.KEAX.FL.W.0121.000000T0000Z-260609T2100Z/"
+            "/O.EXT.KEAX.FL.W.0120.000000T0000Z-260609T0317Z/"
           ],
           "eventEndingTime": [
-            "2026-06-09T16:00:00-05:00"
+            "2026-06-08T22:17:00-05:00"
           ],
           "expiredReferences": [
-            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.649daf631da010ff5ae6bfaf371fc606aef4fc7f.002.1,2026-06-06T20:11:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.59f76531bd2a05b4c4db1188fe12cad996f7e8ee.001.1,2026-06-06T09:56:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.030cf0febfd4e33a2b9061780d85eb0076393614.003.1,2026-06-05T20:44:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.86f9592953167a8aec7b14b61891ebc15e8e33a4.001.1,2026-06-05T09:49:00-05:00"
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.649daf631da010ff5ae6bfaf371fc606aef4fc7f.003.1,2026-06-06T20:11:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.699c8e7cb7a1b49443566e1839d355eb0056ebe4.001.1,2026-06-06T09:55:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.020610c2606b7584f2e9d65840727289a02a4ef5.001.1,2026-06-06T06:49:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.030cf0febfd4e33a2b9061780d85eb0076393614.002.1,2026-06-05T20:44:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b7345ce58f2935bf2d53538d9172dfc7e1501888.001.1,2026-06-05T09:49:00-05:00"
           ]
         },
         "scope": "Public",
@@ -1222,143 +1441,6 @@
       }
     },
     {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.005.1",
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -93.86,
-              39.28
-            ],
-            [
-              -93.84,
-              39.17
-            ],
-            [
-              -94.05,
-              39.11
-            ],
-            [
-              -94.15,
-              39.16
-            ],
-            [
-              -94.33,
-              39.16
-            ],
-            [
-              -94.31,
-              39.26
-            ],
-            [
-              -94.16,
-              39.26
-            ],
-            [
-              -94.04,
-              39.21
-            ],
-            [
-              -93.86,
-              39.28
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.005.1",
-        "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.005.1",
-        "areaDesc": "Jackson, MO; Lafayette, MO; Ray, MO",
-        "geocode": {
-          "SAME": [
-            "029095",
-            "029107",
-            "029177"
-          ],
-          "UGC": [
-            "MOC095",
-            "MOC107",
-            "MOC177"
-          ]
-        },
-        "affectedZones": [
-          "https://api.weather.gov/zones/county/MOC095",
-          "https://api.weather.gov/zones/county/MOC107",
-          "https://api.weather.gov/zones/county/MOC177"
-        ],
-        "references": [
-          {
-            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3dbbcb50318980ce7f48e757e2dc17917622317f.001.1",
-            "identifier": "urn:oid:2.49.0.1.840.0.3dbbcb50318980ce7f48e757e2dc17917622317f.001.1",
-            "sender": "w-nws.webmaster@noaa.gov",
-            "sent": "2026-06-07T13:24:00-05:00"
-          }
-        ],
-        "sent": "2026-06-07T20:45:00-05:00",
-        "effective": "2026-06-07T20:45:00-05:00",
-        "onset": "2026-06-07T20:45:00-05:00",
-        "expires": "2026-06-08T20:45:00-05:00",
-        "ends": "2026-06-08T22:17:00-05:00",
-        "status": "Actual",
-        "messageType": "Update",
-        "category": "Met",
-        "severity": "Severe",
-        "certainty": "Observed",
-        "urgency": "Immediate",
-        "event": "Flood Warning",
-        "sender": "w-nws.webmaster@noaa.gov",
-        "senderName": "NWS Kansas City/Pleasant Hill MO",
-        "headline": "Flood Warning issued June 7 at 8:45PM CDT until June 8 at 10:17PM CDT by NWS Kansas City/Pleasant Hill MO",
-        "description": "...The Flood Warning is extended for the following rivers in\nMissouri...\n\nMissouri River at Boonville affecting Cooper, Moniteau, Boone and\nHoward Counties.\n\nMissouri River at Glasgow affecting Chariton, Howard and Saline\nCounties.\n\nMissouri River at Waverly affecting Lafayette, Saline and Carroll\nCounties.\n\n...The Flood Warning continues for the following rivers in\nMissouri...\n\nMissouri River At Miami affecting Chariton, Carroll and Saline\nCounties.\n\nMissouri River at Napoleon affecting Lafayette, Jackson and Ray\nCounties.\n\n* WHAT...Minor flooding is occurring.\n\n* WHERE...Missouri River at Napoleon.\n\n* WHEN...Until Monday evening.\n\n* IMPACTS...At 17.0 feet, Low-lying areas unprotected by levees begin\nto flood.\n\n* ADDITIONAL DETAILS...\n- At 8:00 PM CDT Sunday the stage was 17.2 feet.\n- Forecast...The river is expected to fall below flood stage late\nthis evening and continue falling to 11.1 feet Friday evening.\n- Flood stage is 17.0 feet.\n- http://www.weather.gov/safety/flood",
-        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nMotorists should not attempt to drive around barricades or drive cars\nthrough flooded areas.\n\nThis product along with additional weather and stream information is\navailable at www.weather.gov/kc/.",
-        "response": "Avoid",
-        "note": null,
-        "parameters": {
-          "AWIPSidentifier": [
-            "FLSEAX"
-          ],
-          "WMOidentifier": [
-            "WGUS83 KEAX 080145"
-          ],
-          "NWSheadline": [
-            "FLOOD WARNING NOW IN EFFECT UNTIL MONDAY EVENING"
-          ],
-          "BLOCKCHANNEL": [
-            "EAS",
-            "NWEM",
-            "CMAS"
-          ],
-          "EAS-ORG": [
-            "WXR"
-          ],
-          "VTEC": [
-            "/O.EXT.KEAX.FL.W.0120.000000T0000Z-260609T0317Z/"
-          ],
-          "eventEndingTime": [
-            "2026-06-08T22:17:00-05:00"
-          ],
-          "expiredReferences": [
-            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.649daf631da010ff5ae6bfaf371fc606aef4fc7f.003.1,2026-06-06T20:11:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.699c8e7cb7a1b49443566e1839d355eb0056ebe4.001.1,2026-06-06T09:55:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.020610c2606b7584f2e9d65840727289a02a4ef5.001.1,2026-06-06T06:49:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.030cf0febfd4e33a2b9061780d85eb0076393614.002.1,2026-06-05T20:44:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b7345ce58f2935bf2d53538d9172dfc7e1501888.001.1,2026-06-05T09:49:00-05:00"
-          ]
-        },
-        "scope": "Public",
-        "code": "IPAWSv1.0",
-        "language": "en-US",
-        "web": "http://www.weather.gov",
-        "eventCode": {
-          "SAME": [
-            "FLS"
-          ],
-          "NationalWeatherService": [
-            "FLW"
-          ]
-        }
-      }
-    },
-    {
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.003.1",
       "type": "Feature",
       "geometry": {
@@ -1472,6 +1554,381 @@
         "eventCode": {
           "SAME": [
             "FLS"
+          ],
+          "NationalWeatherService": [
+            "FLW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.004.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -93.86,
+              39.25
+            ],
+            [
+              -93.31,
+              39.33
+            ],
+            [
+              -93.27,
+              39.28
+            ],
+            [
+              -93.3,
+              39.22
+            ],
+            [
+              -93.84,
+              39.18
+            ],
+            [
+              -93.86,
+              39.25
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.004.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.004.1",
+        "areaDesc": "Carroll, MO; Lafayette, MO; Saline, MO",
+        "geocode": {
+          "SAME": [
+            "029033",
+            "029107",
+            "029195"
+          ],
+          "UGC": [
+            "MOC033",
+            "MOC107",
+            "MOC195"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/MOC033",
+          "https://api.weather.gov/zones/county/MOC107",
+          "https://api.weather.gov/zones/county/MOC195"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.95d0ea28165a51ff9c2061f66e80180333e2c7f2.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.95d0ea28165a51ff9c2061f66e80180333e2c7f2.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T09:28:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T20:45:00-05:00",
+        "effective": "2026-06-07T20:45:00-05:00",
+        "onset": "2026-06-07T20:45:00-05:00",
+        "expires": "2026-06-08T20:45:00-05:00",
+        "ends": "2026-06-09T16:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Kansas City/Pleasant Hill MO",
+        "headline": "Flood Warning issued June 7 at 8:45PM CDT until June 9 at 4:00PM CDT by NWS Kansas City/Pleasant Hill MO",
+        "description": "...The Flood Warning is extended for the following rivers in\nMissouri...\n\nMissouri River at Boonville affecting Cooper, Moniteau, Boone and\nHoward Counties.\n\nMissouri River at Glasgow affecting Chariton, Howard and Saline\nCounties.\n\nMissouri River at Waverly affecting Lafayette, Saline and Carroll\nCounties.\n\n...The Flood Warning continues for the following rivers in\nMissouri...\n\nMissouri River At Miami affecting Chariton, Carroll and Saline\nCounties.\n\nMissouri River at Napoleon affecting Lafayette, Jackson and Ray\nCounties.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Missouri River at Waverly.\n\n* WHEN...Until Tuesday afternoon.\n\n* IMPACTS...At 23.5 feet, Rural areas along the river which are not\nprotected by levees flood.\n\n* ADDITIONAL DETAILS...\n- At 8:00 PM CDT Sunday the stage was 21.8 feet.\n- Forecast...The river is expected to fall below flood stage\ntomorrow afternoon and continue falling to 13.7 feet Sunday, June\n14.\n- Flood stage is 20.0 feet.\n- http://www.weather.gov/safety/flood",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nMotorists should not attempt to drive around barricades or drive cars\nthrough flooded areas.\n\nThis product along with additional weather and stream information is\navailable at www.weather.gov/kc/.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSEAX"
+          ],
+          "WMOidentifier": [
+            "WGUS83 KEAX 080145"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING NOW IN EFFECT UNTIL TUESDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KEAX.FL.W.0121.000000T0000Z-260609T2100Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T16:00:00-05:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.649daf631da010ff5ae6bfaf371fc606aef4fc7f.002.1,2026-06-06T20:11:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.59f76531bd2a05b4c4db1188fe12cad996f7e8ee.001.1,2026-06-06T09:56:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.030cf0febfd4e33a2b9061780d85eb0076393614.003.1,2026-06-05T20:44:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.86f9592953167a8aec7b14b61891ebc15e8e33a4.001.1,2026-06-05T09:49:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLS"
+          ],
+          "NationalWeatherService": [
+            "FLW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.002.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -93.14,
+              39.35
+            ],
+            [
+              -93.05,
+              39.39
+            ],
+            [
+              -92.79,
+              39.24
+            ],
+            [
+              -92.87,
+              39.06
+            ],
+            [
+              -92.96,
+              39.07
+            ],
+            [
+              -93.14,
+              39.35
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.919c4a380f49c1a34c2b0627af44e0c44746fe09.002.1",
+        "areaDesc": "Chariton, MO; Howard, MO; Saline, MO",
+        "geocode": {
+          "SAME": [
+            "029041",
+            "029089",
+            "029195"
+          ],
+          "UGC": [
+            "MOC041",
+            "MOC089",
+            "MOC195"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/MOC041",
+          "https://api.weather.gov/zones/county/MOC089",
+          "https://api.weather.gov/zones/county/MOC195"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3b2dce5c3b41742136b00818bc526872bfd1d9fd.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.3b2dce5c3b41742136b00818bc526872bfd1d9fd.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-06T21:01:00-05:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.66560903f4a0ebc4efc8466fa0514a44df229645.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.66560903f4a0ebc4efc8466fa0514a44df229645.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T09:33:00-05:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.f08ebe247be92c4557197878a0d0129342d2a79a.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.f08ebe247be92c4557197878a0d0129342d2a79a.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T13:50:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T20:45:00-05:00",
+        "effective": "2026-06-07T20:45:00-05:00",
+        "onset": "2026-06-07T20:45:00-05:00",
+        "expires": "2026-06-08T20:45:00-05:00",
+        "ends": "2026-06-09T21:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Kansas City/Pleasant Hill MO",
+        "headline": "Flood Warning issued June 7 at 8:45PM CDT until June 9 at 9:00PM CDT by NWS Kansas City/Pleasant Hill MO",
+        "description": "...The Flood Warning is extended for the following rivers in\nMissouri...\n\nMissouri River at Boonville affecting Cooper, Moniteau, Boone and\nHoward Counties.\n\nMissouri River at Glasgow affecting Chariton, Howard and Saline\nCounties.\n\nMissouri River at Waverly affecting Lafayette, Saline and Carroll\nCounties.\n\n...The Flood Warning continues for the following rivers in\nMissouri...\n\nMissouri River At Miami affecting Chariton, Carroll and Saline\nCounties.\n\nMissouri River at Napoleon affecting Lafayette, Jackson and Ray\nCounties.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Missouri River at Glasgow.\n\n* WHEN...Until Tuesday evening.\n\n* IMPACTS...At 25.0 feet, Farmland along the river floods. At 27.0\nfeet, Many agricultural levees are overtopped. Widespread flooding\nof rural areas occurs. Secondary roads and homes behind levees may\nbe inundated.\n\n* ADDITIONAL DETAILS...\n- At 8:30 PM CDT Sunday the stage was 25.7 feet.\n- Forecast...The river is expected to rise to a crest of 25.8 feet\njust after midnight tonight. It will then fall below flood stage\nlate tomorrow evening.\n- Flood stage is 25.0 feet.\n- http://www.weather.gov/safety/flood",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nMotorists should not attempt to drive around barricades or drive cars\nthrough flooded areas.\n\nThis product along with additional weather and stream information is\navailable at www.weather.gov/kc/.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSEAX"
+          ],
+          "WMOidentifier": [
+            "WGUS83 KEAX 080145"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING NOW IN EFFECT UNTIL TUESDAY EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KEAX.FL.W.0127.000000T0000Z-260610T0200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T21:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLS"
+          ],
+          "NationalWeatherService": [
+            "FLW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dfcf931c7d439d4f9f703a9f315f18033ace275.002.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.6,
+              38.73
+            ],
+            [
+              -91.36,
+              38.75
+            ],
+            [
+              -91.19,
+              38.66
+            ],
+            [
+              -91.19,
+              38.59
+            ],
+            [
+              -91.44,
+              38.67
+            ],
+            [
+              -91.6,
+              38.65
+            ],
+            [
+              -91.6,
+              38.73
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dfcf931c7d439d4f9f703a9f315f18033ace275.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.6dfcf931c7d439d4f9f703a9f315f18033ace275.002.1",
+        "areaDesc": "Gasconade, MO; Montgomery, MO",
+        "geocode": {
+          "SAME": [
+            "029073",
+            "029139"
+          ],
+          "UGC": [
+            "MOC073",
+            "MOC139"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/MOC073",
+          "https://api.weather.gov/zones/county/MOC139"
+        ],
+        "references": [],
+        "sent": "2026-06-07T20:43:00-05:00",
+        "effective": "2026-06-07T20:43:00-05:00",
+        "onset": "2026-06-08T16:25:00-05:00",
+        "expires": "2026-06-09T08:45:00-05:00",
+        "ends": "2026-06-11T22:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS St Louis MO",
+        "headline": "Flood Warning issued June 7 at 8:43PM CDT until June 11 at 10:00PM CDT by NWS St Louis MO",
+        "description": "...The National Weather Service in St Louis has issued a Flood\nWarning for the following rivers in Missouri...\n\nMissouri River near Chamois.\n\nMissouri River at Hermann.\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 24 hours.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Missouri River at Hermann.\n\n* WHEN...From Monday afternoon to Thursday evening.\n\n* IMPACTS...At 25.0 feet, City Lions Club Athletic Field begins to\nflood.\n\n* ADDITIONAL DETAILS...\n- At 7:30 PM CDT Sunday the stage was 14.7 feet.\n- Forecast...The river is expected to rise above flood stage\ntomorrow afternoon to a crest of 23.7 feet early Tuesday\nafternoon. It will then fall below flood stage Wednesday\nafternoon.\n- Flood stage is 21.0 feet.",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nThis product, along with additional weather and stream information,\nis available at https://water.noaa.gov/wfo/lsx",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLWLSX"
+          ],
+          "WMOidentifier": [
+            "WGUS43 KLSX 080143"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING IN EFFECT FROM MONDAY AFTERNOON TO THURSDAY EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.NEW.KLSX.FL.W.0070.260608T2125Z-260612T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-11T22:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLW"
           ],
           "NationalWeatherService": [
             "FLW"
@@ -1605,122 +2062,6 @@
           ],
           "NationalWeatherService": [
             "FFW"
-          ]
-        }
-      }
-    },
-    {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dfcf931c7d439d4f9f703a9f315f18033ace275.002.1",
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -91.6,
-              38.73
-            ],
-            [
-              -91.36,
-              38.75
-            ],
-            [
-              -91.19,
-              38.66
-            ],
-            [
-              -91.19,
-              38.59
-            ],
-            [
-              -91.44,
-              38.67
-            ],
-            [
-              -91.6,
-              38.65
-            ],
-            [
-              -91.6,
-              38.73
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.6dfcf931c7d439d4f9f703a9f315f18033ace275.002.1",
-        "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.6dfcf931c7d439d4f9f703a9f315f18033ace275.002.1",
-        "areaDesc": "Gasconade, MO; Montgomery, MO",
-        "geocode": {
-          "SAME": [
-            "029073",
-            "029139"
-          ],
-          "UGC": [
-            "MOC073",
-            "MOC139"
-          ]
-        },
-        "affectedZones": [
-          "https://api.weather.gov/zones/county/MOC073",
-          "https://api.weather.gov/zones/county/MOC139"
-        ],
-        "references": [],
-        "sent": "2026-06-07T20:43:00-05:00",
-        "effective": "2026-06-07T20:43:00-05:00",
-        "onset": "2026-06-08T16:25:00-05:00",
-        "expires": "2026-06-09T08:45:00-05:00",
-        "ends": "2026-06-11T22:00:00-05:00",
-        "status": "Actual",
-        "messageType": "Alert",
-        "category": "Met",
-        "severity": "Severe",
-        "certainty": "Likely",
-        "urgency": "Expected",
-        "event": "Flood Warning",
-        "sender": "w-nws.webmaster@noaa.gov",
-        "senderName": "NWS St Louis MO",
-        "headline": "Flood Warning issued June 7 at 8:43PM CDT until June 11 at 10:00PM CDT by NWS St Louis MO",
-        "description": "...The National Weather Service in St Louis has issued a Flood\nWarning for the following rivers in Missouri...\n\nMissouri River near Chamois.\n\nMissouri River at Hermann.\n\nRiver forecasts are based on observed precipitation and forecast\nprecipitation for the next 24 hours.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Missouri River at Hermann.\n\n* WHEN...From Monday afternoon to Thursday evening.\n\n* IMPACTS...At 25.0 feet, City Lions Club Athletic Field begins to\nflood.\n\n* ADDITIONAL DETAILS...\n- At 7:30 PM CDT Sunday the stage was 14.7 feet.\n- Forecast...The river is expected to rise above flood stage\ntomorrow afternoon to a crest of 23.7 feet early Tuesday\nafternoon. It will then fall below flood stage Wednesday\nafternoon.\n- Flood stage is 21.0 feet.",
-        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nThis product, along with additional weather and stream information,\nis available at https://water.noaa.gov/wfo/lsx",
-        "response": "Avoid",
-        "note": null,
-        "parameters": {
-          "AWIPSidentifier": [
-            "FLWLSX"
-          ],
-          "WMOidentifier": [
-            "WGUS43 KLSX 080143"
-          ],
-          "NWSheadline": [
-            "FLOOD WARNING IN EFFECT FROM MONDAY AFTERNOON TO THURSDAY EVENING"
-          ],
-          "BLOCKCHANNEL": [
-            "EAS",
-            "NWEM",
-            "CMAS"
-          ],
-          "EAS-ORG": [
-            "WXR"
-          ],
-          "VTEC": [
-            "/O.NEW.KLSX.FL.W.0070.260608T2125Z-260612T0300Z/"
-          ],
-          "eventEndingTime": [
-            "2026-06-11T22:00:00-05:00"
-          ]
-        },
-        "scope": "Public",
-        "code": "IPAWSv1.0",
-        "language": "en-US",
-        "web": "http://www.weather.gov",
-        "eventCode": {
-          "SAME": [
-            "FLW"
-          ],
-          "NationalWeatherService": [
-            "FLW"
           ]
         }
       }
@@ -2168,127 +2509,6 @@
       }
     },
     {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ba4b3b3e5836848c8d76f38fe142238fba2e18a5.001.1",
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -94.74,
-              39.41
-            ],
-            [
-              -94.64,
-              39.41
-            ],
-            [
-              -94.76,
-              39.35
-            ],
-            [
-              -94.79,
-              39.39
-            ],
-            [
-              -94.74,
-              39.41
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ba4b3b3e5836848c8d76f38fe142238fba2e18a5.001.1",
-        "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.ba4b3b3e5836848c8d76f38fe142238fba2e18a5.001.1",
-        "areaDesc": "Platte, MO",
-        "geocode": {
-          "SAME": [
-            "029165"
-          ],
-          "UGC": [
-            "MOC165"
-          ]
-        },
-        "affectedZones": [
-          "https://api.weather.gov/zones/county/MOC165"
-        ],
-        "references": [
-          {
-            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e55a06e751e37882a4235170be3bf9089a1629c6.001.1",
-            "identifier": "urn:oid:2.49.0.1.840.0.e55a06e751e37882a4235170be3bf9089a1629c6.001.1",
-            "sender": "w-nws.webmaster@noaa.gov",
-            "sent": "2026-06-07T06:21:00-05:00"
-          },
-          {
-            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bdccd4abadcd0e911c1ac10ffbe077c8c7d4212.001.1",
-            "identifier": "urn:oid:2.49.0.1.840.0.9bdccd4abadcd0e911c1ac10ffbe077c8c7d4212.001.1",
-            "sender": "w-nws.webmaster@noaa.gov",
-            "sent": "2026-06-07T09:01:00-05:00"
-          }
-        ],
-        "sent": "2026-06-07T20:33:00-05:00",
-        "effective": "2026-06-07T20:33:00-05:00",
-        "onset": "2026-06-07T20:33:00-05:00",
-        "expires": "2026-06-08T20:45:00-05:00",
-        "ends": "2026-06-12T01:25:00-05:00",
-        "status": "Actual",
-        "messageType": "Update",
-        "category": "Met",
-        "severity": "Severe",
-        "certainty": "Observed",
-        "urgency": "Immediate",
-        "event": "Flood Warning",
-        "sender": "w-nws.webmaster@noaa.gov",
-        "senderName": "NWS Kansas City/Pleasant Hill MO",
-        "headline": "Flood Warning issued June 7 at 8:33PM CDT until June 12 at 1:25AM CDT by NWS Kansas City/Pleasant Hill MO",
-        "description": "...The Flood Warning is extended for the following rivers in\nMissouri...\n\nPlatte River At Sharps Station affecting Platte County.\n\nPlatte River near Platte City affecting Platte County.\n\nPlatte River near Agency affecting Buchanan County.\n\n* WHAT...Minor flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Platte River at Sharps Station.\n\n* WHEN...Until late Thursday night.\n\n* IMPACTS...At 26.0 feet, Low-lying rural land along the river begins\nto flood. At 29.0 feet, Backwater from the Platte River floods\nHighway KK along the Little Platte River at the location 0.2 miles\neast of Highway B. At 30.5 feet, Interurban Road floods about 1.5\nmiles southeast of Sharps Station. At 31.5 feet, The south approach\nto the Highway B bridge over the Little Platte River is under water\ndue to backwater from the Platte River.\n\n* ADDITIONAL DETAILS...\n- At 7:30 PM CDT Sunday the stage was 28.6 feet.\n- Forecast...The river is expected to rise to a crest of 30.7 feet\ntomorrow evening. It will then fall below flood stage early\nThursday morning.\n- Flood stage is 26.0 feet.\n- http://www.weather.gov/safety/flood",
-        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nMotorists should not attempt to drive around barricades or drive cars\nthrough flooded areas.\n\nThis product along with additional weather and stream information is\navailable at www.weather.gov/kc/.",
-        "response": "Avoid",
-        "note": null,
-        "parameters": {
-          "AWIPSidentifier": [
-            "FLSEAX"
-          ],
-          "WMOidentifier": [
-            "WGUS83 KEAX 080133"
-          ],
-          "NWSheadline": [
-            "FLOOD WARNING NOW IN EFFECT UNTIL LATE THURSDAY NIGHT"
-          ],
-          "BLOCKCHANNEL": [
-            "EAS",
-            "NWEM",
-            "CMAS"
-          ],
-          "EAS-ORG": [
-            "WXR"
-          ],
-          "VTEC": [
-            "/O.EXT.KEAX.FL.W.0124.000000T0000Z-260612T0625Z/"
-          ],
-          "eventEndingTime": [
-            "2026-06-12T01:25:00-05:00"
-          ],
-          "expiredReferences": [
-            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7a731305c9442fcd8a9d4e58cbfdc2550d489514.001.1,2026-06-06T19:58:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.08066c2b74c9e026ac58350cc199386b40e2b842.001.1,2026-06-06T08:20:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8b9154fdbd8cc6d41a2329c1b213a63354b948b7.001.1,2026-06-06T07:06:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cd392b350f9b0a61fe58a8eee3f7ee2852d0b7fd.003.1,2026-06-05T20:14:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4c6129a1e649e7e91a7c77a55222df3eda369f6e.003.1,2026-06-05T15:29:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3370e0060b99c31695a37b16771a67acb0fcb56b.002.1,2026-06-05T13:13:00-05:00"
-          ]
-        },
-        "scope": "Public",
-        "code": "IPAWSv1.0",
-        "language": "en-US",
-        "web": "http://www.weather.gov",
-        "eventCode": {
-          "SAME": [
-            "FLS"
-          ],
-          "NationalWeatherService": [
-            "FLW"
-          ]
-        }
-      }
-    },
-    {
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ba4b3b3e5836848c8d76f38fe142238fba2e18a5.003.1",
       "type": "Feature",
       "geometry": {
@@ -2397,6 +2617,127 @@
           ],
           "expiredReferences": [
             "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7a731305c9442fcd8a9d4e58cbfdc2550d489514.003.1,2026-06-06T19:58:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.48713e8fb8deb54789879a40ebcbafba5646c10b.001.1,2026-06-06T08:18:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.41bb38178dbb5383be97810fffdede22c69c69af.001.1,2026-06-06T07:05:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cd392b350f9b0a61fe58a8eee3f7ee2852d0b7fd.001.1,2026-06-05T20:14:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4c6129a1e649e7e91a7c77a55222df3eda369f6e.001.1,2026-06-05T15:29:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2a2f4abc4293bfc6f1dcc1cc04f2e866861fa2b3.001.1,2026-06-05T09:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e63df22728c7c00f8ab91f69be59b536e3bb794e.001.1,2026-06-05T07:46:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6b532410ef119d6ec9ba0edd124e5a0a9f88d6fc.001.1,2026-06-05T06:55:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0e14c3a1119a53576f0e3c3476f79b4563f5d820.001.1,2026-06-04T20:30:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLS"
+          ],
+          "NationalWeatherService": [
+            "FLW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ba4b3b3e5836848c8d76f38fe142238fba2e18a5.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.74,
+              39.41
+            ],
+            [
+              -94.64,
+              39.41
+            ],
+            [
+              -94.76,
+              39.35
+            ],
+            [
+              -94.79,
+              39.39
+            ],
+            [
+              -94.74,
+              39.41
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ba4b3b3e5836848c8d76f38fe142238fba2e18a5.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.ba4b3b3e5836848c8d76f38fe142238fba2e18a5.001.1",
+        "areaDesc": "Platte, MO",
+        "geocode": {
+          "SAME": [
+            "029165"
+          ],
+          "UGC": [
+            "MOC165"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/MOC165"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e55a06e751e37882a4235170be3bf9089a1629c6.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.e55a06e751e37882a4235170be3bf9089a1629c6.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T06:21:00-05:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9bdccd4abadcd0e911c1ac10ffbe077c8c7d4212.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.9bdccd4abadcd0e911c1ac10ffbe077c8c7d4212.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T09:01:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T20:33:00-05:00",
+        "effective": "2026-06-07T20:33:00-05:00",
+        "onset": "2026-06-07T20:33:00-05:00",
+        "expires": "2026-06-08T20:45:00-05:00",
+        "ends": "2026-06-12T01:25:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Kansas City/Pleasant Hill MO",
+        "headline": "Flood Warning issued June 7 at 8:33PM CDT until June 12 at 1:25AM CDT by NWS Kansas City/Pleasant Hill MO",
+        "description": "...The Flood Warning is extended for the following rivers in\nMissouri...\n\nPlatte River At Sharps Station affecting Platte County.\n\nPlatte River near Platte City affecting Platte County.\n\nPlatte River near Agency affecting Buchanan County.\n\n* WHAT...Minor flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Platte River at Sharps Station.\n\n* WHEN...Until late Thursday night.\n\n* IMPACTS...At 26.0 feet, Low-lying rural land along the river begins\nto flood. At 29.0 feet, Backwater from the Platte River floods\nHighway KK along the Little Platte River at the location 0.2 miles\neast of Highway B. At 30.5 feet, Interurban Road floods about 1.5\nmiles southeast of Sharps Station. At 31.5 feet, The south approach\nto the Highway B bridge over the Little Platte River is under water\ndue to backwater from the Platte River.\n\n* ADDITIONAL DETAILS...\n- At 7:30 PM CDT Sunday the stage was 28.6 feet.\n- Forecast...The river is expected to rise to a crest of 30.7 feet\ntomorrow evening. It will then fall below flood stage early\nThursday morning.\n- Flood stage is 26.0 feet.\n- http://www.weather.gov/safety/flood",
+        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nMotorists should not attempt to drive around barricades or drive cars\nthrough flooded areas.\n\nThis product along with additional weather and stream information is\navailable at www.weather.gov/kc/.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSEAX"
+          ],
+          "WMOidentifier": [
+            "WGUS83 KEAX 080133"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING NOW IN EFFECT UNTIL LATE THURSDAY NIGHT"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KEAX.FL.W.0124.000000T0000Z-260612T0625Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-12T01:25:00-05:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7a731305c9442fcd8a9d4e58cbfdc2550d489514.001.1,2026-06-06T19:58:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.08066c2b74c9e026ac58350cc199386b40e2b842.001.1,2026-06-06T08:20:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8b9154fdbd8cc6d41a2329c1b213a63354b948b7.001.1,2026-06-06T07:06:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.cd392b350f9b0a61fe58a8eee3f7ee2852d0b7fd.003.1,2026-06-05T20:14:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4c6129a1e649e7e91a7c77a55222df3eda369f6e.003.1,2026-06-05T15:29:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.3370e0060b99c31695a37b16771a67acb0fcb56b.002.1,2026-06-05T13:13:00-05:00"
           ]
         },
         "scope": "Public",
@@ -2705,94 +3046,6 @@
       }
     },
     {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7f960fdd75200f787f0222c3ff0925d85208c836.002.1",
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7f960fdd75200f787f0222c3ff0925d85208c836.002.1",
-        "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.7f960fdd75200f787f0222c3ff0925d85208c836.002.1",
-        "areaDesc": "Camden, MO; Douglas, MO; Laclede, MO; Ozark, MO; Wright, MO",
-        "geocode": {
-          "SAME": [
-            "029029",
-            "029067",
-            "029105",
-            "029153",
-            "029229"
-          ],
-          "UGC": [
-            "MOC029",
-            "MOC067",
-            "MOC105",
-            "MOC153",
-            "MOC229"
-          ]
-        },
-        "affectedZones": [
-          "https://api.weather.gov/zones/county/MOC029",
-          "https://api.weather.gov/zones/county/MOC067",
-          "https://api.weather.gov/zones/county/MOC105",
-          "https://api.weather.gov/zones/county/MOC153",
-          "https://api.weather.gov/zones/county/MOC229"
-        ],
-        "references": [],
-        "sent": "2026-06-07T20:18:00-05:00",
-        "effective": "2026-06-07T20:18:00-05:00",
-        "onset": "2026-06-07T20:18:00-05:00",
-        "expires": "2026-06-07T22:00:00-05:00",
-        "ends": "2026-06-07T22:00:00-05:00",
-        "status": "Actual",
-        "messageType": "Alert",
-        "category": "Met",
-        "severity": "Extreme",
-        "certainty": "Possible",
-        "urgency": "Future",
-        "event": "Tornado Watch",
-        "sender": "w-nws.webmaster@noaa.gov",
-        "senderName": "NWS Springfield MO",
-        "headline": "Tornado Watch issued June 7 at 8:18PM CDT until June 7 at 10:00PM CDT by NWS Springfield MO",
-        "description": "THE NATIONAL WEATHER SERVICE HAS EXTENDED TORNADO WATCH 284 TO\nINCLUDE THE FOLLOWING AREAS UNTIL 10 PM CDT THIS EVENING\n\nIN MISSOURI THIS WATCH INCLUDES 5 COUNTIES\n\nIN CENTRAL MISSOURI\n\nCAMDEN\n\nIN SOUTHWEST MISSOURI\n\nDOUGLAS               LACLEDE               OZARK\nWRIGHT\n\nTHIS INCLUDES THE CITIES OF AVA, CAMDENTON, DAWSON, DECATURVILLE,\nDOGWOOD, DUNCAN, GOODHOPE, GRAFF, LEBANON, LYNCHBURG, MANSFIELD,\nMOUNTAIN GROVE, OSAGE BEACH, ROACH, ROME, SQUIRES, VANZANT,\nVILLAGE OF FOUR SEASONS, AND WASOLA.",
-        "instruction": null,
-        "response": "Monitor",
-        "note": null,
-        "parameters": {
-          "AWIPSidentifier": [
-            "WCNSGF"
-          ],
-          "WMOidentifier": [
-            "WWUS63 KSGF 080118"
-          ],
-          "BLOCKCHANNEL": [
-            "EAS",
-            "NWEM",
-            "CMAS"
-          ],
-          "EAS-ORG": [
-            "WXR"
-          ],
-          "VTEC": [
-            "/O.EXB.KSGF.TO.A.0284.000000T0000Z-260608T0300Z/"
-          ],
-          "eventEndingTime": [
-            "2026-06-07T22:00:00-05:00"
-          ]
-        },
-        "scope": "Public",
-        "code": "IPAWSv1.0",
-        "language": "en-US",
-        "web": "http://www.weather.gov",
-        "eventCode": {
-          "SAME": [
-            "TOA"
-          ],
-          "NationalWeatherService": [
-            "TOA"
-          ]
-        }
-      }
-    },
-    {
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7f960fdd75200f787f0222c3ff0925d85208c836.003.1",
       "type": "Feature",
       "geometry": null,
@@ -2874,6 +3127,94 @@
           ],
           "expiredReferences": [
             "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.29bb835f62dc745fc1f4b08af05c984c3b577618.002.1,2026-06-07T17:41:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c1619d98cf6fb03b46063c48c92b64939f163534.001.1,2026-06-07T14:33:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "TOA"
+          ],
+          "NationalWeatherService": [
+            "TOA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7f960fdd75200f787f0222c3ff0925d85208c836.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7f960fdd75200f787f0222c3ff0925d85208c836.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.7f960fdd75200f787f0222c3ff0925d85208c836.002.1",
+        "areaDesc": "Camden, MO; Douglas, MO; Laclede, MO; Ozark, MO; Wright, MO",
+        "geocode": {
+          "SAME": [
+            "029029",
+            "029067",
+            "029105",
+            "029153",
+            "029229"
+          ],
+          "UGC": [
+            "MOC029",
+            "MOC067",
+            "MOC105",
+            "MOC153",
+            "MOC229"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/MOC029",
+          "https://api.weather.gov/zones/county/MOC067",
+          "https://api.weather.gov/zones/county/MOC105",
+          "https://api.weather.gov/zones/county/MOC153",
+          "https://api.weather.gov/zones/county/MOC229"
+        ],
+        "references": [],
+        "sent": "2026-06-07T20:18:00-05:00",
+        "effective": "2026-06-07T20:18:00-05:00",
+        "onset": "2026-06-07T20:18:00-05:00",
+        "expires": "2026-06-07T22:00:00-05:00",
+        "ends": "2026-06-07T22:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Extreme",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Tornado Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Springfield MO",
+        "headline": "Tornado Watch issued June 7 at 8:18PM CDT until June 7 at 10:00PM CDT by NWS Springfield MO",
+        "description": "THE NATIONAL WEATHER SERVICE HAS EXTENDED TORNADO WATCH 284 TO\nINCLUDE THE FOLLOWING AREAS UNTIL 10 PM CDT THIS EVENING\n\nIN MISSOURI THIS WATCH INCLUDES 5 COUNTIES\n\nIN CENTRAL MISSOURI\n\nCAMDEN\n\nIN SOUTHWEST MISSOURI\n\nDOUGLAS               LACLEDE               OZARK\nWRIGHT\n\nTHIS INCLUDES THE CITIES OF AVA, CAMDENTON, DAWSON, DECATURVILLE,\nDOGWOOD, DUNCAN, GOODHOPE, GRAFF, LEBANON, LYNCHBURG, MANSFIELD,\nMOUNTAIN GROVE, OSAGE BEACH, ROACH, ROME, SQUIRES, VANZANT,\nVILLAGE OF FOUR SEASONS, AND WASOLA.",
+        "instruction": null,
+        "response": "Monitor",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "WCNSGF"
+          ],
+          "WMOidentifier": [
+            "WWUS63 KSGF 080118"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXB.KSGF.TO.A.0284.000000T0000Z-260608T0300Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-07T22:00:00-05:00"
           ]
         },
         "scope": "Public",
@@ -3900,97 +4241,6 @@
       }
     },
     {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89c8075c2f716480712c37fc591ba6cfb2eb2eec.001.1",
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.89c8075c2f716480712c37fc591ba6cfb2eb2eec.001.1",
-        "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.89c8075c2f716480712c37fc591ba6cfb2eb2eec.001.1",
-        "areaDesc": "Boone; Moniteau; Cole; Osage; Callaway",
-        "geocode": {
-          "SAME": [
-            "029019",
-            "029135",
-            "029051",
-            "029151",
-            "029027"
-          ],
-          "UGC": [
-            "MOZ041",
-            "MOZ047",
-            "MOZ048",
-            "MOZ049",
-            "MOZ050"
-          ]
-        },
-        "affectedZones": [
-          "https://api.weather.gov/zones/forecast/MOZ041",
-          "https://api.weather.gov/zones/forecast/MOZ047",
-          "https://api.weather.gov/zones/forecast/MOZ048",
-          "https://api.weather.gov/zones/forecast/MOZ049",
-          "https://api.weather.gov/zones/forecast/MOZ050"
-        ],
-        "references": [],
-        "sent": "2026-06-07T13:26:00-05:00",
-        "effective": "2026-06-07T13:26:00-05:00",
-        "onset": "2026-06-07T13:26:00-05:00",
-        "expires": "2026-06-08T04:30:00-05:00",
-        "ends": "2026-06-08T13:00:00-05:00",
-        "status": "Actual",
-        "messageType": "Alert",
-        "category": "Met",
-        "severity": "Severe",
-        "certainty": "Possible",
-        "urgency": "Future",
-        "event": "Flood Watch",
-        "sender": "w-nws.webmaster@noaa.gov",
-        "senderName": "NWS St Louis MO",
-        "headline": "Flood Watch issued June 7 at 1:26PM CDT until June 8 at 1:00PM CDT by NWS St Louis MO",
-        "description": "* WHAT...Flash flooding caused by excessive rainfall is possible.\n\n* WHERE...A portion of central Missouri, including the following\nareas, Boone MO, Callaway MO, Cole MO, Moniteau MO and Osage MO.\n\n* WHEN...Through Monday afternoon.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\n\n* ADDITIONAL DETAILS...\n- Multiple rounds of showers and thunderstorms with very heavy\nrainfall are expected across the watch area through Monday\nmorning. Rainfall of 1 to 3 inches is possible with locally\nhigher amounts which could result in flash flooding where soils\nare already moistening.",
-        "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
-        "response": "Prepare",
-        "note": null,
-        "parameters": {
-          "AWIPSidentifier": [
-            "FFALSX"
-          ],
-          "WMOidentifier": [
-            "WGUS63 KLSX 071826"
-          ],
-          "NWSheadline": [
-            "FLOOD WATCH IN EFFECT THROUGH MONDAY AFTERNOON"
-          ],
-          "BLOCKCHANNEL": [
-            "EAS",
-            "NWEM",
-            "CMAS"
-          ],
-          "EAS-ORG": [
-            "WXR"
-          ],
-          "VTEC": [
-            "/O.NEW.KLSX.FA.A.0005.260607T1826Z-260608T1800Z/"
-          ],
-          "eventEndingTime": [
-            "2026-06-08T13:00:00-05:00"
-          ]
-        },
-        "scope": "Public",
-        "code": "IPAWSv1.0",
-        "language": "en-US",
-        "web": "http://www.weather.gov",
-        "eventCode": {
-          "SAME": [
-            "FFA"
-          ],
-          "NationalWeatherService": [
-            "FAA"
-          ]
-        }
-      }
-    },
-    {
       "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cdae6008f77571032ea15020f63dccfea90fa68c.001.1",
       "type": "Feature",
       "geometry": null,
@@ -4086,5 +4336,5 @@
     }
   ],
   "title": "Current watches, warnings, and advisories for Missouri",
-  "updated": "2026-06-08T02:45:00+00:00"
+  "updated": "2026-06-08T02:53:22+00:00"
 }

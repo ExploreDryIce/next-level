@@ -1,16 +1,5 @@
 [
   {
-    "event_type": "earthquake_M5.1",
-    "timestamp": 1780800785.88,
-    "severity_score": 0.517,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "196 km NE of Lospalos, Timor Leste",
-      "magnitude": 5.1
-    }
-  },
-  {
     "event_type": "earthquake_M5.4",
     "timestamp": 1780804617.053,
     "severity_score": 0.567,

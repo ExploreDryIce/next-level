@@ -1,0 +1,23 @@
+[
+  {
+    "place_id": 337543610,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 1180462,
+    "lat": "39.0355211",
+    "lon": "-94.3583509",
+    "class": "boundary",
+    "type": "administrative",
+    "place_rank": 12,
+    "importance": 0.5642751615557452,
+    "addresstype": "county",
+    "name": "Jackson County",
+    "display_name": "Jackson County, Missouri, United States",
+    "boundingbox": [
+      "38.8331748",
+      "39.2372824",
+      "-94.6081811",
+      "-94.1047554"
+    ]
+  }
+]

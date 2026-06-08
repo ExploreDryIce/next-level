@@ -1,0 +1,23 @@
+[
+  {
+    "place_id": 338296595,
+    "licence": "Data \u00a9 OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+    "osm_type": "relation",
+    "osm_id": 197472,
+    "lat": "36.1622767",
+    "lon": "-86.7742984",
+    "class": "boundary",
+    "type": "administrative",
+    "place_rank": 16,
+    "importance": 0.7077241551979302,
+    "addresstype": "city",
+    "name": "Nashville",
+    "display_name": "Nashville, Davidson County, Middle Tennessee, Tennessee, United States",
+    "boundingbox": [
+      "35.9677850",
+      "36.4054960",
+      "-87.0547660",
+      "-86.5155880"
+    ]
+  }
+]

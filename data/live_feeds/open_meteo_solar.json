@@ -1,0 +1,53 @@
+{
+  "latitude": 36.158024,
+  "longitude": -86.76494,
+  "generationtime_ms": 0.15044212341308594,
+  "utc_offset_seconds": -18000,
+  "timezone": "America/Chicago",
+  "timezone_abbreviation": "GMT-5",
+  "elevation": 145.0,
+  "daily_units": {
+    "time": "iso8601",
+    "sunshine_duration": "s",
+    "uv_index_max": "",
+    "shortwave_radiation_sum": "MJ/m\u00b2"
+  },
+  "daily": {
+    "time": [
+      "2026-06-07",
+      "2026-06-08",
+      "2026-06-09",
+      "2026-06-10",
+      "2026-06-11",
+      "2026-06-12",
+      "2026-06-13"
+    ],
+    "sunshine_duration": [
+      10137.9,
+      21309.64,
+      29252.16,
+      50560.25,
+      50584.23,
+      45759.39,
+      50594.65
+    ],
+    "uv_index_max": [
+      3.95,
+      4.45,
+      7.65,
+      8.1,
+      8.05,
+      7.35,
+      5.7
+    ],
+    "shortwave_radiation_sum": [
+      12.51,
+      15.61,
+      22.1,
+      28.78,
+      26.19,
+      21.94,
+      20.45
+    ]
+  }
+}

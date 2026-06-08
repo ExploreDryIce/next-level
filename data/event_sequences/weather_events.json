@@ -1,27 +1,5 @@
 [
   {
-    "event_type": "heavy_precipitation",
-    "timestamp": 1780920000.0,
-    "severity_score": 0.26,
-    "domain": "weather",
-    "source": "open_meteo",
-    "metadata": {
-      "precipitation_mm": 6.5,
-      "location": "Nashville"
-    }
-  },
-  {
-    "event_type": "heavy_precipitation",
-    "timestamp": 1780923600.0,
-    "severity_score": 0.532,
-    "domain": "weather",
-    "source": "open_meteo",
-    "metadata": {
-      "precipitation_mm": 13.3,
-      "location": "Nashville"
-    }
-  },
-  {
     "event_type": "nws_alert_flood_watch",
     "timestamp": 1780855740.0,
     "severity_score": 0.8,

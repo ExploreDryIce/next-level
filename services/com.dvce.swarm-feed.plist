@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.dvce.swarm-feed</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/webber/Desktop/dvce/.venv/bin/python</string>
+        <string>-m</string>
+        <string>src.ingestion.daily_pull</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/webber/Desktop/next-level</string>
+    <key>StartCalendarInterval</key>
+    <array>
+        <!-- Run at 6:00 AM daily -->
+        <dict>
+            <key>Hour</key>
+            <integer>6</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+        <!-- Run at 6:00 PM daily (evening update) -->
+        <dict>
+            <key>Hour</key>
+            <integer>18</integer>
+            <key>Minute</key>
+            <integer>0</integer>
+        </dict>
+    </array>
+    <key>StandardOutPath</key>
+    <string>/Users/webber/Desktop/next-level/logs/feed-pull.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/webber/Desktop/next-level/logs/feed-pull-error.log</string>
+    <key>RunAtLoad</key>
+    <false/>
+</dict>
+</plist>

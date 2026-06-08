@@ -1,16 +1,5 @@
 [
   {
-    "event_type": "earthquake_M4.4",
-    "timestamp": 1780799323.17,
-    "severity_score": 0.4,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "99 km SSW of Acajutla, El Salvador",
-      "magnitude": 4.4
-    }
-  },
-  {
     "event_type": "earthquake_M5.1",
     "timestamp": 1780800785.88,
     "severity_score": 0.517,
@@ -605,459 +594,14 @@
     }
   },
   {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1775520000.0,
-    "severity_score": 0.8,
+    "event_type": "earthquake_M4.8",
+    "timestamp": 1780884749.375,
+    "severity_score": 0.467,
     "domain": "geo",
-    "source": "fema",
+    "source": "usgs",
     "metadata": {
-      "state": "OR",
-      "title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1775520000.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "OR",
-      "title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1775520000.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "WA",
-      "title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1775520000.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "WA",
-      "title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_em",
-    "timestamp": 1775865600.0,
-    "severity_score": 0.6,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "GU",
-      "title": "TYPHOON SINLAKU",
-      "type": "EM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_em",
-    "timestamp": 1775865600.0,
-    "severity_score": 0.6,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "MP",
-      "title": "TYPHOON SINLAKU",
-      "type": "EM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_em",
-    "timestamp": 1775865600.0,
-    "severity_score": 0.6,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "MP",
-      "title": "TYPHOON SINLAKU",
-      "type": "EM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_em",
-    "timestamp": 1775865600.0,
-    "severity_score": 0.6,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "MP",
-      "title": "TYPHOON SINLAKU",
-      "type": "EM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_em",
-    "timestamp": 1775865600.0,
-    "severity_score": 0.6,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "MP",
-      "title": "TYPHOON SINLAKU",
-      "type": "EM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_em",
-    "timestamp": 1775865600.0,
-    "severity_score": 0.6,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "MP",
-      "title": "TYPHOON SINLAKU",
-      "type": "EM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_fm",
-    "timestamp": 1776729600.0,
-    "severity_score": 0.5,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "GA",
-      "title": "PINELAND ROAD FIRE",
-      "type": "FM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_fm",
-    "timestamp": 1776729600.0,
-    "severity_score": 0.5,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "GA",
-      "title": "PINELAND ROAD FIRE",
-      "type": "FM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_fm",
-    "timestamp": 1776816000.0,
-    "severity_score": 0.5,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "GA",
-      "title": "HIGHWAY 82 FIRE",
-      "type": "FM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_fm",
-    "timestamp": 1776816000.0,
-    "severity_score": 0.5,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "FL",
-      "title": "RAILROAD COMPLEX FIRE",
-      "type": "FM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_fm",
-    "timestamp": 1776816000.0,
-    "severity_score": 0.5,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "FL",
-      "title": "RAILROAD COMPLEX FIRE",
-      "type": "FM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1776902400.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "MP",
-      "title": "SUPER TYPHOON SINLAKU",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1776902400.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "MP",
-      "title": "SUPER TYPHOON SINLAKU",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1776902400.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "MP",
-      "title": "SUPER TYPHOON SINLAKU",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_fm",
-    "timestamp": 1776902400.0,
-    "severity_score": 0.5,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "FL",
-      "title": "COW CREEK FIRE",
-      "type": "FM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1776902400.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "MP",
-      "title": "SUPER TYPHOON SINLAKU",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1776902400.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "MP",
-      "title": "SUPER TYPHOON SINLAKU",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_fm",
-    "timestamp": 1778716800.0,
-    "severity_score": 0.5,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "TX",
-      "title": "HUNGGATE FIRE",
-      "type": "FM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_fm",
-    "timestamp": 1779062400.0,
-    "severity_score": 0.5,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "CA",
-      "title": "SANDY FIRE",
-      "type": "FM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_fm",
-    "timestamp": 1779062400.0,
-    "severity_score": 0.5,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "TX",
-      "title": "STINKY FIRE",
-      "type": "FM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_fm",
-    "timestamp": 1779235200.0,
-    "severity_score": 0.5,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "CA",
-      "title": "BAIN FIRE",
-      "type": "FM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_em",
-    "timestamp": 1779667200.0,
-    "severity_score": 0.6,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "CA",
-      "title": "CHEMICAL RELEASE",
-      "type": "EM"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "AZ",
-      "title": "SEVERE STORMS AND FLOODING",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "DE",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "MT",
-      "title": "SEVERE WINTER STORM AND STRAIGHT-LINE WINDS",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
+      "place": "3 km NE of Burias, Philippines",
+      "magnitude": 4.8
     }
   },
   {
@@ -1079,8 +623,152 @@
     "domain": "geo",
     "source": "fema",
     "metadata": {
-      "state": "MT",
-      "title": "SEVERE WINTER STORM AND STRAIGHT-LINE WINDS",
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
       "type": "DR"
     }
   },
@@ -1152,54 +840,6 @@
     "source": "fema",
     "metadata": {
       "state": "DE",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
       "title": "SEVERE WINTER STORM",
       "type": "DR"
     }

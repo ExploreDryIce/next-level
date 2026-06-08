@@ -1,0 +1,12 @@
+{
+  "nasa": "GET_FREE_KEY_AT_api.nasa.gov",
+  "fred": "GET_FREE_KEY_AT_fred.stlouisfed.org/docs/api/api_key.html",
+  "rapidapi": "GET_FREE_KEY_AT_rapidapi.com",
+  "openweathermap": "GET_FREE_KEY_AT_openweathermap.org",
+  "finnhub": "GET_FREE_KEY_AT_finnhub.io",
+  "alpha_vantage": "GET_FREE_KEY_AT_alphavantage.co",
+  "newsapi": "GET_FREE_KEY_AT_newsapi.org",
+  "screenshotlayer": "GET_FREE_KEY_AT_screenshotlayer.com",
+  "clearbit": "GET_FREE_KEY_AT_clearbit.com",
+  "tomba": "GET_FREE_KEY_AT_tomba.io"
+}

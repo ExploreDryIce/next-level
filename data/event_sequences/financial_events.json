@@ -1,55 +1,5 @@
 [
   {
-    "event_type": "national_debt_update",
-    "timestamp": 1776920400.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38935486920284.75
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1777006800.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38953670272769.58
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1777266000.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38960955558731.97
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1777352400.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38951791901141.8
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1777438800.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38952075248701.65
-    }
-  },
-  {
     "event_type": "treasury_rate_change",
     "timestamp": 1777525200.0,
     "severity_score": 0.37,
@@ -201,156 +151,6 @@
     "metadata": {
       "rate": 1.348,
       "security": "Government Account Series Inflation Securities"
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1777525200.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38967833861543.11
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1777611600.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38882147615630.53
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1777870800.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38905034125404.78
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1777957200.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38910619550278.1
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1778043600.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38918837926582.9
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1778130000.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38931651718802.09
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1778216400.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38937475342585.8
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1778475600.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38946800561409.14
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1778562000.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38968295059805.35
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1778648400.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38942623681847.68
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1778734800.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38954466670318.2
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1778821200.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 38997244508055.09
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1779080400.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 39008999901378.68
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1779166800.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 39070752626994.13
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1779253200.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 39049639932662.87
     }
   },
   {
@@ -631,15 +431,28 @@
   },
   {
     "event_type": "crypto_surge_eth",
-    "timestamp": 1780886006.938339,
-    "severity_score": 0.315,
+    "timestamp": 1780886757.626031,
+    "severity_score": 0.29,
     "domain": "financial",
     "source": "coingecko",
     "metadata": {
       "coin": "Ethereum",
-      "price": 1684.1,
-      "change_24h_pct": 6.30333,
-      "market_cap": 203010068532
+      "price": 1683.14,
+      "change_24h_pct": 5.80132,
+      "market_cap": 203045001257
+    }
+  },
+  {
+    "event_type": "crypto_surge_hype",
+    "timestamp": 1780886757.626036,
+    "severity_score": 0.291,
+    "domain": "financial",
+    "source": "coingecko",
+    "metadata": {
+      "coin": "Hyperliquid",
+      "price": 61.1,
+      "change_24h_pct": 5.82868,
+      "market_cap": 13570355676
     }
   }
 ]

@@ -1,7 +1,7 @@
 {
   "latitude": 36.158024,
   "longitude": -86.76494,
-  "generationtime_ms": 0.15044212341308594,
+  "generationtime_ms": 0.11217594146728516,
   "utc_offset_seconds": -18000,
   "timezone": "America/Chicago",
   "timezone_abbreviation": "GMT-5",
@@ -24,7 +24,7 @@
     ],
     "sunshine_duration": [
       10137.9,
-      21309.64,
+      8952.52,
       29252.16,
       50560.25,
       50584.23,
@@ -42,7 +42,7 @@
     ],
     "shortwave_radiation_sum": [
       12.51,
-      15.61,
+      14.6,
       22.1,
       28.78,
       26.19,

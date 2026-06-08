@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-06-07T21:45:57.628285",
+  "feeds_attempted": 23,
+  "feeds_successful": 23,
+  "events_generated": 171,
+  "results": {
+    "usgs_earthquakes": "ok",
+    "usgs_significant": "ok",
+    "open_meteo_nashville": "ok",
+    "open_meteo_air_quality": "ok",
+    "open_meteo_flood": "ok",
+    "open_meteo_solar": "ok",
+    "nws_alerts_tn": "ok",
+    "nws_alerts_mo": "ok",
+    "nws_alerts_ga": "ok",
+    "fed_treasury_debt": "ok",
+    "fed_treasury_rates": "ok",
+    "coingecko_top10": "ok",
+    "frankfurter_rates": "ok",
+    "coinpaprika_btc": "ok",
+    "uk_carbon_intensity": "ok",
+    "uk_carbon_regional": "ok",
+    "nvd_cve_recent": "ok",
+    "hackernews_top": "ok",
+    "opensky_tn": "ok",
+    "fema_disasters": "ok",
+    "usaspending_recent": "ok",
+    "spaceflight_news": "ok",
+    "ipwhois_self": "ok"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "country": "United States",
+  "country abbreviation": "US",
+  "post code": "28202",
+  "places": [
+    {
+      "place name": "Charlotte",
+      "longitude": "-80.8419",
+      "latitude": "35.229",
+      "state": "North Carolina",
+      "state abbreviation": "NC"
+    }
+  ]
+}

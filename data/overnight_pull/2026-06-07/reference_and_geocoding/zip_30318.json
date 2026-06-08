@@ -1,0 +1,14 @@
+{
+  "country": "United States",
+  "country abbreviation": "US",
+  "post code": "30318",
+  "places": [
+    {
+      "place name": "Atlanta",
+      "longitude": "-84.4454",
+      "latitude": "33.7865",
+      "state": "Georgia",
+      "state abbreviation": "GA"
+    }
+  ]
+}

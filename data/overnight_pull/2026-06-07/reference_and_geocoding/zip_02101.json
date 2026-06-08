@@ -1,0 +1,14 @@
+{
+  "country": "United States",
+  "country abbreviation": "US",
+  "post code": "02101",
+  "places": [
+    {
+      "place name": "Boston",
+      "longitude": "-71.027",
+      "latitude": "42.3706",
+      "state": "Massachusetts",
+      "state abbreviation": "MA"
+    }
+  ]
+}

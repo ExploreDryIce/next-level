@@ -201,6 +201,54 @@ def pull_keyed_feeds(keys: dict) -> dict:
                 results[name] = f"error: {str(e)[:40]}"
             time.sleep(1)
 
+    # NewsAPI (if key available)
+    newsapi_key = keys.get("newsapi")
+    if newsapi_key:
+        news_feeds = [
+            ("newsapi_top_us", f"https://newsapi.org/v2/top-headlines?country=us&apiKey={newsapi_key}"),
+            ("newsapi_business", f"https://newsapi.org/v2/top-headlines?category=business&country=us&apiKey={newsapi_key}"),
+            ("newsapi_real_estate", f"https://newsapi.org/v2/everything?q=real+estate+market&sortBy=publishedAt&pageSize=20&apiKey={newsapi_key}"),
+            ("newsapi_supply_chain", f"https://newsapi.org/v2/everything?q=supply+chain+disruption&sortBy=publishedAt&pageSize=20&apiKey={newsapi_key}"),
+            ("newsapi_cybersecurity", f"https://newsapi.org/v2/everything?q=cybersecurity+breach&sortBy=publishedAt&pageSize=20&apiKey={newsapi_key}"),
+        ]
+        for name, url in news_feeds:
+            try:
+                r = client.get(url)
+                if r.status_code == 200:
+                    (FEEDS_DIR / f"{name}.json").write_text(json.dumps(r.json(), indent=2)[:200000])
+                    results[name] = "ok"
+                else:
+                    results[name] = f"http_{r.status_code}"
+            except Exception as e:
+                results[name] = f"error: {str(e)[:40]}"
+            time.sleep(1)
+
+    # Alpha Vantage (if key available) — 5 calls/min limit, space them out
+    av_key = keys.get("alpha_vantage")
+    if av_key:
+        av_feeds = [
+            ("alpha_spy_daily", f"https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=SPY&outputsize=compact&apikey={av_key}"),
+            ("alpha_real_gdp", f"https://www.alphavantage.co/query?function=REAL_GDP&interval=quarterly&apikey={av_key}"),
+            ("alpha_cpi", f"https://www.alphavantage.co/query?function=CPI&interval=monthly&apikey={av_key}"),
+            ("alpha_unemployment", f"https://www.alphavantage.co/query?function=UNEMPLOYMENT&apikey={av_key}"),
+            ("alpha_news_sentiment", f"https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers=SPY&apikey={av_key}"),
+        ]
+        for name, url in av_feeds:
+            try:
+                r = client.get(url)
+                if r.status_code == 200:
+                    data = r.json()
+                    if "Note" not in data and "Information" not in data:
+                        (FEEDS_DIR / f"{name}.json").write_text(json.dumps(data, indent=2)[:300000])
+                        results[name] = "ok"
+                    else:
+                        results[name] = "rate_limited"
+                else:
+                    results[name] = f"http_{r.status_code}"
+            except Exception as e:
+                results[name] = f"error: {str(e)[:40]}"
+            time.sleep(15)  # 5 calls/min = 12sec spacing minimum
+
     client.close()
     return results
 

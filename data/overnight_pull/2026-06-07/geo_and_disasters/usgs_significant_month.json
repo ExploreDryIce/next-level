@@ -1,0 +1,621 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "generated": 1780889046000,
+    "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson",
+    "title": "USGS Significant Earthquakes, Past Month",
+    "status": 200,
+    "api": "2.4.0",
+    "count": 15
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.5,
+        "place": "19 km SW of Balangonan, Philippines",
+        "time": 1780880112073,
+        "updated": 1780884461773,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srcg",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000srcg.geojson",
+        "felt": 1,
+        "cdi": 6,
+        "mmi": 6.161,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 651,
+        "net": "us",
+        "code": "7000srcg",
+        "ids": ",us7000srcg,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,origin,phase-data,shakemap,",
+        "nst": 96,
+        "dmin": 1.63,
+        "rms": 1,
+        "gap": 27,
+        "magType": "mb",
+        "type": "earthquake",
+        "title": "M 6.5 - 19 km SW of Balangonan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.2046,
+          5.4724,
+          65.57
+        ]
+      },
+      "id": "us7000srcg"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 7.8,
+        "place": "26 km SW of Kablalan, Philippines",
+        "time": 1780875461803,
+        "updated": 1780888973351,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000srb1",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000srb1.geojson",
+        "felt": 112,
+        "cdi": 7.6,
+        "mmi": 7.904,
+        "alert": "orange",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 1085,
+        "net": "us",
+        "code": "7000srb1",
+        "ids": ",us7000srb1,",
+        "sources": ",us,",
+        "types": ",dyfi,finite-fault,general-text,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 140,
+        "dmin": 1.561,
+        "rms": 0.49,
+        "gap": 21,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 7.8 - 26 km SW of Kablalan, Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.0469,
+          5.5918,
+          55.193
+        ]
+      },
+      "id": "us7000srb1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 3.75,
+        "place": "11 km NW of Summerlin South, Nevada",
+        "time": 1780606078995,
+        "updated": 1780888140436,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00919749",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/nn00919749.geojson",
+        "felt": 3259,
+        "cdi": 4.1,
+        "mmi": 4.197,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 626,
+        "net": "nn",
+        "code": "00919749",
+        "ids": ",nn00919749,uu80141586,us7000sqqe,",
+        "sources": ",nn,uu,us,",
+        "types": ",associate,dyfi,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 26,
+        "dmin": 0.094,
+        "rms": 0.1646,
+        "gap": 98,
+        "magType": "mwr",
+        "type": "earthquake",
+        "title": "M 3.8 - 11 km NW of Summerlin South, Nevada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.4319,
+          36.1764,
+          7
+        ]
+      },
+      "id": "nn00919749"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.57,
+        "place": "6 km WNW of Kahaluu-Keauhou, Hawaii",
+        "time": 1780459133210,
+        "updated": 1780682587828,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74975297",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74975297.geojson",
+        "felt": 923,
+        "cdi": 4.4,
+        "mmi": 4.049,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 727,
+        "net": "hv",
+        "code": "74975297",
+        "ids": ",pt26154050,hv74975297,us7000sq76,",
+        "sources": ",pt,hv,us,",
+        "types": ",dyfi,losspager,origin,phase-data,shakemap,",
+        "nst": 56,
+        "dmin": 0.065,
+        "rms": 0.14,
+        "gap": 199,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 4.6 - 6 km WNW of Kahaluu-Keauhou, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.016333333333,
+          19.5881666666667,
+          34.01
+        ]
+      },
+      "id": "hv74975297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.2,
+        "place": "23 km WSW of San Lucido, Italy",
+        "time": 1780351956092,
+        "updated": 1780887574169,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spxm",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000spxm.geojson",
+        "felt": 55,
+        "cdi": 4.3,
+        "mmi": 3.968,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 615,
+        "net": "us",
+        "code": "7000spxm",
+        "ids": ",us7000spxm,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 132,
+        "dmin": 0.738,
+        "rms": 0.78,
+        "gap": 24,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.2 - 23 km WSW of San Lucido, Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.7869,
+          39.2548,
+          243
+        ]
+      },
+      "id": "us7000spxm"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6,
+        "place": "33 km NW of Valpara\u00edso, Chile",
+        "time": 1780263257983,
+        "updated": 1780868460613,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spqc",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000spqc.geojson",
+        "felt": 155,
+        "cdi": 5.9,
+        "mmi": 5.181,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 645,
+        "net": "us",
+        "code": "7000spqc",
+        "ids": ",us7000spqc,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 128,
+        "dmin": 0.762,
+        "rms": 0.75,
+        "gap": 64,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.0 - 33 km NW of Valpara\u00edso, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.8796,
+          -32.8194,
+          25
+        ]
+      },
+      "id": "us7000spqc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": null,
+        "place": "Sonic Boom - Eastern Massachusetts",
+        "time": 1780164300000,
+        "updated": 1780427977182,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000spjy",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000spjy.geojson",
+        "felt": 427,
+        "cdi": 4.6,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 600,
+        "net": "us",
+        "code": "7000spjy",
+        "ids": ",us7000spjy,",
+        "sources": ",us,",
+        "types": ",dyfi,earthquake-name ,general-header,origin,phase-data,significance,",
+        "nst": 0,
+        "dmin": null,
+        "rms": 0,
+        "gap": null,
+        "magType": null,
+        "type": "meteorite",
+        "title": "M ? Meteorite - Sonic Boom - Eastern Massachusetts"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9,
+          42.8,
+          0
+        ]
+      },
+      "id": "us7000spjy"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": null,
+        "place": "6 km NNE of Saint Andrews, South Carolina",
+        "time": 1780003470000,
+        "updated": 1780845980235,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000sp6m",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us7000sp6m.geojson",
+        "felt": 1722,
+        "cdi": 6,
+        "mmi": null,
+        "alert": null,
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 600,
+        "net": "us",
+        "code": "7000sp6m",
+        "ids": ",2026test01,us7000sp6m,",
+        "sources": ",20,us,",
+        "types": ",dyfi,general-header,origin,phase-data,",
+        "nst": 0,
+        "dmin": null,
+        "rms": 7.06,
+        "gap": null,
+        "magType": null,
+        "type": "sonic boom",
+        "title": "M ? Sonic Boom - 6 km NNE of Saint Andrews, South Carolina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1,
+          34.1,
+          0
+        ]
+      },
+      "id": "us7000sp6m"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.9,
+        "place": "26 km ENE of Calama, Chile",
+        "time": 1779745940045,
+        "updated": 1780612607506,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000t04s",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000t04s.geojson",
+        "felt": 83,
+        "cdi": 6,
+        "mmi": 6.265,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 782,
+        "net": "us",
+        "code": "6000t04s",
+        "ids": ",us6000t04s,attfm4r6,pt26145000,",
+        "sources": ",us,at,pt,",
+        "types": ",dyfi,ground-failure,impact-text,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 305,
+        "dmin": 0.719,
+        "rms": 0.56,
+        "gap": 26,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.9 - 26 km ENE of Calama, Chile"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.6779,
+          -22.3975,
+          109
+        ]
+      },
+      "id": "us6000t04s"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.96,
+        "place": "13 km S of Honaunau-Napoopoo, Hawaii",
+        "time": 1779522361480,
+        "updated": 1780869645941,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv74966427",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/hv74966427.geojson",
+        "felt": 7200,
+        "cdi": 7.3,
+        "mmi": 7.407,
+        "alert": "yellow",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 1380,
+        "net": "hv",
+        "code": "74966427",
+        "ids": ",pt26143000,us6000sznj,hv74966427,",
+        "sources": ",pt,us,hv,",
+        "types": ",dyfi,event-sequence,general-text,ground-failure,losspager,moment-tensor,oaf,origin,phase-data,shakemap,",
+        "nst": 60,
+        "dmin": 0.1687,
+        "rms": 0.13,
+        "gap": 178,
+        "magType": "ml",
+        "type": "earthquake",
+        "title": "M 6.0 - 13 km S of Honaunau-Napoopoo, Hawaii"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.8425,
+          19.3403333333333,
+          22.64
+        ]
+      },
+      "id": "hv74966427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.6,
+        "place": "southern East Pacific Rise",
+        "time": 1779298981910,
+        "updated": 1779387145066,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sz1d",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sz1d.geojson",
+        "felt": null,
+        "cdi": null,
+        "mmi": 0,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 670,
+        "net": "us",
+        "code": "6000sz1d",
+        "ids": ",us6000sz1d,",
+        "sources": ",us,",
+        "types": ",losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 226,
+        "dmin": 27.49,
+        "rms": 0.84,
+        "gap": 42,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.6 - southern East Pacific Rise"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2988,
+          -55.984,
+          10
+        ]
+      },
+      "id": "us6000sz1d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 5.1,
+        "place": "23 km NW of Liuzhou, China",
+        "time": 1779111866116,
+        "updated": 1780324254728,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000syik",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000syik.geojson",
+        "felt": 12,
+        "cdi": 5.4,
+        "mmi": 6.714,
+        "alert": "orange",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 1006,
+        "net": "us",
+        "code": "6000syik",
+        "ids": ",us6000syik,",
+        "sources": ",us,",
+        "types": ",dyfi,ground-failure,impact-text,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 138,
+        "dmin": 5.464,
+        "rms": 0.61,
+        "gap": 20,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 5.1 - 23 km NW of Liuzhou, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.2738,
+          24.4943,
+          10
+        ]
+      },
+      "id": "us6000syik"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6,
+        "place": "60 km ESE of Codrington, Antigua and Barbuda",
+        "time": 1778943005948,
+        "updated": 1779229140703,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sy84",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sy84.geojson",
+        "felt": 122,
+        "cdi": 5,
+        "mmi": 4.864,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 615,
+        "net": "us",
+        "code": "6000sy84",
+        "ids": ",pt26136000,us6000sy84,",
+        "sources": ",pt,us,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 383,
+        "dmin": 0.526,
+        "rms": 0.76,
+        "gap": 17,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.0 - 60 km ESE of Codrington, Antigua and Barbuda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.2938,
+          17.4295,
+          51.245
+        ]
+      },
+      "id": "us6000sy84"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 6.7,
+        "place": "49 km ESE of \u014cfunato, Japan",
+        "time": 1778844121649,
+        "updated": 1779061975821,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000sxwq",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/us6000sxwq.geojson",
+        "felt": 93,
+        "cdi": 6.6,
+        "mmi": 5.624,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 752,
+        "net": "us",
+        "code": "6000sxwq",
+        "ids": ",us6000sxwq,pt26135000,",
+        "sources": ",us,pt,",
+        "types": ",dyfi,ground-failure,losspager,moment-tensor,origin,phase-data,shakemap,",
+        "nst": 99,
+        "dmin": 2.085,
+        "rms": 1.07,
+        "gap": 43,
+        "magType": "mww",
+        "type": "earthquake",
+        "title": "M 6.7 - 49 km ESE of \u014cfunato, Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.2498,
+          38.9127,
+          43.592
+        ]
+      },
+      "id": "us6000sxwq"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mag": 4.66486919122063,
+        "place": "3 km WSW of Brawley, CA",
+        "time": 1778397021250,
+        "updated": 1780816831677,
+        "tz": null,
+        "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41461608",
+        "detail": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/detail/ci41461608.geojson",
+        "felt": 203,
+        "cdi": 5.6,
+        "mmi": 5.345,
+        "alert": "green",
+        "status": "reviewed",
+        "tsunami": 0,
+        "sig": 600,
+        "net": "ci",
+        "code": "41461608",
+        "ids": ",ew1778397020,ci41461608,us6000swmv,attet7x8,",
+        "sources": ",ew,ci,us,at,",
+        "types": ",dyfi,event-sequence,focal-mechanism,general-text,ground-failure,losspager,moment-tensor,nearby-cities,oaf,origin,phase-data,scitech-link,shake-alert,shakemap,significance,",
+        "nst": 66,
+        "dmin": 0.06968,
+        "rms": 0.25,
+        "gap": 39,
+        "magType": "mw",
+        "type": "earthquake",
+        "title": "M 4.7 - 3 km WSW of Brawley, CA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.562333333333,
+          32.9713333333333,
+          14.53
+        ]
+      },
+      "id": "ci41461608"
+    }
+  ],
+  "bbox": [
+    -156.01633333333,
+    -55.984,
+    0,
+    142.2498,
+    42.8,
+    243
+  ]
+}

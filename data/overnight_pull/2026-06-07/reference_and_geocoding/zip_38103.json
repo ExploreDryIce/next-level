@@ -1,0 +1,14 @@
+{
+  "country": "United States",
+  "country abbreviation": "US",
+  "post code": "38103",
+  "places": [
+    {
+      "place name": "Memphis",
+      "longitude": "-90.048",
+      "latitude": "35.144",
+      "state": "Tennessee",
+      "state abbreviation": "TN"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "country": "United States",
+  "country abbreviation": "US",
+  "post code": "75201",
+  "places": [
+    {
+      "place name": "Dallas",
+      "longitude": "-96.8044",
+      "latitude": "32.7904",
+      "state": "Texas",
+      "state abbreviation": "TX"
+    }
+  ]
+}

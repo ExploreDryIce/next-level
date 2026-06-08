@@ -1,0 +1,14 @@
+{
+  "country": "United States",
+  "country abbreviation": "US",
+  "post code": "85001",
+  "places": [
+    {
+      "place name": "Phoenix",
+      "longitude": "-112.3518",
+      "latitude": "33.704",
+      "state": "Arizona",
+      "state abbreviation": "AZ"
+    }
+  ]
+}

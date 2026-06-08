@@ -1,0 +1,14 @@
+{
+  "country": "United States",
+  "country abbreviation": "US",
+  "post code": "98101",
+  "places": [
+    {
+      "place name": "Seattle",
+      "longitude": "-122.3305",
+      "latitude": "47.6114",
+      "state": "Washington",
+      "state abbreviation": "WA"
+    }
+  ]
+}

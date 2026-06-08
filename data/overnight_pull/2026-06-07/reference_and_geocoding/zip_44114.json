@@ -1,0 +1,14 @@
+{
+  "country": "United States",
+  "country abbreviation": "US",
+  "post code": "44114",
+  "places": [
+    {
+      "place name": "Cleveland",
+      "longitude": "-81.6742",
+      "latitude": "41.5064",
+      "state": "Ohio",
+      "state abbreviation": "OH"
+    }
+  ]
+}

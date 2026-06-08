@@ -1,0 +1,14 @@
+{
+  "country": "United States",
+  "country abbreviation": "US",
+  "post code": "64111",
+  "places": [
+    {
+      "place name": "Kansas City",
+      "longitude": "-94.5929",
+      "latitude": "39.0565",
+      "state": "Missouri",
+      "state abbreviation": "MO"
+    }
+  ]
+}

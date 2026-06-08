@@ -1,0 +1,846 @@
+{
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4ff19728030ccc61ae95561d5ddded54a2de8d1.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -96.27,
+              32.97
+            ],
+            [
+              -96.15,
+              32.93
+            ],
+            [
+              -96.2,
+              32.83
+            ],
+            [
+              -96.34,
+              32.87
+            ],
+            [
+              -96.27,
+              32.97
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b4ff19728030ccc61ae95561d5ddded54a2de8d1.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.b4ff19728030ccc61ae95561d5ddded54a2de8d1.001.1",
+        "areaDesc": "Hunt, TX; Rockwall, TX",
+        "geocode": {
+          "SAME": [
+            "048231",
+            "048397"
+          ],
+          "UGC": [
+            "TXC231",
+            "TXC397"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/TXC231",
+          "https://api.weather.gov/zones/county/TXC397"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb5eeb5fbb55b002ddcbade26fda587825ad50ac.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.cb5eeb5fbb55b002ddcbade26fda587825ad50ac.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T13:23:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T21:59:00-05:00",
+        "effective": "2026-06-07T21:59:00-05:00",
+        "onset": "2026-06-07T21:59:00-05:00",
+        "expires": "2026-06-08T16:00:00-05:00",
+        "ends": "2026-06-08T17:09:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Flood Warning issued June 7 at 9:59PM CDT until June 8 at 5:09PM CDT by NWS Fort Worth TX",
+        "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nSouth Fork Sabine River Near Quinlan affecting Hunt and Rockwall\nCounties.\n\nFor the South Fork Sabine River...including Quinlan...Minor flooding\nis forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...South Fork Sabine River near Quinlan.\n\n* WHEN...Until Monday afternoon.\n\n* IMPACTS...At 15.0 feet, Minor out of bank flooding will occur.\n\n* ADDITIONAL DETAILS...\n- At 9:45 PM CDT Sunday the stage was 16.2 feet.\n- Forecast...The river is expected to fall below flood stage late\ntonight and continue falling to 4.5 feet Friday evening.\n- Bankfull stage is 15.0 feet.\n- Flood stage is 15.0 feet.",
+        "instruction": "Do not drive cars through flooded areas. Caution is urged when\nwalking near riverbanks.\n\nAdditional information is available at water.noaa.gov/wfo/fwd.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSFWD"
+          ],
+          "WMOidentifier": [
+            "WGUS84 KFWD 080259"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING NOW IN EFFECT UNTIL MONDAY AFTERNOON"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KFWD.FL.W.0026.000000T0000Z-260608T2209Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T17:09:00-05:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a78a93f2dfdd462bdb92e512699cd0cfdabe9068.003.1,2026-06-07T07:52:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0b5038c87998d5c46f6dd8f861961fa4e745d753.001.1,2026-06-07T02:47:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLS"
+          ],
+          "NationalWeatherService": [
+            "FLW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5890476a43b6f1052b803868a5a4f9eeb3e85d4.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -96.93,
+              32.75
+            ],
+            [
+              -96.93,
+              32.81
+            ],
+            [
+              -96.83,
+              32.83
+            ],
+            [
+              -96.71,
+              32.75
+            ],
+            [
+              -96.76,
+              32.69
+            ],
+            [
+              -96.87,
+              32.78
+            ],
+            [
+              -96.93,
+              32.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5890476a43b6f1052b803868a5a4f9eeb3e85d4.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.e5890476a43b6f1052b803868a5a4f9eeb3e85d4.001.1",
+        "areaDesc": "Dallas, TX",
+        "geocode": {
+          "SAME": [
+            "048113"
+          ],
+          "UGC": [
+            "TXC113"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/TXC113"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8b396f093bba9133f76146ca2c46619a740e055.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.a8b396f093bba9133f76146ca2c46619a740e055.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T14:06:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T21:59:00-05:00",
+        "effective": "2026-06-07T21:59:00-05:00",
+        "onset": "2026-06-07T21:59:00-05:00",
+        "expires": "2026-06-08T16:00:00-05:00",
+        "ends": "2026-06-08T22:30:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Flood Warning issued June 7 at 9:59PM CDT until June 8 at 10:30PM CDT by NWS Fort Worth TX",
+        "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nTrinity River At Dallas affecting Dallas County.\n\nTrinity River Near Rosser affecting Ellis and Kaufman Counties.\n\nFor the Trinity River...including Dallas, Rosser, Trinidad, Long Lake\n(Oakwood)...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Trinity River at Dallas.\n\n* WHEN...Until Monday evening.\n\n* IMPACTS...At 33.0 feet, Minor flooding along the river is expected.\nBike trails along the river will have floodwaters several feet\ndeep, and the parking lot of Trammel Crow Park beneath the Sylvan\nbridge will flood.\n\n* ADDITIONAL DETAILS...\n- At 9:30 PM CDT Sunday the stage was 32.8 feet.\n- Forecast...The river is expected to rise to a crest of 33.7 feet\njust after midnight tonight. It will then fall below flood stage\nlate tomorrow morning.\n- Bankfull stage is 30.0 feet.\n- Flood stage is 30.0 feet.",
+        "instruction": "Do not drive cars through flooded areas. Caution is urged when\nwalking near riverbanks.\n\nAdditional information is available at water.noaa.gov/wfo/fwd.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSFWD"
+          ],
+          "WMOidentifier": [
+            "WGUS84 KFWD 080259 RRA"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING NOW IN EFFECT UNTIL MONDAY EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KFWD.FL.W.0027.000000T0000Z-260609T0330Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T22:30:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLS"
+          ],
+          "NationalWeatherService": [
+            "FLW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5890476a43b6f1052b803868a5a4f9eeb3e85d4.002.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -96.45,
+              32.49
+            ],
+            [
+              -96.39,
+              32.36
+            ],
+            [
+              -96.52,
+              32.36
+            ],
+            [
+              -96.57,
+              32.47
+            ],
+            [
+              -96.45,
+              32.49
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e5890476a43b6f1052b803868a5a4f9eeb3e85d4.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.e5890476a43b6f1052b803868a5a4f9eeb3e85d4.002.1",
+        "areaDesc": "Ellis, TX; Kaufman, TX",
+        "geocode": {
+          "SAME": [
+            "048139",
+            "048257"
+          ],
+          "UGC": [
+            "TXC139",
+            "TXC257"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/TXC139",
+          "https://api.weather.gov/zones/county/TXC257"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a8b396f093bba9133f76146ca2c46619a740e055.002.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.a8b396f093bba9133f76146ca2c46619a740e055.002.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T14:06:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T21:59:00-05:00",
+        "effective": "2026-06-07T21:59:00-05:00",
+        "onset": "2026-06-08T00:11:00-05:00",
+        "expires": "2026-06-08T16:00:00-05:00",
+        "ends": "2026-06-09T00:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Observed",
+        "urgency": "Immediate",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Fort Worth TX",
+        "headline": "Flood Warning issued June 7 at 9:59PM CDT until June 9 at 12:00AM CDT by NWS Fort Worth TX",
+        "description": "...The Flood Warning is extended for the following rivers in Texas...\n\nTrinity River At Dallas affecting Dallas County.\n\nTrinity River Near Rosser affecting Ellis and Kaufman Counties.\n\nFor the Trinity River...including Dallas, Rosser, Trinidad, Long Lake\n(Oakwood)...Minor flooding is forecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Trinity River near Rosser.\n\n* WHEN...Until late Monday night.\n\n* IMPACTS...At 31.0 feet, Minor flooding of farm and ranch land is\nexpected near the river. A few rural roads may be flooded.\n\n* ADDITIONAL DETAILS...\n- At 9:30 PM CDT Sunday the stage was 30.3 feet.\n- Forecast...The river is expected to rise above flood stage just\nafter midnight tonight to a crest of 31.5 feet tomorrow morning.\nIt will then fall below flood stage early tomorrow afternoon.\n- Bankfull stage is 31.0 feet.\n- Flood stage is 31.0 feet.",
+        "instruction": "Do not drive cars through flooded areas. Caution is urged when\nwalking near riverbanks.\n\nAdditional information is available at water.noaa.gov/wfo/fwd.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLSFWD"
+          ],
+          "WMOidentifier": [
+            "WGUS84 KFWD 080259 RRA"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING NOW IN EFFECT UNTIL LATE MONDAY NIGHT"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.EXT.KFWD.FL.W.0028.260608T0511Z-260609T0500Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T00:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLS"
+          ],
+          "NationalWeatherService": [
+            "FLW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8452d5dea661f4e7446de90b32afb237ce09753b.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.45,
+              30.12
+            ],
+            [
+              -94.23,
+              30.24
+            ],
+            [
+              -94.07,
+              30.21
+            ],
+            [
+              -94.06,
+              30.13
+            ],
+            [
+              -94.45,
+              30.04
+            ],
+            [
+              -94.45,
+              30.12
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8452d5dea661f4e7446de90b32afb237ce09753b.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.8452d5dea661f4e7446de90b32afb237ce09753b.001.1",
+        "areaDesc": "Hardin, TX; Jefferson, TX",
+        "geocode": {
+          "SAME": [
+            "048199",
+            "048245"
+          ],
+          "UGC": [
+            "TXC199",
+            "TXC245"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/TXC199",
+          "https://api.weather.gov/zones/county/TXC245"
+        ],
+        "references": [],
+        "sent": "2026-06-07T20:05:00-05:00",
+        "effective": "2026-06-07T20:05:00-05:00",
+        "onset": "2026-06-07T20:05:00-05:00",
+        "expires": "2026-06-08T20:15:00-05:00",
+        "ends": "2026-06-10T01:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Lake Charles LA",
+        "headline": "Flood Warning issued June 7 at 8:05PM CDT until June 10 at 1:00AM CDT by NWS Lake Charles LA",
+        "description": "...The National Weather Service in Lake Charles LA has issued a\nFlood Warning for the following rivers in Texas...\n\nPine Island Bayou Near Sour Lake\n\nAdditional information is available at www.weather.gov.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Pine Island Bayou near Sour Lake.\n\n* WHEN...From this evening to early Wednesday morning.\n\n* IMPACTS...At 25.0 feet, Water inundates roads in lowland areas\nnear the river. Low spots on Old Sour Lake Road are under water.\n\n* ADDITIONAL DETAILS...\n- At 7:45 PM CDT Sunday the stage was 25.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 7:45 PM CDT Sunday was 25.0 feet.\n- Forecast...The river is expected to rise to a crest of 25.3\nfeet tomorrow morning. It will then fall below flood stage\nearly Tuesday afternoon.\n- Flood stage is 25.0 feet.\n- http://www.weather.gov/safety/flood",
+        "instruction": null,
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLWLCH"
+          ],
+          "WMOidentifier": [
+            "WGUS44 KLCH 080105"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING IN EFFECT FROM THIS EVENING TO EARLY WEDNESDAY MORNING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.NEW.KLCH.FL.W.0017.260608T0105Z-260610T0600Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-10T01:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLW"
+          ],
+          "NationalWeatherService": [
+            "FLW"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cca9971ae916d2e0b944aeeb708d2a5b00ce5e78.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cca9971ae916d2e0b944aeeb708d2a5b00ce5e78.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.cca9971ae916d2e0b944aeeb708d2a5b00ce5e78.002.1",
+        "areaDesc": "Hutchinson; Roberts; Hemphill",
+        "geocode": {
+          "SAME": [
+            "048233",
+            "048393",
+            "048211"
+          ],
+          "UGC": [
+            "TXZ008",
+            "TXZ009",
+            "TXZ010"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/TXZ008",
+          "https://api.weather.gov/zones/forecast/TXZ009",
+          "https://api.weather.gov/zones/forecast/TXZ010"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db78bd9041ed3cd7c4bad651258220d7bd20aa44.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.db78bd9041ed3cd7c4bad651258220d7bd20aa44.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T12:17:00-05:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92d07bdec4b6f2c36cc254d5996250955143c4ca.002.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.92d07bdec4b6f2c36cc254d5996250955143c4ca.002.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T13:22:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T18:46:00-05:00",
+        "effective": "2026-06-07T18:46:00-05:00",
+        "onset": "2026-06-08T13:00:00-05:00",
+        "expires": "2026-06-08T03:15:00-05:00",
+        "ends": "2026-06-08T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Heat Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Amarillo TX",
+        "headline": "Heat Advisory issued June 7 at 6:46PM CDT until June 8 at 7:00PM CDT by NWS Amarillo TX",
+        "description": "* WHAT...Hot temperatures up to 105 expected.\n\n* WHERE...Hemphill, Hutchinson, and Roberts Counties.\n\n* WHEN...From 1 PM to 7 PM CDT Monday.\n\n* IMPACTS...Hot temperatures may cause heat illnesses.",
+        "instruction": "Drink plenty of fluids, stay in an air-conditioned room, stay out of\nthe sun, and check up on relatives and neighbors.\n\nTake extra precautions when outside. Wear lightweight and loose\nfitting clothing. Try to limit strenuous activities to early morning\nor evening. Take action when you see symptoms of heat exhaustion and\nheat stroke.",
+        "response": "Execute",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "NPWAMA"
+          ],
+          "WMOidentifier": [
+            "WWUS74 KAMA 072346"
+          ],
+          "NWSheadline": [
+            "HEAT ADVISORY REMAINS IN EFFECT FROM 1 PM TO 7 PM CDT MONDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KAMA.HT.Y.0008.260608T1800Z-260609T0000Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T19:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "HTY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cca9971ae916d2e0b944aeeb708d2a5b00ce5e78.001.2",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cca9971ae916d2e0b944aeeb708d2a5b00ce5e78.001.2",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.cca9971ae916d2e0b944aeeb708d2a5b00ce5e78.001.2",
+        "areaDesc": "Palo Duro Canyon",
+        "geocode": {
+          "SAME": [
+            "048381"
+          ],
+          "UGC": [
+            "TXZ317"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/TXZ317"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.db78bd9041ed3cd7c4bad651258220d7bd20aa44.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.db78bd9041ed3cd7c4bad651258220d7bd20aa44.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T12:17:00-05:00"
+          },
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92d07bdec4b6f2c36cc254d5996250955143c4ca.001.2",
+            "identifier": "urn:oid:2.49.0.1.840.0.92d07bdec4b6f2c36cc254d5996250955143c4ca.001.2",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T13:22:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T18:46:00-05:00",
+        "effective": "2026-06-07T18:46:00-05:00",
+        "onset": "2026-06-08T13:00:00-05:00",
+        "expires": "2026-06-08T03:15:00-05:00",
+        "ends": "2026-06-08T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Heat Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Amarillo TX",
+        "headline": "Heat Advisory issued June 7 at 6:46PM CDT until June 8 at 7:00PM CDT by NWS Amarillo TX",
+        "description": "* WHAT...Hot temperatures up to 105 expected.\n\n* WHERE...Palo Duro Canyon State Park.\n\n* WHEN...From 1 PM to 7 PM CDT Monday.\n\n* IMPACTS...Hot temperatures may cause heat illnesses.",
+        "instruction": "Drink plenty of fluids, stay in an air-conditioned room, stay out of\nthe sun, and check up on relatives and neighbors.\n\nTake extra precautions when outside. Wear lightweight and loose\nfitting clothing. Try to limit strenuous activities to early morning\nor evening. Take action when you see symptoms of heat exhaustion and\nheat stroke.",
+        "response": "Execute",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "NPWAMA"
+          ],
+          "WMOidentifier": [
+            "WWUS74 KAMA 072346"
+          ],
+          "NWSheadline": [
+            "HEAT ADVISORY REMAINS IN EFFECT FROM 1 PM TO 7 PM CDT MONDAY... ...HEAT ADVISORY WILL EXPIRE AT 7 PM CDT THIS EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KAMA.HT.Y.0008.260608T1800Z-260609T0000Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T19:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "HTY"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc2c04c03480d3a236ee7ebea024d795ad6f57ad.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cc2c04c03480d3a236ee7ebea024d795ad6f57ad.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.cc2c04c03480d3a236ee7ebea024d795ad6f57ad.001.1",
+        "areaDesc": "Aransas Islands; Kleberg Islands; Nueces Islands; Calhoun Islands",
+        "geocode": {
+          "SAME": [
+            "048007",
+            "048273",
+            "048355",
+            "048057"
+          ],
+          "UGC": [
+            "TXZ345",
+            "TXZ442",
+            "TXZ443",
+            "TXZ447"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/TXZ345",
+          "https://api.weather.gov/zones/forecast/TXZ442",
+          "https://api.weather.gov/zones/forecast/TXZ443",
+          "https://api.weather.gov/zones/forecast/TXZ447"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47e6dc0bce28804f6eea224eeab2ca1322ca97e3.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.47e6dc0bce28804f6eea224eeab2ca1322ca97e3.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T00:50:00-05:00"
+          }
+        ],
+        "sent": "2026-06-07T13:22:00-05:00",
+        "effective": "2026-06-07T13:22:00-05:00",
+        "onset": "2026-06-07T13:22:00-05:00",
+        "expires": "2026-06-08T07:00:00-05:00",
+        "ends": "2026-06-08T19:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Rip Current Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Corpus Christi TX",
+        "headline": "Rip Current Statement issued June 7 at 1:22PM CDT until June 8 at 7:00PM CDT by NWS Corpus Christi TX",
+        "description": "* WHAT...Dangerous rip currents.\n\n* WHERE...Aransas Islands, Kleberg Islands, Nueces Islands and\nCalhoun Islands Counties.\n\n* WHEN...Through Monday evening.\n\n* IMPACTS...Rip currents can sweep even the most experienced\nswimmers away from shore into deeper water. These rip currents\ncan become life-threatening to anyone entering the surf.",
+        "instruction": "Swim near a lifeguard. If caught in a rip current, relax and\nfloat. Don't swim against the current. If able, swim in a\ndirection following the shoreline. If unable to escape, face the\nshore and call or wave for help.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CFWCRP"
+          ],
+          "WMOidentifier": [
+            "WHUS44 KCRP 071822"
+          ],
+          "NWSheadline": [
+            "HIGH RIP CURRENT RISK REMAINS IN EFFECT THROUGH MONDAY EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KCRP.RP.S.0003.000000T0000Z-260609T0000Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T19:00:00-05:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.08f684ab408e543183d78a80b5747e582be74d19.001.1,2026-06-06T13:11:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.865903e0e4b7ba6e1dc88658427393fda0bd0fd9.001.1,2026-06-05T13:14:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.5254568926fc8d20b562fe7e9fe44497e77c11dc.001.1,2026-06-06T00:03:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1dfa4c7964c3a1c5ba9141cb289e034535531099.001.1,2026-06-05T02:12:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "RPS"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f046a18205cbb17f1649863602c1816e8ea2079.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1f046a18205cbb17f1649863602c1816e8ea2079.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.1f046a18205cbb17f1649863602c1816e8ea2079.001.1",
+        "areaDesc": "Matagorda Islands; Brazoria Islands; Galveston Island; Bolivar Peninsula",
+        "geocode": {
+          "SAME": [
+            "048321",
+            "048039",
+            "048167"
+          ],
+          "UGC": [
+            "TXZ436",
+            "TXZ437",
+            "TXZ438",
+            "TXZ439"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/TXZ436",
+          "https://api.weather.gov/zones/forecast/TXZ437",
+          "https://api.weather.gov/zones/forecast/TXZ438",
+          "https://api.weather.gov/zones/forecast/TXZ439"
+        ],
+        "references": [],
+        "sent": "2026-06-07T12:06:00-05:00",
+        "effective": "2026-06-07T12:06:00-05:00",
+        "onset": "2026-06-07T12:06:00-05:00",
+        "expires": "2026-06-08T01:00:00-05:00",
+        "ends": "2026-06-09T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Rip Current Statement",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Houston/Galveston TX",
+        "headline": "Rip Current Statement issued June 7 at 12:06PM CDT until June 9 at 7:00AM CDT by NWS Houston/Galveston TX",
+        "description": "* WHAT...Dangerous rip currents.\n\n* WHERE...Gulf-facing beaches, including the Matagorda\nPeninsula, Brazoria County beaches, Galveston Island and the\nBolivar Peninsula.\n\n* WHEN...Through Tuesday morning.\n\n* IMPACTS...Rip currents can sweep even the best swimmers away\nfrom shore into deeper water.",
+        "instruction": "Swim near a lifeguard and away from rocks, jetties, and piers. If\ncaught in a rip current, relax and float. Don't swim against the\ncurrent. If able, swim in a direction following the shoreline. If\nunable to escape, face the shore and call or wave for help.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "CFWHGX"
+          ],
+          "WMOidentifier": [
+            "WHUS44 KHGX 071706"
+          ],
+          "NWSheadline": [
+            "HIGH RIP CURRENT RISK NOW IN EFFECT THROUGH TUESDAY MORNING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.EXT.KHGX.RP.S.0010.000000T0000Z-260609T1200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-09T07:00:00-05:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d903fef427063eb9696f1788abfed750c571356c.001.1,2026-06-07T00:18:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e0e62a4403b0e6f9486617878b619f395fe0e982.001.1,2026-06-06T11:08:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0df2c36431d599e61de205a5aeab9c8591e3fe47.001.1,2026-06-06T00:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d8a5b28df9c4cd8c7b592febd00684de8a06ade0.001.1,2026-06-05T18:21:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "RPS"
+          ]
+        }
+      }
+    }
+  ],
+  "title": "Current watches, warnings, and advisories for Texas",
+  "updated": "2026-06-08T03:23:05+00:00"
+}

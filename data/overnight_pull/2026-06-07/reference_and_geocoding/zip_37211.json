@@ -1,0 +1,14 @@
+{
+  "country": "United States",
+  "country abbreviation": "US",
+  "post code": "37211",
+  "places": [
+    {
+      "place name": "Nashville",
+      "longitude": "-86.724",
+      "latitude": "36.0725",
+      "state": "Tennessee",
+      "state abbreviation": "TN"
+    }
+  ]
+}

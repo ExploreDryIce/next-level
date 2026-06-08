@@ -1,0 +1,32 @@
+{
+  "id": "eth-ethereum",
+  "name": "Ethereum",
+  "symbol": "ETH",
+  "rank": 2,
+  "total_supply": 120232214,
+  "max_supply": 0,
+  "beta_value": 1.47846,
+  "first_data_at": "2015-08-07T00:00:00Z",
+  "last_updated": "2026-06-08T03:17:12Z",
+  "quotes": {
+    "USD": {
+      "price": 1686.9761470960384,
+      "volume_24h": 13693288301.110523,
+      "volume_24h_change_24h": -5.099999904632568,
+      "market_cap": 203156322574,
+      "market_cap_change_24h": 6.110000133514404,
+      "percent_change_15m": 0.4099999964237213,
+      "percent_change_30m": 0.1899999976158142,
+      "percent_change_1h": 0.019999999552965164,
+      "percent_change_6h": 3.559999942779541,
+      "percent_change_12h": 3.2699999809265137,
+      "percent_change_24h": 6.110000133514404,
+      "percent_change_7d": -15.75,
+      "percent_change_30d": 0,
+      "percent_change_1y": 0,
+      "ath_price": 4946.229669645212,
+      "ath_date": "2025-08-24T19:24:38Z",
+      "percent_from_price_ath": -65.89
+    }
+  }
+}

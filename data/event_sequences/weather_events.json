@@ -1,0 +1,90 @@
+[
+  {
+    "event_type": "heavy_precipitation",
+    "timestamp": 1780920000.0,
+    "severity_score": 0.26,
+    "domain": "weather",
+    "source": "open_meteo",
+    "metadata": {
+      "precipitation_mm": 6.5,
+      "location": "Nashville"
+    }
+  },
+  {
+    "event_type": "heavy_precipitation",
+    "timestamp": 1780923600.0,
+    "severity_score": 0.532,
+    "domain": "weather",
+    "source": "open_meteo",
+    "metadata": {
+      "precipitation_mm": 13.3,
+      "location": "Nashville"
+    }
+  },
+  {
+    "event_type": "nws_alert_flood_watch",
+    "timestamp": 1780855740.0,
+    "severity_score": 0.8,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Flood Watch issued June 7 at 2:09PM EDT until June 8 at 9:00PM EDT by NWS Morristown TN",
+      "areas": "Claiborne; Hancock; Hawkins; Sullivan; Johnson; Grainger; Hamblen; Northwest Cocke; Cocke Smoky Mountains; Northwest Greene; Southeast Greene; Washington; Unicoi; Northwest Carter; Southeast Carter; Jefferson"
+    }
+  },
+  {
+    "event_type": "nws_alert_flood_watch",
+    "timestamp": 1780855740.0,
+    "severity_score": 0.8,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Flood Watch issued June 7 at 2:09PM EDT until June 8 at 9:00PM EDT by NWS Morristown TN",
+      "areas": "Cherokee; Clay; Scott; Campbell; Morgan; Anderson; Union; Roane; Loudon; Knox; NW Blount; Blount Smoky Mountains; North Sevier; Sevier Smoky Mountains; Sequatchie; Bledsoe; Rhea; Meigs; McMinn; Northwest Monroe; Southeast Monroe; Marion; Hamilton; Bradley; West Polk; East Polk"
+    }
+  },
+  {
+    "event_type": "nws_alert_flood_watch",
+    "timestamp": 1780855920.0,
+    "severity_score": 0.8,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Flood Watch issued June 7 at 1:12PM CDT until June 8 at 8:00PM CDT by NWS Huntsville AL",
+      "areas": "Lauderdale; Limestone; Madison; Jackson; Moore; Lincoln; Franklin"
+    }
+  },
+  {
+    "event_type": "nws_alert_flood_warning",
+    "timestamp": 1780873200.0,
+    "severity_score": 0.8,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Flood Warning issued June 7 at 6:00PM CDT until June 7 at 10:00PM CDT by NWS Huntsville AL",
+      "areas": "DeKalb, AL; Jackson, AL; Limestone, AL; Madison, AL; Marshall, AL; Morgan, AL; Franklin, TN; Lincoln, TN"
+    }
+  },
+  {
+    "event_type": "nws_alert_flood_advisory",
+    "timestamp": 1780875600.0,
+    "severity_score": 0.3,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Flood Advisory issued June 7 at 6:40PM CDT until June 7 at 10:30PM CDT by NWS Nashville TN",
+      "areas": "Lawrence, TN"
+    }
+  },
+  {
+    "event_type": "nws_alert_flood_watch",
+    "timestamp": 1780885140.0,
+    "severity_score": 0.8,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Flood Watch issued June 7 at 9:19PM CDT until June 8 at 8:00PM CDT by NWS Nashville TN",
+      "areas": "Stewart; Montgomery; Robertson; Sumner; Macon; Clay; Pickett; Houston; Humphreys; Dickson; Cheatham; Davidson; Wilson; Trousdale; Smith; Jackson; Putnam; Overton; Fentress; Perry; Hickman; Lewis; Williamson; Maury; Marshall; Rutherford; Cannon; De Kalb; White; Cumberland; Bedford; Coffee; Warren; Grundy; Van Buren; Wayne; Lawrence; Giles"
+    }
+  }
+]

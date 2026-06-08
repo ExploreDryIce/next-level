@@ -1,0 +1,2466 @@
+[
+  {
+    "event_type": "cve_published_CVE-1999-0095",
+    "timestamp": 591699600.0,
+    "severity_score": 1.0,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-0095",
+      "cvss": 10.0
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-0082",
+    "timestamp": 595249200.0,
+    "severity_score": 1.0,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-0082",
+      "cvss": 10.0
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1471",
+    "timestamp": 599655600.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1471",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1122",
+    "timestamp": 617446800.0,
+    "severity_score": 0.46,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1122",
+      "cvss": 4.6
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1467",
+    "timestamp": 625395600.0,
+    "severity_score": 1.0,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1467",
+      "cvss": 10.0
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1506",
+    "timestamp": 633610800.0,
+    "severity_score": 0.75,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1506",
+      "cvss": 7.5
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-0084",
+    "timestamp": 641552400.0,
+    "severity_score": 0.84,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-0084",
+      "cvss": 8.4
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-2000-0388",
+    "timestamp": 642243600.0,
+    "severity_score": 0.75,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-2000-0388",
+      "cvss": 7.5
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-0209",
+    "timestamp": 650624400.0,
+    "severity_score": 0.5,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-0209",
+      "cvss": 5.0
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1198",
+    "timestamp": 654944400.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1198",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1391",
+    "timestamp": 654944400.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1391",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1392",
+    "timestamp": 654944400.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1392",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1057",
+    "timestamp": 656845200.0,
+    "severity_score": 0.46,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1057",
+      "cvss": 4.6
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1554",
+    "timestamp": 657370800.0,
+    "severity_score": 0.21,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1554",
+      "cvss": 2.1
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1197",
+    "timestamp": 661690800.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1197",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1115",
+    "timestamp": 662641200.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1115",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1258",
+    "timestamp": 663937200.0,
+    "severity_score": 0.5,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1258",
+      "cvss": 5.0
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1438",
+    "timestamp": 667220400.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1438",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1211",
+    "timestamp": 670071600.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1211",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1212",
+    "timestamp": 670071600.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1212",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1775520000.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "OR",
+      "title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1775520000.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "OR",
+      "title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1775520000.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "WA",
+      "title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1775520000.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "WA",
+      "title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_em",
+    "timestamp": 1775865600.0,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "GU",
+      "title": "TYPHOON SINLAKU",
+      "type": "EM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_em",
+    "timestamp": 1775865600.0,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "TYPHOON SINLAKU",
+      "type": "EM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_em",
+    "timestamp": 1775865600.0,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "TYPHOON SINLAKU",
+      "type": "EM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_em",
+    "timestamp": 1775865600.0,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "TYPHOON SINLAKU",
+      "type": "EM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_em",
+    "timestamp": 1775865600.0,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "TYPHOON SINLAKU",
+      "type": "EM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_em",
+    "timestamp": 1775865600.0,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "TYPHOON SINLAKU",
+      "type": "EM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1776729600.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "GA",
+      "title": "PINELAND ROAD FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1776729600.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "GA",
+      "title": "PINELAND ROAD FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1776816000.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "GA",
+      "title": "HIGHWAY 82 FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1776816000.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "FL",
+      "title": "RAILROAD COMPLEX FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1776816000.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "FL",
+      "title": "RAILROAD COMPLEX FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1776902400.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "SUPER TYPHOON SINLAKU",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1776902400.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "SUPER TYPHOON SINLAKU",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1776902400.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "SUPER TYPHOON SINLAKU",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1776902400.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "FL",
+      "title": "COW CREEK FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1776902400.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "SUPER TYPHOON SINLAKU",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1776902400.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "SUPER TYPHOON SINLAKU",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1776920400.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38935486920284.75
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1777006800.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38953670272769.58
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1777266000.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38960955558731.97
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1777352400.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38951791901141.8
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1777438800.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38952075248701.65
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1777525200.0,
+    "severity_score": 0.37,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.696,
+      "security": "Treasury Bills"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1777525200.0,
+    "severity_score": 0.323,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.23,
+      "security": "Treasury Notes"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1777525200.0,
+    "severity_score": 0.34,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.403,
+      "security": "Treasury Bonds"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1777525200.0,
+    "severity_score": 0.107,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 1.068,
+      "security": "Treasury Inflation-Protected Securities (TIPS)"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1777525200.0,
+    "severity_score": 0.376,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.764,
+      "security": "Treasury Floating Rate Notes (FRN)"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1777525200.0,
+    "severity_score": 0.239,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 2.389,
+      "security": "Federal Financing Bank"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1777525200.0,
+    "severity_score": 0.337,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.373,
+      "security": "Total Marketable"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1777525200.0,
+    "severity_score": 0.758,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 7.577,
+      "security": "Domestic Series"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1777525200.0,
+    "severity_score": 0.278,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 2.781,
+      "security": "Special Purpose Vehicle"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1777525200.0,
+    "severity_score": 0.331,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.313,
+      "security": "State and Local Government Series"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1777525200.0,
+    "severity_score": 0.318,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.176,
+      "security": "United States Savings Securities"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1777525200.0,
+    "severity_score": 0.435,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 4.349,
+      "security": "United States Savings Inflation Securities"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1777525200.0,
+    "severity_score": 0.318,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.184,
+      "security": "Government Account Series"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1777525200.0,
+    "severity_score": 0.135,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 1.348,
+      "security": "Government Account Series Inflation Securities"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1777525200.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38967833861543.11
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1777611600.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38882147615630.53
+    }
+  },
+  {
+    "event_type": "solar_flare_C4.0",
+    "timestamp": 1777718640.0,
+    "severity_score": 0.4,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "C4.0",
+      "source_location": "N16W75"
+    }
+  },
+  {
+    "event_type": "solar_flare_C8.7",
+    "timestamp": 1777746600.0,
+    "severity_score": 0.4,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "C8.7",
+      "source_location": "N16W90"
+    }
+  },
+  {
+    "event_type": "solar_flare_M1.8",
+    "timestamp": 1777857180.0,
+    "severity_score": 0.7,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "M1.8",
+      "source_location": "N17W80"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1777870800.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38905034125404.78
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1777957200.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38910619550278.1
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1778043600.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38918837926582.9
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1778130000.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38931651718802.09
+    }
+  },
+  {
+    "event_type": "solar_flare_M2.6",
+    "timestamp": 1778163600.0,
+    "severity_score": 0.7,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "M2.6",
+      "source_location": "N18E90"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1778216400.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38937475342585.8
+    }
+  },
+  {
+    "event_type": "solar_flare_M5.7",
+    "timestamp": 1778419140.0,
+    "severity_score": 0.7,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "M5.7",
+      "source_location": "N21E65"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1778475600.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38946800561409.14
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1778562000.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38968295059805.35
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1778648400.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38942623681847.68
+    }
+  },
+  {
+    "event_type": "solar_flare_C1.4",
+    "timestamp": 1778700900.0,
+    "severity_score": 0.4,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "C1.4",
+      "source_location": "N18W90"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1778716800.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "TX",
+      "title": "HUNGGATE FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1778734800.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38954466670318.2
+    }
+  },
+  {
+    "event_type": "solar_flare_C3.3",
+    "timestamp": 1778813520.0,
+    "severity_score": 0.4,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "C3.3",
+      "source_location": "N18E01"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1778821200.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 38997244508055.09
+    }
+  },
+  {
+    "event_type": "solar_flare_C6.7",
+    "timestamp": 1778850600.0,
+    "severity_score": 0.4,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "C6.7",
+      "source_location": "N22W76"
+    }
+  },
+  {
+    "event_type": "solar_flare_C9.5",
+    "timestamp": 1778861100.0,
+    "severity_score": 0.4,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "C9.5",
+      "source_location": "N22W76"
+    }
+  },
+  {
+    "event_type": "solar_flare_M1.9",
+    "timestamp": 1778946600.0,
+    "severity_score": 0.7,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "M1.9",
+      "source_location": "N22W17"
+    }
+  },
+  {
+    "event_type": "solar_flare_M1.3",
+    "timestamp": 1778948520.0,
+    "severity_score": 0.7,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "M1.3",
+      "source_location": "N18W15"
+    }
+  },
+  {
+    "event_type": "solar_flare_M1.9",
+    "timestamp": 1778953140.0,
+    "severity_score": 0.7,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "M1.9",
+      "source_location": "N21W90"
+    }
+  },
+  {
+    "event_type": "solar_flare_M1.4",
+    "timestamp": 1778988540.0,
+    "severity_score": 0.7,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "M1.4",
+      "source_location": "N22W97"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1779062400.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "CA",
+      "title": "SANDY FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1779062400.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "TX",
+      "title": "STINKY FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1779080400.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 39008999901378.68
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1779166800.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 39070752626994.13
+    }
+  },
+  {
+    "event_type": "solar_flare_B8.2",
+    "timestamp": 1779186120.0,
+    "severity_score": 0.2,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "B8.2",
+      "source_location": "N17E36"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1779235200.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "CA",
+      "title": "BAIN FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1779253200.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 39049639932662.87
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1779339600.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 39071200457366.45
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1779426000.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 39112192265187.75
+    }
+  },
+  {
+    "event_type": "solar_flare_M2.3",
+    "timestamp": 1779444180.0,
+    "severity_score": 0.7,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "M2.3",
+      "source_location": "N18W96"
+    }
+  },
+  {
+    "event_type": "fema_disaster_em",
+    "timestamp": 1779667200.0,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "CA",
+      "title": "CHEMICAL RELEASE",
+      "type": "EM"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1779771600.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 39171154946667.59
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1779858000.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 39163302863182.1
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1779944400.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 39176301795549.4
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "AZ",
+      "title": "SEVERE STORMS AND FLOODING",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "DE",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MT",
+      "title": "SEVERE WINTER STORM AND STRAIGHT-LINE WINDS",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "AK",
+      "title": "SEVERE STORMS, FLOODING, AND REMNANTS OF TYPHOON HALONG",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MT",
+      "title": "SEVERE WINTER STORM AND STRAIGHT-LINE WINDS",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "DE",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1780030800.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 39207759598302.62
+    }
+  },
+  {
+    "event_type": "solar_flare_M1.1",
+    "timestamp": 1780036800.0,
+    "severity_score": 0.7,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "M1.1",
+      "source_location": "N14E62"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.369,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.69,
+      "security": "Treasury Bills"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.325,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.248,
+      "security": "Treasury Notes"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.341,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.413,
+      "security": "Treasury Bonds"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.108,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 1.079,
+      "security": "Treasury Inflation-Protected Securities (TIPS)"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.356,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.563,
+      "security": "Treasury Floating Rate Notes (FRN)"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.239,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 2.389,
+      "security": "Federal Financing Bank"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.339,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.386,
+      "security": "Total Marketable"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.758,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 7.577,
+      "security": "Domestic Series"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.278,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 2.781,
+      "security": "Special Purpose Vehicle"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.332,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.324,
+      "security": "State and Local Government Series"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.317,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.169,
+      "security": "United States Savings Securities"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.438,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 4.383,
+      "security": "United States Savings Inflation Securities"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.319,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.194,
+      "security": "Government Account Series"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.135,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 1.349,
+      "security": "Government Account Series Inflation Securities"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.32,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.201,
+      "security": "Total Non-marketable"
+    }
+  },
+  {
+    "event_type": "treasury_rate_change",
+    "timestamp": 1780203600.0,
+    "severity_score": 0.335,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "rate": 3.353,
+      "security": "Total Interest-bearing Debt"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1780290000.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 39195502287422.08
+    }
+  },
+  {
+    "event_type": "solar_flare_C1.8",
+    "timestamp": 1780368000.0,
+    "severity_score": 0.4,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "C1.8",
+      "source_location": "N15E09"
+    }
+  },
+  {
+    "event_type": "solar_flare_M1.2",
+    "timestamp": 1780375320.0,
+    "severity_score": 0.7,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "M1.2",
+      "source_location": "S25E80"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1780376400.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 39221984586285.3
+    }
+  },
+  {
+    "event_type": "solar_flare_C3.1",
+    "timestamp": 1780382760.0,
+    "severity_score": 0.4,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "C3.1",
+      "source_location": "N15E01"
+    }
+  },
+  {
+    "event_type": "solar_flare_M1.2",
+    "timestamp": 1780393860.0,
+    "severity_score": 0.7,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "M1.2",
+      "source_location": "N11E01"
+    }
+  },
+  {
+    "event_type": "solar_flare_M3.3",
+    "timestamp": 1780417860.0,
+    "severity_score": 0.7,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "M3.3",
+      "source_location": "N13W05"
+    }
+  },
+  {
+    "event_type": "solar_flare_M9.3",
+    "timestamp": 1780449720.0,
+    "severity_score": 0.7,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "M9.3",
+      "source_location": "N13W10"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1780462800.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 39204974715248.65
+    }
+  },
+  {
+    "event_type": "solar_flare_M7.7",
+    "timestamp": 1780469340.0,
+    "severity_score": 0.7,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "M7.7",
+      "source_location": "N14W13"
+    }
+  },
+  {
+    "event_type": "solar_flare_X1.0",
+    "timestamp": 1780485540.0,
+    "severity_score": 1.0,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "X1.0",
+      "source_location": "N14W16"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1780549200.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "fed_treasury",
+    "metadata": {
+      "total_debt": 39232150577283.87
+    }
+  },
+  {
+    "event_type": "solar_flare_C4.1",
+    "timestamp": 1780671120.0,
+    "severity_score": 0.4,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "C4.1",
+      "source_location": "N12W45"
+    }
+  },
+  {
+    "event_type": "solar_flare_C4.0",
+    "timestamp": 1780672200.0,
+    "severity_score": 0.4,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "C4.0",
+      "source_location": "S08W82"
+    }
+  },
+  {
+    "event_type": "solar_flare_M1.8",
+    "timestamp": 1780753200.0,
+    "severity_score": 0.7,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "M1.8",
+      "source_location": "S22E24"
+    }
+  },
+  {
+    "event_type": "earthquake_M4.4",
+    "timestamp": 1780799323.17,
+    "severity_score": 0.4,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "99 km SSW of Acajutla, El Salvador",
+      "magnitude": 4.4
+    }
+  },
+  {
+    "event_type": "earthquake_M5.1",
+    "timestamp": 1780800785.88,
+    "severity_score": 0.517,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "196 km NE of Lospalos, Timor Leste",
+      "magnitude": 5.1
+    }
+  },
+  {
+    "event_type": "earthquake_M5.4",
+    "timestamp": 1780804617.053,
+    "severity_score": 0.567,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "south of the Fiji Islands",
+      "magnitude": 5.4
+    }
+  },
+  {
+    "event_type": "earthquake_M2.5",
+    "timestamp": 1780809111.385,
+    "severity_score": 0.083,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "29 km NNE of Valdez, Alaska",
+      "magnitude": 2.5
+    }
+  },
+  {
+    "event_type": "earthquake_M4.3",
+    "timestamp": 1780809147.858,
+    "severity_score": 0.383,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "45 km NE of Mawlaik, Burma (Myanmar)",
+      "magnitude": 4.3
+    }
+  },
+  {
+    "event_type": "earthquake_M2.5",
+    "timestamp": 1780809382.21,
+    "severity_score": 0.083,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "24 km W of Delta, B.C., MX",
+      "magnitude": 2.5
+    }
+  },
+  {
+    "event_type": "earthquake_M2.9",
+    "timestamp": 1780814577.35,
+    "severity_score": 0.15,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "51 km NNE of Chickaloon, Alaska",
+      "magnitude": 2.9
+    }
+  },
+  {
+    "event_type": "earthquake_M2.6",
+    "timestamp": 1780817287.657,
+    "severity_score": 0.1,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "80 km NNE of Miches, Dominican Republic",
+      "magnitude": 2.6
+    }
+  },
+  {
+    "event_type": "earthquake_M3.9",
+    "timestamp": 1780817291.43,
+    "severity_score": 0.312,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "4 km NNE of Guaymate, Dominican Republic",
+      "magnitude": 3.87
+    }
+  },
+  {
+    "event_type": "earthquake_M4.9",
+    "timestamp": 1780826325.829,
+    "severity_score": 0.483,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "5 km ENE of L\u00edmni, Greece",
+      "magnitude": 4.9
+    }
+  },
+  {
+    "event_type": "earthquake_M5.2",
+    "timestamp": 1780826568.827,
+    "severity_score": 0.533,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "7 km W of Prok\u00f3pi, Greece",
+      "magnitude": 5.2
+    }
+  },
+  {
+    "event_type": "earthquake_M4.1",
+    "timestamp": 1780828917.64,
+    "severity_score": 0.352,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "18 km SE of P\u0101hala, Hawaii",
+      "magnitude": 4.11
+    }
+  },
+  {
+    "event_type": "earthquake_M6.1",
+    "timestamp": 1780828918.596,
+    "severity_score": 0.683,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "124 km SE of Severo-Kuril\u2019sk, Russia",
+      "magnitude": 6.1
+    }
+  },
+  {
+    "event_type": "earthquake_M2.9",
+    "timestamp": 1780830654.52,
+    "severity_score": 0.155,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "19 km SSE of P\u0101hala, Hawaii",
+      "magnitude": 2.93
+    }
+  },
+  {
+    "event_type": "earthquake_M3.8",
+    "timestamp": 1780837554.79,
+    "severity_score": 0.302,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "83 km N of Cruz Bay, U.S. Virgin Islands",
+      "magnitude": 3.81
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1780837570.958,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "29 km WNW of Sinabang, Indonesia",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M2.7",
+    "timestamp": 1780838727.992,
+    "severity_score": 0.117,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "58 km SSW of Tanana, Alaska",
+      "magnitude": 2.7
+    }
+  },
+  {
+    "event_type": "earthquake_M4.7",
+    "timestamp": 1780839106.524,
+    "severity_score": 0.45,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "168 km SSW of Bengkulu, Indonesia",
+      "magnitude": 4.7
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1780839410.223,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "Izu Islands, Japan region",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1780840638.086,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "70 km W of San Antonio de los Cobres, Argentina",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M3.3",
+    "timestamp": 1780842116.134,
+    "severity_score": 0.217,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "65 km E of Miguel Ahumada, Mexico",
+      "magnitude": 3.3
+    }
+  },
+  {
+    "event_type": "earthquake_M2.8",
+    "timestamp": 1780842980.18,
+    "severity_score": 0.137,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "13 km SSE of Fern Forest, Hawaii",
+      "magnitude": 2.82
+    }
+  },
+  {
+    "event_type": "earthquake_M5.5",
+    "timestamp": 1780844036.18,
+    "severity_score": 0.583,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "139 km SE of Severo-Kuril\u2019sk, Russia",
+      "magnitude": 5.5
+    }
+  },
+  {
+    "event_type": "earthquake_M4.0",
+    "timestamp": 1780846438.775,
+    "severity_score": 0.333,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "9 km SSW of G\u00e9nova, Guatemala",
+      "magnitude": 4
+    }
+  },
+  {
+    "event_type": "earthquake_M3.6",
+    "timestamp": 1780846668.62,
+    "severity_score": 0.267,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "2 km SW of Alamo, CA",
+      "magnitude": 3.6
+    }
+  },
+  {
+    "event_type": "earthquake_M4.2",
+    "timestamp": 1780846998.8,
+    "severity_score": 0.367,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "75 km SW of Santiago, Peru",
+      "magnitude": 4.2
+    }
+  },
+  {
+    "event_type": "earthquake_M4.1",
+    "timestamp": 1780847907.347,
+    "severity_score": 0.35,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "2 km SW of Manto\u00fadi, Greece",
+      "magnitude": 4.1
+    }
+  },
+  {
+    "event_type": "earthquake_M2.5",
+    "timestamp": 1780852148.84,
+    "severity_score": 0.082,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "20 km SSE of P\u0101hala, Hawaii",
+      "magnitude": 2.49
+    }
+  },
+  {
+    "event_type": "earthquake_M3.9",
+    "timestamp": 1780852424.154,
+    "severity_score": 0.317,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "21 km ESE of Hualien City, Taiwan",
+      "magnitude": 3.9
+    }
+  },
+  {
+    "event_type": "earthquake_M5.6",
+    "timestamp": 1780853799.953,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "15 km WNW of Pun\u0101kha, Bhutan",
+      "magnitude": 5.6
+    }
+  },
+  {
+    "event_type": "earthquake_M4.5",
+    "timestamp": 1780853882.926,
+    "severity_score": 0.417,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "185 km ESE of Severo-Kuril\u2019sk, Russia",
+      "magnitude": 4.5
+    }
+  },
+  {
+    "event_type": "earthquake_M4.5",
+    "timestamp": 1780854459.457,
+    "severity_score": 0.417,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "south of the Fiji Islands",
+      "magnitude": 4.5
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1780854876.071,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "120 km SE of Severo-Kuril\u2019sk, Russia",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M5.8",
+    "timestamp": 1780855280.966,
+    "severity_score": 0.633,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "Easter Island region",
+      "magnitude": 5.8
+    }
+  },
+  {
+    "event_type": "nws_alert_flood_watch",
+    "timestamp": 1780855740.0,
+    "severity_score": 0.8,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Flood Watch issued June 7 at 2:09PM EDT until June 8 at 9:00PM EDT by NWS Morristown TN",
+      "areas": "Claiborne; Hancock; Hawkins; Sullivan; Johnson; Grainger; Hamblen; Northwest Cocke; Cocke Smoky Mountains; Northwest Greene; Southeast Greene; Washington; Unicoi; Northwest Carter; Southeast Carter; Jefferson"
+    }
+  },
+  {
+    "event_type": "nws_alert_flood_watch",
+    "timestamp": 1780855740.0,
+    "severity_score": 0.8,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Flood Watch issued June 7 at 2:09PM EDT until June 8 at 9:00PM EDT by NWS Morristown TN",
+      "areas": "Cherokee; Clay; Scott; Campbell; Morgan; Anderson; Union; Roane; Loudon; Knox; NW Blount; Blount Smoky Mountains; North Sevier; Sevier Smoky Mountains; Sequatchie; Bledsoe; Rhea; Meigs; McMinn; Northwest Monroe; Southeast Monroe; Marion; Hamilton; Bradley; West Polk; East Polk"
+    }
+  },
+  {
+    "event_type": "nws_alert_flood_watch",
+    "timestamp": 1780855920.0,
+    "severity_score": 0.8,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Flood Watch issued June 7 at 1:12PM CDT until June 8 at 8:00PM CDT by NWS Huntsville AL",
+      "areas": "Lauderdale; Limestone; Madison; Jackson; Moore; Lincoln; Franklin"
+    }
+  },
+  {
+    "event_type": "earthquake_M4.7",
+    "timestamp": 1780856526.925,
+    "severity_score": 0.45,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "off the coast of Central America",
+      "magnitude": 4.7
+    }
+  },
+  {
+    "event_type": "earthquake_M2.9",
+    "timestamp": 1780859337.49,
+    "severity_score": 0.145,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "28 km NW of Charlotte Amalie, U.S. Virgin Islands",
+      "magnitude": 2.87
+    }
+  },
+  {
+    "event_type": "earthquake_M4.3",
+    "timestamp": 1780861258.646,
+    "severity_score": 0.383,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "88 km SW of Taltal, Chile",
+      "magnitude": 4.3
+    }
+  },
+  {
+    "event_type": "earthquake_M2.6",
+    "timestamp": 1780862956.635,
+    "severity_score": 0.1,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "10 km WSW of Stanton, Texas",
+      "magnitude": 2.6
+    }
+  },
+  {
+    "event_type": "earthquake_M3.6",
+    "timestamp": 1780865667.567,
+    "severity_score": 0.267,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "141 km WSW of Adak, Alaska",
+      "magnitude": 3.6
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1780866433.465,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "11 km SSW of Kangding, China",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M2.8",
+    "timestamp": 1780867246.394,
+    "severity_score": 0.133,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "33 km W of Kotzebue, Alaska",
+      "magnitude": 2.8
+    }
+  },
+  {
+    "event_type": "earthquake_M2.7",
+    "timestamp": 1780869442.39,
+    "severity_score": 0.117,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "17 km SE of Lone Pine, CA",
+      "magnitude": 2.7
+    }
+  },
+  {
+    "event_type": "earthquake_M3.8",
+    "timestamp": 1780870337.064,
+    "severity_score": 0.3,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "10 km N of Susitna, Alaska",
+      "magnitude": 3.8
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1780870668.181,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "Fiji region",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M2.5",
+    "timestamp": 1780872834.418,
+    "severity_score": 0.083,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "47 km SSE of Nelchina, Alaska",
+      "magnitude": 2.5
+    }
+  },
+  {
+    "event_type": "nws_alert_flood_warning",
+    "timestamp": 1780873200.0,
+    "severity_score": 0.8,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Flood Warning issued June 7 at 6:00PM CDT until June 7 at 10:00PM CDT by NWS Huntsville AL",
+      "areas": "DeKalb, AL; Jackson, AL; Limestone, AL; Madison, AL; Marshall, AL; Morgan, AL; Franklin, TN; Lincoln, TN"
+    }
+  },
+  {
+    "event_type": "earthquake_M7.8",
+    "timestamp": 1780875461.803,
+    "severity_score": 0.967,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "26 km SW of Kablalan, Philippines",
+      "magnitude": 7.8
+    }
+  },
+  {
+    "event_type": "nws_alert_flood_advisory",
+    "timestamp": 1780875600.0,
+    "severity_score": 0.3,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Flood Advisory issued June 7 at 6:40PM CDT until June 7 at 10:30PM CDT by NWS Nashville TN",
+      "areas": "Lawrence, TN"
+    }
+  },
+  {
+    "event_type": "earthquake_M6.1",
+    "timestamp": 1780876089.922,
+    "severity_score": 0.683,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "7 km NNW of Sarangani, Philippines",
+      "magnitude": 6.1
+    }
+  },
+  {
+    "event_type": "earthquake_M6.0",
+    "timestamp": 1780876153.914,
+    "severity_score": 0.667,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "4 km ENE of Pangyan, Philippines",
+      "magnitude": 6
+    }
+  },
+  {
+    "event_type": "earthquake_M4.8",
+    "timestamp": 1780879346.506,
+    "severity_score": 0.467,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "1 km SE of Balangonan, Philippines",
+      "magnitude": 4.8
+    }
+  },
+  {
+    "event_type": "earthquake_M5.0",
+    "timestamp": 1780879984.432,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "37 km WSW of Sarangani, Philippines",
+      "magnitude": 5
+    }
+  },
+  {
+    "event_type": "earthquake_M6.5",
+    "timestamp": 1780880112.073,
+    "severity_score": 0.75,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "19 km SW of Balangonan, Philippines",
+      "magnitude": 6.5
+    }
+  },
+  {
+    "event_type": "earthquake_M5.8",
+    "timestamp": 1780880297.138,
+    "severity_score": 0.633,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "11 km SE of Sarangani, Philippines",
+      "magnitude": 5.8
+    }
+  },
+  {
+    "event_type": "earthquake_M5.1",
+    "timestamp": 1780881058.485,
+    "severity_score": 0.517,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "64 km SSW of Sarangani, Philippines",
+      "magnitude": 5.1
+    }
+  },
+  {
+    "event_type": "grid_carbon_intensity",
+    "timestamp": 1780882200.0,
+    "severity_score": 0.29,
+    "domain": "grid",
+    "source": "uk_carbon_intensity",
+    "metadata": {
+      "actual_gCO2": 116,
+      "forecast_gCO2": 114
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1780883185.163,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "27 km SE of Sarangani, Philippines",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M2.5",
+    "timestamp": 1780884529.703,
+    "severity_score": 0.083,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "1 km S of Big Lake, Alaska",
+      "magnitude": 2.5
+    }
+  },
+  {
+    "event_type": "nws_alert_flood_watch",
+    "timestamp": 1780885140.0,
+    "severity_score": 0.8,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Flood Watch issued June 7 at 9:19PM CDT until June 8 at 8:00PM CDT by NWS Nashville TN",
+      "areas": "Stewart; Montgomery; Robertson; Sumner; Macon; Clay; Pickett; Houston; Humphreys; Dickson; Cheatham; Davidson; Wilson; Trousdale; Smith; Jackson; Putnam; Overton; Fentress; Perry; Hickman; Lewis; Williamson; Maury; Marshall; Rutherford; Cannon; De Kalb; White; Cumberland; Bedford; Coffee; Warren; Grundy; Van Buren; Wayne; Lawrence; Giles"
+    }
+  },
+  {
+    "event_type": "crypto_surge_eth",
+    "timestamp": 1780886006.938339,
+    "severity_score": 0.315,
+    "domain": "financial",
+    "source": "coingecko",
+    "metadata": {
+      "coin": "Ethereum",
+      "price": 1684.1,
+      "change_24h_pct": 6.30333,
+      "market_cap": 203010068532
+    }
+  },
+  {
+    "event_type": "heavy_precipitation",
+    "timestamp": 1780920000.0,
+    "severity_score": 0.26,
+    "domain": "weather",
+    "source": "open_meteo",
+    "metadata": {
+      "precipitation_mm": 6.5,
+      "location": "Nashville"
+    }
+  },
+  {
+    "event_type": "heavy_precipitation",
+    "timestamp": 1780923600.0,
+    "severity_score": 0.532,
+    "domain": "weather",
+    "source": "open_meteo",
+    "metadata": {
+      "precipitation_mm": 13.3,
+      "location": "Nashville"
+    }
+  }
+]

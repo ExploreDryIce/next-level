@@ -1,0 +1,1207 @@
+[
+  {
+    "event_type": "earthquake_M4.4",
+    "timestamp": 1780799323.17,
+    "severity_score": 0.4,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "99 km SSW of Acajutla, El Salvador",
+      "magnitude": 4.4
+    }
+  },
+  {
+    "event_type": "earthquake_M5.1",
+    "timestamp": 1780800785.88,
+    "severity_score": 0.517,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "196 km NE of Lospalos, Timor Leste",
+      "magnitude": 5.1
+    }
+  },
+  {
+    "event_type": "earthquake_M5.4",
+    "timestamp": 1780804617.053,
+    "severity_score": 0.567,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "south of the Fiji Islands",
+      "magnitude": 5.4
+    }
+  },
+  {
+    "event_type": "earthquake_M2.5",
+    "timestamp": 1780809111.385,
+    "severity_score": 0.083,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "29 km NNE of Valdez, Alaska",
+      "magnitude": 2.5
+    }
+  },
+  {
+    "event_type": "earthquake_M4.3",
+    "timestamp": 1780809147.858,
+    "severity_score": 0.383,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "45 km NE of Mawlaik, Burma (Myanmar)",
+      "magnitude": 4.3
+    }
+  },
+  {
+    "event_type": "earthquake_M2.5",
+    "timestamp": 1780809382.21,
+    "severity_score": 0.083,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "24 km W of Delta, B.C., MX",
+      "magnitude": 2.5
+    }
+  },
+  {
+    "event_type": "earthquake_M2.9",
+    "timestamp": 1780814577.35,
+    "severity_score": 0.15,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "51 km NNE of Chickaloon, Alaska",
+      "magnitude": 2.9
+    }
+  },
+  {
+    "event_type": "earthquake_M2.6",
+    "timestamp": 1780817287.657,
+    "severity_score": 0.1,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "80 km NNE of Miches, Dominican Republic",
+      "magnitude": 2.6
+    }
+  },
+  {
+    "event_type": "earthquake_M3.9",
+    "timestamp": 1780817291.43,
+    "severity_score": 0.312,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "4 km NNE of Guaymate, Dominican Republic",
+      "magnitude": 3.87
+    }
+  },
+  {
+    "event_type": "earthquake_M4.9",
+    "timestamp": 1780826325.829,
+    "severity_score": 0.483,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "5 km ENE of L\u00edmni, Greece",
+      "magnitude": 4.9
+    }
+  },
+  {
+    "event_type": "earthquake_M5.2",
+    "timestamp": 1780826568.827,
+    "severity_score": 0.533,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "7 km W of Prok\u00f3pi, Greece",
+      "magnitude": 5.2
+    }
+  },
+  {
+    "event_type": "earthquake_M4.1",
+    "timestamp": 1780828917.64,
+    "severity_score": 0.352,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "18 km SE of P\u0101hala, Hawaii",
+      "magnitude": 4.11
+    }
+  },
+  {
+    "event_type": "earthquake_M6.1",
+    "timestamp": 1780828918.596,
+    "severity_score": 0.683,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "124 km SE of Severo-Kuril\u2019sk, Russia",
+      "magnitude": 6.1
+    }
+  },
+  {
+    "event_type": "earthquake_M2.9",
+    "timestamp": 1780830654.52,
+    "severity_score": 0.155,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "19 km SSE of P\u0101hala, Hawaii",
+      "magnitude": 2.93
+    }
+  },
+  {
+    "event_type": "earthquake_M3.8",
+    "timestamp": 1780837554.79,
+    "severity_score": 0.302,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "83 km N of Cruz Bay, U.S. Virgin Islands",
+      "magnitude": 3.81
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1780837570.958,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "29 km WNW of Sinabang, Indonesia",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M2.7",
+    "timestamp": 1780838727.992,
+    "severity_score": 0.117,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "58 km SSW of Tanana, Alaska",
+      "magnitude": 2.7
+    }
+  },
+  {
+    "event_type": "earthquake_M4.7",
+    "timestamp": 1780839106.524,
+    "severity_score": 0.45,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "168 km SSW of Bengkulu, Indonesia",
+      "magnitude": 4.7
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1780839410.223,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "Izu Islands, Japan region",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1780840638.086,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "70 km W of San Antonio de los Cobres, Argentina",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M3.3",
+    "timestamp": 1780842116.134,
+    "severity_score": 0.217,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "65 km E of Miguel Ahumada, Mexico",
+      "magnitude": 3.3
+    }
+  },
+  {
+    "event_type": "earthquake_M2.8",
+    "timestamp": 1780842980.18,
+    "severity_score": 0.137,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "13 km SSE of Fern Forest, Hawaii",
+      "magnitude": 2.82
+    }
+  },
+  {
+    "event_type": "earthquake_M5.5",
+    "timestamp": 1780844036.18,
+    "severity_score": 0.583,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "139 km SE of Severo-Kuril\u2019sk, Russia",
+      "magnitude": 5.5
+    }
+  },
+  {
+    "event_type": "earthquake_M4.0",
+    "timestamp": 1780846438.775,
+    "severity_score": 0.333,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "9 km SSW of G\u00e9nova, Guatemala",
+      "magnitude": 4
+    }
+  },
+  {
+    "event_type": "earthquake_M3.6",
+    "timestamp": 1780846668.62,
+    "severity_score": 0.267,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "2 km SW of Alamo, CA",
+      "magnitude": 3.6
+    }
+  },
+  {
+    "event_type": "earthquake_M4.2",
+    "timestamp": 1780846998.8,
+    "severity_score": 0.367,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "75 km SW of Santiago, Peru",
+      "magnitude": 4.2
+    }
+  },
+  {
+    "event_type": "earthquake_M4.1",
+    "timestamp": 1780847907.347,
+    "severity_score": 0.35,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "2 km SW of Manto\u00fadi, Greece",
+      "magnitude": 4.1
+    }
+  },
+  {
+    "event_type": "earthquake_M2.5",
+    "timestamp": 1780852148.84,
+    "severity_score": 0.082,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "20 km SSE of P\u0101hala, Hawaii",
+      "magnitude": 2.49
+    }
+  },
+  {
+    "event_type": "earthquake_M3.9",
+    "timestamp": 1780852424.154,
+    "severity_score": 0.317,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "21 km ESE of Hualien City, Taiwan",
+      "magnitude": 3.9
+    }
+  },
+  {
+    "event_type": "earthquake_M5.6",
+    "timestamp": 1780853799.953,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "15 km WNW of Pun\u0101kha, Bhutan",
+      "magnitude": 5.6
+    }
+  },
+  {
+    "event_type": "earthquake_M4.5",
+    "timestamp": 1780853882.926,
+    "severity_score": 0.417,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "185 km ESE of Severo-Kuril\u2019sk, Russia",
+      "magnitude": 4.5
+    }
+  },
+  {
+    "event_type": "earthquake_M4.5",
+    "timestamp": 1780854459.457,
+    "severity_score": 0.417,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "south of the Fiji Islands",
+      "magnitude": 4.5
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1780854876.071,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "120 km SE of Severo-Kuril\u2019sk, Russia",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M5.8",
+    "timestamp": 1780855280.966,
+    "severity_score": 0.633,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "Easter Island region",
+      "magnitude": 5.8
+    }
+  },
+  {
+    "event_type": "earthquake_M4.7",
+    "timestamp": 1780856526.925,
+    "severity_score": 0.45,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "off the coast of Central America",
+      "magnitude": 4.7
+    }
+  },
+  {
+    "event_type": "earthquake_M2.9",
+    "timestamp": 1780859337.49,
+    "severity_score": 0.145,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "28 km NW of Charlotte Amalie, U.S. Virgin Islands",
+      "magnitude": 2.87
+    }
+  },
+  {
+    "event_type": "earthquake_M4.3",
+    "timestamp": 1780861258.646,
+    "severity_score": 0.383,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "88 km SW of Taltal, Chile",
+      "magnitude": 4.3
+    }
+  },
+  {
+    "event_type": "earthquake_M2.6",
+    "timestamp": 1780862956.635,
+    "severity_score": 0.1,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "10 km WSW of Stanton, Texas",
+      "magnitude": 2.6
+    }
+  },
+  {
+    "event_type": "earthquake_M3.6",
+    "timestamp": 1780865667.567,
+    "severity_score": 0.267,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "141 km WSW of Adak, Alaska",
+      "magnitude": 3.6
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1780866433.465,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "11 km SSW of Kangding, China",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M2.8",
+    "timestamp": 1780867246.394,
+    "severity_score": 0.133,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "33 km W of Kotzebue, Alaska",
+      "magnitude": 2.8
+    }
+  },
+  {
+    "event_type": "earthquake_M2.7",
+    "timestamp": 1780869442.39,
+    "severity_score": 0.117,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "17 km SE of Lone Pine, CA",
+      "magnitude": 2.7
+    }
+  },
+  {
+    "event_type": "earthquake_M3.8",
+    "timestamp": 1780870337.064,
+    "severity_score": 0.3,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "10 km N of Susitna, Alaska",
+      "magnitude": 3.8
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1780870668.181,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "Fiji region",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M2.5",
+    "timestamp": 1780872834.418,
+    "severity_score": 0.083,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "47 km SSE of Nelchina, Alaska",
+      "magnitude": 2.5
+    }
+  },
+  {
+    "event_type": "earthquake_M7.8",
+    "timestamp": 1780875461.803,
+    "severity_score": 0.967,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "26 km SW of Kablalan, Philippines",
+      "magnitude": 7.8
+    }
+  },
+  {
+    "event_type": "earthquake_M6.1",
+    "timestamp": 1780876089.922,
+    "severity_score": 0.683,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "7 km NNW of Sarangani, Philippines",
+      "magnitude": 6.1
+    }
+  },
+  {
+    "event_type": "earthquake_M6.0",
+    "timestamp": 1780876153.914,
+    "severity_score": 0.667,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "4 km ENE of Pangyan, Philippines",
+      "magnitude": 6
+    }
+  },
+  {
+    "event_type": "earthquake_M4.8",
+    "timestamp": 1780879346.506,
+    "severity_score": 0.467,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "1 km SE of Balangonan, Philippines",
+      "magnitude": 4.8
+    }
+  },
+  {
+    "event_type": "earthquake_M5.0",
+    "timestamp": 1780879984.432,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "37 km WSW of Sarangani, Philippines",
+      "magnitude": 5
+    }
+  },
+  {
+    "event_type": "earthquake_M6.5",
+    "timestamp": 1780880112.073,
+    "severity_score": 0.75,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "19 km SW of Balangonan, Philippines",
+      "magnitude": 6.5
+    }
+  },
+  {
+    "event_type": "earthquake_M5.8",
+    "timestamp": 1780880297.138,
+    "severity_score": 0.633,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "11 km SE of Sarangani, Philippines",
+      "magnitude": 5.8
+    }
+  },
+  {
+    "event_type": "earthquake_M5.1",
+    "timestamp": 1780881058.485,
+    "severity_score": 0.517,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "64 km SSW of Sarangani, Philippines",
+      "magnitude": 5.1
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1780883185.163,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "27 km SE of Sarangani, Philippines",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M2.5",
+    "timestamp": 1780884529.703,
+    "severity_score": 0.083,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "1 km S of Big Lake, Alaska",
+      "magnitude": 2.5
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1775520000.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "OR",
+      "title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1775520000.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "OR",
+      "title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1775520000.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "WA",
+      "title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1775520000.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "WA",
+      "title": "SEVERE STORMS, STRAIGHT-LINE WINDS, FLOODING, LANDSLIDES, AND MUDSLIDES",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_em",
+    "timestamp": 1775865600.0,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "GU",
+      "title": "TYPHOON SINLAKU",
+      "type": "EM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_em",
+    "timestamp": 1775865600.0,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "TYPHOON SINLAKU",
+      "type": "EM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_em",
+    "timestamp": 1775865600.0,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "TYPHOON SINLAKU",
+      "type": "EM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_em",
+    "timestamp": 1775865600.0,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "TYPHOON SINLAKU",
+      "type": "EM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_em",
+    "timestamp": 1775865600.0,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "TYPHOON SINLAKU",
+      "type": "EM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_em",
+    "timestamp": 1775865600.0,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "TYPHOON SINLAKU",
+      "type": "EM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1776729600.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "GA",
+      "title": "PINELAND ROAD FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1776729600.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "GA",
+      "title": "PINELAND ROAD FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1776816000.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "GA",
+      "title": "HIGHWAY 82 FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1776816000.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "FL",
+      "title": "RAILROAD COMPLEX FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1776816000.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "FL",
+      "title": "RAILROAD COMPLEX FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1776902400.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "SUPER TYPHOON SINLAKU",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1776902400.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "SUPER TYPHOON SINLAKU",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1776902400.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "SUPER TYPHOON SINLAKU",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1776902400.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "FL",
+      "title": "COW CREEK FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1776902400.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "SUPER TYPHOON SINLAKU",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1776902400.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MP",
+      "title": "SUPER TYPHOON SINLAKU",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1778716800.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "TX",
+      "title": "HUNGGATE FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1779062400.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "CA",
+      "title": "SANDY FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1779062400.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "TX",
+      "title": "STINKY FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1779235200.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "CA",
+      "title": "BAIN FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_em",
+    "timestamp": 1779667200.0,
+    "severity_score": 0.6,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "CA",
+      "title": "CHEMICAL RELEASE",
+      "type": "EM"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "AZ",
+      "title": "SEVERE STORMS AND FLOODING",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "DE",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MT",
+      "title": "SEVERE WINTER STORM AND STRAIGHT-LINE WINDS",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "AK",
+      "title": "SEVERE STORMS, FLOODING, AND REMNANTS OF TYPHOON HALONG",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "MT",
+      "title": "SEVERE WINTER STORM AND STRAIGHT-LINE WINDS",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "DE",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  }
+]

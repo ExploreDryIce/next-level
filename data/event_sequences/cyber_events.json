@@ -1,0 +1,222 @@
+[
+  {
+    "event_type": "cve_published_CVE-1999-0095",
+    "timestamp": 591699600.0,
+    "severity_score": 1.0,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-0095",
+      "cvss": 10.0
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-0082",
+    "timestamp": 595249200.0,
+    "severity_score": 1.0,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-0082",
+      "cvss": 10.0
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1471",
+    "timestamp": 599655600.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1471",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1122",
+    "timestamp": 617446800.0,
+    "severity_score": 0.46,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1122",
+      "cvss": 4.6
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1467",
+    "timestamp": 625395600.0,
+    "severity_score": 1.0,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1467",
+      "cvss": 10.0
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1506",
+    "timestamp": 633610800.0,
+    "severity_score": 0.75,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1506",
+      "cvss": 7.5
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-0084",
+    "timestamp": 641552400.0,
+    "severity_score": 0.84,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-0084",
+      "cvss": 8.4
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-2000-0388",
+    "timestamp": 642243600.0,
+    "severity_score": 0.75,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-2000-0388",
+      "cvss": 7.5
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-0209",
+    "timestamp": 650624400.0,
+    "severity_score": 0.5,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-0209",
+      "cvss": 5.0
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1198",
+    "timestamp": 654944400.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1198",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1391",
+    "timestamp": 654944400.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1391",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1392",
+    "timestamp": 654944400.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1392",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1057",
+    "timestamp": 656845200.0,
+    "severity_score": 0.46,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1057",
+      "cvss": 4.6
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1554",
+    "timestamp": 657370800.0,
+    "severity_score": 0.21,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1554",
+      "cvss": 2.1
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1197",
+    "timestamp": 661690800.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1197",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1115",
+    "timestamp": 662641200.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1115",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1258",
+    "timestamp": 663937200.0,
+    "severity_score": 0.5,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1258",
+      "cvss": 5.0
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1438",
+    "timestamp": 667220400.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1438",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1211",
+    "timestamp": 670071600.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1211",
+      "cvss": 7.2
+    }
+  },
+  {
+    "event_type": "cve_published_CVE-1999-1212",
+    "timestamp": 670071600.0,
+    "severity_score": 0.72,
+    "domain": "cyber",
+    "source": "nvd",
+    "metadata": {
+      "cve_id": "CVE-1999-1212",
+      "cvss": 7.2
+    }
+  }
+]

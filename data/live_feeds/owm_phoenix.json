@@ -1,4 +1,46 @@
 {
-  "cod": 401,
-  "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."
+  "coord": {
+    "lon": -112.074,
+    "lat": 33.4484
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 77.43,
+    "feels_like": 76.24,
+    "temp_min": 74.28,
+    "temp_max": 80.2,
+    "pressure": 1007,
+    "humidity": 29,
+    "sea_level": 1007,
+    "grnd_level": 965
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.68,
+    "deg": 174,
+    "gust": 4.32
+  },
+  "clouds": {
+    "all": 52
+  },
+  "dt": 1780916093,
+  "sys": {
+    "type": 2,
+    "id": 2034302,
+    "country": "US",
+    "sunrise": 1780921097,
+    "sunset": 1780972603
+  },
+  "timezone": -25200,
+  "id": 5308655,
+  "name": "Phoenix",
+  "cod": 200
 }

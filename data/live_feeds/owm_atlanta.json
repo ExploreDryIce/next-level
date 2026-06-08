@@ -1,4 +1,46 @@
 {
-  "cod": 401,
-  "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."
+  "coord": {
+    "lon": -84.388,
+    "lat": 33.749
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 68.77,
+    "feels_like": 69.3,
+    "temp_min": 66.99,
+    "temp_max": 69.89,
+    "pressure": 1018,
+    "humidity": 84,
+    "sea_level": 1018,
+    "grnd_level": 985
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.7,
+    "deg": 201,
+    "gust": 2.95
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1780916280,
+  "sys": {
+    "type": 2,
+    "id": 2101395,
+    "country": "US",
+    "sunrise": 1780914406,
+    "sunset": 1780966003
+  },
+  "timezone": -14400,
+  "id": 4180439,
+  "name": "Atlanta",
+  "cod": 200
 }

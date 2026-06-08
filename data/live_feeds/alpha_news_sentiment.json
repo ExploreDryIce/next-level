@@ -1,3 +1,2385 @@
 {
-  "Information": "Thank you for using Alpha Vantage! Please consider spreading out your free API requests more sparingly (1 request per second). You may subscribe to any of the premium plans at https://www.alphavantage.co/premium/ to lift the free key rate limit (25 requests per day), raise the per-second burst limit, and instantly unlock all premium endpoints"
+  "items": "50",
+  "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
+  "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+  "feed": [
+    {
+      "title": "Stock Market Today: SPY, QQQ Plummet as Blowout Jobs Report Fuels Rate Hike Expectations",
+      "url": "https://www.tipranks.com/news/stock-market-today-spy-qqq-plummet-as-blowout-jobs-report-fuels-rate-hike-expectations",
+      "time_published": "20260605T200846",
+      "authors": [
+        "Eddie Pan"
+      ],
+      "summary": "U.S. equities, including the S&P 500 ETF (SPY) and Nasdaq 100 ETF (QQQ), fell sharply on Friday following a stronger-than-expected May jobs report. The blowout jobs numbers fueled increased expectations for interest rate hikes, with the odds of at least one hike by year-end jumping significantly. Several major tech and semiconductor stocks, as well as Lululemon, experienced declines, while Oracle saw price target increases from Wall Street firms.",
+      "banner_image": "https://blog.tipranks.com/wp-content/uploads/2026/04/shutterstock_2702635269-750x406.jpg",
+      "source": "TipRanks",
+      "category_within_source": "General",
+      "source_domain": "TipRanks",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.903034"
+        },
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.825016"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.702470"
+        },
+        {
+          "topic": "earnings",
+          "relevance_score": "0.641599"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.624443"
+        }
+      ],
+      "overall_sentiment_score": -0.40218,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.408657",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.609578",
+          "ticker_sentiment_score": "-0.420075",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "S&P 500 Top Stock Gainers Today, 6/5/26",
+      "url": "https://www.tipranks.com/news/sp-500-top-stock-gainers-today-6-5-26",
+      "time_published": "20260605T190907",
+      "authors": [
+        "Eddie Pan"
+      ],
+      "summary": "On Friday, June 5, 2026, the S&P 500 closed lower due to an upbeat jobs report increasing the likelihood of rate hikes. Consumer staples emerged as the top-performing sector, gaining 1.64% amid expectations for higher interest rates, with companies like Kimberly-Clark and Procter & Gamble leading the way. Conversely, the information technology sector experienced the largest decline (5.78%) as investors shifted from high-growth stocks to more defensive sectors.",
+      "banner_image": "https://blog.tipranks.com/wp-content/uploads/2026/06/market-neutral-750x406.jpg",
+      "source": "TipRanks",
+      "category_within_source": "General",
+      "source_domain": "TipRanks",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.933748"
+        },
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.828631"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.708290"
+        },
+        {
+          "topic": "retail_wholesale",
+          "relevance_score": "0.644791"
+        }
+      ],
+      "overall_sentiment_score": 0.239181,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.214467",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "KMB",
+          "relevance_score": "0.839938",
+          "ticker_sentiment_score": "0.337445",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "KVUE",
+          "relevance_score": "0.706201",
+          "ticker_sentiment_score": "0.326502",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "CLX",
+          "relevance_score": "0.749108",
+          "ticker_sentiment_score": "0.340653",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "PG",
+          "relevance_score": "0.724482",
+          "ticker_sentiment_score": "0.304495",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Which S&P 500 Fund is the Better Choice: SPY or IVV?",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-fund-better-choice-151432548.html",
+      "time_published": "20260605T153844",
+      "authors": [
+        "Jake Lerch",
+        "The Motley Fool"
+      ],
+      "summary": "This article compares two popular S&P 500 ETFs, SPY and IVV, highlighting their similarities and subtle differences. While both track the same index and offer broad exposure to large-cap US equities, IVV is presented as the better choice for long-term investors due to lower expense ratios and a slightly higher dividend yield. SPY, despite being the industry pioneer, may be more suitable for short-term traders due to its higher liquidity and precise pricing.",
+      "banner_image": "https://s.yimg.com/ny/api/res/1.2/YAGlExzfxs_6hIqRsbhQXg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTg1Nw--/https://media.zenfs.com/en/motleyfool.com/057f0a4da36aed304d5126e836a6efed",
+      "source": "Yahoo Finance",
+      "category_within_source": "General",
+      "source_domain": "Yahoo Finance",
+      "topics": [
+        {
+          "topic": "finance",
+          "relevance_score": "0.936579"
+        },
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.807119"
+        }
+      ],
+      "overall_sentiment_score": 0.323618,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.252686",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.604700",
+          "ticker_sentiment_score": "0.304034",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.648266",
+          "ticker_sentiment_score": "0.347992",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.645613",
+          "ticker_sentiment_score": "0.346986",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Why is SPDR S&P 500 ETF Trust stock sliding today? By Investing.com",
+      "url": "https://m.au.investing.com/news/stock-market-news/why-is-spdr-sp-500-etf-trust-stock-sliding-today-93CH-4474061?ampMode=1",
+      "time_published": "20260605T143857",
+      "authors": [
+        "Investing.com"
+      ],
+      "summary": "SPDR S&P 500 ETF Trust stock fell 1.0% after a Bureau of Labor Statistics report showed May nonfarm payrolls rose by 172,000, almost double the consensus estimate, leading to concerns about Federal Reserve policy tightening. This \"good news is bad news\" reaction, combined with a hawkish monetary policy repricing and shifts out of AI stocks, is pressuring the S&P 500. Traders now fully price in a Fed rate hike by year-end 2026, further impacting rate-sensitive growth stocks.",
+      "banner_image": "https://i-invdn-com.investing.com/msite/img/install_apps/mobile-icon-banner.svg",
+      "source": "Investing.com Australia",
+      "category_within_source": "General",
+      "source_domain": "Investing.com Australia",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.901172"
+        },
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.839195"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.728224"
+        }
+      ],
+      "overall_sentiment_score": -0.377251,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.419482",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "AVGO",
+          "relevance_score": "0.638744",
+          "ticker_sentiment_score": "-0.346747",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Why is SPDR S&P 500 ETF Trust stock sliding today?",
+      "url": "https://m.investing.com/news/stock-market-news/why-is-spdr-sp-500-etf-trust-stock-sliding-today-93CH-4728745?ampMode=1",
+      "time_published": "20260605T133844",
+      "authors": [
+        "Investing.com"
+      ],
+      "summary": "The SPDR S&P 500 ETF Trust (SPY) experienced a 1.0% decline in morning trading after stronger-than-expected May nonfarm payroll numbers ignited \"good news is bad news\" market sentiment. The robust jobs report, showing 172,000 new nonfarm payrolls, led to a jump in the 10-year Treasury note yield and a hawkish repricing of Federal Reserve rate hike expectations, pushing traders to fully price in a rate hike by year-end 2026. This, compounded by a rotation out of AI stocks and a fragile technical backdrop near SPY's 52-week high, contributed to the market pullback.",
+      "banner_image": null,
+      "source": "Investing.com",
+      "category_within_source": "General",
+      "source_domain": "Investing.com",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.927952"
+        },
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.815557"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.706282"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.629464"
+        }
+      ],
+      "overall_sentiment_score": -0.421264,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.418430",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "AVGO",
+          "relevance_score": "0.619334",
+          "ticker_sentiment_score": "-0.426772",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "AMD",
+          "relevance_score": "0.621568",
+          "ticker_sentiment_score": "-0.435834",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "GraniteShares YieldBOOST SPY ETF announces weekly distribution of $0.0546",
+      "url": "https://www.msn.com/en-us/money/topstocks/graniteshares-yieldboost-spy-etf-announces-weekly-distribution-of-0-0546/ar-AA24UUBV?ocid=finance-verthp-feeds",
+      "time_published": "20260605T120851",
+      "authors": [],
+      "summary": "The GraniteShares YieldBOOST SPY ETF has declared a weekly distribution of $0.0546 per share. This distribution will be paid on June 10, 2024, to shareholders of record as of June 7, 2024. The ex-dividend date is June 7, 2024.",
+      "banner_image": null,
+      "source": "MSN",
+      "category_within_source": "General",
+      "source_domain": "MSN",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.944153"
+        },
+        {
+          "topic": "finance",
+          "relevance_score": "0.723525"
+        }
+      ],
+      "overall_sentiment_score": 0.418457,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.399770",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "SPDR S&P 500 ETF Trust ETF Price, Holdings, & News (NYSEARCA:SPY)",
+      "url": "https://www.marketbeat.com/stocks/NYSEARCA/SPY/",
+      "time_published": "20260605T090904",
+      "authors": [],
+      "summary": "The SPDR S&P 500 ETF Trust (SPY) is detailed as the largest and oldest ETF tracking the S&P 500 Index, offering diversified exposure to large-cap U.S. companies across all 11 GICS sectors. Launched in 1993, SPY is known for its low expense ratio, high liquidity, and quarterly dividend distributions. The article provides current price information, key statistics, holdings, and recent news headlines related to the ETF.",
+      "banner_image": "https://www.marketbeat.com/img/logos/thumbnail/spdr-sp-500-etf-trust-logo.jpg?s=thumb&v=20210825121639",
+      "source": "MarketBeat",
+      "category_within_source": "General",
+      "source_domain": "MarketBeat",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.937043"
+        }
+      ],
+      "overall_sentiment_score": 0.357052,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.434545",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.624575",
+          "ticker_sentiment_score": "0.303835",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.623757",
+          "ticker_sentiment_score": "0.338167",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.621107",
+          "ticker_sentiment_score": "0.305020",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AMZN",
+          "relevance_score": "0.635016",
+          "ticker_sentiment_score": "0.312968",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Stock Market Today: SPY, QQQ Bounce Back from Lows as Oil and Tech Stocks Retreat",
+      "url": "https://www.tipranks.com/news/stock-market-today-spy-qqq-bounce-back-from-lows-as-oil-and-tech-stocks-retreat",
+      "time_published": "20260604T200900",
+      "authors": [
+        "Eddie Pan"
+      ],
+      "summary": "U.S. equities experienced a mixed day with the S&P 500 ETF (SPY) and Nasdaq 100 ETF (QQQ) recovering from early lows despite a retreat in oil and tech stocks. Broadcom's revenue miss and rising jobless claims contributed to market concerns, while Amazon secured a significant cloud deal with Pinterest. The general market sentiment was influenced by geopolitical developments regarding a potential U.S.-Iran deal and varying economic indicators.",
+      "banner_image": "https://blog.tipranks.com/wp-content/uploads/2026/06/market-neutral-750x406.jpg",
+      "source": "TipRanks",
+      "category_within_source": "General",
+      "source_domain": "TipRanks",
+      "topics": [
+        {
+          "topic": "earnings",
+          "relevance_score": "0.839891"
+        },
+        {
+          "topic": "financial_markets",
+          "relevance_score": "1.000000"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.942396"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.847361"
+        },
+        {
+          "topic": "energy_transportation",
+          "relevance_score": "0.618474"
+        }
+      ],
+      "overall_sentiment_score": -0.179809,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "0.925413",
+          "ticker_sentiment_score": "0.138418",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AVGO",
+          "relevance_score": "0.738954",
+          "ticker_sentiment_score": "-0.406199",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "AMD",
+          "relevance_score": "0.613352",
+          "ticker_sentiment_score": "-0.239974",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "QCOM",
+          "relevance_score": "0.620451",
+          "ticker_sentiment_score": "-0.217645",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Stock Market Live June 4, 2026: S&P 500 (SPY) Fall as Broadcom Sinks",
+      "url": "https://247wallst.com/investing/2026/06/04/stock-market-live-june-4-2026-sp-500-spy-fall-as-broadcom-sinks/",
+      "time_published": "20260604T091800",
+      "authors": [
+        "Ian Cooper"
+      ],
+      "summary": "On June 4, 2026, the S&P 500 experienced a decline, primarily influenced by Broadcom's 13% premarket drop after its CEO declined to raise the full-year AI chip target. This market behavior, coupled with the S&P 500's recent 16% surge and a Shiller P/E of 43, is drawing comparisons to conditions seen before the 1987 and dot-com crashes. While the Dow rose due to a shift towards defensive stocks and cooling energy prices, the tech-heavy Nasdaq fell, further impacted by analyst concerns about Broadcom's chip prices and AI spending.",
+      "banner_image": "https://247wallst.com/wp-content/uploads/2024/03/shutterstock-156562427-huge-licensed-scaled.jpg",
+      "source": "24/7 Wall St.",
+      "category_within_source": "General",
+      "source_domain": "24/7 Wall St.",
+      "topics": [
+        {
+          "topic": "earnings",
+          "relevance_score": "0.910457"
+        },
+        {
+          "topic": "financial_markets",
+          "relevance_score": "1.000000"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.740192"
+        },
+        {
+          "topic": "retail_wholesale",
+          "relevance_score": "0.635200"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.820896"
+        }
+      ],
+      "overall_sentiment_score": -0.086081,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "0.986004",
+          "ticker_sentiment_score": "-0.332433",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "AVGO",
+          "relevance_score": "0.944468",
+          "ticker_sentiment_score": "-0.423961",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.617367",
+          "ticker_sentiment_score": "0.334749",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "ORCL",
+          "relevance_score": "0.577298",
+          "ticker_sentiment_score": "0.295307",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "SPDR S&P 500 ETF Trust - SPY Stock Price, Holdings, Quote & News",
+      "url": "https://www.etf.com/SPY",
+      "time_published": "20260604T030842",
+      "authors": [],
+      "summary": "This article provides an overview of the SPDR S&P 500 ETF Trust (SPY), detailing its stock price, holdings, and news. It indicates that the information is for educational purposes and not financial advice, emphasizing the dynamic nature of investment decisions. The page also features links to various analyses, data, and recent news relevant to the SPY ETF, including insights on fund flows, holdings, and trading data.",
+      "banner_image": "https://www.etf.com/sites/default/files/styles/feature_to_menu_image_style/public/2026-05/GettyImages-626543640_0.jpg.webp?itok=aB4hqm5d",
+      "source": "ETF.com",
+      "category_within_source": "General",
+      "source_domain": "ETF.com",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "1.000000"
+        }
+      ],
+      "overall_sentiment_score": 0.02185,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.019596",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "VOO Becomes the First $1 Trillion ETF",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/voo-becomes-first-1-trillion-000450793.html",
+      "time_published": "20260603T190400",
+      "authors": [
+        "Sumit Roy"
+      ],
+      "summary": "The Vanguard S&P 500 ETF (VOO) has become the first exchange-traded fund to reach $1 trillion in assets under management, driven by significant inflows and a strong S&P 500 performance. VOO charges a lower fee compared to its competitor SPY and benefits from Vanguard's strong brand reputation for low-cost indexing. While SPY and IVV are also large, VOO's lead appears solid, though other funds like SPDR Portfolio S&P 500 ETF (SPYM) are growing quickly.",
+      "banner_image": "https://s.yimg.com/ny/api/res/1.2/nk.67Z9lu7VIn_9i45uNlw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTU0MQ--/https://media.zenfs.com/en/indexuniverse.com/0f1d8df2798302e594c9fc3bd602ec16",
+      "source": "Yahoo Finance",
+      "category_within_source": "General",
+      "source_domain": "Yahoo Finance",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "1.000000"
+        },
+        {
+          "topic": "finance",
+          "relevance_score": "0.821586"
+        }
+      ],
+      "overall_sentiment_score": -0.216137,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "0.955845",
+          "ticker_sentiment_score": "-0.228747",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Ed Yardeni's Fed Bombshell: Rate Hike Coming In July",
+      "url": "https://www.benzinga.com/markets/economic-data/26/06/52976247/ed-yardeni-fed-rate-hike-july-2026",
+      "time_published": "20260603T153859",
+      "authors": [
+        "Piero Cingari"
+      ],
+      "summary": "Veteran strategist Ed Yardeni of Yardeni Research is predicting a Federal Reserve interest rate hike as early as their July 29 meeting, contrary to the broader market consensus which anticipates rates to remain unchanged. His forecast is based on a resilient economy, firm labor market, and rising inflation driven by increasing energy costs. Despite this hawkish outlook, Yardeni maintains a bullish stance on the stock market, forecasting the S&P 500 to reach 8,250 by year-end due to strong earnings momentum.",
+      "banner_image": "https://cdn.benzinga.com/cdn-cgi/image/width=1300,format=auto,quality=85/files/images/story/2025/07/24/article-header-background-image.png",
+      "source": "Benzinga",
+      "category_within_source": "General",
+      "source_domain": "Benzinga",
+      "topics": [
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.947409"
+        },
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.833323"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.746242"
+        },
+        {
+          "topic": "earnings",
+          "relevance_score": "0.639768"
+        }
+      ],
+      "overall_sentiment_score": 0.409732,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.431891",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Stock Market Live June 2, 2026: S&P 500 (SPY) Slips After Testing Record Highs",
+      "url": "https://247wallst.com/investing/2026/06/02/stock-market-live-june-2-2026-sp-500-spy-slips-after-testing-record-highs/",
+      "time_published": "20260603T090900",
+      "authors": [
+        "Ian Cooper"
+      ],
+      "summary": "The S&P 500 slipped after testing record highs, with the Shiller P/E Ratio at its second-highest point ever, signaling potential market volatility. Major indices are considered technically and fundamentally stretched, echoing conditions before major crashes in 1929, 2000, and 2008. Investors are advised to consider volatility ETFs like UVXY and VXX as hedges, while Marvell Technology and NVIDIA are highlighted as market movers.",
+      "banner_image": "https://247wallst.com/wp-content/uploads/2026/06/shutterstock-2683025141-huge-licensed-scaled.jpg",
+      "source": "24/7 Wall St.",
+      "category_within_source": "General",
+      "source_domain": "24/7 Wall St.",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.911950"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.810413"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.732326"
+        }
+      ],
+      "overall_sentiment_score": 0.158611,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.267877",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "GOOG",
+          "relevance_score": "0.705035",
+          "ticker_sentiment_score": "0.127458",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.657422",
+          "ticker_sentiment_score": "0.442236",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "TTWO",
+          "relevance_score": "0.568059",
+          "ticker_sentiment_score": "0.305588",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "The Absolute Cheapest Way to Buy the S&P 500? FXAIX Might Be It.",
+      "url": "https://247wallst.com/investing/2026/06/02/the-absolute-cheapest-way-to-buy-the-sp-500-fxaix-might-be-it/",
+      "time_published": "20260603T090900",
+      "authors": [
+        "Omor Ibne Ehsan"
+      ],
+      "summary": "The Fidelity 500 Index Fund (FXAIX) is presented as the cheapest way to invest in the S&P 500 for long-term, buy-and-hold investors, particularly within tax-advantaged accounts like IRAs or 401(k)s. Its low expense ratio of 1.5 basis points, coupled with the absence of bid-ask spreads and the ability to invest full dollars at NAV, provides a cost advantage over ETFs like SPY, which trade continuously. While SPY might be preferable for taxable accounts due to tax efficiency and for active traders needing intraday execution, FXAIX is ideal for set-it-and-forget-it investors focused on minimizing long-term friction costs.",
+      "banner_image": "https://247wallst.com/wp-content/uploads/2026/01/shutterstock-1902239437-huge-licensed-scaled.jpg",
+      "source": "24/7 Wall St.",
+      "category_within_source": "General",
+      "source_domain": "24/7 Wall St.",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.907322"
+        },
+        {
+          "topic": "finance",
+          "relevance_score": "0.821224"
+        }
+      ],
+      "overall_sentiment_score": 0.289408,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "0.976507",
+          "ticker_sentiment_score": "0.124039",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.645818",
+          "ticker_sentiment_score": "0.301928",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.639597",
+          "ticker_sentiment_score": "0.318115",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.627358",
+          "ticker_sentiment_score": "0.312868",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Round Rock Advisors LLC's State Street SPDR S&P 500 ETF Trust(SPY) Holding History",
+      "url": "https://www.gurufocus.com/guru-portfolio/Round%20Rock%20Advisors%20LLC/SPY",
+      "time_published": "20260603T000149",
+      "authors": [],
+      "summary": "Round Rock Advisors LLC currently holds 8,745 shares of the State Street SPDR S&P 500 ETF Trust (SPY), valued at $5.69 million, representing 0.87% of their stock portfolio. Their initial investment in SPY was in Q4 2020, and since then, they have made 10 purchases and 11 sales. Based on the current SPY price, Round Rock Advisors LLC has an estimated gain of $3.47 million, or 47.07%, on their holdings.",
+      "banner_image": "https://avatar.gurufocus.com/300877_big.png",
+      "source": "GuruFocus",
+      "category_within_source": "General",
+      "source_domain": "GuruFocus",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.926342"
+        }
+      ],
+      "overall_sentiment_score": 0.380549,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.396583",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "SPY ETF Declines 0.7%",
+      "url": "https://www.moomoo.com/news/post/71018416/spy-etf-declines-0-7",
+      "time_published": "20260602T213843",
+      "authors": [],
+      "summary": "The SPY ETF experienced a decline of 0.7%. This report details the performance of the SPY exchange-traded fund.",
+      "banner_image": null,
+      "source": "Moomoo",
+      "category_within_source": "General",
+      "source_domain": "Moomoo",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.932594"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.718616"
+        }
+      ],
+      "overall_sentiment_score": -0.410111,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.423857",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "SPY ETF Climbs 0.1%",
+      "url": "https://www.moomoo.com/news/post/70952661/spy-etf-climbs-0-1",
+      "time_published": "20260602T204954",
+      "authors": [],
+      "summary": "The SPY ETF experienced a modest increase, climbing by 0.1%. This update provides a quick snapshot of the ETF's performance.",
+      "banner_image": null,
+      "source": "Moomoo",
+      "category_within_source": "General",
+      "source_domain": "Moomoo",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "1.000000"
+        }
+      ],
+      "overall_sentiment_score": 0.227646,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.225371",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "SPDR S&P 500 ETF Trust",
+      "url": "https://www.tradingview.com/symbols/VANTAGE-SPY/ideas/page-11/",
+      "time_published": "20260530T034348",
+      "authors": [],
+      "summary": "The article discusses various trading ideas and analyses for the SPDR S&P 500 ETF Trust (SPY), with a focus on bearish sentiments following a recent rally. Traders offer insights ranging from technical analysis and economic data impacts to options strategies and market structure interpretations. Many analyses suggest a potential for further downside, emphasizing the importance of key support and resistance levels.",
+      "banner_image": "https://s3-symbol-logo.tradingview.com/spdr-sandp500-etf-tr--big.svg",
+      "source": "TradingView",
+      "category_within_source": "General",
+      "source_domain": "TradingView",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "1.000000"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.900188"
+        }
+      ],
+      "overall_sentiment_score": -0.243571,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.206741",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "SPY ETF Gains 0.2%",
+      "url": "https://www.moomoo.com/news/post/70800559/spy-etf-gains-0-2",
+      "time_published": "20260529T210906",
+      "authors": [],
+      "summary": "The SPY ETF experienced a modest gain of 0.2%. This increase is a snapshot of its performance within the last few hours. The article title provides the direct information regarding this change.",
+      "banner_image": null,
+      "source": "Moomoo",
+      "category_within_source": "General",
+      "source_domain": "Moomoo",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.943657"
+        }
+      ],
+      "overall_sentiment_score": 0.369239,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.391257",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "BofA's Hartnett Sounds Bubble Alarm: His Post-AI Playbook - State Street SPDR S&P 500 ETF Trust (ARCA:SPY",
+      "url": "https://www.benzinga.com/markets/equities/26/05/52874099/hartnett-bofa-post-bubble-playbook-sell-signal",
+      "time_published": "20260529T140857",
+      "authors": [
+        "Piero Cingari"
+      ],
+      "summary": "Bank of America's chief investment strategist Michael Hartnett warns of an impending bubble, drawing parallels between the current S&P 500 rally and the dot-com bubble of March 2000 due to extreme market concentration. Despite the S&P 500 hitting record highs, only a small percentage of stocks are participating, and BofA's Bull & Bear Indicator has triggered a \"sell signal.\" Hartnett suggests a post-bubble playbook focusing on long bonds and a \"long humiliation, short hubris\" strategy in equities, advocating for defensive sectors and small-cap technology.",
+      "banner_image": "https://cdn.benzinga.com/cdn-cgi/image/width=1300,format=auto,quality=85/files/images/story/2025/07/24/article-header-background-image.png",
+      "source": "Benzinga",
+      "category_within_source": "General",
+      "source_domain": "Benzinga",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.925717"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.834525"
+        },
+        {
+          "topic": "finance",
+          "relevance_score": "0.611339"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.619511"
+        }
+      ],
+      "overall_sentiment_score": -0.058941,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.247322",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "BAC",
+          "relevance_score": "0.735667",
+          "ticker_sentiment_score": "0.148637",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Wall Street\u2019s Laziest Fund Is Outperforming Against SPY \u2013 Time to Switch to VTI?",
+      "url": "https://247wallst.com/investing/2026/05/28/wall-streets-laziest-fund-is-outperforming-against-spy-time-to-switch-to-vti/",
+      "time_published": "20260528T121300",
+      "authors": [
+        "Omor Ibne Ehsan"
+      ],
+      "summary": "The Vanguard Total Stock Market Index Fund ETF (VTI), which holds nearly every public U.S. stock, has slightly outperformed the SPDR S&P 500 ETF (SPY) year-to-date in 2026, despite its \"lazy\" passive strategy. This marginal outperformance is attributed to the recent participation of small and mid-cap stocks embedded in VTI, contrasting with SPY's mega-cap focus. While SPY has historically shown better long-term returns, VTI offers a lower expense ratio and broader diversification, making it potentially more suitable for long-term retirement investors.",
+      "banner_image": "https://247wallst.com/wp-content/uploads/2025/12/shutterstock-2484369079-huge-licensed-scaled.jpg",
+      "source": "24/7 Wall St.",
+      "category_within_source": "General",
+      "source_domain": "24/7 Wall St.",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.913189"
+        },
+        {
+          "topic": "finance",
+          "relevance_score": "0.704107"
+        }
+      ],
+      "overall_sentiment_score": 0.066948,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.110794",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.642302",
+          "ticker_sentiment_score": "0.081855",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.575454",
+          "ticker_sentiment_score": "0.086606",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.574803",
+          "ticker_sentiment_score": "0.092675",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Does SPY Stock has a token or crypto? SPYUSDT & WEEX TradFi Guide",
+      "url": "https://www.weex.com/wiki/article/does-spy-stock-has-a-token-or-crypto-spyusdt-weex-tradfi-guide-vvbco2piw58509ixt7lhvi1t",
+      "time_published": "20260528T080838",
+      "authors": [
+        "WEEX"
+      ],
+      "summary": "This guide addresses whether the SPDR S&P 500 ETF Trust (SPY) has a crypto token and clarifies that \"SPYUSDT\" typically refers to a USDT-settled derivative tracking SPY's price, not an official token. It explains how platforms like WEEX TradFi allow users to trade SPY price movements using USDT collateral, offering 24/7 access without traditional brokerage accounts. The article outlines the benefits and risks of tokenized stocks and TradFi USDT markets.",
+      "banner_image": null,
+      "source": "WEEX",
+      "category_within_source": "General",
+      "source_domain": "WEEX",
+      "topics": [
+        {
+          "topic": "blockchain",
+          "relevance_score": "0.901051"
+        },
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.845786"
+        },
+        {
+          "topic": "finance",
+          "relevance_score": "0.605312"
+        }
+      ],
+      "overall_sentiment_score": 0.076081,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.085490",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "BLK",
+          "relevance_score": "0.726855",
+          "ticker_sentiment_score": "0.107061",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "SPY Stock Price \u2013 SPY ETF Price Today, News, Analysis and Trading Ideas",
+      "url": "https://stocktwits.com/symbol/SPY",
+      "time_published": "20260526T093842",
+      "authors": [],
+      "summary": "This article provides current information on the SPY ETF, including its price, key financial metrics like 52-week high/low, and daily volume. It also lists recent news headlines related to the SPY ETF and broader market trends, along with a poll on market drivers for the coming week.",
+      "banner_image": "https://logos.stocktwits-cdn.com/SPY.png?w=80",
+      "source": "Stocktwits",
+      "category_within_source": "General",
+      "source_domain": "Stocktwits",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.948228"
+        },
+        {
+          "topic": "earnings",
+          "relevance_score": "0.813223"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.640827"
+        }
+      ],
+      "overall_sentiment_score": 0.134645,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.110695",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Memorial Day 2026: Is Stock Market Open Today?",
+      "url": "https://www.benzinga.com/markets/equities/26/05/52765375/memorial-day-2026-is-stock-market-open-today",
+      "time_published": "20260525T080021",
+      "authors": [],
+      "summary": "On Memorial Day 2026, U.S. financial markets, including the NYSE and Nasdaq, are closed in observance of the federal holiday. This means major stock indices and the U.S. bond market will not trade, remaining at their Friday, May 22nd closing levels. Investors can expect regular trading to resume on Tuesday, May 26th, at the usual times, while banks and mail services are also closed, with only cryptocurrency markets remaining open for trading.",
+      "banner_image": "https://cdn.benzinga.com/cdn-cgi/image/width=1300,format=auto,quality=85/files/images/story/2025/07/24/article-header-background-image.png",
+      "source": "Benzinga",
+      "category_within_source": "General",
+      "source_domain": "Benzinga",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "1.000000"
+        },
+        {
+          "topic": "finance",
+          "relevance_score": "0.807930"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.633867"
+        },
+        {
+          "topic": "blockchain",
+          "relevance_score": "0.627143"
+        }
+      ],
+      "overall_sentiment_score": 0.031615,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "0.903360",
+          "ticker_sentiment_score": "0.043341",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "State Street SPDR S&P 500 ETF Trust",
+      "url": "https://www.tradingview.com/symbols/EIGHTCAP-SPY/ideas/page-36/",
+      "time_published": "20260524T010843",
+      "authors": [
+        "HassanSwingTrader",
+        "estebanboily",
+        "T-r-X",
+        "quantsignals",
+        "THECHAARTIST",
+        "Mr_Anonymous_Investor",
+        "UA_CAPITAL",
+        "GlobalWolfStreet",
+        "galenwoods",
+        "impressiveSnow82797",
+        "TrendTao",
+        "pogicraft",
+        "BullBearInsights",
+        "rsitrades",
+        "Supergalactic",
+        "NeuralMarkets"
+      ],
+      "summary": "This article compiles various trading ideas and analyses for the State Street SPDR S&P 500 ETF Trust (SPY) from multiple contributors. Traders offer diverse short-term and mid-term predictions, ranging from bearish outlooks anticipating drops to specific support levels, to cautiously bullish perspectives based on technical indicators. The discussions include considerations of market sentiment, technical analysis across different timeframes, option positioning (GEX), and broader economic factors like the energy transition boom and effective price action reading.",
+      "banner_image": "https://s3-symbol-logo.tradingview.com/spdr-sandp500-etf-tr--big.svg",
+      "source": "TradingView",
+      "category_within_source": "General",
+      "source_domain": "TradingView",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.926971"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.610210"
+        }
+      ],
+      "overall_sentiment_score": -0.244698,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.212577",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "SPDR S&P 500 ETF Trust Trade Ideas \u2014 ACTIVTRADES:SPY.US",
+      "url": "https://www.tradingview.com/symbols/ACTIVTRADES-SPY.US/ideas/page-15/",
+      "time_published": "20260523T213851",
+      "authors": [
+        "Steversteves",
+        "ArcadiaTrading",
+        "UA_CAPITAL",
+        "Trader_Mayhem",
+        "UnitedSignals",
+        "rsitrades",
+        "UIA_Institute",
+        "TrendTao",
+        "Zohar_Leibovich",
+        "KING_S",
+        "THECHAARTIST",
+        "BullBearInsights",
+        "sentimenttiming"
+      ],
+      "summary": "This article compiles various trade ideas and analyses for the SPDR S&P 500 ETF Trust (SPY.US) from different traders on TradingView. It includes technical analyses, market outlooks, educational content on trend continuation and liquidity, and discussions on market-moving headlines impacting SPY. The general sentiment appears cautious, with several traders highlighting potential for downside or emphasizing patient trading due to market uncertainty and specific technical setups.",
+      "banner_image": "https://s3-symbol-logo.tradingview.com/spdr-sandp500-etf-tr--big.svg",
+      "source": "TradingView",
+      "category_within_source": "General",
+      "source_domain": "TradingView",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.926978"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.608765"
+        },
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.618544"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.628080"
+        }
+      ],
+      "overall_sentiment_score": 0.141574,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.108852",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.610774",
+          "ticker_sentiment_score": "0.300274",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "SPDR S&P 500 ETF Trust",
+      "url": "https://www.tradingview.com/symbols/VANTAGE-SPY/ideas/page-7/",
+      "time_published": "20260523T120847",
+      "authors": [
+        "EliteTradingSignals",
+        "CEO_of_WaverVanir_Int_LLC",
+        "codymiller12727",
+        "UIA_Institute",
+        "ArcadiaTrading",
+        "THECHAARTIST",
+        "ArunaReborn",
+        "FxCloudTrader",
+        "madhusudhan8125",
+        "TrendTao",
+        "TheUniverse618",
+        "FreeBandzGvng369",
+        "ShortSeller76",
+        "IvanLabrie",
+        "Kxtrades888",
+        "BullBearInsights",
+        "sentimenttiming",
+        "rsitrades",
+        "UA_CAPITAL",
+        "Stockmongerer"
+      ],
+      "summary": "This article compiles various trading ideas and analyses for the SPDR S&P 500 ETF Trust (SPY) from different traders on TradingView. It includes both short and long perspectives, technical analyses, risk profiles, and discusses key support and resistance levels, economic data, and sentiment indicators impacting SPY's performance. The overall sentiment presented is mixed, with some analysts seeing potential for further upside despite overbought conditions, while others predict a pullback or distribution.",
+      "banner_image": "https://s3-symbol-logo.tradingview.com/spdr-sandp500-etf-tr--big.svg",
+      "source": "TradingView",
+      "category_within_source": "General",
+      "source_domain": "TradingView",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "1.000000"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.824566"
+        }
+      ],
+      "overall_sentiment_score": 0.049617,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "0.990776",
+          "ticker_sentiment_score": "0.034321",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "SPDR S&P 500 ETF Trust Trade Ideas \u2014 ACTIVTRADES:SPY.US",
+      "url": "https://www.tradingview.com/symbols/ACTIVTRADES-SPY.US/ideas/page-20/",
+      "time_published": "20260523T083850",
+      "authors": [
+        "TrendTao",
+        "Jonalius",
+        "BullBearInsights",
+        "galenwoods",
+        "bmack19",
+        "Steversteves",
+        "AnabelSignals",
+        "codymiller12727",
+        "rifefamilycrzl",
+        "UnitedSignals",
+        "UA_CAPITAL",
+        "ProSignalsFx",
+        "ProSignalai",
+        "DCAChampion",
+        "FreeBandzGvng369",
+        "stingrayea",
+        "ESC2024",
+        "zablanbloodline1",
+        "CEO_of_WaverVanir_Int_LLC",
+        "HenulRaj"
+      ],
+      "summary": "This article compiles several trading ideas and analyses for the SPDR S&P 500 ETF Trust (SPY). It covers various short-term and long-term perspectives, including market-moving headlines, technical analysis showing bearish structures, discussions on price action trading, insights into dollar-cost averaging, and predictions for potential corrections or uptrends. The diverse contributions offer a range of strategies and views on SPY's future movements.",
+      "banner_image": "https://s3-symbol-logo.tradingview.com/spdr-sandp500-etf-tr--big.svg",
+      "source": "TradingView",
+      "category_within_source": "General",
+      "source_domain": "TradingView",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.947128"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.849398"
+        },
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.706831"
+        },
+        {
+          "topic": "retail_wholesale",
+          "relevance_score": "0.605490"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.611202"
+        }
+      ],
+      "overall_sentiment_score": 0.064199,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.011898",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "WMT",
+          "relevance_score": "0.711716",
+          "ticker_sentiment_score": "0.314769",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.610998",
+          "ticker_sentiment_score": "-0.140267",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AMD",
+          "relevance_score": "0.553382",
+          "ticker_sentiment_score": "-0.101973",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "State Street SPDR S&P 500 ETF Trust",
+      "url": "https://www.tradingview.com/symbols/EIGHTCAP-SPY/ideas/page-20/",
+      "time_published": "20260523T030839",
+      "authors": [
+        "straightrawmedia",
+        "NaughtyPines",
+        "HenulRaj",
+        "galenwoods",
+        "ElliottWaveBelgium",
+        "TrendTao",
+        "SPYDERMARKET",
+        "ProSignalai",
+        "JonBui",
+        "roberto600",
+        "Jonalius",
+        "BullBearInsights",
+        "bmack19",
+        "Steversteves",
+        "AnabelSignals",
+        "codymiller12727",
+        "rifefamilycrzl",
+        "UnitedSignals"
+      ],
+      "summary": "This article provides various trading ideas and analyses for the State Street SPDR S&P 500 ETF Trust (SPY) from different contributors. It covers short and long trade setups, discussions on support and resistance, market structure, and broader market-moving headlines impacting SPY. Several authors offer technical analysis, including EMA levels, Bollinger Bands, and GEX context, alongside fundamental economic data and future market projections.",
+      "banner_image": "https://s3-symbol-logo.tradingview.com/spdr-sandp500-etf-tr--big.svg",
+      "source": "TradingView",
+      "category_within_source": "General",
+      "source_domain": "TradingView",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "1.000000"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.814463"
+        },
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.649145"
+        }
+      ],
+      "overall_sentiment_score": 0.049078,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.023528",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "SPDR S&P 500 ETF Trust (SPY) Institutional Ownership 2026 $SPY",
+      "url": "https://www.marketbeat.com/stocks/NYSEARCA/SPY/institutional-ownership/",
+      "time_published": "20260522T213831",
+      "authors": [],
+      "summary": "This article details the institutional ownership of the SPDR S&P 500 ETF Trust (SPY) for 2026, showing that 63.54% of its stock is held by institutional investors. It provides a quarterly breakdown of institutional buying and selling, listing major shareholders and movements in their holdings. The report also addresses frequently asked questions regarding the largest and most active institutional investors for SPY shares.",
+      "banner_image": "https://www.marketbeat.com/img/logos/thumbnail/spdr-sp-500-etf-trust-logo.jpg?s=thumb&v=20210825121639",
+      "source": "MarketBeat",
+      "category_within_source": "General",
+      "source_domain": "MarketBeat",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "1.000000"
+        }
+      ],
+      "overall_sentiment_score": 0.124874,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.128696",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "State Street SPDR S&P 500 ETF Trust Trade Ideas \u2014 EIGHTCAP:SPY",
+      "url": "https://www.tradingview.com/symbols/EIGHTCAP-SPY/ideas/page-17/",
+      "time_published": "20260522T160843",
+      "authors": [
+        "Stanislav_Bernukhov_Exness",
+        "TrendTao",
+        "sentimenttiming",
+        "FinesseTheWave",
+        "jhesse",
+        "The_RKO",
+        "PlanTradePlanMM",
+        "spunky76",
+        "Forextrader411",
+        "BullBearInsights",
+        "juniorsdad88",
+        "HenulRaj",
+        "Princessgirl",
+        "rsitrades",
+        "Vermarine"
+      ],
+      "summary": "This article compiles several trade ideas and analyses for the State Street SPDR S&P 500 ETF Trust (SPY) from various traders. Discussions range from the potential for a market correction due to rising oil prices and geopolitical tensions, to detailed technical analysis focusing on institutional accumulation/distribution zones, bearish divergences, Bollinger Band squeezes, and upcoming economic data releases that could impact market movement. Traders offer specific entry, target, and stop-loss levels, alongside both bullish and bearish scenarios for SPY in the near future.",
+      "banner_image": "https://s3-symbol-logo.tradingview.com/spdr-sandp500-etf-tr--big.svg",
+      "source": "TradingView",
+      "category_within_source": "General",
+      "source_domain": "TradingView",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.913575"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.842201"
+        },
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.616069"
+        }
+      ],
+      "overall_sentiment_score": 0.154607,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.214788",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "CRWD",
+          "relevance_score": "0.616872",
+          "ticker_sentiment_score": "0.513209",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "SPY Technical Analysis & ETF Price Forecast",
+      "url": "https://intellectia.ai/etf/SPY/technical",
+      "time_published": "20260522T123832",
+      "authors": [],
+      "summary": "This article provides a technical analysis and price forecast for the State Street SPDR S&P 500 ETF Trust (SPY). It indicates a \"Strong Buy\" overall sentiment based on various technical indicators, including MACD and moving averages. The analysis highlights key support and resistance levels for SPY, along with momentum indicators like RSI and Stochastic Oscillator.",
+      "banner_image": null,
+      "source": "Intellectia AI",
+      "category_within_source": "General",
+      "source_domain": "Intellectia AI",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.911076"
+        }
+      ],
+      "overall_sentiment_score": 0.60443,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.603205",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Stock Market Live May 21, 2026: S&P 500 (SPY) Slips as Oil Gushes Higher",
+      "url": "https://247wallst.com/investing/2026/05/21/stock-market-live-may-21-2026-sp-500-spy-slips-as-oil-gushes-higher/",
+      "time_published": "20260521T140907",
+      "authors": [
+        "Ian Cooper"
+      ],
+      "summary": "The S&P 500 (SPY) slipped as oil prices surged due to ongoing geopolitical tensions. Despite strong earnings from Nvidia, which saw revenue explode 85% year over year, the markets were negatively impacted by rising Treasury yields and oil prices. Walmart's latest guidance raised concerns about consumer health, signaling a shift towards necessity-based spending and lower-income shoppers trading down.",
+      "banner_image": "https://247wallst.com/wp-content/uploads/2026/04/shutterstock-457429543-huge-licensed-scaled.jpg",
+      "source": "24/7 Wall St.",
+      "category_within_source": "General",
+      "source_domain": "24/7 Wall St.",
+      "topics": [
+        {
+          "topic": "earnings",
+          "relevance_score": "0.922590"
+        },
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.922759"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.808644"
+        },
+        {
+          "topic": "energy_transportation",
+          "relevance_score": "0.749020"
+        },
+        {
+          "topic": "retail_wholesale",
+          "relevance_score": "0.747216"
+        }
+      ],
+      "overall_sentiment_score": -0.180092,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.283365",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.937326",
+          "ticker_sentiment_score": "0.345718",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "WMT",
+          "relevance_score": "0.859530",
+          "ticker_sentiment_score": "-0.312565",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "DE",
+          "relevance_score": "0.622611",
+          "ticker_sentiment_score": "-0.331417",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "CMI",
+          "relevance_score": "0.606609",
+          "ticker_sentiment_score": "-0.320449",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "The \u201cDon\u2019t Fight Trump\u201d Trade Is Working: S&P 500 Ignores Everything and Keeps Surging",
+      "url": "https://247wallst.com/investing/2026/05/21/the-dont-fight-trump-trade-is-working-sp-500-ignores-everything-and-keeps-surging/",
+      "time_published": "20260521T130844",
+      "authors": [
+        "Omor Ibne Ehsan"
+      ],
+      "summary": "The S&P 500 has surged 30% since Election Day 2024, largely driven by dominant AI, defense, and manufacturing sectors, despite elevated inflation and geopolitical tensions. This trend, dubbed the \"Don't Fight Trump\" trade, reflects the market's belief that political events do not significantly impact corporate earnings, especially with a massive AI spending cycle boosting key companies. However, concerns exist regarding extreme index concentration, high forward earnings multiples, and extended positioning among hedge funds, leading to a potential sharp drawdown if interest rate cuts stall or AI capital expenditure pauses.",
+      "banner_image": "https://247wallst.com/wp-content/uploads/2026/05/Untitled-design-5.png",
+      "source": "24/7 Wall St.",
+      "category_within_source": "General",
+      "source_domain": "24/7 Wall St.",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.921309"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.936392"
+        },
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.835410"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.732031"
+        },
+        {
+          "topic": "economy_fiscal",
+          "relevance_score": "0.604826"
+        }
+      ],
+      "overall_sentiment_score": 0.229217,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.304462",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.727185",
+          "ticker_sentiment_score": "0.322739",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AMD",
+          "relevance_score": "0.622773",
+          "ticker_sentiment_score": "0.305109",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "INTU",
+          "relevance_score": "0.634267",
+          "ticker_sentiment_score": "-0.405143",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "ENPH",
+          "relevance_score": "0.631178",
+          "ticker_sentiment_score": "0.425666",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Should You Invest in Gold or the S&P 500? It Depends.",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/motley/2036917/should-you-invest-in-gold-or-the-sp-500-it-depends/",
+      "time_published": "20260521T071500",
+      "authors": [
+        "Motley Fool"
+      ],
+      "summary": "This article compares investing in gold (via SPDR Gold Shares, GLD) versus the S&P 500 (via State Street SPDR S&P 500 ETF Trust, SPY). It details their differences in cost, risk, and portfolio roles, noting that while SPY offers diversification and dividends with a lower expense ratio, GLD has shown stronger recent performance and lower volatility, serving as a hedge against market instability. The article suggests that a diversified approach incorporating both may be the smartest investment strategy for many.",
+      "banner_image": "https://barchart-news-media-prod.aws.barchart.com/FC/d0b23ad6691068516a9bde24770aeec7/pixel%3Fslug%3Dmotleyfoolgm-2026-5-20-should-you-invest-in-gold-or-the-s-and-p-500-it-depends",
+      "source": "The Globe and Mail",
+      "category_within_source": "General",
+      "source_domain": "The Globe and Mail",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.946647"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.620694"
+        },
+        {
+          "topic": "finance",
+          "relevance_score": "0.705653"
+        }
+      ],
+      "overall_sentiment_score": 0.29872,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.141574",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.626219",
+          "ticker_sentiment_score": "0.326684",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.615457",
+          "ticker_sentiment_score": "0.322035",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.604938",
+          "ticker_sentiment_score": "0.328118",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "SPY News | SS SPDR S&P 500 ETF TRUST-US (NYSEARCA:SPY)",
+      "url": "https://www.chartmill.com/stock/quote/SPY/news",
+      "time_published": "20260521T010837",
+      "authors": [],
+      "summary": "This article provides recent news and analysis for the SS SPDR S&P 500 ETF Trust (SPY), detailing its current stock price and a chronological list of news updates and analyses from ChartMill and Zacks. The news primarily focuses on market breadth, leadership, and the S&P 500's performance, offering insights into factors affecting the ETF like AI leadership, earnings growth, and rate pressure.",
+      "banner_image": null,
+      "source": "ChartMill",
+      "category_within_source": "General",
+      "source_domain": "ChartMill",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "1.000000"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.848371"
+        }
+      ],
+      "overall_sentiment_score": 0.10012,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.142664",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "SPDR S&P 500 ETF Trust (SPY) Daily Update, 5/20/2026",
+      "url": "https://www.tipranks.com/news/spdr-sp-500-etf-trust-spy-daily-update-5-20-2026",
+      "time_published": "20260520T223927",
+      "authors": [
+        "Radhika Saraogi"
+      ],
+      "summary": "The SPDR S&P 500 ETF Trust (SPY) increased by 1.02% on May 20, breaking a losing streak due to falling treasury yields and oil prices, and ahead of major tech earnings. Despite recent outflows, the ETF has a \"Strong Buy\" rating from analysts with a 17.16% implied upside potential and a Smart Score of seven. Notable holdings with high upside include Carvana (CVNA), Loews (L), and Charter Communications (CHTR).",
+      "banner_image": "https://blog.tipranks.com/wp-content/uploads/2026/03/shutterstock_2666932997-1-750x406.jpg",
+      "source": "TipRanks",
+      "category_within_source": "General",
+      "source_domain": "TipRanks",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.906734"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.605038"
+        }
+      ],
+      "overall_sentiment_score": 0.327047,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.314143",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "S&P 500 Top Stock Gainers Today, 5/20/26",
+      "url": "https://www.tipranks.com/news/sp-500-top-stock-gainers-today-5-20-26",
+      "time_published": "20260520T213927",
+      "authors": [
+        "Eddie Pan"
+      ],
+      "summary": "On Wednesday, the S&P 500 closed higher, driven by the consumer discretionary sector which gained 2.5% as falling oil prices eased inflation concerns and boosted consumer spending prospects. Conversely, the energy sector declined by 2.59% due to a 5% drop in Brent crude oil prices following President Trump's comments on negotiations with Iran. Notable gainers included Carnival and Norwegian Cruise Line, while Valero Energy and Exxon Mobil were among the decliners.",
+      "banner_image": "https://blog.tipranks.com/wp-content/uploads/2026/05/shutterstock_2231964577-3-750x406.jpg",
+      "source": "TipRanks",
+      "category_within_source": "General",
+      "source_domain": "TipRanks",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.906961"
+        },
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.848684"
+        },
+        {
+          "topic": "energy_transportation",
+          "relevance_score": "0.701467"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.641181"
+        },
+        {
+          "topic": "retail_wholesale",
+          "relevance_score": "0.643512"
+        }
+      ],
+      "overall_sentiment_score": 0.259901,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "0.349669",
+          "ticker_sentiment_score": "0.015888",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "CCL",
+          "relevance_score": "0.847195",
+          "ticker_sentiment_score": "0.317778",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "NCLH",
+          "relevance_score": "0.801494",
+          "ticker_sentiment_score": "0.303922",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "TJX",
+          "relevance_score": "0.734339",
+          "ticker_sentiment_score": "0.296985",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "LEN",
+          "relevance_score": "0.747125",
+          "ticker_sentiment_score": "0.289780",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Stock Market Today: SPY, QQQ Rally as Oil Sinks 5%; Nvidia Blasts Past Earnings Estimates",
+      "url": "https://www.tipranks.com/news/stock-market-today-spy-qqq-rally-as-oil-sinks-5-nvidia-blasts-past-earnings-estimates",
+      "time_published": "20260520T203842",
+      "authors": [
+        "Eddie Pan"
+      ],
+      "summary": "U.S. equities, including the S&P 500 ETF (SPY) and Nasdaq 100 ETF (QQQ), rallied on Wednesday as oil prices dropped over 5%, easing inflation concerns. This decline was driven by a record drop in U.S. crude inventories and ongoing negotiations with Iran. Nvidia significantly surpassed its Q1 earnings and revenue estimates, also increasing its quarterly dividend, while Intuit closed lower after announcing job cuts.",
+      "banner_image": "https://blog.tipranks.com/wp-content/uploads/2026/04/shutterstock_1106325086-750x406.jpg",
+      "source": "TipRanks",
+      "category_within_source": "General",
+      "source_domain": "TipRanks",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "1.000000"
+        },
+        {
+          "topic": "earnings",
+          "relevance_score": "0.903273"
+        },
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.826797"
+        },
+        {
+          "topic": "energy_transportation",
+          "relevance_score": "0.743123"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.734587"
+        }
+      ],
+      "overall_sentiment_score": 0.271207,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.498119",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.952270",
+          "ticker_sentiment_score": "0.607978",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AMD",
+          "relevance_score": "0.638292",
+          "ticker_sentiment_score": "0.283729",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "INTU",
+          "relevance_score": "0.713030",
+          "ticker_sentiment_score": "-0.413403",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Should You Invest in Gold or the S&P 500? It Depends.",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/GLD-A/pressreleases/2036917/should-you-invest-in-gold-or-the-sp-500-it-depends/",
+      "time_published": "20260520T122550",
+      "authors": [
+        "Motley Fool"
+      ],
+      "summary": "This article compares investing in gold through SPDR Gold Shares (GLD) versus investing in the S&P 500 through State Street SPDR S&P 500 ETF Trust (SPY). While SPY is generally more affordable and income-generating, GLD has shown stronger recent performance and lower volatility, serving as a hedge against market instability. The authors suggest that a diversified portfolio might best leverage both strategies.",
+      "banner_image": "https://www.theglobeandmail.com/resizer/v2/RDC35UYKTBCHBK6HWNTOIQQ4AI.JPG?auth=76702fb71a328f9c4f98a7af475e7c9440d9f714b55a629652d6ed5dbde5ca99&width=300&height=200&quality=80&focal=3923%2C2431",
+      "source": "The Globe and Mail",
+      "category_within_source": "General",
+      "source_domain": "The Globe and Mail",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.906407"
+        }
+      ],
+      "overall_sentiment_score": 0.3692,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.255756",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.607828",
+          "ticker_sentiment_score": "0.355532",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.631401",
+          "ticker_sentiment_score": "0.394470",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.626296",
+          "ticker_sentiment_score": "0.380385",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Should You Invest in Gold or the S&P 500? It Depends.",
+      "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/2036917/should-you-invest-in-gold-or-the-sp-500-it-depends/",
+      "time_published": "20260520T121556",
+      "authors": [
+        "Motley Fool"
+      ],
+      "summary": "This article analyzes whether to invest in gold (SPDR Gold Shares, GLD) or the S&P 500 (State Street SPDR S&P 500 ETF Trust, SPY), highlighting their differences in cost, risk, and portfolio role. While SPY offers a lower expense ratio and dividends, GLD has shown stronger recent performance and lower volatility. The article suggests that a diversified approach using both may be the smartest investment strategy.",
+      "banner_image": "https://barchart-news-media-prod.aws.barchart.com/FC/d0b23ad6691068516a9bde24770aeec7/pixel%3Fslug%3Dmotleyfoolgm-2026-5-20-should-you-invest-in-gold-or-the-s-and-p-500-it-depends",
+      "source": "The Globe and Mail",
+      "category_within_source": "General",
+      "source_domain": "The Globe and Mail",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.944022"
+        },
+        {
+          "topic": "finance",
+          "relevance_score": "0.717650"
+        }
+      ],
+      "overall_sentiment_score": 0.220041,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.140362",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.612459",
+          "ticker_sentiment_score": "0.344069",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.576036",
+          "ticker_sentiment_score": "0.215234",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "MSFT",
+          "relevance_score": "0.595411",
+          "ticker_sentiment_score": "0.202895",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Stock Market Live May 20, 2026: S&P 500 (SPY) Ticks Higher Ahead of Nvidia Earnings",
+      "url": "https://247wallst.com/investing/2026/05/20/stock-market-live-may-20-2026-sp-500-spy-ticks-higher-ahead-of-nvidia-earnings/",
+      "time_published": "20260520T120843",
+      "authors": [
+        "Ian Cooper"
+      ],
+      "summary": "The S&P 500 is trading higher ahead of Nvidia's Q1 earnings report, with analysts expecting significant revenue growth for the chipmaker. Target also reported strong Q1 earnings, beating estimates and raising its full-year outlook, while Lowe's beat sales and EPS estimates but saw its stock slip due to conservative guidance. Geopolitical tensions involving Iran are also influencing market sentiment.",
+      "banner_image": "https://247wallst.com/wp-content/uploads/2026/05/sf-jensen-huang-official-5-1778696865500.jpg",
+      "source": "24/7 Wall St.",
+      "category_within_source": "General",
+      "source_domain": "24/7 Wall St.",
+      "topics": [
+        {
+          "topic": "earnings",
+          "relevance_score": "0.930033"
+        },
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.830527"
+        },
+        {
+          "topic": "retail_wholesale",
+          "relevance_score": "0.719032"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.605305"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.625111"
+        }
+      ],
+      "overall_sentiment_score": 0.325404,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.281724",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.919188",
+          "ticker_sentiment_score": "0.300924",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "TGT",
+          "relevance_score": "0.804280",
+          "ticker_sentiment_score": "0.422248",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "LOW",
+          "relevance_score": "0.704570",
+          "ticker_sentiment_score": "0.130705",
+          "ticker_sentiment_label": "Neutral"
+        },
+        {
+          "ticker": "DAL",
+          "relevance_score": "0.608938",
+          "ticker_sentiment_score": "0.393249",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "How to Trade SPY ETF: A Practical Guide to the SPDR S&P 500 ETF Trust",
+      "url": "https://www.ebc.com/forex/how-to-trade-spy-etf-a-practical-guide-to-the-spdr-s-and-p-500-etf-trust",
+      "time_published": "20260520T095345",
+      "authors": [
+        "Charon N."
+      ],
+      "summary": "This article provides a practical guide to trading the SPY ETF, formally known as the SPDR S&P 500 ETF Trust. It details what moves SPY, its historical returns, and various trading methods including direct ETF trading, ETF CFD trading, and options trading. The piece also highlights key risks associated with trading SPY and introduces how EBC Financial Group offers access to SPY through its ETF CFD products.",
+      "banner_image": "https://www.ebc.com/upload/portal/20260520/04ef3be348e8d36bfff355d3caa8b076.jpg",
+      "source": "EBC Financial Group",
+      "category_within_source": "General",
+      "source_domain": "EBC Financial Group",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.942177"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.814887"
+        },
+        {
+          "topic": "finance",
+          "relevance_score": "0.712928"
+        },
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.613575"
+        }
+      ],
+      "overall_sentiment_score": 0.436714,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.442898",
+          "ticker_sentiment_label": "Bullish"
+        }
+      ]
+    },
+    {
+      "title": "SPY ETF Falls 0.7%",
+      "url": "https://www.moomoo.com/news/post/70268457/spy-etf-falls-0-7",
+      "time_published": "20260519T211041",
+      "authors": [
+        "Dow Jones"
+      ],
+      "summary": "The SPY ETF experienced a 0.7% decline. This follows Unity Software's fourth-quarter earnings report, where the company announced a 35% year-over-year revenue increase to $609 million, surpassing analyst estimates, despite reporting a quarterly loss of 66 cents per share.",
+      "banner_image": null,
+      "source": "Moomoo",
+      "category_within_source": "General",
+      "source_domain": "Moomoo",
+      "topics": [
+        {
+          "topic": "earnings",
+          "relevance_score": "0.948332"
+        },
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.815582"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.709973"
+        }
+      ],
+      "overall_sentiment_score": -0.711112,
+      "overall_sentiment_label": "Bearish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.680818",
+          "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Stock Market Today: SPY, QQQ Retreat as Inflation Pressures Drive Bond Yields Higher",
+      "url": "https://www.tipranks.com/news/stock-market-today-spy-qqq-retreat-as-inflation-pressures-drive-bond-yields-higher",
+      "time_published": "20260519T202448",
+      "authors": [
+        "Eddie Pan"
+      ],
+      "summary": "U.S. equities, specifically the S&P 500 ETF (SPY) and Nasdaq 100 ETF (QQQ), closed lower on Tuesday due to rising bond yields and elevated inflation expectations. The 30-year Treasury yield reached its highest level since April 2007, and the 10-year yield hit a 16-month high, as rate cut odds for 2026 plummeted. Higher yields are generally negative for stocks as they make bonds more attractive to investors and reduce the present value of future earnings.",
+      "banner_image": "https://blog.tipranks.com/wp-content/uploads/2026/04/shutterstock_2240259267-750x406.jpg",
+      "source": "TipRanks",
+      "category_within_source": "General",
+      "source_domain": "TipRanks",
+      "topics": [
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.945895"
+        },
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.818593"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.710717"
+        }
+      ],
+      "overall_sentiment_score": 0.038333,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.404475",
+          "ticker_sentiment_label": "Bearish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.737847",
+          "ticker_sentiment_score": "-0.218536",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "MU",
+          "relevance_score": "0.609823",
+          "ticker_sentiment_score": "0.408827",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.627292",
+          "ticker_sentiment_score": "0.315237",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Stock Market Live May 19, 2026: S&P 500 (SPY) Still Slipping on Uncertainty",
+      "url": "https://247wallst.com/investing/2026/05/19/stock-market-live-may-19-2026-sp-500-spy-still-slipping-on-uncertainty/",
+      "time_published": "20260519T130853",
+      "authors": [
+        "Ian Cooper"
+      ],
+      "summary": "The S&P 500 continues to slip due to ongoing uncertainty in the market, including the potential for the Federal Reserve to delay interest rate cuts until the second half of 2027. Geopolitical tensions, particularly the U.S.-Iran conflict, rising oil prices, and fears of weakening consumer spending are contributing to investor anxiety. While markets are under pressure, volatility-focused ETFs like UVXY and VXX offer potential opportunities for short-term traders.",
+      "banner_image": "https://247wallst.com/wp-content/uploads/2026/03/shutterstock-2195657533-huge-licensed-scaled.jpg",
+      "source": "24/7 Wall St.",
+      "category_within_source": "General",
+      "source_domain": "24/7 Wall St.",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.923900"
+        },
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.823565"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.715600"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.624070"
+        },
+        {
+          "topic": "energy_transportation",
+          "relevance_score": "0.617115"
+        }
+      ],
+      "overall_sentiment_score": 0.00776,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "0.314099",
+          "ticker_sentiment_score": "0.027268",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "SPDR S&P 500 ETF Trust Trade Ideas \u2014 ACTIVTRADES:SPY.US \u2014 TradingView",
+      "url": "https://www.tradingview.com/symbols/ACTIVTRADES-SPY.US/ideas/page-3/",
+      "time_published": "20260519T100844",
+      "authors": [
+        "virDeStatera",
+        "SignalProvider",
+        "Batsman-Edward",
+        "UnitedSignals",
+        "Tired-Wolf",
+        "CrowdWisdomTrading",
+        "TrendTao",
+        "pogicraft",
+        "italiansergio28",
+        "Kxtrades888",
+        "BullBearInsights",
+        "THECHAARTIST",
+        "StudyGuideTA",
+        "CryptocurrencyWatchGroup",
+        "CEO_of_WaverVanir_Int_LLC"
+      ],
+      "summary": "This page aggregates various trading ideas and analyses for the SPDR S&P 500 ETF Trust (SPY.US) from multiple traders on TradingView. The ideas discuss short-term price movements, structural analysis, technical indicators like RSI and EMAs, and market sentiment, with mixed bullish, bearish, and neutral outlooks depending on the specific analysis and timeframe. Many analyses emphasize the importance of key price levels, volume, and institutional flow for determining future movements, frequently noting that these are not financial advice.",
+      "banner_image": "https://s3-symbol-logo.tradingview.com/spdr-sandp500-etf-tr--big.svg",
+      "source": "TradingView",
+      "category_within_source": "General",
+      "source_domain": "TradingView",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "1.000000"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.616727"
+        }
+      ],
+      "overall_sentiment_score": 0.046255,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "0.322025",
+          "ticker_sentiment_score": "0.043740",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "State Street SPDR S&P 500 ETF Trust",
+      "url": "https://www.tradingview.com/symbols/EIGHTCAP-SPY/ideas/page-15/",
+      "time_published": "20260519T080901",
+      "authors": [
+        "BigWins109",
+        "LvNThL",
+        "fibotradertv",
+        "ArcadiaTrading",
+        "UnitedSignals",
+        "ThetaLoop",
+        "UIA_Institute",
+        "UA_CAPITAL",
+        "Enduro1",
+        "hayalart",
+        "sentimenttiming",
+        "TrendTao",
+        "NaughtyPines",
+        "BullBearInsights",
+        "Ro_N-chart_ideas",
+        "madejoze",
+        "variousTuna36346",
+        "galenwoods",
+        ""
+      ],
+      "summary": "The article compiles various trading ideas and analyses for the State Street SPDR S&P 500 ETF Trust (SPY) from different contributors on TradingView. These analyses cover short-term price predictions, long and short trade setups, market outlooks for 2026, and educational content on trading concepts like support and resistance. Contributors offer diverse perspectives on potential market movements, ranging from aggressive bounces and short-term drops to detailed technical analyses and algorithmic strategies.",
+      "banner_image": "https://s3-symbol-logo.tradingview.com/spdr-sandp500-etf-tr--big.svg",
+      "source": "TradingView",
+      "category_within_source": "General",
+      "source_domain": "TradingView",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "1.000000"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.609276"
+        }
+      ],
+      "overall_sentiment_score": -0.200643,
+      "overall_sentiment_label": "Somewhat-Bearish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.237523",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        }
+      ]
+    },
+    {
+      "title": "State Street SPDR S&P 500 ETF Trust Trade Ideas \u2014 EIGHTCAP:SPY",
+      "url": "https://www.tradingview.com/symbols/EIGHTCAP-SPY/ideas/page-14/",
+      "time_published": "20260519T023850",
+      "authors": [
+        "AnabelSignals",
+        "codymiller12727",
+        "Steversteves",
+        "ArcadiaTrading",
+        "UA_CAPITAL",
+        "Trader_Mayhem",
+        "UnitedSignals",
+        "rsitrades",
+        "UIA_Institute",
+        "TrendTao",
+        "KING_S",
+        "THECHAARTIST",
+        "sentimenttiming",
+        "BullBearInsights",
+        "TheUltimator5",
+        "Zohar_Leibovich"
+      ],
+      "summary": "This article compiles various trade ideas and analyses for the State Street SPDR S&P 500 ETF Trust (SPY) from multiple contributors on TradingView. The perspectives range from bullish forecasts based on technical indicators and pivot levels to bearish outlooks driven by weakening short-term trend structures, inflationary pressures, and geopolitical risks. Several analyses emphasize the importance of liquidity, institutional positioning, and identifying \"digital real estate\" like semiconductors for consistent profitability.",
+      "banner_image": "https://s3-symbol-logo.tradingview.com/spdr-sandp500-etf-tr--big.svg",
+      "source": "TradingView",
+      "category_within_source": "General",
+      "source_domain": "TradingView",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.924408"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.818986"
+        }
+      ],
+      "overall_sentiment_score": -0.127242,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.108786",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Stock Market Today: SPY, QQQ Slip as Rate Cut Odds Sink to 0%; Trump Calls Off Planned Attack on Iran",
+      "url": "https://www.tipranks.com/news/stock-market-today-spy-qqq-slip-as-rate-cut-odds-sink-to-0-trump-calls-off-planned-attack-on-iran",
+      "time_published": "20260518T210853",
+      "authors": [
+        "Eddie Pan"
+      ],
+      "summary": "U.S. equities, including the S&P 500 ETF (SPY) and Nasdaq 100 ETF (QQQ), fell on Monday as the probability of a rate cut by year-end dropped to 0% amid rising inflation fears and oil prices. Bond yields increased, leading Morgan Stanley to caution about a potential equity market correction. Geopolitically, President Trump called off a planned attack on Iran, though he warned of a large-scale assault if a deal isn't reached, and he is scheduled to swear in Kevin Warsh as Jerome Powell's successor.",
+      "banner_image": "https://blog.tipranks.com/wp-content/uploads/2026/04/3d9f49845d-750x406.jpg",
+      "source": "TipRanks",
+      "category_within_source": "General",
+      "source_domain": "TipRanks",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.943233"
+        },
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.809536"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.742399"
+        }
+      ],
+      "overall_sentiment_score": 0.171288,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.273674",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.865506",
+          "ticker_sentiment_score": "0.323431",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AMD",
+          "relevance_score": "0.710322",
+          "ticker_sentiment_score": "0.328218",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "INTC",
+          "relevance_score": "0.678134",
+          "ticker_sentiment_score": "0.300191",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    }
+  ]
 }

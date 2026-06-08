@@ -1,4 +1,46 @@
 {
-  "cod": 401,
-  "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."
+  "coord": {
+    "lon": -75.1669,
+    "lat": 39.9528
+  },
+  "weather": [
+    {
+      "id": 801,
+      "main": "Clouds",
+      "description": "few clouds",
+      "icon": "02d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 63.77,
+    "feels_like": 63.66,
+    "temp_min": 61.61,
+    "temp_max": 66.13,
+    "pressure": 1022,
+    "humidity": 81,
+    "sea_level": 1022,
+    "grnd_level": 1017
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.99,
+    "deg": 102,
+    "gust": 10
+  },
+  "clouds": {
+    "all": 14
+  },
+  "dt": 1780916578,
+  "sys": {
+    "type": 2,
+    "id": 2037403,
+    "country": "US",
+    "sunrise": 1780911126,
+    "sunset": 1780964857
+  },
+  "timezone": -14400,
+  "id": 4560349,
+  "name": "Philadelphia",
+  "cod": 200
 }

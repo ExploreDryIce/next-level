@@ -1,0 +1,253 @@
+{
+  "status": "ok",
+  "totalResults": 554,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Help Net Security"
+      },
+      "author": "Help Net Security",
+      "title": "Week in review: Cisco SD-WAN 0-day exploited, Patch Tuesday forecast",
+      "description": "Here\u2019s an overview of some of last week\u2019s most interesting news, articles, interviews and videos: OWASP Agent Memory Guard: Stop AI agents from being weaponized through their own memory Agent Memory Guard is an open-source runtime defense layer that sits betw\u2026",
+      "url": "https://www.helpnetsecurity.com/2026/06/07/week-in-review-cisco-sd-wan-0-day-exploited-june-2026-patch-tuesday-forecast/",
+      "urlToImage": "https://img.helpnetsecurity.com/wp-content/uploads/2023/12/01112502/cybersecurity_week_in_review1.jpg",
+      "publishedAt": "2026-06-07T08:00:37Z",
+      "content": "Heres an overview of some of last weeks most interesting news, articles, interviews and videos:\r\nOWASP Agent Memory Guard: Stop AI agents from being weaponized through their own memoryAgent Memory Gu\u2026 [+21595 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dailymail.com"
+      },
+      "author": "Stacy Liberatore",
+      "title": "Major hack on world's most popular cruise line exposes passports and personal information of 6 MILLION",
+      "description": "Millions of cruise passengers may have had their personal information exposed in a major cyberattack targeting the world's largest cruise operator.",
+      "url": "https://www.dailymail.com/sciencetech/article-15878071/carnival-cruise-passenger-data-breach.html",
+      "urlToImage": "https://i.dailymail.com/1s/2026/06/05/20/109162197-0-image-a-17_1780689530962.jpg",
+      "publishedAt": "2026-06-06T19:57:04Z",
+      "content": "The world's most popular cruise line has suffered a major data breach, possibly exposing personal information of millions of passengers.\r\nCarnival Cruise Line announced last month that its systems su\u2026 [+5388 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Weekinsecurity.com"
+      },
+      "author": "Zack Whittaker",
+      "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "description": "Meta fixed the bug that let anyone trick its Meta AI chatbot into resetting the password on Instagram accounts that didn't have two-factor authentication.",
+      "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+      "urlToImage": "https://storage.ghost.io/c/ed/a2/eda2c6f7-faef-48b4-9ed4-86a4fa4dca68/content/images/size/w1200/2026/06/meta-ai-chatbot-twis-story-2.jpg",
+      "publishedAt": "2026-06-06T18:35:27Z",
+      "content": "Meta is notifying thousands of people whose Instagram accounts were hijacked during the months-long abuse of the company's AI chatbot, which hackers repeatedly tricked into taking control of a person\u2026 [+3892 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Healthsystemcio.com"
+      },
+      "author": "Anthony Guerra",
+      "title": "The Human Element Is a Cyber Hard Problem. Here\u2019s What Health System Security Teams Can Take From New Research",
+      "description": "Your staff are not the weakest link, and the metric proving otherwise may be misleading you. New cybersecurity research reveals why training completion rates mask the behavior that actually determines whether your next breach starts with a click.\nSource: The \u2026",
+      "url": "https://healthsystemcio.com/2026/06/06/human-centered-cybersecurity-health-systems/",
+      "urlToImage": "https://healthsystemcio.com/wp-content/uploads/2026/06/research-200.png",
+      "publishedAt": "2026-06-06T16:12:20Z",
+      "content": "A 45-expert cybersecurity workshop maps the human factors behind breaches. We map to what health system security programs can do to measure and manage them. \r\nTreating employees as the weakest link i\u2026 [+4871 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Daily Hodl"
+      },
+      "author": "Mehron Rokhy",
+      "title": "Data of 53,888 People at Risk After Healthcare Firm Breached \u2013 Personal, Financial and Health Records Potentially Exposed",
+      "description": "The personal, financial and health information of 53,888 people may have been exposed after bad actors breached a Mississippi healthcare firm. According to the U.S. Department of Health and Human Services Office for Civil Rights, Singing River Health System r\u2026",
+      "url": "https://dailyhodl.com/2026/06/06/data-of-53888-people-at-risk-after-healthcare-firm-breached-personal-financial-and-health-records-potentially-exposed/",
+      "urlToImage": "https://dailyhodl.com/wp-content/uploads/2024/05/bank-breach-data-.jpg?resize=1365,800",
+      "publishedAt": "2026-06-06T16:00:33Z",
+      "content": "The personal, financial and health information of 53,888 people may have been exposed after bad actors breached a Mississippi healthcare firm.\r\nAccording to the U.S. Department of Health and Human Se\u2026 [+2038 chars]"
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "PTI",
+      "title": "CBSE OSM row: Pradhan 'incompetent', continuation in office insult to lakhs of students: Cong",
+      "description": "Congress criticizes Education Minister Dharmendra Pradhan for CBSE on-screen marking system failures.  The party alleges incompetence and inflated contract rates for a compromised IT platform.  Students faced issues accessing answer sheets for re-evaluation. \u2026",
+      "url": "https://economictimes.indiatimes.com/news/politics-and-nation/congress-slams-education-minister-pradhan-over-cbse-osm-lapses-calls-for-resignation/articleshow/131552271.cms",
+      "urlToImage": "https://img.etimg.com/thumb/msid-131552285,width-1200,height-630,imgsize-92552,overlay-economictimes/articleshow.jpg",
+      "publishedAt": "2026-06-06T12:53:29Z",
+      "content": "New Delhi: The Congress on Saturday said Education Minister Dharmendra Pradhan must take responsibility for the lapses in CBSE on-screen marking (OSM), calling his continuation in office an insult to\u2026 [+3925 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Ana Maria Constantin",
+      "title": "Former IBM cybersecurity exec accuses company of covering up years of Chinese hacking",
+      "description": "A former IBM cybersecurity executive has accused the company of concealing multiple data breaches by Chinese state-linked hackers. William Barlow served as IBM\u2019s vice president of threat intelligence until August 2019. In a whistleblower lawsuit unsealed this\u2026",
+      "url": "https://thenextweb.com/news/ibm-whistleblower-data-breach-cover-up/",
+      "urlToImage": "https://media.thenextweb.com/2026/06/ibm-whistleblower-data-breach-cover-up.avif",
+      "publishedAt": "2026-06-06T10:11:58Z",
+      "content": "TL;DR\r\nIBMs ex-threat intel VP alleges the company hid Chinese state hacker breaches from 2013-2016 and never told the feds. The case is now in court.\r\nA former IBM cybersecurity executive has accuse\u2026 [+3165 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BusinessLine"
+      },
+      "author": "ANI",
+      "title": "CBSE retains COEMPT for answer-sheet scanning, shifts data to its own servers",
+      "description": "CBSE retains COEMPT for answer sheet scanning, transferring data to its servers amid ongoing security audits and re-evaluation processes.",
+      "url": "https://www.thehindubusinessline.com/news/cbse-retains-coempt-for-answer-sheet-scanning-shifts-data-to-its-own-servers/article71069326.ece",
+      "urlToImage": "https://bl-i.thgim.com/public/incoming/ab4xcd/article71051243.ece/alternates/LANDSCAPE_1200/NKV-CBSE.jpg",
+      "publishedAt": "2026-06-06T10:08:17Z",
+      "content": "The Central Board of Secondary Education (CBSE) has retained COEMPT Eduteck Pvt Ltd for scanning answer sheets on Saturday, during the ongoing re-evaluation process, while moving all data and records\u2026 [+4294 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MediaNama.com"
+      },
+      "author": "Aakriti Bansal",
+      "title": "Everything to know about CBSE\u2019s 2026 evaluation crisis: a timeline",
+      "description": "CBSE's digital evaluation experiment has spiralled into a controversy involving cybersecurity flaws, low results, cyberattacks, and procurement allegations.\nThe post Everything to know about CBSE\u2019s 2026 evaluation crisis: a timeline appeared first on MEDIANAM\u2026",
+      "url": "https://www.medianama.com/2026/06/223-cbse-2026-evaluation-crisis-timeline/",
+      "urlToImage": "https://www.medianama.com/wp-content/uploads/2018/09/19-A-college-student-in-Srinagar-browing-internet-using-VPN.jpg.jpg",
+      "publishedAt": "2026-06-06T10:05:04Z",
+      "content": "CBSE\u2019s official press release can be accessed here.\r\nThe Central Board of Secondary Education (CBSE) has filed a formal complaint with Delhi Police over a 3.8 million-packet cyberattack on its Class \u2026 [+7078 chars]"
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "ANI",
+      "title": "CBSE retains COEMPT for answer-sheet scanning, shifts data to its own servers",
+      "description": "When asked about whether COEMPT will be able to scan answer sheets despite its track record, the official said, \"They scanned 40 crore pages, of which about 30,000 odd have problems. That means about 1 in 10,000 pages were problematic. Now they only need to s\u2026",
+      "url": "https://economictimes.indiatimes.com/news/india/cbse-retains-coempt-for-answer-sheet-scanning-shifts-data-to-its-own-servers/articleshow/131548067.cms",
+      "urlToImage": "https://img.etimg.com/thumb/msid-131548116,width-1200,height-630,imgsize-797430,overlay-economictimes/articleshow.jpg",
+      "publishedAt": "2026-06-06T08:47:18Z",
+      "content": "The Central Board of Secondary Education (CBSE) has retained COEMPT Eduteck Pvt Ltd for scanning answer sheets on Saturday, during the ongoing re-evaluation process, while moving all data and records\u2026 [+4267 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news-au",
+        "name": "ABC News (AU)"
+      },
+      "author": "Kristy Sexton-McGrath",
+      "title": "'Everything looked real': How scammers are hijacking your holiday",
+      "description": "Australian travellers are being left out of pocket and fearful their personal data has been stolen, amid growing concerns over the security of online travel bookings.",
+      "url": "https://www.abc.net.au/news/2026-06-06/booking-com-scammers-target-travel-reservations/106759168",
+      "urlToImage": "https://live-production.wcms.abc-cdn.net.au/7f2849e48e0d45fa6efaac9756ce772e?impolicy=wcms_watermark_news&cropH=1125&cropW=2000&xPos=0&yPos=105&width=862&height=485&imformat=generic",
+      "publishedAt": "2026-06-06T03:24:45Z",
+      "content": "Australian travellers are being left out of pocket and fearful their personal data has been stolen amid growing concerns over the security of online travel bookings.\r\nA cybersecurity expert says trav\u2026 [+6621 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Alltoc.com"
+      },
+      "author": "AllToc",
+      "title": "What happened to DentaQuest\u2019s exposed accounts? #tech",
+      "description": "DentaQuest breach exposed millions of accounts DentaQuest confirmed a cybersecurity incident after 2.6 million accounts tied to the company were surfaced in a public breach listing. Claims accompanying the exposure said roughly 234GB of data may have been sto\u2026",
+      "url": "https://alltoc.com/tech/what-happened-to-dentaquests-exposed-accounts",
+      "urlToImage": "https://alltoc.com/cdn/1048/og.png",
+      "publishedAt": "2026-06-06T00:01:52Z",
+      "content": "DentaQuest confirmed a cybersecurity incident after 2.6 million accounts tied to the company were surfaced in a public breach listing. Claims accompanying the exposure said roughly 234GB of data may \u2026 [+1278 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": null,
+      "title": "Adaptive Information Systems Expands Responsive IT Support Services for Small Businesses Across the Monterey Bay Region",
+      "description": "Salinas IT provider meets growing small business demand for local, responsive support as cybersecurity risks rise across the Monterey Bay",
+      "url": "https://apnews.com/press-release/ein-presswire-newsmatics/small-business-e29451c72c448cb7d7f799e5e634998b",
+      "urlToImage": "https://dims.apnews.com/dims4/default/802148d/2147483647/strip/true/crop/320x213+0+53/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F87%2F3b%2F4139dafd0cbf66be2ed6b2b91d92%2F4c31f29b9d234471b4a141bc8442823f",
+      "publishedAt": "2026-06-05T23:17:08Z",
+      "content": "Salinas IT provider meets growing small business demand for local, responsive support as cybersecurity risks rise across the Monterey Bay\r\nSmall businesses dont have the luxury of waiting Jesse Alvar\u2026 [+5699 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PRNewswire"
+      },
+      "author": null,
+      "title": "PRIVACY ALERT: DentaQuest Under Investigation for Data Breach Affecting 2.6 Million Records",
+      "description": "SAN FRANCISCO, June 5, 2026 /PRNewswire/ -- Schubert Jonckheer & Kolbe LLP is investigating a data breach that led to unauthorized access to the sensitive information of approximately 2.6 million individuals affiliated with DentaQuest, a Massachusetts-based d\u2026",
+      "url": "https://www.prnewswire.com/news-releases/privacy-alert-dentaquest-under-investigation-for-data-breach-affecting-2-6-million-records-302793067.html",
+      "urlToImage": null,
+      "publishedAt": "2026-06-05T22:00:00Z",
+      "content": "SAN FRANCISCO, June 5, 2026 /PRNewswire/ -- Schubert\u00a0Jonckheer &amp; Kolbe LLP is investigating a data breach that led to unauthorized access to the sensitive information of approximately 2.6 million\u2026 [+2039 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "insider@insider.com (Lillian Brown)",
+      "title": "Where to watch NBA Finals: Knicks vs. Spurs live streams, schedule, venue, odds",
+      "description": "The New York Knicks and San Antonio Spurs are duking it out for the ultimate title. Learn where to watch NBA Finals live streams online.",
+      "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-nba-finals-knicks-vs-spurs-2026-g2",
+      "urlToImage": "https://i.insider.com/6a22fc442e5a80cfe0503e6f?width=1200&format=jpeg",
+      "publishedAt": "2026-06-05T21:31:01Z",
+      "content": "The battle for the NBA title is underway, and the New York Knicks are squaring off with the San Antonio Spurs in a can't-miss series. We've compiled everything you need to know about Knicks vs. Spurs\u2026 [+6389 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Lorenzo Franceschi-bicchierai",
+      "title": "Former cyber executive turned whistleblower accuses IBM of covering up several data breaches | TechCrunch",
+      "description": "IBM and two of its subsidiary companies were allegedly breached during the mid-2010s, which a lawsuit filed by a former cybersecurity executive accuses IBM of not disclosing and actively covering up.",
+      "url": "https://techcrunch.com/2026/06/05/former-cyber-executive-turned-whistleblower-accuses-ibm-of-covering-up-several-data-breaches/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2026/06/ibm-logo-office.jpg?resize=1200,830",
+      "publishedAt": "2026-06-05T20:34:57Z",
+      "content": "A former IBM cybersecurity executive accused the company of getting hacked three times in the previous decade by foreign governments and then covering up the breaches.\u00a0\r\nIn a lawsuit unsealed this we\u2026 [+3852 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Healthsystemcio.com"
+      },
+      "author": "Anthony Guerra",
+      "title": "UC San Diego\u2019s Kumar Says Social Media Exposes Ransomware Impact That Breach Reports Miss",
+      "description": "Breach reports tell you an attack happened and what it cost. They miss what patients and clinicians endured while systems were down. One researcher found that missing story hiding on Facebook and Reddit.\nSource: UC San Diego\u2019s Kumar Says Social Media Exposes \u2026",
+      "url": "https://healthsystemcio.com/2026/06/05/social-media-ransomware-impact/",
+      "urlToImage": "https://healthsystemcio.com/wp-content/uploads/2026/06/kumar_deepak.jpeg",
+      "publishedAt": "2026-06-05T19:28:28Z",
+      "content": "UC San Diegos Deepak Kumar walks through how Facebook and Reddit reveal the patient and provider toll of hospital ransomware that breach reports miss. Watch here.\r\nDeepak Kumar, Assistant Professor o\u2026 [+5391 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BleepingComputer"
+      },
+      "author": "Sergiu Gatlan",
+      "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
+      "description": "CISA warned today that hackers are now actively exploiting a recently patched high-severity SolarWinds Serv-U flaw to crash servers. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
+      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2026/01/28/SolarWinds.jpg",
+      "publishedAt": "2026-06-05T19:15:30Z",
+      "content": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned today that hackers are now actively exploiting a recently patched high-severity SolarWinds Serv-U flaw to crash servers.\r\nServ-\u2026 [+3107 chars]"
+    },
+    {
+      "source": {
+        "id": "techradar",
+        "name": "TechRadar"
+      },
+      "author": "Sead Fadilpa\u0161i\u0107",
+      "title": "2.6 million DentaQuest accounts exposed by data breach \u2013 ShinyHunters claim 234GB of data stolen",
+      "description": "DentaQuest confirmed suffering a data breach, while ShinyHunters claims negotiations broke down.",
+      "url": "https://www.techradar.com/pro/security/2-6-million-dentaquest-accounts-exposed-by-data-breach-shinyhunters-claim-234gb-of-data-stolen",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/mdjvPqJZZunuCQDrfEuBFM-2560-80.jpg",
+      "publishedAt": "2026-06-05T18:20:00Z",
+      "content": "<ul><li>ShinyHunters leaked 234GB of DentaQuest data</li><li>Records include 2.6M accounts with sensitive details</li><li>Company confirms incident but operations remain unaffected</li></ul>\r\nDentaQu\u2026 [+2408 chars]"
+    }
+  ]
+}

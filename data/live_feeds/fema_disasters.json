@@ -2,7 +2,7 @@
   "metadata": {
     "skip": 0,
     "select": null,
-    "rundate": "2026-06-08T02:54:02.386Z",
+    "rundate": "2026-06-08T11:00:38.034Z",
     "top": 20,
     "filter": "declarationDate gt '2024-01-01T00%3A00%3A00.000z'",
     "format": "json",

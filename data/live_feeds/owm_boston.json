@@ -1,4 +1,46 @@
 {
-  "cod": 401,
-  "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."
+  "coord": {
+    "lon": -71.058,
+    "lat": 42.3605
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 56.61,
+    "feels_like": 55.69,
+    "temp_min": 53.02,
+    "temp_max": 59.09,
+    "pressure": 1022,
+    "humidity": 79,
+    "sea_level": 1022,
+    "grnd_level": 1019
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3,
+    "deg": 0,
+    "gust": 4
+  },
+  "clouds": {
+    "all": 50
+  },
+  "dt": 1780916316,
+  "sys": {
+    "type": 2,
+    "id": 2007536,
+    "country": "US",
+    "sunrise": 1780909662,
+    "sunset": 1780964349
+  },
+  "timezone": -14400,
+  "id": 4930956,
+  "name": "Boston",
+  "cod": 200
 }

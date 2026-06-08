@@ -1,6 +1,149 @@
 [
   {
     "category": "crypto",
+    "datetime": 1780912967,
+    "headline": "Zcash teams propose Ironwood pool to restore supply verification after Orchard flaw",
+    "id": 8042827,
+    "image": "https://static2.finnhub.io/file/publicdatany/hmpimage/cointelegraph.webp",
+    "related": "",
+    "source": "Cointelegraph",
+    "summary": "Ironwood would close the old Orchard pool to new activity and route funds through a turnstile before they enter a new shielded pool.",
+    "url": "https://cointelegraph.com/news/zcash-ironwood-shielded-pool-orchard-bug?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "category": "crypto",
+    "datetime": 1780912658,
+    "headline": "Gold slips below 200-day moving average offering glimmer of hope for bitcoin bulls",
+    "id": 8042939,
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/a1f73bac458078fbdcd0d0c2658e820681a45041-1473x969.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+    "related": "",
+    "source": "CoinDesk",
+    "summary": "",
+    "url": "https://www.coindesk.com/markets/2026/06/08/gold-slips-below-200-day-moving-average-offering-glimmer-of-hope-for-bitcoin-bulls"
+  },
+  {
+    "category": "crypto",
+    "datetime": 1780911981,
+    "headline": "U.S. inflation, European Central Bank rate decision: Crypto Week Ahead",
+    "id": 8042940,
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/0ee5eca8e4dbb143c3fbd6418fa5bfc8c12f0469-1600x977.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+    "related": "",
+    "source": "CoinDesk",
+    "summary": "",
+    "url": "https://www.coindesk.com/markets/2026/06/08/u-s-inflation-european-central-bank-rate-decision-crypto-week-ahead"
+  },
+  {
+    "category": "crypto",
+    "datetime": 1780906770,
+    "headline": "CME is letting traders bet on bitcoin volatility, not price, and two firms have already placed bets",
+    "id": 8042517,
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/61ce5a2246a7018c5d3b483ee5ade32912f66129-1919x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+    "related": "",
+    "source": "CoinDesk",
+    "summary": "",
+    "url": "https://www.coindesk.com/markets/2026/06/08/cme-has-a-new-bitcoin-product-monarq-and-dv-chain-made-their-first-bet"
+  },
+  {
+    "category": "crypto",
+    "datetime": 1780906257,
+    "headline": "Zcash bounces 45% as developers propose new Ironwood upgrade",
+    "id": 8042518,
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/2c6397e93206bdda9217632ca34accef61cafead-1500x847.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+    "related": "",
+    "source": "CoinDesk",
+    "summary": "",
+    "url": "https://www.coindesk.com/markets/2026/06/08/zcash-bounces-45-as-developers-propose-new-ironwood-upgrade"
+  },
+  {
+    "category": "crypto",
+    "datetime": 1780902150,
+    "headline": "Arthur Hayes dumps WLD days after Maelstrom\u2019s AI IPO pitch",
+    "id": 8042203,
+    "image": "https://static2.finnhub.io/file/publicdatany/hmpimage/cointelegraph.webp",
+    "related": "",
+    "source": "Cointelegraph",
+    "summary": "Maelstrom\u2019s Arthur Hayes has been on a selling spree recently, offloading positions in HYPE, ZEC, NEAR and now WLD.",
+    "url": "https://cointelegraph.com/news/arthur-hayes-offloads-wld-days-after-maelstrom-touted-it-as-an-ai-ipo-play?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "category": "crypto",
+    "datetime": 1780902075,
+    "headline": "Galaxy drops CLARITY Act odds to 60% as time is running out",
+    "id": 8042204,
+    "image": "https://static2.finnhub.io/file/publicdatany/hmpimage/cointelegraph.webp",
+    "related": "",
+    "source": "Cointelegraph",
+    "summary": "Galaxy Digital says the Senate has a tight calendar ahead of the November elections, and the time needed to fix up and pass a key crypto bill is quickly fading.",
+    "url": "https://cointelegraph.com/news/galaxy-drops-clarity-act-passage-odds-to-60-percent-as-time-runs-out?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "category": "crypto",
+    "datetime": 1780898815,
+    "headline": "XRP steadies above $1.10 to bounce from four-month lows",
+    "id": 8041994,
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/b1cc8c2cc6b307fc21306f1fbdc4bd40ad388611-1196x738.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+    "related": "",
+    "source": "CoinDesk",
+    "summary": "",
+    "url": "https://www.coindesk.com/markets/2026/06/08/xrp-steadies-above-usd1-10-as-oversold-bounce-meets-lingering-bearish-pressure"
+  },
+  {
+    "category": "crypto",
+    "datetime": 1780898002,
+    "headline": "Bitcoin pump to $63,700 triggers the most short liquidations since late April",
+    "id": 8041995,
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/07b0e1a6b15e81b4cafedabbf332ca2f5eddb6be-3688x2400.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+    "related": "",
+    "source": "CoinDesk",
+    "summary": "",
+    "url": "https://www.coindesk.com/markets/2026/06/08/bitcoin-pump-to-usd63-700-triggers-the-most-short-liquidations-since-late-april"
+  },
+  {
+    "category": "crypto",
+    "datetime": 1780895286,
+    "headline": "Major cryptocurrencies under pressure as oil jumps 3%",
+    "id": 8041996,
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/6a3652708a77701e22cc3d2d8e57dbb0e4598af4-1500x858.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+    "related": "",
+    "source": "CoinDesk",
+    "summary": "",
+    "url": "https://www.coindesk.com/tech/2026/06/08/major-cryptocurrencies-under-pressure-as-oil-jumps-3"
+  },
+  {
+    "category": "crypto",
+    "datetime": 1780893287,
+    "headline": "Tokenization firm Securitize clears key SEC hurdle for NYSE listing",
+    "id": 8041793,
+    "image": "https://static2.finnhub.io/file/publicdatany/hmpimage/cointelegraph.webp",
+    "related": "",
+    "source": "Cointelegraph",
+    "summary": "The firm announced that the US securities regulator has declared its S-4 registration statement effective, bringing it closer to a SPAC merger with Cantor Equity Partners II.",
+    "url": "https://cointelegraph.com/news/securitize-gets-sec-nod-cantor-merger-nyse-listing?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "category": "crypto",
+    "datetime": 1780892513,
+    "headline": "Bitcoin falls back below $63,000 as Iran-Israel trade strikes and Korean stocks crash",
+    "id": 8041791,
+    "image": "https://cdn.sanity.io/images/s3y3vcno/production/1b80ab1614c17afb7976662bcdc161746db68f65-2812x1079.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
+    "related": "",
+    "source": "CoinDesk",
+    "summary": "",
+    "url": "https://www.coindesk.com/markets/2026/06/08/bitcoin-recedes-to-usd63-000-as-iran-israel-trade-strikes-and-korean-stocks-crash"
+  },
+  {
+    "category": "crypto",
+    "datetime": 1780889219,
+    "headline": "Justin Sun\u2019s HTX delists Trump family\u2019s USD1 amid freeze fight",
+    "id": 8041589,
+    "image": "https://static2.finnhub.io/file/publicdatany/hmpimage/cointelegraph.webp",
+    "related": "",
+    "source": "Cointelegraph",
+    "summary": "HTX said World Liberty froze its addresses and has responded by delisting and suspending the platform\u2019s token.",
+    "url": "https://cointelegraph.com/news/justin-suns-htx-delists-trump-familys-usd1-amid-freeze-fight?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
+  },
+  {
+    "category": "crypto",
     "datetime": 1780879756,
     "headline": "Bitcoin analysis as the futures market opens, post Friday's crash",
     "id": 8041067,
@@ -856,148 +999,5 @@
     "source": "CoinDesk",
     "summary": "",
     "url": "https://www.coindesk.com/markets/2026/06/04/hyperliquid-pulls-back-from-record-highs-as-arthur-hayes-exits-position-shy-of-usd150-price-target"
-  },
-  {
-    "category": "crypto",
-    "datetime": 1780585200,
-    "headline": "Crypto for Advisors: The crypto due diligence questions you forgot to ask",
-    "id": 8024735,
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/60b7e5db8fbbb066f0599a337727f9a33af22d36-5500x3000.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-    "related": "",
-    "source": "CoinDesk",
-    "summary": "",
-    "url": "https://www.coindesk.com/coindesk-indices/2026/06/03/crypto-for-advisors-the-crypto-due-diligence-questions-you-forgot-to-ask"
-  },
-  {
-    "category": "crypto",
-    "datetime": 1780584524,
-    "headline": "Saylor downplays Bitcoin slide as Strategy faces $11B paper loss",
-    "id": 8024524,
-    "image": "https://static2.finnhub.io/file/publicdatany/hmpimage/cointelegraph.webp",
-    "related": "",
-    "source": "Cointelegraph",
-    "summary": "Strategy\u2019s Bitcoin paper loss tops $11 billion as Saylor pointed to ETF outflows and AI infrastructure spending as factors pressuring BTC.",
-    "url": "https://cointelegraph.com/news/strategys-unrealized-loss-soars-11b-standard-chartered-bottom-near?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "category": "crypto",
-    "datetime": 1780584247,
-    "headline": "Why tokenization is an ETF-style market structure revolution",
-    "id": 8024736,
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/6110a57bc1a40169f4bf82185c3be28bc20151d3-3504x2568.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-    "related": "",
-    "source": "CoinDesk",
-    "summary": "",
-    "url": "https://www.coindesk.com/opinion/2026/06/04/why-tokenization-is-an-etf-style-market-structure-revolution"
-  },
-  {
-    "category": "crypto",
-    "datetime": 1780581141,
-    "headline": "Not all Ethereum layer 2s are dying, but many general-purpose chains no longer have a reason to exist",
-    "id": 8024315,
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/719d80685a3042ba9bd5e2ba263b4d995299e379-3840x2160.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-    "related": "",
-    "source": "CoinDesk",
-    "summary": "",
-    "url": "https://www.coindesk.com/tech/2026/06/04/not-all-ethereum-layer-2s-are-dying-but-many-general-purpose-chains-no-longer-have-a-reason-to-exist"
-  },
-  {
-    "category": "crypto",
-    "datetime": 1780579802,
-    "headline": "Tom Lee\u2019s $250,000 ether target: Here\u2019s what math says about this crazy prediction",
-    "id": 8024204,
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/bafb99c8f61830de7b03162ff11769973ea3ef0d-758x528.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-    "related": "",
-    "source": "CoinDesk",
-    "summary": "",
-    "url": "https://www.coindesk.com/markets/2026/06/04/tom-lee-s-usd250-000-ether-target-runs-into-a-usd30-trillion-problem"
-  },
-  {
-    "category": "crypto",
-    "datetime": 1780579556,
-    "headline": "Apex, Archax join Goldman Sachs tokenized real estate fund project",
-    "id": 8024316,
-    "image": "https://static2.finnhub.io/file/publicdatany/hmpimage/cointelegraph.webp",
-    "related": "",
-    "source": "Cointelegraph",
-    "summary": "Apex Group is providing fund services for a tokenized real estate fund using Goldman Sachs\u2019 GS DAP platform.",
-    "url": "https://cointelegraph.com/news/apex-group-tokenized-real-estate-fund-goldman-sachs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "category": "crypto",
-    "datetime": 1780579112,
-    "headline": "Ripple-linked XRP sinks 7% to four-month lows",
-    "id": 8024205,
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/8bc05b8372a60c5b79792c8a29d374f3f2c2e7c0-1200x744.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-    "related": "",
-    "source": "CoinDesk",
-    "summary": "",
-    "url": "https://www.coindesk.com/markets/2026/06/04/ripple-linked-xrp-sinks-7-to-four-month-lows"
-  },
-  {
-    "category": "crypto",
-    "datetime": 1780578638,
-    "headline": "CoinDesk 20 performance update: Bitcoin Cash (BCH), up 1.5%, is only gainer",
-    "id": 8024206,
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/a09c43cb1d960b1bcd0b47036edabaffe627be24-640x480.png?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-    "related": "",
-    "source": "CoinDesk",
-    "summary": "",
-    "url": "https://www.coindesk.com/coindesk-indices/2026/06/04/coindesk-20-performance-update-bitcoin-cash-bch-up-1-5-is-only-gainer"
-  },
-  {
-    "category": "crypto",
-    "datetime": 1780578265,
-    "headline": "Arthur Hayes dumps HYPE, NEAR as he warns of AI IPO wave",
-    "id": 8024317,
-    "image": "https://static2.finnhub.io/file/publicdatany/hmpimage/cointelegraph.webp",
-    "related": "",
-    "source": "Cointelegraph",
-    "summary": "Arthur Hayes said he dumped his HYPE and NEAR holdings after warning markets may peak before September and AI IPOs could drain liquidity.",
-    "url": "https://cointelegraph.com/news/arthur-hayes-dumped-hype-near-holdings-mega-ai-ipos?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "category": "crypto",
-    "datetime": 1780577283,
-    "headline": "Coinbase launches pre-IPO markets, starting with Elon Musk\u2019s SpaceX",
-    "id": 8024086,
-    "image": "https://static2.finnhub.io/file/publicdatany/hmpimage/cointelegraph.webp",
-    "related": "",
-    "source": "Cointelegraph",
-    "summary": "Coinbase launches pre-IPO markets starting with SpaceX, offering non-US users perpetual futures tied to private company valuations amid rising competition.",
-    "url": "https://cointelegraph.com/news/coinbase-launches-pre-ipo-markets-amid-crypto-push-private-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound"
-  },
-  {
-    "category": "crypto",
-    "datetime": 1780576004,
-    "headline": "Strategy's Saylor's explanation for bitcoin's slide isn't what bears think",
-    "id": 8024207,
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/a57323d92b3fa599df2ee442af800248477423c0-6000x3376.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-    "related": "",
-    "source": "CoinDesk",
-    "summary": "",
-    "url": "https://www.coindesk.com/markets/2026/06/04/strategy-s-saylor-s-explanation-for-bitcoin-s-slide-isn-t-what-bears-think"
-  },
-  {
-    "category": "crypto",
-    "datetime": 1780575261,
-    "headline": "Live markets: Bitcoin plunges, HYPE falls, NEAR gets demolished as crypto deals with a wipe out",
-    "id": 8024208,
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/733a7a8d00f57da03f583adfe61788a201fbc9ca-3000x2104.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-    "related": "",
-    "source": "CoinDesk",
-    "summary": "",
-    "url": "https://www.coindesk.com/markets/2026/06/04/live-markets-saylor-speaks-as-bitcoin-plunges-to-usd62-000"
-  },
-  {
-    "category": "crypto",
-    "datetime": 1780574400,
-    "headline": "Moomoo expands into prediction markets through Kalshi partnership",
-    "id": 8023857,
-    "image": "https://cdn.sanity.io/images/s3y3vcno/production/c3ac40e216e0a2276cfec64adeb74b4e08399884-1919x1080.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-    "related": "",
-    "source": "CoinDesk",
-    "summary": "",
-    "url": "https://www.coindesk.com/business/2026/06/04/moomoo-expands-into-prediction-markets-through-kalshi-partnership"
   }
 ]

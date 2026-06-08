@@ -1,4 +1,46 @@
 {
-  "cod": 401,
-  "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."
+  "coord": {
+    "lon": -81.6852,
+    "lat": 41.4962
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 62.53,
+    "feels_like": 62.47,
+    "temp_min": 58.05,
+    "temp_max": 64.49,
+    "pressure": 1019,
+    "humidity": 85,
+    "sea_level": 1019,
+    "grnd_level": 993
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.01,
+    "deg": 128,
+    "gust": 3
+  },
+  "clouds": {
+    "all": 82
+  },
+  "dt": 1780916544,
+  "sys": {
+    "type": 2,
+    "id": 2016542,
+    "country": "US",
+    "sunrise": 1780912388,
+    "sunset": 1780966724
+  },
+  "timezone": -14400,
+  "id": 5150529,
+  "name": "Cleveland",
+  "cod": 200
 }

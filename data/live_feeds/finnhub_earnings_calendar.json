@@ -1,6 +1,347 @@
 {
   "earningsCalendar": [
     {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": null,
+      "hour": "",
+      "quarter": 1,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "CELU",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": 0.01,
+      "epsEstimate": null,
+      "hour": "bmo",
+      "quarter": 3,
+      "revenueActual": 26220000,
+      "revenueEstimate": null,
+      "symbol": "GMHS",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": null,
+      "hour": "",
+      "quarter": 1,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "WDH",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": null,
+      "hour": "",
+      "quarter": 2,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "ASGI",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": -0.2244,
+      "hour": "amc",
+      "quarter": 1,
+      "revenueActual": null,
+      "revenueEstimate": 36744990,
+      "symbol": "GLOO",
+      "year": 2027
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": null,
+      "hour": "",
+      "quarter": 3,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "FTRS",
+      "year": 2025
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": null,
+      "hour": "",
+      "quarter": 1,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "BESS",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": null,
+      "hour": "",
+      "quarter": 3,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "ODC",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": null,
+      "hour": "",
+      "quarter": 1,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "SBOX",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": null,
+      "hour": "",
+      "quarter": 4,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "KOAN",
+      "year": 2025
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": 0,
+      "hour": "",
+      "quarter": 1,
+      "revenueActual": null,
+      "revenueEstimate": 9639000,
+      "symbol": "MIND",
+      "year": 2027
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": null,
+      "hour": "bmo",
+      "quarter": 2,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "OCC",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": null,
+      "hour": "bmo",
+      "quarter": 1,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "ZEPP",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": null,
+      "hour": "",
+      "quarter": 1,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "YQ",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": null,
+      "hour": "",
+      "quarter": 2,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "KAVL",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": null,
+      "hour": "",
+      "quarter": 2,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "SRKE",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": null,
+      "hour": "",
+      "quarter": 1,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "SRKE",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": null,
+      "hour": "",
+      "quarter": 1,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "COE",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": 0.0306,
+      "hour": "amc",
+      "quarter": 1,
+      "revenueActual": null,
+      "revenueEstimate": 52667873,
+      "symbol": "MAMA",
+      "year": 2027
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": -0.3131,
+      "hour": "",
+      "quarter": 1,
+      "revenueActual": null,
+      "revenueEstimate": 1035363625,
+      "symbol": "VFS",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": 0.0556,
+      "hour": "amc",
+      "quarter": 2,
+      "revenueActual": null,
+      "revenueEstimate": 277144000,
+      "symbol": "AVO",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": 0.306,
+      "hour": "",
+      "quarter": 2,
+      "revenueActual": null,
+      "revenueEstimate": 11383200,
+      "symbol": "OCCI",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": 0.1779,
+      "hour": "",
+      "quarter": 2,
+      "revenueActual": null,
+      "revenueEstimate": null,
+      "symbol": "LVRO",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": -0.2754,
+      "hour": "",
+      "quarter": 3,
+      "revenueActual": null,
+      "revenueEstimate": 112409100,
+      "symbol": "CMTL",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": 0.6177,
+      "hour": "",
+      "quarter": 1,
+      "revenueActual": null,
+      "revenueEstimate": 592070118,
+      "symbol": "PLAY",
+      "year": 2027
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": 0.357,
+      "hour": "",
+      "quarter": 2,
+      "revenueActual": null,
+      "revenueEstimate": 136680000,
+      "symbol": "CVGW",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": 0.3366,
+      "hour": "bmo",
+      "quarter": 4,
+      "revenueActual": null,
+      "revenueEstimate": 179479200,
+      "symbol": "MPAA",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": 9.0536,
+      "hour": "amc",
+      "quarter": 3,
+      "revenueActual": null,
+      "revenueEstimate": 1225166057,
+      "symbol": "MTN",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": -0.4624,
+      "hour": "bmo",
+      "quarter": 3,
+      "revenueActual": null,
+      "revenueEstimate": 792226992,
+      "symbol": "CBRL",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": 0.4833,
+      "hour": "bmo",
+      "quarter": 3,
+      "revenueActual": null,
+      "revenueEstimate": 2404805586,
+      "symbol": "CPB",
+      "year": 2026
+    },
+    {
+      "date": "2026-06-08",
+      "epsActual": null,
+      "epsEstimate": 0.3198,
+      "hour": "bmo",
+      "quarter": 4,
+      "revenueActual": null,
+      "revenueEstimate": 60551520,
+      "symbol": "GHM",
+      "year": 2026
+    },
+    {
       "date": "2026-06-05",
       "epsActual": null,
       "epsEstimate": null,
@@ -1693,17 +2034,6 @@
       "revenueEstimate": null,
       "symbol": "EM",
       "year": 2025
-    },
-    {
-      "date": "2026-05-31",
-      "epsActual": -0.67,
-      "epsEstimate": -0.204,
-      "hour": "amc",
-      "quarter": 1,
-      "revenueActual": 102001000,
-      "revenueEstimate": 118736323,
-      "symbol": "CANG",
-      "year": 2026
     }
   ]
 }

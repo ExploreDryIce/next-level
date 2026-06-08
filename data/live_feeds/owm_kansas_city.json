@@ -1,4 +1,46 @@
 {
-  "cod": 401,
-  "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."
+  "coord": {
+    "lon": -94.5781,
+    "lat": 39.1001
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 71.33,
+    "feels_like": 72.59,
+    "temp_min": 69.75,
+    "temp_max": 72.52,
+    "pressure": 1008,
+    "humidity": 94,
+    "sea_level": 1008,
+    "grnd_level": 976
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.38,
+    "deg": 172,
+    "gust": 3.76
+  },
+  "clouds": {
+    "all": 58
+  },
+  "dt": 1780916560,
+  "sys": {
+    "type": 2,
+    "id": 2100527,
+    "country": "US",
+    "sunrise": 1780915944,
+    "sunset": 1780969358
+  },
+  "timezone": -18000,
+  "id": 4393217,
+  "name": "Kansas City",
+  "cod": 200
 }

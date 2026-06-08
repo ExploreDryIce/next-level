@@ -1,4 +1,46 @@
 {
-  "cod": 401,
-  "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."
+  "coord": {
+    "lon": -96.8022,
+    "lat": 32.7797
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 78.17,
+    "feels_like": 79.83,
+    "temp_min": 77.32,
+    "temp_max": 79.25,
+    "pressure": 1011,
+    "humidity": 88,
+    "sea_level": 1011,
+    "grnd_level": 992
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 5.99,
+    "deg": 211,
+    "gust": 8.01
+  },
+  "clouds": {
+    "all": 56
+  },
+  "dt": 1780916468,
+  "sys": {
+    "type": 2,
+    "id": 2075302,
+    "country": "US",
+    "sunrise": 1780917535,
+    "sunset": 1780968834
+  },
+  "timezone": -18000,
+  "id": 4684888,
+  "name": "Dallas",
+  "cod": 200
 }

@@ -10,13 +10,13 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf021dfc73de0c3a0b93032cc09d8339487141e0.001.1",
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8187d77b64b7204bb556c7691a73c5dd183682b0.001.1",
       "type": "Feature",
       "geometry": null,
       "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf021dfc73de0c3a0b93032cc09d8339487141e0.001.1",
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8187d77b64b7204bb556c7691a73c5dd183682b0.001.1",
         "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.bf021dfc73de0c3a0b93032cc09d8339487141e0.001.1",
+        "id": "urn:oid:2.49.0.1.840.0.8187d77b64b7204bb556c7691a73c5dd183682b0.001.1",
         "areaDesc": "Stewart; Montgomery; Robertson; Sumner; Macon; Clay; Pickett; Houston; Humphreys; Dickson; Cheatham; Davidson; Wilson; Trousdale; Smith; Jackson; Putnam; Overton; Fentress; Perry; Hickman; Lewis; Williamson; Maury; Marshall; Rutherford; Cannon; De Kalb; White; Cumberland; Bedford; Coffee; Warren; Grundy; Van Buren; Wayne; Lawrence; Giles",
         "geocode": {
           "SAME": [
@@ -142,16 +142,16 @@
         ],
         "references": [
           {
-            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.a61a6d50d82866bc4f3ec9cf7223c38c2d08a34e.001.1",
-            "identifier": "urn:oid:2.49.0.1.840.0.a61a6d50d82866bc4f3ec9cf7223c38c2d08a34e.001.1",
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bf021dfc73de0c3a0b93032cc09d8339487141e0.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.bf021dfc73de0c3a0b93032cc09d8339487141e0.001.1",
             "sender": "w-nws.webmaster@noaa.gov",
-            "sent": "2026-06-07T13:16:00-05:00"
+            "sent": "2026-06-07T21:19:00-05:00"
           }
         ],
-        "sent": "2026-06-07T21:19:00-05:00",
-        "effective": "2026-06-07T21:19:00-05:00",
+        "sent": "2026-06-08T05:08:00-05:00",
+        "effective": "2026-06-08T05:08:00-05:00",
         "onset": "2026-06-08T06:00:00-05:00",
-        "expires": "2026-06-08T05:30:00-05:00",
+        "expires": "2026-06-08T15:00:00-05:00",
         "ends": "2026-06-08T20:00:00-05:00",
         "status": "Actual",
         "messageType": "Update",
@@ -162,8 +162,8 @@
         "event": "Flood Watch",
         "sender": "w-nws.webmaster@noaa.gov",
         "senderName": "NWS Nashville TN",
-        "headline": "Flood Watch issued June 7 at 9:19PM CDT until June 8 at 8:00PM CDT by NWS Nashville TN",
-        "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...A portion of Middle Tennessee, including the following\ncounties, Bedford, Cannon, Cheatham, Clay, Coffee, Cumberland,\nDavidson, De Kalb, Dickson, Fentress, Giles, Grundy, Hickman,\nHouston, Humphreys, Jackson, Lawrence, Lewis, Macon, Marshall,\nMaury, Montgomery, Overton, Perry, Pickett, Putnam, Robertson,\nRutherford, Smith, Stewart, Sumner, Trousdale, Van Buren, Warren,\nWayne, White, Williamson and Wilson.\n\n* WHEN...From 6 AM CDT Monday through Monday evening.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\n\n* ADDITIONAL DETAILS...\n- A swath of heavy rainfall is expected to set up across Middle\nTN Monday. Confidence is low on exact placing, but confidence\nis high that atmospheric conditions will be favorable for\nheavy rainfall.\n- http://www.weather.gov/safety/flood",
+        "headline": "Flood Watch issued June 8 at 5:08AM CDT until June 8 at 8:00PM CDT by NWS Nashville TN",
+        "description": "* WHAT...Flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...A portion of Middle Tennessee, including the following\ncounties, Bedford, Cannon, Cheatham, Clay, Coffee, Cumberland,\nDavidson, De Kalb, Dickson, Fentress, Giles, Grundy, Hickman,\nHouston, Humphreys, Jackson, Lawrence, Lewis, Macon, Marshall,\nMaury, Montgomery, Overton, Perry, Pickett, Putnam, Robertson,\nRutherford, Smith, Stewart, Sumner, Trousdale, Van Buren, Warren,\nWayne, White, Williamson and Wilson.\n\n* WHEN...Through this evening.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\n\n* ADDITIONAL DETAILS...\n- A swath of heavy rainfall is expected to set up across Middle\nTN Monday. Confidence is low on exact placing, but confidence\nis high that atmospheric conditions will be favorable for\nheavy rainfall.\n- http://www.weather.gov/safety/flood",
         "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop.",
         "response": "Prepare",
         "note": null,
@@ -172,10 +172,10 @@
             "FFAOHX"
           ],
           "WMOidentifier": [
-            "WGUS64 KOHX 080219"
+            "WGUS64 KOHX 081008"
           ],
           "NWSheadline": [
-            "FLOOD WATCH REMAINS IN EFFECT FROM 6 AM CDT MONDAY THROUGH MONDAY EVENING"
+            "FLOOD WATCH REMAINS IN EFFECT THROUGH THIS EVENING"
           ],
           "BLOCKCHANNEL": [
             "EAS",
@@ -190,6 +190,9 @@
           ],
           "eventEndingTime": [
             "2026-06-08T20:00:00-05:00"
+          ],
+          "expiredReferences": [
+            "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a61a6d50d82866bc4f3ec9cf7223c38c2d08a34e.001.1,2026-06-07T13:16:00-05:00"
           ]
         },
         "scope": "Public",
@@ -207,289 +210,13 @@
       }
     },
     {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b1f25c9e9e3b88909ae73b19b4f3c5a643334f4.001.1",
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -87.22,
-              35.05
-            ],
-            [
-              -87.22,
-              35.04
-            ],
-            [
-              -87.22,
-              35
-            ],
-            [
-              -87.29,
-              35
-            ],
-            [
-              -87.58,
-              35.02
-            ],
-            [
-              -87.56,
-              35.18
-            ],
-            [
-              -87.23,
-              35.17
-            ],
-            [
-              -87.22,
-              35.05
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b1f25c9e9e3b88909ae73b19b4f3c5a643334f4.001.1",
-        "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.5b1f25c9e9e3b88909ae73b19b4f3c5a643334f4.001.1",
-        "areaDesc": "Lawrence, TN",
-        "geocode": {
-          "SAME": [
-            "047099"
-          ],
-          "UGC": [
-            "TNC099"
-          ]
-        },
-        "affectedZones": [
-          "https://api.weather.gov/zones/county/TNC099"
-        ],
-        "references": [],
-        "sent": "2026-06-07T18:40:00-05:00",
-        "effective": "2026-06-07T18:40:00-05:00",
-        "onset": "2026-06-07T18:40:00-05:00",
-        "expires": "2026-06-07T22:30:00-05:00",
-        "ends": "2026-06-07T22:30:00-05:00",
-        "status": "Actual",
-        "messageType": "Alert",
-        "category": "Met",
-        "severity": "Minor",
-        "certainty": "Likely",
-        "urgency": "Expected",
-        "event": "Flood Advisory",
-        "sender": "w-nws.webmaster@noaa.gov",
-        "senderName": "NWS Nashville TN",
-        "headline": "Flood Advisory issued June 7 at 6:40PM CDT until June 7 at 10:30PM CDT by NWS Nashville TN",
-        "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...A portion of Middle Tennessee, including the following\ncounty, Lawrence.\n\n* WHEN...Until 1030 PM CDT.\n\n* IMPACTS...Minor flooding in low-lying and poor drainage areas.\nWater over roadways.\n\n* ADDITIONAL DETAILS...\n- At 639 PM CDT, Emergency management reported heavy rain in\nthe advisory area. Minor flooding is ongoing or expected to\nbegin shortly.\n- Additional rainfall amounts of 1 to 2 inches are expected\nover the area. This additional rain will result in minor\nflooding.\n- Some locations that will experience flooding include...\nLoretto, St. Joseph, Leoma, Westpoint and Iron City.\n- http://www.weather.gov/safety/flood",
-        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe aware of your surroundings and do not drive on flooded roads.",
-        "response": "Avoid",
-        "note": null,
-        "parameters": {
-          "AWIPSidentifier": [
-            "FLSOHX"
-          ],
-          "WMOidentifier": [
-            "WGUS84 KOHX 072340"
-          ],
-          "NWSheadline": [
-            "FLOOD ADVISORY IN EFFECT UNTIL 1030 PM CDT THIS EVENING"
-          ],
-          "BLOCKCHANNEL": [
-            "EAS",
-            "NWEM",
-            "CMAS"
-          ],
-          "VTEC": [
-            "/O.NEW.KOHX.FA.Y.0013.260607T2340Z-260608T0330Z/"
-          ],
-          "eventEndingTime": [
-            "2026-06-07T22:30:00-05:00"
-          ]
-        },
-        "scope": "Public",
-        "code": "IPAWSv1.0",
-        "language": "en-US",
-        "web": "http://www.weather.gov",
-        "eventCode": {
-          "SAME": [
-            "NWS"
-          ],
-          "NationalWeatherService": [
-            "FAY"
-          ]
-        }
-      }
-    },
-    {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4e5853139db8f3b704a95e150ea3139226215d2.001.1",
-      "type": "Feature",
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -86.37,
-              35.16
-            ],
-            [
-              -86.36,
-              35.12
-            ],
-            [
-              -86.35,
-              35.15
-            ],
-            [
-              -86.32,
-              35.13
-            ],
-            [
-              -86.33,
-              35.15
-            ],
-            [
-              -86.32,
-              35.16
-            ],
-            [
-              -85.86,
-              35.15
-            ],
-            [
-              -85.86,
-              34.99
-            ],
-            [
-              -85.6,
-              34.98
-            ],
-            [
-              -85.54,
-              34.66
-            ],
-            [
-              -86.09,
-              34.35
-            ],
-            [
-              -86.82,
-              34.56
-            ],
-            [
-              -86.83,
-              35.17
-            ],
-            [
-              -86.37,
-              35.16
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c4e5853139db8f3b704a95e150ea3139226215d2.001.1",
-        "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.c4e5853139db8f3b704a95e150ea3139226215d2.001.1",
-        "areaDesc": "DeKalb, AL; Jackson, AL; Limestone, AL; Madison, AL; Marshall, AL; Morgan, AL; Franklin, TN; Lincoln, TN",
-        "geocode": {
-          "SAME": [
-            "001049",
-            "001071",
-            "001083",
-            "001089",
-            "001095",
-            "001103",
-            "047051",
-            "047103"
-          ],
-          "UGC": [
-            "ALC049",
-            "ALC071",
-            "ALC083",
-            "ALC089",
-            "ALC095",
-            "ALC103",
-            "TNC051",
-            "TNC103"
-          ]
-        },
-        "affectedZones": [
-          "https://api.weather.gov/zones/county/ALC049",
-          "https://api.weather.gov/zones/county/ALC071",
-          "https://api.weather.gov/zones/county/ALC083",
-          "https://api.weather.gov/zones/county/ALC089",
-          "https://api.weather.gov/zones/county/ALC095",
-          "https://api.weather.gov/zones/county/ALC103",
-          "https://api.weather.gov/zones/county/TNC051",
-          "https://api.weather.gov/zones/county/TNC103"
-        ],
-        "references": [],
-        "sent": "2026-06-07T18:00:00-05:00",
-        "effective": "2026-06-07T18:00:00-05:00",
-        "onset": "2026-06-07T18:00:00-05:00",
-        "expires": "2026-06-07T22:00:00-05:00",
-        "ends": "2026-06-07T22:00:00-05:00",
-        "status": "Actual",
-        "messageType": "Alert",
-        "category": "Met",
-        "severity": "Severe",
-        "certainty": "Likely",
-        "urgency": "Expected",
-        "event": "Flood Warning",
-        "sender": "w-nws.webmaster@noaa.gov",
-        "senderName": "NWS Huntsville AL",
-        "headline": "Flood Warning issued June 7 at 6:00PM CDT until June 7 at 10:00PM CDT by NWS Huntsville AL",
-        "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...Portions of Alabama, including the following counties,\nDeKalb, Jackson, Limestone, Madison, Marshall and Morgan and\nsouthern middle Tennessee, including the following counties,\nFranklin TN and Lincoln.\n\n* WHEN...Until 1000 PM CDT.\n\n* IMPACTS...Flooding of rivers, creeks, streams, and other low-lying\nand flood-prone locations is imminent or occurring. Streams\ncontinue to rise due to excess runoff from earlier rainfall.\n\n* ADDITIONAL DETAILS...\n- At 600 PM CDT, gauge reports indicated heavy rain due to\nthunderstorms. Flooding is already occurring in the warned\narea. Between 4 and 9 inches of rain have fallen.\n- Additional rainfall amounts of 0.5 to 1 inch are possible in\nthe warned area.\n- Some locations that will experience flooding include...\nHuntsville, Madison, Scottsboro, Guntersville, Fayetteville,\nRainsville, Bridgeport, Moores Mill, Meridianville, Redstone\nArsenal, Hazel Green, Henagar, Stevenson, Sylvania, Cowan,\nOwens Cross Roads, Fyffe, Hollywood, Powell and Grant.",
-        "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.",
-        "response": "Avoid",
-        "note": null,
-        "parameters": {
-          "AWIPSidentifier": [
-            "FLWHUN"
-          ],
-          "WMOidentifier": [
-            "WGUS44 KHUN 072300"
-          ],
-          "NWSheadline": [
-            "FLOOD WARNING IN EFFECT UNTIL 10 PM CDT THIS EVENING"
-          ],
-          "BLOCKCHANNEL": [
-            "EAS",
-            "NWEM",
-            "CMAS"
-          ],
-          "EAS-ORG": [
-            "WXR"
-          ],
-          "VTEC": [
-            "/O.NEW.KHUN.FA.W.0008.260607T2300Z-260608T0300Z/"
-          ],
-          "eventEndingTime": [
-            "2026-06-07T22:00:00-05:00"
-          ]
-        },
-        "scope": "Public",
-        "code": "IPAWSv1.0",
-        "language": "en-US",
-        "web": "http://www.weather.gov",
-        "eventCode": {
-          "SAME": [
-            "FLW"
-          ],
-          "NationalWeatherService": [
-            "FAW"
-          ]
-        }
-      }
-    },
-    {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd609abd3c8e9c790cfeb877a706fb4e8831d658.001.1",
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb9259957de7ee200ae555f10649e91e6f007f5c.002.1",
       "type": "Feature",
       "geometry": null,
       "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd609abd3c8e9c790cfeb877a706fb4e8831d658.001.1",
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb9259957de7ee200ae555f10649e91e6f007f5c.002.1",
         "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.cd609abd3c8e9c790cfeb877a706fb4e8831d658.001.1",
+        "id": "urn:oid:2.49.0.1.840.0.fb9259957de7ee200ae555f10649e91e6f007f5c.002.1",
         "areaDesc": "Lauderdale; Limestone; Madison; Jackson; Moore; Lincoln; Franklin",
         "geocode": {
           "SAME": [
@@ -520,14 +247,21 @@
           "https://api.weather.gov/zones/forecast/TNZ096",
           "https://api.weather.gov/zones/forecast/TNZ097"
         ],
-        "references": [],
-        "sent": "2026-06-07T13:12:00-05:00",
-        "effective": "2026-06-07T13:12:00-05:00",
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cd609abd3c8e9c790cfeb877a706fb4e8831d658.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.cd609abd3c8e9c790cfeb877a706fb4e8831d658.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T13:12:00-05:00"
+          }
+        ],
+        "sent": "2026-06-08T02:56:00-05:00",
+        "effective": "2026-06-08T02:56:00-05:00",
         "onset": "2026-06-08T06:00:00-05:00",
-        "expires": "2026-06-08T10:00:00-05:00",
+        "expires": "2026-06-08T20:00:00-05:00",
         "ends": "2026-06-08T20:00:00-05:00",
         "status": "Actual",
-        "messageType": "Alert",
+        "messageType": "Update",
         "category": "Met",
         "severity": "Severe",
         "certainty": "Possible",
@@ -535,8 +269,8 @@
         "event": "Flood Watch",
         "sender": "w-nws.webmaster@noaa.gov",
         "senderName": "NWS Huntsville AL",
-        "headline": "Flood Watch issued June 7 at 1:12PM CDT until June 8 at 8:00PM CDT by NWS Huntsville AL",
-        "description": "* WHAT...Flooding caused by excessive rainfall is possible.\n\n* WHERE...Portions of Alabama, including the following areas,\nJackson, Lauderdale, Limestone and Madison and southern middle\nTennessee, including the following areas, Franklin TN, Lincoln and\nMoore.\n\n* WHEN...From Monday morning through Monday evening.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks. Flooding may occur\nin poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- Recent heavy rainfall has caused saturated soils, which will\nincrease the risk of flash flooding as additional rainfall\nmoves in.\n- http://www.weather.gov/safety/flood",
+        "headline": "Flood Watch issued June 8 at 2:56AM CDT until June 8 at 8:00PM CDT by NWS Huntsville AL",
+        "description": "* WHAT...Flooding caused by runoff from excessive rainfall.\n\n* WHERE...Portions of Alabama, including the following areas,\nJackson, Lauderdale, Limestone and Madison and southern middle\nTennessee, including the following areas, Franklin TN, Lincoln and\nMoore.\n\n* WHEN...From 6 AM CDT this morning through this evening.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nCreeks and streams may rise out of their banks. Flooding may occur\nin poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- Additional rounds of showers and thunderstorms will be\ncapable of producing excessive rainfall today.\n- http://www.weather.gov/safety/flood",
         "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop.",
         "response": "Prepare",
         "note": null,
@@ -545,10 +279,10 @@
             "FFAHUN"
           ],
           "WMOidentifier": [
-            "WGUS64 KHUN 071812"
+            "WGUS64 KHUN 080756"
           ],
           "NWSheadline": [
-            "FLOOD WATCH IN EFFECT FROM MONDAY MORNING THROUGH MONDAY EVENING"
+            "FLOOD WATCH REMAINS IN EFFECT FROM 6 AM CDT THIS MORNING THROUGH THIS EVENING"
           ],
           "BLOCKCHANNEL": [
             "EAS",
@@ -559,7 +293,7 @@
             "WXR"
           ],
           "VTEC": [
-            "/O.NEW.KHUN.FA.A.0005.260608T1100Z-260609T0100Z/"
+            "/O.CON.KHUN.FA.A.0005.260608T1100Z-260609T0100Z/"
           ],
           "eventEndingTime": [
             "2026-06-08T20:00:00-05:00"
@@ -580,134 +314,13 @@
       }
     },
     {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b6d8736fc48636a39c31c1d1d963ae0e84e5e6a.002.1",
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0baa80be44493391d78efe75176e409cb7404dc9.001.1",
       "type": "Feature",
       "geometry": null,
       "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b6d8736fc48636a39c31c1d1d963ae0e84e5e6a.002.1",
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0baa80be44493391d78efe75176e409cb7404dc9.001.1",
         "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.5b6d8736fc48636a39c31c1d1d963ae0e84e5e6a.002.1",
-        "areaDesc": "Claiborne; Hancock; Hawkins; Sullivan; Johnson; Grainger; Hamblen; Northwest Cocke; Cocke Smoky Mountains; Northwest Greene; Southeast Greene; Washington; Unicoi; Northwest Carter; Southeast Carter; Jefferson",
-        "geocode": {
-          "SAME": [
-            "047025",
-            "047067",
-            "047073",
-            "047163",
-            "047091",
-            "047057",
-            "047063",
-            "047029",
-            "047059",
-            "047179",
-            "047171",
-            "047019",
-            "047089"
-          ],
-          "UGC": [
-            "TNZ014",
-            "TNZ015",
-            "TNZ016",
-            "TNZ017",
-            "TNZ018",
-            "TNZ038",
-            "TNZ039",
-            "TNZ040",
-            "TNZ041",
-            "TNZ042",
-            "TNZ043",
-            "TNZ044",
-            "TNZ045",
-            "TNZ046",
-            "TNZ047",
-            "TNZ070"
-          ]
-        },
-        "affectedZones": [
-          "https://api.weather.gov/zones/forecast/TNZ014",
-          "https://api.weather.gov/zones/forecast/TNZ015",
-          "https://api.weather.gov/zones/forecast/TNZ016",
-          "https://api.weather.gov/zones/forecast/TNZ017",
-          "https://api.weather.gov/zones/forecast/TNZ018",
-          "https://api.weather.gov/zones/forecast/TNZ038",
-          "https://api.weather.gov/zones/forecast/TNZ039",
-          "https://api.weather.gov/zones/forecast/TNZ040",
-          "https://api.weather.gov/zones/forecast/TNZ041",
-          "https://api.weather.gov/zones/forecast/TNZ042",
-          "https://api.weather.gov/zones/forecast/TNZ043",
-          "https://api.weather.gov/zones/forecast/TNZ044",
-          "https://api.weather.gov/zones/forecast/TNZ045",
-          "https://api.weather.gov/zones/forecast/TNZ046",
-          "https://api.weather.gov/zones/forecast/TNZ047",
-          "https://api.weather.gov/zones/forecast/TNZ070"
-        ],
-        "references": [],
-        "sent": "2026-06-07T14:09:00-04:00",
-        "effective": "2026-06-07T14:09:00-04:00",
-        "onset": "2026-06-08T12:00:00-04:00",
-        "expires": "2026-06-08T03:00:00-04:00",
-        "ends": "2026-06-08T21:00:00-04:00",
-        "status": "Actual",
-        "messageType": "Alert",
-        "category": "Met",
-        "severity": "Severe",
-        "certainty": "Possible",
-        "urgency": "Future",
-        "event": "Flood Watch",
-        "sender": "w-nws.webmaster@noaa.gov",
-        "senderName": "NWS Morristown TN",
-        "headline": "Flood Watch issued June 7 at 2:09PM EDT until June 8 at 9:00PM EDT by NWS Morristown TN",
-        "description": "* WHAT...Flash flooding caused by excessive rainfall is possible.\n\n* WHERE...A portion of east Tennessee, including the following\nareas, Claiborne, Cocke Smoky Mountains, Grainger, Hamblen,\nHancock, Hawkins, Jefferson, Johnson, Northwest Carter, Northwest\nCocke, Northwest Greene, Southeast Carter, Southeast Greene,\nSullivan, Unicoi and Washington TN.\n\n* WHEN...From Monday afternoon through Monday evening.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\n\n* ADDITIONAL DETAILS...\n- Showers and thunderstorms will move into the area Monday,\nsome with very heavy rainfall.  Rainfall rates of 1 to 3\ninches per hour will be possible, which will lead to the risk\nof isolated flash flooding especially in areas that see\nrepeated or prolonged periods of heavy rain.\n- http://www.weather.gov/safety/flood",
-        "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
-        "response": "Prepare",
-        "note": null,
-        "parameters": {
-          "AWIPSidentifier": [
-            "FFAMRX"
-          ],
-          "WMOidentifier": [
-            "WGUS64 KMRX 071809"
-          ],
-          "NWSheadline": [
-            "FLOOD WATCH IN EFFECT FROM MONDAY AFTERNOON THROUGH MONDAY EVENING"
-          ],
-          "BLOCKCHANNEL": [
-            "EAS",
-            "NWEM",
-            "CMAS"
-          ],
-          "EAS-ORG": [
-            "WXR"
-          ],
-          "VTEC": [
-            "/O.NEW.KMRX.FA.A.0005.260608T1600Z-260609T0100Z/"
-          ],
-          "eventEndingTime": [
-            "2026-06-08T21:00:00-04:00"
-          ]
-        },
-        "scope": "Public",
-        "code": "IPAWSv1.0",
-        "language": "en-US",
-        "web": "http://www.weather.gov",
-        "eventCode": {
-          "SAME": [
-            "FFA"
-          ],
-          "NationalWeatherService": [
-            "FAA"
-          ]
-        }
-      }
-    },
-    {
-      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b6d8736fc48636a39c31c1d1d963ae0e84e5e6a.001.1",
-      "type": "Feature",
-      "geometry": null,
-      "properties": {
-        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b6d8736fc48636a39c31c1d1d963ae0e84e5e6a.001.1",
-        "@type": "wx:Alert",
-        "id": "urn:oid:2.49.0.1.840.0.5b6d8736fc48636a39c31c1d1d963ae0e84e5e6a.001.1",
+        "id": "urn:oid:2.49.0.1.840.0.0baa80be44493391d78efe75176e409cb7404dc9.001.1",
         "areaDesc": "Cherokee; Clay; Scott; Campbell; Morgan; Anderson; Union; Roane; Loudon; Knox; NW Blount; Blount Smoky Mountains; North Sevier; Sevier Smoky Mountains; Sequatchie; Bledsoe; Rhea; Meigs; McMinn; Northwest Monroe; Southeast Monroe; Marion; Hamilton; Bradley; West Polk; East Polk",
         "geocode": {
           "SAME": [
@@ -791,14 +404,21 @@
           "https://api.weather.gov/zones/forecast/TNZ101",
           "https://api.weather.gov/zones/forecast/TNZ102"
         ],
-        "references": [],
-        "sent": "2026-06-07T14:09:00-04:00",
-        "effective": "2026-06-07T14:09:00-04:00",
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b6d8736fc48636a39c31c1d1d963ae0e84e5e6a.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.5b6d8736fc48636a39c31c1d1d963ae0e84e5e6a.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T14:09:00-04:00"
+          }
+        ],
+        "sent": "2026-06-08T02:22:00-04:00",
+        "effective": "2026-06-08T02:22:00-04:00",
         "onset": "2026-06-08T07:00:00-04:00",
-        "expires": "2026-06-08T03:00:00-04:00",
+        "expires": "2026-06-08T21:00:00-04:00",
         "ends": "2026-06-08T21:00:00-04:00",
         "status": "Actual",
-        "messageType": "Alert",
+        "messageType": "Update",
         "category": "Met",
         "severity": "Severe",
         "certainty": "Possible",
@@ -806,8 +426,8 @@
         "event": "Flood Watch",
         "sender": "w-nws.webmaster@noaa.gov",
         "senderName": "NWS Morristown TN",
-        "headline": "Flood Watch issued June 7 at 2:09PM EDT until June 8 at 9:00PM EDT by NWS Morristown TN",
-        "description": "* WHAT...Flash flooding caused by excessive rainfall is possible.\n\n* WHERE...Portions of southwest North Carolina, including the\nfollowing areas, Cherokee and Clay and east Tennessee, including\nthe following areas, Anderson, Bledsoe, Blount Smoky Mountains,\nBradley, Campbell, East Polk, Hamilton, Knox, Loudon, Marion,\nMcMinn, Meigs, Morgan, North Sevier, Northwest Blount, Northwest\nMonroe, Rhea, Roane, Scott TN, Sequatchie, Sevier Smoky Mountains,\nSoutheast Monroe, Union and West Polk.\n\n* WHEN...From Monday morning through Monday evening.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\n\n* ADDITIONAL DETAILS...\n- Showers and thunderstorms will move into the area Monday,\nsome with very heavy rainfall.  Rainfall rates of 1 to 3\ninches per hour will be possible and some locations will\nalready heave wet ground, which will lead to the risk of\nisolated flash flooding especially in areas that see repeated\nor prolonged periods of heavy rain.\n- http://www.weather.gov/safety/flood",
+        "headline": "Flood Watch issued June 8 at 2:22AM EDT until June 8 at 9:00PM EDT by NWS Morristown TN",
+        "description": "* WHAT...Flash flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Portions of southwest North Carolina, including the\nfollowing areas, Cherokee and Clay and east Tennessee, including\nthe following areas, Anderson, Bledsoe, Blount Smoky Mountains,\nBradley, Campbell, East Polk, Hamilton, Knox, Loudon, Marion,\nMcMinn, Meigs, Morgan, North Sevier, Northwest Blount, Northwest\nMonroe, Rhea, Roane, Scott TN, Sequatchie, Sevier Smoky Mountains,\nSoutheast Monroe, Union and West Polk.\n\n* WHEN...From 7 AM EDT  /6 AM CDT/ this morning through this evening.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\n\n* ADDITIONAL DETAILS...\n- Showers and thunderstorms will move into the area Monday,\nsome with very heavy rainfall.  Rainfall rates of 1 to 3\ninches per hour will be possible and some locations will\nalready heave wet ground, which will lead to the risk of\nisolated flash flooding especially in areas that see repeated\nor prolonged periods of heavy rain.\n- http://www.weather.gov/safety/flood",
         "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
         "response": "Prepare",
         "note": null,
@@ -816,10 +436,10 @@
             "FFAMRX"
           ],
           "WMOidentifier": [
-            "WGUS64 KMRX 071809"
+            "WGUS64 KMRX 080622"
           ],
           "NWSheadline": [
-            "FLOOD WATCH IN EFFECT FROM MONDAY MORNING THROUGH MONDAY EVENING"
+            "FLOOD WATCH REMAINS IN EFFECT FROM 7 AM EDT /6 AM CDT/ THIS MORNING THROUGH THIS EVENING"
           ],
           "BLOCKCHANNEL": [
             "EAS",
@@ -830,7 +450,7 @@
             "WXR"
           ],
           "VTEC": [
-            "/O.NEW.KMRX.FA.A.0005.260608T1100Z-260609T0100Z/"
+            "/O.CON.KMRX.FA.A.0005.260608T1100Z-260609T0100Z/"
           ],
           "eventEndingTime": [
             "2026-06-08T21:00:00-04:00"
@@ -849,8 +469,275 @@
           ]
         }
       }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0baa80be44493391d78efe75176e409cb7404dc9.002.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.0baa80be44493391d78efe75176e409cb7404dc9.002.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.0baa80be44493391d78efe75176e409cb7404dc9.002.1",
+        "areaDesc": "Claiborne; Hancock; Hawkins; Sullivan; Johnson; Grainger; Hamblen; Northwest Cocke; Cocke Smoky Mountains; Northwest Greene; Southeast Greene; Washington; Unicoi; Northwest Carter; Southeast Carter; Jefferson",
+        "geocode": {
+          "SAME": [
+            "047025",
+            "047067",
+            "047073",
+            "047163",
+            "047091",
+            "047057",
+            "047063",
+            "047029",
+            "047059",
+            "047179",
+            "047171",
+            "047019",
+            "047089"
+          ],
+          "UGC": [
+            "TNZ014",
+            "TNZ015",
+            "TNZ016",
+            "TNZ017",
+            "TNZ018",
+            "TNZ038",
+            "TNZ039",
+            "TNZ040",
+            "TNZ041",
+            "TNZ042",
+            "TNZ043",
+            "TNZ044",
+            "TNZ045",
+            "TNZ046",
+            "TNZ047",
+            "TNZ070"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/TNZ014",
+          "https://api.weather.gov/zones/forecast/TNZ015",
+          "https://api.weather.gov/zones/forecast/TNZ016",
+          "https://api.weather.gov/zones/forecast/TNZ017",
+          "https://api.weather.gov/zones/forecast/TNZ018",
+          "https://api.weather.gov/zones/forecast/TNZ038",
+          "https://api.weather.gov/zones/forecast/TNZ039",
+          "https://api.weather.gov/zones/forecast/TNZ040",
+          "https://api.weather.gov/zones/forecast/TNZ041",
+          "https://api.weather.gov/zones/forecast/TNZ042",
+          "https://api.weather.gov/zones/forecast/TNZ043",
+          "https://api.weather.gov/zones/forecast/TNZ044",
+          "https://api.weather.gov/zones/forecast/TNZ045",
+          "https://api.weather.gov/zones/forecast/TNZ046",
+          "https://api.weather.gov/zones/forecast/TNZ047",
+          "https://api.weather.gov/zones/forecast/TNZ070"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5b6d8736fc48636a39c31c1d1d963ae0e84e5e6a.002.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.5b6d8736fc48636a39c31c1d1d963ae0e84e5e6a.002.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-06-07T14:09:00-04:00"
+          }
+        ],
+        "sent": "2026-06-08T02:22:00-04:00",
+        "effective": "2026-06-08T02:22:00-04:00",
+        "onset": "2026-06-08T12:00:00-04:00",
+        "expires": "2026-06-08T21:00:00-04:00",
+        "ends": "2026-06-08T21:00:00-04:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Morristown TN",
+        "headline": "Flood Watch issued June 8 at 2:22AM EDT until June 8 at 9:00PM EDT by NWS Morristown TN",
+        "description": "* WHAT...Flash flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...A portion of east Tennessee, including the following\nareas, Claiborne, Cocke Smoky Mountains, Grainger, Hamblen,\nHancock, Hawkins, Jefferson, Johnson, Northwest Carter, Northwest\nCocke, Northwest Greene, Southeast Carter, Southeast Greene,\nSullivan, Unicoi and Washington TN.\n\n* WHEN...From noon EDT today through this evening.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\n\n* ADDITIONAL DETAILS...\n- Showers and thunderstorms will move into the area Monday,\nsome with very heavy rainfall.  Rainfall rates of 1 to 3\ninches per hour will be possible and some locations will\nalready heave wet ground, which will lead to the risk of\nisolated flash flooding especially in areas that see repeated\nor prolonged periods of heavy rain.\n- http://www.weather.gov/safety/flood",
+        "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFAMRX"
+          ],
+          "WMOidentifier": [
+            "WGUS64 KMRX 080622"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH REMAINS IN EFFECT FROM NOON EDT TODAY THROUGH THIS EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.CON.KMRX.FA.A.0005.260608T1600Z-260609T0100Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T21:00:00-04:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFA"
+          ],
+          "NationalWeatherService": [
+            "FAA"
+          ]
+        }
+      }
+    },
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.285c0871c51151d3dbb43dbcf98dc76d120463e4.001.1",
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -86.58,
+              35.07
+            ],
+            [
+              -86.32,
+              35
+            ],
+            [
+              -86.32,
+              34.99
+            ],
+            [
+              -86.31,
+              34.99
+            ],
+            [
+              -86.29,
+              34.99
+            ],
+            [
+              -85.75,
+              34.84
+            ],
+            [
+              -85.96,
+              34.54
+            ],
+            [
+              -86.15,
+              34.6
+            ],
+            [
+              -86.16,
+              34.6
+            ],
+            [
+              -86.36,
+              34.66
+            ],
+            [
+              -86.79,
+              34.79
+            ],
+            [
+              -86.58,
+              35.07
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.285c0871c51151d3dbb43dbcf98dc76d120463e4.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.285c0871c51151d3dbb43dbcf98dc76d120463e4.001.1",
+        "areaDesc": "Jackson, AL; Madison, AL; Lincoln, TN",
+        "geocode": {
+          "SAME": [
+            "001071",
+            "001089",
+            "047103"
+          ],
+          "UGC": [
+            "ALC071",
+            "ALC089",
+            "TNC103"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/county/ALC071",
+          "https://api.weather.gov/zones/county/ALC089",
+          "https://api.weather.gov/zones/county/TNC103"
+        ],
+        "references": [],
+        "sent": "2026-06-08T00:16:00-05:00",
+        "effective": "2026-06-08T00:16:00-05:00",
+        "onset": "2026-06-08T00:16:00-05:00",
+        "expires": "2026-06-08T07:00:00-05:00",
+        "ends": "2026-06-08T07:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Flood Warning",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Huntsville AL",
+        "headline": "Flood Warning issued June 8 at 12:16AM CDT until June 8 at 7:00AM CDT by NWS Huntsville AL",
+        "description": "* WHAT...Flooding caused by excessive rainfall is occurring.\n\n* WHERE...Portions of Alabama, including the following counties,\nJackson and Madison and southern middle Tennessee, including the\nfollowing county, Lincoln.\n\n* WHEN...Until 700 AM CDT Monday.\n\n* IMPACTS...Streams continue to rise due to excess runoff from\nearlier rainfall.\n\n* ADDITIONAL DETAILS...\n- At 1215 AM CDT, Emergency management reported flooding in the\nwarned area. Flooding is already occurring. Between 4 and 8\ninches of rain have fallen.\n- Flooding impacts will continue, but no additional rainfall is\nexpected.\n- Some locations that will experience flooding include...\nNorthern Huntsville, Scottsboro, Moores Mill, Meridianville,\nHazel Green, Stevenson, Hollywood, Skyline, Gurley, Section,\nWoodville, Pisgah, New Market, Alabama A And M University,\nHarvest, Lincoln, Pleasant Groves, Hytop, Dutton and Paint\nRock.",
+        "instruction": "Be especially cautious at night when it is harder to recognize the\ndangers of flooding.",
+        "response": "Avoid",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FLWHUN"
+          ],
+          "WMOidentifier": [
+            "WGUS44 KHUN 080516"
+          ],
+          "NWSheadline": [
+            "FLOOD WARNING IN EFFECT UNTIL 7 AM CDT THIS MORNING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.NEW.KHUN.FA.W.0010.260608T0516Z-260608T1200Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T07:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FLW"
+          ],
+          "NationalWeatherService": [
+            "FAW"
+          ]
+        }
+      }
     }
   ],
   "title": "Current watches, warnings, and advisories for Tennessee",
-  "updated": "2026-06-08T02:53:22+00:00"
+  "updated": "2026-06-08T11:00:00+00:00"
 }

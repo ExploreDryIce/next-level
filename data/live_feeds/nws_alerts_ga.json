@@ -1,9 +1,180 @@
 {
-  "@context": {
-    "@version": "1.1"
-  },
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
   "type": "FeatureCollection",
-  "features": [],
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a6b74cda851fe6828e1f2edb721c09c9da90834.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.8a6b74cda851fe6828e1f2edb721c09c9da90834.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.8a6b74cda851fe6828e1f2edb721c09c9da90834.001.1",
+        "areaDesc": "Dade; Walker; Catoosa; Whitfield; Murray; Fannin; Gilmer; Chattooga; Gordon; Pickens; Dawson; Floyd; Bartow; Cherokee; Forsyth; Polk; Paulding; Cobb; North Fulton; Gwinnett; Haralson; Carroll; Douglas; South Fulton; DeKalb; Rockdale; Coweta; Fayette; Clayton; Henry",
+        "geocode": {
+          "SAME": [
+            "013083",
+            "013295",
+            "013047",
+            "013313",
+            "013213",
+            "013111",
+            "013123",
+            "013055",
+            "013129",
+            "013227",
+            "013085",
+            "013115",
+            "013015",
+            "013057",
+            "013117",
+            "013233",
+            "013223",
+            "013067",
+            "013121",
+            "013135",
+            "013143",
+            "013045",
+            "013097",
+            "013089",
+            "013247",
+            "013077",
+            "013113",
+            "013063",
+            "013151"
+          ],
+          "UGC": [
+            "GAZ001",
+            "GAZ002",
+            "GAZ003",
+            "GAZ004",
+            "GAZ005",
+            "GAZ006",
+            "GAZ007",
+            "GAZ011",
+            "GAZ012",
+            "GAZ013",
+            "GAZ014",
+            "GAZ019",
+            "GAZ020",
+            "GAZ021",
+            "GAZ022",
+            "GAZ030",
+            "GAZ031",
+            "GAZ032",
+            "GAZ033",
+            "GAZ034",
+            "GAZ041",
+            "GAZ042",
+            "GAZ043",
+            "GAZ044",
+            "GAZ045",
+            "GAZ046",
+            "GAZ053",
+            "GAZ054",
+            "GAZ055",
+            "GAZ057"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/GAZ001",
+          "https://api.weather.gov/zones/forecast/GAZ002",
+          "https://api.weather.gov/zones/forecast/GAZ003",
+          "https://api.weather.gov/zones/forecast/GAZ004",
+          "https://api.weather.gov/zones/forecast/GAZ005",
+          "https://api.weather.gov/zones/forecast/GAZ006",
+          "https://api.weather.gov/zones/forecast/GAZ007",
+          "https://api.weather.gov/zones/forecast/GAZ011",
+          "https://api.weather.gov/zones/forecast/GAZ012",
+          "https://api.weather.gov/zones/forecast/GAZ013",
+          "https://api.weather.gov/zones/forecast/GAZ014",
+          "https://api.weather.gov/zones/forecast/GAZ019",
+          "https://api.weather.gov/zones/forecast/GAZ020",
+          "https://api.weather.gov/zones/forecast/GAZ021",
+          "https://api.weather.gov/zones/forecast/GAZ022",
+          "https://api.weather.gov/zones/forecast/GAZ030",
+          "https://api.weather.gov/zones/forecast/GAZ031",
+          "https://api.weather.gov/zones/forecast/GAZ032",
+          "https://api.weather.gov/zones/forecast/GAZ033",
+          "https://api.weather.gov/zones/forecast/GAZ034",
+          "https://api.weather.gov/zones/forecast/GAZ041",
+          "https://api.weather.gov/zones/forecast/GAZ042",
+          "https://api.weather.gov/zones/forecast/GAZ043",
+          "https://api.weather.gov/zones/forecast/GAZ044",
+          "https://api.weather.gov/zones/forecast/GAZ045",
+          "https://api.weather.gov/zones/forecast/GAZ046",
+          "https://api.weather.gov/zones/forecast/GAZ053",
+          "https://api.weather.gov/zones/forecast/GAZ054",
+          "https://api.weather.gov/zones/forecast/GAZ055",
+          "https://api.weather.gov/zones/forecast/GAZ057"
+        ],
+        "references": [],
+        "sent": "2026-06-08T04:05:00-04:00",
+        "effective": "2026-06-08T04:05:00-04:00",
+        "onset": "2026-06-08T08:00:00-04:00",
+        "expires": "2026-06-08T21:00:00-04:00",
+        "ends": "2026-06-08T21:00:00-04:00",
+        "status": "Actual",
+        "messageType": "Alert",
+        "category": "Met",
+        "severity": "Severe",
+        "certainty": "Possible",
+        "urgency": "Future",
+        "event": "Flood Watch",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Peachtree City GA",
+        "headline": "Flood Watch issued June 8 at 4:05AM EDT until June 8 at 9:00PM EDT by NWS Peachtree City GA",
+        "description": "* WHAT...Flooding caused by excessive rainfall is possible.\n\n* WHERE...Portions of north central, northwest, and west central\nGeorgia, including the following areas, in north central Georgia,\nCherokee, Clayton, Cobb, Dawson, DeKalb, Douglas, Fannin, Fayette,\nForsyth, Gilmer, Gwinnett, Henry, North Fulton, Pickens, Rockdale\nand South Fulton. In northwest Georgia, Bartow, Carroll, Catoosa,\nChattooga, Dade, Floyd, Gordon, Haralson, Murray, Paulding, Polk,\nWalker and Whitfield. In west central Georgia, Coweta.\n\n* WHEN...From 8 AM EDT this morning through this evening.\n\n* IMPACTS...Excessive runoff may result in flooding of rivers,\ncreeks, streams, and other low-lying and flood-prone locations.\nFlooding may occur in poor drainage and urban areas.\n\n* ADDITIONAL DETAILS...\n- Additional rounds of rainfall are expected to move across the\narea through the day today. An anomalously moist environment over\nGeorgia will support high rain rates and increased chances for\nflash flooding. Convective rainfall (showers and thunderstorms)\nmay repeatedly move over the same areas and have locally high\nenough rainfall rates to result in flash flooding particularly in\nurban areas and areas with poor drainage. Creeks and streams will\nalso be susceptible to flash flooding.\n- http://www.weather.gov/safety/flood",
+        "instruction": "You should monitor later forecasts and be alert for possible Flood\nWarnings. Those living in areas prone to flooding should be prepared\nto take action should flooding develop.",
+        "response": "Prepare",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "FFAFFC"
+          ],
+          "WMOidentifier": [
+            "WGUS62 KFFC 080805"
+          ],
+          "NWSheadline": [
+            "FLOOD WATCH IN EFFECT FROM 8 AM EDT THIS MORNING THROUGH THIS EVENING"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "EAS-ORG": [
+            "WXR"
+          ],
+          "VTEC": [
+            "/O.NEW.KFFC.FA.A.0004.260608T1200Z-260609T0100Z/"
+          ],
+          "eventEndingTime": [
+            "2026-06-08T21:00:00-04:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "FFA"
+          ],
+          "NationalWeatherService": [
+            "FAA"
+          ]
+        }
+      }
+    }
+  ],
   "title": "Current watches, warnings, and advisories for Georgia",
-  "updated": "2026-06-08T02:53:22+00:00"
+  "updated": "2026-06-08T11:00:00+00:00"
 }

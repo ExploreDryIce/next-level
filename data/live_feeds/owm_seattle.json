@@ -1,4 +1,46 @@
 {
-  "cod": 401,
-  "message": "Invalid API key. Please see https://openweathermap.org/faq#error401 for more info."
+  "coord": {
+    "lon": -122.33,
+    "lat": 47.61
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 48.25,
+    "feels_like": 48.25,
+    "temp_min": 46.17,
+    "temp_max": 49.87,
+    "pressure": 1010,
+    "humidity": 84,
+    "sea_level": 1010,
+    "grnd_level": 1001
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.01,
+    "deg": 82,
+    "gust": 1.99
+  },
+  "clouds": {
+    "all": 71
+  },
+  "dt": 1780916606,
+  "sys": {
+    "type": 2,
+    "id": 2073910,
+    "country": "US",
+    "sunrise": 1780920743,
+    "sunset": 1780977881
+  },
+  "timezone": -25200,
+  "id": 5809844,
+  "name": "Seattle",
+  "cod": 200
 }

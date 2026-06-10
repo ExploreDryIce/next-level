@@ -15,7 +15,8 @@
         "cid_stats",
         "cid_failures",
         "cid_session_start",
-        "cid_remember"
+        "cid_remember",
+        "cid_session_end"
       ]
     }
   }

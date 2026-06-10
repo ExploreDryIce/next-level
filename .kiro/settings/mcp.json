@@ -2,12 +2,21 @@
   "mcpServers": {
     "cid": {
       "command": "/Users/webber/Desktop/dvce/.venv/bin/python",
-      "args": ["/Users/webber/Desktop/next-level/src/cid/mcp_server.py"],
+      "args": [
+        "/Users/webber/Desktop/next-level/src/cid/mcp_server.py"
+      ],
       "env": {
         "PYTHONPATH": "/Users/webber/Desktop/next-level/src"
       },
       "disabled": false,
-      "autoApprove": ["cid_recall", "cid_conventions", "cid_stats", "cid_failures", "cid_session_start"]
+      "autoApprove": [
+        "cid_recall",
+        "cid_conventions",
+        "cid_stats",
+        "cid_failures",
+        "cid_session_start",
+        "cid_remember"
+      ]
     }
   }
 }

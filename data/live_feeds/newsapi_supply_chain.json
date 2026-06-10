@@ -1,214 +1,19 @@
 {
   "status": "ok",
-  "totalResults": 825,
+  "totalResults": 817,
   "articles": [
     {
       "source": {
-        "id": null,
-        "name": "Successful-blog.com"
+        "id": "financial-post",
+        "name": "Financial Post"
       },
-      "author": "Henry Collins",
-      "title": "Successful Businesses Change Market Trends: How to Adapt",
-      "description": "The business landscape is moving faster than ever before. Companies that thrive do not just react to shifts in their industry; they actively anticipate them. In fact, many successful businesses change market trends by introducing disruptive technologies, rewr\u2026",
-      "url": "https://www.successful-blog.com/1/successful-businesses-change-market-trends/",
-      "urlToImage": "https://www.successful-blog.com/wp-content/uploads/2026/06/successful-businesses-change-market-trends.webp",
-      "publishedAt": "2026-06-07T10:30:00Z",
-      "content": "The business landscape is moving faster than ever before. Companies that thrive do not just react to shifts in their industry; they actively anticipate them. In fact, many successful businesses chang\u2026 [+6617 chars]"
-    },
-    {
-      "source": {
-        "id": "al-jazeera-english",
-        "name": "Al Jazeera English"
-      },
-      "author": "Hanna Duggal, Alia Chughtai",
-      "title": "By the numbers: 100 days of the US-Israel war on Iran",
-      "description": "From the human cost to the economy, Al Jazeera visualises how the US-Israel war on Iran has unfolded since February 28.",
-      "url": "https://www.aljazeera.com/news/2026/6/7/by-the-numbers-100-days-of-the-us-israel-war-on-iran",
-      "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/06/2026-05-30T075830Z_2019755876_RC2JJLAL2ZPQ_RTRMADP_3_IRAN-CRISIS-1780702840.jpg?resize=1920%2C1440",
-      "publishedAt": "2026-06-07T05:30:52Z",
-      "content": "Sunday marks 100 days into a war that US President Donald Trump said was going to finish very fast.\r\nDespite a ceasefire agreed on April 8, the Strait of Hormuz remains largely closed, sporadic fire \u2026 [+10135 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Livemint"
-      },
-      "author": "howindialives.com",
-      "title": "Why the market isn't buying Salesforce's AI story",
-      "description": "Salesforce is betting heavily on AI across its products, operations and acquisitions. The company is already seeing productivity gains, but investors are still waiting for proof that AI can drive durable growth.",
-      "url": "https://www.livemint.com/companies/news/salesforce-ai-strategy-investors-remain-unconvinced-11780657093855.html",
-      "urlToImage": "https://www.livemint.com/lm-img/img/2026/06/06/1600x900/logo/SALESFORCE-RESULTS--0_1780729532470_1780729539422_bb23b95c-a13d-4aef-93d1-5c27dfd605d1.JPG",
-      "publishedAt": "2026-06-07T01:30:18Z",
-      "content": "Disruption fears\r\nSalesforce shares have fallen more than 28% since the start of the year. Its peers have also suffered sharp declines, ranging from 21% for ServiceNow to 54% for Intuit, even as the \u2026 [+5778 chars]"
-    },
-    {
-      "source": {
-        "id": "the-times-of-india",
-        "name": "The Times of India"
-      },
-      "author": "Reuters",
-      "title": "Middle East conflict fuels airline bankruptcy risks, more mergers likely: IATA",
-      "description": "Soaring jet fuel prices due to Middle East conflict are pushing budget airlines towards bankruptcy and industry consolidation, according to the head of the global airline body.  Slow aircraft and engine deliveries are exacerbating these financial strains. Des\u2026",
-      "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/middle-east-conflict-fuels-airline-bankruptcy-risks-more-mergers-likely-iata/articleshow/131560976.cms",
-      "urlToImage": "https://img.etimg.com/thumb/msid-131560985,width-1200,height-630,imgsize-55786,overlay-economictimes/articleshow.jpg",
-      "publishedAt": "2026-06-07T01:03:52Z",
-      "content": "Soaring jet fuel prices driven by conflict in the Middle East are likely to push more airlines into bankruptcy and spur more sector consolidation this year and next, the head of the global airline bo\u2026 [+3846 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Ubergizmo"
-      },
-      "author": "Paulo Montenegro",
-      "title": "Valve Steam Machine Price Leaks Online Ahead Of Summer 2026 Launch Window",
-      "description": "Following several scheduling delays, Valve has officially established the launch window for its highly anticipated Steam Machine console and the Steam Frame virtual reality headset. The confirmation was introduced subtly within an announcement detailing the e\u2026",
-      "url": "https://www.ubergizmo.com/2026/06/valve-steam-machine-price-leaks/",
-      "urlToImage": "https://i0.wp.com/cdnbunny.ubergizmo.com/wp-content/uploads/2026/06/steam-machine.webp",
-      "publishedAt": "2026-06-07T00:57:06Z",
-      "content": "Following several scheduling delays, Valve has officially established the launch window for its highly anticipated Steam Machine console and the Steam Frame virtual reality headset. The confirmation \u2026 [+2198 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Crypto Briefing"
-      },
-      "author": "Editorial Team",
-      "title": "Treasury designates network facilitating Iranian LPG smuggling to Asia",
-      "description": "The Treasury's actions highlight the increasing global scrutiny and potential disruption of illicit energy trade networks, impacting international relations and compliance standards.\nThe post Treasury designates network facilitating Iranian LPG smuggling to A\u2026",
-      "url": "https://cryptobriefing.com/treasury-designates-iranian-lpg-smuggling-network/",
-      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/06192202/treasury-targets-iranian-lpg-smuggling-network-as-u-s-pressu-1-800x420.jpeg",
-      "publishedAt": "2026-06-06T23:22:02Z",
-      "content": "OFAC sanctions individuals, companies, and six tankers tied to a scheme disguising Iranian liquefied petroleum gas as Omani product. The US Treasury\u2019s Office of Foreign Assets Control just took a sle\u2026 [+2625 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Globalsecurity.org"
-      },
-      "author": "John Pike",
-      "title": "Australia-New Zealand Leaders' Meeting 2026",
-      "description": "No description",
-      "url": "https://www.globalsecurity.org/wmd/library/news/australia/2026/australia-260606-australia-pm01.htm",
+      "author": "GlobeNewswire",
+      "title": "CECO Environmental Provides Post-Closing Update on Thermon Transaction",
+      "description": "Updates Full Year 2026 Outlook to Incorporate Combination ADDISON, Texas, June 09, 2026 (GLOBE NEWSWIRE) \u2014 CECO Environmental Corp. (Nasdaq: CECO) (\u201cCECO\u201d or the \u201cCompany\u201d), a leading environmentally focused, diversified industrial company whose solutions pro\u2026",
+      "url": "https://financialpost.com/globe-newswire/ceco-environmental-provides-post-closing-update-on-thermon-transaction",
       "urlToImage": null,
-      "publishedAt": "2026-06-06T11:37:16Z",
-      "content": "Australia Department of Foreign Affairs and Trade\r\nJoint statementSaturday 6 June 2026\r\nThe Hon Anthony Albanese MPPrime Minister of Australia\r\nRt Hon Christopher Luxon MPPrime Minister of New Zealan\u2026 [+18971 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Arabnews.jp"
-      },
-      "author": null,
-      "title": "AI helps Saudi real estate shift from delays to data-driven delivery",
-      "description": "ALKHOBAR: Saudi Arabia\u2019s real estate sector is entering a new phase of artificial intelligence adoption as lar\u30fb\u30fb\u30fb",
-      "url": "https://www.arabnews.jp/en/business/article_171576/",
-      "urlToImage": "https://www.arabnews.jp/en/wp-content/uploads/sites/2/2026/06/4718764-1924847003-1-658x370.jpg",
-      "publishedAt": "2026-06-06T10:00:27Z",
-      "content": "Waad Hussain\r\nALKHOBAR: Saudi Arabias real estate sector is entering a new phase of artificial intelligence adoption as large-scale developments move beyond digital experimentation and into day-to-da\u2026 [+6176 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Crypto Briefing"
-      },
-      "author": "Editorial Team",
-      "title": "Hon Hai Precision Industry revenue rises 34% amid Nvidia server demand",
-      "description": "Foxconn's AI server growth highlights a shift in tech manufacturing, impacting global supply chains and emphasizing Nvidia's market influence.\nThe post Hon Hai Precision Industry revenue rises 34% amid Nvidia server demand appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/hon-hai-foxconn-revenue-nvidia-ai-servers/",
-      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/06042607/hon-hai-revenue-surges-34-to-us-53-6-billion-as-ai-server-de-1-800x420.jpeg",
-      "publishedAt": "2026-06-06T08:26:08Z",
-      "content": "Foxconn's AI server business has quietly overtaken smartphones as its biggest revenue driver, reshaping the world's largest electronics manufacturer. The company that built its empire assembling iPho\u2026 [+3285 chars]"
-    },
-    {
-      "source": {
-        "id": "techradar",
-        "name": "TechRadar"
-      },
-      "author": "Craig Hale",
-      "title": "\u2018Communities across the UK are paying the price for this criminal behaviour': Openreach teams up with metal recycling giant to tackle UK's \u00a34bn a decade cable theft problem",
-      "description": "Openreach is fighting the escalating \u00a3500m yearly cable theft problem with new partnerships, DNA tracing and grid alarms.",
-      "url": "https://www.techradar.com/pro/communities-across-the-uk-are-paying-the-price-for-this-criminal-behaviour-openreach-teams-up-with-metal-recycling-giant-to-tackle-uks-gbp4bn-a-decade-cable-theft-problem",
-      "urlToImage": "https://cdn.mos.cms.futurecdn.net/j8cx6PL4bJXFtdX3SheWiJ-1599-80.jpg",
-      "publishedAt": "2026-06-06T06:20:00Z",
-      "content": "<ul><li>Cable theft costs the UK \u00a3500 million yearly, and it continues to grow</li><li>Over 100,000 customers have been impacted and 1.2 million hours lost since April 2024</li><li>Openreach partners\u2026 [+3669 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Alltoc.com"
-      },
-      "author": "AllToc",
-      "title": "Why is Lamb Weston closing its Netherlands plant? #food",
-      "description": "Lamb Weston to close Netherlands potato plant Lamb Weston plans to close its frozen potato products manufacturing site in Broekhuizenvorst, the Netherlands , as part of a broader corporate move by the US based frozen potato supplier. The announcement follows \u2026",
-      "url": "https://alltoc.com/food/why-is-lamb-weston-closing-its-netherlands-plant",
-      "urlToImage": "https://alltoc.com/cdn/1048/og.png",
-      "publishedAt": "2026-06-06T06:02:55Z",
-      "content": "Lamb Weston plans to close its frozen potato-products manufacturing site in Broekhuizenvorst, the Netherlands, as part of a broader corporate move by the US-based frozen potato supplier. The announce\u2026 [+1325 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BusinessLine"
-      },
-      "author": "Vipul   Kumar",
-      "title": "Fertiliser security should anchor India\u2019s green hydrogen strategy",
-      "description": "The opportunity now is to use that architecture to deliberately build capabilities in sectors where India has both the industrial base and the strategic need",
-      "url": "https://www.thehindubusinessline.com/economy/agri-business/fertiliser-security-should-anchor-indias-green-hydrogen-strategy/article71066880.ece",
-      "urlToImage": "https://bl-i.thgim.com/public/incoming/sz8sxc/article71040145.ece/alternates/LANDSCAPE_1200/04thBLUrea-DAPGL7FLV115.3.jpg.jpg",
-      "publishedAt": "2026-06-06T04:58:15Z",
-      "content": "India launched the National Green Hydrogen Mission (NGHM) in 2023 with ambitions that went well beyond clean energy. The goal was to reduce dependence on imports, strengthen energy security, and posi\u2026 [+3975 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Crypto Briefing"
-      },
-      "author": "Editorial Team",
-      "title": "Taiwan Semiconductor Manufacturing strengthens silicon shield strategy with $250B US investment deal",
-      "description": "The US-Taiwan semiconductor partnership enhances geopolitical stability by deepening economic ties and deterring potential military conflicts.\nThe post Taiwan Semiconductor Manufacturing strengthens silicon shield strategy with $250B US investment deal appear\u2026",
-      "url": "https://cryptobriefing.com/tsmc-silicon-shield-strategy-taiwan/",
-      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/06003003/is-taiwan-s-silicon-shield-a-security-guarantee-or-a-target--1-800x420.jpeg",
-      "publishedAt": "2026-06-06T04:30:03Z",
-      "content": "TSMC keeps its most advanced chip production at home while expanding globally, reinforcing Taiwan's geopolitical leverage in the AI era. Taiwan\u2019s most valuable export isn\u2019t semiconductors. It\u2019s the f\u2026 [+2931 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Alltoc.com"
-      },
-      "author": "AllToc",
-      "title": "What caused world cereal prices to spike? #food",
-      "description": "FAO tracked cereal prices hit a 19 month high World cereal prices rose in May to a 19 month high , according to FAO\u2019s monthly tracking of global cereal prices. The increase is linked to cost pressures that are building across the supply chain\u2014particularly fue\u2026",
-      "url": "https://alltoc.com/food/what-caused-world-cereal-prices-to-spike",
-      "urlToImage": "https://alltoc.com/cdn/1048/og.png",
-      "publishedAt": "2026-06-06T00:03:16Z",
-      "content": "World cereal prices rose in May to a 19-month high, according to FAOs monthly tracking of global cereal prices. The increase is linked to cost pressures that are building across the supply chainparti\u2026 [+1299 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Thehillstimes.in"
-      },
-      "author": "The Hills Times",
-      "title": "India\u2019s GDP grows 7.8 pc in Q4, full-year growth rises to 7.7 pc",
-      "description": "NEW DELHI, June 5: India\u2019s economy expanded 7.8 per cent in the January-March quarter, exceeding forecasts on strong domestic demand and government expenditure, before rising oil prices and supply-chain disruptions began clouding the outlook. The GDP growth c\u2026",
-      "url": "https://thehillstimes.in/national/indias-gdp-grows-7-8-pc-in-q4-full-year-growth-rises-to-7-7-pc",
-      "urlToImage": "https://thehillstimes.in/wp-content/uploads/2026/06/New-Project8-3.jpg",
-      "publishedAt": "2026-06-05T22:55:00Z",
-      "content": "NEW DELHI, June 5: Indias economy expanded 7.8 per cent in the January-March quarter, exceeding forecasts on strong domestic demand and government expenditure, before rising oil prices and supply-cha\u2026 [+5156 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Forbes"
-      },
-      "author": "Alex Knapp, Forbes Staff, \n Alex Knapp, Forbes Staff\n https://www.forbes.com/sites/alexknapp/",
-      "title": "Microsoft Says It Will Have A Useful Quantum Computer In Three Years",
-      "description": "Microsoft releases its second-generation quantum chip. Ultrasound could replace pacemakers. And why you shouldn\u2019t skip breakfast.",
-      "url": "https://www.forbes.com/sites/the-prototype/2026/06/05/microsoft-says-it-will-have-a-useful-quantum-computer-in-three-years/",
-      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6a234b8210a4a1ec753164e0/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "publishedAt": "2026-06-05T22:45:48Z",
-      "content": "John Brecher / Microsoft\r\nMicrosoft releases its second-generation quantum chip. Ultrasound could replace pacemakers. And why you shouldnt skip breakfast. All that and more in this weeks Prototype. T\u2026 [+9154 chars]"
+      "publishedAt": "2026-06-09T11:01:56Z",
+      "content": "When:\u00a0 Tuesday, June 9 at 8:30 a.m. Eastern Time\r\nWhere:\u00a0 https://edge.media-server.com/mmc/p/7hamwqdoHow:\u00a0 Live over the internet Simply log on to the web at the address above\r\nRegister to receive t\u2026 [+7551 chars]"
     },
     {
       "source": {
@@ -216,38 +21,246 @@
         "name": "PRNewswire"
       },
       "author": null,
-      "title": "HONEYWELL BOARD OF DIRECTORS SETS RECORD DATE AND ANNOUNCES EXPECTED TIMING FOR SPIN-OFF OF HONEYWELL AEROSPACE AND HONEYWELL REVERSE STOCK SPLIT",
-      "description": "Record date set for June 15, 2026 Distribution expected to occur on June 29, 2026, with shareowners of record expected to receive one share of Honeywell Aerospace common stock for every two shares of Honeywell common stock owned Honeywell Aerospace expected t\u2026",
-      "url": "https://www.prnewswire.com/news-releases/honeywell-board-of-directors-sets-record-date-and-announces-expected-timing-for-spin-off-of-honeywell-aerospace-and-honeywell-reverse-stock-split-302793079.html",
-      "urlToImage": "https://mma.prnewswire.com/media/1420781/Honeywell_Logo.jpg?p=facebook",
-      "publishedAt": "2026-06-05T20:27:00Z",
-      "content": "<ul><li>Record date set for June 15, 2026</li><li>Distribution expected to occur on June 29, 2026, with shareowners of record expected to receive one share of Honeywell Aerospace common stock for eve\u2026 [+12161 chars]"
+      "title": "The J.M. Smucker Co. Announces Fiscal Year 2026 Fourth Quarter Results and Provides Full-Year Fiscal 2027 Outlook",
+      "description": "ORRVILLE, Ohio, June 9, 2026 /PRNewswire/ -- The J.M. Smucker Co. (NYSE: SJM) today announced results for the fourth quarter of its fiscal year ending April 30, 2026. Financial results for the fourth quarter and fiscal year reflect the divestiture of certain \u2026",
+      "url": "https://www.prnewswire.com/news-releases/the-jm-smucker-co-announces-fiscal-year-2026-fourth-quarter-results-and-provides-full-year-fiscal-2027-outlook-302795140.html",
+      "urlToImage": "https://mmx.prnewswire.com/media/MS555799/JMSmuckerCo-Logo.jpg?id=OA2691583&p=facebook",
+      "publishedAt": "2026-06-09T11:00:00Z",
+      "content": "ORRVILLE, Ohio, June 9, 2026 /PRNewswire/ -- The J.M. Smucker Co. (NYSE: SJM) today announced results for the fourth quarter of its fiscal year ending April\u00a030, 2026. Financial results for the fourth\u2026 [+61255 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "WWD"
+        "name": "PRNewswire"
       },
-      "author": "Lisa Lockwood",
-      "title": "RaiseFashion Panelists Tackle Realities of Production, Access to Capital and Sustainable Growth for Independent\u00a0Designers",
-      "description": "Industry leaders and emerging talents gathered to discuss the hurdles facing independent designers.",
-      "url": "http://wwd.com/business-news/business-features/raisefashion-panelists-realities-production-access-capital-sustainable-growth-independent-designers-1238996538/",
-      "urlToImage": "https://wwd.com/wp-content/uploads/2026/06/BFA_54658_7979039.jpg?crop=0px%2C345px%2C3600px%2C2014px&resize=1000%2C563",
-      "publishedAt": "2026-06-05T16:37:46Z",
-      "content": "Overcoming barriers for independent designers was the hot topic Thursday night at a panel discussion titled \u201cMade Together: Production, Funding, and the Future of Independent Fashion,\u201d hosted by Rais\u2026 [+7618 chars]"
+      "author": null,
+      "title": "Designer Brands Inc. Reports First Quarter 2026 Financial Results",
+      "description": "Strong momentum continued with first quarter net sales growth meeting and adjusted diluted earnings per share (\"EPS\") exceeding expectations Gross margin expansion of 240 basis points Anticipates full year 2026 EPS trending toward the high end of guidance ran\u2026",
+      "url": "https://www.prnewswire.com/news-releases/designer-brands-inc-reports-first-quarter-2026-financial-results-302794413.html",
+      "urlToImage": "https://mmx.prnewswire.com/media/MS537619/Designer_Brands_Logo.jpg?id=OA2690897&p=facebook",
+      "publishedAt": "2026-06-09T10:45:00Z",
+      "content": "Strong momentum continued with first quarter net sales growth meeting and adjusted diluted earnings per share (\"EPS\") exceeding expectations\r\nGross margin expansion of 240 basis points\r\nAnticipates f\u2026 [+41549 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "pymnts.com"
+        "name": "GlobeNewswire"
       },
-      "author": "PYMNTS",
-      "title": "Good CFOs Automate but Great CFOs Anticipate",
-      "description": "The tools that made finance teams look cutting-edge five years ago are now standard issue. Every serious competitor has cloud infrastructure, artificial intelligence forecasting and automated payables. The chief financial officers winning in 2026 are solving \u2026",
-      "url": "https://www.pymnts.com/cfo/2026/good-chief-financial-officers-automate-great-cfos-anticipate/",
-      "urlToImage": "https://www.pymnts.com/wp-content/uploads/2026/06/CFO-B2B-payments-digital-transformation.jpeg",
-      "publishedAt": "2026-06-05T16:30:22Z",
-      "content": "The tools that made finance teams look cutting-edge five years ago are now standard issue.Every serious competitor has cloud infrastructure, artificial intelligence forecasting and automated payables\u2026 [+5728 chars]"
+      "author": "Titan Machinery Inc.",
+      "title": "Titan Machinery Inc. Announces Results for Fiscal First Quarter Ended April\u00a030, 2026",
+      "description": "Reaffirms Fiscal 2027 Modeling Assumptions Reaffirms Fiscal 2027 Modeling Assumptions",
+      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308666/0/en/Titan-Machinery-Inc-Announces-Results-for-Fiscal-First-Quarter-Ended-April-30-2026.html",
+      "urlToImage": null,
+      "publishedAt": "2026-06-09T10:45:00Z",
+      "content": "WEST FARGO, N.D., June 09, 2026 (GLOBE NEWSWIRE) -- Titan Machinery Inc. (Nasdaq: TITN) (\"Titan\" or the \"Company\"), a leading network of full-service agricultural and construction equipment stores, t\u2026 [+31476 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "GlobeNewswire"
+      },
+      "author": "Lands' End, Inc.",
+      "title": "Lands\u2019 End Announces First Quarter Fiscal 2026 Results",
+      "description": "DODGEVILLE, Wis., June 09, 2026 (GLOBE NEWSWIRE) -- Lands\u2019 End, Inc. (NASDAQ: LE) today announced financial results for the first quarter ended May 1, 2026.",
+      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308667/30720/en/Lands-End-Announces-First-Quarter-Fiscal-2026-Results.html",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/ea93208a-bd88-4784-af50-e1f233d454fe",
+      "publishedAt": "2026-06-09T10:45:00Z",
+      "content": "DODGEVILLE, Wis., June 09, 2026 (GLOBE NEWSWIRE) -- Lands End, Inc. (NASDAQ: LE) today announced financial results for the first quarter ended May 1, 2026.\r\nAndrew McLean, Chief Executive Officer, st\u2026 [+49205 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "GlobeNewswire"
+      },
+      "author": "First Atlantic Nickel & Cobalt Corp.",
+      "title": "First Atlantic Nickel & Cobalt Releases White Paper, \u201cOnshoring the Nickel-Cobalt Supply Chain. Without a Smelter,\u201d at Critical Minerals for Defence 2026 in Toronto",
+      "description": "First Atlantic releases white paper outlining smelter-free awaruite nickel-cobalt processing for North American refining and defence supply chain use ...",
+      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308655/0/en/First-Atlantic-Nickel-Cobalt-Releases-White-Paper-Onshoring-the-Nickel-Cobalt-Supply-Chain-Without-a-Smelter-at-Critical-Minerals-for-Defence-2026-in-Toronto.html",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/ea1d51c7-b494-4132-a0f8-fcdda0a05b0b",
+      "publishedAt": "2026-06-09T10:30:00Z",
+      "content": "Investors and interested parties can access the white paper at\u00a0www.fanickel.com\r\nGRAND FALLS-WINDSOR, Newfoundland and Labrador, June 09, 2026 (GLOBE NEWSWIRE) -- First Atlantic Nickel &amp; Cobalt C\u2026 [+11288 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PRNewswire"
+      },
+      "author": null,
+      "title": "ThroughPut.AI Now Available Through Carahsoft, Expanding Government and Commercial Access to AI-Powered Predictive Supply Chain Decision Intelligence",
+      "description": "Listing gives federal, state, local government and private sector buyers a direct procurement path to ThroughPut's AI supply chain decision intelligence software to accelerate asset readiness and material availability PALO ALTO, Calif., June 9, 2026 /PRNewswi\u2026",
+      "url": "https://www.prnewswire.com/news-releases/throughputai-now-available-through-carahsoft-expanding-government-and-commercial-access-to-ai-powered-predictive-supply-chain-decision-intelligence-302795117.html",
+      "urlToImage": "https://mmx.prnewswire.com/media/MS1587660/ThroughPut-Logo-High-01--3_Logo.jpg?id=OA2693144&p=facebook",
+      "publishedAt": "2026-06-09T10:10:00Z",
+      "content": "Listing gives federal, state, local government and private sector buyers a direct procurement path to ThroughPut's AI supply chain decision intelligence software to accelerate asset readiness and mat\u2026 [+4120 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Quartz India"
+      },
+      "author": "Anthony Lopopolo",
+      "title": "What keeps most CFOs from making the leap to CEO",
+      "description": "Most CFOs hit a ceiling that has nothing to do with their financial record. New research names the skills that separate those who break through.",
+      "url": "https://qz.com/cfo-ceo-path-skills-gap",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/e58ht2JhXac9QqJE6oE2Ug--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/quartz_855/6acce11dfdd8cae897521974790a392c",
+      "publishedAt": "2026-06-09T09:00:00Z",
+      "content": "A version of this article originally appeared in Quartzs Leadership newsletter. Sign up here to get the latest leadership news and insights straight to your inbox.\r\nSunil Mathur of Siemens, Carol Tom\u2026 [+4415 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "GlobeNewswire"
+      },
+      "author": "Research and Markets",
+      "title": "Exponential Growth Predicted in Generative AI Video Market: Expected $0.98 Billion by 2030",
+      "description": "Key opportunities in the generative AI video creation market include advancements in AI models, cloud-based platforms, integration with immersive tech, and personalized video marketing. Expanding social media and digital platforms drive demand for AI-enhanced\u2026",
+      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308597/28124/en/Exponential-Growth-Predicted-in-Generative-AI-Video-Market-Expected-0-98-Billion-by-2030.html",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/ea25d949-75f4-4283-bd31-05f011783f46",
+      "publishedAt": "2026-06-09T08:07:00Z",
+      "content": "Dublin, June 09, 2026 (GLOBE NEWSWIRE) -- The \"Generative AI in Video Creation Market Report 2026\" has been added to ResearchAndMarkets.com's offering.\r\nThe generative artificial intelligence (AI) in\u2026 [+8590 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Elsa Ohlen",
+      "title": "The space race is coming for pharma: Why drug development is heading to lower Earth orbit",
+      "description": "Companies see a commercial opportunity in creating new ways to administer drugs to patients \u2013 in space.",
+      "url": "https://www.cnbc.com/2026/06/09/space-race-pharma-spacex-varda-redwire-drug-development-orbit.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108311896-1779803886698-gettyimages-2277182781-AFP_B3TA393.jpeg?v=1779803913&w=1920&h=1080",
+      "publishedAt": "2026-06-09T07:20:18Z",
+      "content": "The highly anticipated SpaceX mega-IPO is part of a space frenzy that is moving beyond satellite connectivity, launch vehicles, and aerospace defense to the pharmaceutical sector. A growing number of\u2026 [+8299 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "GlobeNewswire"
+      },
+      "author": "Nokia Oyj",
+      "title": "Nokia launches Deepfield Genome Shield security automation system to deliver proactive, network-wide DDoS protection for the AI era",
+      "description": "Nokia launches Deepfield Genome Shield security automation system to deliver proactive, network-wide DDoS protection for the AI era  Nokia Deepfield Genome...",
+      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308566/0/en/Nokia-launches-Deepfield-Genome-Shield-security-automation-system-to-deliver-proactive-network-wide-DDoS-protection-for-the-AI-era.html",
+      "urlToImage": "https://ml-eu.globenewswire.com/Resource/Download/e6523d78-c43a-4057-8aa9-68206d3af4a8",
+      "publishedAt": "2026-06-09T07:00:00Z",
+      "content": "Nokia launches Deepfield Genome Shield security automation system to deliver proactive, network-wide DDoS protection for the AI era\r\n<ul><li>Nokia Deepfield Genome Shield provides proactive, continuo\u2026 [+6241 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "GlobeNewswire"
+      },
+      "author": "SNS Insider pvt ltd",
+      "title": "Procurement Analytics Market Worth $50.13 Billion by 2035 | SNS Insider",
+      "description": "The U.S. Procurement Analytics Market is Expected to Reach $15.86 Billion by 2035, While Europe is Projected to Hit $13.42 Billion, Driven by Enterprise Digitalization, Cloud-Based Procurement Platforms, ESG Compliance Requirements, and Growing Adoption of Pr\u2026",
+      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308565/0/en/Procurement-Analytics-Market-Worth-50-13-Billion-by-2035-SNS-Insider.html",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/d6272c2e-d204-41b8-b545-a6e2e24f85c2",
+      "publishedAt": "2026-06-09T06:53:00Z",
+      "content": "Austin, June 09, 2026 (GLOBE NEWSWIRE) -- The Procurement Analytics Market\r\n\u00a0was valued at USD 6.12 Billion in 2025 and is expected to reach USD 50.13 Billion by 2035, growing at a CAGR of 23.49% ove\u2026 [+8243 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Kiwipolitico.com"
+      },
+      "author": "Pablo",
+      "title": "Systemic Change, Institutional Lag and Societal Resilience.",
+      "description": "The following is a draft of a talk that I am giving to a professional group. I thought that it would be good to trial it here. My usual approach is to write a long form essay on the theme of the talk, then condense and memorise it for an off-the-cuff presenta\u2026",
+      "url": "https://www.kiwipolitico.com/2026/06/systemic-change-institutional-lag-and-societal-resilience/",
+      "urlToImage": "https://s0.wp.com/i/blank.jpg",
+      "publishedAt": "2026-06-09T04:53:01Z",
+      "content": "The following is a draft of a talk that I am giving to a professional group. I thought that it would be good to trial it here. My usual approach is to write a long form essay on the theme of the talk\u2026 [+14372 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Crypto Briefing"
+      },
+      "author": "Editorial Team",
+      "title": "Karun petrochemical plant in Mahshahr damaged by Israeli projectile",
+      "description": "The attack heightens geopolitical tensions, risking global oil market instability and potential supply chain disruptions in specialty chemicals.\nThe post Karun petrochemical plant in Mahshahr damaged by Israeli projectile appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/karun-petrochemical-plant-mahshahr-israeli-strike/",
+      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/09002711/israeli-airstrike-hits-karoon-petrochemical-plant-in-mahshah-1-800x420.jpeg",
+      "publishedAt": "2026-06-09T04:27:12Z",
+      "content": "Israeli airstrikes hit a key Iranian industrial facility producing specialty chemicals, escalating tensions between the two nations. Israeli projectiles struck the Karun Petrochemical Plant in Mahsha\u2026 [+2415 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Crypto Briefing"
+      },
+      "author": "Editorial Team",
+      "title": "Iran fires missiles at Israel as Trump scrambles to save ceasefire, Bitcoin drops below $63K",
+      "description": "Middle Eastern tensions disrupt global markets, highlighting the fragile balance between geopolitical stability and economic volatility.\nThe post Iran fires missiles at Israel as Trump scrambles to save ceasefire, Bitcoin drops below $63K appeared first on Cr\u2026",
+      "url": "https://cryptobriefing.com/iran-missiles-israel-bitcoin-drops-2/",
+      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/08211735/trump-tells-iran-and-israel-to-stop-shooting-as-missile-barr-1-800x420.jpeg",
+      "publishedAt": "2026-06-09T01:17:35Z",
+      "content": "The first direct Iranian strike since the April ceasefire sent crypto markets into a tailspin, with Bitcoin losing nearly 40% from its recent highs as geopolitical risk came roaring back. Iran launch\u2026 [+2687 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hoover.org"
+      },
+      "author": "June 9, 2026",
+      "title": "The Long Road: From India Through The Middle East To The Baltics",
+      "description": "Envisioning the Indo-Pacific as a single megaregion, stretching from East Asia through the Indian Ocean and the Middle East into Europe, has become increasingly central to contemporary geopolitical thinking.",
+      "url": "https://www.hoover.org/research/long-road-india-through-middle-east-baltics",
+      "urlToImage": "https://hoover-s3-website.s3.us-west-2.amazonaws.com/s3fs-public/styles/facebook/public/2026-06/IMEC.png?h=31b766e1&itok=zLL-deBH",
+      "publishedAt": "2026-06-09T00:00:00Z",
+      "content": "<ul><li>Middle East</li><li>International Affairs</li><li>US Foreign Policy</li><li>US Defense</li></ul><ul><li>Determining America's Role in the World</li></ul>Envisioning the Indo-Pacific as a sing\u2026 [+16319 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hoover.org"
+      },
+      "author": "June 9, 2026",
+      "title": "Global Trade Chokepoints From An Ocean Carrier\u2019s Perspective",
+      "description": "On a daily basis, commercial vessels move food, energy, raw materials, and manufactured goods across interconnected network of oceans / seas. The flows are regularly scheduled, contracted, insured, and executed in real time. When they function, global trade o\u2026",
+      "url": "https://www.hoover.org/research/global-trade-chokepoints-ocean-carriers-perspective",
+      "urlToImage": "https://hoover-s3-website.s3.us-west-2.amazonaws.com/s3fs-public/styles/facebook/public/2026-06/GettyImages-628562002.jpg?h=5b6333ed&itok=GVoPxWwU",
+      "publishedAt": "2026-06-09T00:00:00Z",
+      "content": "<ul><li>Middle East</li><li>International Affairs</li><li>US Foreign Policy</li><li>US Defense</li></ul><ul><li>Determining America's Role in the World</li></ul>On a daily basis, commercial vessels m\u2026 [+10345 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "iTnews"
+      },
+      "author": null,
+      "title": "Now is the time for the channel to push the hardware refresh",
+      "description": "At Leader Expo 2026, industry leaders outlined how Windows 10 end-of-support, AI PCs and rising hardware costs are creating a once-in-a-decade refresh opportunity for the channel.",
+      "url": "https://www.itnews.com.au/feature/now-is-the-time-for-the-channel-to-push-the-hardware-refresh-626319",
+      "urlToImage": "https://i.nextmedia.com.au/Features/20260601043309_leader-expo-4779.jpg",
+      "publishedAt": "2026-06-08T23:00:00Z",
+      "content": "There are times when market forces converge so completely that hesitation becomes a genuine risk. Australian businesses are in one of those moments right now, and as the channel partners that came to\u2026 [+5268 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "GlobeNewswire"
+      },
+      "author": "Mission Produce, Inc.",
+      "title": "Mission Produce\u00ae Announces Fiscal 2026 Second Quarter Financial Results",
+      "description": "Acquisition of Calavo Growers completed May 28, 2026  Board of Directors authorize new share repurchase program for up to $100 million of shares over next...",
+      "url": "https://www.globenewswire.com/news-release/2026/06/08/3308457/0/en/Mission-Produce-Announces-Fiscal-2026-Second-Quarter-Financial-Results.html",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/2c867d68-edcb-4695-90e3-7831b6249b6d",
+      "publishedAt": "2026-06-08T20:05:00Z",
+      "content": "Acquisition of Calavo Growers completed May 28, 2026\r\nBoard of Directors authorize new share repurchase program for up to $100 million of shares over next 3 years\r\nOXNARD, Calif., June 08, 2026 (GLOB\u2026 [+63495 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "24/7 Wall St."
+      },
+      "author": "Vandita Jadeja",
+      "title": "Why I Keep Loading Up On This Tech Giant",
+      "description": "I bought more Apple (NASDAQ:AAPL) last week, and I will probably buy more next month. That has been the rhythm of my portfolio for years now, and the...",
+      "url": "https://247wallst.com/investing/2026/06/08/why-i-keep-loading-up-on-this-tech-giant/",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/mhDaCWF7imwpiAws2sMuFw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/24_7_wall_st__718/ccd8d8423823aac13ad8c6f95f838fdd",
+      "publishedAt": "2026-06-08T20:04:54Z",
+      "content": "Quick Read\r\n<ul><li>Apple (AAPL) posted its best March quarter ever at $111 billion in revenue, beating Wall Street for the 8th consecutive quarter.\r\n</li><li>Apple raised its dividend 4% and authori\u2026 [+4340 chars]"
     }
   ]
 }

@@ -1,122 +1,5 @@
 [
   {
-    "flrID": "2026-06-02T02:40:00-FLR-001",
-    "catalog": "M2M_CATALOG",
-    "instruments": [
-      {
-        "displayName": "GOES-P: EXIS 1.0-8.0"
-      }
-    ],
-    "beginTime": "2026-06-02T02:40Z",
-    "peakTime": "2026-06-02T02:50Z",
-    "endTime": "2026-06-02T02:59Z",
-    "classType": "C1.8",
-    "sourceLocation": "N15E09",
-    "activeRegionNum": 14455,
-    "note": "",
-    "submissionTime": "2026-06-02T12:00Z",
-    "versionId": 1,
-    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/FLR/46552/-1",
-    "linkedEvents": [
-      {
-        "activityID": "2026-06-02T03:12:00-CME-001"
-      }
-    ],
-    "sentNotifications": null
-  },
-  {
-    "flrID": "2026-06-02T04:42:00-FLR-001",
-    "catalog": "M2M_CATALOG",
-    "instruments": [
-      {
-        "displayName": "GOES-P: EXIS 1.0-8.0"
-      }
-    ],
-    "beginTime": "2026-06-02T04:42Z",
-    "peakTime": "2026-06-02T04:45Z",
-    "endTime": "2026-06-02T04:47Z",
-    "classType": "M1.2",
-    "sourceLocation": "S25E80",
-    "activeRegionNum": 14461,
-    "note": "",
-    "submissionTime": "2026-06-03T15:01Z",
-    "versionId": 2,
-    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/FLR/46550/-1",
-    "linkedEvents": null,
-    "sentNotifications": null
-  },
-  {
-    "flrID": "2026-06-02T06:46:00-FLR-001",
-    "catalog": "M2M_CATALOG",
-    "instruments": [
-      {
-        "displayName": "GOES-P: EXIS 1.0-8.0"
-      }
-    ],
-    "beginTime": "2026-06-02T06:46Z",
-    "peakTime": "2026-06-02T06:59Z",
-    "endTime": "2026-06-02T07:05Z",
-    "classType": "C3.1",
-    "sourceLocation": "N15E01",
-    "activeRegionNum": 14455,
-    "note": "",
-    "submissionTime": "2026-06-02T12:13Z",
-    "versionId": 1,
-    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/FLR/46555/-1",
-    "linkedEvents": [
-      {
-        "activityID": "2026-06-02T07:24:00-CME-001"
-      }
-    ],
-    "sentNotifications": null
-  },
-  {
-    "flrID": "2026-06-02T09:51:00-FLR-001",
-    "catalog": "M2M_CATALOG",
-    "instruments": [
-      {
-        "displayName": "GOES-P: EXIS 1.0-8.0"
-      }
-    ],
-    "beginTime": "2026-06-02T09:51Z",
-    "peakTime": "2026-06-02T10:05Z",
-    "endTime": "2026-06-02T10:19Z",
-    "classType": "M1.2",
-    "sourceLocation": "N11E01",
-    "activeRegionNum": 14455,
-    "note": "",
-    "submissionTime": "2026-06-02T11:17Z",
-    "versionId": 1,
-    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/FLR/46551/-1",
-    "linkedEvents": null,
-    "sentNotifications": null
-  },
-  {
-    "flrID": "2026-06-02T16:31:00-FLR-001",
-    "catalog": "M2M_CATALOG",
-    "instruments": [
-      {
-        "displayName": "GOES-P: EXIS 1.0-8.0"
-      }
-    ],
-    "beginTime": "2026-06-02T16:31Z",
-    "peakTime": "2026-06-02T16:50Z",
-    "endTime": "2026-06-02T16:56Z",
-    "classType": "M3.3",
-    "sourceLocation": "N13W05",
-    "activeRegionNum": 14455,
-    "note": "",
-    "submissionTime": "2026-06-02T17:06Z",
-    "versionId": 1,
-    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/FLR/46563/-1",
-    "linkedEvents": [
-      {
-        "activityID": "2026-06-02T17:23:00-CME-001"
-      }
-    ],
-    "sentNotifications": null
-  },
-  {
     "flrID": "2026-06-03T01:22:00-FLR-001",
     "catalog": "M2M_CATALOG",
     "instruments": [
@@ -290,6 +173,31 @@
       },
       {
         "activityID": "2026-06-06T15:14:00-SEP-001"
+      }
+    ],
+    "sentNotifications": null
+  },
+  {
+    "flrID": "2026-06-09T19:02:00-FLR-001",
+    "catalog": "M2M_CATALOG",
+    "instruments": [
+      {
+        "displayName": "GOES-P: EXIS 1.0-8.0"
+      }
+    ],
+    "beginTime": "2026-06-09T19:02Z",
+    "peakTime": "2026-06-09T19:18Z",
+    "endTime": "2026-06-09T19:25Z",
+    "classType": "C2.3",
+    "sourceLocation": "S21W19",
+    "activeRegionNum": 14461,
+    "note": "",
+    "submissionTime": "2026-06-10T00:37Z",
+    "versionId": 1,
+    "link": "https://webtools.ccmc.gsfc.nasa.gov/DONKI/view/FLR/46753/-1",
+    "linkedEvents": [
+      {
+        "activityID": "2026-06-09T21:36:00-CME-001"
       }
     ],
     "sentNotifications": null

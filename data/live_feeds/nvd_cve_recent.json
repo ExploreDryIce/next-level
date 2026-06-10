@@ -1,10 +1,10 @@
 {
   "resultsPerPage": 20,
   "startIndex": 0,
-  "totalResults": 356076,
+  "totalResults": 357080,
   "format": "NVD_CVE",
   "version": "2.0",
-  "timestamp": "2026-06-08T11:00:33.278",
+  "timestamp": "2026-06-10T11:00:59.804",
   "vulnerabilities": [
     {
       "cve": {

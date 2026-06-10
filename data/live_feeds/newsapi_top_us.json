@@ -1,214 +1,240 @@
 {
   "status": "ok",
-  "totalResults": 33,
+  "totalResults": 35,
   "articles": [
     {
       "source": {
-        "id": "the-washington-post",
-        "name": "The Washington Post"
-      },
-      "author": "Maegan Vazquez",
-      "title": "Iran launched missiles and drones toward Strait of Hormuz, U.S. military says - The Washington Post",
-      "description": "U.S. forces shot down Iranian missiles and drones launched toward the strait and neighboring countries.",
-      "url": "https://www.washingtonpost.com/world/2026/06/06/iran-launched-missiles-drones-toward-strait-hormuz-us-military-says/",
-      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/H6L6VC4JATNBSDCUYPVGQOM63I.JPG&w=1440",
-      "publishedAt": "2026-06-07T04:42:00Z",
-      "content": "U.S. forces shot down Iranian missiles and drones launched toward the Strait of Hormuz and neighboring countries, the latest conflict in the region that could further complicate efforts to end the wa\u2026 [+36 chars]"
-    },
-    {
-      "source": {
-        "id": "nbc-news",
-        "name": "NBC News"
-      },
-      "author": "Dennis Romero",
-      "title": "Simone Biles reveals she had a health scare and describes \u2018almost dying\u2019 - NBC News",
-      "description": "United States gymnastics great Simone Biles shared limited news of a health scare on Saturday, an experience she said included \u201calmost dying.\u201dThe world\u2019s most-decorated gymnast said on Instagram Stories that she had endured an unexpected situation, and she th\u2026",
-      "url": "https://www.nbcnews.com/news/us-news/simone-biles-reveals-health-scare-describes-almost-dying-rcna348833",
-      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-06/260606-simone-biles-1054p-685d2e.jpg",
-      "publishedAt": "2026-06-07T04:18:00Z",
-      "content": "United States gymnastics great Simone Biles shared limited news of a health scare on Saturday, an experience she said included almost dying.\r\nSubscribe to read this story ad-free \r\nGet unlimited acce\u2026 [+1527 chars]"
-    },
-    {
-      "source": {
-        "id": "espn",
-        "name": "ESPN"
-      },
-      "author": "Brett Okamoto",
-      "title": "Gabriel Bonfim dominates Belal Muhammad at UFC Fight Night - ESPN",
-      "description": "Welterweight Gabriel Bonfim (20-1) delivered a breakout performance on Saturday night, dominating former champion in Belal Muhammad (24-6) at UFC Fight Night in Las Vegas, frequently smiling and laughing as he did it.",
-      "url": "https://www.espn.com/nhl/story/_/id/48988672/gabriel-bonfim-dominates-belal-muhammad-ufc-fight-night",
-      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2026%2F0607%2Fr1669270_1296x729_16%2D9.jpg",
-      "publishedAt": "2026-06-07T03:37:10Z",
-      "content": "The UFC's welterweight division has looked like an absolute shark tank as of late. Add Gabriel Bonfim's name to its list of predators.\r\nBonfim (20-1) delivered a breakout performance Saturday against\u2026 [+2502 chars]"
-    },
-    {
-      "source": {
-        "id": "bleacher-report",
-        "name": "Bleacher Report"
-      },
-      "author": "Zach Bachar",
-      "title": "Mitch Marner Makes NHL History with Stanley Cup Final Hat Trick in 2nd Period of Game 3 - Bleacher Report",
-      "description": "Mitch Marner made history for the Vegas Golden Knights during the second period of the team's matchup with the Carolina Hurricanes in Game 3 of the 2026 Stanley Cup Final on Saturday.",
-      "url": "https://bleacherreport.com/articles/25434936-mitch-marner-makes-nhl-history-stanley-cup-final-hat-trick-2nd-period-game-3",
-      "urlToImage": "https://gsp-image-cdn.wmsports.io/cms/prod/bleacher-report/getty_images/2026-06/2280248937_0_large_cropped.jpg?w=3800&h=2000",
-      "publishedAt": "2026-06-07T03:18:41Z",
-      "content": "Mitch Marner made history for the Vegas Golden Knights during the second period of the team's matchup with the Carolina Hurricanes in Game 3 of the 2026 Stanley Cup Final on Saturday.\r\nMarner recorde\u2026 [+1153 chars]"
-    },
-    {
-      "source": {
         "id": null,
-        "name": "Financial Times"
+        "name": "NPR"
       },
-      "author": "James Politi",
-      "title": "US weighs using Iranian assets to compensate Gulf allies for war damage - Financial Times",
-      "description": "Proposal comes as relations between Trump administration and regional partners have been strained by conflict",
-      "url": "https://www.ft.com/content/d19bd87f-2673-40e8-9216-8529d80b42aa?syn-25a6b1a6\\\\u003d1",
-      "urlToImage": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F09255946-705a-4f48-94fe-2645a699a55d.jpg?source=next-barrier-page",
-      "publishedAt": "2026-06-07T02:52:48Z",
-      "content": "Then $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial."
+      "author": "The Associated Press",
+      "title": "Trump says pilots are fine after U.S. helicopter crashes near Strait of Hormuz - NPR",
+      "description": "A U.S. Army Apache attack helicopter crashed near the Strait of Hormuz, with President Trump saying the two crew members on board were \"fine\" after the incident. Trump also expressed optimism over negotiations with Iran.",
+      "url": "https://www.npr.org/2026/06/09/nx-s1-5851482/trump-pilots-us-helicopter-crash",
+      "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5616x3159+0+293/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fba%2F66%2Ff809f2f04384ab7b0e2b1a00272f%2Fap26160168872770.jpg",
+      "publishedAt": "2026-06-09T10:10:28Z",
+      "content": "DUBAI, United Arab Emirates A U.S. Army helicopter crashed near the Strait of Hormuz, but President Donald Trump said the two crew members aboard were not injured in the incident near the strategic w\u2026 [+4788 chars]"
     },
     {
       "source": {
-        "id": null,
-        "name": "KOMO News"
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
       },
-      "author": "JESSICA A. BOTELHO | The National News Desk",
-      "title": "Missing 20-year-old college student from Alabama found dead in Japan, family says - komonews.com",
-      "description": "A 20-year-old college student who disappeared during a family vacation in Japan has was found dead after an intensive search, his family announced.",
-      "url": "https://komonews.com/news/nation-world/missing-20-year-old-college-student-from-alabama-found-dead-in-japan-amid-search-family-vacation-trip-vanished-disappeared-auburn-university-junior-james-weston-higginbotham-kyoto-cause-of-death-investigation",
-      "urlToImage": "https://komonews.com/resources/media2/16x9/1280/1320/center/90/28051dd8-8a95-439c-bd5b-c45cd988c515-a9e6df5adf0f4490aaf5a306b8deee45.png",
-      "publishedAt": "2026-06-07T02:03:55Z",
-      "content": "A 20-year-old college student who disappeared during a family vacation in Japan has was found dead after an intensive search, his family announced. \r\nThe body of James \"Weston\" Higginbotham, an Aubur\u2026 [+2101 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Hollywood Reporter"
-      },
-      "author": "Katie Kilkenny",
-      "title": "Emotions Spill Over at Town Hall of Industry Workers Opposed to Paramount-WBD Merger: \u201cIt\u2019s the Death of a Great American Industry\u201d - The Hollywood Reporter",
-      "description": "Writers, actors, crew members and small business owners expressed their opposition to the $111 billion transaction in Beverly Hills on Saturday: \u201cIt may be the final domino that knocks everything down.\u201d",
-      "url": "http://www.hollywoodreporter.com/movies/movie-news/entertainment-workers-oppose-paramount-wbd-merger-town-hall-1236615502/",
-      "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2025/12/GettyImages-2235093119.jpg?w=1440&h=810&crop=1",
-      "publishedAt": "2026-06-07T02:00:09Z",
-      "content": "Emotions spilled over at a gathering of Hollywood workers, union officials and a current FCC commissioner opposed to the planned Paramount Skydance-Warner Bros. merger on Saturday, with some arguing \u2026 [+5653 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "DW (English)"
-      },
-      "author": "Matt Ford",
-      "title": "Ukraine hits St. Petersburg again after Putin rejects talks - DW",
-      "description": "Ukrainian drones targeted St. Petersburg and the surrounding region for a second time after Russian President Vladimir Putin rejected Ukrainian President Volodymyr Zelenskyy's offer of peace talks.",
-      "url": "https://www.dw.com/en/ukraine-hits-st-petersburg-again-after-putin-rejects-talks/a-77445845",
-      "urlToImage": "https://static.dw.com/image/77445997_6.jpg",
-      "publishedAt": "2026-06-06T23:51:27Z",
-      "content": "The Russian city of St. Petersburg was targeted by a fresh barrage of long-range Ukrainian drones on Saturday as an international economic forum in the city came to a close.\r\nAlexander Drosdenko, the\u2026 [+5329 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Cowboystatedaily.com"
-      },
-      "author": "Kolby Fedore",
-      "title": "Wyoming Sheriff Orders \"Clint Eastwood High Plains Drifter\" Look For New Cruiser - Cowboy State Daily",
-      "description": "When Laramie County Sheriff Brian Kozak wanted a new design for the newest SUV in the fleet, he asked a local artist to create a \"Clint Eastwood High Plains Drifter\" look. \"It looks pretty badass,\" Kozak said, noting he's received many compliments.",
-      "url": "https://cowboystatedaily.com/2026/06/06/pretty-badass-new-laramie-county-sheriffs-cruiser-is-pure-western-wyoming/",
-      "urlToImage": "https://cowboystatedaily.imgix.net/New-Sheriffs-cruiser-710020639_1299237672391254_5317509438597465883_n-copy-6.6.26.jpg?w=1200&q=75&auto=format%2Ccompress",
-      "publishedAt": "2026-06-06T23:16:00Z",
-      "content": "Most sheriff cruisers are designed to blend into a fleet, but the newest cruiser in the Laramie County Sheriff's Office fleet was designed to do the exact opposite.\r\nIt not only stands out, it looks \u2026 [+4570 chars]"
-    },
-    {
-      "source": {
-        "id": "associated-press",
-        "name": "Associated Press"
-      },
-      "author": "Philip Marcelo, Claire Galofaro",
-      "title": "What to know about the ongoing protests and arrests outside a New Jersey detention center - AP News",
-      "description": "A weekslong standoff between demonstrators and law enforcement outside a New Jersey immigration detention center has become the latest flashpoint for protests against President Donald Trump\u2019s immigration crackdown. Protesters and law enforcement have routinel\u2026",
-      "url": "https://apnews.com/article/immigration-detention-geo-group-protests-delaney-hall-56b7adb202aa59b1b0e0121fba2df755",
-      "urlToImage": "https://dims.apnews.com/dims4/default/eae8784/2147483647/strip/true/crop/3936x2623+0+5/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F37%2F95%2F02603bdd519acd3df675a1ce27f5%2Fe097d5b5a90c4133a5e2b92e8a1206d6",
-      "publishedAt": "2026-06-06T22:59:00Z",
-      "content": "Clashes between demonstrators and law enforcement outside a New Jersey immigration detention center since late May have become the latest flashpoint for protests against President Donald Trumps immig\u2026 [+4509 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "BI Africa Contributor",
-      "title": "South Africa commits $72 million in bid to shed its status as the country with the world's largest HIV epidemic - Business Insider Africa",
-      "description": "South Africa has committed R1",
-      "url": "https://africa.businessinsider.com/local/lifestyle/south-africa-commits-dollar72-million-in-bid-to-shed-its-status-as-the-country-with/tnze7wj",
-      "urlToImage": "https://ocdn.eu/pulscms-transforms/1/eLmktkpTURBXy9iZjdhMWIxOTQ3ODQ2MzdhNzNhM2Q1YzRkZWQyMzQ0NC5qcGeSlQMAAM0EsM0Co5MFzQSwzQJ2",
-      "publishedAt": "2026-06-06T22:29:30Z",
-      "content": "South Africa's President Cyril Ramaphosa recently announced on his X account that a massive R1.3 billion initiative has been launched to roll out Lenacapavir, a groundbreaking long-acting injectable \u2026 [+2402 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Vanity Fair"
-      },
-      "author": "Stefania Conrieri",
-      "title": "Dua Lipa and Callum Turner Marry In Sicily, As Elton John Serenades Them With \u201cYour Song\u201d - Vanity Fair",
-      "description": "Dua Lipa and Callum Turner's Italian celebration has already been compared to a royal wedding in its grandeur.",
-      "url": "https://www.vanityfair.com/story/dua-lipa-callum-turner-sicily-palermo-wedding-reception",
-      "urlToImage": "https://media.vanityfair.com/photos/6a249c231f8deeeeb883f1a0/16:9/w_1280,c_limit/2213627306",
-      "publishedAt": "2026-06-06T22:29:29Z",
-      "content": "Among the 200 guests who flew from Los Angeles, London, and Paris for this three-day nonstop celebration, important names in international music and entertainment stand out: in addition to Elton John\u2026 [+2211 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Push Square"
-      },
-      "author": "Push Square",
-      "title": "Godzilla vs GTA 6: Retro Remake Makes PlayStation Debut on PS5 This November - pushsquare.com",
-      "description": "Someone has to",
-      "url": "https://www.pushsquare.com/news/2026/06/godzilla-vs-gta-6-retro-remake-makes-playstation-debut-on-ps5-this-november",
-      "urlToImage": "https://images.pushsquare.com/e2fa6b1f33159/large.jpg",
-      "publishedAt": "2026-06-06T21:15:00Z",
-      "content": "Update [Sat 6th Jun 2026, 10:15pm]: And just like that, Godzilla: Destroy All Monsters Melee Remastered is official. Yes, its coming to the PS5 on 3rd November for $29.99, powered by Unreal Engine 5.\u2026 [+2300 chars]"
+      "author": "Rebecca Feng, Juliet Chung, WSJ Staff",
+      "title": "Stock Market Today: Dow Futures, What to Watch \u2014 Live Updates - WSJ",
+      "description": "Live updates on markets and the top finance, economics and business stories. Plus the latest on oil prices, the Dow, S&P 500 and Nasdaq.",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-06-09-2026",
+      "urlToImage": "https://images.wsj.net/im-925351/social",
+      "publishedAt": "2026-06-09T09:57:00Z",
+      "content": "U.S. stock futures are ticking up before the opening bell as markets continue to recover from Friday's bruising selloff.\r\nContracts tied to the tech-heavy Nasdaq-100 were recently 0.6% higher, with t\u2026 [+413 chars]"
     },
     {
       "source": {
         "id": "politico",
         "name": "Politico"
       },
-      "author": "Rachel Bluth, Sophie Gardner, Gelila\u00a0Negesse, Arek Sarkissian, Maya Kaufman",
-      "title": "The disease detectives suiting up for the World Cup - Politico",
-      "description": "Public-health officials are trying to use a Covid-era playbook without pandemic-era funding.",
-      "url": "https://www.politico.com/news/2026/06/06/world-cup-ebola-hantavirus-cdc-diseases-00952609",
-      "urlToImage": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2F5c%2Fdb%2F671e34bc4944bd97114769f4246b%2F20260602-bellevue-pathogen-06-edit-1.jpg",
-      "publishedAt": "2026-06-06T20:01:00Z",
-      "content": "Erin McGuire, medical director of the Special Pathogens Unit, said the approach is rooted in routines developed long before the World Cup was imminent.\r\nIts important for us to always do these drills\u2026 [+4358 chars]"
+      "author": "Jessica Piper",
+      "title": "Some Maine Democrats are wavering on Graham Platner - Politico",
+      "description": "The oysterman maintains a strong base of support, but his scandals have left a bad taste with some Democratic and independent voters.",
+      "url": "https://www.politico.com/news/2026/06/09/graham-platner-maine-voters-concerns-00953986",
+      "urlToImage": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2F3f%2F6e%2Fec5e70c04260bac2e0912575aa00%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2279834569",
+      "publishedAt": "2026-06-09T09:00:00Z",
+      "content": "Platners continued drumbeat of scandals has divided both Democratic Party leaders and voters as they stare down the must-win Senate race. Defeating Republican Sen. Susan Collins in November is crucia\u2026 [+8555 chars]"
+    },
+    {
+      "source": {
+        "id": "nbc-news",
+        "name": "NBC News"
+      },
+      "author": "Barbara Mantel",
+      "title": "Adults should have no more than one drink a day, a team of scientists says - NBC News",
+      "description": "Americans should limit their alcohol consumption to no more than one drink per day, according to a study published Tuesday in the Journal of Studies on Alcohol and Drugs",
+      "url": "https://www.nbcnews.com/health/health-news/adults-no-one-drink-day-team-scientists-says-rcna349046",
+      "urlToImage": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-06/260608-man-drinking-ac-0322p-bf56da.jpg",
+      "publishedAt": "2026-06-09T09:00:00Z",
+      "content": "Americans should limit their alcohol consumption to no more than one drink per day, according to a study published Tuesday in the Journal of Studies on Alcohol and Drugs.\r\nSubscribe to read this stor\u2026 [+4488 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Space.com"
+      },
+      "author": "Anthony Wood",
+      "title": "Don't miss Jupiter and Venus meet in a dazzling conjunction tonight: Here's where and when to look - Space",
+      "description": "Jupiter and Venus meet in the western sky tonight (June 9) \u2014 here's how to see it.",
+      "url": "https://www.space.com/stargazing/dont-miss-jupiter-and-venus-meet-in-a-dazzling-conjunction-on-june-9-heres-where-and-when-to-look",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/Wki9upRJfaMhT8amQppKZ5-1920-80.jpg",
+      "publishedAt": "2026-06-09T07:26:28Z",
+      "content": null
     },
     {
       "source": {
         "id": null,
         "name": "NPR"
       },
-      "author": "Stephan Bisaha",
-      "title": "Israel has reportedly used white phosphorus near Lebanese cities and towns. What is it? - NPR",
-      "description": "White phosphorus is not banned under international law, but can \"create cruel injuries\" and indiscriminate harm in civilian areas.",
-      "url": "https://www.npr.org/2026/06/06/nx-s1-5848668/israel-lebanon-white-phosphorus",
-      "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3500x1969+0+347/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F66%2F42%2F145874b542fa806e0d196160e08c%2Fgettyimages-1624213677.jpg",
-      "publishedAt": "2026-06-06T18:48:35Z",
-      "content": "Human rights groups and The New York Times say they have documented Israel's use of the chemical white phosphorus over civilian areas in Lebanon. It is a substance that can cause severe burns, respir\u2026 [+4251 chars]"
+      "author": "Kate Bartlett",
+      "title": "Conflicts on rise globally, highest level since WWII, data shows - NPR",
+      "description": "Global conflicts surged to the highest number tallied by Uppsala Conflict Data Program. Fatalities were the highest on record since 1994, with approximately 244,600 people killed in conflict in 2025.",
+      "url": "https://www.npr.org/2026/06/09/nx-s1-5850355/data-highest-conflicts-iran-israel-ukraine-russia-world-war-ii",
+      "urlToImage": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6198x3486+0+323/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F3d%2F5d%2Fe0cd37c146b99a790936e1c6ea4d%2Fgettyimages-2195603487.jpg",
+      "publishedAt": "2026-06-09T07:00:00Z",
+      "content": "JOHANNESBURG If you've been thinking it seems like there are more wars raging in the world these days, it turns out you're right and the data proves it.\r\nA new study by researchers at a university in\u2026 [+5217 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "BBC News"
       },
+      "author": "Elizabeth Botcherby",
+      "title": "NBA Finals: New York Knicks 111-115 San Antonio Spurs: Victor Wembanyama stars - BBC",
+      "description": "Victor Wembanyama scores 32 points as the San Antonio Spurs cut the New York Knicks' lead in the NBA Finals at Madison Square Garden.",
+      "url": "https://www.bbc.com/sport/basketball/articles/c07ynypgz8yo",
+      "urlToImage": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c6e4/live/29d93050-63c6-11f1-997d-4b8ab5668d59.jpg",
+      "publishedAt": "2026-06-09T06:23:53Z",
+      "content": "Defeat ended a 13-game winning streak for the Knicks - two short of the Golden State Warriors' 2017 record - as they chase their first championship since 1973.\r\nOnly five of the 37 teams who have led\u2026 [+850 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "The Associated Press",
+      "title": "Some of the deadly earthquakes in the Philippines - AP News",
+      "description": "Earthquakes are common in the Philippines, which lies on the Pacific \u201cRing of Fire,\u201d the arc of seismic faults around the ocean where most of the world's earthquakes occur. The strongest in 2026 occurred Monday when a magnitude 7.8 quake struck off Mindanao. \u2026",
+      "url": "https://apnews.com/article/list-timeline-deadly-earthquakes-8805e25d26cbf11db02c00d6dec67a2b",
+      "urlToImage": "https://dims.apnews.com/dims4/default/73cd02f/2147483647/strip/true/crop/3000x1999+0+126/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F5d%2F3f%2F94c69b734b2de09221c8cde8419e%2F7c23d80c3ee5461f83ef9da31a0bed36",
+      "publishedAt": "2026-06-09T04:24:00Z",
+      "content": "Earthquakes are common in the Philippines, which lies on the Pacific Ring of Fire, the arc of seismic faults around the ocean where most of the worlds earthquakes occur. Heres a look at some recent q\u2026 [+1547 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "Michael R. Blood, Lindsey Bahr",
+      "title": "The rise and fall of 'The Hills' star Spencer Pratt's improbable campaign for Los Angeles mayor - AP News",
+      "description": "Spencer Pratt\u2019s improbable rise from reality television personality to national political sensation ended when he failed to qualify for the runoff to challenge Los Angeles Mayor Karen Bass. Nithya Raman, a progressive city council member, will face Bass in No\u2026",
+      "url": "https://apnews.com/article/los-angeles-mayor-spencer-pratt-karen-bass-389b4c2757478d91a29bd319e2c682d9",
+      "urlToImage": "https://dims.apnews.com/dims4/default/a488f97/2147483647/strip/true/crop/8192x5459+0+3/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F56%2F47%2F99a12dc90dd60cacaf1604930b6b%2F50ed59a6a9d54c0bb590c596b9cb4ac2",
+      "publishedAt": "2026-06-09T04:01:00Z",
+      "content": "LOS ANGELES (AP) He wrote a memoir called The Guy You Loved to Hate. Hes dabbled in rap, releasing a song called Im a Celebrity. He started a company selling crystals claimed to have healing properti\u2026 [+7280 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Apple Newsroom"
+      },
       "author": null,
-      "title": "Pope begins Spain visit with praise for country's opposition to war and support for migrants - BBC",
-      "description": "On the first day of his official seven-day tour of Spain, the Pope praises the country's \"active commitment to peace and solidarity among peoples\".",
-      "url": "https://www.bbc.com/news/articles/c8d2pgjy4qgo",
-      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/473f/live/8e6e1370-61cb-11f1-8c97-a551be738222.jpg",
-      "publishedAt": "2026-06-06T18:34:26Z",
-      "content": "A 2023 study by the Spanish ombudsman's office, which investigates public complaints, estimated that 1.1% of the population had suffered sexual abuse at the hands of members of the clergy or individu\u2026 [+59 chars]"
+      "title": "Apple introduces Siri AI, a profoundly more capable and personal assistant - Apple",
+      "description": "Apple introduces Siri AI, a profoundly more capable and personal assistant powered by Apple Intelligence, with personal context, world knowledge, and onscreen awareness.",
+      "url": "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/",
+      "urlToImage": "https://www.apple.com/newsroom/images/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/tile/Apple-Siri-AI-hero-260608-lp.jpg.og.jpg?202606090054",
+      "publishedAt": "2026-06-09T03:49:47Z",
+      "content": "June 8, 2026\r\nPRESS RELEASE\r\nApple introduces Siri AI, a\u00a0profoundly more capable and personal assistant\r\nCUPERTINO, CALIFORNIA Apple today introduced Siri AI, an entirely new version of Siri, powered\u2026 [+11835 chars]"
+    },
+    {
+      "source": {
+        "id": "axios",
+        "name": "Axios"
+      },
+      "author": "Rebecca Falconer",
+      "title": "Trump booed at Knicks game during visit to New York - Axios",
+      "description": "Trump's visit to the NBA Finals game prompted heightened security measures in parts of NYC.",
+      "url": "https://www.axios.com/2026/06/09/trump-new-york-knicks-nba-game-booed",
+      "urlToImage": "https://images.axios.com/oNYa8yeuyx_PyIkYsUGCjpImZ-0=/0x171:4491x2698/1366x768/2026/06/09/1780965448687.jpeg",
+      "publishedAt": "2026-06-09T03:18:46Z",
+      "content": "Why it matters: Trump is the first sitting president to attend an NBA Finals game, and his appearance prompted heightened security measures around the arena in the heart of Manhattan.\r\nState of play:\u2026 [+447 chars]"
+    },
+    {
+      "source": {
+        "id": "the-washington-post",
+        "name": "The Washington Post"
+      },
+      "author": "Lauren Kaori Gurley, Maria Sacchetti",
+      "title": "Trump\u2019s $100,000 fee on H-1B visas for highly skilled workers is struck down - The Washington Post",
+      "description": "A judge declared President Donald Trump\u2019s fee unlawful. The fee narrowed a major pathway for legal immigration that is used by tech companies, hospitals and universities.",
+      "url": "https://www.washingtonpost.com/business/2026/06/08/court-strike-down-trumps-h-1b-100000-fee/",
+      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/E33DWQB7LUI7DO2G5VLENCGZKM_size-normalized.jpg&w=1440",
+      "publishedAt": "2026-06-09T02:47:42Z",
+      "content": "A federal judge threw out the Trump administrations $100,000 fee on H-1B visas for highly skilled workers Monday, which had been challenged by California and 19 other states.\r\nIn the 42-page ruling, \u2026 [+331 chars]"
+    },
+    {
+      "source": {
+        "id": "bloomberg",
+        "name": "Bloomberg"
+      },
+      "author": "Mark Gurman",
+      "title": "Apple\u2019s iOS 27 Is Filled With Hints About Its Upcoming Foldable iPhone - Bloomberg.com",
+      "description": "Apple Inc.\u2019s iOS 27 and related software updates offer the clearest public signs yet of the company\u2019s upcoming foldable iPhone, revealing references to folding hardware and new features designed for larger, more flexible displays.",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-09/apple-s-ios-27-is-filled-with-hints-about-its-upcoming-foldable-iphone",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iPsZiJEXOpI8/v0/1200x800.jpg",
+      "publishedAt": "2026-06-09T02:20:00Z",
+      "content": "Apple Inc.s iOS 27 and related software updates offer the clearest public signs yet of the companys upcoming foldable iPhone, revealing references to folding hardware and new features designed for la\u2026 [+332 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NBCSports.com"
+      },
+      "author": "Mike Florio",
+      "title": "NCAA appeals Brendan Sorsby ruling - NBC Sports",
+      "description": "As expected, the NCAA has appealed the court decision restoring the eligibility of Texas Tech quarterback Brendan Sorsby.",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/ncaa-appeals-brendan-sorsby-ruling",
+      "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/9f10082/2147483647/strip/true/crop/4200x2363+0+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fa6%2Fce%2Ff31ff6fe498286145d91464ffc12%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2258369743",
+      "publishedAt": "2026-06-09T01:38:55Z",
+      "content": "As expected, the NCAA has appealed the court decision restoring the eligibility of Texas Tech quarterback Brendan Sorsby.\r\nVia Justin Williams of The Athletic, the NCAA has filed an official appeal t\u2026 [+818 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Just Jared"
+      },
+      "author": "AJ Pitts",
+      "title": "Katy Perry & Justin Trudeau Make Red Carpet Debut at Tribeca Premiere of Her Concert Film 'Katy Perry: The Lifetimes Tour - Live In Paris' - Just Jared",
+      "description": "Katy Perry and Justin Trudeau are walking the red carpet together for the first time!The 41-year-old singer and the 54-year-old former Prime Minister of",
+      "url": "https://www.justjared.com/2026/06/08/katy-perry-justin-trudeau-make-red-carpet-debut-at-tribeca-premiere-of-her-concert-film-katy-perry-the-lifetimes-tour-live-in-paris/",
+      "urlToImage": "https://www.justjared.com/wp-content/uploads/2026/06/katy-justin-tribeca.jpg",
+      "publishedAt": "2026-06-09T01:33:30Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Lee Ying Shan",
+      "title": "Asia chip-linked shares recover after U.S. peers bounce back - CNBC",
+      "description": "In the U.S., chip stocks powered gains on Monday, helping the S&P 500 gain 0.3%, while the tech-heavy Nasdaq Composite advanced 0.86%.",
+      "url": "https://www.cnbc.com/2026/06/09/asia-tech-stocks-rebound-after-wall-street-chip-shares-recover-.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108256608-1769204635647-gettyimages-1237668341-TAIWAN_TSMC.jpeg?v=1775649989&w=1920&h=1080",
+      "publishedAt": "2026-06-09T01:16:00Z",
+      "content": "Asian technology stocks rebounded Tuesday, tracking Wall Street's gains, as investors returned to artificial intelligence-linked names.\r\nSouth Korean memory chip giant SK Hynix climbed 6.44%, while S\u2026 [+1502 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Jay Peters",
+      "title": "5 things I already love from the iOS 27 beta - The Verge",
+      "description": "I\u2019ve already been testing the first iOS 27 developer beta, and there are some features that I\u2019m a big fan of, like Liquid Glass improvements and a new extra large option for widgets.",
+      "url": "https://www.theverge.com/tech/946391/apple-ios-27-developer-beta-1-wwdc-2026-5-things",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/videoframe_560765.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+      "publishedAt": "2026-06-08T23:30:00Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nLike better icons and chonky widgets.\r\nLike better icons and chonky widgets.\r\nby\r\nJay PetersClose\r\nPosts from this author will be added to your daily email diges\u2026 [+3814 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "/FILM"
+      },
+      "author": "Ryan Scott",
+      "title": "Hollywood Finally Has A $1 Billion Box Office Hit In 2026 - SlashFilm",
+      "description": "The Super Mario Galaxy Movie has already crossed the billion-dollar mark at the box office, and it surely won't be the last 2026 movie to do so.",
+      "url": "https://www.slashfilm.com/2190123/hollywood-first-2026-billion-dollar-box-office-hit-the-super-mario-galaxy-movie/",
+      "urlToImage": "https://www.slashfilm.com/img/gallery/hollywood-finally-has-a-1-billion-box-office-hit-in-2026/l-intro-1780957144.jpg",
+      "publishedAt": "2026-06-08T23:05:38Z",
+      "content": "It's official: We finally have a $1 billion movie at the box office in 2026. Welcome to the $1 billion club, \"The Super Mario Galaxy Movie.\" Last year was a bit of an outlier in that department as \"N\u2026 [+1510 chars]"
     }
   ]
 }

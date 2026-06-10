@@ -1,8 +1,8 @@
 {
   "data": [
     {
-      "from": "2026-06-08T10:30Z",
-      "to": "2026-06-08T11:00Z",
+      "from": "2026-06-10T10:30Z",
+      "to": "2026-06-10T11:00Z",
       "regions": [
         {
           "regionid": 1,
@@ -43,11 +43,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 10.4
+              "perc": 9.5
             },
             {
               "fuel": "wind",
-              "perc": 89.6
+              "perc": 90.5
             }
           ]
         },
@@ -62,7 +62,7 @@
           "generationmix": [
             {
               "fuel": "biomass",
-              "perc": 0
+              "perc": 0.1
             },
             {
               "fuel": "coal",
@@ -78,7 +78,7 @@
             },
             {
               "fuel": "nuclear",
-              "perc": 20
+              "perc": 22.8
             },
             {
               "fuel": "other",
@@ -90,11 +90,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 10.4
+              "perc": 9.6
             },
             {
               "fuel": "wind",
-              "perc": 69.6
+              "perc": 67.5
             }
           ]
         },
@@ -103,13 +103,13 @@
           "dnoregion": "Electricity North West",
           "shortname": "North West England",
           "intensity": {
-            "forecast": 47,
+            "forecast": 36,
             "index": "low"
           },
           "generationmix": [
             {
               "fuel": "biomass",
-              "perc": 1.7
+              "perc": 2.7
             },
             {
               "fuel": "coal",
@@ -117,15 +117,15 @@
             },
             {
               "fuel": "imports",
-              "perc": 8.6
+              "perc": 10.3
             },
             {
               "fuel": "gas",
-              "perc": 11.3
+              "perc": 8.2
             },
             {
               "fuel": "nuclear",
-              "perc": 37.7
+              "perc": 39.5
             },
             {
               "fuel": "other",
@@ -137,11 +137,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 8.8
+              "perc": 9.9
             },
             {
               "fuel": "wind",
-              "perc": 31.9
+              "perc": 29.3
             }
           ]
         },
@@ -150,13 +150,13 @@
           "dnoregion": "NPG North East",
           "shortname": "North East England",
           "intensity": {
-            "forecast": 11,
+            "forecast": 14,
             "index": "very low"
           },
           "generationmix": [
             {
               "fuel": "biomass",
-              "perc": 8
+              "perc": 11
             },
             {
               "fuel": "coal",
@@ -164,7 +164,7 @@
             },
             {
               "fuel": "imports",
-              "perc": 39.5
+              "perc": 41.4
             },
             {
               "fuel": "gas",
@@ -172,7 +172,7 @@
             },
             {
               "fuel": "nuclear",
-              "perc": 23.8
+              "perc": 23.2
             },
             {
               "fuel": "other",
@@ -184,11 +184,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 8
+              "perc": 9.7
             },
             {
               "fuel": "wind",
-              "perc": 20.6
+              "perc": 14.6
             }
           ]
         },
@@ -197,13 +197,13 @@
           "dnoregion": "NPG Yorkshire",
           "shortname": "Yorkshire",
           "intensity": {
-            "forecast": 69,
-            "index": "low"
+            "forecast": 95,
+            "index": "moderate"
           },
           "generationmix": [
             {
               "fuel": "biomass",
-              "perc": 28.1
+              "perc": 46.3
             },
             {
               "fuel": "coal",
@@ -211,15 +211,15 @@
             },
             {
               "fuel": "imports",
-              "perc": 10.2
+              "perc": 10.6
             },
             {
               "fuel": "gas",
-              "perc": 8.9
+              "perc": 9.8
             },
             {
               "fuel": "nuclear",
-              "perc": 8
+              "perc": 7
             },
             {
               "fuel": "other",
@@ -231,11 +231,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 7.1
+              "perc": 9.8
             },
             {
               "fuel": "wind",
-              "perc": 37.8
+              "perc": 16.4
             }
           ]
         },
@@ -244,13 +244,13 @@
           "dnoregion": "SP Manweb",
           "shortname": "North Wales & Merseyside",
           "intensity": {
-            "forecast": 82,
+            "forecast": 72,
             "index": "low"
           },
           "generationmix": [
             {
               "fuel": "biomass",
-              "perc": 0.4
+              "perc": 0.8
             },
             {
               "fuel": "coal",
@@ -258,15 +258,15 @@
             },
             {
               "fuel": "imports",
-              "perc": 2
+              "perc": 2.8
             },
             {
               "fuel": "gas",
-              "perc": 20.6
+              "perc": 18.1
             },
             {
               "fuel": "nuclear",
-              "perc": 14.5
+              "perc": 18.3
             },
             {
               "fuel": "other",
@@ -278,11 +278,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 16.6
+              "perc": 17
             },
             {
               "fuel": "wind",
-              "perc": 46
+              "perc": 43.1
             }
           ]
         },
@@ -291,7 +291,7 @@
           "dnoregion": "WPD South Wales",
           "shortname": "South Wales",
           "intensity": {
-            "forecast": 286,
+            "forecast": 298,
             "index": "very high"
           },
           "generationmix": [
@@ -309,7 +309,7 @@
             },
             {
               "fuel": "gas",
-              "perc": 72.7
+              "perc": 75.8
             },
             {
               "fuel": "nuclear",
@@ -325,11 +325,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 20.3
+              "perc": 18
             },
             {
               "fuel": "wind",
-              "perc": 7
+              "perc": 6.2
             }
           ]
         },
@@ -338,13 +338,13 @@
           "dnoregion": "WPD West Midlands",
           "shortname": "West Midlands",
           "intensity": {
-            "forecast": 110,
+            "forecast": 105,
             "index": "moderate"
           },
           "generationmix": [
             {
               "fuel": "biomass",
-              "perc": 0.7
+              "perc": 1.9
             },
             {
               "fuel": "coal",
@@ -352,15 +352,15 @@
             },
             {
               "fuel": "imports",
-              "perc": 3.6
+              "perc": 4.3
             },
             {
               "fuel": "gas",
-              "perc": 27.7
+              "perc": 26.1
             },
             {
               "fuel": "nuclear",
-              "perc": 17.3
+              "perc": 17.7
             },
             {
               "fuel": "other",
@@ -372,11 +372,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 23.2
+              "perc": 27
             },
             {
               "fuel": "wind",
-              "perc": 27.4
+              "perc": 23
             }
           ]
         },
@@ -385,13 +385,13 @@
           "dnoregion": "WPD East Midlands",
           "shortname": "East Midlands",
           "intensity": {
-            "forecast": 92,
+            "forecast": 134,
             "index": "moderate"
           },
           "generationmix": [
             {
               "fuel": "biomass",
-              "perc": 18.1
+              "perc": 26.3
             },
             {
               "fuel": "coal",
@@ -399,15 +399,15 @@
             },
             {
               "fuel": "imports",
-              "perc": 6.6
+              "perc": 6
             },
             {
               "fuel": "gas",
-              "perc": 17.7
+              "perc": 26
             },
             {
               "fuel": "nuclear",
-              "perc": 5.1
+              "perc": 4
             },
             {
               "fuel": "other",
@@ -419,11 +419,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 18.8
+              "perc": 24.3
             },
             {
               "fuel": "wind",
-              "perc": 33.7
+              "perc": 13.3
             }
           ]
         },
@@ -432,13 +432,13 @@
           "dnoregion": "UKPN East",
           "shortname": "East England",
           "intensity": {
-            "forecast": 165,
+            "forecast": 154,
             "index": "moderate"
           },
           "generationmix": [
             {
               "fuel": "biomass",
-              "perc": 4.6
+              "perc": 5
             },
             {
               "fuel": "coal",
@@ -446,15 +446,15 @@
             },
             {
               "fuel": "imports",
-              "perc": 32.7
+              "perc": 28.9
             },
             {
               "fuel": "gas",
-              "perc": 10.3
+              "perc": 11.6
             },
             {
               "fuel": "nuclear",
-              "perc": 1.3
+              "perc": 2.9
             },
             {
               "fuel": "other",
@@ -466,11 +466,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 23.7
+              "perc": 31.2
             },
             {
               "fuel": "wind",
-              "perc": 27.4
+              "perc": 20.3
             }
           ]
         },
@@ -479,13 +479,13 @@
           "dnoregion": "WPD South West",
           "shortname": "South West England",
           "intensity": {
-            "forecast": 103,
+            "forecast": 121,
             "index": "moderate"
           },
           "generationmix": [
             {
               "fuel": "biomass",
-              "perc": 0.7
+              "perc": 1.2
             },
             {
               "fuel": "coal",
@@ -493,11 +493,11 @@
             },
             {
               "fuel": "imports",
-              "perc": 2.2
+              "perc": 3
             },
             {
               "fuel": "gas",
-              "perc": 25.7
+              "perc": 29.7
             },
             {
               "fuel": "nuclear",
@@ -513,11 +513,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 62.5
+              "perc": 58.2
             },
             {
               "fuel": "wind",
-              "perc": 8.2
+              "perc": 7
             }
           ]
         },
@@ -526,13 +526,13 @@
           "dnoregion": "SSE South",
           "shortname": "South England",
           "intensity": {
-            "forecast": 130,
+            "forecast": 125,
             "index": "moderate"
           },
           "generationmix": [
             {
               "fuel": "biomass",
-              "perc": 4.2
+              "perc": 6
             },
             {
               "fuel": "coal",
@@ -540,15 +540,15 @@
             },
             {
               "fuel": "imports",
-              "perc": 13.3
+              "perc": 15.2
             },
             {
               "fuel": "gas",
-              "perc": 29.7
+              "perc": 27.2
             },
             {
               "fuel": "nuclear",
-              "perc": 5.3
+              "perc": 4
             },
             {
               "fuel": "other",
@@ -560,11 +560,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 31.3
+              "perc": 38.7
             },
             {
               "fuel": "wind",
-              "perc": 16.2
+              "perc": 8.9
             }
           ]
         },
@@ -573,13 +573,13 @@
           "dnoregion": "UKPN London",
           "shortname": "London",
           "intensity": {
-            "forecast": 161,
+            "forecast": 158,
             "index": "moderate"
           },
           "generationmix": [
             {
               "fuel": "biomass",
-              "perc": 0.9
+              "perc": 1.1
             },
             {
               "fuel": "coal",
@@ -587,15 +587,15 @@
             },
             {
               "fuel": "imports",
-              "perc": 48.7
+              "perc": 49.6
             },
             {
               "fuel": "gas",
-              "perc": 27.4
+              "perc": 25.4
             },
             {
               "fuel": "nuclear",
-              "perc": 0.4
+              "perc": 0.5
             },
             {
               "fuel": "other",
@@ -607,11 +607,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 11.1
+              "perc": 14.1
             },
             {
               "fuel": "wind",
-              "perc": 11.3
+              "perc": 9
             }
           ]
         },
@@ -620,7 +620,7 @@
           "dnoregion": "UKPN South East",
           "shortname": "South East England",
           "intensity": {
-            "forecast": 162,
+            "forecast": 159,
             "index": "moderate"
           },
           "generationmix": [
@@ -634,11 +634,11 @@
             },
             {
               "fuel": "imports",
-              "perc": 53.6
+              "perc": 55.3
             },
             {
               "fuel": "gas",
-              "perc": 31
+              "perc": 29
             },
             {
               "fuel": "nuclear",
@@ -654,11 +654,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 7.3
+              "perc": 9.4
             },
             {
               "fuel": "wind",
-              "perc": 7.8
+              "perc": 6
             }
           ]
         },
@@ -667,13 +667,13 @@
           "dnoregion": "England",
           "shortname": "England",
           "intensity": {
-            "forecast": 112,
+            "forecast": 120,
             "index": "moderate"
           },
           "generationmix": [
             {
               "fuel": "biomass",
-              "perc": 6.2
+              "perc": 9.4
             },
             {
               "fuel": "coal",
@@ -681,15 +681,15 @@
             },
             {
               "fuel": "imports",
-              "perc": 17.1
+              "perc": 17.8
             },
             {
               "fuel": "gas",
-              "perc": 20.3
+              "perc": 21.5
             },
             {
               "fuel": "nuclear",
-              "perc": 9.9
+              "perc": 10.1
             },
             {
               "fuel": "other",
@@ -701,11 +701,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 21.5
+              "perc": 25.1
             },
             {
               "fuel": "wind",
-              "perc": 25
+              "perc": 16.2
             }
           ]
         },
@@ -720,7 +720,7 @@
           "generationmix": [
             {
               "fuel": "biomass",
-              "perc": 0
+              "perc": 0.1
             },
             {
               "fuel": "coal",
@@ -736,7 +736,7 @@
             },
             {
               "fuel": "nuclear",
-              "perc": 18.4
+              "perc": 19.7
             },
             {
               "fuel": "other",
@@ -748,11 +748,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 10.2
+              "perc": 9.7
             },
             {
               "fuel": "wind",
-              "perc": 71.3
+              "perc": 70.5
             }
           ]
         },
@@ -761,8 +761,8 @@
           "dnoregion": "Wales",
           "shortname": "Wales",
           "intensity": {
-            "forecast": 236,
-            "index": "very high"
+            "forecast": 191,
+            "index": "high"
           },
           "generationmix": [
             {
@@ -779,11 +779,11 @@
             },
             {
               "fuel": "gas",
-              "perc": 59.9
+              "perc": 48.5
             },
             {
               "fuel": "nuclear",
-              "perc": 1.1
+              "perc": 3.5
             },
             {
               "fuel": "other",
@@ -795,11 +795,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 18.5
+              "perc": 19.9
             },
             {
               "fuel": "wind",
-              "perc": 20.6
+              "perc": 28.1
             }
           ]
         },
@@ -808,13 +808,13 @@
           "dnoregion": "GB",
           "shortname": "GB",
           "intensity": {
-            "forecast": 114,
+            "forecast": 119,
             "index": "moderate"
           },
           "generationmix": [
             {
               "fuel": "biomass",
-              "perc": 5.5
+              "perc": 8.4
             },
             {
               "fuel": "coal",
@@ -822,15 +822,15 @@
             },
             {
               "fuel": "imports",
-              "perc": 15.2
+              "perc": 16
             },
             {
               "fuel": "gas",
-              "perc": 21.9
+              "perc": 22.3
             },
             {
               "fuel": "nuclear",
-              "perc": 9.7
+              "perc": 10
             },
             {
               "fuel": "other",
@@ -842,11 +842,11 @@
             },
             {
               "fuel": "solar",
-              "perc": 20.8
+              "perc": 24.2
             },
             {
               "fuel": "wind",
-              "perc": 26.8
+              "perc": 19
             }
           ]
         }

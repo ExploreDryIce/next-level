@@ -1,60 +1,5 @@
 [
   {
-    "event_type": "solar_flare_C1.8",
-    "timestamp": 1780368000.0,
-    "severity_score": 0.4,
-    "domain": "grid",
-    "source": "nasa_donki",
-    "metadata": {
-      "class": "C1.8",
-      "source_location": "N15E09"
-    }
-  },
-  {
-    "event_type": "solar_flare_M1.2",
-    "timestamp": 1780375320.0,
-    "severity_score": 0.7,
-    "domain": "grid",
-    "source": "nasa_donki",
-    "metadata": {
-      "class": "M1.2",
-      "source_location": "S25E80"
-    }
-  },
-  {
-    "event_type": "solar_flare_C3.1",
-    "timestamp": 1780382760.0,
-    "severity_score": 0.4,
-    "domain": "grid",
-    "source": "nasa_donki",
-    "metadata": {
-      "class": "C3.1",
-      "source_location": "N15E01"
-    }
-  },
-  {
-    "event_type": "solar_flare_M1.2",
-    "timestamp": 1780393860.0,
-    "severity_score": 0.7,
-    "domain": "grid",
-    "source": "nasa_donki",
-    "metadata": {
-      "class": "M1.2",
-      "source_location": "N11E01"
-    }
-  },
-  {
-    "event_type": "solar_flare_M3.3",
-    "timestamp": 1780417860.0,
-    "severity_score": 0.7,
-    "domain": "grid",
-    "source": "nasa_donki",
-    "metadata": {
-      "class": "M3.3",
-      "source_location": "N13W05"
-    }
-  },
-  {
     "event_type": "solar_flare_M9.3",
     "timestamp": 1780449720.0,
     "severity_score": 0.7,
@@ -121,14 +66,25 @@
     }
   },
   {
+    "event_type": "solar_flare_C2.3",
+    "timestamp": 1781031720.0,
+    "severity_score": 0.4,
+    "domain": "grid",
+    "source": "nasa_donki",
+    "metadata": {
+      "class": "C2.3",
+      "source_location": "S21W19"
+    }
+  },
+  {
     "event_type": "grid_carbon_intensity",
-    "timestamp": 1780914600.0,
-    "severity_score": 0.285,
+    "timestamp": 1781087400.0,
+    "severity_score": 0.287,
     "domain": "grid",
     "source": "uk_carbon_intensity",
     "metadata": {
-      "actual_gCO2": 114,
-      "forecast_gCO2": 114
+      "actual_gCO2": 115,
+      "forecast_gCO2": 118
     }
   }
 ]

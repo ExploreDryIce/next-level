@@ -9,3 +9,47 @@
   convert_nvd_vulnerabilities: 20 events → cyber
   convert_carbon_intensity: 1 events → grid
   convert_fema_disasters: 20 events → geo
+  convert_earthquakes: 80 events → geo
+  convert_weather_forecast: 0 events → weather
+  convert_nws_alerts: 9 events → weather
+  convert_treasury: 40 events → financial
+  convert_crypto: 1 events → financial
+  convert_finnhub_news: 100 events → financial
+  convert_finnhub_economic_calendar: 100 events → financial
+  convert_solar_flares: 11 events → grid
+  convert_nvd_vulnerabilities: 20 events → cyber
+  convert_carbon_intensity: 1 events → grid
+  convert_fema_disasters: 20 events → geo
+  convert_earthquakes: 54 events → geo
+  convert_weather_forecast: 0 events → weather
+  convert_nws_alerts: 3 events → weather
+  convert_treasury: 40 events → financial
+  convert_crypto: 0 events → financial
+  convert_finnhub_news: 100 events → financial
+  convert_finnhub_economic_calendar: 100 events → financial
+  convert_solar_flares: 11 events → grid
+  convert_nvd_vulnerabilities: 20 events → cyber
+  convert_carbon_intensity: 1 events → grid
+  convert_fema_disasters: 20 events → geo
+  convert_earthquakes: 46 events → geo
+  convert_weather_forecast: 0 events → weather
+  convert_nws_alerts: 10 events → weather
+  convert_treasury: 40 events → financial
+  convert_crypto: 0 events → financial
+  convert_finnhub_news: 100 events → financial
+  convert_finnhub_economic_calendar: 100 events → financial
+  convert_solar_flares: 11 events → grid
+  convert_nvd_vulnerabilities: 20 events → cyber
+  convert_carbon_intensity: 1 events → grid
+  convert_fema_disasters: 20 events → geo
+  convert_earthquakes: 51 events → geo
+  convert_weather_forecast: 0 events → weather
+  convert_nws_alerts: 0 events → weather
+  convert_treasury: 40 events → financial
+  convert_crypto: 0 events → financial
+  convert_finnhub_news: 100 events → financial
+  convert_finnhub_economic_calendar: 100 events → financial
+  convert_solar_flares: 7 events → grid
+  convert_nvd_vulnerabilities: 20 events → cyber
+  convert_carbon_intensity: 1 events → grid
+  convert_fema_disasters: 20 events → geo

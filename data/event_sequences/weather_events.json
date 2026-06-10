@@ -1,57 +1,112 @@
 [
   {
-    "event_type": "nws_alert_flood_warning",
-    "timestamp": 1780895760.0,
-    "severity_score": 0.8,
+    "event_type": "nws_alert_heat_advisory",
+    "timestamp": 1781000340.0,
+    "severity_score": 0.5,
     "domain": "weather",
     "source": "nws",
     "metadata": {
-      "headline": "Flood Warning issued June 8 at 12:16AM CDT until June 8 at 7:00AM CDT by NWS Huntsville AL",
-      "areas": "Jackson, AL; Madison, AL; Lincoln, TN"
+      "headline": "Heat Advisory issued June 9 at 5:19AM CDT until June 9 at 8:00PM CDT by NWS Memphis TN",
+      "areas": "Clay; Greene; Craighead; Poinsett; Mississippi; Cross; Crittenden; St. Francis; Lee; Phillips; Dunklin; Pemiscot; DeSoto; Tunica; Coahoma; Quitman; Lake; Obion; Weakley; Dyer; Gibson; Lauderdale; Tipton; Haywood; Crockett; Madison; Shelby; Fayette"
     }
   },
   {
-    "event_type": "nws_alert_flood_watch",
-    "timestamp": 1780899720.0,
-    "severity_score": 0.8,
+    "event_type": "nws_alert_flood_advisory",
+    "timestamp": 1781040540.0,
+    "severity_score": 0.3,
     "domain": "weather",
     "source": "nws",
     "metadata": {
-      "headline": "Flood Watch issued June 8 at 2:22AM EDT until June 8 at 9:00PM EDT by NWS Morristown TN",
-      "areas": "Cherokee; Clay; Scott; Campbell; Morgan; Anderson; Union; Roane; Loudon; Knox; NW Blount; Blount Smoky Mountains; North Sevier; Sevier Smoky Mountains; Sequatchie; Bledsoe; Rhea; Meigs; McMinn; Northwest Monroe; Southeast Monroe; Marion; Hamilton; Bradley; West Polk; East Polk"
+      "headline": "Flood Advisory issued June 9 at 5:29PM EDT until June 9 at 7:30PM EDT by NWS Morristown TN",
+      "areas": "Polk, TN"
     }
   },
   {
-    "event_type": "nws_alert_flood_watch",
-    "timestamp": 1780899720.0,
-    "severity_score": 0.8,
+    "event_type": "nws_alert_flood_advisory",
+    "timestamp": 1781041680.0,
+    "severity_score": 0.3,
     "domain": "weather",
     "source": "nws",
     "metadata": {
-      "headline": "Flood Watch issued June 8 at 2:22AM EDT until June 8 at 9:00PM EDT by NWS Morristown TN",
-      "areas": "Claiborne; Hancock; Hawkins; Sullivan; Johnson; Grainger; Hamblen; Northwest Cocke; Cocke Smoky Mountains; Northwest Greene; Southeast Greene; Washington; Unicoi; Northwest Carter; Southeast Carter; Jefferson"
+      "headline": "Flood Advisory issued June 9 at 4:48PM CDT until June 9 at 6:45PM CDT by NWS Nashville TN",
+      "areas": "Cheatham, TN; Davidson, TN; Macon, TN; Robertson, TN; Rutherford, TN; Sumner, TN; Trousdale, TN; Williamson, TN; Wilson, TN"
     }
   },
   {
-    "event_type": "nws_alert_flood_watch",
-    "timestamp": 1780905360.0,
+    "event_type": "nws_alert_flash_flood_warning",
+    "timestamp": 1781042820.0,
     "severity_score": 0.8,
     "domain": "weather",
     "source": "nws",
     "metadata": {
-      "headline": "Flood Watch issued June 8 at 2:56AM CDT until June 8 at 8:00PM CDT by NWS Huntsville AL",
-      "areas": "Lauderdale; Limestone; Madison; Jackson; Moore; Lincoln; Franklin"
+      "headline": "Flash Flood Warning issued June 9 at 5:07PM CDT until June 9 at 7:00PM CDT by NWS Nashville TN",
+      "areas": "Davidson, TN; Robertson, TN; Rutherford, TN; Sumner, TN; Wilson, TN"
     }
   },
   {
-    "event_type": "nws_alert_flood_watch",
-    "timestamp": 1780913280.0,
+    "event_type": "nws_alert_flash_flood_warning",
+    "timestamp": 1781044020.0,
     "severity_score": 0.8,
     "domain": "weather",
     "source": "nws",
     "metadata": {
-      "headline": "Flood Watch issued June 8 at 5:08AM CDT until June 8 at 8:00PM CDT by NWS Nashville TN",
-      "areas": "Stewart; Montgomery; Robertson; Sumner; Macon; Clay; Pickett; Houston; Humphreys; Dickson; Cheatham; Davidson; Wilson; Trousdale; Smith; Jackson; Putnam; Overton; Fentress; Perry; Hickman; Lewis; Williamson; Maury; Marshall; Rutherford; Cannon; De Kalb; White; Cumberland; Bedford; Coffee; Warren; Grundy; Van Buren; Wayne; Lawrence; Giles"
+      "headline": "Flash Flood Warning issued June 9 at 5:27PM CDT until June 9 at 7:15PM CDT by NWS Nashville TN",
+      "areas": "Robertson, TN; Sumner, TN"
+    }
+  },
+  {
+    "event_type": "nws_alert_flash_flood_warning",
+    "timestamp": 1781044080.0,
+    "severity_score": 0.8,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Flash Flood Warning issued June 9 at 5:28PM CDT until June 9 at 7:15PM CDT by NWS Nashville TN",
+      "areas": "Robertson, TN; Sumner, TN"
+    }
+  },
+  {
+    "event_type": "nws_alert_special_weather_statement",
+    "timestamp": 1781044620.0,
+    "severity_score": 0.5,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Special Weather Statement issued June 9 at 5:37PM CDT by NWS Nashville TN",
+      "areas": "Smith; Jackson; Putnam; De Kalb; White"
+    }
+  },
+  {
+    "event_type": "nws_alert_flood_advisory",
+    "timestamp": 1781044800.0,
+    "severity_score": 0.3,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Flood Advisory issued June 9 at 5:40PM CDT until June 9 at 7:45PM CDT by NWS Nashville TN",
+      "areas": "Rutherford, TN; Wilson, TN"
+    }
+  },
+  {
+    "event_type": "nws_alert_severe_thunderstorm_warning",
+    "timestamp": 1781045700.0,
+    "severity_score": 0.8,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Severe Thunderstorm Warning issued June 9 at 5:55PM CDT until June 9 at 6:45PM CDT by NWS Nashville TN",
+      "areas": "Bedford, TN; Cannon, TN; Coffee, TN; Grundy, TN; Rutherford, TN; Warren, TN"
+    }
+  },
+  {
+    "event_type": "nws_alert_severe_thunderstorm_warning",
+    "timestamp": 1781045760.0,
+    "severity_score": 0.8,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Severe Thunderstorm Warning issued June 9 at 5:56PM CDT until June 9 at 6:15PM CDT by NWS Nashville TN",
+      "areas": "Cannon, TN; Rutherford, TN"
     }
   }
 ]

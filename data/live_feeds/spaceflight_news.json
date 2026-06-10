@@ -1,204 +1,97 @@
 {
-  "count": 34504,
+  "count": 34547,
   "next": "https://api.spaceflightnewsapi.net/v4/articles/?limit=10&offset=10",
   "previous": null,
   "results": [
     {
-      "id": 38292,
-      "title": "Speed as a Strategic Advantage in Border Monitoring",
+      "id": 38368,
+      "title": "After the launch: Why Europe\u2019s space ambitions depend on what comes next",
       "authors": [
         {
-          "name": "BlackSky",
+          "name": "Rosa Schmidt",
           "socials": null
         }
       ],
-      "url": "https://spacenews.com/speed-as-a-strategic-advantage-in-border-monitoring/",
-      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/SpaceNews_BlackSky_Poland-Russiaborder_03April2026_167vehicles.jpg?fit=879%2C497&ssl=1",
+      "url": "https://spacenews.com/after-the-launch-why-europes-space-ambitions-depend-on-what-comes-next/",
+      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/Screenshot-2026-06-08-101723.png?fit=1024%2C518&ssl=1",
       "news_site": "SpaceNews",
-      "summary": "\nAcross Europe, border environments are becoming increasingly dynamic and complex. Activity can shift within hours\u2014vehicles reposition, staging areas disperse, small watercraft alter routes, and nodes of activity appear and disappear [\u2026]\nThe post Speed as a Strategic Advantage in Border Monitoring appeared first on SpaceNews.",
-      "published_at": "2026-06-08T11:00:00Z",
-      "updated_at": "2026-06-08T11:00:34.301657Z",
+      "summary": "\nSatellites have become essential infrastructure. Financial markets rely on their timing signals. Military operations depend on their communications and surveillance. Navigation, disaster response, logistics, climate monitoring, most systems that underpin [\u2026]\nThe post After the launch: Why Europe\u2019s space ambitions depend on what comes next appeared first on SpaceNews.",
+      "published_at": "2026-06-10T11:00:00Z",
+      "updated_at": "2026-06-10T11:00:31.893948Z",
       "featured": false,
       "launches": [],
       "events": []
     },
     {
-      "id": 38291,
-      "title": "ESA at ILA Berlin International Airshow 2026",
+      "id": 38366,
+      "title": "Tyndall\u2019s Trail of Bergs",
       "authors": [
         {
-          "name": "ESA",
+          "name": "NASA",
           "socials": null
         }
       ],
-      "url": "https://www.esa.int/About_Us/Corporate_news/ESA_at_ILA_Berlin_International_Airshow_2026",
-      "image_url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/europe_in_space_ila_2026/27312131-1-eng-GB/Europe_in_space_ILA_2026_card_full.jpg",
-      "news_site": "ESA",
-      "summary": "Under the theme 'Space4Future', the European Space Agency (ESA) will welcome visitors to the Space Pavilion at ILA Berlin International Airshow, Hall B, from\u00a010 to 14\u202fJune. From Moon exploration to climate monitoring, from navigation and telecommunication to European launchers, visitors to the pavilion will discover how space is shaping our future.",
-      "published_at": "2026-06-08T08:18:00Z",
-      "updated_at": "2026-06-08T08:50:13.233005Z",
+      "url": "https://science.nasa.gov/earth/earth-observatory/tyndalls-trail-of-bergs/",
+      "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/tyndall%E2%80%99s-trail-of-bergs/ISS074-E-582898.jpg",
+      "news_site": "NASA",
+      "summary": "Ice splintered off the southern Patagonia glacier and drifted across a growing glacial lake.",
+      "published_at": "2026-06-10T04:01:00Z",
+      "updated_at": "2026-06-10T10:05:42.947538Z",
       "featured": false,
       "launches": [],
       "events": []
     },
     {
-      "id": 38290,
-      "title": "ESA and EBRD to advance Earth observation for development and impact finance",
-      "authors": [
-        {
-          "name": "ESA",
-          "socials": null
-        }
-      ],
-      "url": "https://www.esa.int/Applications/Observing_the_Earth/ESA_and_EBRD_to_advance_Earth_observation_for_development_and_impact_finance",
-      "image_url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/06/esa_and_ebrd_sign_letter_of_intent_in_riga/27311442-1-eng-GB/ESA_and_EBRD_sign_letter_of_intent_in_Riga_card_full.jpg",
-      "news_site": "ESA",
-      "summary": "The European Space Agency (ESA) signed an agreement with the European Bank for Reconstruction and Development (EBRD), hailing a new era of cooperation with the aim of advancing the use of Earth observation data and services for development and impact finance initiatives.",
-      "published_at": "2026-06-08T07:15:00Z",
-      "updated_at": "2026-06-08T08:00:24.762976Z",
-      "featured": false,
-      "launches": [],
-      "events": []
-    },
-    {
-      "id": 38289,
-      "title": "UK startup NewOrbit raises $18.5 million in Series A round",
-      "authors": [
-        {
-          "name": "Debra Werner",
-          "socials": null
-        }
-      ],
-      "url": "https://spacenews.com/uk-startup-neworbit-raises-18-5-million-in-series-a-round/",
-      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/rsz_neo_fromabove.jpg?fit=879%2C494&ssl=1",
-      "news_site": "SpaceNews",
-      "summary": "\nSAN FRANCISCO \u2013 NewOrbit Space, a UK startup developing satellites for very low Earth orbit (VLEO), has raised $18.5 million in a Series A investment round. With the funding, announced [\u2026]\nThe post UK startup NewOrbit raises $18.5 million in Series A round appeared first on SpaceNews.",
-      "published_at": "2026-06-08T07:00:00Z",
-      "updated_at": "2026-06-08T07:00:43.631990Z",
-      "featured": false,
-      "launches": [],
-      "events": []
-    },
-    {
-      "id": 38288,
-      "title": "OQ Technology plans direct-to-smartphone demo with cellular spectrum",
-      "authors": [
-        {
-          "name": "Jason Rainbow",
-          "socials": {
-            "x": "",
-            "youtube": "",
-            "instagram": "",
-            "linkedin": "https://www.linkedin.com/in/jasonrainbow",
-            "mastodon": "",
-            "bluesky": ""
-          }
-        }
-      ],
-      "url": "https://spacenews.com/oq-technology-plans-direct-to-smartphone-demo-with-cellular-spectrum/",
-      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/PR_OQ_Telefonica_logos.png?fit=1024%2C692&ssl=1",
-      "news_site": "SpaceNews",
-      "summary": "\nLuxembourg\u2019s OQ Technology plans to test direct-to-smartphone satellite connectivity next year in Germany using a local telco\u2019s cellular spectrum, setting up a challenge to U.S.-led services in the emerging market.\nThe post OQ Technology plans direct-to-smartphone demo with cellular spectrum appeared first on SpaceNews.",
-      "published_at": "2026-06-08T06:30:00Z",
-      "updated_at": "2026-06-08T06:40:20.889394Z",
-      "featured": false,
-      "launches": [],
-      "events": []
-    },
-    {
-      "id": 38287,
-      "title": "French Space Electronics Firm EREMS Completes \u20ac10 Million Expansion",
-      "authors": [
-        {
-          "name": "European Spaceflight",
-          "socials": null
-        }
-      ],
-      "url": "https://europeanspaceflight.com/french-space-electronics-firm-erems-completes-e10-million-expansion/",
-      "image_url": "https://europeanspaceflight.com/wp-content/uploads/2026/06/French-Space-Electronics-Firm-EREMS-Completes-E10-Million-Expansion.webp",
-      "news_site": "European Spaceflight",
-      "summary": "EREMS announced on 5 June the inauguration of its revamped Flourens facility in southwestern France following a three-year, \u20ac10 million expansion. Founded in 1979, EREMS specialises in the design and manufacture of electronic equipment used primarily for space applications. Most recently, the company has supplied key elements for Airbus Defence and Space\u2019s CO3D and Pl\u00e9iades [\u2026]\nThe post French Space Electronics Firm EREMS Completes \u20ac10 Million Expansion appeared first on European Spaceflight.",
-      "published_at": "2026-06-08T06:10:05Z",
-      "updated_at": "2026-06-08T06:10:11.572521Z",
-      "featured": false,
-      "launches": [],
-      "events": []
-    },
-    {
-      "id": 38286,
-      "title": "NASA concludes MAVEN mission at Mars, uses data to discover new atmospheric phenomenon",
-      "authors": [
-        {
-          "name": "Haygen Warren",
-          "socials": null
-        }
-      ],
-      "url": "https://www.nasaspaceflight.com/2026/06/maven-end-of-mission/",
-      "image_url": "https://www.nasaspaceflight.com/wp-content/uploads/2026/06/maven_mars_sunrise.png",
-      "news_site": "NASASpaceflight",
-      "summary": "Following a six-month battle to regain communication with its Mars Atmosphere and Volatile Evolution (MAVEN)\u2026\r\nThe post NASA concludes MAVEN mission at Mars, uses data to discover new atmospheric phenomenon appeared first on NASASpaceFlight.com.",
-      "published_at": "2026-06-07T20:11:48Z",
-      "updated_at": "2026-06-08T06:38:10.724944Z",
-      "featured": false,
-      "launches": [
-        {
-          "launch_id": "404bc5c5-79b8-4c7e-9919-a18ca202e38c",
-          "provider": "Launch Library 2"
-        }
-      ],
-      "events": [
-        {
-          "event_id": 1489,
-          "provider": "Launch Library 2"
-        }
-      ]
-    },
-    {
-      "id": 38285,
-      "title": "What\u2019s Happening in Space Policy June 7-13, 2026",
+      "id": 38365,
+      "title": "Three Americans and a European Named Crew of Artemis III",
       "authors": [
         {
           "name": "Marcia Smith",
           "socials": null
         }
       ],
-      "url": "https://spacepolicyonline.com/news/whats-happening-in-space-policy-june-7-13-2026/",
-      "image_url": "https://spacepolicyonline.com/wp-content/uploads/2026/02/Artemis-II-in-walkway-300x200.jpg",
+      "url": "https://spacepolicyonline.com/news/three-americans-and-a-european-named-crew-of-artemis-iii/",
+      "image_url": "https://spacepolicyonline.com/wp-content/uploads/2026/06/Artemis-3-crew-Robt-Markowitz.webp-300x198.jpg",
       "news_site": "SpacePolicyOnline.com",
-      "summary": "Here is SpacePolicyOnline.com\u2019s list of space policy events for the week of June 7-13, 2026 and any insight we can offer about them.\u00a0 The House and Senate are in session [\u2026]",
-      "published_at": "2026-06-07T19:48:26Z",
-      "updated_at": "2026-06-07T19:50:22.987104Z",
+      "summary": "Three NASA astronauts and one from the European Space Agency are the crew of the next Artemis mission, Artemis III. Instead of flying around the Moon like their predecessors, this [\u2026]",
+      "published_at": "2026-06-09T22:50:45Z",
+      "updated_at": "2026-06-10T10:05:23.822150Z",
+      "featured": false,
+      "launches": [
+        {
+          "launch_id": "8034d81b-af96-460c-a7b7-5c8e7f1a1d86",
+          "provider": "Launch Library 2"
+        }
+      ],
+      "events": [
+        {
+          "event_id": 1488,
+          "provider": "Launch Library 2"
+        }
+      ]
+    },
+    {
+      "id": 38364,
+      "title": "Flight Dynamics Research Facility Characteristics",
+      "authors": [
+        {
+          "name": "NASA",
+          "socials": null
+        }
+      ],
+      "url": "https://www.nasa.gov/directorates/armd/aetc/fdrf-characteristics/",
+      "image_url": "https://www.nasa.gov/wp-content/uploads/2026/04/clic-x047-2cf8-9.jpg",
+      "news_site": "NASA",
+      "summary": "HomeCharacteristics The Flight Dynamics Research Facility (FDRF) is a large, subsonic wind tunnel with a vertical test section for conducting flight dynamics research for stability, controllability, free-fall and aircraft spin, and spin recovery testing of atmospheric vehicles. Characteristics Flight Dynamics Flight Research Aerosciences Evaluation and Test Capabilities",
+      "published_at": "2026-06-09T20:47:02Z",
+      "updated_at": "2026-06-09T20:50:06.376241Z",
       "featured": false,
       "launches": [],
       "events": []
     },
     {
-      "id": 38284,
-      "title": "Live coverage: SpaceX to launch Falcon 9 rocket booster on record-breaking 35th flight",
-      "authors": [
-        {
-          "name": "Will Robinson-Smith",
-          "socials": null
-        }
-      ],
-      "url": "https://spaceflightnow.com/2026/06/07/live-coverage-spacex-to-launch-falcon-9-rocket-booster-on-record-breaking-35th-flight/",
-      "image_url": "http://spaceflightnow.com/wp-content/uploads/2025/12/20250827_Starlink_10_11_30.jpg",
-      "news_site": "Spaceflight Now",
-      "summary": "The Starlink 10-35 mission will be the 53rd dedicated launch for the satellite constellation. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled during a window that opens at 6:07 a.m. EDT (1007 UTC).",
-      "published_at": "2026-06-07T19:08:47Z",
-      "updated_at": "2026-06-08T06:38:25.032709Z",
-      "featured": false,
-      "launches": [
-        {
-          "launch_id": "114577dc-7617-461c-aaeb-9bd0f64b5a4b",
-          "provider": "Launch Library 2"
-        }
-      ],
-      "events": []
-    },
-    {
-      "id": 38283,
-      "title": "NASA to select new headquarters building by end of year",
+      "id": 38363,
+      "title": "NASA names crew for Artemis 3 mission to test lunar landers",
       "authors": [
         {
           "name": "Jeff Foust",
@@ -212,15 +105,170 @@
           }
         }
       ],
-      "url": "https://spacenews.com/nasa-to-select-new-headquarters-building-by-end-of-year/",
-      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/06/nasahq.webp?fit=1024%2C858&ssl=1",
+      "url": "https://spacenews.com/nasa-names-crew-for-artemis-3-mission-to-test-lunar-landers/",
+      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/artemis3crew.jpeg?fit=1024%2C683&ssl=1",
       "news_site": "SpaceNews",
-      "summary": "\nNASA plans to find a new headquarters building by the end of this year while remaining in the Washington area.\nThe post NASA to select new headquarters building by end of year appeared first on SpaceNews.",
-      "published_at": "2026-06-07T13:55:38Z",
-      "updated_at": "2026-06-07T14:00:41.534943Z",
+      "summary": "NASA has named the astronauts who will fly the next Artemis mission, a test flight in low Earth orbit where Orion will attempt to dock with two lunar lander prototypes.\r\nThe post NASA names crew for Artemis 3 mission to test lunar landers appeared first on SpaceNews.",
+      "published_at": "2026-06-09T19:57:51Z",
+      "updated_at": "2026-06-10T10:05:08.626079Z",
       "featured": false,
-      "launches": [],
-      "events": []
+      "launches": [
+        {
+          "launch_id": "8034d81b-af96-460c-a7b7-5c8e7f1a1d86",
+          "provider": "Launch Library 2"
+        }
+      ],
+      "events": [
+        {
+          "event_id": 1488,
+          "provider": "Launch Library 2"
+        }
+      ]
+    },
+    {
+      "id": 38362,
+      "title": "Artemis III Crew Announced",
+      "authors": [
+        {
+          "name": "NASA",
+          "socials": null
+        }
+      ],
+      "url": "https://www.nasa.gov/image-article/artemis-iii-crew-announced/",
+      "image_url": "https://www.nasa.gov/wp-content/uploads/2026/06/jsc2026e392659.jpg",
+      "news_site": "NASA",
+      "summary": "NASA astronaut Andre Douglas, ESA (European Space Agency) astronaut Luca Parmitano, and NASA astronauts Randy Bresnik and Frank Rubio take a photo together on June 9, 2026. The four were announced as the Artemis III crew. NASA\u2019s Artemis III mission in low Earth orbit will test integrated operations between the Orion spacecraft and one or [\u2026]",
+      "published_at": "2026-06-09T19:32:29Z",
+      "updated_at": "2026-06-10T10:04:59.383002Z",
+      "featured": false,
+      "launches": [
+        {
+          "launch_id": "8034d81b-af96-460c-a7b7-5c8e7f1a1d86",
+          "provider": "Launch Library 2"
+        }
+      ],
+      "events": [
+        {
+          "event_id": 1488,
+          "provider": "Launch Library 2"
+        }
+      ]
+    },
+    {
+      "id": 38361,
+      "title": "NASA assigns crew for Artemis III, sets aggressive timeline for flying it",
+      "authors": [
+        {
+          "name": "Eric Berger",
+          "socials": null
+        }
+      ],
+      "url": "https://arstechnica.com/space/2026/06/nasa-assigns-crew-for-artemis-iii-sets-aggressive-timeline-for-flying-it/",
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/artemis-3-1.jpg",
+      "news_site": "Arstechnica",
+      "summary": "\"Artemis III will be an extraordinary demonstration of what is possible.\"",
+      "published_at": "2026-06-09T18:42:19Z",
+      "updated_at": "2026-06-10T10:04:54.561889Z",
+      "featured": false,
+      "launches": [
+        {
+          "launch_id": "8034d81b-af96-460c-a7b7-5c8e7f1a1d86",
+          "provider": "Launch Library 2"
+        }
+      ],
+      "events": [
+        {
+          "event_id": 1488,
+          "provider": "Launch Library 2"
+        }
+      ]
+    },
+    {
+      "id": 38359,
+      "title": "NASA names four-man crew to Artemis 3 mission",
+      "authors": [
+        {
+          "name": "William Harwood",
+          "socials": null
+        }
+      ],
+      "url": "https://spaceflightnow.com/2026/06/09/73614/",
+      "image_url": "http://spaceflightnow.com/wp-content/uploads/2026/06/artemis-iii-crew.jpg",
+      "news_site": "Spaceflight Now",
+      "summary": "The crew of NASA's next Artemis moon program mission was announced Tuesday, setting the stage for a flight to Earth orbit next year to test rendezvous and docking procedures with moon landers being built by SpaceX and Blue Origin, a critical milestone before sending astronauts back to the moon for landing in 2028.",
+      "published_at": "2026-06-09T17:48:42Z",
+      "updated_at": "2026-06-10T10:04:45.707998Z",
+      "featured": false,
+      "launches": [
+        {
+          "launch_id": "8034d81b-af96-460c-a7b7-5c8e7f1a1d86",
+          "provider": "Launch Library 2"
+        }
+      ],
+      "events": [
+        {
+          "event_id": 1488,
+          "provider": "Launch Library 2"
+        }
+      ]
+    },
+    {
+      "id": 38360,
+      "title": "Replay: Artemis III announcement",
+      "authors": [
+        {
+          "name": "ESA",
+          "socials": null
+        }
+      ],
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Replay_Artemis_III_announcement",
+      "image_url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/06/replay_artemis_iii_announcement/27318070-2-eng-GB/Replay_Artemis_III_announcement_card_full.png",
+      "news_site": "ESA",
+      "summary": "On 9 June, NASA announced the crew for the Artemis III mission, which includes ESA astronaut Luca Parmitano as pilot. ESA is also providing its third European Service Module for this crewed test flight in Earth orbit, which will be key for the mission\u2019s objective to test rendezvous and docking capabilities ahead of future lunar landing missions. Along with Luca, three NASA astronauts will fly on this mission: commander Randy Bresnik and lander specialists Frank Rubio and Andre Douglas. The crew now begins a rigorous training schedule to learn the Orion spacecraft systems, as well as the operations of the human landing systems, to prepare for an ambitious series of demonstrations ahead of a Moon landing mission.",
+      "published_at": "2026-06-09T17:33:00Z",
+      "updated_at": "2026-06-10T10:04:32.791773Z",
+      "featured": false,
+      "launches": [
+        {
+          "launch_id": "8034d81b-af96-460c-a7b7-5c8e7f1a1d86",
+          "provider": "Launch Library 2"
+        }
+      ],
+      "events": [
+        {
+          "event_id": 1488,
+          "provider": "Launch Library 2"
+        }
+      ]
+    },
+    {
+      "id": 38358,
+      "title": "Artemis III NASA announcement highlights : Luca Parmitano assigned as pilot",
+      "authors": [
+        {
+          "name": "ESA",
+          "socials": null
+        }
+      ],
+      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Artemis_III_NASA_announcement_highlights_Luca_Parmitano_assigned_as_pilot",
+      "image_url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/06/artemis_iii_nasa_announcement_highlights_luca_parmitano_assigned_as_pilot/27317814-2-eng-GB/Artemis_III_NASA_announcement_highlights_Luca_Parmitano_assigned_as_pilot_card_full.png",
+      "news_site": "ESA",
+      "summary": "On 9 June, NASA announced the crew for the Artemis III mission, which includes ESA astronaut Luca Parmitano as pilot. ESA is also providing its third European Service Module for this crewed test flight in Earth orbit, which will be key for the mission\u2019s objective to test rendezvous and docking capabilities ahead of future lunar landing missions. Along with Luca, three NASA astronauts will fly on this mission: commander Randy Bresnik and lander specialists Frank Rubio and Andre Douglas. The crew now begins a rigorous training schedule to learn the Orion spacecraft systems, as well as the operations of the human landing systems, to prepare for an ambitious series of demonstrations ahead of a Moon landing mission.",
+      "published_at": "2026-06-09T17:20:00Z",
+      "updated_at": "2026-06-10T10:04:24.639784Z",
+      "featured": false,
+      "launches": [
+        {
+          "launch_id": "8034d81b-af96-460c-a7b7-5c8e7f1a1d86",
+          "provider": "Launch Library 2"
+        }
+      ],
+      "events": [
+        {
+          "event_id": 1488,
+          "provider": "Launch Library 2"
+        }
+      ]
     }
   ]
 }

@@ -1,6 +1,32 @@
 {
   "data": [
     {
+      "record_date": "2026-06-08",
+      "debt_held_public_amt": "31600133143674.75",
+      "intragov_hold_amt": "7630252571334.34",
+      "tot_pub_debt_out_amt": "39230385715009.09",
+      "src_line_nbr": "1",
+      "record_fiscal_year": "2026",
+      "record_fiscal_quarter": "3",
+      "record_calendar_year": "2026",
+      "record_calendar_quarter": "2",
+      "record_calendar_month": "06",
+      "record_calendar_day": "08"
+    },
+    {
+      "record_date": "2026-06-05",
+      "debt_held_public_amt": "31597881328951.17",
+      "intragov_hold_amt": "7621701058395.54",
+      "tot_pub_debt_out_amt": "39219582387346.71",
+      "src_line_nbr": "1",
+      "record_fiscal_year": "2026",
+      "record_fiscal_quarter": "3",
+      "record_calendar_year": "2026",
+      "record_calendar_quarter": "2",
+      "record_calendar_month": "06",
+      "record_calendar_day": "05"
+    },
+    {
       "record_date": "2026-06-04",
       "debt_held_public_amt": "31610718934247.54",
       "intragov_hold_amt": "7621431643036.33",
@@ -103,32 +129,6 @@
       "record_calendar_quarter": "2",
       "record_calendar_month": "05",
       "record_calendar_day": "26"
-    },
-    {
-      "record_date": "2026-05-22",
-      "debt_held_public_amt": "31400817772622.92",
-      "intragov_hold_amt": "7711374492564.83",
-      "tot_pub_debt_out_amt": "39112192265187.75",
-      "src_line_nbr": "1",
-      "record_fiscal_year": "2026",
-      "record_fiscal_quarter": "3",
-      "record_calendar_year": "2026",
-      "record_calendar_quarter": "2",
-      "record_calendar_month": "05",
-      "record_calendar_day": "22"
-    },
-    {
-      "record_date": "2026-05-21",
-      "debt_held_public_amt": "31374788661132.13",
-      "intragov_hold_amt": "7696411796234.32",
-      "tot_pub_debt_out_amt": "39071200457366.45",
-      "src_line_nbr": "1",
-      "record_fiscal_year": "2026",
-      "record_fiscal_quarter": "3",
-      "record_calendar_year": "2026",
-      "record_calendar_quarter": "2",
-      "record_calendar_month": "05",
-      "record_calendar_day": "21"
     }
   ],
   "meta": {
@@ -172,7 +172,7 @@
       "record_calendar_month": "MM",
       "record_calendar_day": "DD"
     },
-    "total-count": 8322,
+    "total-count": 8324,
     "total-pages": 833
   },
   "links": {

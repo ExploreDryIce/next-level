@@ -1,58 +1,32 @@
 {
   "status": "ok",
-  "totalResults": 60,
+  "totalResults": 57,
   "articles": [
     {
       "source": {
-        "id": null,
-        "name": "Financial Times"
+        "id": "the-wall-street-journal",
+        "name": "The Wall Street Journal"
       },
-      "author": "Cristina Criddle",
-      "title": "OpenAI plots biggest ChatGPT overhaul since launch - Financial Times",
-      "description": "$850bn start-up to recast hit chatbot as a route to higher-margin products before a potential IPO",
-      "url": "https://www.ft.com/content/ca0f5f5e-fb9a-41a0-a2a9-0127e15b7db9?syn-25a6b1a6\\\\u003d1",
-      "urlToImage": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F30267a93-b947-4d9a-bd71-425db9da4ec7.jpg?source=next-barrier-page",
-      "publishedAt": "2026-06-07T04:01:23Z",
-      "content": "Then $75 per month. Complete digital access to quality FT journalism on any device. Cancel anytime during your trial."
+      "author": "Rebecca Feng, Juliet Chung, WSJ Staff",
+      "title": "Stock Market Today: Dow Futures, What to Watch \u2014 Live Updates - WSJ",
+      "description": "Live updates on markets and the top finance, economics and business stories. Plus the latest on oil prices, the Dow, S&P 500 and Nasdaq.",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-06-09-2026",
+      "urlToImage": "https://images.wsj.net/im-925351/social",
+      "publishedAt": "2026-06-09T09:57:00Z",
+      "content": "U.S. stock futures are ticking up before the opening bell as markets continue to recover from Friday's bruising selloff.\r\nContracts tied to the tech-heavy Nasdaq-100 were recently 0.6% higher, with t\u2026 [+413 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "KABC-TV"
+        "name": "Yahoo Entertainment"
       },
-      "author": null,
-      "title": "Samantha Salomon, 18, arrested after throwing food at Chipotle worker in Santa Ana - ABC7 Los Angeles",
-      "description": "Santa Ana police have arrested an 18-year-old woman seen on surveillance video throwing her food at a Chipotle worker.",
-      "url": "https://abc7.com/post/samantha-salomon-18-arrested-throwing-food-chipotle-worker-santa-ana/19248763/",
-      "urlToImage": "https://cdn.abcotvs.com/dip/images/19248793_060626-kabc-oc-restaurant-attack-tn-img.jpg?w=1600",
-      "publishedAt": "2026-06-07T02:04:16Z",
-      "content": "SANTA ANA, Calif. (KABC) -- Santa Ana police have arrested a woman seen on video throwing her food at a Chipotle worker.\r\nPolice shared the shocking surveillance video on social media last week. The \u2026 [+525 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Hollywood Reporter"
-      },
-      "author": "Katie Kilkenny",
-      "title": "Emotions Spill Over at Town Hall of Industry Workers Opposed to Paramount-WBD Merger: \u201cIt\u2019s the Death of a Great American Industry\u201d - The Hollywood Reporter",
-      "description": "Writers, actors, crew members and small business owners expressed their opposition to the $111 billion transaction in Beverly Hills on Saturday: \u201cIt may be the final domino that knocks everything down.\u201d",
-      "url": "http://www.hollywoodreporter.com/movies/movie-news/entertainment-workers-oppose-paramount-wbd-merger-town-hall-1236615502/",
-      "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2025/12/GettyImages-2235093119.jpg?w=1440&h=810&crop=1",
-      "publishedAt": "2026-06-07T02:00:09Z",
-      "content": "Emotions spilled over at a gathering of Hollywood workers, union officials and a current FCC commissioner opposed to the planned Paramount Skydance-Warner Bros. merger on Saturday, with some arguing \u2026 [+5653 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "TheStreet"
-      },
-      "author": "Vuk Zdinjak, Dana Sullivan Kilroy",
-      "title": "Bank of America resets Broadcom stock price target after earnings - thestreet.com",
-      "description": "BofA reveals what could happen to Broadcom shares.",
-      "url": "https://www.thestreet.com/investing/stocks/bank-of-america-resets-broadcom-stock-price-target-after-earnings",
-      "urlToImage": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAyOTg3NDA3/untitled.jpg?profile=share16-9",
-      "publishedAt": "2026-06-07T00:33:00Z",
-      "content": "Broadcom (AVGO) stock closed the June 4 trading session down 12.59% at $418.91. The stock took a tumble following the release of the second-quarter (Q2) fiscal year 2026 (FY26) earnings report on Jun\u2026 [+3545 chars]"
+      "author": "Michael MacKenzie and Greg Ritchie",
+      "title": "Treasury Market Is Telling Kevin Warsh Rates Need to Be Higher - Yahoo Finance",
+      "description": "(Bloomberg) -- The $31 trillion Treasury market has an unequivocal message for Kevin Warsh\u2019s Federal Reserve: Interest rates aren\u2019t high enough.Most Read fro...",
+      "url": "https://finance.yahoo.com/economy/policy/articles/treasury-market-telling-kevin-warsh-073000716.html",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/3A7AF1D34DC7AD253F56DAEC851D06F1D6A4A8D100BA4EE7923B37FDEB1DA366/subgraphmysterio/resizefill_w1200_h831;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbloomberg_holding_pen_162%2F217287269a79057971431a486d3acd0e",
+      "publishedAt": "2026-06-09T08:52:50Z",
+      "content": "(Bloomberg) -- The $31 trillion Treasury market has an unequivocal message for Kevin Warsh's Federal Reserve: Interest rates aren't high enough.\r\nMost Read from Bloomberg\r\nYields on policy-sensitive \u2026 [+5257 chars]"
     },
     {
       "source": {
@@ -60,194 +34,220 @@
         "name": "The Wall Street Journal"
       },
       "author": "WSJ",
-      "title": "Exclusive | The U.S. Needs Mechanics and Electricians. Big Business Is Spending to Create Some. - WSJ",
+      "title": "China Export Growth Accelerates in May on AI Demand, U.S. Shipments Surge - WSJ",
       "description": null,
-      "url": "https://www.wsj.com/business/autos/the-u-s-needs-mechanics-and-electricians-big-business-is-spending-to-create-some-7ea1f06c",
+      "url": "https://www.wsj.com/economy/trade/chinas-exports-gain-momentum-import-growth-picks-up-9aa650bb",
       "urlToImage": null,
-      "publishedAt": "2026-06-06T23:37:00Z",
+      "publishedAt": "2026-06-09T04:41:00Z",
       "content": null
     },
     {
       "source": {
-        "id": null,
-        "name": "Theurbanist.org"
+        "id": "politico",
+        "name": "Politico"
       },
-      "author": "Doug Trumm",
-      "title": "Crosslake Light Rail Pushes Sound Transit to Most-Used Light Rail System in US - The Urbanist",
-      "description": "With the boost from the expanded 2 Line, Seattle's Link rail system is humming along at 160,000 daily riders, according to new April data. That makes it the busiest light rail system in the U.S.",
-      "url": "https://www.theurbanist.org/sound-transit-most-used-light-rail-system-in-us/",
-      "urlToImage": "https://storage.ghost.io/c/19/31/1931222a-d1c5-42ac-8932-2ee3ac1f8927/content/images/size/w1200/2026/06/20260602_204046.jpg",
-      "publishedAt": "2026-06-06T21:47:41Z",
-      "content": "Light rail ridership in the Seattle region has exploded following expansion of the 2 Line across Lake Washington, which connected Bellevue and Seattle for the first time on March 28. In fact, the rid\u2026 [+6213 chars]"
+      "author": "Daniel Miller",
+      "title": "Paramount blasts Netflix, pushes back on Teamsters\u2019 warnings about Warner Bros. deal - Politico",
+      "description": "In a letter obtained by POLITICO, Paramount Skydance accused Netflix of trying to \u201cpoison\u201d its acquisition of Warner Bros. Discovery.",
+      "url": "https://www.politico.com/news/2026/06/09/paramount-blasts-netflix-pushes-back-on-teamsters-00954087",
+      "urlToImage": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2Fe7%2F40%2Fc0ee0f894406a89c5f10ffd2dcfd%2Fparamount-open-letter-25824.jpg",
+      "publishedAt": "2026-06-09T04:26:09Z",
+      "content": "But Paramount Skydance responded that its prospective purchase of Warner Bros. Discovery would create more work for Teamsters and other unionized Hollywood workers. In the letter, Makan Delrahim, the\u2026 [+4755 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "Didi Tang",
+      "title": "Pentagon labels tech giant Alibaba and electric car maker BYD as aiding Chinese military - AP News",
+      "description": "The Pentagon has added several prominent Chinese businesses to its list of Chinese military companies. The list includes tech giant Alibaba, electric car maker BYD and search engine Baidu. The move prevents them from securing U.S. defense contracts. The list,\u2026",
+      "url": "https://apnews.com/article/china-military-pentagon-alibaba-byd-baidu-unitree-4d664a6f164538b451263eafcceddaa5",
+      "urlToImage": "https://dims.apnews.com/dims4/default/48546d1/2147483647/strip/true/crop/8235x5487+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F25%2F79%2F52fa035e9f28b38e801a2a82d466%2Ff94c04b7f0764aaeb9fb3a882204fbfe",
+      "publishedAt": "2026-06-09T03:55:00Z",
+      "content": "WASHINGTON (AP) The Pentagon has added several prominent Chinese businesses, including the tech giant Alibaba, electric car maker BYD and search engine Baidu, to its list of Chinese military companie\u2026 [+3803 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Barron's"
+        "name": "CNBC"
       },
-      "author": "Al Root",
-      "title": "Elon Musk\u2019s $1.8 Trillion SpaceX IPO Is Too Big to Succeed - Barron's",
-      "description": "SpaceX is a spectacular company, but with a stock price of $135, the risks outweigh reward.",
-      "url": "https://www.barrons.com/articles/spacex-ipo-elon-musk-tesla-stock-6ef52370",
-      "urlToImage": "https://images.barrons.com/im-18353256/social",
-      "publishedAt": "2026-06-06T20:40:00Z",
-      "content": "TheSpaceXinitial public offering is one of a kind; the investment opportunity is not. With a roughly $1.8 trillion valuation, the stock may be too big to reach escape velocity.\r\nCopyright \u00a92026Dow Jo\u2026 [+76 chars]"
+      "author": "Lee Ying Shan",
+      "title": "Asia chip-linked shares recover after U.S. peers bounce back - CNBC",
+      "description": "In the U.S., chip stocks powered gains on Monday, helping the S&P 500 gain 0.3%, while the tech-heavy Nasdaq Composite advanced 0.86%.",
+      "url": "https://www.cnbc.com/2026/06/09/asia-tech-stocks-rebound-after-wall-street-chip-shares-recover-.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108256608-1769204635647-gettyimages-1237668341-TAIWAN_TSMC.jpeg?v=1775649989&w=1920&h=1080",
+      "publishedAt": "2026-06-09T01:16:00Z",
+      "content": "Asian technology stocks rebounded Tuesday, tracking Wall Street's gains, as investors returned to artificial intelligence-linked names.\r\nSouth Korean memory chip giant SK Hynix climbed 6.44%, while S\u2026 [+1502 chars]"
     },
     {
       "source": {
-        "id": null,
-        "name": "CoinDesk"
+        "id": "ars-technica",
+        "name": "Ars Technica"
       },
-      "author": "Krisztian Sandor",
-      "title": "Crypto's brutal week: Bitcoin (BTC), Ether (ETH) suffer worst weekly drop since FTX crash - CoinDesk",
-      "description": "A week that began with Strategy's bitcoin sale ended with one of the largest crypto market drawdowns in years.",
-      "url": "https://www.coindesk.com/markets/2026/06/06/bitcoin-ether-eye-worst-weekly-rout-since-ftx-collapse-as-cryptos-shed-usd390-billion",
-      "urlToImage": "https://cdn.sanity.io/images/s3y3vcno/production/1c8a63f6ee7a414798e251b283ea2323da6d3264-4147x2765.jpg?auto=format&w=960&h=540&crop=focalpoint&fit=clip&q=75&fm=jpg",
-      "publishedAt": "2026-06-06T19:59:26Z",
-      "content": "Crypto investors endured one of their toughest week in years as a wave of selling wiped out hundreds of billions of dollars from digital asset markets.\r\nBitcoin BTC\r\n$61,464.71 fell 17.3% this week w\u2026 [+3409 chars]"
+      "author": "Stephen Clark",
+      "title": "FCC lifts looming deadline for Amazon Leo satellite broadband constellation - Ars Technica",
+      "description": "The waiver \"serves the public interest by promoting a second large satellite broadband constellation.\"",
+      "url": "https://arstechnica.com/space/2026/06/fcc-lifts-looming-deadline-for-amazon-leo-satellite-broadband-constellation/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/amazon-leo-space-amazon-news-nb-032326-1152x648-1780966770.jpg",
+      "publishedAt": "2026-06-09T00:59:40Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": "politico",
+        "name": "Politico"
+      },
+      "author": "Cheyenne Haslett, Brendan Bordelon, Jacob Wendler, Yasmin Khorram",
+      "title": "Trump\u2019s AI meeting looks iffy \u2014 but the fight over tech profits is very much on - Politico",
+      "description": "The explosive growth of AI is kicking off a new debate: Should the government rechannel a possible avalanche of earnings to the public?",
+      "url": "https://www.politico.com/news/2026/06/08/trumps-ai-meeting-looks-iffy-but-the-fight-over-tech-profits-is-very-much-on-00953989",
+      "urlToImage": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2Fa6%2F80%2Fadaab870426a9ebb8a1f6fdf88f3%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2194581816",
+      "publishedAt": "2026-06-08T23:24:51Z",
+      "content": "And the idea is adding to AIs strange ideological bedfellows: Trumps talk of a partnership may align him with Sen. Bernie Sanders (I-Vt.), who has proposed having the government take a large share of\u2026 [+8650 chars]"
     },
     {
       "source": {
         "id": "bloomberg",
         "name": "Bloomberg"
       },
-      "author": "Caleb Mutua",
-      "title": "DoubleLine, Oaktree Brace for Potential AI Pain - Bloomberg.com",
-      "description": "Credit heavyweights like DoubleLine Capital LP and Oaktree Capital Management are buying debt now that can perform well if the artificial intelligence boom turns into a credit bust.",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-06/doubleline-oaktree-brace-for-potential-ai-pain-credit-weekly",
-      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iO3o1Om34joc/v1/1200x800.jpg",
-      "publishedAt": "2026-06-06T19:00:00Z",
-      "content": "Credit heavyweights like DoubleLine Capital LP and Oaktree Capital Management are buying debt now that can perform well if the artificial intelligence boom turns into a credit bust.\r\nWhile prices and\u2026 [+244 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Lilly.com"
-      },
-      "author": null,
-      "title": "Lilly's triple agonist, retatrutide, drove substantial improvements in weight, A1C, knee osteoarthritis pain, and obstructive sleep apnea, demonstrating its remarkable potential to treat obesity and its complications - investor.lilly.com",
-      "description": "The Investor Relations website contains information about Eli Lilly and Company's business for stockholders, potential investors, and financial analysts.",
-      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-drove-substantial-improvements",
-      "urlToImage": "https://investor.lilly.com/static-files/414b590d-5fd8-4d74-bb91-284a3d77fb98",
-      "publishedAt": "2026-06-06T18:32:21Z",
-      "content": "In TRIUMPH-1, participants on retatrutide 12 mg lost an average of 70.3 lbs (28.3%) over 80 weeks, with 65.3% achieving a BMI below 30, no longer meeting the BMI criteria for obesity\r\nIn addition to \u2026 [+30897 chars]"
-    },
-    {
-      "source": {
-        "id": "techcrunch",
-        "name": "TechCrunch"
-      },
-      "author": "Anthony Ha",
-      "title": "The Trump administration might take an equity stake in OpenAI - TechCrunch",
-      "description": "President Donald Trump said he's discussing deals \"where the American people can benefit from the success of AI.\"",
-      "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
-      "urlToImage": "https://techcrunch.com/wp-content/uploads/2026/05/donald-trump-cellphone.jpg?resize=1200,800",
-      "publishedAt": "2026-06-06T16:17:21Z",
-      "content": "President Donald Trump said on Friday that hes spoken to AI companies about striking deals where the American people can benefit from the success of AI.\r\nTrump does not seem to have mentioned specifi\u2026 [+2301 chars]"
-    },
-    {
-      "source": {
-        "id": "bloomberg",
-        "name": "Bloomberg"
-      },
-      "author": "Katanga Johnson",
-      "title": "Fed\u2019s Barr Warns of Risks Tied to Looser Wall Street Bank Rules - Bloomberg.com",
-      "description": "Federal Reserve Governor Michael Barr criticized moves from regulators over the past year to relax the rules for US lenders, saying the proposals \u201cconsiderably weaken bank regulation and supervision.\u201d",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-06/fed-s-barr-warns-of-risks-tied-to-looser-wall-street-bank-rules",
-      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iNBTfrhGU7vA/v0/1200x800.jpg",
-      "publishedAt": "2026-06-06T16:00:00Z",
-      "content": "Federal Reserve Governor Michael Barr criticized moves from regulators over the past year to relax the rules for US lenders, saying the proposals considerably weaken bank regulation and supervision.\r\u2026 [+390 chars]"
-    },
-    {
-      "source": {
-        "id": "the-washington-post",
-        "name": "The Washington Post"
-      },
-      "author": "Shira Ovide",
-      "title": "4 surprising ways AI is making your life more expensive - The Washington Post",
-      "description": "These goods and services are getting more expensive due to spillover from massive tech company investments in artificial intelligence.",
-      "url": "https://www.washingtonpost.com/technology/2026/06/06/inflation-is-being-driven-up-by-huge-investment-artificial-intelligence/",
-      "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/PDVG54SBFNBBHKDDSYNPYJIWDI.jpg&w=1440",
-      "publishedAt": "2026-06-06T16:00:00Z",
-      "content": "Americans keep getting walloped by rising prices, including from the Iran war that is making it painful to buy gasoline. Now theres another culprit for sticker shocks: artificial intelligence.\r\nAs AI\u2026 [+261 chars]"
-    },
-    {
-      "source": {
-        "id": "fortune",
-        "name": "Fortune"
-      },
-      "author": "Devika Krishna Kumar, Alex Longley, Yongchang Chin, Mia Gindis, Bloomberg",
-      "title": "Why oil\u2019s not at $200 after the biggest supply shock in history - Fortune",
-      "description": "Global inventories are drawing down at a record pace, leaving the market increasingly vulnerable to fresh disruptions.",
-      "url": "https://fortune.com/2026/06/06/oil-prices-biggest-supply-shock-history-china-imports-inventories-us-exports/",
-      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/06/GettyImages-2269620834-e1780759078834.jpg?resize=1200,600",
-      "publishedAt": "2026-06-06T15:26:00Z",
-      "content": "For decades, oil traders, executives and analysts warned that closing the Strait of Hormuz would be a global economic catastrophe.\u00a0Its now been more than three months since the waterway was effective\u2026 [+9245 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Yahoo Entertainment"
-      },
-      "author": "Britt Ross",
-      "title": "Amazon Prime Day 2026: Early deals are already live from Apple, Stanley, Hanes and more, plus everything we know about the sale in June - Yahoo",
-      "description": "Mark your calendars: The epic blowout is set for June 23-26. Yes, that's four whole days of retail therapy!",
-      "url": "https://shopping.yahoo.com/deals/breaking-news/article/amazon-prime-day-2026-early-deals-are-already-live-from-apple-stanley-hanes-and-more-plus-everything-we-know-about-the-sale-in-june-095951071.html",
-      "urlToImage": "https://s.yimg.com/lo/mysterio/api/381464b1d91d305e5cf57617fdb4c0ee261404c36b69fc0b691c86e0b06baea0/lightyear_networkapi/resizefill_w1200;quality_80;format_webp/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Famazon-ru-images-5_0902.png",
-      "publishedAt": "2026-06-06T15:17:52Z",
-      "content": "Have you been saying, \"I'll wait until Prime Day\" to make your next big purchase? Well, consider this your cue to rev up those shopping engines. Amazon officially announced that Prime Day is returnin\u2026 [+27974 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "PCMag.com"
-      },
-      "author": "Will McCurdy",
-      "title": "Google Will Pay SpaceX $920 Million Per Month for Compute Access - PCMag",
-      "description": "SpaceX, which has been investing heavily in AI infrastructure, could net over $30 billion from the three-year deal.",
-      "url": "https://www.pcmag.com/news/google-and-spacex-sign-920m-a-month-ai-deal",
-      "urlToImage": "https://i.pcmag.com/imagery/articles/00pfH2B39oKJSnLB2DUJJzx-1.fit_lim.size_1200x630.v1780736072.jpg",
-      "publishedAt": "2026-06-06T15:02:17Z",
-      "content": null
-    },
-    {
-      "source": {
-        "id": "axios",
-        "name": "Axios"
-      },
-      "author": "Zachary Basu",
-      "title": "Revenge of the AI bubble - Axios",
-      "description": "AI's newest skeptics are emerging from inside the boom.",
-      "url": "https://www.axios.com/2026/06/06/ai-bubble-economy-growth",
-      "urlToImage": "https://images.axios.com/FdWZ5uIK1uAtJcBVtpIN7srkQsY=/0x0:1280x720/1366x768/2026/06/05/1780698460885.jpg",
-      "publishedAt": "2026-06-06T13:17:46Z",
-      "content": "Why it matters: The first phase doubted the technology. The second phase worshipped it. The third phase currently gaining steam across Corporate America questions whether AI's immense power is worth \u2026 [+2478 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "STAT"
-      },
-      "author": "Elaine Chen",
-      "title": "Detailed data show Pfizer\u2019s monthly obesity drug continues to show potential - statnews.com",
-      "description": "Detailed data from a midstage study offered further evidence that the obesity drug Pfizer acquired from the biotech Metsera could be dosed monthly.",
-      "url": "https://www.statnews.com/2026/06/06/pfizer-obesity-drug-berobenatide-metsera-results/",
-      "urlToImage": "https://www.statnews.com/wp-content/uploads/2025/11/AdobeStock_324675306_Editorial_Use_Only-1024x576.jpeg",
-      "publishedAt": "2026-06-06T13:04:02Z",
-      "content": "Detailed data from a mid-stage study offered further evidence that the obesity drug Pfizer acquired from the biotech Metsera could be dosed monthly. But its not clear how competitive the treatment wo\u2026 [+1079 chars]"
+      "author": "Anthony Hughes, Bailey Lipschultz",
+      "title": "SpaceX IPO Is Well Oversubscribed With Orders Closing Wednesday - Bloomberg",
+      "description": "SpaceX\u2019s initial public offering is well oversubscribed with multiple institutional investors placing orders for about $10 billion or more of shares, according to people familiar with the matter, as demand builds for a potentially record-setting debut.",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-08/spacex-ipo-is-said-to-be-well-oversubscribed-orders-close-wed",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iyPn5uQzOY60/v1/1200x800.jpg",
+      "publishedAt": "2026-06-08T22:51:44Z",
+      "content": "SpaceXs initial public offering is well oversubscribed with multiple institutional investors placing orders for about $10 billion or more of shares, according to people familiar with the matter, as d\u2026 [+356 chars]"
     },
     {
       "source": {
         "id": "cbs-news",
         "name": "CBS News"
       },
-      "author": "Mary  Cunningham",
-      "title": "Prediction markets offer the lure of fast money. Young men say they like their odds. - CBS News",
-      "description": "Prediction markets have become a draw for young men in search of quick cash and thrills, experts say.  \"I had almost $4,600 at one point but squandered that,\" one man said.",
-      "url": "https://www.cbsnews.com/news/prediction-markets-men-polymarket-kalshi/",
-      "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/06/05/26c79d77-b3e3-46d8-83cb-8f5d178d32b9/thumbnail/1200x630/90057a2fc491fff55c8cba419a9c73da/ap26147681232316.jpg",
-      "publishedAt": "2026-06-06T13:00:08Z",
-      "content": "Earlier this year, Thomas Christian Owens decided to try his hand at prediction market trading for the first time. He created a Kalshi account in January. Three months and a $500 deposit later, he st\u2026 [+7739 chars]"
+      "author": "Marcia  Kramer",
+      "title": "New Penn Station renderings show plan for $8 billion transformation: \"America's world-class station\" - CBS News",
+      "description": "Leaders of the Penn Station renovation unveiled a bold new design with a soaring Eighth Avenue entrance and bright concourses.",
+      "url": "https://www.cbsnews.com/newyork/news/penn-station-renovation-renderings/",
+      "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/06/08/90ba29c5-97b1-4103-a098-f3e572af1600/thumbnail/1200x630/51048c5b46b3c3c17c614d9981d27f73/penn-station-transformation-video-mk-hi-res-still.jpg",
+      "publishedAt": "2026-06-08T22:32:00Z",
+      "content": "New renderings of the estimated $8 billion New York Penn Station renovation were unveiled Monday.\r\nThe dream of fixing the train hub for 650,000 daily commuters seems to finally be on track after Gov\u2026 [+2213 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": null,
+      "title": "OpenAI plans to go public setting up new race with Anthropic - BBC",
+      "description": "The company behind ChatGPT files its plans one week after Anthropic did the same.",
+      "url": "https://www.bbc.com/news/articles/cd958eqg1n5o",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/af21/live/aa735d80-638a-11f1-a153-39ca27a43c2a.jpg",
+      "publishedAt": "2026-06-08T22:28:55Z",
+      "content": "One of the most costly aspects of running an AI company is what is referred to as \"compute,\" which typically describes the infrastructure and processing power required to build, train, test and then \u2026 [+61 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "TheStreet"
+      },
+      "author": "Moz Farooque, Celine Provini",
+      "title": "Roundhill CEO spots major shift for Micron stock - thestreet.com",
+      "description": "One ETF executive believes investors may be overlooking an important shift unfolding beneath the AI boom.",
+      "url": "https://www.thestreet.com/investing/stocks/roundhill-ceo-spots-major-shift-for-micron-stock",
+      "urlToImage": "https://www.thestreet.com/.image/NDA6MDAwMDAwMDAzMDcwMDA3/operations-inside-micron-technology-headquarters.jpg?profile=share16-9",
+      "publishedAt": "2026-06-08T22:17:00Z",
+      "content": "Micron Technology (MU) stock spent years being labeled a cyclical player by Wall Street, but that might be changing.\u00a0\r\nIn a recent Fox News segment, Roundhill Investments CEO Dave Mazza argued that i\u2026 [+5352 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "Lucas Dufalla/pittsburgh\u2019s Public Source",
+      "title": "U.S. Steel pledges up to $2.5 billion in upgrades to Mon Valley Works - AP News",
+      "description": "U.S. Steel plans to invest up to $2.5 billion into upgrades to its Mon Valley Works, which it forecasts will generate $1.7 billion for the state, according to a Monday report from the steelmaking giant.",
+      "url": "https://apnews.com/article/us-steel-mon-valley-works-investment-upgrades-report-faffdf7fa15103951573f91c553366e2",
+      "urlToImage": "https://dims.apnews.com/dims4/default/04f043a/2147483647/strip/true/crop/6000x3998+0+2/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F19%2Fdc%2F89e70c52e29936bb0ac05615947f%2F710b2dd4a09f4f25ae3c1f3698174028",
+      "publishedAt": "2026-06-08T21:49:00Z",
+      "content": "U.S. Steel plans to invest up to $2.5 billion into upgrades to its Mon Valley Works, which it forecasts will generate $1.7 billion for the state, according to a Monday report from the steelmaking gia\u2026 [+7255 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "Rio Yamat, Ap Airlines, Travel Writer",
+      "title": "US carriers spent $6.5B on fuel in April; global profit forecast is cut nearly in half - AP News",
+      "description": "New government data released Monday shows U.S. airlines spent nearly $6.5 billion on jet fuel in April. The Bureau of Transportation Statistics says that's a 78% jump from a year earlier, even though the airlines used slightly less fuel. Global energy costs h\u2026",
+      "url": "https://apnews.com/article/jet-fuel-airlines-iran-war-fbcdb0882feaf57045555a586a1a3d8b",
+      "urlToImage": "https://dims.apnews.com/dims4/default/75851bc/2147483647/strip/true/crop/3537x2357+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb3%2Ffd%2Fe7920a736c52a40a0ca645ce0a89%2F23aa650d6ffa4acba7917fadb252f8ac",
+      "publishedAt": "2026-06-08T21:35:00Z",
+      "content": "U.S. airlines spent more than $6 billion on jet fuel in April, up 78% from a year earlier despite using slightly less fuel, government data released Monday showed. Meanwhile, the airline industrys to\u2026 [+2415 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Katie Paul",
+      "title": "Meta funds skilled trades jobs program for AI data center buildout - Yahoo Finance",
+      "description": "Meta is investing $115 million to stand up a new training program for data center technician jobs, as the social \u200cmedia giant races to build the infrastructu...",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/meta-funds-skilled-trades-jobs-211629365.html",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/10564AF23FC56763CCE2BF39F7E5894AE5DA317659D03DF1D631BEC1D271AFE1/subgraphmysterio/resizefill_w1200_h830;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Freuters-finance.com%2Fa06740485cbba63d255f3384fe11161f",
+      "publishedAt": "2026-06-08T21:16:29Z",
+      "content": "By Katie Paul\r\nNEW YORK, June 8 (Reuters) - Meta is investing $115 million to stand up a new training program for data center technician jobs, as the social media giant races to build the infrastruct\u2026 [+2212 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Barron's"
+      },
+      "author": "Andrew Bary",
+      "title": "Bloom Energy, Astera Labs, Alnylam, Reddit Could Be Among Next Adds to S&P 500 - Barron's",
+      "description": "The index added two companies on Friday, but more are likely to be added in the near future.",
+      "url": "https://www.barrons.com/articles/bloom-energy-astera-labs-sp500-9aac1f12",
+      "urlToImage": "https://images.barrons.com/im-40799034/social",
+      "publishedAt": "2026-06-08T21:06:00Z",
+      "content": "There were two additions to theS&amp;P 500index unveiled on FridayMarvell TechnologyandFlex(formerly Flextronics)and that raises the question which companies could be next to gain admission into the \u2026 [+120 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MarketWatch"
+      },
+      "author": "Joy Wiltermuth",
+      "title": "Inflation could top 4% this week. The bond market wants Fed Chair Warsh to prove he\u2019ll fight it. - MarketWatch",
+      "description": "Kevin Warsh, the new chair of the Federal Reserve, may need to defy President Trump and talk about rate hikes next week",
+      "url": "https://www.marketwatch.com/story/inflation-could-top-4-this-week-the-bond-market-wants-fed-chair-warsh-to-prove-hell-fight-it-fbb6b04b",
+      "urlToImage": "https://images.mktw.net/im-19149684/social",
+      "publishedAt": "2026-06-08T20:52:00Z",
+      "content": "Market Extra\r\nKevin Warsh, the new chair of the Federal Reserve, may need to defy President Trump and talk about rate hikes next week\r\nPublished: June 8, 2026 at 4:52p.m. ET\r\nInvestors are growing im\u2026 [+309 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Merck.com"
+      },
+      "author": null,
+      "title": "Merck and Gilead Provide Update on Phase 3 KEYNOTE-D46/EVOKE-03 Study - Merck.com",
+      "description": "Merck (NYSE: MRK), known as MSD outside of the United States and Canada, and Gilead Sciences, Inc. (Nasdaq: GILD) today announced the discontinuation of the Phase 3 KEYNOTE-D46/EVOKE-03 study investigating Gilead\u2019s Trodelvy \u00ae (sacituzumab govitecan-hziy) in c\u2026",
+      "url": "https://www.merck.com/news/merck-and-gilead-provide-update-on-phase-3-keynote-d46-evoke-03-study/",
+      "urlToImage": "https://cts.businesswire.com/ct/CT?id=bwnews&sty=20260608789974r1&sid=q4-prod&distro=nx&lang=en",
+      "publishedAt": "2026-06-08T20:30:00Z",
+      "content": "RAHWAY, N.J. &amp; FOSTER CITY, Calif.--(BUSINESS WIRE)-- \r\nMerck (NYSE: MRK), known as MSD outside of the United States and Canada, and Gilead Sciences, Inc. (Nasdaq: GILD) today announced the disco\u2026 [+85915 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gothamist"
+      },
+      "author": "https://gothamist.com/staff/stephen-nessen",
+      "title": "MTA advances long-awaited 2nd Avenue subway extension that's set to transform East Harlem - Gothamist",
+      "description": "New York officials have tried and failed to build a Second Avenue subway in the neighborhood for a century.",
+      "url": "https://gothamist.com/news/mta-advances-long-awaited-2nd-avenue-subway-extension-thats-set-to-transform-east-harlem",
+      "urlToImage": "https://api-prod.gothamist.com/images/357489/fill-1200x650|format-webp|webpquality-85/",
+      "publishedAt": "2026-06-08T20:24:00Z",
+      "content": "The MTA broke ground Monday on a major milestone to advance the century-in-the-making effort to extend the Second Avenue subway into East Harlem, bringing three new stations to the neighborhood and c\u2026 [+4405 chars]"
     }
   ]
 }

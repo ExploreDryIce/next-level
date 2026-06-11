@@ -1,0 +1,14 @@
+# Gitleaks configuration for next-level
+# Run: gitleaks detect --source .
+# Pre-commit: gitleaks protect --staged
+
+title = "Next-Level Secret Detection"
+
+[allowlist]
+  paths = [
+    '''\.keys\.json''',
+    '''logs/''',
+    '''data/live_feeds/''',
+    '''data/pull_history/''',
+    '''\.venv/''',
+  ]

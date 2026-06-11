@@ -13,6 +13,7 @@ Can run as a standalone scheduled job or be called from the command center.
 
 import asyncio
 import json
+import os
 import time
 import urllib.request
 import urllib.error
@@ -24,7 +25,7 @@ import sys
 sys.path.insert(0, str(Path(__file__).parent))
 from control import CommandCenter
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/REDACTED_WEBHOOK_ID/REDACTED_DISCORD_WEBHOOK"
+WEBHOOK_URL = os.environ.get("DISCORD_WEBHOOK_URL", "")
 
 
 def send_discord_message(content: str = None, embeds: List[dict] = None):

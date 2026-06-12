@@ -1,71 +1,19 @@
 {
   "status": "ok",
-  "totalResults": 507,
+  "totalResults": 535,
   "articles": [
     {
       "source": {
         "id": null,
-        "name": "GlobeNewswire"
+        "name": "SiliconANGLE News"
       },
-      "author": "H.O.L.M. Security Sweden AB",
-      "title": "Holm Security erweitert seine Plattform mit Active Directory Security, um die am h\u00e4ufigsten angegriffene Ebene der Unternehmensidentit\u00e4t besser zu sch\u00fctzen",
-      "description": "Die neue Funktion erm\u00f6glicht eine kontinuierliche Bewertung des lokalen Active Directory auf derselben Plattform, die bereits Systeme, Netzwerke, das Web, die Cloud und die API-Sicherheit abdeckt \u2013 und ersetzt damit punktuelle Audits durch kontinuierliche Tra\u2026",
-      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308674/0/de/Holm-Security-erweitert-seine-Plattform-mit-Active-Directory-Security-um-die-am-h%C3%A4ufigsten-angegriffene-Ebene-der-Unternehmensidentit%C3%A4t-besser-zu-sch%C3%BCtzen.html",
-      "urlToImage": "https://ml-eu.globenewswire.com/Resource/Download/66a58811-f436-47c7-9199-176c12066a02",
-      "publishedAt": "2026-06-09T11:00:00Z",
-      "content": "STOCKHOLM, June 09, 2026 (GLOBE NEWSWIRE) -- Holm Security hat heute seine Plattform f\u00fcr das Expositions- und Schwachstellenmanagement um\u00a0Active Directory Security erweitert, eine neue Funktion, die \u2026 [+3484 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GlobeNewswire"
-      },
-      "author": "H.O.L.M. Security Sweden AB",
-      "title": "Holm Security expands platform with Active Directory Security to harden the most-targeted layer of business identity",
-      "description": "Holm Security expands platform with Active Directory Security, bringing continuous on-prem AD assessment to the same place as cloud and network coverage....",
-      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308672/0/en/Holm-Security-expands-platform-with-Active-Directory-Security-to-harden-the-most-targeted-layer-of-business-identity.html",
-      "urlToImage": "https://ml-eu.globenewswire.com/Resource/Download/66a58811-f436-47c7-9199-176c12066a02",
-      "publishedAt": "2026-06-09T11:00:00Z",
-      "content": "STOCKHOLM, June 09, 2026 (GLOBE NEWSWIRE) -- Holm Security today expanded its exposure and vulnerability management platform with\u00a0Active Directory Security, a new capability that continuously assesse\u2026 [+2774 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GlobeNewswire"
-      },
-      "author": "H.O.L.M. Security Sweden AB",
-      "title": "Holm Security enrichit sa plateforme avec Active Directory Security afin de renforcer la couche la plus cibl\u00e9e de l\u2019identit\u00e9 num\u00e9rique des entreprises",
-      "description": "Cette nouvelle fonctionnalit\u00e9 int\u00e8gre l\u2019\u00e9valuation continue des environnements Active Directory sur site au sein de la m\u00eame plateforme qui assure d\u00e9j\u00e0 la s\u00e9curit\u00e9 des syst\u00e8mes, des r\u00e9seaux, du Web, du cloud et des API, rempla\u00e7ant ainsi les audits ponctuels pa\u2026",
-      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308674/0/fr/Holm-Security-enrichit-sa-plateforme-avec-Active-Directory-Security-afin-de-renforcer-la-couche-la-plus-cibl%C3%A9e-de-l-identit%C3%A9-num%C3%A9rique-des-entreprises.html",
-      "urlToImage": "https://ml-eu.globenewswire.com/Resource/Download/66a58811-f436-47c7-9199-176c12066a02",
-      "publishedAt": "2026-06-09T11:00:00Z",
-      "content": "STOCKHOLM, 09 juin 2026 (GLOBE NEWSWIRE) -- Holm Security a annonc\u00e9 aujourdhui lextension de sa plateforme de gestion des expositions et des vuln\u00e9rabilit\u00e9s avec Active Directory Security, une nouvell\u2026 [+3884 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BleepingComputer"
-      },
-      "author": "Sergiu Gatlan",
-      "title": "French govt messaging service breached in account hijacking attack",
-      "description": "DINUM, the digital affairs directorate of the French government, warned that hackers used a hijacked user account to breach Tchap, the French government's encrypted messaging platform. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/",
-      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2025/12/15/French_flag.jpg",
-      "publishedAt": "2026-06-09T10:53:00Z",
-      "content": "DINUM, the digital affairs directorate of the French government, warned that hackers used a hijacked user account to breach\u00a0Tchap, the French government's encrypted messaging platform.\r\nDeveloped in-\u2026 [+3629 chars]"
-    },
-    {
-      "source": {
-        "id": "techradar",
-        "name": "TechRadar"
-      },
-      "author": "Matt Radolec",
-      "title": "Why hackers hit canvas during finals week",
-      "description": "The Canvas attack reveals a threat actor's strategy, and why it works.",
-      "url": "https://www.techradar.com/pro/why-hackers-hit-canvas-during-finals-week",
-      "urlToImage": "https://cdn.mos.cms.futurecdn.net/YQaVTQE6JAfu6bvPgwmd5U-2560-80.jpg",
-      "publishedAt": "2026-06-09T10:34:38Z",
-      "content": "Cybercrime isn\u2019t random. Groups like ShinyHunters don\u2019t just target vulnerable systems. They target moments in time when any disruption hurts most. From an attacker\u2019s perspective, timing creates leve\u2026 [+5672 chars]"
+      "author": "Zeus Kerravala",
+      "title": "Securing the AI workforce: Zscaler\u2019s zero-trust play for agentic AI",
+      "description": "Since\u00a0Zscaler Inc.\u2018s launch, the company\u2019s mission has been to disrupt traditional access and security with its Zero Trust platform. At its user event, Zenith Live, in Las Vegas, the company made its case for what its next act would look like: becoming the fo\u2026",
+      "url": "https://siliconangle.com/2026/06/10/securing-ai-workforce-zscalers-zero-trust-play-agentic-ai/",
+      "urlToImage": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/06/jaychaudhry2026.jpg",
+      "publishedAt": "2026-06-10T22:31:29Z",
+      "content": "Since\u00a0Zscaler Inc.\u2018s launch, the companys mission has been to disrupt traditional access and security with its Zero Trust platform. At its user event, Zenith Live, in Las Vegas, the company made its \u2026 [+11609 chars]"
     },
     {
       "source": {
@@ -73,64 +21,64 @@
         "name": "Business Insider"
       },
       "author": "insider@insider.com (Lillian Brown)",
-      "title": "Where to watch Queen's Tennis: Live stream Serena Williams and more in HSBC Championships",
-      "description": "Serena Williams will make her return to tennis in the HSBC Championships. We'll show you where to watch Queen's Tennis online.",
-      "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-queens-tennis-hsbc-championships-2026",
-      "urlToImage": "https://i.insider.com/6a272fac0421ca48aa59ff3d?width=1200&format=jpeg",
-      "publishedAt": "2026-06-09T10:00:02Z",
-      "content": "The HSBC Championships are always exciting grass tournaments ahead of Wimbledon, but this year's event has catapulted to WTA must-watch status with the return of tennis icon Serena Williams. We've ro\u2026 [+3550 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Infosecurity Magazine"
-      },
-      "author": "Danny  Palmer",
-      "title": "Infosecurity Europe: Why JLR\u2019s CISO Enforced In-Person Password Resets Following Cyber-Attack",
-      "description": "Speaking at Infosecurity Europe, Ashish Shrestha, former CISO at Jaguar Land Rover revealed why he wanted over 30,000 employees to change their passwords in the immediate aftermath of the incident",
-      "url": "https://www.infosecurity-magazine.com/news/jlr-cyberattack-ciso-inperson/",
-      "urlToImage": "https://assets.infosecurity-magazine.com/webpage/og/e57f2a2a-56f8-48f0-9502-9f52d015882c.jpg",
-      "publishedAt": "2026-06-09T09:00:00Z",
-      "content": "When Jaguar Land Rover (JLR) was hit by a major cyber-attack in September 2025, one of the first things the company\u2019s cybersecurity leader did was to call over 30,000 staff on site to reset their pas\u2026 [+2594 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "We Live Security"
-      },
-      "author": null,
-      "title": "Cybercriminals: the 'auditors' you never hired",
-      "description": "Every organisation gets audited. The question is who does the auditing.",
-      "url": "https://www.welivesecurity.com/en/business-security/cybercriminals-auditors-never-hired/",
-      "urlToImage": "https://web-assets.esetstatic.com/wls/2026/06-26/cybercriminals.jpg",
-      "publishedAt": "2026-06-09T08:50:00Z",
-      "content": "There\u2019s one cognitive bias that we humans are prone to, and it lies at the centre of some of the challenges that cybersecurity professionals face every day. It\u2019s known as the normalcy bias \u2013 what Dr.\u2026 [+7966 chars]"
+      "title": "Where to watch NBA Finals: Spurs vs. Knicks live streams, odds, venue",
+      "description": "The Spurs and Knicks clash once again in Game 4. We'll show you where to watch the NBA Finals around the globe.",
+      "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-nba-finals-knicks-vs-spurs-2026-g4",
+      "urlToImage": "https://i.insider.com/6a29c47e3b1b48ae08760025?width=1200&format=jpeg",
+      "publishedAt": "2026-06-10T21:31:01Z",
+      "content": "Game 4 of the NBA Finals has arrived, and the San Antonio Spurs have successfully staved off the potential for a sweep, but whether they can truly get back in contention remains to be seen. We've rou\u2026 [+5953 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "BleepingComputer"
       },
-      "author": "Sergiu Gatlan",
-      "title": "CISA gives feds 3 days to patch Check Point VPN bug exploited as zero-day",
-      "description": "CISA has ordered U.S. government agencies to secure their Check Point Remote Access VPN and Mobile Access deployments against a critical vulnerability exploited in zero-day attacks by Qilin ransomware affiliates. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/",
-      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2025/01/13/CISA--headpic.jpg",
-      "publishedAt": "2026-06-09T08:18:39Z",
-      "content": "CISA has ordered U.S. government agencies to secure their Check Point Remote Access VPN and Mobile Access deployments against a critical vulnerability exploited in zero-day attacks by Qilin ransomwar\u2026 [+3010 chars]"
+      "author": "Bill Toulas",
+      "title": "Path traversal flaw in AI dev platform Langflow exploited in attacks",
+      "description": "Attackers are actively exploiting CVE-2026-5027, a high-severity path traversal vulnerability in the AI development platform Langflow, to write arbitrary files on exposed servers. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
+      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2026/06/10/Langflow.jpg",
+      "publishedAt": "2026-06-10T21:23:44Z",
+      "content": "Attackers are actively exploiting CVE-2026-5027, a high-severity path traversal vulnerability in the AI development platform Langflow, to write arbitrary files on exposed servers.\r\nLangflow is an ope\u2026 [+2705 chars]"
+    },
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Lily Hay Newman",
+      "title": "CISA Tells US Agencies to Fix Security Bugs in as Little as 3 Days Thanks to AI Threats",
+      "description": "\u201cDefenders cannot afford to take weeks to patch,\u201d one Cybersecurity and Infrastructure Security Agency official warned on Wednesday.",
+      "url": "https://www.wired.com/story/cisa-ai-vulnerability-directive/",
+      "urlToImage": "https://media.wired.com/photos/6a29bec26f45b6c55c01d0d6/191:100/w_1280,c_limit/CISA-AI-Security-Patch-2268298926.jpg",
+      "publishedAt": "2026-06-10T20:55:40Z",
+      "content": "With new generations of AI models fueling both rapid software vulnerability discovery and the potential for faster exploitation by malicious hackers, the United States Cybersecurity and Infrastructur\u2026 [+3945 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Medical Daily"
+        "name": "SiliconANGLE News"
       },
-      "author": "Dorothy Brooks",
-      "title": "America's Healthcare Data Breach Problem Has Reached Its Worst Level in History \u2014 And Chicago's Hospital Systems Are Among the Most Frequent Targets",
-      "description": "Healthcare data breaches exposed 289 million Americans in 2024, putting Chicago patients at growing risk of medical identity theft and fraud.",
-      "url": "https://www.medicaldaily.com/americas-healthcare-data-breach-problem-has-reached-its-worst-level-history-chicagos-hospital-475534",
-      "urlToImage": "https://d.medicaldaily.com/en/full/482600/americas-healthcare-data-breach-problem-has-reached-its-worst-level.jpg",
-      "publishedAt": "2026-06-09T00:50:46Z",
-      "content": "As patients in Chicago's hospital systems navigate the World Cup infectious disease preparedness posture, a parallel crisis in healthcare cybersecurity is producing harm of a different but equally se\u2026 [+4507 chars]"
+      "author": "Maria Deutscher",
+      "title": "Cyera raises $600M at $12B valuation amid flurry of cybersecurity investments",
+      "description": "Cyera Ltd., a startup that helps organizations track and secure their data assets, has raised $600 million from investors at a $12 billion valuation. The company is one of three cybersecurity providers to have disclosed funding rounds today. The other two, Pi\u2026",
+      "url": "https://siliconangle.com/2026/06/10/cyera-raises-600m-12b-valuation-amid-flurry-cybersecurity-investments/",
+      "urlToImage": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/06/Cyera.png",
+      "publishedAt": "2026-06-10T20:37:40Z",
+      "content": "Cyera Ltd., a startup that helps organizations track and secure their data assets, has raised $600 million from investors at a $12 billion valuation.\r\nThe company is one of three cybersecurity provid\u2026 [+5005 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Crypto Briefing"
+      },
+      "author": "Editorial Team",
+      "title": "Oracle PeopleSoft servers targeted in data theft attacks linked to ShinyHunters",
+      "description": "The attacks highlight vulnerabilities in enterprise systems, emphasizing the need for robust cybersecurity measures to protect sensitive data.\nThe post Oracle PeopleSoft servers targeted in data theft attacks linked to ShinyHunters appeared first on Crypto Br\u2026",
+      "url": "https://cryptobriefing.com/shinyhunters-oracle-peoplesoft-bitcoin-ransom/",
+      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/10145107/shinyhunters-wage-broad-corporate-extortion-spree-krebs-on-s-800x420.png",
+      "publishedAt": "2026-06-10T18:51:14Z",
+      "content": "The notorious data extortion group is exploiting vulnerabilities in legacy enterprise systems and demanding Bitcoin ransoms, raising fresh questions about crypto's role in cybercrime. ShinyHunters, o\u2026 [+2337 chars]"
     },
     {
       "source": {
@@ -138,12 +86,25 @@
         "name": "BleepingComputer"
       },
       "author": "Lawrence Abrams",
-      "title": "SoFi confirms third-party data breach at Hong Kong subsidiary",
-      "description": "SoFi Hong Kong is warning that it suffered a data breach after hackers gained access to a database at a third-party vendor containing customer information. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/",
-      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2026/06/08/sofi-hong-kong.jpg",
-      "publishedAt": "2026-06-08T21:55:46Z",
-      "content": "SoFi Hong Kong is warning that it suffered a data breach after hackers gained access to a database at a third-party vendor containing customer information.\r\nThe company is a U.S.-based financial tech\u2026 [+2283 chars]"
+      "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
+      "description": "Oracle PeopleSoft servers are being targeted in ongoing data theft attacks by the ShinyHunters extortion gang, which claims to have stolen data from over 100 organizations. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
+      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2025/03/21/Oracle.jpg",
+      "publishedAt": "2026-06-10T18:31:57Z",
+      "content": "Oracle PeopleSoft servers are being targeted in ongoing data theft attacks by the ShinyHunters extortion gang, which claims to have stolen data from over 100 organizations.\r\nPeopleSoft is an enterpri\u2026 [+4115 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forrester.com"
+      },
+      "author": "Jeff Pollard",
+      "title": "How Fable 5 And Mythos 5 Change AI Security, Data Retention, And Vendor Risk",
+      "description": "Anthropic\u2019s Fable 5 and Mythos 5 is the most 2026 product launch you\u2019ll read this year. The same model can find nation-state zero days, design novel drug candidates, and play FireRed on a Gameboy Advance with nothing but screenshots. And for the gaming fans o\u2026",
+      "url": "https://www.forrester.com/blogs/how-fable-5-and-mythos-5-change-ai-security-data-retention-and-vendor-risk/",
+      "urlToImage": "https://go.forrester.com/wp-content/uploads/2026/06/Blog-Mythos-5-Fable-5.jpg",
+      "publishedAt": "2026-06-10T17:34:03Z",
+      "content": "Anthropics Fable 5 and Mythos 5 is the most 2026 product launch youll read this year. The same model can find nation-state zero days, design novel drug candidates, and play FireRed on a Gameboy Advan\u2026 [+12491 chars]"
     },
     {
       "source": {
@@ -151,64 +112,38 @@
         "name": "Business Insider"
       },
       "author": "insider@insider.com (Lillian Brown)",
-      "title": "Where to watch NBA Finals: Spurs vs. Knicks live streams, schedule, odds, venue",
-      "description": "The Spurs vs. Knicks series heads to New York for Game 3. We'll show you where to watch the NBA Finals around the world.",
-      "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-nba-finals-knicks-vs-spurs-2026-g3",
-      "urlToImage": "https://i.insider.com/6a2700b40421ca48aa59fd26?width=1200&format=jpeg",
-      "publishedAt": "2026-06-08T21:31:01Z",
-      "content": "After a dominant first two games on the road, the New York Knicks return home to take on the San Antonio Spurs in Game 3 of the NBA Finals. We've gathered everything you need to know about where to w\u2026 [+6141 chars]"
+      "title": "Where to watch World Cup: Free live streams, schedule, venues, odds",
+      "description": "The biggest football competition in the world returns. We'll show you where to watch the World Cup online from anywhere.",
+      "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-fifa-world-cup-2026",
+      "urlToImage": "https://i.insider.com/6a29726a59f798e5451f5923?width=1200&format=jpeg",
+      "publishedAt": "2026-06-10T17:03:36Z",
+      "content": "After almost four years, the FIFA World Cup returns, and Argentina will attempt to defend its title against a stacked field. We've scoured the viewing options and rounded up everything you need to kn\u2026 [+7898 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "24/7 Wall St."
+        "name": "BusinessLine"
       },
-      "author": "Austin Smith",
-      "title": "This Cybersecurity ETF Just Surged 39% in a Single Month. The YTD Is Even Better.",
-      "description": "The headline number making the rounds on cybersecurity ETF Twitter is bigger than the one the tape actually printed, and that gap is the most useful place to...",
-      "url": "https://247wallst.com/investing/2026/06/08/this-cybersecurity-etf-just-surged-39-in-a-single-month-the-ytd-is-even-better/",
-      "urlToImage": "https://s.yimg.com/lo/mysterio/api/0C949A5621EB09AD40AE65EF94744836B3A06C16E4915D7A515DC642EC6A8448/subgraphmysterio/resizefill_w1200_h566;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F6ac2b7b1c5fe85703dca8e63552daf51",
-      "publishedAt": "2026-06-08T17:00:14Z",
-      "content": "Quick Read\r\n<ul><li>WCBR surged 22% in one month and 20% YTD after short interest collapsed 77% and JPMorgan, Citadel, and others accumulated shares.\r\n</li><li>Now trading at a P/E of 37, WCBR traile\u2026 [+6949 chars]"
+      "author": "Nishant  Sahdev",
+      "title": "How India can protect its digital ecosystem",
+      "description": "In the age of Mythos, building firewalls is a relic of the past. Systems must now detect an anomaly and \u201cre-wire\u201d their own logic in real-time",
+      "url": "https://www.thehindubusinessline.com/opinion/how-india-can-protect-its-digital-ecosystem/article71086075.ece",
+      "urlToImage": "https://bl-i.thgim.com/public/incoming/2cb3oq/article71086079.ece/alternates/LANDSCAPE_1200/BL11_Think_AI_brain.jpg",
+      "publishedAt": "2026-06-10T16:08:18Z",
+      "content": "In May 1940, the worlds military elite believed that the Belgian fortress of Eben-Emael was the most impregnable structure ever built. It was a masterpiece of concrete and steel, designed to withstan\u2026 [+6539 chars]"
     },
     {
       "source": {
-        "id": null,
-        "name": "BleepingComputer"
+        "id": "techradar",
+        "name": "TechRadar"
       },
-      "author": "Sergiu Gatlan",
-      "title": "Gogs patches critical zero-day enabling remote code execution",
-      "description": "Gogs has patched a critical security zero-day flaw that can allow attackers to compromise Internet-facing instances and access any repositories (including private ones). [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
-      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2026/06/08/Gogs.jpg",
-      "publishedAt": "2026-06-08T16:18:40Z",
-      "content": "Gogs has patched a critical security zero-day flaw that can allow attackers to compromise Internet-facing instances and access any repositories (including private ones).\r\nThis\u00a0argument injection vuln\u2026 [+4190 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Amazon.com"
-      },
-      "author": "Joseph Sadler",
-      "title": "Operationalizing AWS security: A maturity roadmap",
-      "description": "Enabling security tooling is the starting point. Making it operational\u2014where findings drive decisions, response times are measurable, and your security posture improves week over week\u2014is where most organizations struggle. This blog post provides a phased matu\u2026",
-      "url": "https://aws.amazon.com/blogs/security/operationalizing-aws-security-a-maturity-roadmap/",
-      "urlToImage": "https://d2908q01vomqb2.cloudfront.net/22d200f8670dbdb3e253a90eee5098477c95c23d/2026/06/04/Roadmap-Figure-1.jpg",
-      "publishedAt": "2026-06-08T16:18:04Z",
-      "content": "Enabling security tooling is the starting point. Making it operationalwhere findings drive decisions, response times are measurable, and your security posture improves week over weekis where most org\u2026 [+27986 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Theregister.com"
-      },
-      "author": "Connor Jones",
-      "title": "Ransomware sends Illinois high school on an early summer vacation",
-      "description": "Meanwhile, 13 schools in Wales affected by separate attack",
-      "url": "https://www.theregister.com/cyber-crime/2026/06/08/ransomware-attack-shuts-illinois-high-school-until-wednesday/5252322",
-      "urlToImage": "https://image.theregister.com/5252409.jpg?imageId=5252409&x=0&y=4.17&cropw=100&croph=71.67&panox=0&panoy=4.17&panow=100&panoh=71.67&width=1200&height=683",
-      "publishedAt": "2026-06-08T15:46:52Z",
-      "content": "An Illinois high school won't reopen until Wednesday at the earliest after suffering a ransomware attack on Sunday, June 7.\r\nEvanston Township High School (ETHS), located 14 miles north of Chicago, s\u2026 [+3551 chars]"
+      "author": "Sead Fadilpa\u0161i\u0107",
+      "title": "French government internal messaging tool Tchap hit by data breach \u2014 but it doesn't know if any data was compromised",
+      "description": "A cybercriminal claimed the Tchap breach on a dark web forum, saying they stole gigabytes of sensitive data.",
+      "url": "https://www.techradar.com/pro/security/french-government-internal-messaging-tool-tchap-hit-by-data-breach-but-it-doesnt-know-if-any-data-was-compromised",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/uqHgSPQbsfgCGZPfmJ2cn-1920-80.jpg",
+      "publishedAt": "2026-06-10T14:09:30Z",
+      "content": "<ul><li>French government\u2011only chat app Tchap breached via stolen valid account, attacker claims 13.5GB exfiltrated</li><li>Alleged haul includes 73k accounts, 640k+ messages, 800+ chat rooms; privat\u2026 [+2508 chars]"
     },
     {
       "source": {
@@ -216,38 +151,90 @@
         "name": "BleepingComputer"
       },
       "author": "Sergiu Gatlan",
-      "title": "Check Point links VPN zero-day attacks to Qilin ransomware gang",
-      "description": "Israeli cybersecurity company Check Point has released security updates to patch a critical flaw affecting Remote Access VPN and Mobile Access deployments, which was exploited in zero-day attacks. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/",
-      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2026/06/08/Qilin.jpg",
-      "publishedAt": "2026-06-08T13:05:16Z",
-      "content": "Israeli cybersecurity company Check Point has released security updates to patch a critical flaw affecting Remote Access VPN and Mobile Access deployments, which was exploited in zero-day attacks.\r\nT\u2026 [+2778 chars]"
+      "title": "Microsoft patches Exchange Server zero-day exploited in attacks",
+      "description": "Microsoft has patched an actively exploited Exchange Server vulnerability that allows threat actors to execute arbitrary JavaScript code in cross-site scripting (XSS) attacks targeting Outlook Web Access users. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/",
+      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2026/06/10/Microsoft-Exchange.jpg",
+      "publishedAt": "2026-06-10T13:44:19Z",
+      "content": "Microsoft has patched an actively exploited Exchange Server vulnerability that allows threat actors to execute arbitrary JavaScript code in cross-site scripting (XSS) attacks targeting Outlook Web Ac\u2026 [+2448 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "PRNewswire"
+        "name": "Bitdefender.com"
       },
-      "author": null,
-      "title": "Mullen Coughlin UK Welcomes Experienced Attorney George Chaisty as Senior Partner in London",
-      "description": "DEVON, Pa., June 8, 2026 /PRNewswire/ -- Mullen Coughlin LLC further strengthens its international Incident Response (IR) practice by welcoming George Chaisty as Senior Partner in London. Noted for being \"an absolute standout practitioner in cyber incident re\u2026",
-      "url": "https://www.prnewswire.com/news-releases/mullen-coughlin-uk-welcomes-experienced-attorney-george-chaisty-as-senior-partner-in-london-302793062.html",
-      "urlToImage": null,
-      "publishedAt": "2026-06-08T13:00:00Z",
-      "content": "DEVON, Pa., June 8, 2026 /PRNewswire/ -- Mullen Coughlin LLC further strengthens its international Incident Response (IR) practice by welcoming George Chaisty as Senior Partner in London. Noted for b\u2026 [+2920 chars]"
+      "author": "Graham Cluley",
+      "title": "Why schools remain one of cybercriminals\u2019 favourite targets",
+      "description": "Schools on both sides of the Atlantic have been revealed in recent days to have been hit by hackers, reminding all of us that ransomware gangs see educational instituions as targets all year round.\n\nRead more in my article on the Hot for Security blog.",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/why-schools-remain-one-of-cybercriminals-favourite-targets",
+      "urlToImage": "https://blogapp.bitdefender.com/hotforsecurity/content/images/2026/06/empty-school.jpeg",
+      "publishedAt": "2026-06-10T13:18:27Z",
+      "content": "Schools on both sides of the Atlantic have been revealed in recent days to have been hit by hackers, reminding all of us that ransomware gangs see educational instituions as targets all year round.\r\n\u2026 [+3326 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "PRNewswire"
+        "name": "GlobeNewswire"
+      },
+      "author": "American News Group",
+      "title": "The Decade-Defining Race to Lock Down the World's Data Before Quantum Breaks It",
+      "description": "Issued on behalf of Quantum Secure Encryption Corp.  The world spent the last decade racing to build quantum computers. It will spend the next one racing...",
+      "url": "https://www.globenewswire.com/news-release/2026/06/10/3309708/0/en/The-Decade-Defining-Race-to-Lock-Down-the-World-s-Data-Before-Quantum-Breaks-It.html",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/134c155d-474f-4885-ac65-3b8adb6fb783",
+      "publishedAt": "2026-06-10T12:45:00Z",
+      "content": "Issued on behalf of Quantum Secure Encryption Corp.\r\nThe world spent the last decade racing to build quantum computers. It will spend the next one racing to survive them and the market for the defens\u2026 [+18044 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "SiliconANGLE News"
+      },
+      "author": "Duncan Riley",
+      "title": "Zscaler unveils ZAgent Framework to automate zero-trust SASE operations",
+      "description": "Zscaler Inc. today unveiled a major expansion of its zero-trust SASE platform, adding an agentic framework that lets administrators manage the system through natural-language prompts and extending its protection to unmanaged devices, business partners and mul\u2026",
+      "url": "https://siliconangle.com/2026/06/10/zscaler-unveils-zagent-framework-automate-zero-trust-sase-operations/",
+      "urlToImage": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2020/04/zscaler.png",
+      "publishedAt": "2026-06-10T12:05:37Z",
+      "content": "Zscaler Inc. today unveiled a major expansion of its zero-trust SASE platform, adding an agentic framework that lets administrators manage the system through natural-language prompts and extending it\u2026 [+5501 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "GlobeNewswire"
+      },
+      "author": "Zscaler, Inc.",
+      "title": "Zscaler Research Finds Cybercrime Economics Are Shifting as AI Trades Mass Volume for Lethal Precision",
+      "description": "While total phishing volume declined for the second year in a row, ThreatLabz identified 413,524 AI-generated site instances, underscoring how quickly adversaries can scale high-fidelity phishing While total phishing volume declined for the second year in a r\u2026",
+      "url": "https://www.globenewswire.com/news-release/2026/06/10/3309665/0/en/Zscaler-Research-Finds-Cybercrime-Economics-Are-Shifting-as-AI-Trades-Mass-Volume-for-Lethal-Precision.html",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/bc212637-6ad5-43b1-9aa5-f998c8fe68ba",
+      "publishedAt": "2026-06-10T12:05:00Z",
+      "content": "News Highlights\u00a0\r\n<ul><li>Quality Over Quantity: Phishing volume fell 20% for the second year in a row as attackers recalibrate to high-fidelity, AI-accelerated lures.</li><li>Services Sector Surge: \u2026 [+6859 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nakedcapitalism.com"
+      },
+      "author": "Conor Gallagher",
+      "title": "A New Epstein Island in Albania? Jared Kushner and Ivanka Trump\u2019s Zionist-Mafia-Linked Bunker Resort",
+      "description": "A billionaire bunker in a notorious sex trafficking hub backed by Persian Gulf money, Zionists, Epstein pals, US spooks, and the mob. Does something smell fishy?",
+      "url": "https://www.nakedcapitalism.com/2026/06/a-new-epstein-island-in-albania-jared-kushner-and-ivanka-trumps-zionist-mafia-linked-bunker-resort.html",
+      "urlToImage": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/Screenshot-2026-06-09-at-7.15.11\u202fAM-1024x574.png",
+      "publishedAt": "2026-06-10T09:00:48Z",
+      "content": "Protests in Albania continued on Tuesday following last weeks news that Jared Kushner and Ivanka Trump were planning on developing the countrys largest island and surrounding area into whats being bi\u2026 [+12356 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "We Live Security"
       },
       "author": null,
-      "title": "Mullen Coughlin UK Welcomes Experienced Attorney George Chaisty as Senior Partner in London",
-      "description": "DEVON, Pa., June 8, 2026 /PRNewswire/ -- Mullen Coughlin LLC further strengthens its international Incident Response (IR) practice by welcoming George Chaisty as Senior Partner in London. Noted for being \"an absolute standout practitioner in cyber incident re\u2026",
-      "url": "https://www.prnewswire.com/news-releases/mullen-coughlin-uk-welcomes-experienced-attorney-george-chaisty-as-senior-partner-in-london-302793018.html",
-      "urlToImage": null,
-      "publishedAt": "2026-06-08T13:00:00Z",
-      "content": "DEVON, Pa., June 8, 2026 /PRNewswire/ -- Mullen Coughlin LLC further strengthens its international Incident Response (IR) practice by welcoming George Chaisty as Senior Partner in London. Noted for b\u2026 [+2948 chars]"
+      "title": "SMB cyber-readiness: What makes or breaks it",
+      "description": "A company that's expecting a cyberattack but hasn\u2019t actively prepared for it risks making the hardest decisions at the worst possible moment",
+      "url": "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-what-makes-breaks-it/",
+      "urlToImage": "https://web-assets.esetstatic.com/wls/2026/06-26/smb-cyber-readiness.jpg",
+      "publishedAt": "2026-06-10T09:00:00Z",
+      "content": "\u201cFix the roof while the sun is shining.\u201d\r\n\u2013 proverb\r\nCybersecurity has a familiar way of saying the storm will come: \u201ca breach is a matter of when, not if.\u201d While the industry\u2019s sternest maxim has pr\u2026 [+8747 chars]"
     },
     {
       "source": {
@@ -255,12 +242,25 @@
         "name": "Securityaffairs.com"
       },
       "author": "Pierluigi Paganini",
-      "title": "UNC3753 Escalates: From Vishing Calls to Physical Office Intrusions at US Legal and Financial Firms",
-      "description": "UNC3753 phones staff posing as IT, hijacks screen sessions, steals sensitive legal files, and now sends operatives physically into offices to plug in USB drives. Google Mandiant and the Google Threat Intelligence Group published a detailed report documenting \u2026",
-      "url": "https://securityaffairs.com/193315/cyber-crime/unc3753-escalates-from-vishing-calls-to-physical-office-intrusions-at-us-legal-and-financial-firms.html",
-      "urlToImage": "https://securityaffairs.com/wp-content/uploads/2026/06/image-23.png",
-      "publishedAt": "2026-06-08T10:46:36Z",
-      "content": "UNC3753 Escalates: From Vishing Calls to Physical Office Intrusions at US Legal and Financial Firms\r\nGoogle Mandiant and the Google Threat Intelligence Group published a detailed report documenting a\u2026 [+8225 chars]"
+      "title": "France\u2019s Government Messaging App Tchap Got Breached",
+      "description": "France\u2019s government chat app Tchap was breached after a single account was compromised, exposing messages and data from public channels. Tchap, the encrypted messaging platform developed by the French government for its civil servants and made mandatory last \u2026",
+      "url": "https://securityaffairs.com/193393/security/frances-government-messaging-app-tchap-got-breached.html",
+      "urlToImage": "https://securityaffairs.com/wp-content/uploads/2018/12/travel-alert-registry-france.jpg",
+      "publishedAt": "2026-06-10T08:14:15Z",
+      "content": "France\u2019s Government Messaging App Tchap Got Breached\r\nTchap, the encrypted messaging platform developed by the French government for its civil servants and made mandatory last year, was breached on J\u2026 [+4286 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BleepingComputer"
+      },
+      "author": "Sergiu Gatlan",
+      "title": "Ivanti: Max severity Sentry flaw allows code execution as root",
+      "description": "Ivanti has patched two critical vulnerabilities in its Sentry secure mobile gateway solution, including a maximum-severity flaw that enables remote attackers to execute code with root privileges. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
+      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2026/06/10/Ivanti.jpg",
+      "publishedAt": "2026-06-10T06:26:28Z",
+      "content": "Security software company Ivanti has released patches to address two critical vulnerabilities in its Sentry secure mobile gateway solution, including a maximum-severity flaw that enables remote attac\u2026 [+2622 chars]"
     }
   ]
 }

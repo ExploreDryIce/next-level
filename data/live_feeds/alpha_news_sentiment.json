@@ -4,6 +4,110 @@
   "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
   "feed": [
     {
+      "title": "Producer Inflation Jumps To 6.5%, Highest Since December 2022 - State Street SPDR S&P 500 ETF Trust (ARCA",
+      "url": "https://www.benzinga.com/markets/economic-data/26/06/53138835/us-producer-price-inflation-report-may-2026",
+      "time_published": "20260611T132355",
+      "authors": [],
+      "summary": "Producer prices intensified in May, with the Producer Price Index climbing to 6.5% year-over-year, marking the highest reading since December 2022 and surpassing economist expectations. This surge was primarily driven by energy costs, particularly a significant increase in gasoline prices, raising concerns about inflation and the Federal Reserve's outlook. Despite the hot inflation data, Wall Street largely shrugged it off, with stock futures showing gains in early trading.",
+      "banner_image": "https://cdn.benzinga.com/cdn-cgi/image/width=1300,format=auto,quality=85/files/images/story/2025/07/24/article-header-background-image.png",
+      "source": "Benzinga",
+      "category_within_source": "General",
+      "source_domain": "Benzinga",
+      "topics": [
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.904156"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.812578"
+        },
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.749780"
+        }
+      ],
+      "overall_sentiment_score": 0.04733,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.028380",
+          "ticker_sentiment_label": "Neutral"
+        }
+      ]
+    },
+    {
+      "title": "Stock Market Live June 10, 2026: S&P 500 (SPY) Sinks on Fear of War",
+      "url": "https://247wallst.com/investing/2026/06/10/stock-market-live-june-10-2026-sp-500-spy-sinks-on-fear-of-war/",
+      "time_published": "20260610T120901",
+      "authors": [
+        "Ian Cooper"
+      ],
+      "summary": "On June 10, 2026, the S&P 500 (SPY) experienced a significant drop, driven by escalating fears of war in the Middle East, pushing oil prices nearing $90 a barrel. Super Micro Computer also plunged 12% after announcing substantial equity financing, following similar moves by Alphabet and Meta. Analysts warn of potentially critical low oil inventory levels and a possible 20% decline in gold prices if the Strait of Hormuz remains closed.",
+      "banner_image": "https://247wallst.com/wp-content/uploads/2025/07/Bear-Market.jpg",
+      "source": "24/7 Wall St.",
+      "category_within_source": "General",
+      "source_domain": "24/7 Wall St.",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.939825"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.829735"
+        },
+        {
+          "topic": "economy_monetary",
+          "relevance_score": "0.744643"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.605375"
+        },
+        {
+          "topic": "energy_transportation",
+          "relevance_score": "0.637742"
+        }
+      ],
+      "overall_sentiment_score": -0.125985,
+      "overall_sentiment_label": "Neutral",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "-0.291677",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "SMCI",
+          "relevance_score": "0.999980",
+          "ticker_sentiment_score": "-0.307045",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "GOOGL",
+          "relevance_score": "0.719007",
+          "ticker_sentiment_score": "-0.192422",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "META",
+          "relevance_score": "0.742520",
+          "ticker_sentiment_score": "-0.181622",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "XOM",
+          "relevance_score": "0.711773",
+          "ticker_sentiment_score": "0.283786",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
       "title": "Winch Advisory Services, LLC's State Street SPDR S&P 500 ETF Trust(SPY) Holding History",
       "url": "https://www.gurufocus.com/guru-portfolio/Winch%20Advisory%20Services,%20LLC/SPY",
       "time_published": "20260609T213854",
@@ -16,20 +120,20 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.901940"
+          "relevance_score": "0.944055"
         },
         {
           "topic": "finance",
-          "relevance_score": "0.815720"
+          "relevance_score": "0.820478"
         }
       ],
-      "overall_sentiment_score": 0.143766,
+      "overall_sentiment_score": 0.100719,
       "overall_sentiment_label": "Neutral",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.147010",
+          "ticker_sentiment_score": "0.128213",
           "ticker_sentiment_label": "Neutral"
         }
       ]
@@ -47,17 +151,139 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.927537"
+          "relevance_score": "0.900550"
         }
       ],
-      "overall_sentiment_score": -0.369792,
+      "overall_sentiment_score": -0.38815,
       "overall_sentiment_label": "Bearish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "-0.391891",
+          "ticker_sentiment_score": "-0.365213",
           "ticker_sentiment_label": "Bearish"
+        }
+      ]
+    },
+    {
+      "title": "Stock Market Live June 9, 2026: S&P 500 (SPY) Bouncing Back with Tech",
+      "url": "https://247wallst.com/investing/2026/06/09/stock-market-live-june-9-2026-sp-500-spy-bouncing-back-with-tech/",
+      "time_published": "20260609T094800",
+      "authors": [
+        "Ian Cooper"
+      ],
+      "summary": "On June 9, 2026, the S&P 500, Dow, and Nasdaq all rose, driven by tech gains and President Trump's announcement of an impending Iran nuclear deal. OpenAI's confidential IPO filing at an $852 billion valuation created buzz, with ETFs like FPX and IPO highlighted as ways to invest. JPMorgan and Morgan Stanley reiterated overweight ratings on Nvidia and Apple, respectively.",
+      "banner_image": "https://247wallst.com/wp-content/uploads/2025/06/Bull-Market-Charge-scaled.jpg",
+      "source": "24/7 Wall St.",
+      "category_within_source": "General",
+      "source_domain": "24/7 Wall St.",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.928601"
+        },
+        {
+          "topic": "ipo",
+          "relevance_score": "0.908509"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.843947"
+        },
+        {
+          "topic": "earnings",
+          "relevance_score": "0.715568"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.631367"
+        }
+      ],
+      "overall_sentiment_score": 0.32769,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "0.946839",
+          "ticker_sentiment_score": "0.319479",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "ORCL",
+          "relevance_score": "0.825905",
+          "ticker_sentiment_score": "0.400779",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.716678",
+          "ticker_sentiment_score": "0.308327",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "AAPL",
+          "relevance_score": "0.744312",
+          "ticker_sentiment_score": "0.341305",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Stock Market Today: SPY, QQQ Rebound as Israel and Iran Halt Strikes; Oil Edges Higher",
+      "url": "https://www.tipranks.com/news/stock-market-today-spy-qqq-rebound-as-israel-and-iran-halt-strikes",
+      "time_published": "20260609T060901",
+      "authors": [
+        "Eddie Pan"
+      ],
+      "summary": "U.S. equities, including SPY and QQQ, rebounded on Monday due to a de-escalation of tensions between Israel and Iran, with tech stocks leading the rally. Oil prices rose, however, as the U.S.-Iran conflict neared its 100th day affecting the Strait of Hormuz. Major corporate news included Intel and Amazon's significant deals, while Apple and Tesla also saw movement based on company announcements.",
+      "banner_image": "https://blog.tipranks.com/wp-content/uploads/2026/05/shutterstock_2638807701-750x406.jpg",
+      "source": "TipRanks",
+      "category_within_source": "General",
+      "source_domain": "TipRanks",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "0.912695"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.834538"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.709461"
+        },
+        {
+          "topic": "energy_transportation",
+          "relevance_score": "0.620011"
+        }
+      ],
+      "overall_sentiment_score": 0.213681,
+      "overall_sentiment_label": "Somewhat-Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.302952",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "C",
+          "relevance_score": "0.615074",
+          "ticker_sentiment_score": "0.308975",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "JPM",
+          "relevance_score": "0.644130",
+          "ticker_sentiment_score": "-0.324727",
+          "ticker_sentiment_label": "Somewhat-Bearish"
+        },
+        {
+          "ticker": "INTC",
+          "relevance_score": "0.703510",
+          "ticker_sentiment_score": "0.411497",
+          "ticker_sentiment_label": "Bullish"
         }
       ]
     },
@@ -80,36 +306,36 @@
         },
         {
           "topic": "ipo",
-          "relevance_score": "0.929524"
+          "relevance_score": "0.949695"
         },
         {
           "topic": "technology",
-          "relevance_score": "0.832545"
+          "relevance_score": "0.818525"
         },
         {
           "topic": "earnings",
-          "relevance_score": "0.721352"
+          "relevance_score": "0.706370"
         }
       ],
-      "overall_sentiment_score": 0.405375,
+      "overall_sentiment_score": 0.40987,
       "overall_sentiment_label": "Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.414516",
+          "ticker_sentiment_score": "0.392924",
           "ticker_sentiment_label": "Bullish"
         },
         {
           "ticker": "AMAT",
-          "relevance_score": "0.648262",
-          "ticker_sentiment_score": "0.421223",
+          "relevance_score": "0.628245",
+          "ticker_sentiment_score": "0.381678",
           "ticker_sentiment_label": "Bullish"
         },
         {
           "ticker": "LRCX",
-          "relevance_score": "0.588561",
-          "ticker_sentiment_score": "0.388887",
+          "relevance_score": "0.567027",
+          "ticker_sentiment_score": "0.396072",
           "ticker_sentiment_label": "Bullish"
         }
       ]
@@ -129,38 +355,38 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.911182"
+          "relevance_score": "0.901139"
         },
         {
           "topic": "economy_monetary",
-          "relevance_score": "0.830994"
+          "relevance_score": "0.845891"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.704432"
+          "relevance_score": "0.727492"
         },
         {
           "topic": "earnings",
-          "relevance_score": "0.610440"
+          "relevance_score": "0.628007"
         },
         {
           "topic": "technology",
-          "relevance_score": "0.646413"
+          "relevance_score": "0.631333"
         }
       ],
-      "overall_sentiment_score": -0.404708,
+      "overall_sentiment_score": -0.414258,
       "overall_sentiment_label": "Bearish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "-0.412462",
+          "ticker_sentiment_score": "-0.400125",
           "ticker_sentiment_label": "Bearish"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.607766",
-          "ticker_sentiment_score": "-0.446931",
+          "relevance_score": "0.601262",
+          "ticker_sentiment_score": "-0.441132",
           "ticker_sentiment_label": "Bearish"
         }
       ]
@@ -180,52 +406,52 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.905433"
+          "relevance_score": "0.928435"
         },
         {
           "topic": "economy_monetary",
-          "relevance_score": "0.830446"
+          "relevance_score": "0.800819"
         },
         {
           "topic": "technology",
-          "relevance_score": "0.700361"
+          "relevance_score": "0.715292"
         },
         {
           "topic": "retail_wholesale",
-          "relevance_score": "0.613924"
+          "relevance_score": "0.630832"
         }
       ],
-      "overall_sentiment_score": 0.244946,
+      "overall_sentiment_score": 0.20642,
       "overall_sentiment_label": "Somewhat-Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "-0.227888",
+          "ticker_sentiment_score": "-0.216321",
           "ticker_sentiment_label": "Somewhat-Bearish"
         },
         {
           "ticker": "KMB",
-          "relevance_score": "0.848145",
-          "ticker_sentiment_score": "0.302345",
+          "relevance_score": "0.824169",
+          "ticker_sentiment_score": "0.327361",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "KVUE",
-          "relevance_score": "0.741480",
-          "ticker_sentiment_score": "0.321359",
+          "relevance_score": "0.731364",
+          "ticker_sentiment_score": "0.313864",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "CLX",
-          "relevance_score": "0.746198",
-          "ticker_sentiment_score": "0.326838",
+          "relevance_score": "0.728751",
+          "ticker_sentiment_score": "0.349237",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "PG",
-          "relevance_score": "0.714218",
-          "ticker_sentiment_score": "0.336583",
+          "relevance_score": "0.743110",
+          "ticker_sentiment_score": "0.312290",
           "ticker_sentiment_label": "Somewhat-Bullish"
         }
       ]
@@ -246,38 +472,38 @@
       "topics": [
         {
           "topic": "finance",
-          "relevance_score": "0.937582"
+          "relevance_score": "0.904189"
         },
         {
           "topic": "financial_markets",
-          "relevance_score": "0.826435"
+          "relevance_score": "0.831136"
         }
       ],
-      "overall_sentiment_score": 0.325222,
+      "overall_sentiment_score": 0.324548,
       "overall_sentiment_label": "Somewhat-Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.293247",
+          "ticker_sentiment_score": "0.296613",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.602111",
-          "ticker_sentiment_score": "0.344069",
+          "relevance_score": "0.613368",
+          "ticker_sentiment_score": "0.332954",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "AAPL",
-          "relevance_score": "0.648315",
-          "ticker_sentiment_score": "0.348448",
+          "relevance_score": "0.641735",
+          "ticker_sentiment_score": "0.315687",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "MSFT",
-          "relevance_score": "0.647464",
-          "ticker_sentiment_score": "0.321603",
+          "relevance_score": "0.602042",
+          "ticker_sentiment_score": "0.336091",
           "ticker_sentiment_label": "Somewhat-Bullish"
         }
       ]
@@ -297,30 +523,30 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.911371"
+          "relevance_score": "0.920415"
         },
         {
           "topic": "economy_monetary",
-          "relevance_score": "0.828265"
+          "relevance_score": "0.813569"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.712781"
+          "relevance_score": "0.730332"
         }
       ],
-      "overall_sentiment_score": -0.374769,
+      "overall_sentiment_score": -0.363228,
       "overall_sentiment_label": "Bearish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "-0.400660",
+          "ticker_sentiment_score": "-0.417731",
           "ticker_sentiment_label": "Bearish"
         },
         {
           "ticker": "AVGO",
-          "relevance_score": "0.634476",
-          "ticker_sentiment_score": "-0.347865",
+          "relevance_score": "0.643817",
+          "ticker_sentiment_score": "-0.312000",
           "ticker_sentiment_label": "Somewhat-Bearish"
         }
       ]
@@ -340,40 +566,40 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.930980"
+          "relevance_score": "0.913454"
         },
         {
           "topic": "economy_monetary",
-          "relevance_score": "0.841760"
+          "relevance_score": "0.836733"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.739155"
+          "relevance_score": "0.718696"
         },
         {
           "topic": "technology",
-          "relevance_score": "0.623463"
+          "relevance_score": "0.640149"
         }
       ],
-      "overall_sentiment_score": -0.403423,
+      "overall_sentiment_score": -0.410653,
       "overall_sentiment_label": "Bearish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "-0.430824",
+          "ticker_sentiment_score": "-0.410950",
           "ticker_sentiment_label": "Bearish"
         },
         {
           "ticker": "AVGO",
-          "relevance_score": "0.613370",
-          "ticker_sentiment_score": "-0.435950",
+          "relevance_score": "0.645979",
+          "ticker_sentiment_score": "-0.427266",
           "ticker_sentiment_label": "Bearish"
         },
         {
           "ticker": "AMD",
-          "relevance_score": "0.642015",
-          "ticker_sentiment_score": "-0.436846",
+          "relevance_score": "0.614486",
+          "ticker_sentiment_score": "-0.410560",
           "ticker_sentiment_label": "Bearish"
         }
       ]
@@ -391,20 +617,20 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.902313"
+          "relevance_score": "0.911898"
         },
         {
           "topic": "finance",
-          "relevance_score": "0.712159"
+          "relevance_score": "0.746227"
         }
       ],
-      "overall_sentiment_score": 0.38152,
+      "overall_sentiment_score": 0.420492,
       "overall_sentiment_label": "Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.418003",
+          "ticker_sentiment_score": "0.396543",
           "ticker_sentiment_label": "Bullish"
         }
       ]
@@ -422,40 +648,40 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.939890"
+          "relevance_score": "0.919823"
         }
       ],
-      "overall_sentiment_score": 0.326582,
-      "overall_sentiment_label": "Somewhat-Bullish",
+      "overall_sentiment_score": 0.367221,
+      "overall_sentiment_label": "Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.443102",
+          "ticker_sentiment_score": "0.431884",
           "ticker_sentiment_label": "Bullish"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.626717",
-          "ticker_sentiment_score": "0.339553",
+          "relevance_score": "0.624103",
+          "ticker_sentiment_score": "0.345835",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "AAPL",
-          "relevance_score": "0.612781",
-          "ticker_sentiment_score": "0.312442",
+          "relevance_score": "0.628495",
+          "ticker_sentiment_score": "0.328192",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "MSFT",
-          "relevance_score": "0.618171",
-          "ticker_sentiment_score": "0.325709",
+          "relevance_score": "0.639209",
+          "ticker_sentiment_score": "0.314277",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "AMZN",
-          "relevance_score": "0.630131",
-          "ticker_sentiment_score": "0.307013",
+          "relevance_score": "0.600933",
+          "ticker_sentiment_score": "0.313167",
           "ticker_sentiment_label": "Somewhat-Bullish"
         }
       ]
@@ -475,7 +701,7 @@
       "topics": [
         {
           "topic": "earnings",
-          "relevance_score": "0.841461"
+          "relevance_score": "0.813699"
         },
         {
           "topic": "financial_markets",
@@ -483,42 +709,42 @@
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.910571"
+          "relevance_score": "0.949696"
         },
         {
           "topic": "technology",
-          "relevance_score": "0.843743"
+          "relevance_score": "0.809702"
         },
         {
           "topic": "energy_transportation",
-          "relevance_score": "0.607459"
+          "relevance_score": "0.609001"
         }
       ],
-      "overall_sentiment_score": -0.222469,
+      "overall_sentiment_score": -0.175657,
       "overall_sentiment_label": "Somewhat-Bearish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
-          "relevance_score": "0.928314",
-          "ticker_sentiment_score": "0.105048",
+          "relevance_score": "0.912161",
+          "ticker_sentiment_score": "0.137934",
           "ticker_sentiment_label": "Neutral"
         },
         {
           "ticker": "AVGO",
-          "relevance_score": "0.711483",
-          "ticker_sentiment_score": "-0.434859",
+          "relevance_score": "0.747769",
+          "ticker_sentiment_score": "-0.442559",
           "ticker_sentiment_label": "Bearish"
         },
         {
           "ticker": "AMD",
-          "relevance_score": "0.603650",
-          "ticker_sentiment_score": "-0.216925",
+          "relevance_score": "0.643207",
+          "ticker_sentiment_score": "-0.227180",
           "ticker_sentiment_label": "Somewhat-Bearish"
         },
         {
           "ticker": "QCOM",
-          "relevance_score": "0.613930",
-          "ticker_sentiment_score": "-0.243503",
+          "relevance_score": "0.635595",
+          "ticker_sentiment_score": "-0.237300",
           "ticker_sentiment_label": "Somewhat-Bearish"
         }
       ]
@@ -538,7 +764,7 @@
       "topics": [
         {
           "topic": "earnings",
-          "relevance_score": "0.945018"
+          "relevance_score": "0.916715"
         },
         {
           "topic": "financial_markets",
@@ -546,43 +772,100 @@
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.706644"
+          "relevance_score": "0.709705"
         },
         {
           "topic": "retail_wholesale",
-          "relevance_score": "0.649602"
+          "relevance_score": "0.621535"
         },
         {
           "topic": "technology",
-          "relevance_score": "0.828526"
+          "relevance_score": "0.847181"
         }
       ],
-      "overall_sentiment_score": -0.064979,
+      "overall_sentiment_score": -0.056927,
       "overall_sentiment_label": "Neutral",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
-          "relevance_score": "0.964996",
-          "ticker_sentiment_score": "-0.344090",
+          "relevance_score": "0.952930",
+          "ticker_sentiment_score": "-0.347768",
           "ticker_sentiment_label": "Somewhat-Bearish"
         },
         {
           "ticker": "AVGO",
-          "relevance_score": "0.939985",
-          "ticker_sentiment_score": "-0.428512",
+          "relevance_score": "0.907093",
+          "ticker_sentiment_score": "-0.425694",
           "ticker_sentiment_label": "Bearish"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.628283",
-          "ticker_sentiment_score": "0.326097",
+          "relevance_score": "0.636311",
+          "ticker_sentiment_score": "0.310874",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "ORCL",
-          "relevance_score": "0.566866",
-          "ticker_sentiment_score": "0.290257",
+          "relevance_score": "0.571299",
+          "ticker_sentiment_score": "0.279156",
           "ticker_sentiment_label": "Somewhat-Bullish"
+        }
+      ]
+    },
+    {
+      "title": "Stock Market Live June 1, 2026: S&P 500 (SPY) Could See Higher Highs",
+      "url": "https://247wallst.com/investing/2026/06/01/stock-market-live-june-1-2026-sp-500-spy-could-see-higher-highs/",
+      "time_published": "20260604T060902",
+      "authors": [
+        "Ian Cooper"
+      ],
+      "summary": "On June 1, 2026, the S&P 500 and other major indices continued to see higher highs, fueled by robust performance from companies like Dell, which crushed Q1 estimates due to surging AI server demand. Analysts such as DA Davidson added Nvidia to their \"best of breed\" list, citing its durable competitive advantage in AI, while Needham initiated buy ratings on rare earth stocks MP Materials and USA Rare Earth, anticipating a multi-year investment cycle as Western governments diversify supply chains away from China. However, geopolitical tensions surrounding Iran introduced potential volatility, with warnings of a \"sell the news\" reaction if a peace deal is announced.",
+      "banner_image": "https://247wallst.com/wp-content/uploads/2023/11/shutterstock-78091093-huge-licensed-scaled.jpg",
+      "source": "24/7 Wall St.",
+      "category_within_source": "General",
+      "source_domain": "24/7 Wall St.",
+      "topics": [
+        {
+          "topic": "financial_markets",
+          "relevance_score": "1.000000"
+        },
+        {
+          "topic": "earnings",
+          "relevance_score": "0.934936"
+        },
+        {
+          "topic": "technology",
+          "relevance_score": "0.833156"
+        },
+        {
+          "topic": "economy_macro",
+          "relevance_score": "0.743811"
+        },
+        {
+          "topic": "energy_transportation",
+          "relevance_score": "0.601532"
+        }
+      ],
+      "overall_sentiment_score": 0.368311,
+      "overall_sentiment_label": "Bullish",
+      "ticker_sentiment": [
+        {
+          "ticker": "SPY",
+          "relevance_score": "1.000000",
+          "ticker_sentiment_score": "0.265470",
+          "ticker_sentiment_label": "Somewhat-Bullish"
+        },
+        {
+          "ticker": "DELL",
+          "relevance_score": "0.982123",
+          "ticker_sentiment_score": "0.453263",
+          "ticker_sentiment_label": "Bullish"
+        },
+        {
+          "ticker": "NVDA",
+          "relevance_score": "0.880699",
+          "ticker_sentiment_score": "0.403445",
+          "ticker_sentiment_label": "Bullish"
         }
       ]
     },
@@ -602,13 +885,13 @@
           "relevance_score": "1.000000"
         }
       ],
-      "overall_sentiment_score": 0.013236,
+      "overall_sentiment_score": 0.000486,
       "overall_sentiment_label": "Neutral",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.027808",
+          "ticker_sentiment_score": "0.015024",
           "ticker_sentiment_label": "Neutral"
         }
       ]
@@ -632,16 +915,16 @@
         },
         {
           "topic": "finance",
-          "relevance_score": "0.842334"
+          "relevance_score": "0.815252"
         }
       ],
-      "overall_sentiment_score": -0.183259,
+      "overall_sentiment_score": -0.192602,
       "overall_sentiment_label": "Somewhat-Bearish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
-          "relevance_score": "0.999165",
-          "ticker_sentiment_score": "-0.225907",
+          "relevance_score": "0.961648",
+          "ticker_sentiment_score": "-0.213911",
           "ticker_sentiment_label": "Somewhat-Bearish"
         }
       ]
@@ -661,28 +944,28 @@
       "topics": [
         {
           "topic": "economy_monetary",
-          "relevance_score": "0.937222"
+          "relevance_score": "0.903815"
         },
         {
           "topic": "financial_markets",
-          "relevance_score": "0.800037"
+          "relevance_score": "0.846185"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.738849"
+          "relevance_score": "0.710554"
         },
         {
           "topic": "earnings",
-          "relevance_score": "0.615687"
+          "relevance_score": "0.643992"
         }
       ],
-      "overall_sentiment_score": 0.422616,
+      "overall_sentiment_score": 0.401082,
       "overall_sentiment_label": "Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.447212",
+          "ticker_sentiment_score": "0.445106",
           "ticker_sentiment_label": "Bullish"
         }
       ]
@@ -702,42 +985,42 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.942887"
+          "relevance_score": "0.927938"
         },
         {
           "topic": "technology",
-          "relevance_score": "0.826899"
+          "relevance_score": "0.847160"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.723874"
+          "relevance_score": "0.734315"
         }
       ],
-      "overall_sentiment_score": 0.14553,
-      "overall_sentiment_label": "Neutral",
+      "overall_sentiment_score": 0.158624,
+      "overall_sentiment_label": "Somewhat-Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "-0.296172",
+          "ticker_sentiment_score": "-0.287682",
           "ticker_sentiment_label": "Somewhat-Bearish"
         },
         {
           "ticker": "GOOG",
-          "relevance_score": "0.701835",
-          "ticker_sentiment_score": "0.114539",
+          "relevance_score": "0.748034",
+          "ticker_sentiment_score": "0.114517",
           "ticker_sentiment_label": "Neutral"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.666432",
-          "ticker_sentiment_score": "0.437089",
+          "relevance_score": "0.687721",
+          "ticker_sentiment_score": "0.405856",
           "ticker_sentiment_label": "Bullish"
         },
         {
           "ticker": "TTWO",
-          "relevance_score": "0.569513",
-          "ticker_sentiment_score": "0.339394",
+          "relevance_score": "0.576464",
+          "ticker_sentiment_score": "0.312060",
           "ticker_sentiment_label": "Somewhat-Bullish"
         }
       ]
@@ -757,38 +1040,38 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.940796"
+          "relevance_score": "0.900173"
         },
         {
           "topic": "finance",
-          "relevance_score": "0.846403"
+          "relevance_score": "0.839346"
         }
       ],
-      "overall_sentiment_score": 0.285008,
+      "overall_sentiment_score": 0.284152,
       "overall_sentiment_label": "Somewhat-Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
-          "relevance_score": "0.962840",
-          "ticker_sentiment_score": "0.131579",
+          "relevance_score": "0.974829",
+          "ticker_sentiment_score": "0.100701",
           "ticker_sentiment_label": "Neutral"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.633466",
-          "ticker_sentiment_score": "0.323421",
+          "relevance_score": "0.601670",
+          "ticker_sentiment_score": "0.349822",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "AAPL",
-          "relevance_score": "0.649623",
-          "ticker_sentiment_score": "0.308389",
+          "relevance_score": "0.634205",
+          "ticker_sentiment_score": "0.309736",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "MSFT",
-          "relevance_score": "0.612967",
-          "ticker_sentiment_score": "0.312879",
+          "relevance_score": "0.636852",
+          "ticker_sentiment_score": "0.307285",
           "ticker_sentiment_label": "Somewhat-Bullish"
         }
       ]
@@ -806,16 +1089,16 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.905693"
+          "relevance_score": "0.949909"
         }
       ],
-      "overall_sentiment_score": 0.406057,
+      "overall_sentiment_score": 0.421469,
       "overall_sentiment_label": "Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.384555",
+          "ticker_sentiment_score": "0.427387",
           "ticker_sentiment_label": "Bullish"
         }
       ]
@@ -833,20 +1116,20 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.902115"
+          "relevance_score": "0.935729"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.737323"
+          "relevance_score": "0.713154"
         }
       ],
-      "overall_sentiment_score": -0.422606,
+      "overall_sentiment_score": -0.44356,
       "overall_sentiment_label": "Bearish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "-0.446178",
+          "ticker_sentiment_score": "-0.431885",
           "ticker_sentiment_label": "Bearish"
         }
       ]
@@ -867,13 +1150,13 @@
           "relevance_score": "1.000000"
         }
       ],
-      "overall_sentiment_score": 0.201994,
+      "overall_sentiment_score": 0.2073,
       "overall_sentiment_label": "Somewhat-Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.208822",
+          "ticker_sentiment_score": "0.222156",
           "ticker_sentiment_label": "Somewhat-Bullish"
         }
       ]
@@ -895,16 +1178,16 @@
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.924070"
+          "relevance_score": "0.900536"
         }
       ],
-      "overall_sentiment_score": -0.205241,
+      "overall_sentiment_score": -0.219936,
       "overall_sentiment_label": "Somewhat-Bearish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "-0.239662",
+          "ticker_sentiment_score": "-0.217188",
           "ticker_sentiment_label": "Somewhat-Bearish"
         }
       ]
@@ -922,16 +1205,16 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.945504"
+          "relevance_score": "0.936070"
         }
       ],
-      "overall_sentiment_score": 0.378722,
+      "overall_sentiment_score": 0.380149,
       "overall_sentiment_label": "Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.392156",
+          "ticker_sentiment_score": "0.390714",
           "ticker_sentiment_label": "Bullish"
         }
       ]
@@ -951,34 +1234,34 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.902532"
+          "relevance_score": "0.931537"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.813720"
+          "relevance_score": "0.815092"
         },
         {
           "topic": "finance",
-          "relevance_score": "0.629904"
+          "relevance_score": "0.646075"
         },
         {
           "topic": "technology",
-          "relevance_score": "0.601046"
+          "relevance_score": "0.633432"
         }
       ],
-      "overall_sentiment_score": -0.096821,
+      "overall_sentiment_score": -0.086042,
       "overall_sentiment_label": "Neutral",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "-0.228174",
+          "ticker_sentiment_score": "-0.216524",
           "ticker_sentiment_label": "Somewhat-Bearish"
         },
         {
           "ticker": "BAC",
-          "relevance_score": "0.709343",
-          "ticker_sentiment_score": "0.102000",
+          "relevance_score": "0.740098",
+          "ticker_sentiment_score": "0.107177",
           "ticker_sentiment_label": "Neutral"
         }
       ]
@@ -998,38 +1281,38 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.935767"
+          "relevance_score": "0.900212"
         },
         {
           "topic": "finance",
-          "relevance_score": "0.716575"
+          "relevance_score": "0.715243"
         }
       ],
-      "overall_sentiment_score": 0.09533,
+      "overall_sentiment_score": 0.1054,
       "overall_sentiment_label": "Neutral",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.131682",
+          "ticker_sentiment_score": "0.139266",
           "ticker_sentiment_label": "Neutral"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.612104",
-          "ticker_sentiment_score": "0.052582",
+          "relevance_score": "0.613586",
+          "ticker_sentiment_score": "0.072137",
           "ticker_sentiment_label": "Neutral"
         },
         {
           "ticker": "AAPL",
-          "relevance_score": "0.558400",
-          "ticker_sentiment_score": "0.063769",
+          "relevance_score": "0.566646",
+          "ticker_sentiment_score": "0.083565",
           "ticker_sentiment_label": "Neutral"
         },
         {
           "ticker": "MSFT",
-          "relevance_score": "0.578266",
-          "ticker_sentiment_score": "0.080290",
+          "relevance_score": "0.558464",
+          "ticker_sentiment_score": "0.059811",
           "ticker_sentiment_label": "Neutral"
         }
       ]
@@ -1049,30 +1332,30 @@
       "topics": [
         {
           "topic": "blockchain",
-          "relevance_score": "0.918975"
+          "relevance_score": "0.907092"
         },
         {
           "topic": "financial_markets",
-          "relevance_score": "0.827088"
+          "relevance_score": "0.846769"
         },
         {
           "topic": "finance",
-          "relevance_score": "0.643148"
+          "relevance_score": "0.623211"
         }
       ],
-      "overall_sentiment_score": 0.124939,
+      "overall_sentiment_score": 0.116459,
       "overall_sentiment_label": "Neutral",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.076695",
+          "ticker_sentiment_score": "0.090596",
           "ticker_sentiment_label": "Neutral"
         },
         {
           "ticker": "BLK",
-          "relevance_score": "0.723290",
-          "ticker_sentiment_score": "0.112013",
+          "relevance_score": "0.715119",
+          "ticker_sentiment_score": "0.139159",
           "ticker_sentiment_label": "Neutral"
         }
       ]
@@ -1090,24 +1373,24 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.918613"
+          "relevance_score": "0.920907"
         },
         {
           "topic": "earnings",
-          "relevance_score": "0.831764"
+          "relevance_score": "0.847206"
         },
         {
           "topic": "technology",
-          "relevance_score": "0.638420"
+          "relevance_score": "0.640874"
         }
       ],
-      "overall_sentiment_score": 0.123028,
+      "overall_sentiment_score": 0.10599,
       "overall_sentiment_label": "Neutral",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.132159",
+          "ticker_sentiment_score": "0.131387",
           "ticker_sentiment_label": "Neutral"
         }
       ]
@@ -1129,24 +1412,24 @@
         },
         {
           "topic": "finance",
-          "relevance_score": "0.834968"
+          "relevance_score": "0.814929"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.649574"
+          "relevance_score": "0.643701"
         },
         {
           "topic": "blockchain",
-          "relevance_score": "0.627545"
+          "relevance_score": "0.645127"
         }
       ],
-      "overall_sentiment_score": 0.030451,
+      "overall_sentiment_score": 0.014726,
       "overall_sentiment_label": "Neutral",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
-          "relevance_score": "0.909426",
-          "ticker_sentiment_score": "0.012899",
+          "relevance_score": "0.937418",
+          "ticker_sentiment_score": "0.003918",
           "ticker_sentiment_label": "Neutral"
         }
       ]
@@ -1181,20 +1464,20 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.932683"
+          "relevance_score": "0.934590"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.624692"
+          "relevance_score": "0.636502"
         }
       ],
-      "overall_sentiment_score": -0.226934,
+      "overall_sentiment_score": -0.243141,
       "overall_sentiment_label": "Somewhat-Bearish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "-0.246627",
+          "ticker_sentiment_score": "-0.226230",
           "ticker_sentiment_label": "Somewhat-Bearish"
         }
       ]
@@ -1226,34 +1509,34 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.926929"
+          "relevance_score": "0.906756"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.620572"
+          "relevance_score": "0.618049"
         },
         {
           "topic": "economy_monetary",
-          "relevance_score": "0.620892"
+          "relevance_score": "0.620850"
         },
         {
           "topic": "technology",
-          "relevance_score": "0.620539"
+          "relevance_score": "0.638675"
         }
       ],
-      "overall_sentiment_score": 0.109362,
+      "overall_sentiment_score": 0.145629,
       "overall_sentiment_label": "Neutral",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "-0.134821",
+          "ticker_sentiment_score": "-0.130459",
           "ticker_sentiment_label": "Neutral"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.602128",
-          "ticker_sentiment_score": "0.319143",
+          "relevance_score": "0.603131",
+          "ticker_sentiment_score": "0.339459",
           "ticker_sentiment_label": "Somewhat-Bullish"
         }
       ]
@@ -1296,16 +1579,16 @@
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.846134"
+          "relevance_score": "0.825116"
         }
       ],
-      "overall_sentiment_score": 0.017732,
+      "overall_sentiment_score": 0.021039,
       "overall_sentiment_label": "Neutral",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.058987",
+          "ticker_sentiment_score": "0.047996",
           "ticker_sentiment_label": "Neutral"
         }
       ]
@@ -1344,50 +1627,50 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.918981"
+          "relevance_score": "0.912002"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.821948"
+          "relevance_score": "0.824035"
         },
         {
           "topic": "economy_monetary",
-          "relevance_score": "0.713368"
+          "relevance_score": "0.707699"
         },
         {
           "topic": "retail_wholesale",
-          "relevance_score": "0.634886"
+          "relevance_score": "0.641679"
         },
         {
           "topic": "technology",
-          "relevance_score": "0.613224"
+          "relevance_score": "0.643085"
         }
       ],
-      "overall_sentiment_score": 0.046329,
+      "overall_sentiment_score": 0.061615,
       "overall_sentiment_label": "Neutral",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.012539",
+          "ticker_sentiment_score": "0.023190",
           "ticker_sentiment_label": "Neutral"
         },
         {
           "ticker": "WMT",
-          "relevance_score": "0.684562",
-          "ticker_sentiment_score": "0.307746",
+          "relevance_score": "0.709049",
+          "ticker_sentiment_score": "0.328120",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.651637",
-          "ticker_sentiment_score": "-0.133724",
+          "relevance_score": "0.613137",
+          "ticker_sentiment_score": "-0.115087",
           "ticker_sentiment_label": "Neutral"
         },
         {
           "ticker": "AMD",
-          "relevance_score": "0.550403",
-          "ticker_sentiment_score": "-0.139226",
+          "relevance_score": "0.597530",
+          "ticker_sentiment_score": "-0.114216",
           "ticker_sentiment_label": "Neutral"
         }
       ]
@@ -1428,20 +1711,20 @@
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.822652"
+          "relevance_score": "0.838321"
         },
         {
           "topic": "economy_monetary",
-          "relevance_score": "0.640799"
+          "relevance_score": "0.621195"
         }
       ],
-      "overall_sentiment_score": 0.042993,
+      "overall_sentiment_score": 0.03188,
       "overall_sentiment_label": "Neutral",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.008636",
+          "ticker_sentiment_score": "0.011934",
           "ticker_sentiment_label": "Neutral"
         }
       ]
@@ -1462,13 +1745,13 @@
           "relevance_score": "1.000000"
         }
       ],
-      "overall_sentiment_score": 0.147219,
+      "overall_sentiment_score": 0.105058,
       "overall_sentiment_label": "Neutral",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.118415",
+          "ticker_sentiment_score": "0.115517",
           "ticker_sentiment_label": "Neutral"
         }
       ]
@@ -1502,30 +1785,30 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.914470"
+          "relevance_score": "0.920936"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.802670"
+          "relevance_score": "0.821898"
         },
         {
           "topic": "economy_monetary",
-          "relevance_score": "0.637353"
+          "relevance_score": "0.622408"
         }
       ],
-      "overall_sentiment_score": 0.184101,
+      "overall_sentiment_score": 0.180596,
       "overall_sentiment_label": "Somewhat-Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "-0.205831",
+          "ticker_sentiment_score": "-0.231255",
           "ticker_sentiment_label": "Somewhat-Bearish"
         },
         {
           "ticker": "CRWD",
-          "relevance_score": "0.641241",
-          "ticker_sentiment_score": "0.534477",
+          "relevance_score": "0.628876",
+          "ticker_sentiment_score": "0.506136",
           "ticker_sentiment_label": "Bullish"
         }
       ]
@@ -1543,16 +1826,16 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.936980"
+          "relevance_score": "0.938951"
         }
       ],
-      "overall_sentiment_score": 0.585117,
+      "overall_sentiment_score": 0.616347,
       "overall_sentiment_label": "Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.598059",
+          "ticker_sentiment_score": "0.609043",
           "ticker_sentiment_label": "Bullish"
         }
       ]
@@ -1572,56 +1855,56 @@
       "topics": [
         {
           "topic": "earnings",
-          "relevance_score": "0.901949"
+          "relevance_score": "0.918878"
         },
         {
           "topic": "financial_markets",
-          "relevance_score": "0.904000"
+          "relevance_score": "0.925627"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.847287"
+          "relevance_score": "0.808374"
         },
         {
           "topic": "energy_transportation",
-          "relevance_score": "0.707348"
+          "relevance_score": "0.720410"
         },
         {
           "topic": "retail_wholesale",
-          "relevance_score": "0.731415"
+          "relevance_score": "0.723017"
         }
       ],
-      "overall_sentiment_score": -0.197537,
+      "overall_sentiment_score": -0.173649,
       "overall_sentiment_label": "Somewhat-Bearish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "-0.294254",
+          "ticker_sentiment_score": "-0.286822",
           "ticker_sentiment_label": "Somewhat-Bearish"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.929318",
-          "ticker_sentiment_score": "0.330911",
+          "relevance_score": "0.903281",
+          "ticker_sentiment_score": "0.312377",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "WMT",
-          "relevance_score": "0.862216",
-          "ticker_sentiment_score": "-0.316080",
+          "relevance_score": "0.858212",
+          "ticker_sentiment_score": "-0.306253",
           "ticker_sentiment_label": "Somewhat-Bearish"
         },
         {
           "ticker": "DE",
-          "relevance_score": "0.624288",
-          "ticker_sentiment_score": "-0.323697",
+          "relevance_score": "0.620590",
+          "ticker_sentiment_score": "-0.303601",
           "ticker_sentiment_label": "Somewhat-Bearish"
         },
         {
           "ticker": "CMI",
-          "relevance_score": "0.613316",
-          "ticker_sentiment_score": "-0.305602",
+          "relevance_score": "0.625810",
+          "ticker_sentiment_score": "-0.329848",
           "ticker_sentiment_label": "Somewhat-Bearish"
         }
       ]
@@ -1641,56 +1924,56 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.901879"
+          "relevance_score": "0.948766"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.915246"
+          "relevance_score": "0.915042"
         },
         {
           "topic": "economy_monetary",
-          "relevance_score": "0.819799"
+          "relevance_score": "0.821070"
         },
         {
           "topic": "technology",
-          "relevance_score": "0.740996"
+          "relevance_score": "0.711089"
         },
         {
           "topic": "economy_fiscal",
-          "relevance_score": "0.614713"
+          "relevance_score": "0.646042"
         }
       ],
-      "overall_sentiment_score": 0.22103,
+      "overall_sentiment_score": 0.18906,
       "overall_sentiment_label": "Somewhat-Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.312785",
+          "ticker_sentiment_score": "0.337541",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.723696",
-          "ticker_sentiment_score": "0.331062",
+          "relevance_score": "0.734515",
+          "ticker_sentiment_score": "0.304804",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "AMD",
-          "relevance_score": "0.600600",
-          "ticker_sentiment_score": "0.328375",
+          "relevance_score": "0.616788",
+          "ticker_sentiment_score": "0.345960",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "INTU",
-          "relevance_score": "0.642074",
-          "ticker_sentiment_score": "-0.442474",
+          "relevance_score": "0.636536",
+          "ticker_sentiment_score": "-0.441662",
           "ticker_sentiment_label": "Bearish"
         },
         {
           "ticker": "ENPH",
-          "relevance_score": "0.617502",
-          "ticker_sentiment_score": "0.429176",
+          "relevance_score": "0.604106",
+          "ticker_sentiment_score": "0.416218",
           "ticker_sentiment_label": "Bullish"
         }
       ]
@@ -1710,42 +1993,42 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.949211"
+          "relevance_score": "0.909668"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.621224"
+          "relevance_score": "0.632133"
         },
         {
           "topic": "finance",
-          "relevance_score": "0.731778"
+          "relevance_score": "0.728688"
         }
       ],
-      "overall_sentiment_score": 0.289415,
+      "overall_sentiment_score": 0.291088,
       "overall_sentiment_label": "Somewhat-Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.103145",
+          "ticker_sentiment_score": "0.137186",
           "ticker_sentiment_label": "Neutral"
         },
         {
           "ticker": "AAPL",
-          "relevance_score": "0.625194",
-          "ticker_sentiment_score": "0.301079",
+          "relevance_score": "0.626987",
+          "ticker_sentiment_score": "0.326700",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "MSFT",
-          "relevance_score": "0.612555",
-          "ticker_sentiment_score": "0.300570",
+          "relevance_score": "0.631197",
+          "ticker_sentiment_score": "0.347037",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.606429",
-          "ticker_sentiment_score": "0.311034",
+          "relevance_score": "0.637558",
+          "ticker_sentiment_score": "0.301692",
           "ticker_sentiment_label": "Somewhat-Bullish"
         }
       ]
@@ -1767,16 +2050,16 @@
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.814983"
+          "relevance_score": "0.832968"
         }
       ],
-      "overall_sentiment_score": 0.104073,
+      "overall_sentiment_score": 0.143816,
       "overall_sentiment_label": "Neutral",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.129192",
+          "ticker_sentiment_score": "0.139457",
           "ticker_sentiment_label": "Neutral"
         }
       ]
@@ -1796,20 +2079,20 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.935354"
+          "relevance_score": "0.949091"
         },
         {
           "topic": "technology",
-          "relevance_score": "0.609695"
+          "relevance_score": "0.623922"
         }
       ],
-      "overall_sentiment_score": 0.301926,
+      "overall_sentiment_score": 0.348161,
       "overall_sentiment_label": "Somewhat-Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.318474",
+          "ticker_sentiment_score": "0.300752",
           "ticker_sentiment_label": "Somewhat-Bullish"
         }
       ]
@@ -1829,56 +2112,56 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.937257"
+          "relevance_score": "0.908943"
         },
         {
           "topic": "economy_monetary",
-          "relevance_score": "0.824568"
+          "relevance_score": "0.834395"
         },
         {
           "topic": "energy_transportation",
-          "relevance_score": "0.721305"
+          "relevance_score": "0.733335"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.606003"
+          "relevance_score": "0.625732"
         },
         {
           "topic": "retail_wholesale",
-          "relevance_score": "0.613595"
+          "relevance_score": "0.608333"
         }
       ],
-      "overall_sentiment_score": 0.222201,
+      "overall_sentiment_score": 0.25525,
       "overall_sentiment_label": "Somewhat-Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
-          "relevance_score": "0.330739",
-          "ticker_sentiment_score": "0.044255",
+          "relevance_score": "0.345595",
+          "ticker_sentiment_score": "0.014249",
           "ticker_sentiment_label": "Neutral"
         },
         {
           "ticker": "CCL",
-          "relevance_score": "0.840661",
-          "ticker_sentiment_score": "0.349930",
+          "relevance_score": "0.816569",
+          "ticker_sentiment_score": "0.304721",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "NCLH",
-          "relevance_score": "0.832402",
-          "ticker_sentiment_score": "0.344259",
+          "relevance_score": "0.805180",
+          "ticker_sentiment_score": "0.342751",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "TJX",
-          "relevance_score": "0.746011",
-          "ticker_sentiment_score": "0.265740",
+          "relevance_score": "0.722518",
+          "ticker_sentiment_score": "0.263780",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "LEN",
-          "relevance_score": "0.719362",
-          "ticker_sentiment_score": "0.280548",
+          "relevance_score": "0.738479",
+          "ticker_sentiment_score": "0.298978",
           "ticker_sentiment_label": "Somewhat-Bullish"
         }
       ]
@@ -1902,46 +2185,46 @@
         },
         {
           "topic": "earnings",
-          "relevance_score": "0.926043"
+          "relevance_score": "0.929706"
         },
         {
           "topic": "economy_monetary",
-          "relevance_score": "0.812927"
+          "relevance_score": "0.830396"
         },
         {
           "topic": "energy_transportation",
-          "relevance_score": "0.740425"
+          "relevance_score": "0.730914"
         },
         {
           "topic": "technology",
-          "relevance_score": "0.728240"
+          "relevance_score": "0.745316"
         }
       ],
-      "overall_sentiment_score": 0.244044,
+      "overall_sentiment_score": 0.248747,
       "overall_sentiment_label": "Somewhat-Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.485389",
+          "ticker_sentiment_score": "0.496667",
           "ticker_sentiment_label": "Bullish"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.966220",
-          "ticker_sentiment_score": "0.633418",
+          "relevance_score": "0.970554",
+          "ticker_sentiment_score": "0.631468",
           "ticker_sentiment_label": "Bullish"
         },
         {
           "ticker": "AMD",
-          "relevance_score": "0.603625",
-          "ticker_sentiment_score": "0.253775",
+          "relevance_score": "0.626933",
+          "ticker_sentiment_score": "0.261514",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "INTU",
-          "relevance_score": "0.712992",
-          "ticker_sentiment_score": "-0.422295",
+          "relevance_score": "0.747868",
+          "ticker_sentiment_score": "-0.411722",
           "ticker_sentiment_label": "Bearish"
         }
       ]
@@ -1961,34 +2244,34 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.925754"
+          "relevance_score": "0.934300"
         }
       ],
-      "overall_sentiment_score": 0.336673,
+      "overall_sentiment_score": 0.335476,
       "overall_sentiment_label": "Somewhat-Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.275370",
+          "ticker_sentiment_score": "0.292575",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.645578",
-          "ticker_sentiment_score": "0.377460",
+          "relevance_score": "0.618913",
+          "ticker_sentiment_score": "0.358352",
           "ticker_sentiment_label": "Bullish"
         },
         {
           "ticker": "AAPL",
-          "relevance_score": "0.646369",
-          "ticker_sentiment_score": "0.374658",
+          "relevance_score": "0.641414",
+          "ticker_sentiment_score": "0.353993",
           "ticker_sentiment_label": "Bullish"
         },
         {
           "ticker": "MSFT",
-          "relevance_score": "0.642521",
-          "ticker_sentiment_score": "0.373446",
+          "relevance_score": "0.609317",
+          "ticker_sentiment_score": "0.387820",
           "ticker_sentiment_label": "Bullish"
         }
       ]
@@ -2008,38 +2291,38 @@
       "topics": [
         {
           "topic": "financial_markets",
-          "relevance_score": "0.922041"
+          "relevance_score": "0.911098"
         },
         {
           "topic": "finance",
-          "relevance_score": "0.725656"
+          "relevance_score": "0.746644"
         }
       ],
-      "overall_sentiment_score": 0.239696,
+      "overall_sentiment_score": 0.226681,
       "overall_sentiment_label": "Somewhat-Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.126464",
+          "ticker_sentiment_score": "0.129889",
           "ticker_sentiment_label": "Neutral"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.629820",
-          "ticker_sentiment_score": "0.310242",
+          "relevance_score": "0.602013",
+          "ticker_sentiment_score": "0.331694",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "AAPL",
-          "relevance_score": "0.584205",
-          "ticker_sentiment_score": "0.232765",
+          "relevance_score": "0.552906",
+          "ticker_sentiment_score": "0.226780",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "MSFT",
-          "relevance_score": "0.592773",
-          "ticker_sentiment_score": "0.241558",
+          "relevance_score": "0.592998",
+          "ticker_sentiment_score": "0.239470",
           "ticker_sentiment_label": "Somewhat-Bullish"
         }
       ]
@@ -2059,282 +2342,57 @@
       "topics": [
         {
           "topic": "earnings",
-          "relevance_score": "0.916308"
+          "relevance_score": "0.908305"
         },
         {
           "topic": "financial_markets",
-          "relevance_score": "0.816727"
+          "relevance_score": "0.806261"
         },
         {
           "topic": "retail_wholesale",
-          "relevance_score": "0.744630"
+          "relevance_score": "0.743505"
         },
         {
           "topic": "technology",
-          "relevance_score": "0.613025"
+          "relevance_score": "0.619901"
         },
         {
           "topic": "economy_macro",
-          "relevance_score": "0.643437"
+          "relevance_score": "0.613833"
         }
       ],
-      "overall_sentiment_score": 0.308515,
+      "overall_sentiment_score": 0.328697,
       "overall_sentiment_label": "Somewhat-Bullish",
       "ticker_sentiment": [
         {
           "ticker": "SPY",
           "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.258555",
+          "ticker_sentiment_score": "0.265572",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "NVDA",
-          "relevance_score": "0.931538",
-          "ticker_sentiment_score": "0.314123",
+          "relevance_score": "0.940894",
+          "ticker_sentiment_score": "0.315327",
           "ticker_sentiment_label": "Somewhat-Bullish"
         },
         {
           "ticker": "TGT",
-          "relevance_score": "0.847503",
-          "ticker_sentiment_score": "0.443917",
+          "relevance_score": "0.806643",
+          "ticker_sentiment_score": "0.412309",
           "ticker_sentiment_label": "Bullish"
         },
         {
           "ticker": "LOW",
-          "relevance_score": "0.718376",
-          "ticker_sentiment_score": "0.148456",
+          "relevance_score": "0.739413",
+          "ticker_sentiment_score": "0.136289",
           "ticker_sentiment_label": "Neutral"
         },
         {
           "ticker": "DAL",
-          "relevance_score": "0.609748",
-          "ticker_sentiment_score": "0.365310",
+          "relevance_score": "0.609132",
+          "ticker_sentiment_score": "0.379896",
           "ticker_sentiment_label": "Bullish"
-        }
-      ]
-    },
-    {
-      "title": "How to Trade SPY ETF: A Practical Guide to the SPDR S&P 500 ETF Trust",
-      "url": "https://www.ebc.com/forex/how-to-trade-spy-etf-a-practical-guide-to-the-spdr-s-and-p-500-etf-trust",
-      "time_published": "20260520T095345",
-      "authors": [
-        "Charon N."
-      ],
-      "summary": "This article provides a practical guide to trading the SPY ETF, formally known as the SPDR S&P 500 ETF Trust. It details what moves SPY, its historical returns, and various trading methods including direct ETF trading, ETF CFD trading, and options trading. The piece also highlights key risks associated with trading SPY and introduces how EBC Financial Group offers access to SPY through its ETF CFD products.",
-      "banner_image": "https://www.ebc.com/upload/portal/20260520/04ef3be348e8d36bfff355d3caa8b076.jpg",
-      "source": "EBC Financial Group",
-      "category_within_source": "General",
-      "source_domain": "EBC Financial Group",
-      "topics": [
-        {
-          "topic": "financial_markets",
-          "relevance_score": "0.917162"
-        },
-        {
-          "topic": "economy_macro",
-          "relevance_score": "0.827206"
-        },
-        {
-          "topic": "finance",
-          "relevance_score": "0.736532"
-        },
-        {
-          "topic": "economy_monetary",
-          "relevance_score": "0.610428"
-        }
-      ],
-      "overall_sentiment_score": 0.443184,
-      "overall_sentiment_label": "Bullish",
-      "ticker_sentiment": [
-        {
-          "ticker": "SPY",
-          "relevance_score": "1.000000",
-          "ticker_sentiment_score": "0.417922",
-          "ticker_sentiment_label": "Bullish"
-        }
-      ]
-    },
-    {
-      "title": "SPY ETF Falls 0.7%",
-      "url": "https://www.moomoo.com/news/post/70268457/spy-etf-falls-0-7",
-      "time_published": "20260519T211041",
-      "authors": [
-        "Dow Jones"
-      ],
-      "summary": "The SPY ETF experienced a 0.7% decline. This follows Unity Software's fourth-quarter earnings report, where the company announced a 35% year-over-year revenue increase to $609 million, surpassing analyst estimates, despite reporting a quarterly loss of 66 cents per share.",
-      "banner_image": null,
-      "source": "Moomoo",
-      "category_within_source": "General",
-      "source_domain": "Moomoo",
-      "topics": [
-        {
-          "topic": "earnings",
-          "relevance_score": "0.932119"
-        },
-        {
-          "topic": "financial_markets",
-          "relevance_score": "0.845020"
-        },
-        {
-          "topic": "technology",
-          "relevance_score": "0.706659"
-        }
-      ],
-      "overall_sentiment_score": -0.718898,
-      "overall_sentiment_label": "Bearish",
-      "ticker_sentiment": [
-        {
-          "ticker": "SPY",
-          "relevance_score": "1.000000",
-          "ticker_sentiment_score": "-0.695522",
-          "ticker_sentiment_label": "Bearish"
-        }
-      ]
-    },
-    {
-      "title": "Stock Market Today: SPY, QQQ Retreat as Inflation Pressures Drive Bond Yields Higher",
-      "url": "https://www.tipranks.com/news/stock-market-today-spy-qqq-retreat-as-inflation-pressures-drive-bond-yields-higher",
-      "time_published": "20260519T202448",
-      "authors": [
-        "Eddie Pan"
-      ],
-      "summary": "U.S. equities, specifically the S&P 500 ETF (SPY) and Nasdaq 100 ETF (QQQ), closed lower on Tuesday due to rising bond yields and elevated inflation expectations. The 30-year Treasury yield reached its highest level since April 2007, and the 10-year yield hit a 16-month high, as rate cut odds for 2026 plummeted. Higher yields are generally negative for stocks as they make bonds more attractive to investors and reduce the present value of future earnings.",
-      "banner_image": "https://blog.tipranks.com/wp-content/uploads/2026/04/shutterstock_2240259267-750x406.jpg",
-      "source": "TipRanks",
-      "category_within_source": "General",
-      "source_domain": "TipRanks",
-      "topics": [
-        {
-          "topic": "economy_monetary",
-          "relevance_score": "0.929914"
-        },
-        {
-          "topic": "financial_markets",
-          "relevance_score": "0.824003"
-        },
-        {
-          "topic": "technology",
-          "relevance_score": "0.715497"
-        }
-      ],
-      "overall_sentiment_score": 0.046099,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment": [
-        {
-          "ticker": "SPY",
-          "relevance_score": "1.000000",
-          "ticker_sentiment_score": "-0.401462",
-          "ticker_sentiment_label": "Bearish"
-        },
-        {
-          "ticker": "GOOGL",
-          "relevance_score": "0.700642",
-          "ticker_sentiment_score": "-0.212609",
-          "ticker_sentiment_label": "Somewhat-Bearish"
-        },
-        {
-          "ticker": "MU",
-          "relevance_score": "0.628154",
-          "ticker_sentiment_score": "0.403428",
-          "ticker_sentiment_label": "Bullish"
-        },
-        {
-          "ticker": "NVDA",
-          "relevance_score": "0.614718",
-          "ticker_sentiment_score": "0.304393",
-          "ticker_sentiment_label": "Somewhat-Bullish"
-        }
-      ]
-    },
-    {
-      "title": "Stock Market Live May 19, 2026: S&P 500 (SPY) Still Slipping on Uncertainty",
-      "url": "https://247wallst.com/investing/2026/05/19/stock-market-live-may-19-2026-sp-500-spy-still-slipping-on-uncertainty/",
-      "time_published": "20260519T130853",
-      "authors": [
-        "Ian Cooper"
-      ],
-      "summary": "The S&P 500 continues to slip due to ongoing uncertainty in the market, including the potential for the Federal Reserve to delay interest rate cuts until the second half of 2027. Geopolitical tensions, particularly the U.S.-Iran conflict, rising oil prices, and fears of weakening consumer spending are contributing to investor anxiety. While markets are under pressure, volatility-focused ETFs like UVXY and VXX offer potential opportunities for short-term traders.",
-      "banner_image": "https://247wallst.com/wp-content/uploads/2026/03/shutterstock-2195657533-huge-licensed-scaled.jpg",
-      "source": "24/7 Wall St.",
-      "category_within_source": "General",
-      "source_domain": "24/7 Wall St.",
-      "topics": [
-        {
-          "topic": "financial_markets",
-          "relevance_score": "0.908577"
-        },
-        {
-          "topic": "economy_monetary",
-          "relevance_score": "0.807648"
-        },
-        {
-          "topic": "economy_macro",
-          "relevance_score": "0.700998"
-        },
-        {
-          "topic": "technology",
-          "relevance_score": "0.615783"
-        },
-        {
-          "topic": "energy_transportation",
-          "relevance_score": "0.622826"
-        }
-      ],
-      "overall_sentiment_score": 0.000794,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment": [
-        {
-          "ticker": "SPY",
-          "relevance_score": "0.304165",
-          "ticker_sentiment_score": "0.045948",
-          "ticker_sentiment_label": "Neutral"
-        }
-      ]
-    },
-    {
-      "title": "SPDR S&P 500 ETF Trust Trade Ideas \u2014 ACTIVTRADES:SPY.US \u2014 TradingView",
-      "url": "https://www.tradingview.com/symbols/ACTIVTRADES-SPY.US/ideas/page-3/",
-      "time_published": "20260519T100844",
-      "authors": [
-        "virDeStatera",
-        "SignalProvider",
-        "Batsman-Edward",
-        "UnitedSignals",
-        "Tired-Wolf",
-        "CrowdWisdomTrading",
-        "TrendTao",
-        "pogicraft",
-        "italiansergio28",
-        "Kxtrades888",
-        "BullBearInsights",
-        "THECHAARTIST",
-        "StudyGuideTA",
-        "CryptocurrencyWatchGroup",
-        "CEO_of_WaverVanir_Int_LLC"
-      ],
-      "summary": "This page aggregates various trading ideas and analyses for the SPDR S&P 500 ETF Trust (SPY.US) from multiple traders on TradingView. The ideas discuss short-term price movements, structural analysis, technical indicators like RSI and EMAs, and market sentiment, with mixed bullish, bearish, and neutral outlooks depending on the specific analysis and timeframe. Many analyses emphasize the importance of key price levels, volume, and institutional flow for determining future movements, frequently noting that these are not financial advice.",
-      "banner_image": "https://s3-symbol-logo.tradingview.com/spdr-sandp500-etf-tr--big.svg",
-      "source": "TradingView",
-      "category_within_source": "General",
-      "source_domain": "TradingView",
-      "topics": [
-        {
-          "topic": "financial_markets",
-          "relevance_score": "1.000000"
-        },
-        {
-          "topic": "economy_macro",
-          "relevance_score": "0.614675"
-        }
-      ],
-      "overall_sentiment_score": 0.035506,
-      "overall_sentiment_label": "Neutral",
-      "ticker_sentiment": [
-        {
-          "ticker": "SPY",
-          "relevance_score": "0.327912",
-          "ticker_sentiment_score": "0.040887",
-          "ticker_sentiment_label": "Neutral"
         }
       ]
     }

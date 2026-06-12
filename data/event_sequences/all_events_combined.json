@@ -375,26 +375,6 @@
   },
   {
     "event_type": "national_debt_update",
-    "timestamp": 1779771600.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 39171154946667.59
-    }
-  },
-  {
-    "event_type": "national_debt_update",
-    "timestamp": 1779858000.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 39163302863182.1
-    }
-  },
-  {
-    "event_type": "national_debt_update",
     "timestamp": 1779944400.0,
     "severity_score": 0.3,
     "domain": "financial",
@@ -410,18 +390,6 @@
     "domain": "geo",
     "source": "fema",
     "metadata": {
-      "state": "AK",
-      "title": "SEVERE STORMS, FLOODING, AND REMNANTS OF TYPHOON HALONG",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
       "state": "KY",
       "title": "SEVERE WINTER STORM",
       "type": "DR"
@@ -627,18 +595,6 @@
     "source": "fema",
     "metadata": {
       "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "DE",
       "title": "SEVERE WINTER STORM",
       "type": "DR"
     }
@@ -1988,39 +1944,6 @@
     }
   },
   {
-    "event_type": "market_news_top news",
-    "timestamp": 1780972254.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Bloomberg",
-    "metadata": {
-      "headline": "Gold steadies after Israel and Iran agree to end missile strikes",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780974180.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Indian economy, government finances, see mounting costs from Iran war - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780975860.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "China's May coal imports fall 8% from a year earlier - Reuters",
-      "category": "business"
-    }
-  },
-  {
     "event_type": "economic_event_nz",
     "timestamp": 1780976700.0,
     "severity_score": 0.2,
@@ -2030,17 +1953,6 @@
       "event": "Manufacturing Sales YoY",
       "country": "NZ",
       "impact": "low"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780977540.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "US sea drone rescues crew from US Army helicopter that crashed near Hormuz - Reuters",
-      "category": "business"
     }
   },
   {
@@ -2080,36 +1992,13 @@
     }
   },
   {
-    "event_type": "market_news_business",
-    "timestamp": 1780977780.0,
+    "event_type": "national_debt_update",
+    "timestamp": 1780981200.0,
     "severity_score": 0.3,
     "domain": "financial",
-    "source": "finnhub_Reuters",
+    "source": "fed_treasury",
     "metadata": {
-      "headline": "Investors spy a tipping point for bonds after geopolitics shreds old playbooks - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1780978531.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Bloomberg",
-    "metadata": {
-      "headline": "Hotel giants bet India\u2019s local travel boom can defy slowdown",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1780979584.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Bloomberg",
-    "metadata": {
-      "headline": "Paytm plans 10% staff increase in AI pivot with some roles cut",
-      "category": "top news"
+      "total_debt": 39241722848798.66
     }
   },
   {
@@ -2137,17 +2026,6 @@
     }
   },
   {
-    "event_type": "market_news_top news",
-    "timestamp": 1780981989.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Bloomberg",
-    "metadata": {
-      "headline": "Extreme heat risks losses for Indian suppliers to Uniqlo, Tesco",
-      "category": "top news"
-    }
-  },
-  {
     "event_type": "economic_event_au",
     "timestamp": 1780983000.0,
     "severity_score": 0.8,
@@ -2172,17 +2050,6 @@
     }
   },
   {
-    "event_type": "market_news_business",
-    "timestamp": 1780984680.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "US launches new strikes on Iran after helicopter downed - Reuters",
-      "category": "business"
-    }
-  },
-  {
     "event_type": "economic_event_ph",
     "timestamp": 1780984800.0,
     "severity_score": 0.7,
@@ -2192,17 +2059,6 @@
       "event": "Unemployment Rate",
       "country": "PH",
       "impact": "medium"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1780985760.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "India's May fuel consumption rises month-on-month, slips annually - Reuters",
-      "category": "business"
     }
   },
   {
@@ -2227,39 +2083,6 @@
       "event": "RBA Bulletin",
       "country": "AU",
       "impact": "medium"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780988400.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Unverified DeFi contracts linked to $36.7M in losses: Chainalysis",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780988400.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Merck and Hashgraph Group launch Hedera-based product passport for EU compliance",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780988400.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Kraken signs FIFA World Cup 2026 partnership ahead of tourney kickoff",
-      "category": "crypto"
     }
   },
   {
@@ -2299,809 +2122,6 @@
     }
   },
   {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780992299.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Coinbase and Cardless unveil credit card backed by stablecoins",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1780995187.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Bloomberg",
-    "metadata": {
-      "headline": "Trump says peace talks on track after Israel-Iran clashes end",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1780997222.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "USDT's flashing a golden cross and that may be bad news for bitcoin",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781000064.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Circle debuts cirBTC on Ethereum to challenge Coinbase in the wrapped bitcoin market",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781000889.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Emirates will not cut flights despite Middle East war pressures - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1781001001.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "51% of U.S. adults say the American Dream is out of reach for most people right now: CNBC survey",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781001168.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "SBI Shinsei links bank deposits to crypto rewards in Japan: Nikkei",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781001476.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Strategy's bitcoin purchase fails to stir BTC price",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1781002801.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "Trump's trade war has a new target: forced labor. The case behind it is far from simple",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781003816.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Bitcoin's bounce isn't a bullish revival, with anything from $68,000 to $80,000 seen as a marker",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "earthquake_M4.8",
-    "timestamp": 1781003858.741,
-    "severity_score": 0.467,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "north of Ascension Island",
-      "magnitude": 4.8
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781005935.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "OKX expands X-Perps in Europe with Magnificent 7, gold and oil futures",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781006402.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "5 takeaways from airline CEOs' biggest annual gathering",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781006527.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Humanity's $36 million exploit tied to compromised laptop hosting a 'multisig' wallet",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781006936.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Wall Street will run entirely on the blockchain by 2030, says Brickken CEO",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "earthquake_M3.8",
-    "timestamp": 1781007240.52,
-    "severity_score": 0.302,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "74 km NNW of Charlotte Amalie, U.S. Virgin Islands",
-      "magnitude": 3.81
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781007248.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Humanity says compromised laptop led to $36M bridge attack",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781007903.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Bitcoin 'normal' 4-year cycle puts focus on $53K low before 2028 BTC price high",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781008252.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "MiCA architect says EU should prioritize tokenization over DeFi rules",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781009527.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Live updates: bitcoin drifts back to $62,500, putting damper on hope for two straight up days",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "earthquake_M2.6",
-    "timestamp": 1781009696.1,
-    "severity_score": 0.097,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "16 km SE of P\u0101hala, Hawaii",
-      "magnitude": 2.58
-    }
-  },
-  {
-    "event_type": "earthquake_M4.7",
-    "timestamp": 1781009705.541,
-    "severity_score": 0.45,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "28 km S of Sarangani, Philippines",
-      "magnitude": 4.7
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781009889.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "BlackRock warns of energy shock as May CPI is set to show acceleration in inflation",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781010168.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Bitcoin inflows slow sharply in 2026 as investors chase AI, Bernstein says",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781010571.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "UN's Guterres calls for end to violence in Middle East - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1781010889.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781011004.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "CoinDesk 20 performance update: AAVE Drops 2.6% as all constituents trade lower",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781011562.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Most Gulf markets rebound after Iran and Israel halt attacks - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "earthquake_M3.1",
-    "timestamp": 1781012826.83,
-    "severity_score": 0.192,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "Rat Islands, Aleutian Islands, Alaska",
-      "magnitude": 3.15
-    }
-  },
-  {
-    "event_type": "earthquake_M2.7",
-    "timestamp": 1781013434.99,
-    "severity_score": 0.11,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "Rat Islands, Aleutian Islands, Alaska",
-      "magnitude": 2.66
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781013671.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Privacy push as StarkWare and Sui move toward compliance-ready confidential transfers",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781013812.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Exclusive: Emirates to offer incentives, safety assurances as Iran war hits travel - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781013943.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Kuwait's oil stocks fall as two tankers exit Gulf, Kpler says - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "earthquake_M4.1",
-    "timestamp": 1781014047.843,
-    "severity_score": 0.35,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "Bonin Islands, Japan region",
-      "magnitude": 4.1
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781014052.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "A16z, Paradigm lead $175 million bet to move global credit markets onchain",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781014931.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Blockchain researchers warn HTX sanctions may blur crypto risk signals",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781015633.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Bitcoin bottom? These four charts hint at BTC price dropping to $50K",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781016830.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Come back after the summer, says one analyst on crypto markets",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781016899.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Ethena lands Janus Henderson backing as asset manager invests in ENA, eyes USDe distribution",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781017406.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Trad.Fi, W3 target $650 million in onchain private credit using AI evaluation",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781017528.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Bitcoin price slips toward $62K local lows as bear-market history keeps repeating",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1781017780.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "36-year-old's fitness company was 'a week away' from bankruptcy\u2014now it's valued at $10.1 billion",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1781018475.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "We're booking more profits in a tech stock as the market wobbles ahead of a big IPO",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1781018816.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "Apple shares slide after big Siri AI reveal",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781019000.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "5 corruption gaps Congress must close in the Clarity Act",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "earthquake_M2.7",
-    "timestamp": 1781019205.969,
-    "severity_score": 0.117,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "54 km S of Whites City, New Mexico",
-      "magnitude": 2.7
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781019553.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "UK financial regulator moves to allow mutual funds 10% exposure to crypto ETNs",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781019834.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "US energy chief says oil exports through Strait of Hormuz, Gulf will 'continue to rise' - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1781021868.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "Jim Cramer debates trimming 2 stocks \u2014 one struggling name, the other a winner",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "earthquake_M3.7",
-    "timestamp": 1781021913.3,
-    "severity_score": 0.28,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "65 km NNE of Luquillo, Puerto Rico",
-      "magnitude": 3.68
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781021950.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Cryptocurrency News",
-    "metadata": {
-      "headline": "XAUE Launches Gold Gift Card to Bring Tokenized Gold into Corporate Gifting and Everyday Use",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "earthquake_M3.0",
-    "timestamp": 1781022615.066,
-    "severity_score": 0.167,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "2 km NNW of Tome, New Mexico",
-      "magnitude": 3
-    }
-  },
-  {
-    "event_type": "earthquake_M3.2",
-    "timestamp": 1781023018.39,
-    "severity_score": 0.197,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "7 km SE of Loma Linda, CA",
-      "magnitude": 3.18
-    }
-  },
-  {
-    "event_type": "earthquake_M4.0",
-    "timestamp": 1781023380.336,
-    "severity_score": 0.333,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "54 km NNE of Calama, Chile",
-      "magnitude": 4
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781023707.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Trump blames Iran for helicopter downing, says US must respond - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "earthquake_M4.9",
-    "timestamp": 1781023731.184,
-    "severity_score": 0.483,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "Pagan region, Northern Mariana Islands",
-      "magnitude": 4.9
-    }
-  },
-  {
-    "event_type": "earthquake_M5.1",
-    "timestamp": 1781023764.753,
-    "severity_score": 0.517,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "4 km SSW of Bukid, Philippines",
-      "magnitude": 5.1
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781024743.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Iranian World Cup players will be able to enter US the day before matches, DHS says - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781026009.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "BBB refers prediction market Kalshi to state regulators over ad inquiry",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781026381.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "As LIV Golf faces a Saudi funding cliff, CEO says to take PIF 'at their word'",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781026398.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "UN inquiry finds Israeli forces shield settlers during attacks on Palestinians - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "earthquake_M5.1",
-    "timestamp": 1781026837.238,
-    "severity_score": 0.517,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "65 km SSW of Sarangani, Philippines",
-      "magnitude": 5.1
-    }
-  },
-  {
-    "event_type": "earthquake_M2.8",
-    "timestamp": 1781027123.42,
-    "severity_score": 0.137,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "7 km SE of Loma Linda, CA",
-      "magnitude": 2.82
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781027324.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Bitcoin may act as a \u2018canary in the coal mine\u2019 as risk-off pressure spreads: Bitwise",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781027358.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Oil inventories headed toward multi-decade lows, US EIA warns - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "earthquake_M4.5",
-    "timestamp": 1781027502.066,
-    "severity_score": 0.417,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "222 km SE of Pondaguitan, Philippines",
-      "magnitude": 4.5
-    }
-  },
-  {
-    "event_type": "earthquake_M4.4",
-    "timestamp": 1781027701.574,
-    "severity_score": 0.4,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "139 km N of Lae, Papua New Guinea",
-      "magnitude": 4.4
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781028464.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "New Zealand poll shows US seen as more of a threat than China - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "earthquake_M5.0",
-    "timestamp": 1781028592.935,
-    "severity_score": 0.5,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "8 km SW of Taluya, Philippines",
-      "magnitude": 5
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1781029047.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "We're updating our rating on recently spun FedEx Freight after a strong run-up",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "earthquake_M3.4",
-    "timestamp": 1781030254.127,
-    "severity_score": 0.233,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "29 km WNW of Nanwalek, Alaska",
-      "magnitude": 3.4
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781031108.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Rising fuel prices hit US farms as Iran war drags on - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1781031271.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "The May inflation numbers are due out Wednesday morning. Here's what to expect",
-      "category": "top news"
-    }
-  },
-  {
     "event_type": "solar_flare_C2.3",
     "timestamp": 1781031720.0,
     "severity_score": 0.4,
@@ -3113,729 +2133,1667 @@
     }
   },
   {
-    "event_type": "earthquake_M4.4",
-    "timestamp": 1781031954.518,
-    "severity_score": 0.4,
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1781049600.0,
+    "severity_score": 0.5,
     "domain": "geo",
-    "source": "usgs",
+    "source": "fema",
     "metadata": {
-      "place": "84 km NNE of Labuan Lombok, Indonesia",
-      "magnitude": 4.4
+      "state": "NE",
+      "title": "SOUTH FORK FIRE",
+      "type": "FM"
     }
   },
   {
-    "event_type": "market_news_top news",
-    "timestamp": 1781032547.0,
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1781049600.0,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "NE",
+      "title": "SOUTH FORK FIRE",
+      "type": "FM"
+    }
+  },
+  {
+    "event_type": "national_debt_update",
+    "timestamp": 1781067600.0,
     "severity_score": 0.3,
     "domain": "financial",
-    "source": "finnhub_CNBC",
+    "source": "fed_treasury",
     "metadata": {
-      "headline": "Another jump in Boeing deliveries shows why we got into the stock and want to stay in",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "earthquake_M5.1",
-    "timestamp": 1781033135.189,
-    "severity_score": 0.517,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "120 km ESE of Kuril\u2019sk, Russia",
-      "magnitude": 5.1
-    }
-  },
-  {
-    "event_type": "earthquake_M5.1",
-    "timestamp": 1781033770.562,
-    "severity_score": 0.517,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "southeast Indian Ridge",
-      "magnitude": 5.1
-    }
-  },
-  {
-    "event_type": "earthquake_M5.2",
-    "timestamp": 1781034543.951,
-    "severity_score": 0.533,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "163 km ESE of Petropavlovsk-Kamchatsky, Russia",
-      "magnitude": 5.2
+      "total_debt": 39213266279741.16
     }
   },
   {
     "event_type": "market_news_crypto",
-    "timestamp": 1781034568.0,
+    "timestamp": 1781115298.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_CoinDesk",
     "metadata": {
-      "headline": "Securitize CEO says tokenized stocks could unlock a $5 trillion crypto market",
+      "headline": "Privacy returns to focus as Ethereum developers explore new token standards",
       "category": "crypto"
     }
   },
   {
-    "event_type": "earthquake_M3.2",
-    "timestamp": 1781035521.56,
-    "severity_score": 0.198,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "57 km SSE of Boca de Yuma, Dominican Republic",
-      "magnitude": 3.19
-    }
-  },
-  {
     "event_type": "market_news_crypto",
-    "timestamp": 1781035552.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Solana Institute CEO says CLARITY Act must shield open-source developers",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781038678.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "What is the sea drone that rescued US helicopter crew? - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781039152.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Climate cost of expanded World Cup under scrutiny as emissions set to soar - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781039161.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Crypto tax bills a work-in-progress as U.S. House lawmakers pose concerns",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "earthquake_M4.3",
-    "timestamp": 1781039169.989,
-    "severity_score": 0.383,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "35 km NW of Valpara\u00edso, Chile",
-      "magnitude": 4.3
-    }
-  },
-  {
-    "event_type": "earthquake_M4.4",
-    "timestamp": 1781040012.991,
-    "severity_score": 0.4,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "27 km W of Ovalle, Chile",
-      "magnitude": 4.4
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781040060.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Congress has backed Iran war powers resolutions. Now what? - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781040107.0,
+    "timestamp": 1781116875.0,
     "severity_score": 0.7,
     "domain": "financial",
     "source": "finnhub_Cointelegraph",
     "metadata": {
-      "headline": "ETH crash to $1K looms if key support breaks: Will futures traders step in?",
+      "headline": "Pending Bank of Japan rate decision may impact Bitcoin price: Should traders prepare?",
       "category": "crypto"
     }
   },
   {
-    "event_type": "earthquake_M4.6",
-    "timestamp": 1781040226.112,
-    "severity_score": 0.433,
+    "event_type": "market_news_crypto",
+    "timestamp": 1781117700.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "UK crypto advocates launch campaign against banks blocking exchange transfers",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781124175.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Bitcoin miner margins fall to record low: Will BTC\u2019s $60K floor hold?",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781128860.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "ECB raises rates to nip war-driven inflation in the bud - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781129099.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Hegseth: US to bomb 'key facilities' in Iran on Wednesday - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781130300.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Protesters call on FIFA to kick Iran out of World Cup, citing regime involvement - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781130600.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "CFTC proposes framework favoring sports event contracts over gambling",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781132042.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Iran announces closure of Strait of Hormuz after US attacks - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781132296.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Wall Street indexes fall more than 1%, hit by tech, Iran war worries - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "earthquake_M5.1",
+    "timestamp": 1781133986.731,
+    "severity_score": 0.517,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "south of the Kermadec Islands",
-      "magnitude": 4.6
+      "place": "67 km SSW of Sarangani, Philippines",
+      "magnitude": 5.1
     }
   },
   {
-    "event_type": "market_news_business",
-    "timestamp": 1781041047.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "US military launches new strikes on Iran after Apache downing - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "earthquake_M4.4",
-    "timestamp": 1781042444.558,
-    "severity_score": 0.4,
+    "event_type": "earthquake_M5.4",
+    "timestamp": 1781134245.857,
+    "severity_score": 0.567,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "88 km SSW of Sarangani, Philippines",
-      "magnitude": 4.4
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781042463.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "LNG demand in Asia recovers from Iran shock as China buys - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781046016.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Iran says ticket allocation for World Cup withdrawn days before tournament - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781046176.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "S&P 500, Nasdaq fall as tech selling resumes, Trump vows to respond to downed US helicopter - Reuter",
-      "category": "business"
+      "place": "176 km ESE of Neiafu, Tonga",
+      "magnitude": 5.4
     }
   },
   {
     "event_type": "earthquake_M4.8",
-    "timestamp": 1781046883.247,
+    "timestamp": 1781135423.691,
     "severity_score": 0.467,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "8 km SSW of Sarangani, Philippines",
+      "place": "175 km SSW of Houma, Tonga",
       "magnitude": 4.8
     }
   },
   {
-    "event_type": "earthquake_M3.4",
-    "timestamp": 1781047466.52,
-    "severity_score": 0.235,
-    "domain": "geo",
-    "source": "usgs",
+    "event_type": "market_news_business",
+    "timestamp": 1781135640.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
     "metadata": {
-      "place": "121 km NNE of San Juan, Puerto Rico",
-      "magnitude": 3.41
+      "headline": "US military says none of its warships struck in Strait of Hormuz - Reuters",
+      "category": "business"
     }
   },
   {
-    "event_type": "earthquake_M3.3",
-    "timestamp": 1781047638.78,
-    "severity_score": 0.212,
-    "domain": "geo",
-    "source": "usgs",
+    "event_type": "market_news_top news",
+    "timestamp": 1781135812.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
     "metadata": {
-      "place": "53 km SE of Boca de Yuma, Dominican Republic",
-      "magnitude": 3.27
+      "headline": "Company moves from Singapore to cheaper, more spacious Malaysia show rising global mobility trend",
+      "category": "top news"
     }
   },
   {
-    "event_type": "earthquake_M2.8",
-    "timestamp": 1781048054.509,
-    "severity_score": 0.133,
+    "event_type": "earthquake_M4.9",
+    "timestamp": 1781136043.372,
+    "severity_score": 0.483,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "19 km W of Point MacKenzie, Alaska",
-      "magnitude": 2.8
+      "place": "57 km SSW of Sarangani, Philippines",
+      "magnitude": 4.9
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781136501.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "XRP transaction demand falls 91.5% as traders focus on $0.65 support",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781137980.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Oil prices settle lower after Trump cancels planned strikes against Iran - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781139780.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Equities rally, dollar dips with oil as Trump cancels Iran attacks - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781139900.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Gold rises 2% as Trump canceling Iran strikes eases inflation fears - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781139940.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Kenya sees risks to fiscal consolidation, oil output to power Uganda's growth - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781140773.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Taking Kharg Island would pose risks for US troops - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "earthquake_M4.1",
+    "timestamp": 1781141275.543,
+    "severity_score": 0.35,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "184 km SE of Petropavlovsk-Kamchatsky, Russia",
+      "magnitude": 4.1
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781142240.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Dollar falls after Trump halts US strikes on Iran - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "earthquake_M5.5",
+    "timestamp": 1781142974.675,
+    "severity_score": 0.583,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "58 km S of Sarangani, Philippines",
+      "magnitude": 5.5
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781144520.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Indian shares fall on Iran war, hot US inflation; IT leads losses - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781145600.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "US Department of Justice formally moves to drop Halkbank case - Reuters",
+      "category": "business"
     }
   },
   {
     "event_type": "earthquake_M4.6",
-    "timestamp": 1781051338.921,
+    "timestamp": 1781145677.247,
     "severity_score": 0.433,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "66 km SE of Shikotan, Russia",
+      "place": "south of the Fiji Islands",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M2.8",
+    "timestamp": 1781145727.14,
+    "severity_score": 0.14,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "80 km W of Petrolia, CA",
+      "magnitude": 2.84
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1781145818.32,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "70 km S of Sarangani, Philippines",
       "magnitude": 4.6
     }
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1781051580.0,
+    "timestamp": 1781146800.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "Oil steady as investors weigh renewed US-Iran fighting - Reuters",
+      "headline": "Rupee drops on dollar demand from oil cos, nearly erases RBI-led gains - Reuters",
       "category": "business"
     }
   },
   {
-    "event_type": "earthquake_M6.0",
-    "timestamp": 1781052261.127,
-    "severity_score": 0.667,
+    "event_type": "earthquake_M4.0",
+    "timestamp": 1781146883.07,
+    "severity_score": 0.34,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "Auckland Islands, New Zealand region",
-      "magnitude": 6
+      "place": "78 km ENE of Christiansted, U.S. Virgin Islands",
+      "magnitude": 4.04
+    }
+  },
+  {
+    "event_type": "earthquake_M4.8",
+    "timestamp": 1781147665.782,
+    "severity_score": 0.467,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "20 km SE of Sarangani, Philippines",
+      "magnitude": 4.8
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781147923.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Delaware, New Jersey advance bills banning crypto ATMs",
+      "category": "crypto"
     }
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1781052660.0,
-    "severity_score": 0.7,
+    "timestamp": 1781151420.0,
+    "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "Dollar treads water as US-Iran tensions, inflation data in focus - Reuters",
+      "headline": "Iran says no final decision made on deal that Trump hopes could be signed soon - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781152475.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Bitcoin has reached a deep bear-market valuation zone. The hard part may come next.",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "earthquake_M5.0",
+    "timestamp": 1781153078.172,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "212 km SE of Ust\u2019-Kamchatsk Staryy, Russia",
+      "magnitude": 5
+    }
+  },
+  {
+    "event_type": "earthquake_M2.5",
+    "timestamp": 1781153159.333,
+    "severity_score": 0.083,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "226 km WSW of Adak, Alaska",
+      "magnitude": 2.5
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781153446.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "XRP holds above $1.10 as ETF inflows rise, but traders remain cautious",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781153512.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Analysts tip pressure for Bitcoin, gold as US inflation tops 4%",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "earthquake_M4.2",
+    "timestamp": 1781154175.966,
+    "severity_score": 0.367,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "76 km ENE of Mutsu, Japan",
+      "magnitude": 4.2
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781154240.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Once an Arab oil embargo victim, US becomes world's top oil exporter - Reuters",
       "category": "business"
     }
   },
   {
     "event_type": "earthquake_M2.7",
-    "timestamp": 1781053317.614,
-    "severity_score": 0.117,
+    "timestamp": 1781154964.13,
+    "severity_score": 0.12,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "3 km NW of Abeytas, New Mexico",
-      "magnitude": 2.7
+      "place": "30 km N of Tierras Nuevas Poniente, Puerto Rico",
+      "magnitude": 2.72
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781154978.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "It's not just bitcoin ETFs. Corporate BTC buying has dried up too",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "earthquake_M5.2",
+    "timestamp": 1781155184.569,
+    "severity_score": 0.533,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "117 km NW of Vallenar, Chile",
+      "magnitude": 5.2
+    }
+  },
+  {
+    "event_type": "earthquake_M5.0",
+    "timestamp": 1781156326.44,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "65 km SSE of Sarangani, Philippines",
+      "magnitude": 5
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781156757.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Live updates: Soft core inflation gave crypto a bounce, but only bitcoin held up on the week",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781157444.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Teen crypto scammer stole $13M to splurge on private jets, Lambo",
+      "category": "crypto"
     }
   },
   {
     "event_type": "earthquake_M4.3",
-    "timestamp": 1781053449.872,
+    "timestamp": 1781157946.702,
     "severity_score": 0.383,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "105 km WNW of Mantua, Cuba",
+      "place": "119 km NW of Vallenar, Chile",
       "magnitude": 4.3
     }
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1781053860.0,
+    "timestamp": 1781159280.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "Gold falls over 2% on fading Middle East peace hopes - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "earthquake_M2.6",
-    "timestamp": 1781053878.11,
-    "severity_score": 0.1,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "51 km WNW of Anchor Point, Alaska",
-      "magnitude": 2.6
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781054880.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "European shares resilient, oil edges up after fresh Iran-US strikes - Reuters",
+      "headline": "India demands end to US attacks on ships after three sailors killed - Reuters",
       "category": "business"
     }
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1781055840.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "China's factory-gate inflation at nearly 4-year high in May - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "earthquake_M5.0",
-    "timestamp": 1781056464.466,
-    "severity_score": 0.5,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "6 km WSW of Burias, Philippines",
-      "magnitude": 5
-    }
-  },
-  {
-    "event_type": "earthquake_M3.6",
-    "timestamp": 1781060155.627,
-    "severity_score": 0.267,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "69 km E of Atka, Alaska",
-      "magnitude": 3.6
-    }
-  },
-  {
-    "event_type": "earthquake_M5.1",
-    "timestamp": 1781060495.137,
-    "severity_score": 0.517,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "11 km WSW of Sardinal, Costa Rica",
-      "magnitude": 5.1
-    }
-  },
-  {
-    "event_type": "earthquake_M2.6",
-    "timestamp": 1781063149.904,
-    "severity_score": 0.1,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "6 km SSW of Westbrook, Texas",
-      "magnitude": 2.6
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781063640.0,
+    "timestamp": 1781160240.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "Iran strikes US bases in Gulf after Trump orders attacks near Hormuz - Reuters",
+      "headline": "Indian refiners bolster crude, LPG supplies despite Iran conflict - Reuters",
       "category": "business"
+    }
+  },
+  {
+    "event_type": "earthquake_M2.9",
+    "timestamp": 1781160366.45,
+    "severity_score": 0.147,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "1 km WSW of Pinnacles, CA",
+      "magnitude": 2.88
     }
   },
   {
     "event_type": "market_news_crypto",
-    "timestamp": 1781064292.0,
-    "severity_score": 0.3,
+    "timestamp": 1781161200.0,
+    "severity_score": 0.7,
     "domain": "financial",
     "source": "finnhub_Cointelegraph",
     "metadata": {
-      "headline": "Crypto users wary as Anthropic releases Claude Mythos with safeguards",
+      "headline": "US lawmakers seek coordinated federal response to crypto theft and scams",
       "category": "crypto"
     }
   },
   {
-    "event_type": "earthquake_M2.6",
-    "timestamp": 1781064346.467,
-    "severity_score": 0.1,
+    "event_type": "market_news_crypto",
+    "timestamp": 1781161200.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Bitso brings peso-backed MXNB stablecoin to XRP Ledger via Ripple partnership",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781161200.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Archax introduces real-time yield payments for tokenized securities on Hedera",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781161253.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "AI researcher claims he's already bypassed Anthropic's Fable 5 guardrails",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781161291.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "TradFi advisors want stablecoins, tokenization over Bitcoin: Bitwise",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "earthquake_M5.4",
+    "timestamp": 1781163203.077,
+    "severity_score": 0.567,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "30 km NW of Toyah, Texas",
-      "magnitude": 2.6
+      "place": "59 km S of Sarangani, Philippines",
+      "magnitude": 5.4
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781163673.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Ethiopia sees higher spending next fiscal year due to Iran war costs - Reuters",
+      "category": "business"
     }
   },
   {
     "event_type": "earthquake_M4.8",
-    "timestamp": 1781065832.974,
+    "timestamp": 1781164390.696,
     "severity_score": 0.467,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "266 km WNW of Houma, Tonga",
+      "place": "south of the Fiji Islands",
       "magnitude": 4.8
     }
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1781067840.0,
+    "timestamp": 1781165399.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "Iran war drags India MF equity flows to annual low; gold ETFs see record outflows - Reuters",
+      "headline": "Iran and Ukraine loom over G7 as France accommodates Trump - Reuters",
       "category": "business"
     }
   },
   {
     "event_type": "market_news_crypto",
-    "timestamp": 1781068433.0,
+    "timestamp": 1781165570.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_CoinDesk",
     "metadata": {
-      "headline": "Bitcoin ETFs are no bigger today than when Trump won the election",
+      "headline": "Singapore bank DBS to offer tokenized gold to retail customers",
       "category": "crypto"
     }
   },
   {
+    "event_type": "market_news_business",
+    "timestamp": 1781167306.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Italy PM calls for single EU voice in Russia talks, questions smaller formats - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1781167658.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Treasury yields steady as investors monitor inflation data, U.S. strikes in Iran",
+      "category": "top news"
+    }
+  },
+  {
     "event_type": "market_news_crypto",
-    "timestamp": 1781068926.0,
+    "timestamp": 1781167787.0,
     "severity_score": 0.7,
     "domain": "financial",
     "source": "finnhub_CoinDesk",
     "metadata": {
-      "headline": "Bitcoin and gold fall together as a rate-hike bet hits every hedge",
+      "headline": "Philippines' central bank says Binance and its local partner lack licenses to operate",
       "category": "crypto"
     }
   },
   {
     "event_type": "market_news_crypto",
-    "timestamp": 1781069082.0,
+    "timestamp": 1781168369.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_CoinDesk",
     "metadata": {
-      "headline": "XRP drops 4.5% as heavy selling breaks another support level",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781070476.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Live updates: What next for bitcoin as it faces headwinds from Fed rates to Claude's Mythos",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781070919.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "'Maximal' ban on insider trading would hurt prediction markets, says researcher",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781073653.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Hyperliquid, Paradigm urge revision of GENIUS money laundering rule",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "earthquake_M4.1",
-    "timestamp": 1781073996.545,
-    "severity_score": 0.35,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "56 km WSW of San Carlos, Mexico",
-      "magnitude": 4.1
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781075000.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Chainalysis, South Korean police link up to fight crypto crime",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "earthquake_M4.5",
-    "timestamp": 1781075672.08,
-    "severity_score": 0.417,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "113 km E of Miyako, Japan",
-      "magnitude": 4.5
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781075924.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "SpaceX's pre-IPO market on Hyperliquid has fallen 27% in three weeks",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781076545.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "SpaceX IPO nears 4 times oversubscribed, squeezing crypto and tech",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "earthquake_M3.0",
-    "timestamp": 1781077554.19,
-    "severity_score": 0.158,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "14 km SE of Isabel Segunda, Puerto Rico",
-      "magnitude": 2.95
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781079888.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "XRP market shows signs of capitulation as holders sell at loss",
+      "headline": "BlackRock's income-paying bitcoin ETF nears launch at a fee that undercuts rivals",
       "category": "crypto"
     }
   },
   {
     "event_type": "earthquake_M4.7",
-    "timestamp": 1781080660.49,
-    "severity_score": 0.452,
+    "timestamp": 1781168696.038,
+    "severity_score": 0.45,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "23 km E of P\u0101pa\u2018ikou, Hawaii",
-      "magnitude": 4.71
-    }
-  },
-  {
-    "event_type": "earthquake_M2.8",
-    "timestamp": 1781081531.199,
-    "severity_score": 0.133,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "60 km S of Whites City, New Mexico",
-      "magnitude": 2.8
+      "place": "18 km NW of Mamou, Guinea",
+      "magnitude": 4.7
     }
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1781081916.0,
+    "timestamp": 1781170260.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "Netanyahu to run for re-election, his party says, after Trump raises doubts - Reuters",
+      "headline": "Iron ore remains unaffected by Iran war, but China's May data baffles - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "earthquake_M2.6",
+    "timestamp": 1781170560.756,
+    "severity_score": 0.1,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "21 km N of Midland, Texas",
+      "magnitude": 2.6
+    }
+  },
+  {
+    "event_type": "earthquake_M4.9",
+    "timestamp": 1781172036.638,
+    "severity_score": 0.483,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "170 km ESE of Petropavlovsk-Kamchatsky, Russia",
+      "magnitude": 4.9
+    }
+  },
+  {
+    "event_type": "earthquake_M2.8",
+    "timestamp": 1781172855.95,
+    "severity_score": 0.127,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "72 km W of Petrolia, CA",
+      "magnitude": 2.76
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781173423.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Pakistan budget, hit by Iran war and IMF, to squeeze middle class - Reuters",
       "category": "business"
     }
   },
   {
     "event_type": "market_news_crypto",
-    "timestamp": 1781082074.0,
+    "timestamp": 1781173939.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_CoinDesk",
     "metadata": {
-      "headline": "Japan's three largest banks aim for joint stablecoin issue by March",
+      "headline": "Japan\u2019s parliament poised to pass sweeping bill to regulate crypto like stocks",
       "category": "crypto"
     }
   },
   {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781174705.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Bitcoin advances, holds above key technical level that ether, solana can't break through",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "earthquake_M3.5",
+    "timestamp": 1781176227.392,
+    "severity_score": 0.25,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "60 km SW of Nikolski, Alaska",
+      "magnitude": 3.5
+    }
+  },
+  {
+    "event_type": "earthquake_M2.6",
+    "timestamp": 1781176672.839,
+    "severity_score": 0.1,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "25 km NNW of Four Mile Road, Alaska",
+      "magnitude": 2.6
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1781176864.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Here are the odds of bear markets in each stock index this summer",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781177034.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "As SpaceX IPO approaches, Polymarket, Ventuals assign $2 trillion valuation onchain",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781177597.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "How family offices are investing in the final frontier beyond SpaceX",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "earthquake_M3.6",
+    "timestamp": 1781177827.676,
+    "severity_score": 0.267,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "73 km SSE of Adak, Alaska",
+      "magnitude": 3.6
+    }
+  },
+  {
     "event_type": "earthquake_M5.1",
-    "timestamp": 1781082822.703,
+    "timestamp": 1781178418.234,
     "severity_score": 0.517,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "7 km NW of Nuing, Philippines",
+      "place": "62 km S of Sarangani, Philippines",
       "magnitude": 5.1
     }
   },
   {
     "event_type": "market_news_crypto",
-    "timestamp": 1781084761.0,
+    "timestamp": 1781178777.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Michael Saylor and Jack Mallers go toe-to-toe over Strategy's bitcoin reporting metrics",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781179308.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Cointelegraph",
     "metadata": {
-      "headline": "EU proposes ban on 11 crypto platforms in Russia sanctions push",
+      "headline": "AI models led to a \u2018vulnerability apocalypse\u2019 in crypto security: Immunefi CEO",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "earthquake_M5.1",
+    "timestamp": 1781179588.998,
+    "severity_score": 0.517,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "123 km NW of Vallenar, Chile",
+      "magnitude": 5.1
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781179683.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Audiera\u2019s AI token BEAT beats Bitcoin, Ethereum as price surges 1,500% in a month",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781179773.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Iran fights to keep Lebanon as leverage in high-stakes US deal - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1781179822.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "SpaceX IPO won\u2019t \u2018break\u2019 the bull market. But investors are worried about what comes next",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781180241.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Japan crypto bill advances with ETF, tax reform path: Report",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "earthquake_M3.3",
+    "timestamp": 1781180519.73,
+    "severity_score": 0.218,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "95 km ENE of Cruz Bay, U.S. Virgin Islands",
+      "magnitude": 3.31
+    }
+  },
+  {
+    "event_type": "earthquake_M5.5",
+    "timestamp": 1781180526.272,
+    "severity_score": 0.583,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "128 km NW of Vallenar, Chile",
+      "magnitude": 5.5
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781180806.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "US, Iran haggle over frozen funds as they inch toward interim deal, sources say - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "earthquake_M2.5",
+    "timestamp": 1781181089.313,
+    "severity_score": 0.083,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "40 km WNW of Clam Gulch, Alaska",
+      "magnitude": 2.5
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781181739.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "It's not SpaceX. Bitcoin ETF outflows may be an arbitrage story",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781182335.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Hungary to reverse crypto trading crackdown after EU scrutiny",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781182676.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Ondo Finance hires former Invesco ETF chief to build onchain investment products",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781182736.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Trump says US will hit Iran 'very hard,' take control of energy infrastructure - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781182751.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Digital Asset lands $355M as a16z doubles down on Wall Street blockchain rails",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1781183375.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1781184057.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Baldwin, Khanna propose new direct foreign investment review board to probe Trump's deals",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781184432.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Citi opens new route into private markets with tokenized share offering",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "earthquake_M2.7",
+    "timestamp": 1781184837.96,
+    "severity_score": 0.118,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "2 km NNW of Volcano, Hawaii",
+      "magnitude": 2.71
+    }
+  },
+  {
+    "event_type": "earthquake_M2.6",
+    "timestamp": 1781184843.2,
+    "severity_score": 0.103,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "0 km W of Volcano, Hawaii",
+      "magnitude": 2.62
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781185307.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Bitcoin tags $63.2K as BTC price action ignores inflation, Iran Hormuz closure",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "earthquake_M3.2",
+    "timestamp": 1781185423.41,
+    "severity_score": 0.197,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "18 km WSW of Johannesburg, CA",
+      "magnitude": 3.18
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781185550.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "CoinDesk 20 performance update: Uniswap (UNI) gains 4.5% as all constituents rise",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781185551.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Trump says he wants to \"take\" Iran's Kharg Island oil hub - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781185767.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Tether leads $1.4 billion funding round in German robotics company Neura",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781185813.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Canton Network developer raises $355 million to bring Wall Street onchain",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781186400.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "SpaceX stock is coming to Solana on the same day it lists on Nasdaq",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "earthquake_M4.4",
+    "timestamp": 1781187757.124,
+    "severity_score": 0.4,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "46 km SSE of \u014cfunato, Japan",
+      "magnitude": 4.4
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781188200.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "U.S. House bill would erect crypto-theft task force across law enforcement agencies",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781190000.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Crypto for Advisors: Crypto ETFs",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781190087.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Franklin Templeton, BNP Paribas see tokenization boosting EU's capital efficiency",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "earthquake_M3.4",
+    "timestamp": 1781190511.678,
+    "severity_score": 0.233,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "137 km S of McCarthy, Alaska",
+      "magnitude": 3.4
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781193600.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "MassPay taps Coinbase to expand stablecoin payouts",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781193601.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Elections advertising spend for 2026 expected to reach record high, outpacing presidential years",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1781193901.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "The most successful people are willing to do these 3 'extremely uncomfortable' things, says expert",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781193924.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Iran war adds to AI boom as demand for gas turbines rises further, Siemens Energy says - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1781194158.679,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "71 km S of Sarangani, Philippines",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781195873.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Banking rails are moving past the 'stablecoin winner' narrative: Sygnum",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1781196687.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Oracle shares tumble on earnings. But there's a silver lining for our AI chip and power stocks",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "earthquake_M3.8",
+    "timestamp": 1781196797.305,
+    "severity_score": 0.3,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "48 km SSE of Unalaska, Alaska",
+      "magnitude": 3.8
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781197200.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Coinbase launches AI agent accounts that can trade and spend on your behalf",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781197449.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "US will receive a severe response if it attacks again, Iran's top joint military command says - Reut",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781200626.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Coinbase eyes World Cup boost as prediction markets surge: Bernstein",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781200946.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Iranian attack on Kuwait airport caused injuries, serious damage, Kuwait aviation authority says - R",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781201022.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Trump cancels strikes against Iran planned for Thursday evening - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "earthquake_M4.4",
+    "timestamp": 1781201275.289,
+    "severity_score": 0.4,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "112 km NW of Vallenar, Chile",
+      "magnitude": 4.4
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1781201805.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "We're upgrading our rating on an industrial stock and plan to buy more",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781202594.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Three signs that XRP price risks falling below $1 in June",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781202943.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Iran's Fars news agency says Iran has not yet agreed text for MoU with U.S. - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1781204098.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Intel soars on double upgrade from BofA. Here's what Jim Cramer says investors must do",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "earthquake_M4.5",
+    "timestamp": 1781206208.54,
+    "severity_score": 0.417,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "85 km S of P\u00fdrgos, Greece",
+      "magnitude": 4.5
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781206661.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "ETH futures traders lean into $1.6K range lows: Will Ether lead market recovery?",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "earthquake_M2.6",
+    "timestamp": 1781207303.124,
+    "severity_score": 0.1,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "95 km N of Yakutat, Alaska",
+      "magnitude": 2.6
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781208061.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Wall Street indexes jump; Trump says strikes against Iran canceled - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1781208357.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Eaton moves one step closer to becoming a cleaner bet on the AI boom",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781208766.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Elon Musk's SpaceX prices shares at $135, raising $75 billion in largest-ever IPO",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781209055.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "US plans to deport Iranians to Central African Republic, sources say - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781209116.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Trump says 'great' Iran settlement will trigger opening of Strait of Hormuz - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1781209265.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Trump says he believes Iran's supreme leader has approved deal with US - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "earthquake_M3.0",
+    "timestamp": 1781210249.51,
+    "severity_score": 0.175,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "59 km NNE of Cruz Bay, U.S. Virgin Islands",
+      "magnitude": 3.05
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781213096.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Citi launches blockchain marketplace for private companies shares: Report",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "earthquake_M5.0",
+    "timestamp": 1781213567.364,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "68 km NNW of Isangel, Vanuatu",
+      "magnitude": 5
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1781213697.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Forexlive",
+    "metadata": {
+      "headline": "Oil price drop on Trump's 39th 'deal' announcement. Pavlov's dog meets Shcrodinger's cat.",
       "category": "crypto"
     }
   },
   {
     "event_type": "grid_carbon_intensity",
-    "timestamp": 1781087400.0,
-    "severity_score": 0.287,
+    "timestamp": 1781217000.0,
+    "severity_score": 0.177,
     "domain": "grid",
     "source": "uk_carbon_intensity",
     "metadata": {
-      "actual_gCO2": 115,
-      "forecast_gCO2": 118
+      "actual_gCO2": 71,
+      "forecast_gCO2": 69
     }
   },
   {
-    "event_type": "earthquake_M5.7",
-    "timestamp": 1781087657.371,
-    "severity_score": 0.617,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "33 km ESE of Ol\u2019ga, Russia",
-      "magnitude": 5.7
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781088774.0,
-    "severity_score": 0.3,
+    "event_type": "crypto_surge_sol",
+    "timestamp": 1781219037.184254,
+    "severity_score": 0.326,
     "domain": "financial",
-    "source": "finnhub_CoinDesk",
+    "source": "coingecko",
     "metadata": {
-      "headline": "Zcash, Hyperliquid tokens lead losses as traders bet against a bitcoin bounce",
-      "category": "crypto"
+      "coin": "Solana",
+      "price": 66.9,
+      "change_24h_pct": 6.52932,
+      "market_cap": 38785290550
+    }
+  },
+  {
+    "event_type": "heavy_precipitation",
+    "timestamp": 1781413200.0,
+    "severity_score": 0.212,
+    "domain": "weather",
+    "source": "open_meteo",
+    "metadata": {
+      "precipitation_mm": 5.3,
+      "location": "Nashville"
     }
   }
 ]

@@ -1,175 +1,84 @@
 {
   "status": "ok",
-  "totalResults": 817,
+  "totalResults": 855,
   "articles": [
     {
       "source": {
-        "id": "financial-post",
-        "name": "Financial Post"
+        "id": null,
+        "name": "Crypto Briefing"
       },
-      "author": "GlobeNewswire",
-      "title": "CECO Environmental Provides Post-Closing Update on Thermon Transaction",
-      "description": "Updates Full Year 2026 Outlook to Incorporate Combination ADDISON, Texas, June 09, 2026 (GLOBE NEWSWIRE) \u2014 CECO Environmental Corp. (Nasdaq: CECO) (\u201cCECO\u201d or the \u201cCompany\u201d), a leading environmentally focused, diversified industrial company whose solutions pro\u2026",
-      "url": "https://financialpost.com/globe-newswire/ceco-environmental-provides-post-closing-update-on-thermon-transaction",
-      "urlToImage": null,
-      "publishedAt": "2026-06-09T11:01:56Z",
-      "content": "When:\u00a0 Tuesday, June 9 at 8:30 a.m. Eastern Time\r\nWhere:\u00a0 https://edge.media-server.com/mmc/p/7hamwqdoHow:\u00a0 Live over the internet Simply log on to the web at the address above\r\nRegister to receive t\u2026 [+7551 chars]"
+      "author": "Editorial Team",
+      "title": "Iran reports missile strikes on US-linked targets in Iraq, rattling crypto markets",
+      "description": "Geopolitical tensions in Iraq highlight the vulnerability of crypto markets to external shocks, underscoring the interconnectedness of global assets.\nThe post Iran reports missile strikes on US-linked targets in Iraq, rattling crypto markets appeared first on\u2026",
+      "url": "https://cryptobriefing.com/iran-missile-strikes-iraq-crypto-markets/",
+      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/10182315/iran-launches-missile-strikes-in-iraq-and-syria-citing-secur-800x420.jpeg",
+      "publishedAt": "2026-06-10T22:23:23Z",
+      "content": "Bitcoin whipsawed and tokenized oil futures saw tens of millions in liquidations as geopolitical risk flared across digital asset markets. Iran\u2019s Islamic Revolutionary Guard Corps launched a missile \u2026 [+2088 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "PRNewswire"
+        "name": "Hosteltur.com"
+      },
+      "author": "Hosteltur",
+      "title": "Crisis de queroseno: \u00bfse est\u00e1n preparando las aerol\u00edneas para un invierno de recortes?",
+      "description": "La Asamblea General Anual de IATA, celebrada en los \u00faltimos d\u00edas en R\u00edo de Janeiro, ha convertido la crisis del queroseno en el principal term\u00f3metro del sector a\u00e9reo mundial. La cita, acompa\u00f1ada por el World Air Transport Summit, re\u00fane a directivos que llegan\u2026",
+      "url": "https://www.hosteltur.com/176823_crisis-de-queroseno-se-estan-preparando-las-aerolineas-para-un-invierno-de-recortes.html",
+      "urlToImage": "https://static.hosteltur.com/app/public/uploads/img/articles/2026/06/10/L_111804_crisis-de-queroseno-se-estan-preparando-las-aerolineas-para-un-invierno-de-.jpg",
+      "publishedAt": "2026-06-10T22:00:01Z",
+      "content": "El debate ya no se limita al precio de los billetes ni a los recargos sobre determinadas rutas. Varias aerol\u00edneas preparan recortes sustanciales de sus programas de invierno, una temporada hist\u00f3ricam\u2026 [+4359 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New Zealand Herald"
+      },
+      "author": "Graham Skellern",
+      "title": "Blue chips defy global headwinds as NZ reporting season exceeds forecasts",
+      "description": "Fisher & Paykel, Mainfreight and Infratil lift investor confidence.",
+      "url": "https://www.nzherald.co.nz/business/business-reports/capital-markets-report/blue-chips-defy-global-headwinds-as-nz-reporting-season-exceeds-forecasts/premium/2LPE2FIYLBDUZM6I22WCO4GRTM/",
+      "urlToImage": "https://www.nzherald.co.nz/resizer/v2/MYTA4FKHJZEF3D5SUIVAYU2HRU.jpg?auth=a171defc3042146efb5d9530ca27e7167a00caaa399a98c0f46148573a6562b2&width=1200&height=675&quality=70&focal=224%2C153&smart=false",
+      "publishedAt": "2026-06-10T21:00:00Z",
+      "content": "The elevated fuel price and shipping and supply chain disruption people were mindful of what impact the conflict would have on costs and confidence.\r\nAs it turned out, says Solly, the results general\u2026 [+15008 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Www.gov.uk"
+      },
+      "author": "Foreign, Commonwealth & Development Office",
+      "title": "Joint Statement from UK and Australia on the Australia-UK Ministerial Consultations: 10 June 2026",
+      "description": "On 10 June 2026, the Foreign Secretary, Yvette Cooper and Defence Secretary John Healey MP, hosted the Deputy Prime Minister and Minister for Defence, the Hon Richard Marles MP, and the Minister for Foreign Affairs, Senator the Hon Penny Wong, for the Austral\u2026",
+      "url": "https://www.gov.uk/government/news/joint-statement-from-uk-and-australia-on-the-australia-uk-ministerial-consultations-10-june-2026",
+      "urlToImage": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png",
+      "publishedAt": "2026-06-10T19:25:38Z",
+      "content": "On 10 June 2026, the Secretary of State for Foreign, Commonwealth and Development Affairs, the Rt Hon Yvette Cooper MP, and the Secretary of State for Defence, the Rt Hon John Healey MP, hosted the D\u2026 [+43795 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Darioamodei.com"
       },
       "author": null,
-      "title": "The J.M. Smucker Co. Announces Fiscal Year 2026 Fourth Quarter Results and Provides Full-Year Fiscal 2027 Outlook",
-      "description": "ORRVILLE, Ohio, June 9, 2026 /PRNewswire/ -- The J.M. Smucker Co. (NYSE: SJM) today announced results for the fourth quarter of its fiscal year ending April 30, 2026. Financial results for the fourth quarter and fiscal year reflect the divestiture of certain \u2026",
-      "url": "https://www.prnewswire.com/news-releases/the-jm-smucker-co-announces-fiscal-year-2026-fourth-quarter-results-and-provides-full-year-fiscal-2027-outlook-302795140.html",
-      "urlToImage": "https://mmx.prnewswire.com/media/MS555799/JMSmuckerCo-Logo.jpg?id=OA2691583&p=facebook",
-      "publishedAt": "2026-06-09T11:00:00Z",
-      "content": "ORRVILLE, Ohio, June 9, 2026 /PRNewswire/ -- The J.M. Smucker Co. (NYSE: SJM) today announced results for the fourth quarter of its fiscal year ending April\u00a030, 2026. Financial results for the fourth\u2026 [+61255 chars]"
+      "title": "Policy on the AI Exponential",
+      "description": "Comments",
+      "url": "https://darioamodei.com/post/policy-on-the-ai-exponential",
+      "urlToImage": "https://cdn.prod.website-files.com/67ecbba31246a69e485fdd4b/6a29ae1af3fb3241e2c68979_og_policy-on-the-ai-exponential.jpg",
+      "publishedAt": "2026-06-10T18:36:04Z",
+      "content": "In one of the side plots to The Lord of the Rings, two of the Hobbits attempt to rouse Treebearda wise but ponderous sentient treeto defend his forest from an army that is cutting it down. The proble\u2026 [+34177 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "PRNewswire"
+        "name": "gcaptain.com"
       },
-      "author": null,
-      "title": "Designer Brands Inc. Reports First Quarter 2026 Financial Results",
-      "description": "Strong momentum continued with first quarter net sales growth meeting and adjusted diluted earnings per share (\"EPS\") exceeding expectations Gross margin expansion of 240 basis points Anticipates full year 2026 EPS trending toward the high end of guidance ran\u2026",
-      "url": "https://www.prnewswire.com/news-releases/designer-brands-inc-reports-first-quarter-2026-financial-results-302794413.html",
-      "urlToImage": "https://mmx.prnewswire.com/media/MS537619/Designer_Brands_Logo.jpg?id=OA2690897&p=facebook",
-      "publishedAt": "2026-06-09T10:45:00Z",
-      "content": "Strong momentum continued with first quarter net sales growth meeting and adjusted diluted earnings per share (\"EPS\") exceeding expectations\r\nGross margin expansion of 240 basis points\r\nAnticipates f\u2026 [+41549 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GlobeNewswire"
-      },
-      "author": "Titan Machinery Inc.",
-      "title": "Titan Machinery Inc. Announces Results for Fiscal First Quarter Ended April\u00a030, 2026",
-      "description": "Reaffirms Fiscal 2027 Modeling Assumptions Reaffirms Fiscal 2027 Modeling Assumptions",
-      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308666/0/en/Titan-Machinery-Inc-Announces-Results-for-Fiscal-First-Quarter-Ended-April-30-2026.html",
-      "urlToImage": null,
-      "publishedAt": "2026-06-09T10:45:00Z",
-      "content": "WEST FARGO, N.D., June 09, 2026 (GLOBE NEWSWIRE) -- Titan Machinery Inc. (Nasdaq: TITN) (\"Titan\" or the \"Company\"), a leading network of full-service agricultural and construction equipment stores, t\u2026 [+31476 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GlobeNewswire"
-      },
-      "author": "Lands' End, Inc.",
-      "title": "Lands\u2019 End Announces First Quarter Fiscal 2026 Results",
-      "description": "DODGEVILLE, Wis., June 09, 2026 (GLOBE NEWSWIRE) -- Lands\u2019 End, Inc. (NASDAQ: LE) today announced financial results for the first quarter ended May 1, 2026.",
-      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308667/30720/en/Lands-End-Announces-First-Quarter-Fiscal-2026-Results.html",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/ea93208a-bd88-4784-af50-e1f233d454fe",
-      "publishedAt": "2026-06-09T10:45:00Z",
-      "content": "DODGEVILLE, Wis., June 09, 2026 (GLOBE NEWSWIRE) -- Lands End, Inc. (NASDAQ: LE) today announced financial results for the first quarter ended May 1, 2026.\r\nAndrew McLean, Chief Executive Officer, st\u2026 [+49205 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GlobeNewswire"
-      },
-      "author": "First Atlantic Nickel & Cobalt Corp.",
-      "title": "First Atlantic Nickel & Cobalt Releases White Paper, \u201cOnshoring the Nickel-Cobalt Supply Chain. Without a Smelter,\u201d at Critical Minerals for Defence 2026 in Toronto",
-      "description": "First Atlantic releases white paper outlining smelter-free awaruite nickel-cobalt processing for North American refining and defence supply chain use ...",
-      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308655/0/en/First-Atlantic-Nickel-Cobalt-Releases-White-Paper-Onshoring-the-Nickel-Cobalt-Supply-Chain-Without-a-Smelter-at-Critical-Minerals-for-Defence-2026-in-Toronto.html",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/ea1d51c7-b494-4132-a0f8-fcdda0a05b0b",
-      "publishedAt": "2026-06-09T10:30:00Z",
-      "content": "Investors and interested parties can access the white paper at\u00a0www.fanickel.com\r\nGRAND FALLS-WINDSOR, Newfoundland and Labrador, June 09, 2026 (GLOBE NEWSWIRE) -- First Atlantic Nickel &amp; Cobalt C\u2026 [+11288 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "PRNewswire"
-      },
-      "author": null,
-      "title": "ThroughPut.AI Now Available Through Carahsoft, Expanding Government and Commercial Access to AI-Powered Predictive Supply Chain Decision Intelligence",
-      "description": "Listing gives federal, state, local government and private sector buyers a direct procurement path to ThroughPut's AI supply chain decision intelligence software to accelerate asset readiness and material availability PALO ALTO, Calif., June 9, 2026 /PRNewswi\u2026",
-      "url": "https://www.prnewswire.com/news-releases/throughputai-now-available-through-carahsoft-expanding-government-and-commercial-access-to-ai-powered-predictive-supply-chain-decision-intelligence-302795117.html",
-      "urlToImage": "https://mmx.prnewswire.com/media/MS1587660/ThroughPut-Logo-High-01--3_Logo.jpg?id=OA2693144&p=facebook",
-      "publishedAt": "2026-06-09T10:10:00Z",
-      "content": "Listing gives federal, state, local government and private sector buyers a direct procurement path to ThroughPut's AI supply chain decision intelligence software to accelerate asset readiness and mat\u2026 [+4120 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Quartz India"
-      },
-      "author": "Anthony Lopopolo",
-      "title": "What keeps most CFOs from making the leap to CEO",
-      "description": "Most CFOs hit a ceiling that has nothing to do with their financial record. New research names the skills that separate those who break through.",
-      "url": "https://qz.com/cfo-ceo-path-skills-gap",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/e58ht2JhXac9QqJE6oE2Ug--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzU-/https://media.zenfs.com/en/quartz_855/6acce11dfdd8cae897521974790a392c",
-      "publishedAt": "2026-06-09T09:00:00Z",
-      "content": "A version of this article originally appeared in Quartzs Leadership newsletter. Sign up here to get the latest leadership news and insights straight to your inbox.\r\nSunil Mathur of Siemens, Carol Tom\u2026 [+4415 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GlobeNewswire"
-      },
-      "author": "Research and Markets",
-      "title": "Exponential Growth Predicted in Generative AI Video Market: Expected $0.98 Billion by 2030",
-      "description": "Key opportunities in the generative AI video creation market include advancements in AI models, cloud-based platforms, integration with immersive tech, and personalized video marketing. Expanding social media and digital platforms drive demand for AI-enhanced\u2026",
-      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308597/28124/en/Exponential-Growth-Predicted-in-Generative-AI-Video-Market-Expected-0-98-Billion-by-2030.html",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/ea25d949-75f4-4283-bd31-05f011783f46",
-      "publishedAt": "2026-06-09T08:07:00Z",
-      "content": "Dublin, June 09, 2026 (GLOBE NEWSWIRE) -- The \"Generative AI in Video Creation Market Report 2026\" has been added to ResearchAndMarkets.com's offering.\r\nThe generative artificial intelligence (AI) in\u2026 [+8590 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "CNBC"
-      },
-      "author": "Elsa Ohlen",
-      "title": "The space race is coming for pharma: Why drug development is heading to lower Earth orbit",
-      "description": "Companies see a commercial opportunity in creating new ways to administer drugs to patients \u2013 in space.",
-      "url": "https://www.cnbc.com/2026/06/09/space-race-pharma-spacex-varda-redwire-drug-development-orbit.html",
-      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108311896-1779803886698-gettyimages-2277182781-AFP_B3TA393.jpeg?v=1779803913&w=1920&h=1080",
-      "publishedAt": "2026-06-09T07:20:18Z",
-      "content": "The highly anticipated SpaceX mega-IPO is part of a space frenzy that is moving beyond satellite connectivity, launch vehicles, and aerospace defense to the pharmaceutical sector. A growing number of\u2026 [+8299 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GlobeNewswire"
-      },
-      "author": "Nokia Oyj",
-      "title": "Nokia launches Deepfield Genome Shield security automation system to deliver proactive, network-wide DDoS protection for the AI era",
-      "description": "Nokia launches Deepfield Genome Shield security automation system to deliver proactive, network-wide DDoS protection for the AI era  Nokia Deepfield Genome...",
-      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308566/0/en/Nokia-launches-Deepfield-Genome-Shield-security-automation-system-to-deliver-proactive-network-wide-DDoS-protection-for-the-AI-era.html",
-      "urlToImage": "https://ml-eu.globenewswire.com/Resource/Download/e6523d78-c43a-4057-8aa9-68206d3af4a8",
-      "publishedAt": "2026-06-09T07:00:00Z",
-      "content": "Nokia launches Deepfield Genome Shield security automation system to deliver proactive, network-wide DDoS protection for the AI era\r\n<ul><li>Nokia Deepfield Genome Shield provides proactive, continuo\u2026 [+6241 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GlobeNewswire"
-      },
-      "author": "SNS Insider pvt ltd",
-      "title": "Procurement Analytics Market Worth $50.13 Billion by 2035 | SNS Insider",
-      "description": "The U.S. Procurement Analytics Market is Expected to Reach $15.86 Billion by 2035, While Europe is Projected to Hit $13.42 Billion, Driven by Enterprise Digitalization, Cloud-Based Procurement Platforms, ESG Compliance Requirements, and Growing Adoption of Pr\u2026",
-      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308565/0/en/Procurement-Analytics-Market-Worth-50-13-Billion-by-2035-SNS-Insider.html",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/d6272c2e-d204-41b8-b545-a6e2e24f85c2",
-      "publishedAt": "2026-06-09T06:53:00Z",
-      "content": "Austin, June 09, 2026 (GLOBE NEWSWIRE) -- The Procurement Analytics Market\r\n\u00a0was valued at USD 6.12 Billion in 2025 and is expected to reach USD 50.13 Billion by 2035, growing at a CAGR of 23.49% ove\u2026 [+8243 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Kiwipolitico.com"
-      },
-      "author": "Pablo",
-      "title": "Systemic Change, Institutional Lag and Societal Resilience.",
-      "description": "The following is a draft of a talk that I am giving to a professional group. I thought that it would be good to trial it here. My usual approach is to write a long form essay on the theme of the talk, then condense and memorise it for an off-the-cuff presenta\u2026",
-      "url": "https://www.kiwipolitico.com/2026/06/systemic-change-institutional-lag-and-societal-resilience/",
-      "urlToImage": "https://s0.wp.com/i/blank.jpg",
-      "publishedAt": "2026-06-09T04:53:01Z",
-      "content": "The following is a draft of a talk that I am giving to a professional group. I thought that it would be good to trial it here. My usual approach is to write a long form essay on the theme of the talk\u2026 [+14372 chars]"
+      "author": "Mike Schuler",
+      "title": "Why Port Efficiency Matters More Than Ever Amid Global Shipping Disruptions",
+      "description": "A new report from the World Bank and S&P Global Market Intelligence argues that ports are no longer merely victims of supply chain disruptions\u2014they are increasingly active participants in determining...",
+      "url": "https://gcaptain.com/why-port-efficiency-matters-more-than-ever-amid-global-shipping-disruptions/",
+      "urlToImage": "https://gcaptain.com/wp-content/uploads/2024/09/2024-08-29T193935Z_314911356_RC2UP9AYKIFG_RTRMADP_3_USA-OIL-CALIFORNIA-FUEL-scaled.jpg",
+      "publishedAt": "2026-06-10T16:40:19Z",
+      "content": "A new report from the World Bank and S&amp;P Global Market Intelligence argues that ports are no longer merely victims of supply chain disruptionsthey are increasingly active participants in determin\u2026 [+5069 chars]"
     },
     {
       "source": {
@@ -177,90 +86,168 @@
         "name": "Crypto Briefing"
       },
       "author": "Editorial Team",
-      "title": "Karun petrochemical plant in Mahshahr damaged by Israeli projectile",
-      "description": "The attack heightens geopolitical tensions, risking global oil market instability and potential supply chain disruptions in specialty chemicals.\nThe post Karun petrochemical plant in Mahshahr damaged by Israeli projectile appeared first on Crypto Briefing.",
-      "url": "https://cryptobriefing.com/karun-petrochemical-plant-mahshahr-israeli-strike/",
-      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/09002711/israeli-airstrike-hits-karoon-petrochemical-plant-in-mahshah-1-800x420.jpeg",
-      "publishedAt": "2026-06-09T04:27:12Z",
-      "content": "Israeli airstrikes hit a key Iranian industrial facility producing specialty chemicals, escalating tensions between the two nations. Israeli projectiles struck the Karun Petrochemical Plant in Mahsha\u2026 [+2415 chars]"
+      "title": "Tehran Stock Exchange reopens with trading limits, 42 firms remain closed",
+      "description": "The reopening with trading limits highlights ongoing economic instability and uncertainty, affecting investor confidence and market reliability.\nThe post Tehran Stock Exchange reopens with trading limits, 42 firms remain closed appeared first on Crypto Briefi\u2026",
+      "url": "https://cryptobriefing.com/tehran-stock-exchange-reopens-trading-limits/",
+      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/10120554/72-of-stocks-bleed-as-tehran-stock-exchange-opens-after-80-d-800x420.jpeg",
+      "publishedAt": "2026-06-10T16:05:56Z",
+      "content": "After an 80-day shutdown triggered by escalating conflict with the US and Israel, Iran's main stock exchange is back online, but with heavy restrictions and over a third of the market still frozen. I\u2026 [+2802 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Crypto Briefing"
+        "name": "BusinessLine"
       },
-      "author": "Editorial Team",
-      "title": "Iran fires missiles at Israel as Trump scrambles to save ceasefire, Bitcoin drops below $63K",
-      "description": "Middle Eastern tensions disrupt global markets, highlighting the fragile balance between geopolitical stability and economic volatility.\nThe post Iran fires missiles at Israel as Trump scrambles to save ceasefire, Bitcoin drops below $63K appeared first on Cr\u2026",
-      "url": "https://cryptobriefing.com/iran-missiles-israel-bitcoin-drops-2/",
-      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/08211735/trump-tells-iran-and-israel-to-stop-shooting-as-missile-barr-1-800x420.jpeg",
-      "publishedAt": "2026-06-09T01:17:35Z",
-      "content": "The first direct Iranian strike since the April ceasefire sent crypto markets into a tailspin, with Bitcoin losing nearly 40% from its recent highs as geopolitical risk came roaring back. Iran launch\u2026 [+2687 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Hoover.org"
-      },
-      "author": "June 9, 2026",
-      "title": "The Long Road: From India Through The Middle East To The Baltics",
-      "description": "Envisioning the Indo-Pacific as a single megaregion, stretching from East Asia through the Indian Ocean and the Middle East into Europe, has become increasingly central to contemporary geopolitical thinking.",
-      "url": "https://www.hoover.org/research/long-road-india-through-middle-east-baltics",
-      "urlToImage": "https://hoover-s3-website.s3.us-west-2.amazonaws.com/s3fs-public/styles/facebook/public/2026-06/IMEC.png?h=31b766e1&itok=zLL-deBH",
-      "publishedAt": "2026-06-09T00:00:00Z",
-      "content": "<ul><li>Middle East</li><li>International Affairs</li><li>US Foreign Policy</li><li>US Defense</li></ul><ul><li>Determining America's Role in the World</li></ul>Envisioning the Indo-Pacific as a sing\u2026 [+16319 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Hoover.org"
-      },
-      "author": "June 9, 2026",
-      "title": "Global Trade Chokepoints From An Ocean Carrier\u2019s Perspective",
-      "description": "On a daily basis, commercial vessels move food, energy, raw materials, and manufactured goods across interconnected network of oceans / seas. The flows are regularly scheduled, contracted, insured, and executed in real time. When they function, global trade o\u2026",
-      "url": "https://www.hoover.org/research/global-trade-chokepoints-ocean-carriers-perspective",
-      "urlToImage": "https://hoover-s3-website.s3.us-west-2.amazonaws.com/s3fs-public/styles/facebook/public/2026-06/GettyImages-628562002.jpg?h=5b6333ed&itok=GVoPxWwU",
-      "publishedAt": "2026-06-09T00:00:00Z",
-      "content": "<ul><li>Middle East</li><li>International Affairs</li><li>US Foreign Policy</li><li>US Defense</li></ul><ul><li>Determining America's Role in the World</li></ul>On a daily basis, commercial vessels m\u2026 [+10345 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "iTnews"
-      },
-      "author": null,
-      "title": "Now is the time for the channel to push the hardware refresh",
-      "description": "At Leader Expo 2026, industry leaders outlined how Windows 10 end-of-support, AI PCs and rising hardware costs are creating a once-in-a-decade refresh opportunity for the channel.",
-      "url": "https://www.itnews.com.au/feature/now-is-the-time-for-the-channel-to-push-the-hardware-refresh-626319",
-      "urlToImage": "https://i.nextmedia.com.au/Features/20260601043309_leader-expo-4779.jpg",
-      "publishedAt": "2026-06-08T23:00:00Z",
-      "content": "There are times when market forces converge so completely that hesitation becomes a genuine risk. Australian businesses are in one of those moments right now, and as the channel partners that came to\u2026 [+5268 chars]"
+      "author": "Suresh P Iyengar",
+      "title": "KKR bullish on India\u2019s long-term investment prospects",
+      "description": "Increased access to credit, financial products and digital financial services has been accelerating consumption upgrades and expanding the addressable market for businesses in India, it added.",
+      "url": "https://www.thehindubusinessline.com/news/kkr-bullish-on-indias-long-term-investment-prospects/article71085142.ece",
+      "urlToImage": "https://bl-i.thgim.com/public/incoming/9vxxor/article71085948.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-06-10%20at%2020.51.14.jpeg",
+      "publishedAt": "2026-06-10T15:16:59Z",
+      "content": "Despite near-term global uncertainties, leading global investment firm KKR believes the long-term investment case for India remains intact, positioning the country as a key beneficiary of emerging ma\u2026 [+3122 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "GlobeNewswire"
       },
-      "author": "Mission Produce, Inc.",
-      "title": "Mission Produce\u00ae Announces Fiscal 2026 Second Quarter Financial Results",
-      "description": "Acquisition of Calavo Growers completed May 28, 2026  Board of Directors authorize new share repurchase program for up to $100 million of shares over next...",
-      "url": "https://www.globenewswire.com/news-release/2026/06/08/3308457/0/en/Mission-Produce-Announces-Fiscal-2026-Second-Quarter-Financial-Results.html",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/2c867d68-edcb-4695-90e3-7831b6249b6d",
-      "publishedAt": "2026-06-08T20:05:00Z",
-      "content": "Acquisition of Calavo Growers completed May 28, 2026\r\nBoard of Directors authorize new share repurchase program for up to $100 million of shares over next 3 years\r\nOXNARD, Calif., June 08, 2026 (GLOB\u2026 [+63495 chars]"
+      "author": "Verified Market Research",
+      "title": "Global Seaweed Powder Market Set to Reach $369.36 Million by 2033, Propelled by Food & Beverage Reformulation and Cultivated Sourcing Expansion \u2013 Verified Market Research",
+      "description": "Rising demand for clean-label functional ingredients, advances in cultivation and processing technology, and tightening regulatory quality frameworks are reshaping the Global Seaweed Powder Market. Spanning food and beverage reformulation, animal feed, agricu\u2026",
+      "url": "https://www.globenewswire.com/news-release/2026/06/10/3309903/0/en/Global-Seaweed-Powder-Market-Set-to-Reach-369-36-Million-by-2033-Propelled-by-Food-Beverage-Reformulation-and-Cultivated-Sourcing-Expansion-Verified-Market-Research.html",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/707830b6-cf87-43db-be66-c125971e42be",
+      "publishedAt": "2026-06-10T14:57:00Z",
+      "content": "Lewes, Delaware, June 10, 2026 (GLOBE NEWSWIRE) -- The\u00a0Global Seaweed Powder Market was valued at $250.00 million in 2025 and is projected to reach $369.36 million by 2033, registering a compound ann\u2026 [+44237 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "24/7 Wall St."
+        "name": "gcaptain.com"
       },
-      "author": "Vandita Jadeja",
-      "title": "Why I Keep Loading Up On This Tech Giant",
-      "description": "I bought more Apple (NASDAQ:AAPL) last week, and I will probably buy more next month. That has been the rhythm of my portfolio for years now, and the...",
-      "url": "https://247wallst.com/investing/2026/06/08/why-i-keep-loading-up-on-this-tech-giant/",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/mhDaCWF7imwpiAws2sMuFw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/24_7_wall_st__718/ccd8d8423823aac13ad8c6f95f838fdd",
-      "publishedAt": "2026-06-08T20:04:54Z",
-      "content": "Quick Read\r\n<ul><li>Apple (AAPL) posted its best March quarter ever at $111 billion in revenue, beating Wall Street for the 8th consecutive quarter.\r\n</li><li>Apple raised its dividend 4% and authori\u2026 [+4340 chars]"
+      "author": "Lori Ann LaRocco",
+      "title": "Only One U.S. Port Makes Global Top 50 as Asia and Middle East Dominate",
+      "description": "The Port of Philadelphia was the only U.S. port to rank among the world\u2019s top 50 container ports in the Container Port Performance Index (CPPI) 2025, jointly issued by the...",
+      "url": "https://gcaptain.com/only-one-u-s-port-makes-global-top-50-as-asia-and-middle-east-dominate/",
+      "urlToImage": "https://gcaptain.com/wp-content/uploads/2019/06/MSC-Gayane.jpeg",
+      "publishedAt": "2026-06-10T14:42:02Z",
+      "content": "The Port of Philadelphia was the only U.S. port to rank among the world\u2019s top 50 container ports in the Container Port Performance Index (CPPI) 2025, jointly issued by the World Bank Group and S&amp;\u2026 [+4514 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Punch"
+      },
+      "author": "Punch Newspapers",
+      "title": "NCC, risk managers advocate overhaul of national security system",
+      "description": "The NCC and risk management professionals call for a coordinated overhaul of Nigeria\u2019s national security system to address rising physical, cyber, and oper\n\nRead More: https://punchng.com/ncc-risk-managers-advocate-overhaul-of-national-security-system/",
+      "url": "https://punchng.com/ncc-risk-managers-advocate-overhaul-of-national-security-system/",
+      "urlToImage": "https://cdn.punchng.com/wp-content/uploads/2026/06/10160659/WhatsApp-Image-2026-06-10-at-15.51.06-1200x630.webp",
+      "publishedAt": "2026-06-10T13:05:39Z",
+      "content": "The Nigerian Communications Commission and enterprise risk management professionals have called for a shift in the countrys security governance framework, urging a coordinated approach to addressing \u2026 [+7436 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PRNewswire"
+      },
+      "author": null,
+      "title": "Container Port Performance Index 2025 Reveals Ports' Pivotal Role in Supply Chain Stability",
+      "description": "NEW YORK and WASHINGTON, June 10, 2026 /PRNewswire/ -- The Container Port Performance Index (CPPI) 2025, jointly issued by the World Bank Group and S&P Global Market Intelligence, shows that global port efficiency remains under pressure from geopolitical inst\u2026",
+      "url": "https://www.prnewswire.com/news-releases/container-port-performance-index-2025-reveals-ports-pivotal-role-in-supply-chain-stability-302796631.html",
+      "urlToImage": "https://mmx.prnewswire.com/media/MS540886/SP_Market_Intelligence_Logo.jpg?id=OA2695468&p=facebook",
+      "publishedAt": "2026-06-10T12:30:00Z",
+      "content": "NEW YORK and WASHINGTON, June 10, 2026 /PRNewswire/ -- The Container Port Performance Index (CPPI) 2025,\u00a0jointly issued by the World Bank Group\u00a0and S&amp;P Global Market Intelligence, shows that glob\u2026 [+5004 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PRNewswire"
+      },
+      "author": null,
+      "title": "ATX Defense selected for $49 million Army cybersecurity compliance IDIQ contract vehicle",
+      "description": "NCODE contract expands access to CMMC Space for small-and mid-sized defense contractors preparing for Level 2 certification AUSTIN, Texas, June 10, 2026 /PRNewswire/ -- ATX Defense has been selected by the U.S. Army as one of eight awardees on a five-year, $4\u2026",
+      "url": "https://www.prnewswire.com/news-releases/atx-defense-selected-for-49-million-army-cybersecurity-compliance-idiq-contract-vehicle-302796696.html",
+      "urlToImage": "https://mma.prnewswire.com/media/2754720/ATX_Defense_Logo.jpg?p=facebook",
+      "publishedAt": "2026-06-10T12:06:00Z",
+      "content": "NCODE contract expands access to CMMC Space for small-and mid-sized defense contractors preparing for Level 2 certification\r\nAUSTIN, Texas, June 10, 2026 /PRNewswire/ -- ATX Defense\u00a0has been selected\u2026 [+3608 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Alltoc.com"
+      },
+      "author": "AllToc",
+      "title": "FAO-tracked world cereal prices hit 19-month high\u2014why? #food",
+      "description": "World cereal prices jump to a 19 month high World cereal prices rose to a 19 month high in May , driven by cost pressures tied to fuel and fertilizer. The increase is linked to the Strait of Hormuz blockade , which raises shipping and supply risks and can mak\u2026",
+      "url": "https://alltoc.com/food/fao-tracked-world-cereal-prices-hit-19-month-high-why",
+      "urlToImage": "https://alltoc.com/cdn/1050/og.png",
+      "publishedAt": "2026-06-10T12:03:46Z",
+      "content": "World cereal prices jump to a 19-month high\r\nWorld cereal prices rose to a 19-month high in May, driven by cost pressures tied to fuel and fertilizer. The increase is linked to the Strait of Hormuz b\u2026 [+1574 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "WWD"
+      },
+      "author": "Sarah Jones",
+      "title": "Sourcing Journal to Host Inaugural Visions of Tomorrow Event This\u00a0July",
+      "description": "Join us in New York on July 27 to celebrate supply chain innovation.",
+      "url": "http://wwd.com/sourcing-journal/industry-news/sourcing-journal-hosts-inaugural-visions-of-tomorrow-july-2026-1239003645/",
+      "urlToImage": "https://wwd.com/wp-content/uploads/2026/06/SJVisionsofTomorrowBrandingFinal.png?w=1000&h=563&crop=1",
+      "publishedAt": "2026-06-10T12:00:00Z",
+      "content": "Over the past few years, supply chain operations have shifted from a behind-the-scenes business function to front-and-center news.\r\nAs disruption becomes more expected than unexpected\u2014with transporta\u2026 [+2344 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Globalsecurity.org"
+      },
+      "author": "John Pike",
+      "title": "Joint Statement from UK and Australia on the Australia-UK Ministerial Consultations: 10 June 2026",
+      "description": "On 10 June 2026, the Foreign Secretary, Yvette Cooper and Defence Secretary John Healey MP, hosted the Deputy Prime Minister and Minister for Defence, the Hon Richard Marles MP, and the Minister for Foreign Affairs, Senator the Hon Penny Wong, for the Austral\u2026",
+      "url": "https://www.globalsecurity.org/wmd/library/news/uk/2026/uk-260610-ukmod01.htm",
+      "urlToImage": null,
+      "publishedAt": "2026-06-10T12:00:00Z",
+      "content": "Press release\r\nOn 10 June 2026, the Foreign Secretary, Yvette Cooper and Defence Secretary John Healey MP, hosted the Deputy Prime Minister and Minister for Defence, the Hon Richard Marles MP, and th\u2026 [+44549 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Globalsecurity.org"
+      },
+      "author": "John Pike",
+      "title": "Joint Statement from UK and Australia on the Australia-UK Ministerial Consultations (AUKMIN) June 2026",
+      "description": "No description",
+      "url": "https://www.globalsecurity.org/wmd/library/news/australia/2026/australia-260610-aumfa01.htm",
+      "urlToImage": null,
+      "publishedAt": "2026-06-10T12:00:00Z",
+      "content": "Minister for Foreign Affairs\r\nJoint statement10 June 2026\r\n<ol><li>On 10 June 2026, the Secretary of State for Foreign, Commonwealth and Development Affairs, the Rt Hon Yvette Cooper MP, and the Secr\u2026 [+44815 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Landezine.com"
+      },
+      "author": "Editorial",
+      "title": "28 June \u2013 2 July / UIA World Congress of Architects 2026 Barcelona Programme",
+      "description": "The UIA World Congress of Architects 2026 Barcelona (UIA2026BCN) will bring together more than 10,000 architects, researchers, students, and institutional representatives from over 130 countries for five days of conferences, workshops, exhibitions, and public\u2026",
+      "url": "https://landezine.com/28-june-2-july-uia-world-congress-of-architects-2026-barcelona-programme/",
+      "urlToImage": "https://landezine.com/wp-content/uploads/2026/06/General_UIA2026BCN_5.4-1270x870.jpg",
+      "publishedAt": "2026-06-10T10:55:47Z",
+      "content": "The UIA World Congress of Architects 2026 Barcelona (UIA2026BCN) will bring together more than 10,000 architects, researchers, students, and institutional representatives from over 130 countries for \u2026 [+15813 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BusinessLine"
+      },
+      "author": "Team BL, KS Badri Narayanan",
+      "title": "Sensex today | Stock Market Highlights: Sensex, Nifty end flat as early gains fade; gold prices slide sharply",
+      "description": "Sensex Today, Nifty 50 | Stock Market Highlights: Indian equity markets ended largely flat on Wednesday after erasing early gains. The BSE Sensex closed 64.42 points, or 0.09%, higher at 73,983.18, while the Nifty 50 declined 27.15 points, or 0.12%, to settle\u2026",
+      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-10th-june-2026/article71081121.ece",
+      "urlToImage": "https://bl-i.thgim.com/public/incoming/8ourp5/article70916137.ece/alternates/LANDSCAPE_1200/Stock%20Market%20graph%20finances.jpg",
+      "publishedAt": "2026-06-10T10:37:18Z",
+      "content": "<li></li>\r\nJune 10, 2026 16:05The live blog is now closed.\r\n<li></li>\r\nJune 10, 2026 16:05Share market live: Airtel rebrands controversial Priority Postpaid as Fast Lane\r\nAirtel rebrands Priority Pos\u2026 [+77110 chars]"
     }
   ]
 }

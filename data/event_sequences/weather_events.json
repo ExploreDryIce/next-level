@@ -1,112 +1,13 @@
 [
   {
-    "event_type": "nws_alert_heat_advisory",
-    "timestamp": 1781000340.0,
-    "severity_score": 0.5,
+    "event_type": "heavy_precipitation",
+    "timestamp": 1781413200.0,
+    "severity_score": 0.212,
     "domain": "weather",
-    "source": "nws",
+    "source": "open_meteo",
     "metadata": {
-      "headline": "Heat Advisory issued June 9 at 5:19AM CDT until June 9 at 8:00PM CDT by NWS Memphis TN",
-      "areas": "Clay; Greene; Craighead; Poinsett; Mississippi; Cross; Crittenden; St. Francis; Lee; Phillips; Dunklin; Pemiscot; DeSoto; Tunica; Coahoma; Quitman; Lake; Obion; Weakley; Dyer; Gibson; Lauderdale; Tipton; Haywood; Crockett; Madison; Shelby; Fayette"
-    }
-  },
-  {
-    "event_type": "nws_alert_flood_advisory",
-    "timestamp": 1781040540.0,
-    "severity_score": 0.3,
-    "domain": "weather",
-    "source": "nws",
-    "metadata": {
-      "headline": "Flood Advisory issued June 9 at 5:29PM EDT until June 9 at 7:30PM EDT by NWS Morristown TN",
-      "areas": "Polk, TN"
-    }
-  },
-  {
-    "event_type": "nws_alert_flood_advisory",
-    "timestamp": 1781041680.0,
-    "severity_score": 0.3,
-    "domain": "weather",
-    "source": "nws",
-    "metadata": {
-      "headline": "Flood Advisory issued June 9 at 4:48PM CDT until June 9 at 6:45PM CDT by NWS Nashville TN",
-      "areas": "Cheatham, TN; Davidson, TN; Macon, TN; Robertson, TN; Rutherford, TN; Sumner, TN; Trousdale, TN; Williamson, TN; Wilson, TN"
-    }
-  },
-  {
-    "event_type": "nws_alert_flash_flood_warning",
-    "timestamp": 1781042820.0,
-    "severity_score": 0.8,
-    "domain": "weather",
-    "source": "nws",
-    "metadata": {
-      "headline": "Flash Flood Warning issued June 9 at 5:07PM CDT until June 9 at 7:00PM CDT by NWS Nashville TN",
-      "areas": "Davidson, TN; Robertson, TN; Rutherford, TN; Sumner, TN; Wilson, TN"
-    }
-  },
-  {
-    "event_type": "nws_alert_flash_flood_warning",
-    "timestamp": 1781044020.0,
-    "severity_score": 0.8,
-    "domain": "weather",
-    "source": "nws",
-    "metadata": {
-      "headline": "Flash Flood Warning issued June 9 at 5:27PM CDT until June 9 at 7:15PM CDT by NWS Nashville TN",
-      "areas": "Robertson, TN; Sumner, TN"
-    }
-  },
-  {
-    "event_type": "nws_alert_flash_flood_warning",
-    "timestamp": 1781044080.0,
-    "severity_score": 0.8,
-    "domain": "weather",
-    "source": "nws",
-    "metadata": {
-      "headline": "Flash Flood Warning issued June 9 at 5:28PM CDT until June 9 at 7:15PM CDT by NWS Nashville TN",
-      "areas": "Robertson, TN; Sumner, TN"
-    }
-  },
-  {
-    "event_type": "nws_alert_special_weather_statement",
-    "timestamp": 1781044620.0,
-    "severity_score": 0.5,
-    "domain": "weather",
-    "source": "nws",
-    "metadata": {
-      "headline": "Special Weather Statement issued June 9 at 5:37PM CDT by NWS Nashville TN",
-      "areas": "Smith; Jackson; Putnam; De Kalb; White"
-    }
-  },
-  {
-    "event_type": "nws_alert_flood_advisory",
-    "timestamp": 1781044800.0,
-    "severity_score": 0.3,
-    "domain": "weather",
-    "source": "nws",
-    "metadata": {
-      "headline": "Flood Advisory issued June 9 at 5:40PM CDT until June 9 at 7:45PM CDT by NWS Nashville TN",
-      "areas": "Rutherford, TN; Wilson, TN"
-    }
-  },
-  {
-    "event_type": "nws_alert_severe_thunderstorm_warning",
-    "timestamp": 1781045700.0,
-    "severity_score": 0.8,
-    "domain": "weather",
-    "source": "nws",
-    "metadata": {
-      "headline": "Severe Thunderstorm Warning issued June 9 at 5:55PM CDT until June 9 at 6:45PM CDT by NWS Nashville TN",
-      "areas": "Bedford, TN; Cannon, TN; Coffee, TN; Grundy, TN; Rutherford, TN; Warren, TN"
-    }
-  },
-  {
-    "event_type": "nws_alert_severe_thunderstorm_warning",
-    "timestamp": 1781045760.0,
-    "severity_score": 0.8,
-    "domain": "weather",
-    "source": "nws",
-    "metadata": {
-      "headline": "Severe Thunderstorm Warning issued June 9 at 5:56PM CDT until June 9 at 6:15PM CDT by NWS Nashville TN",
-      "areas": "Cannon, TN; Rutherford, TN"
+      "precipitation_mm": 5.3,
+      "location": "Nashville"
     }
   }
 ]

@@ -1,563 +1,497 @@
 [
   {
+    "event_type": "earthquake_M5.1",
+    "timestamp": 1781133986.731,
+    "severity_score": 0.517,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "67 km SSW of Sarangani, Philippines",
+      "magnitude": 5.1
+    }
+  },
+  {
+    "event_type": "earthquake_M5.4",
+    "timestamp": 1781134245.857,
+    "severity_score": 0.567,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "176 km ESE of Neiafu, Tonga",
+      "magnitude": 5.4
+    }
+  },
+  {
     "event_type": "earthquake_M4.8",
-    "timestamp": 1781003858.741,
+    "timestamp": 1781135423.691,
     "severity_score": 0.467,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "north of Ascension Island",
+      "place": "175 km SSW of Houma, Tonga",
       "magnitude": 4.8
-    }
-  },
-  {
-    "event_type": "earthquake_M3.8",
-    "timestamp": 1781007240.52,
-    "severity_score": 0.302,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "74 km NNW of Charlotte Amalie, U.S. Virgin Islands",
-      "magnitude": 3.81
-    }
-  },
-  {
-    "event_type": "earthquake_M2.6",
-    "timestamp": 1781009696.1,
-    "severity_score": 0.097,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "16 km SE of P\u0101hala, Hawaii",
-      "magnitude": 2.58
-    }
-  },
-  {
-    "event_type": "earthquake_M4.7",
-    "timestamp": 1781009705.541,
-    "severity_score": 0.45,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "28 km S of Sarangani, Philippines",
-      "magnitude": 4.7
-    }
-  },
-  {
-    "event_type": "earthquake_M3.1",
-    "timestamp": 1781012826.83,
-    "severity_score": 0.192,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "Rat Islands, Aleutian Islands, Alaska",
-      "magnitude": 3.15
-    }
-  },
-  {
-    "event_type": "earthquake_M2.7",
-    "timestamp": 1781013434.99,
-    "severity_score": 0.11,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "Rat Islands, Aleutian Islands, Alaska",
-      "magnitude": 2.66
-    }
-  },
-  {
-    "event_type": "earthquake_M4.1",
-    "timestamp": 1781014047.843,
-    "severity_score": 0.35,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "Bonin Islands, Japan region",
-      "magnitude": 4.1
-    }
-  },
-  {
-    "event_type": "earthquake_M2.7",
-    "timestamp": 1781019205.969,
-    "severity_score": 0.117,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "54 km S of Whites City, New Mexico",
-      "magnitude": 2.7
-    }
-  },
-  {
-    "event_type": "earthquake_M3.7",
-    "timestamp": 1781021913.3,
-    "severity_score": 0.28,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "65 km NNE of Luquillo, Puerto Rico",
-      "magnitude": 3.68
-    }
-  },
-  {
-    "event_type": "earthquake_M3.0",
-    "timestamp": 1781022615.066,
-    "severity_score": 0.167,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "2 km NNW of Tome, New Mexico",
-      "magnitude": 3
-    }
-  },
-  {
-    "event_type": "earthquake_M3.2",
-    "timestamp": 1781023018.39,
-    "severity_score": 0.197,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "7 km SE of Loma Linda, CA",
-      "magnitude": 3.18
-    }
-  },
-  {
-    "event_type": "earthquake_M4.0",
-    "timestamp": 1781023380.336,
-    "severity_score": 0.333,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "54 km NNE of Calama, Chile",
-      "magnitude": 4
     }
   },
   {
     "event_type": "earthquake_M4.9",
-    "timestamp": 1781023731.184,
+    "timestamp": 1781136043.372,
     "severity_score": 0.483,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "Pagan region, Northern Mariana Islands",
+      "place": "57 km SSW of Sarangani, Philippines",
       "magnitude": 4.9
     }
   },
   {
-    "event_type": "earthquake_M5.1",
-    "timestamp": 1781023764.753,
-    "severity_score": 0.517,
+    "event_type": "earthquake_M4.1",
+    "timestamp": 1781141275.543,
+    "severity_score": 0.35,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "4 km SSW of Bukid, Philippines",
-      "magnitude": 5.1
+      "place": "184 km SE of Petropavlovsk-Kamchatsky, Russia",
+      "magnitude": 4.1
     }
   },
   {
-    "event_type": "earthquake_M5.1",
-    "timestamp": 1781026837.238,
-    "severity_score": 0.517,
+    "event_type": "earthquake_M5.5",
+    "timestamp": 1781142974.675,
+    "severity_score": 0.583,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "65 km SSW of Sarangani, Philippines",
-      "magnitude": 5.1
-    }
-  },
-  {
-    "event_type": "earthquake_M2.8",
-    "timestamp": 1781027123.42,
-    "severity_score": 0.137,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "7 km SE of Loma Linda, CA",
-      "magnitude": 2.82
-    }
-  },
-  {
-    "event_type": "earthquake_M4.5",
-    "timestamp": 1781027502.066,
-    "severity_score": 0.417,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "222 km SE of Pondaguitan, Philippines",
-      "magnitude": 4.5
-    }
-  },
-  {
-    "event_type": "earthquake_M4.4",
-    "timestamp": 1781027701.574,
-    "severity_score": 0.4,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "139 km N of Lae, Papua New Guinea",
-      "magnitude": 4.4
-    }
-  },
-  {
-    "event_type": "earthquake_M5.0",
-    "timestamp": 1781028592.935,
-    "severity_score": 0.5,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "8 km SW of Taluya, Philippines",
-      "magnitude": 5
-    }
-  },
-  {
-    "event_type": "earthquake_M3.4",
-    "timestamp": 1781030254.127,
-    "severity_score": 0.233,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "29 km WNW of Nanwalek, Alaska",
-      "magnitude": 3.4
-    }
-  },
-  {
-    "event_type": "earthquake_M4.4",
-    "timestamp": 1781031954.518,
-    "severity_score": 0.4,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "84 km NNE of Labuan Lombok, Indonesia",
-      "magnitude": 4.4
-    }
-  },
-  {
-    "event_type": "earthquake_M5.1",
-    "timestamp": 1781033135.189,
-    "severity_score": 0.517,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "120 km ESE of Kuril\u2019sk, Russia",
-      "magnitude": 5.1
-    }
-  },
-  {
-    "event_type": "earthquake_M5.1",
-    "timestamp": 1781033770.562,
-    "severity_score": 0.517,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "southeast Indian Ridge",
-      "magnitude": 5.1
-    }
-  },
-  {
-    "event_type": "earthquake_M5.2",
-    "timestamp": 1781034543.951,
-    "severity_score": 0.533,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "163 km ESE of Petropavlovsk-Kamchatsky, Russia",
-      "magnitude": 5.2
-    }
-  },
-  {
-    "event_type": "earthquake_M3.2",
-    "timestamp": 1781035521.56,
-    "severity_score": 0.198,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "57 km SSE of Boca de Yuma, Dominican Republic",
-      "magnitude": 3.19
-    }
-  },
-  {
-    "event_type": "earthquake_M4.3",
-    "timestamp": 1781039169.989,
-    "severity_score": 0.383,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "35 km NW of Valpara\u00edso, Chile",
-      "magnitude": 4.3
-    }
-  },
-  {
-    "event_type": "earthquake_M4.4",
-    "timestamp": 1781040012.991,
-    "severity_score": 0.4,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "27 km W of Ovalle, Chile",
-      "magnitude": 4.4
+      "place": "58 km S of Sarangani, Philippines",
+      "magnitude": 5.5
     }
   },
   {
     "event_type": "earthquake_M4.6",
-    "timestamp": 1781040226.112,
+    "timestamp": 1781145677.247,
     "severity_score": 0.433,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "south of the Kermadec Islands",
+      "place": "south of the Fiji Islands",
       "magnitude": 4.6
     }
   },
   {
-    "event_type": "earthquake_M4.4",
-    "timestamp": 1781042444.558,
-    "severity_score": 0.4,
+    "event_type": "earthquake_M2.8",
+    "timestamp": 1781145727.14,
+    "severity_score": 0.14,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "88 km SSW of Sarangani, Philippines",
-      "magnitude": 4.4
+      "place": "80 km W of Petrolia, CA",
+      "magnitude": 2.84
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1781145818.32,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "70 km S of Sarangani, Philippines",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M4.0",
+    "timestamp": 1781146883.07,
+    "severity_score": 0.34,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "78 km ENE of Christiansted, U.S. Virgin Islands",
+      "magnitude": 4.04
     }
   },
   {
     "event_type": "earthquake_M4.8",
-    "timestamp": 1781046883.247,
+    "timestamp": 1781147665.782,
     "severity_score": 0.467,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "8 km SSW of Sarangani, Philippines",
+      "place": "20 km SE of Sarangani, Philippines",
       "magnitude": 4.8
     }
   },
   {
-    "event_type": "earthquake_M3.4",
-    "timestamp": 1781047466.52,
-    "severity_score": 0.235,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "121 km NNE of San Juan, Puerto Rico",
-      "magnitude": 3.41
-    }
-  },
-  {
-    "event_type": "earthquake_M3.3",
-    "timestamp": 1781047638.78,
-    "severity_score": 0.212,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "53 km SE of Boca de Yuma, Dominican Republic",
-      "magnitude": 3.27
-    }
-  },
-  {
-    "event_type": "earthquake_M2.8",
-    "timestamp": 1781048054.509,
-    "severity_score": 0.133,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "19 km W of Point MacKenzie, Alaska",
-      "magnitude": 2.8
-    }
-  },
-  {
-    "event_type": "earthquake_M4.6",
-    "timestamp": 1781051338.921,
-    "severity_score": 0.433,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "66 km SE of Shikotan, Russia",
-      "magnitude": 4.6
-    }
-  },
-  {
-    "event_type": "earthquake_M6.0",
-    "timestamp": 1781052261.127,
-    "severity_score": 0.667,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "Auckland Islands, New Zealand region",
-      "magnitude": 6
-    }
-  },
-  {
-    "event_type": "earthquake_M2.7",
-    "timestamp": 1781053317.614,
-    "severity_score": 0.117,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "3 km NW of Abeytas, New Mexico",
-      "magnitude": 2.7
-    }
-  },
-  {
-    "event_type": "earthquake_M4.3",
-    "timestamp": 1781053449.872,
-    "severity_score": 0.383,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "105 km WNW of Mantua, Cuba",
-      "magnitude": 4.3
-    }
-  },
-  {
-    "event_type": "earthquake_M2.6",
-    "timestamp": 1781053878.11,
-    "severity_score": 0.1,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "51 km WNW of Anchor Point, Alaska",
-      "magnitude": 2.6
-    }
-  },
-  {
     "event_type": "earthquake_M5.0",
-    "timestamp": 1781056464.466,
+    "timestamp": 1781153078.172,
     "severity_score": 0.5,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "6 km WSW of Burias, Philippines",
+      "place": "212 km SE of Ust\u2019-Kamchatsk Staryy, Russia",
       "magnitude": 5
     }
   },
   {
+    "event_type": "earthquake_M2.5",
+    "timestamp": 1781153159.333,
+    "severity_score": 0.083,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "226 km WSW of Adak, Alaska",
+      "magnitude": 2.5
+    }
+  },
+  {
+    "event_type": "earthquake_M4.2",
+    "timestamp": 1781154175.966,
+    "severity_score": 0.367,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "76 km ENE of Mutsu, Japan",
+      "magnitude": 4.2
+    }
+  },
+  {
+    "event_type": "earthquake_M2.7",
+    "timestamp": 1781154964.13,
+    "severity_score": 0.12,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "30 km N of Tierras Nuevas Poniente, Puerto Rico",
+      "magnitude": 2.72
+    }
+  },
+  {
+    "event_type": "earthquake_M5.2",
+    "timestamp": 1781155184.569,
+    "severity_score": 0.533,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "117 km NW of Vallenar, Chile",
+      "magnitude": 5.2
+    }
+  },
+  {
+    "event_type": "earthquake_M5.0",
+    "timestamp": 1781156326.44,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "65 km SSE of Sarangani, Philippines",
+      "magnitude": 5
+    }
+  },
+  {
+    "event_type": "earthquake_M4.3",
+    "timestamp": 1781157946.702,
+    "severity_score": 0.383,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "119 km NW of Vallenar, Chile",
+      "magnitude": 4.3
+    }
+  },
+  {
+    "event_type": "earthquake_M2.9",
+    "timestamp": 1781160366.45,
+    "severity_score": 0.147,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "1 km WSW of Pinnacles, CA",
+      "magnitude": 2.88
+    }
+  },
+  {
+    "event_type": "earthquake_M5.4",
+    "timestamp": 1781163203.077,
+    "severity_score": 0.567,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "59 km S of Sarangani, Philippines",
+      "magnitude": 5.4
+    }
+  },
+  {
+    "event_type": "earthquake_M4.8",
+    "timestamp": 1781164390.696,
+    "severity_score": 0.467,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "south of the Fiji Islands",
+      "magnitude": 4.8
+    }
+  },
+  {
+    "event_type": "earthquake_M4.7",
+    "timestamp": 1781168696.038,
+    "severity_score": 0.45,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "18 km NW of Mamou, Guinea",
+      "magnitude": 4.7
+    }
+  },
+  {
+    "event_type": "earthquake_M2.6",
+    "timestamp": 1781170560.756,
+    "severity_score": 0.1,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "21 km N of Midland, Texas",
+      "magnitude": 2.6
+    }
+  },
+  {
+    "event_type": "earthquake_M4.9",
+    "timestamp": 1781172036.638,
+    "severity_score": 0.483,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "170 km ESE of Petropavlovsk-Kamchatsky, Russia",
+      "magnitude": 4.9
+    }
+  },
+  {
+    "event_type": "earthquake_M2.8",
+    "timestamp": 1781172855.95,
+    "severity_score": 0.127,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "72 km W of Petrolia, CA",
+      "magnitude": 2.76
+    }
+  },
+  {
+    "event_type": "earthquake_M3.5",
+    "timestamp": 1781176227.392,
+    "severity_score": 0.25,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "60 km SW of Nikolski, Alaska",
+      "magnitude": 3.5
+    }
+  },
+  {
+    "event_type": "earthquake_M2.6",
+    "timestamp": 1781176672.839,
+    "severity_score": 0.1,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "25 km NNW of Four Mile Road, Alaska",
+      "magnitude": 2.6
+    }
+  },
+  {
     "event_type": "earthquake_M3.6",
-    "timestamp": 1781060155.627,
+    "timestamp": 1781177827.676,
     "severity_score": 0.267,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "69 km E of Atka, Alaska",
+      "place": "73 km SSE of Adak, Alaska",
       "magnitude": 3.6
     }
   },
   {
     "event_type": "earthquake_M5.1",
-    "timestamp": 1781060495.137,
+    "timestamp": 1781178418.234,
     "severity_score": 0.517,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "11 km WSW of Sardinal, Costa Rica",
+      "place": "62 km S of Sarangani, Philippines",
       "magnitude": 5.1
-    }
-  },
-  {
-    "event_type": "earthquake_M2.6",
-    "timestamp": 1781063149.904,
-    "severity_score": 0.1,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "6 km SSW of Westbrook, Texas",
-      "magnitude": 2.6
-    }
-  },
-  {
-    "event_type": "earthquake_M2.6",
-    "timestamp": 1781064346.467,
-    "severity_score": 0.1,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "30 km NW of Toyah, Texas",
-      "magnitude": 2.6
-    }
-  },
-  {
-    "event_type": "earthquake_M4.8",
-    "timestamp": 1781065832.974,
-    "severity_score": 0.467,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "266 km WNW of Houma, Tonga",
-      "magnitude": 4.8
-    }
-  },
-  {
-    "event_type": "earthquake_M4.1",
-    "timestamp": 1781073996.545,
-    "severity_score": 0.35,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "56 km WSW of San Carlos, Mexico",
-      "magnitude": 4.1
-    }
-  },
-  {
-    "event_type": "earthquake_M4.5",
-    "timestamp": 1781075672.08,
-    "severity_score": 0.417,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "113 km E of Miyako, Japan",
-      "magnitude": 4.5
-    }
-  },
-  {
-    "event_type": "earthquake_M3.0",
-    "timestamp": 1781077554.19,
-    "severity_score": 0.158,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "14 km SE of Isabel Segunda, Puerto Rico",
-      "magnitude": 2.95
-    }
-  },
-  {
-    "event_type": "earthquake_M4.7",
-    "timestamp": 1781080660.49,
-    "severity_score": 0.452,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "23 km E of P\u0101pa\u2018ikou, Hawaii",
-      "magnitude": 4.71
-    }
-  },
-  {
-    "event_type": "earthquake_M2.8",
-    "timestamp": 1781081531.199,
-    "severity_score": 0.133,
-    "domain": "geo",
-    "source": "usgs",
-    "metadata": {
-      "place": "60 km S of Whites City, New Mexico",
-      "magnitude": 2.8
     }
   },
   {
     "event_type": "earthquake_M5.1",
-    "timestamp": 1781082822.703,
+    "timestamp": 1781179588.998,
     "severity_score": 0.517,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "7 km NW of Nuing, Philippines",
+      "place": "123 km NW of Vallenar, Chile",
       "magnitude": 5.1
     }
   },
   {
-    "event_type": "earthquake_M5.7",
-    "timestamp": 1781087657.371,
-    "severity_score": 0.617,
+    "event_type": "earthquake_M3.3",
+    "timestamp": 1781180519.73,
+    "severity_score": 0.218,
     "domain": "geo",
     "source": "usgs",
     "metadata": {
-      "place": "33 km ESE of Ol\u2019ga, Russia",
-      "magnitude": 5.7
+      "place": "95 km ENE of Cruz Bay, U.S. Virgin Islands",
+      "magnitude": 3.31
+    }
+  },
+  {
+    "event_type": "earthquake_M5.5",
+    "timestamp": 1781180526.272,
+    "severity_score": 0.583,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "128 km NW of Vallenar, Chile",
+      "magnitude": 5.5
+    }
+  },
+  {
+    "event_type": "earthquake_M2.5",
+    "timestamp": 1781181089.313,
+    "severity_score": 0.083,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "40 km WNW of Clam Gulch, Alaska",
+      "magnitude": 2.5
+    }
+  },
+  {
+    "event_type": "earthquake_M2.7",
+    "timestamp": 1781184837.96,
+    "severity_score": 0.118,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "2 km NNW of Volcano, Hawaii",
+      "magnitude": 2.71
+    }
+  },
+  {
+    "event_type": "earthquake_M2.6",
+    "timestamp": 1781184843.2,
+    "severity_score": 0.103,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "0 km W of Volcano, Hawaii",
+      "magnitude": 2.62
+    }
+  },
+  {
+    "event_type": "earthquake_M3.2",
+    "timestamp": 1781185423.41,
+    "severity_score": 0.197,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "18 km WSW of Johannesburg, CA",
+      "magnitude": 3.18
+    }
+  },
+  {
+    "event_type": "earthquake_M4.4",
+    "timestamp": 1781187757.124,
+    "severity_score": 0.4,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "46 km SSE of \u014cfunato, Japan",
+      "magnitude": 4.4
+    }
+  },
+  {
+    "event_type": "earthquake_M3.4",
+    "timestamp": 1781190511.678,
+    "severity_score": 0.233,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "137 km S of McCarthy, Alaska",
+      "magnitude": 3.4
+    }
+  },
+  {
+    "event_type": "earthquake_M4.6",
+    "timestamp": 1781194158.679,
+    "severity_score": 0.433,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "71 km S of Sarangani, Philippines",
+      "magnitude": 4.6
+    }
+  },
+  {
+    "event_type": "earthquake_M3.8",
+    "timestamp": 1781196797.305,
+    "severity_score": 0.3,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "48 km SSE of Unalaska, Alaska",
+      "magnitude": 3.8
+    }
+  },
+  {
+    "event_type": "earthquake_M4.4",
+    "timestamp": 1781201275.289,
+    "severity_score": 0.4,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "112 km NW of Vallenar, Chile",
+      "magnitude": 4.4
+    }
+  },
+  {
+    "event_type": "earthquake_M4.5",
+    "timestamp": 1781206208.54,
+    "severity_score": 0.417,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "85 km S of P\u00fdrgos, Greece",
+      "magnitude": 4.5
+    }
+  },
+  {
+    "event_type": "earthquake_M2.6",
+    "timestamp": 1781207303.124,
+    "severity_score": 0.1,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "95 km N of Yakutat, Alaska",
+      "magnitude": 2.6
+    }
+  },
+  {
+    "event_type": "earthquake_M3.0",
+    "timestamp": 1781210249.51,
+    "severity_score": 0.175,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "59 km NNE of Cruz Bay, U.S. Virgin Islands",
+      "magnitude": 3.05
+    }
+  },
+  {
+    "event_type": "earthquake_M5.0",
+    "timestamp": 1781213567.364,
+    "severity_score": 0.5,
+    "domain": "geo",
+    "source": "usgs",
+    "metadata": {
+      "place": "68 km NNW of Isangel, Vanuatu",
+      "magnitude": 5
     }
   },
   {
@@ -567,8 +501,56 @@
     "domain": "geo",
     "source": "fema",
     "metadata": {
-      "state": "AK",
-      "title": "SEVERE STORMS, FLOODING, AND REMNANTS OF TYPHOON HALONG",
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
+      "type": "DR"
+    }
+  },
+  {
+    "event_type": "fema_disaster_dr",
+    "timestamp": 1780012800.0,
+    "severity_score": 0.8,
+    "domain": "geo",
+    "source": "fema",
+    "metadata": {
+      "state": "KY",
+      "title": "SEVERE WINTER STORM",
       "type": "DR"
     }
   },
@@ -729,75 +711,27 @@
     }
   },
   {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1781049600.0,
+    "severity_score": 0.5,
     "domain": "geo",
     "source": "fema",
     "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
+      "state": "NE",
+      "title": "SOUTH FORK FIRE",
+      "type": "FM"
     }
   },
   {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
+    "event_type": "fema_disaster_fm",
+    "timestamp": 1781049600.0,
+    "severity_score": 0.5,
     "domain": "geo",
     "source": "fema",
     "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "KY",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
-    }
-  },
-  {
-    "event_type": "fema_disaster_dr",
-    "timestamp": 1780012800.0,
-    "severity_score": 0.8,
-    "domain": "geo",
-    "source": "fema",
-    "metadata": {
-      "state": "DE",
-      "title": "SEVERE WINTER STORM",
-      "type": "DR"
+      "state": "NE",
+      "title": "SOUTH FORK FIRE",
+      "type": "FM"
     }
   }
 ]

@@ -1,97 +1,87 @@
 {
-  "count": 34547,
+  "count": 34606,
   "next": "https://api.spaceflightnewsapi.net/v4/articles/?limit=10&offset=10",
   "previous": null,
   "results": [
     {
-      "id": 38368,
-      "title": "After the launch: Why Europe\u2019s space ambitions depend on what comes next",
-      "authors": [
-        {
-          "name": "Rosa Schmidt",
-          "socials": null
-        }
-      ],
-      "url": "https://spacenews.com/after-the-launch-why-europes-space-ambitions-depend-on-what-comes-next/",
-      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/Screenshot-2026-06-08-101723.png?fit=1024%2C518&ssl=1",
-      "news_site": "SpaceNews",
-      "summary": "\nSatellites have become essential infrastructure. Financial markets rely on their timing signals. Military operations depend on their communications and surveillance. Navigation, disaster response, logistics, climate monitoring, most systems that underpin [\u2026]\nThe post After the launch: Why Europe\u2019s space ambitions depend on what comes next appeared first on SpaceNews.",
-      "published_at": "2026-06-10T11:00:00Z",
-      "updated_at": "2026-06-10T11:00:31.893948Z",
-      "featured": false,
-      "launches": [],
-      "events": []
-    },
-    {
-      "id": 38366,
-      "title": "Tyndall\u2019s Trail of Bergs",
+      "id": 38427,
+      "title": "NASA Award Boosts Space Technology Research Capabilities",
       "authors": [
         {
           "name": "NASA",
           "socials": null
         }
       ],
-      "url": "https://science.nasa.gov/earth/earth-observatory/tyndalls-trail-of-bergs/",
-      "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/tyndall%E2%80%99s-trail-of-bergs/ISS074-E-582898.jpg",
+      "url": "https://www.nasa.gov/learning-resources/stem-engagement-at-nasa/murep/nasa-award-boosts-space-technology-research-capabilities/",
+      "image_url": "https://www.nasa.gov/wp-content/uploads/2022/12/calibration-gas-system-cgs.png",
       "news_site": "NASA",
-      "summary": "Ice splintered off the southern Patagonia glacier and drifted across a growing glacial lake.",
-      "published_at": "2026-06-10T04:01:00Z",
-      "updated_at": "2026-06-10T10:05:42.947538Z",
+      "summary": "NASA is introducing a new funding opportunity to accelerate academic research and technology development. The Minority University Research and Education Project Space Technology Artemis Research (M\u2011STAR) application window opened Thursday and will remain open through 11:59 p.m. EDT on Tuesday, Aug. 11. The research funded through this award supports the agency\u2019s priorities for exploring the [\u2026]",
+      "published_at": "2026-06-11T21:14:44Z",
+      "updated_at": "2026-06-11T21:20:06.217998Z",
       "featured": false,
       "launches": [],
       "events": []
     },
     {
-      "id": 38365,
-      "title": "Three Americans and a European Named Crew of Artemis III",
-      "authors": [
-        {
-          "name": "Marcia Smith",
-          "socials": null
-        }
-      ],
-      "url": "https://spacepolicyonline.com/news/three-americans-and-a-european-named-crew-of-artemis-iii/",
-      "image_url": "https://spacepolicyonline.com/wp-content/uploads/2026/06/Artemis-3-crew-Robt-Markowitz.webp-300x198.jpg",
-      "news_site": "SpacePolicyOnline.com",
-      "summary": "Three NASA astronauts and one from the European Space Agency are the crew of the next Artemis mission, Artemis III. Instead of flying around the Moon like their predecessors, this [\u2026]",
-      "published_at": "2026-06-09T22:50:45Z",
-      "updated_at": "2026-06-10T10:05:23.822150Z",
-      "featured": false,
-      "launches": [
-        {
-          "launch_id": "8034d81b-af96-460c-a7b7-5c8e7f1a1d86",
-          "provider": "Launch Library 2"
-        }
-      ],
-      "events": [
-        {
-          "event_id": 1488,
-          "provider": "Launch Library 2"
-        }
-      ]
-    },
-    {
-      "id": 38364,
-      "title": "Flight Dynamics Research Facility Characteristics",
+      "id": 38426,
+      "title": "NASA\u2019s Chandra Discovers Possible Supernova Remnant in Galactic Center",
       "authors": [
         {
           "name": "NASA",
           "socials": null
         }
       ],
-      "url": "https://www.nasa.gov/directorates/armd/aetc/fdrf-characteristics/",
-      "image_url": "https://www.nasa.gov/wp-content/uploads/2026/04/clic-x047-2cf8-9.jpg",
+      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-discovers-possible-supernova-remnant-in-galactic-center/",
+      "image_url": "https://science.nasa.gov/wp-content/uploads/2026/06/sgrc.jpg",
       "news_site": "NASA",
-      "summary": "HomeCharacteristics The Flight Dynamics Research Facility (FDRF) is a large, subsonic wind tunnel with a vertical test section for conducting flight dynamics research for stability, controllability, free-fall and aircraft spin, and spin recovery testing of atmospheric vehicles. Characteristics Flight Dynamics Flight Research Aerosciences Evaluation and Test Capabilities",
-      "published_at": "2026-06-09T20:47:02Z",
-      "updated_at": "2026-06-09T20:50:06.376241Z",
+      "summary": "Using data from NASA\u2019s Chandra X-ray Observatory, astronomers may have found a supernova remnant in an intriguing neighborhood in the middle of our galaxy. A paper describing these new findings published in The Astrophysical Journal. Supernova remnants are the expanding remains of exploded stars and provide elements \u2013 like iron, oxygen, and silicon \u2013 that [\u2026]",
+      "published_at": "2026-06-11T20:41:44Z",
+      "updated_at": "2026-06-11T21:10:12.619382Z",
       "featured": false,
       "launches": [],
       "events": []
     },
     {
-      "id": 38363,
-      "title": "NASA names crew for Artemis 3 mission to test lunar landers",
+      "id": 38424,
+      "title": "I Am Artemis: Elkin Norena",
+      "authors": [
+        {
+          "name": "NASA",
+          "socials": null
+        }
+      ],
+      "url": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-elkin-norena/",
+      "image_url": "https://www.nasa.gov/wp-content/uploads/2026/06/0u6a3284.jpg",
+      "news_site": "NASA",
+      "summary": "Listen to this audio excerpt from Elkin Norena, Resident management officer, NASA\u2019s Space Launch System Program: NASA\u2019s Elkin Norena has helped the agency launch more than a dozen space shuttle missions \u2013 that\u2019s more than a dozen crews to low Earth orbit and more than a dozen historic missions. They were missions that helped build [\u2026]",
+      "published_at": "2026-06-11T20:07:33Z",
+      "updated_at": "2026-06-11T20:10:14.323849Z",
+      "featured": false,
+      "launches": [],
+      "events": []
+    },
+    {
+      "id": 38425,
+      "title": "Japan\u2019s H3 to return to flight with debut launch of lightest configuration",
+      "authors": [
+        {
+          "name": "William Graham",
+          "socials": null
+        }
+      ],
+      "url": "https://www.nasaspaceflight.com/2026/06/h3-return-to-flight/",
+      "image_url": "https://www.nasaspaceflight.com/wp-content/uploads/2026/06/h3-f6.jpg",
+      "news_site": "NASASpaceflight",
+      "summary": "Japan\u2019s H3 rocket will return to flight Friday, with a launch that also marks the\u2026\nThe post Japan\u2019s H3 to return to flight with debut launch of lightest configuration appeared first on NASASpaceFlight.com.",
+      "published_at": "2026-06-11T20:05:57Z",
+      "updated_at": "2026-06-11T20:10:21.387895Z",
+      "featured": false,
+      "launches": [],
+      "events": []
+    },
+    {
+      "id": 38423,
+      "title": "Vandenberg offers new launch site for small and medium rockets",
       "authors": [
         {
           "name": "Jeff Foust",
@@ -105,170 +95,117 @@
           }
         }
       ],
-      "url": "https://spacenews.com/nasa-names-crew-for-artemis-3-mission-to-test-lunar-landers/",
-      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/artemis3crew.jpeg?fit=1024%2C683&ssl=1",
+      "url": "https://spacenews.com/vandenberg-offers-new-launch-site-for-small-and-medium-rockets/",
+      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/slc9.jpeg?fit=1024%2C799&ssl=1",
       "news_site": "SpaceNews",
-      "summary": "NASA has named the astronauts who will fly the next Artemis mission, a test flight in low Earth orbit where Orion will attempt to dock with two lunar lander prototypes.\r\nThe post NASA names crew for Artemis 3 mission to test lunar landers appeared first on SpaceNews.",
-      "published_at": "2026-06-09T19:57:51Z",
-      "updated_at": "2026-06-10T10:05:08.626079Z",
+      "summary": "\nThe U.S. Space Force is seeking potential users of a new launch site at Vandenberg Space Force Base reserved for smaller rockets.\nThe post Vandenberg offers new launch site for small and medium rockets appeared first on SpaceNews.",
+      "published_at": "2026-06-11T19:56:01Z",
+      "updated_at": "2026-06-11T20:00:55.214878Z",
       "featured": false,
-      "launches": [
-        {
-          "launch_id": "8034d81b-af96-460c-a7b7-5c8e7f1a1d86",
-          "provider": "Launch Library 2"
-        }
-      ],
-      "events": [
-        {
-          "event_id": 1488,
-          "provider": "Launch Library 2"
-        }
-      ]
+      "launches": [],
+      "events": []
     },
     {
-      "id": 38362,
-      "title": "Artemis III Crew Announced",
+      "id": 38422,
+      "title": "Understanding what\u2019s next for orbital data centers",
+      "authors": [
+        {
+          "name": "SpaceNews Editor",
+          "socials": null
+        }
+      ],
+      "url": "https://spacenews.com/understanding-whats-next-for-orbital-data-centers/",
+      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/space-minds-podcast-orbital-data-centers-starcloud-2000-1500-1.jpg?fit=1024%2C768&ssl=1",
+      "news_site": "SpaceNews",
+      "summary": "\nThis episode of Space Minds is from SpaceNews\u2019 recent event on orbital data centers. There, SpaceNews journalists talk with industry leaders and analysts about what\u2019s driving interest in the technology, [\u2026]\nThe post Understanding what\u2019s next for orbital data centers appeared first on SpaceNews.",
+      "published_at": "2026-06-11T19:38:03Z",
+      "updated_at": "2026-06-11T19:40:19.421840Z",
+      "featured": false,
+      "launches": [],
+      "events": []
+    },
+    {
+      "id": 38421,
+      "title": "NASA Robotic Tech Demo Will Advance Prototype Gamma-Ray Detectors",
       "authors": [
         {
           "name": "NASA",
           "socials": null
         }
       ],
-      "url": "https://www.nasa.gov/image-article/artemis-iii-crew-announced/",
-      "image_url": "https://www.nasa.gov/wp-content/uploads/2026/06/jsc2026e392659.jpg",
+      "url": "https://science.nasa.gov/missions/tech-demonstration/nasa-robotic-tech-demo-will-advance-prototype-gamma-ray-detectors/",
+      "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/a-step/34340D_0569_PSE_NASA_Goddard_Gamma-Ray_Tracker_Assembly_Process_WEB_16x9.jpg",
       "news_site": "NASA",
-      "summary": "NASA astronaut Andre Douglas, ESA (European Space Agency) astronaut Luca Parmitano, and NASA astronauts Randy Bresnik and Frank Rubio take a photo together on June 9, 2026. The four were announced as the Artemis III crew. NASA\u2019s Artemis III mission in low Earth orbit will test integrated operations between the Orion spacecraft and one or [\u2026]",
-      "published_at": "2026-06-09T19:32:29Z",
-      "updated_at": "2026-06-10T10:04:59.383002Z",
+      "summary": "A new type of gamma-ray sensor developed by NASA will take part in a robotic arm demonstration on the agency\u2019s upcoming Fly Foundational Robots mission.",
+      "published_at": "2026-06-11T18:59:37Z",
+      "updated_at": "2026-06-11T19:10:10.309580Z",
       "featured": false,
-      "launches": [
-        {
-          "launch_id": "8034d81b-af96-460c-a7b7-5c8e7f1a1d86",
-          "provider": "Launch Library 2"
-        }
-      ],
-      "events": [
-        {
-          "event_id": 1488,
-          "provider": "Launch Library 2"
-        }
-      ]
+      "launches": [],
+      "events": []
     },
     {
-      "id": 38361,
-      "title": "NASA assigns crew for Artemis III, sets aggressive timeline for flying it",
+      "id": 38420,
+      "title": "Senate NDAA backs plan to fold SDA, Space RCO into Space Force",
       "authors": [
         {
-          "name": "Eric Berger",
+          "name": "Sandra Erwin",
           "socials": null
         }
       ],
-      "url": "https://arstechnica.com/space/2026/06/nasa-assigns-crew-for-artemis-iii-sets-aggressive-timeline-for-flying-it/",
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/artemis-3-1.jpg",
-      "news_site": "Arstechnica",
-      "summary": "\"Artemis III will be an extraordinary demonstration of what is possible.\"",
-      "published_at": "2026-06-09T18:42:19Z",
-      "updated_at": "2026-06-10T10:04:54.561889Z",
+      "url": "https://spacenews.com/senate-ndaa-backs-plan-to-fold-sda-space-rco-into-space-force/",
+      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/8961053-e1781203114473.jpg?fit=1024%2C604&ssl=1",
+      "news_site": "SpaceNews",
+      "summary": "\nThe committee's 2027 defense bill would eliminate separate statutory requirements for the two acquisition organizations while advancing broader Pentagon procurement reforms\nThe post Senate NDAA backs plan to fold SDA, Space RCO into Space Force appeared first on SpaceNews.",
+      "published_at": "2026-06-11T18:40:55Z",
+      "updated_at": "2026-06-11T18:50:22.669954Z",
       "featured": false,
-      "launches": [
-        {
-          "launch_id": "8034d81b-af96-460c-a7b7-5c8e7f1a1d86",
-          "provider": "Launch Library 2"
-        }
-      ],
-      "events": [
-        {
-          "event_id": 1488,
-          "provider": "Launch Library 2"
-        }
-      ]
+      "launches": [],
+      "events": []
     },
     {
-      "id": 38359,
-      "title": "NASA names four-man crew to Artemis 3 mission",
+      "id": 38419,
+      "title": "ESA astronaut assignment on Artemis 3 part of negotiations on revised Artemis roles",
       "authors": [
         {
-          "name": "William Harwood",
+          "name": "Jeff Foust",
+          "socials": {
+            "x": "https://x.com/jeff_foust",
+            "youtube": "",
+            "instagram": "",
+            "linkedin": "https://www.linkedin.com/in/jefffoust",
+            "mastodon": "https://mastodon.social/@jfoust",
+            "bluesky": "https://bsky.app/profile/jfoust.bsky.social"
+          }
+        }
+      ],
+      "url": "https://spacenews.com/esa-astronaut-assignment-on-artemis-3-part-of-negotiations-on-revised-artemis-roles/",
+      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/art3parmitano.jpeg?fit=1024%2C924&ssl=1",
+      "news_site": "SpaceNews",
+      "summary": "\nThe assignment of an ESA astronaut to Artemis 3 is part of negotiations for revised roles in the overall effort, with a goal of getting its astronauts on the moon.\nThe post ESA astronaut assignment on Artemis 3 part of negotiations on revised Artemis roles appeared first on SpaceNews.",
+      "published_at": "2026-06-11T17:33:50Z",
+      "updated_at": "2026-06-11T17:40:33.126577Z",
+      "featured": false,
+      "launches": [],
+      "events": []
+    },
+    {
+      "id": 38418,
+      "title": "Soccer Meets Space Science",
+      "authors": [
+        {
+          "name": "NASA",
           "socials": null
         }
       ],
-      "url": "https://spaceflightnow.com/2026/06/09/73614/",
-      "image_url": "http://spaceflightnow.com/wp-content/uploads/2026/06/artemis-iii-crew.jpg",
-      "news_site": "Spaceflight Now",
-      "summary": "The crew of NASA's next Artemis moon program mission was announced Tuesday, setting the stage for a flight to Earth orbit next year to test rendezvous and docking procedures with moon landers being built by SpaceX and Blue Origin, a critical milestone before sending astronauts back to the moon for landing in 2028.",
-      "published_at": "2026-06-09T17:48:42Z",
-      "updated_at": "2026-06-10T10:04:45.707998Z",
+      "url": "https://www.nasa.gov/image-article/soccer-meets-space-science/",
+      "image_url": "https://www.nasa.gov/wp-content/uploads/2026/06/iss074e0349331.jpg",
+      "news_site": "NASA",
+      "summary": "A soccer ball floats in microgravity in this March 2, 2026, picture from the International Space Station. The space station crew tested soccer balls to study how internal mass affects motion and stability in microgravity. The findings have improved understanding of how embedded technologies, including match-ball sensors, can influence performance during play. Through research aboard [\u2026]",
+      "published_at": "2026-06-11T16:55:12Z",
+      "updated_at": "2026-06-11T17:00:13.173181Z",
       "featured": false,
-      "launches": [
-        {
-          "launch_id": "8034d81b-af96-460c-a7b7-5c8e7f1a1d86",
-          "provider": "Launch Library 2"
-        }
-      ],
-      "events": [
-        {
-          "event_id": 1488,
-          "provider": "Launch Library 2"
-        }
-      ]
-    },
-    {
-      "id": 38360,
-      "title": "Replay: Artemis III announcement",
-      "authors": [
-        {
-          "name": "ESA",
-          "socials": null
-        }
-      ],
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Replay_Artemis_III_announcement",
-      "image_url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/06/replay_artemis_iii_announcement/27318070-2-eng-GB/Replay_Artemis_III_announcement_card_full.png",
-      "news_site": "ESA",
-      "summary": "On 9 June, NASA announced the crew for the Artemis III mission, which includes ESA astronaut Luca Parmitano as pilot. ESA is also providing its third European Service Module for this crewed test flight in Earth orbit, which will be key for the mission\u2019s objective to test rendezvous and docking capabilities ahead of future lunar landing missions. Along with Luca, three NASA astronauts will fly on this mission: commander Randy Bresnik and lander specialists Frank Rubio and Andre Douglas. The crew now begins a rigorous training schedule to learn the Orion spacecraft systems, as well as the operations of the human landing systems, to prepare for an ambitious series of demonstrations ahead of a Moon landing mission.",
-      "published_at": "2026-06-09T17:33:00Z",
-      "updated_at": "2026-06-10T10:04:32.791773Z",
-      "featured": false,
-      "launches": [
-        {
-          "launch_id": "8034d81b-af96-460c-a7b7-5c8e7f1a1d86",
-          "provider": "Launch Library 2"
-        }
-      ],
-      "events": [
-        {
-          "event_id": 1488,
-          "provider": "Launch Library 2"
-        }
-      ]
-    },
-    {
-      "id": 38358,
-      "title": "Artemis III NASA announcement highlights : Luca Parmitano assigned as pilot",
-      "authors": [
-        {
-          "name": "ESA",
-          "socials": null
-        }
-      ],
-      "url": "https://www.esa.int/ESA_Multimedia/Videos/2026/06/Artemis_III_NASA_announcement_highlights_Luca_Parmitano_assigned_as_pilot",
-      "image_url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/videos/2026/06/artemis_iii_nasa_announcement_highlights_luca_parmitano_assigned_as_pilot/27317814-2-eng-GB/Artemis_III_NASA_announcement_highlights_Luca_Parmitano_assigned_as_pilot_card_full.png",
-      "news_site": "ESA",
-      "summary": "On 9 June, NASA announced the crew for the Artemis III mission, which includes ESA astronaut Luca Parmitano as pilot. ESA is also providing its third European Service Module for this crewed test flight in Earth orbit, which will be key for the mission\u2019s objective to test rendezvous and docking capabilities ahead of future lunar landing missions. Along with Luca, three NASA astronauts will fly on this mission: commander Randy Bresnik and lander specialists Frank Rubio and Andre Douglas. The crew now begins a rigorous training schedule to learn the Orion spacecraft systems, as well as the operations of the human landing systems, to prepare for an ambitious series of demonstrations ahead of a Moon landing mission.",
-      "published_at": "2026-06-09T17:20:00Z",
-      "updated_at": "2026-06-10T10:04:24.639784Z",
-      "featured": false,
-      "launches": [
-        {
-          "launch_id": "8034d81b-af96-460c-a7b7-5c8e7f1a1d86",
-          "provider": "Launch Library 2"
-        }
-      ],
-      "events": [
-        {
-          "event_id": 1488,
-          "provider": "Launch Library 2"
-        }
-      ]
+      "launches": [],
+      "events": []
     }
   ]
 }

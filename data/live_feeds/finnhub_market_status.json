@@ -2,7 +2,7 @@
   "exchange": "US",
   "holiday": null,
   "isOpen": false,
-  "session": "pre-market",
-  "t": 1781089556,
+  "session": "post-market",
+  "t": 1781218975,
   "timezone": "America/New_York"
 }

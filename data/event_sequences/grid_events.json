@@ -78,13 +78,13 @@
   },
   {
     "event_type": "grid_carbon_intensity",
-    "timestamp": 1781087400.0,
-    "severity_score": 0.287,
+    "timestamp": 1781217000.0,
+    "severity_score": 0.177,
     "domain": "grid",
     "source": "uk_carbon_intensity",
     "metadata": {
-      "actual_gCO2": 115,
-      "forecast_gCO2": 118
+      "actual_gCO2": 71,
+      "forecast_gCO2": 69
     }
   }
 ]

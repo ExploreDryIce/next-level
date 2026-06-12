@@ -1,12 +1,12 @@
 {
   "data": [
     {
-      "from": "2026-06-10T10:30Z",
-      "to": "2026-06-10T11:00Z",
+      "from": "2026-06-11T22:30Z",
+      "to": "2026-06-11T23:00Z",
       "intensity": {
-        "forecast": 118,
-        "actual": 115,
-        "index": "moderate"
+        "forecast": 69,
+        "actual": 71,
+        "index": "low"
       }
     }
   ]

@@ -1,97 +1,253 @@
 {
   "status": "ok",
-  "totalResults": 3341,
+  "totalResults": 3520,
   "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Alexa LoMonaco",
+      "title": "Jim Cramer says investors have 'lost their appetite for danger' as defensive stocks take the lead",
+      "description": "CNBC's Jim Cramer said investors are rotating into defensive sectors, signaling a growing preference for safety over risk.",
+      "url": "https://www.cnbc.com/2026/06/10/jim-cramer-investors-lost-appetite-danger-defensive-stocks-take-lead.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107113454-NUP_198430_00638r.jpg?v=1695164732&w=1920&h=1080",
+      "publishedAt": "2026-06-10T22:23:57Z",
+      "content": "CNBC's Jim Cramer said Wednesday that investors are moving away from riskier parts of the market.\r\nAll three major indexes finished lower. The Dow Jones Industrial Average fell 953 points, or 1.87%, \u2026 [+1553 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "GlobeNewswire"
+      },
+      "author": "SafeSpace Global Corporation",
+      "title": "SafeSpace Global Announces Launch of New Addiction Treatment Vertical, Supported by Signed Master Services Agreement and Conditional $2 Million Funding Commitment",
+      "description": "KNOXVILLE, TN, June 10, 2026 (GLOBE NEWSWIRE) -- SafeSpace Global Corporation (\u201cSafeSpace Global\u201d or the \u201cCompany\u201d), a provider of AI-powered physical safety and security solutions for regulated care environments, today announced the launch of its new\u00a0Addicti\u2026",
+      "url": "https://www.globenewswire.com/news-release/2026/06/10/3310147/0/en/SafeSpace-Global-Announces-Launch-of-New-Addiction-Treatment-Vertical-Supported-by-Signed-Master-Services-Agreement-and-Conditional-2-Million-Funding-Commitment.html",
+      "urlToImage": "https://ml.globenewswire.com/Resource/Download/e95639ca-a47d-4c90-a44e-cf8a03b6a6d2",
+      "publishedAt": "2026-06-10T21:31:00Z",
+      "content": "KNOXVILLE, TN, June 10, 2026 (GLOBE NEWSWIRE) -- SafeSpace Global Corporation (SafeSpace Global or the Company), a provider of AI-powered physical safety and security solutions for regulated care env\u2026 [+7524 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "OCRegister"
+      },
+      "author": "Bloomberg",
+      "title": "A $600 billion experiment kicks off at CalPERS",
+      "description": "It\u2019s the first US public pension to formally adopt the total portfolio approach used by about a dozen sovereign wealth funds in the Asia-Pacific region and Canada.",
+      "url": "https://www.ocregister.com/2026/06/10/a-600-billion-experiment-kicks-off-at-the-biggest-us-pension-fund/",
+      "urlToImage": "https://www.ocregister.com/wp-content/uploads/2026/06/OCR-Z-CALPERS-0614.jpg?w=1024&h=682",
+      "publishedAt": "2026-06-10T21:23:41Z",
+      "content": "By Martin Z Braun | Bloomberg Markets\r\nStephen Gilmores 40-year tour of global finance has given him a front-row seat to the Russian debt crisis, the bailout of a financial giant and the rise of sove\u2026 [+10550 chars]"
+    },
     {
       "source": {
         "id": null,
         "name": "PRNewswire"
       },
       "author": null,
-      "title": "Keeta and ASK Group Announce Joint Venture to Modernize Global Finance From the UAE",
-      "description": "The collaboration brings one of the world's most scalable blockchain networks together with UAE sovereign leadership to transform cross-border remittance and open tens of billions of dollars in Gulf commodities to global investors for the first time. NEW YORK\u2026",
-      "url": "https://www.prnewswire.com/news-releases/keeta-and-ask-group-announce-joint-venture-to-modernize-global-finance-from-the-uae-302794969.html",
-      "urlToImage": null,
-      "publishedAt": "2026-06-09T11:00:00Z",
-      "content": "The collaboration brings one of the world's most scalable blockchain networks together withUAE sovereign leadership to transform cross-border remittance and open tens of billions ofdollars in Gulf co\u2026 [+9189 chars]"
+      "title": "Direct Equity Source Announces Significant New Construction Progress Across Expanding Portfolio",
+      "description": "AUSTIN, Texas, June 10, 2026 /PRNewswire/ -- Direct Equity Source today announced major construction milestones across its growing real estate portfolio, with four new facilities officially breaking ground in key markets across Texas and Florida. These develo\u2026",
+      "url": "https://www.prnewswire.com/news-releases/direct-equity-source-announces-significant-new-construction-progress-across-expanding-portfolio-302797303.html",
+      "urlToImage": "https://mmx.prnewswire.com/media/MS1698866/Direct_Equity_Source_Logo.jpg?id=OA2696965&p=facebook",
+      "publishedAt": "2026-06-10T21:19:00Z",
+      "content": "AUSTIN, Texas, June 10, 2026 /PRNewswire/ -- Direct Equity Source today announced major construction milestones across its growing real estate portfolio, with four new facilities officially breaking \u2026 [+1956 chars]"
+    },
+    {
+      "source": {
+        "id": "abc-news-au",
+        "name": "ABC News (AU)"
+      },
+      "author": "Georgia Hogge",
+      "title": "First home buyers left scrambling as stamp duty exemption ends",
+      "description": "Tasmania's free stamp duty scheme for first home buyers expires at the end of this month, leaving some in an anxious wait to settle before the cut off.",
+      "url": "https://www.abc.net.au/news/2026-06-11/tasmania-first-home-buyer-stamp-duty-exemption-ending/106746228",
+      "urlToImage": "https://live-production.wcms.abc-cdn.net.au/b2943dfec63dede9448696944ea96e83?impolicy=wcms_watermark_news&cropH=2295&cropW=4080&xPos=0&yPos=367&width=862&height=485&imformat=generic",
+      "publishedAt": "2026-06-10T21:16:40Z",
+      "content": "Heith Mineur is about to buy his first home and, like many first-time buyers, he is getting help from the government.\r\nThe 33-year-old is buying using the Tasmanian government's shared equity scheme,\u2026 [+6831 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "HuffPost"
+        "name": "Robb Report"
       },
-      "author": "HuffPost",
-      "title": "Under The Trump Crypto Playbook, The Family Always Wins. Investors Don't.",
-      "description": "The $TRUMP meme coin is one of four crypto projects that have turned into a financial jackpot for the president's family and a very bad bet for buyers.",
-      "url": "https://www.huffpost.com/entry/trump-family-crypto-playbook_n_6a27ecb3e4b0d7105b0d07d0",
-      "urlToImage": "https://img.huffingtonpost.com/asset/6a27ef9c1400004f786b4ac4.jpeg?cache=YLGJwcPUbc&ops=1200_630",
-      "publishedAt": "2026-06-09T10:56:03Z",
-      "content": "June 9 (Reuters) - It was January 2025, crypto fever was raging, and Donald J. Trump was preparing to return to the White House. So when Fatime Elrgdawys friend told her about an online message from \u2026 [+29955 chars]"
+      "author": "Wbowmandirt",
+      "title": "A Pasadena Estate That Starred in \u2018Dynasty\u2019 Just Listed for $45 Million",
+      "description": "Currently owned by \"Avengers: Endgame\" co-director Anthony Russo, the roughly 3-acre spread has also appeared in the film \"Billy Madison\" and the \"Don't Look Back in Anger\" music video by Oasis.",
+      "url": "http://robbreport.com/shelter/celebrity-homes/dynasty-estate-pasadena-1238321721/",
+      "urlToImage": "https://robbreport.com/wp-content/uploads/2026/06/DynastyHouse_PD_FI.jpg?w=681&h=383&crop=1",
+      "publishedAt": "2026-06-10T21:00:00Z",
+      "content": "Linda Evans and Joan Collins made 1980s TV history with\u00a0Dynasty\u2019s\u00a0famous\u00a0lily pond fight. Filmed largely by the legendary actresses themselves, the Season 3 showdown saw an enraged Krystle Carrington\u2026 [+2714 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "GlobeNewswire"
+        "name": "PRNewswire"
       },
-      "author": "SNS Insider pvt ltd",
-      "title": "Precast Concrete Market Size to Skyrocket USD 267.58 Billion by 2035 as Urbanization and Infrastructure Spending Accelerate Worldwide | SNS Insider",
-      "description": "U.S. Precast Concrete Market Set to Reach USD 47.19 Billion by 2035, While Europe Advances Toward USD 59.84 Billion on Sustainable Construction and Green Building Initiatives U.S. Precast Concrete Market Set to Reach USD 47.19 Billion by 2035, While Europe Ad\u2026",
-      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308665/0/en/Precast-Concrete-Market-Size-to-Skyrocket-USD-267-58-Billion-by-2035-as-Urbanization-and-Infrastructure-Spending-Accelerate-Worldwide-SNS-Insider.html",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/d6272c2e-d204-41b8-b545-a6e2e24f85c2",
-      "publishedAt": "2026-06-09T10:45:00Z",
-      "content": "Austin, June 09, 2026 (GLOBE NEWSWIRE) -- According to SNS Insider, The Precast Concrete Market was valued at USD 152.07 Billion in 2025 and is expected to reach USD 267.58 Billion by 2035, growing a\u2026 [+11790 chars]"
+      "author": null,
+      "title": "Lument Finance Trust, Inc. Declares Quarterly Cash Dividends for its Common and Preferred Stock",
+      "description": "NEW YORK, June 10, 2026 /PRNewswire/ -- Lument Finance Trust, Inc. (NYSE: LFT) (\"LFT\" or the \"Company\") announced the declaration of a cash dividend of $0.04 per share of common stock with respect to the second quarter of 2026. The dividend is payable on July\u2026",
+      "url": "https://www.prnewswire.com/news-releases/lument-finance-trust-inc-declares-quarterly-cash-dividends-for-its-common-and-preferred-stock-302797224.html",
+      "urlToImage": "https://mmx.prnewswire.com/media/MS572283/LUMENT-FinanceTrust_Logo.jpg?id=OA2696668&p=facebook",
+      "publishedAt": "2026-06-10T20:30:00Z",
+      "content": "NEW YORK, June 10, 2026 /PRNewswire/ -- Lument Finance Trust, Inc.\u00a0(NYSE:\u00a0LFT) (\"LFT\" or the \"Company\") announced the declaration of a cash dividend of $0.04 per share of common stock with respect to\u2026 [+3061 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "BusinessLine"
+        "name": "Clubinsideronline.com"
       },
-      "author": "Team BL, KS Badri Narayanan",
-      "title": "Sensex today | Stock Market Highlights: Sensex gains 395 pts, Nifty rises to 23,242; Indigo, SBI top gainers",
-      "description": "Sensex, Nifty, Stock Price Highlights: Indian share benchmarks rose on \u200bTuesday, led by lenders after the central bank detailed a \u200cconcessional forex swap facility for banks' overseas foreign-currency borrowings, while \u200ba pause in Israel-Iran hostilities help\u2026",
-      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-9th-june-2026/article71076430.ece",
-      "urlToImage": "https://bl-i.thgim.com/public/incoming/rt3f15/article71076439.ece/alternates/LANDSCAPE_1200/iStock-1255683032%201.jpg",
-      "publishedAt": "2026-06-09T10:30:31Z",
-      "content": "<li></li>\r\nJune 9, 2026 15:58This live blog is closed for the day.\r\n<li></li>\r\nJune 9, 2026 15:48Rupee gains as oil retreat soothes, inflow expectations erode weakening bias\r\nRupee gains as oil retre\u2026 [+61610 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GlobeNewswire"
-      },
-      "author": "Man Group PLC",
-      "title": "Man Group PLC : Form 8.3 - A consortium comprising LondonMetric Property plc and Schroder Real Estate Investment Trust Limited",
-      "description": "FORM 8.3  PUBLIC OPENING POSITION DISCLOSURE/DEALING DISCLOSURE BY A PERSON WITH INTERESTS IN RELEVANT SECURITIES REPRESENTING 1% OR MORERule 8.3 of the...",
-      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308649/0/en/Man-Group-PLC-Form-8-3-A-consortium-comprising-LondonMetric-Property-plc-and-Schroder-Real-Estate-Investment-Trust-Limited.html",
-      "urlToImage": "https://ml-eu.globenewswire.com/Resource/Download/91104804-f792-492b-830c-0b7f53193a71",
-      "publishedAt": "2026-06-09T10:28:00Z",
-      "content": "FORM 8.3\r\nPUBLIC OPENING POSITION DISCLOSURE/DEALING DISCLOSURE BY A PERSON WITH INTERESTS IN RELEVANT SECURITIES REPRESENTING 1% OR MORERule 8.3 of the Takeover Code (the Code)\r\n1.\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0KEY INFORM\u2026 [+9842 chars]"
+      "author": null,
+      "title": "Orangetheory Fitness Announces Expansion into Italy | Health and Fitness Club Industry News",
+      "description": "BOCA RATON, FL, WOODBURY, MN and ROME - Purpose Brands, one of the world's largest and most trusted portfolios of fitness, health and wellness franchise brands, announces that Icon Palestre, an Italian fitness management company led by CEO Felice Orsinetti, h\u2026",
+      "url": "http://www.clubinsideronline.com/news/chains/orangetheory-fitness-announces-expansion-into-italy/",
+      "urlToImage": "http://www.clubinsideronline.com/global/images/emblem.png",
+      "publishedAt": "2026-06-10T20:17:26Z",
+      "content": "Posted:June 4, 2026 in Chains\r\n&lt;&lt; Next StoryPrevious Story &gt;&gt;\r\nOrangetheory Fitness\r\nBOCA RATON, FL, WOODBURY, MN and ROME \u2013 Purpose Brands, one of the world\u2019s largest and most trusted po\u2026 [+2930 chars]"
     },
     {
       "source": {
         "id": "the-times-of-india",
         "name": "The Times of India"
       },
-      "author": "PTI",
-      "title": "Godrej Properties sells over 1,000 apartments in Bengaluru for Rs 2,000 crore",
-      "description": "Godrej Properties has achieved a significant milestone in Bengaluru. The company sold more than 1,000 apartments in its new residential project, Godrej Vanantara. This sale generated over Rs 2,000 crore. The project, launched in early June, spans 36 acres. Th\u2026",
-      "url": "https://economictimes.indiatimes.com/industry/services/property-/-cstruction/godrej-properties-sells-over-1000-apartments-in-bengaluru-for-rs-2000-crore/articleshow/131607968.cms",
-      "urlToImage": "https://img.etimg.com/thumb/msid-131607980,width-1200,height-630,imgsize-55844,overlay-economictimes/articleshow.jpg",
-      "publishedAt": "2026-06-09T10:11:21Z",
-      "content": "New Delhi, Godrej Properties on Tuesday said it has sold more than 1,000 apartments in Bengaluru for Rs 2,000 crore in its newly-launched residential project.In a regulatory filing, the company said \u2026 [+838 chars]"
+      "author": "Reuters",
+      "title": "US stocks: US market indexes fall over 1%, dragged by tech and Iran war worries",
+      "description": "Major US stock markets experienced a significant drop on Wednesday. Chipmaker stocks continued their decline, while new tensions between the US and Iran added to investor worries. The S&P 500, Nasdaq Composite, and Dow Jones Industrial Average all saw substan\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-markets-indexes-fall-1-dragged-by-tech-and-iran-war-worries/articleshow/131644160.cms",
+      "urlToImage": "https://img.etimg.com/thumb/msid-131644167,width-1200,height-630,imgsize-123210,overlay-etmarkets/articleshow.jpg",
+      "publishedAt": "2026-06-10T20:01:52Z",
+      "content": "President Donald Trump said the U.S. would attack Iran again \"very hard\" following one of the most significant exchanges of fire overnight since an April ceasefire in the Middle East war. An index of\u2026 [+2352 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Slate Magazine"
+      },
+      "author": "Alex Kirshner",
+      "title": "The New York Knicks\u2019 Moment Is Even Bigger Than It Looks",
+      "description": "The New York Knicks have become the story that everyone\u2019s talking about\u2014even the country\u2019s most powerful figures.",
+      "url": "https://slate.com/culture/2026/06/new-york-knicks-basketball-trump-mamdani.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/dGVAGkf9w3mB.2OWZxoKLQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/slate_773/bc90fb96c25b4014f4539f1a35ea5f7d",
+      "publishedAt": "2026-06-10T19:45:00Z",
+      "content": "Theres no monoculture anymore. Sometimes, something feels like it has the attention of every person in the country, like the Game of Thrones finale or a presidential debate. But then it turns out tha\u2026 [+7291 chars]"
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "AFP",
+      "title": "'The Donald of Dubai': UAE billionaire close to Trump bets $66 billion on AI to become the world's data king",
+      "description": "UAE real estate magnate Hussain Sajwani is investing billions in data centers to capitalize on the AI boom, aiming for global leadership. His company, DAMAC Digital, has secured sites in 13 countries and plans to build 6,000 megawatts of capacity, costing $66\u2026",
+      "url": "https://economictimes.indiatimes.com/news/international/uae/the-donald-of-dubai-uae-billionaire-close-to-trump-bets-66-billion-on-ai-to-become-the-worlds-data-king/articleshow/131643926.cms",
+      "urlToImage": "https://img.etimg.com/thumb/msid-131643957,width-1200,height-630,imgsize-76802,overlay-economictimes/articleshow.jpg",
+      "publishedAt": "2026-06-10T19:21:23Z",
+      "content": "Dubai: A UAE real estate magnate close to Donald Trump is pumping billions of dollars into data centres, hoping to cash in on the AI boom and become the global leader in the field.DAMAC Properties ch\u2026 [+3720 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Real Deal"
+      },
+      "author": "Grace McClung",
+      "title": "Pompano Beach mansion sells near $14M as high-end development takes hold",
+      "description": "An oceanfront Pompano Beach mansion fetched $13.8 million, making it the city\u2019s most-expensive single-family home sale ever.\u00a0 The sale of the 7,760-square-foot home at 2306 Bay Drive broke down to $1,780 per square foot. It shattered the previous record set b\u2026",
+      "url": "https://therealdeal.com/miami/2026/06/10/pompano-beach-mansion-sells-for-13-8-million-in-town-record/",
+      "urlToImage": "https://static.therealdeal.com/wp-content/uploads/2026/06/MIA_Pompano-Record-700x467.jpg",
+      "publishedAt": "2026-06-10T19:00:00Z",
+      "content": "An oceanfront Pompano Beach mansion fetched $13.8 million, making it the citys most-expensive single-family home sale ever.\u00a0\r\nThe sale of the 7,760-square-foot home at 2306 Bay Drive broke down to $1\u2026 [+2347 chars]"
+    },
+    {
+      "source": {
+        "id": "fortune",
+        "name": "Fortune"
+      },
+      "author": "John Kell",
+      "title": "How the World Cup is a high-stakes stage for Big Tech\u2019s AI push",
+      "description": "The World Cup, which kicks off on June 11, is a big moment for large tech players such as Lenovo, Google, and Salesforce to show off their AI capabilities.",
+      "url": "https://fortune.com/2026/06/10/world-cup-big-tech-lenovo-google/",
+      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/06/GettyImages-2279154447_60b2c3.jpg?resize=1200,600",
+      "publishedAt": "2026-06-10T18:59:52Z",
+      "content": "Personal-computer maker Lenovos World Cup debut as FIFAs official technology partner encompasses AI-enabled phones and tablets, an AI assistant thats offered to all participating teams, and even the \u2026 [+13708 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Commercial Observer"
       },
-      "author": "Mark Hallum",
-      "title": "In Life Sciences Real Estate, Times Are Tough. That Spells Opportunity for Some.",
-      "description": "The life sciences market has been sailing into a perfect storm since the pandemic, when lab space was flying off the shelves and investors began staking a claim in the asset class as a hedge against vacancies in office and retail. Now, the pandemic is long ov\u2026",
-      "url": "http://commercialobserver.com/2026/06/life-sciences-real-estate-conversions/",
-      "urlToImage": "https://commercialobserver.com/wp-content/uploads/sites/3/2026/06/science-lab-GettyImages-2243722497-WEB.jpg?quality=80&w=1200&h=630&crop=1",
-      "publishedAt": "2026-06-09T10:00:54Z",
-      "content": "The life sciences market has been sailing into a perfect storm since the pandemic, when lab space was flying off the shelves and investors began staking a claim in the asset class as a hedge against \u2026 [+10495 chars]"
+      "author": "Gregory Cornfield",
+      "title": "Bay Club Company Buys El Segundo, Calif., Property for $46M",
+      "description": "Bay Club Company, which owns more than 35 recreation and lifestyle clubs on the West Coast, is expanding its real estate portfolio in Greater Los Angeles. Bay Club announced it put down $42 million to acquire a 5.4-acre campus that is home to Bay Club El Segu\u2026",
+      "url": "http://commercialobserver.com/2026/06/bay-club-la-continental-park/",
+      "urlToImage": "https://commercialobserver.com/wp-content/uploads/sites/3/2026/06/Bay-Club-El-Segundo-credit-Bay-Club-Company-WEB.jpg?quality=80&w=1200&h=630&crop=1",
+      "publishedAt": "2026-06-10T18:45:55Z",
+      "content": "Bay Club Company, which owns more than 35 recreation and lifestyle clubs on the West Coast, is expanding its real estate portfolio in Greater Los Angeles.\r\nBay Club announced it put down $42 million \u2026 [+2358 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Robb Report"
+      },
+      "author": "Abigailtmontanez",
+      "title": "An Opulent Gilded Age Manhattan Townhouse Returns to Market for $17 Million",
+      "description": "At 20 feet wide and 90 feet deep, the Upper East Side home packs in five bedrooms, a private elevator, eight fireplaces, and grand entertaining space.",
+      "url": "http://robbreport.com/shelter/homes-for-sale/gilded-age-manhattan-townhouse-relists-for-17-million-1238324303/",
+      "urlToImage": "https://robbreport.com/wp-content/uploads/2026/06/163-East-64th-Street.jpg?w=681&h=383&crop=1",
+      "publishedAt": "2026-06-10T18:00:00Z",
+      "content": "The Neo-Georgian mansion at 163 East 64th Street has become something of a New York real estate curiosity, appearing on and off the market since 2003 and cycling through multiple brokerages along the\u2026 [+3352 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PCMag.com"
+      },
+      "author": "Kimberly Gedeon",
+      "title": "iOS 27 All But Confirmed an iPhone Fold Is Coming",
+      "description": "While Apple kept the spotlight on Siri AI and Apple Intelligence at WWDC 2026, several iOS 27 additions appear to be laying the groundwork for future hardware.\nApple will never confirm its rumored \"iPhone Fold\" until it actually announces one. But it's clear \u2026",
+      "url": "https://uk.pcmag.com/ios/165500/ios-27-all-but-confirmed-an-iphone-fold-is-coming",
+      "urlToImage": "https://sm.pcmag.com/t/pcmag_uk/opinion/i/ios-27-all/ios-27-all-but-confirmed-an-iphone-fold-is-coming_qp97.1200.jpg",
+      "publishedAt": "2026-06-10T17:59:09Z",
+      "content": "Apple will never confirm its rumored \"iPhone Fold\" until it actually announces one. But it's clear the company's first foray into the foldable market is right around the corner. At WWDC 2026, the Cup\u2026 [+3621 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PCMag.com"
+      },
+      "author": "Kimberly Gedeon",
+      "title": "iOS 27 All But Confirmed an iPhone Fold Is Coming",
+      "description": "While Apple kept the spotlight on Siri AI and Apple Intelligence at WWDC 2026, several iOS 27 additions appear to be laying the groundwork for future hardware.\nApple will never confirm its rumored \"iPhone Fold\" until it actually announces one. But it's clear \u2026",
+      "url": "https://uk.pcmag.com/ios/165500/ios-27-all-but-confirmed-an-iphone-fold-is-coming-wwdc-2026",
+      "urlToImage": "https://sm.pcmag.com/t/pcmag_uk/opinion/i/ios-27-all/ios-27-all-but-confirmed-an-iphone-fold-is-coming_jxjr.1200.jpg",
+      "publishedAt": "2026-06-10T17:59:09Z",
+      "content": "Apple will never confirm its rumored \"iPhone Fold\" until it actually announces one. But it's clear the company's first foray into the foldable market is right around the corner. At WWDC 2026, the Cup\u2026 [+3621 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Livemint"
+      },
+      "author": "Anshika Kayastha",
+      "title": "RBI tightens REIT, InvIT bank lending rules; rejects push for broader refinancing and land finance",
+      "description": "The central bank has capped bank exposure to completed, cash-generating assets, setting a 49% limit and barring refinancing of under-construction projects, as it issues final rules effective April 2027.",
+      "url": "https://www.livemint.com/industry/banking/rbi-tightens-reit-invit-bank-lending-rules-rejects-refinancing-land-finance-11781100909190.html",
+      "urlToImage": "https://www.livemint.com/lm-img/img/2026/06/10/1600x900/logo/INDIA-BANKS-FITCH-0_1781113812829_1781113825516_3d50e40d-0dfa-473f-af4d-755eeb881af7.JPG",
+      "publishedAt": "2026-06-10T17:57:46Z",
+      "content": "Mumbai: The Reserve Bank of India has tightened rules governing banks exposure to real estate investment trusts (Reits) and infrastructure investment trusts (InvITs), rejecting industry requests to p\u2026 [+4648 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Cristian Dina",
+      "title": "SpaceX\u2019s IPO is expected to mint 4,000 new millionaires, from engineers to cafeteria workers",
+      "description": "More than 4,000 current and former SpaceX employees are expected to become millionaires when the company begins trading on Nasdaq this week, according to an analysis by Hill.com. Of those, approximately 400 are projected to hold stakes worth $100 million or m\u2026",
+      "url": "https://thenextweb.com/news/spacex-ipo-4000-millionaires-employees-wealth/",
+      "urlToImage": "https://media.thenextweb.com/2021/02/Elon-Musk-photo-by-Daniel-Oberhaus.avif",
+      "publishedAt": "2026-06-10T17:55:43Z",
+      "content": "TL;DR\r\nSpaceXs IPO is expected to create over 4,000 new millionaires, from engineers to cafeteria workers. Pricing is set for Wednesday at $135/share, with a $1.8 trillion Nasdaq listing on Thursday.\u2026 [+3737 chars]"
     },
     {
       "source": {
@@ -99,168 +255,12 @@
         "name": "PRNewswire"
       },
       "author": null,
-      "title": "H.I.G. WhiteHorse Provides Financing to Novacel",
-      "description": "LONDON, June 9, 2026 /PRNewswire/ -- H.I.G. WhiteHorse, the credit affiliate of H.I.G. Capital (\"H.I.G.\"), a leading global alternative investment firm with $75 billion of capital under management, is pleased to announce that it has provided financing to supp\u2026",
-      "url": "https://www.prnewswire.com/news-releases/hig-whitehorse-provides-financing-to-novacel-302794567.html",
-      "urlToImage": "https://mmx.prnewswire.com/media/MS675027/HIG_WhiteHorse_Logo.jpg?id=OA2692354&p=facebook",
-      "publishedAt": "2026-06-09T10:00:00Z",
-      "content": "LONDON, June 9, 2026 /PRNewswire/ --\u00a0H.I.G. WhiteHorse, the credit affiliate of H.I.G. Capital (\"H.I.G.\"), a leading global alternative investment firm with $75 billion of capital under management, i\u2026 [+3980 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "PRNewswire"
-      },
-      "author": null,
-      "title": "Newmark Secures \u00a3325 Million Financing for 30 Fenchurch Street on Behalf of Brookfield",
-      "description": "LONDON, June 9, 2026 /PRNewswire/ -- Newmark Group, Inc. (Nasdaq: NMRK) (\"Newmark\" or \"the Company\"), a leading commercial real estate advisor and service provider to large institutional investors, global corporations, and other owners and occupiers, announce\u2026",
-      "url": "https://www.prnewswire.com/news-releases/newmark-secures-325-million-financing-for-30-fenchurch-street-on-behalf-of-brookfield-302794626.html",
-      "urlToImage": "https://mmx.prnewswire.com/media/MS533231/Newmark_Group_Logo_v1.jpg?id=OA2692681&p=facebook",
-      "publishedAt": "2026-06-09T10:00:00Z",
-      "content": "LONDON, June 9, 2026 /PRNewswire/ -- Newmark Group, Inc.\u00a0(Nasdaq: NMRK) (\"Newmark\" or \"the Company\"), a leading commercial real estate advisor and service provider to large institutional investors, g\u2026 [+2886 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "PRNewswire"
-      },
-      "author": null,
-      "title": "H.I.G. WhiteHorse Provides Financing to Novacel",
-      "description": "LONDON, June 9, 2026 /PRNewswire/ -- H.I.G. WhiteHorse, the credit affiliate of H.I.G. Capital (\"H.I.G.\"), a leading global alternative investment firm with $75 billion of capital under management, is pleased to announce that it has provided financing to supp\u2026",
-      "url": "https://www.prnewswire.com/news-releases/hig-whitehorse-provides-financing-to-novacel-302794591.html",
-      "urlToImage": "https://mmx.prnewswire.com/media/MS675027/HIG_WhiteHorse_Logo.jpg?id=OA2692718&p=facebook",
-      "publishedAt": "2026-06-09T10:00:00Z",
-      "content": "LONDON, June 9, 2026 /PRNewswire/ --\u00a0H.I.G. WhiteHorse, the credit affiliate of H.I.G. Capital (\"H.I.G.\"), a leading global alternative investment firm with $75 billion of capital under management, i\u2026 [+3952 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "PRNewswire"
-      },
-      "author": null,
-      "title": "Realtor.com\u00ae Gives America's 87 Million Homeowners a Smarter Way to Manage Their Most Valuable Asset",
-      "description": "New buyer demand signals and buying power integration gives homeowners an exclusive intelligence hub to understand, manage, and unlock the full potential of their home. AUSTIN, Texas, June 9, 2026 /PRNewswire/ -- Realtor.com\u00ae today unveiled a major upgrade to\u2026",
-      "url": "https://www.prnewswire.com/news-releases/realtorcom-gives-americas-87-million-homeowners-a-smarter-way-to-manage-their-most-valuable-asset-302794559.html",
-      "urlToImage": "https://i.ytimg.com/vi/Hwcwz4lVfZU/hqdefault.jpg",
-      "publishedAt": "2026-06-09T10:00:00Z",
-      "content": "\"Homeownership has always come with big questions, but until now the answers have been scattered across different tools, sites and conversations,\" said Dave Herman, SVP of Product and AI Innovation a\u2026 [+3434 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Crypto Briefing"
-      },
-      "author": "Editorial Team",
-      "title": "Blackstone seeks to sell $2B in fund stakes by bundling them into bonds",
-      "description": "Blackstone's move could reshape liquidity strategies in private equity, potentially influencing other asset managers to adopt similar approaches.\nThe post Blackstone seeks to sell $2B in fund stakes by bundling them into bonds appeared first on Crypto Briefin\u2026",
-      "url": "https://cryptobriefing.com/blackstone-sells-2b-fund-stakes-bonds/",
-      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/09054026/blackstone-is-seeking-to-offload-2b-of-private-fund-stakes-r-1-800x420.jpeg",
-      "publishedAt": "2026-06-09T09:40:28Z",
-      "content": "The alternative asset giant is marketing one of the largest collateralized fund obligation deals in recent years, targeting insurers and institutional buyers hungry for yield. Blackstone is looking t\u2026 [+3742 chars]"
-    },
-    {
-      "source": {
-        "id": "news24",
-        "name": "News24"
-      },
-      "author": "Helena Wasserman",
-      "title": "News24 | Surprisingly strong SA economy beats expectations",
-      "description": "South Africa\u2019s economy grew by 0.5% in the first three months of 2026 compared to the previous quarter.",
-      "url": "https://www.news24.com/business/economy/surprisingly-strong-sa-economy-beats-expectations-20260609-0579",
-      "urlToImage": "https://news24cobalt.24.co.za/resources/02a5-209991630b23-791a3e0b3f4a-1000/format/inline/gettyimages-1179153715.jpeg",
-      "publishedAt": "2026-06-09T09:39:23Z",
-      "content": "South Africas economy grew by 0.5% in the first three months of 2026 compared to the previous quarter.\r\nThis was stronger than expected. Economists polled by Reuters forecast GDP growth of 0.3% quart\u2026 [+3080 chars]"
-    },
-    {
-      "source": {
-        "id": "the-times-of-india",
-        "name": "The Times of India"
-      },
-      "author": "TIMESOFINDIA.COM",
-      "title": "10 popular home design styles shaping modern real estate",
-      "description": "The current housing market goes beyond location and cost alone. Buyers today consider the design and function as well as its suitability for their lifestyles. There are several types of homes available on the market to suit the different requirements of indiv\u2026",
-      "url": "https://timesofindia.indiatimes.com/real-estate/news/10-popular-home-design-styles-shaping-modern-real-estate/photostory/131606699.cms",
-      "urlToImage": "https://static.toiimg.com/thumb/msid-131606716,width-1280,height-720,imgsize-28964,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "publishedAt": "2026-06-09T09:10:46Z",
-      "content": "Villa style houses are a representation of luxurious homes. They are usually found in prime gated neighbourhoods or as stand-alone homes. Villa houses provide spacious interior and exterior rooms alo\u2026 [+684 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "PRNewswire"
-      },
-      "author": null,
-      "title": "Hong Kong Strengthens its status as Asia's Travel and Hospitality Powerhouse with AHOCA's Asia Hub Launch, Catalysing deeper Cross-Border Industry Collaboration",
-      "description": "HONG KONG, June 9, 2026 /PRNewswire/ -- The America Hotel Owners Charitable Association (AHOCA) Asia (powered by CSTS Enterprises & Connexus Travel) successfully held its official launch event on 26 May 2026. As the organisation's first regional chapter outsi\u2026",
-      "url": "https://www.prnewswire.com/news-releases/hong-kong-strengthens-its-status-as-asias-travel-and-hospitality-powerhouse-with-ahocas-asia-hub-launch-catalysing-deeper-cross-border-industry-collaboration-302795059.html",
-      "urlToImage": "https://mma.prnewswire.com/media/2996208/P_0050.jpg?p=facebook",
-      "publishedAt": "2026-06-09T08:51:00Z",
-      "content": "HONG KONG, June 9, 2026 /PRNewswire/ -- The America Hotel Owners Charitable Association (AHOCA) Asia (powered by CSTS Enterprises &amp; Connexus Travel) successfully held its official launch event on\u2026 [+5110 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Inman"
-      },
-      "author": "Marian McPherson",
-      "title": "Johnny DelPrete on golf and the art of networking",
-      "description": "Douglas Elliman agent and former professional golfer Johnny DelPrete shares the key to building a solid network in the luxury market.",
-      "url": "https://www.inman.com/2026/06/09/johnny-delprete-golf-real-estate-networking-luxury-market/",
-      "urlToImage": "https://assets.inman.com/wp-content/uploads/2026/06/johnny-delprete-1024x576.png",
-      "publishedAt": "2026-06-09T08:45:58Z",
-      "content": "Douglas Elliman agent Johnny DelPrete spent much of his early life on the green, sharpening his skills as a golfer.\r\nAdjusting the twist of his wrist, strengthening his hip alignment, taking stock of\u2026 [+4298 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Inman"
-      },
-      "author": "Maris Callahan Messervey",
-      "title": "Short-form videos that engage clients in 30 seconds (or less)",
-      "description": "The agents winning on video right now aren't the ones with the best gear, Maris Callahan Messervey writes. They're the ones who started before they felt ready and got better as they went.",
-      "url": "https://www.inman.com/2026/06/09/short-form-videos-that-engage-clients-in-30-seconds-or-less/",
-      "urlToImage": "https://assets.inman.com/wp-content/uploads/2026/06/MURDOCK-1860x1046-2026-06-08T143428.010-1024x576.jpg",
-      "publishedAt": "2026-06-09T08:45:36Z",
-      "content": "If the idea of getting on camera makes you cringe, youre not alone. For years, agents have struggled with a lack of time, equipment or on-camera confidence to commit to a consistent video strategy.\r\n\u2026 [+7382 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BusinessLine"
-      },
-      "author": "PTI",
-      "title": "Indian employers turn cautious over hiring in July-Sep amid global uncertainties: Report",
-      "description": "Indian employers are slowing hiring in Q3 2026 due to economic uncertainties, despite remaining optimistic about growth opportunities.",
-      "url": "https://www.thehindubusinessline.com/news/indian-employers-turn-cautious-over-hiring-in-july-sep-amid-global-uncertainties-report/article71079889.ece",
-      "urlToImage": "https://bl-i.thgim.com/public/incoming/kujrjl/article71079922.ece/alternates/LANDSCAPE_1200/iStock-1061615692.jpg",
-      "publishedAt": "2026-06-09T08:43:39Z",
-      "content": "Corporate India is expected to scale back hiring plans in the July-September quarter, signalling a slowdown in the job market, as employers are likely to opt for a more measured approach amid rising \u2026 [+3374 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GlobeNewswire"
-      },
-      "author": "Dimensional Fund Advisors Ltd",
-      "title": "Dimensional Fund Advisors Ltd. : Form 8.3 - PICTON PROPERTY INCOME LTD - Ordinary Shares",
-      "description": "FORM 8.3  PUBLIC OPENING POSITION DISCLOSURE/DEALING DISCLOSURE BYA PERSON WITH INTERESTS IN RELEVANT SECURITIES REPRESENTING 1% OR MORERule 8.3 of the...",
-      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308615/0/en/Dimensional-Fund-Advisors-Ltd-Form-8-3-PICTON-PROPERTY-INCOME-LTD-Ordinary-Shares.html",
-      "urlToImage": null,
-      "publishedAt": "2026-06-09T08:35:00Z",
-      "content": "FORM 8.3\r\nPUBLIC OPENING POSITION DISCLOSURE/DEALING DISCLOSURE BYA PERSON WITH INTERESTS IN RELEVANT SECURITIES REPRESENTING 1% OR MORERule 8.3 of the Takeover Code (the Code)\r\n<table><tr><td>1.</td\u2026 [+8548 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GlobeNewswire"
-      },
-      "author": "Dimensional Fund Advisors Ltd",
-      "title": "Dimensional Fund Advisors Ltd. : Form 8.3 - Consortium comprising LondonMetric Property plc and Schroder Real Estate Investment Trust Limited",
-      "description": "FORM 8.3  PUBLIC OPENING POSITION DISCLOSURE/DEALING DISCLOSURE BYA PERSON WITH INTERESTS IN RELEVANT SECURITIES REPRESENTING 1% OR MORERule 8.3 of the...",
-      "url": "https://www.globenewswire.com/news-release/2026/06/09/3308614/0/en/Dimensional-Fund-Advisors-Ltd-Form-8-3-Consortium-comprising-LondonMetric-Property-plc-and-Schroder-Real-Estate-Investment-Trust-Limited.html",
-      "urlToImage": null,
-      "publishedAt": "2026-06-09T08:34:00Z",
-      "content": "FORM 8.3\r\nPUBLIC OPENING POSITION DISCLOSURE/DEALING DISCLOSURE BYA PERSON WITH INTERESTS IN RELEVANT SECURITIES REPRESENTING 1% OR MORERule 8.3 of the Takeover Code (the Code)\r\n1.KEY INFORMATION\r\n<t\u2026 [+8056 chars]"
+      "title": "NAI Burns Scalo Grows Florida Market Share, Announces Major Expansion into Southwest Florida with Key Acquisition",
+      "description": "FT. MYERS, Fla., June 10, 2026 /PRNewswire/ -- NAI Burns Scalo, a nationally renowned commercial real estate firm has acquired Cushman & Wakefield | Commercial Property Southwest Florida (CPSWFL) in Fort Myers. The acquisition was led by Brian Walker, Preside\u2026",
+      "url": "https://www.prnewswire.com/news-releases/nai-burns-scalo-grows-florida-market-share-announces-major-expansion-into-southwest-florida-with-key-acquisition-302796944.html",
+      "urlToImage": "https://mmx.prnewswire.com/media/MS1861363/NAI_Burns_Scalo_President_of_NAI_Burns_Scalo_Brian_Walker.jpg?id=OA2696028&p=facebook",
+      "publishedAt": "2026-06-10T17:54:00Z",
+      "content": "This evolution underscores the firm's commitment to building a full-service platform in Florida. Since announcing the opening of its Tampa office in March of 2025, NAI Burns Scalo has experienced tre\u2026 [+4716 chars]"
     }
   ]
 }

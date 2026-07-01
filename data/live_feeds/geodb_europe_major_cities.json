@@ -1,0 +1,169 @@
+{
+  "links": [
+    {
+      "rel": "first",
+      "href": "/v1/geo/cities?offset=0&limit=10&countryIds=DE,FR,GB,NL&sort=-population&minPopulation=500000"
+    },
+    {
+      "rel": "next",
+      "href": "/v1/geo/cities?offset=10&limit=10&countryIds=DE,FR,GB,NL&sort=-population&minPopulation=500000"
+    },
+    {
+      "rel": "last",
+      "href": "/v1/geo/cities?offset=160&limit=10&countryIds=DE,FR,GB,NL&sort=-population&minPopulation=500000"
+    }
+  ],
+  "data": [
+    {
+      "id": 3602356,
+      "wikiDataId": "Q23306",
+      "type": "CITY",
+      "city": "Greater London",
+      "name": "Greater London",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "England",
+      "regionCode": "ENG",
+      "regionWdId": "Q21",
+      "latitude": 51.52,
+      "longitude": -0.1,
+      "population": 8866180
+    },
+    {
+      "id": 45633,
+      "wikiDataId": "Q84",
+      "type": "CITY",
+      "city": "London",
+      "name": "London",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "England",
+      "regionCode": "ENG",
+      "regionWdId": "Q21",
+      "latitude": 51.507222222,
+      "longitude": -0.1275,
+      "population": 8799728
+    },
+    {
+      "id": 3851765,
+      "wikiDataId": "Q806",
+      "type": "CITY",
+      "city": "Randstad",
+      "name": "Randstad",
+      "country": "Netherlands",
+      "countryCode": "NL",
+      "latitude": 52.190833,
+      "longitude": 4.655556,
+      "population": 8400000
+    },
+    {
+      "id": 3702050,
+      "wikiDataId": "Q48006",
+      "type": "ADM2",
+      "city": "East of England",
+      "name": "East of England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "England",
+      "regionCode": "ENG",
+      "regionWdId": "Q21",
+      "latitude": 52.24,
+      "longitude": 0.41,
+      "population": 6398497
+    },
+    {
+      "id": 3702084,
+      "wikiDataId": "Q48026",
+      "type": "ADM2",
+      "city": "South West England",
+      "name": "South West England",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "England",
+      "regionCode": "ENG",
+      "regionWdId": "Q21",
+      "latitude": 50.96,
+      "longitude": -3.22,
+      "population": 5764881
+    },
+    {
+      "id": 143471,
+      "wikiDataId": "Q7926",
+      "type": "ADM2",
+      "city": "D\u00fcsseldorf Government Region",
+      "name": "D\u00fcsseldorf Government Region",
+      "country": "Germany",
+      "countryCode": "DE",
+      "region": "North Rhine-Westphalia",
+      "regionCode": "NW",
+      "regionWdId": "Q1198",
+      "latitude": 51.42,
+      "longitude": 6.67,
+      "population": 5244379
+    },
+    {
+      "id": 3600982,
+      "wikiDataId": "Q163",
+      "type": "ADM2",
+      "city": "Yorkshire",
+      "name": "Yorkshire",
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "region": "England",
+      "regionCode": "ENG",
+      "regionWdId": "Q21",
+      "latitude": 53.958333333,
+      "longitude": -1.083333333,
+      "population": 5234700
+    },
+    {
+      "id": 143464,
+      "wikiDataId": "Q10562",
+      "type": "ADM2",
+      "city": "Upper Bavaria",
+      "name": "Upper Bavaria",
+      "country": "Germany",
+      "countryCode": "DE",
+      "region": "Bavaria",
+      "regionCode": "BY",
+      "regionWdId": "Q980",
+      "latitude": 48.133333,
+      "longitude": 11.566667,
+      "population": 4588944
+    },
+    {
+      "id": 22676,
+      "wikiDataId": "Q7927",
+      "type": "ADM2",
+      "city": "Cologne Government Region",
+      "name": "Cologne Government Region",
+      "country": "Germany",
+      "countryCode": "DE",
+      "region": "North Rhine-Westphalia",
+      "regionCode": "NW",
+      "regionWdId": "Q1198",
+      "latitude": 50.83,
+      "longitude": 6.92,
+      "population": 4486282
+    },
+    {
+      "id": 143478,
+      "wikiDataId": "Q8172",
+      "type": "ADM2",
+      "city": "Stuttgart Government Region",
+      "name": "Stuttgart Government Region",
+      "country": "Germany",
+      "countryCode": "DE",
+      "region": "Baden-W\u00fcrttemberg",
+      "regionCode": "BW",
+      "regionWdId": "Q985",
+      "latitude": 49.0,
+      "longitude": 9.67,
+      "population": 4167550
+    }
+  ],
+  "metadata": {
+    "currentOffset": 0,
+    "totalCount": 161
+  }
+}

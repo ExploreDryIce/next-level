@@ -178,13 +178,120 @@ class AgentWorker:
         return output[-1000:]
 
     def _do_crawl(self, params: dict) -> str:
+        """Crawl a URL with playwright (JS-rendered) or httpx (simple).
+
+        Params:
+            url: Target URL (required)
+            mode: "full" (playwright, default) | "simple" (httpx only)
+            wait_for: CSS selector to wait for before extracting (optional)
+            extract: "text" (default) | "html" | "links" | "tables"
+            screenshot: True/False — save screenshot to data/crawl_screenshots/
+            timeout: Page load timeout in ms (default 30000)
+        """
         url = params.get("url", "")
         if not url:
             return "No URL provided"
-        cmd = f'python -c "import httpx; r=httpx.get(\'{url}\', timeout=30); print(f\'Status: {{r.status_code}}, Size: {{len(r.content)}}\')"'
-        result = subprocess.run(cmd, shell=True, capture_output=True, text=True,
-                               cwd=str(BASE_DIR), timeout=60)
-        return result.stdout[-500:] if result.stdout else result.stderr[-500:]
+
+        mode = params.get("mode", "full")
+        extract = params.get("extract", "text")
+        wait_for = params.get("wait_for", "")
+        take_screenshot = params.get("screenshot", False)
+        timeout = params.get("timeout", 30000)
+
+        if mode == "simple":
+            # Fast path — no browser needed
+            import httpx
+            try:
+                r = httpx.get(url, timeout=30, follow_redirects=True,
+                              headers={"User-Agent": "DVCE-Swarm/1.0"})
+                return f"Status: {r.status_code}, Size: {len(r.content)}\n\n{r.text[:2000]}"
+            except Exception as e:
+                return f"Simple crawl failed: {e}"
+
+        # Full playwright crawl
+        script = f'''
+import asyncio
+import json
+from pathlib import Path
+from playwright.async_api import async_playwright
+
+async def crawl():
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        context = await browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
+        page = await context.new_page()
+
+        try:
+            await page.goto("{url}", wait_until="networkidle", timeout={timeout})
+        except Exception as e:
+            await page.goto("{url}", wait_until="domcontentloaded", timeout={timeout})
+
+        if "{wait_for}":
+            try:
+                await page.wait_for_selector("{wait_for}", timeout=10000)
+            except:
+                pass
+
+        result = {{}}
+        result["url"] = page.url
+        result["title"] = await page.title()
+
+        extract_mode = "{extract}"
+        if extract_mode == "text":
+            result["content"] = (await page.inner_text("body"))[:5000]
+        elif extract_mode == "html":
+            result["content"] = (await page.content())[:10000]
+        elif extract_mode == "links":
+            links = await page.eval_on_selector_all("a[href]",
+                "els => els.map(e => ({{text: e.innerText.trim().slice(0,80), href: e.href}})).filter(l => l.text && l.href.startsWith('http')).slice(0, 50)")
+            result["content"] = json.dumps(links, indent=2)
+        elif extract_mode == "tables":
+            tables = await page.eval_on_selector_all("table",
+                "els => els.map(t => ({{rows: t.rows.length, headers: Array.from(t.querySelectorAll('th')).map(h => h.innerText.trim())}})).slice(0, 10)")
+            result["content"] = json.dumps(tables, indent=2)
+
+        screenshot_taken = False
+        if {take_screenshot}:
+            ss_dir = Path("data/crawl_screenshots")
+            ss_dir.mkdir(parents=True, exist_ok=True)
+            import time
+            ss_path = ss_dir / f"crawl_{{int(time.time())}}.png"
+            await page.screenshot(path=str(ss_path), full_page=True)
+            result["screenshot"] = str(ss_path)
+            screenshot_taken = True
+
+        await browser.close()
+        print(json.dumps(result))
+
+asyncio.run(crawl())
+'''
+        result = subprocess.run(
+            ["python", "-c", script],
+            capture_output=True, text=True,
+            cwd=str(BASE_DIR), timeout=90
+        )
+
+        if result.returncode == 0 and result.stdout.strip():
+            try:
+                data = json.loads(result.stdout.strip())
+                output = f"Title: {data.get('title', '?')}\nURL: {data.get('url', url)}\n"
+                if data.get("screenshot"):
+                    output += f"Screenshot: {data['screenshot']}\n"
+                output += f"\n{data.get('content', '')[:3000]}"
+                return output
+            except json.JSONDecodeError:
+                return result.stdout[:2000]
+        else:
+            error = result.stderr[-500:] if result.stderr else "Unknown error"
+            # Fallback to simple httpx if playwright fails
+            import httpx
+            try:
+                r = httpx.get(url, timeout=30, follow_redirects=True)
+                return f"[Playwright failed, httpx fallback] Status: {r.status_code}\n{r.text[:1500]}\n\nPlaywright error: {error[:200]}"
+            except:
+                return f"Crawl failed completely. Playwright error: {error}"
 
     def _do_report(self, params: dict) -> str:
         import platform
@@ -207,20 +314,165 @@ class AgentWorker:
         return json.dumps(report, indent=2)
 
     def _do_research(self, params: dict) -> str:
+        """Deep research on a topic using playwright + multiple sources.
+
+        Params:
+            topic: What to research (required)
+            sources: List of URLs to check (optional, defaults to news/search)
+            depth: "shallow" (headlines only) | "deep" (follow links, extract content)
+            max_pages: Max pages to visit (default 5)
+        """
         topic = params.get("topic", "")
-        # Simple: pull from a search-related API
-        import httpx
-        try:
-            r = httpx.get(f"https://hacker-news.firebaseio.com/v0/topstories.json", timeout=10)
-            stories = r.json()[:5]
-            details = []
-            for story_id in stories:
-                r2 = httpx.get(f"https://hacker-news.firebaseio.com/v0/item/{story_id}.json", timeout=5)
-                item = r2.json()
-                details.append(f"- {item.get('title', '?')} ({item.get('url', 'no url')})")
-            return f"Top HN stories:\n" + "\n".join(details)
-        except Exception as e:
-            return f"Research failed: {e}"
+        if not topic:
+            return "No topic provided"
+
+        sources = params.get("sources", [])
+        depth = params.get("depth", "shallow")
+        max_pages = params.get("max_pages", 5)
+
+        # Default sources if none provided
+        if not sources:
+            safe_topic = topic.replace('"', '').replace("'", "")
+            sources = [
+                f"https://news.google.com/search?q={safe_topic.replace(' ', '%20')}&hl=en-US",
+                f"https://www.reuters.com/search/news?query={safe_topic.replace(' ', '+')}",
+                f"https://hacker-news.firebaseio.com/v0/topstories.json",
+            ]
+
+        script = f'''
+import asyncio
+import json
+from playwright.async_api import async_playwright
+
+async def research():
+    findings = []
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+        context = await browser.new_context(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+        )
+
+        sources = {json.dumps(sources)}
+        max_pages = {max_pages}
+        visited = 0
+
+        for url in sources:
+            if visited >= max_pages:
+                break
+
+            # Skip HN API (handle separately)
+            if "firebaseio" in url:
+                import httpx
+                try:
+                    r = httpx.get(url, timeout=10)
+                    story_ids = r.json()[:5]
+                    for sid in story_ids:
+                        r2 = httpx.get(f"https://hacker-news.firebaseio.com/v0/item/{{sid}}.json", timeout=5)
+                        item = r2.json()
+                        findings.append({{
+                            "source": "hackernews",
+                            "title": item.get("title", ""),
+                            "url": item.get("url", ""),
+                            "score": item.get("score", 0),
+                        }})
+                except:
+                    pass
+                visited += 1
+                continue
+
+            try:
+                page = await context.new_page()
+                await page.goto(url, wait_until="domcontentloaded", timeout=20000)
+                await asyncio.sleep(2)
+
+                # Extract headlines and links
+                items = await page.eval_on_selector_all(
+                    "article a, h2 a, h3 a, .story a, .article-title a, [data-testid] a",
+                    "els => els.map(e => ({{title: e.innerText.trim(), href: e.href}})).filter(l => l.title.length > 10 && l.href.startsWith('http')).slice(0, 10)"
+                )
+
+                if not items:
+                    # Fallback: get all meaningful links
+                    items = await page.eval_on_selector_all(
+                        "a[href]",
+                        "els => els.map(e => ({{title: e.innerText.trim(), href: e.href}})).filter(l => l.title.length > 20 && l.href.startsWith('http') && !l.href.includes('login') && !l.href.includes('sign')).slice(0, 10)"
+                    )
+
+                for item in items:
+                    findings.append({{
+                        "source": url.split("/")[2],
+                        "title": item["title"][:120],
+                        "url": item["href"],
+                    }})
+
+                await page.close()
+                visited += 1
+
+            except Exception as e:
+                findings.append({{"source": url, "error": str(e)[:100]}})
+                visited += 1
+
+        # Deep mode: follow top links and extract content
+        if "{depth}" == "deep" and findings:
+            deep_results = []
+            for item in findings[:3]:  # Follow top 3
+                if "url" not in item or "error" in item:
+                    continue
+                try:
+                    page = await context.new_page()
+                    await page.goto(item["url"], wait_until="domcontentloaded", timeout=15000)
+                    text = (await page.inner_text("article")) if await page.query_selector("article") else (await page.inner_text("body"))
+                    item["content_preview"] = text[:500]
+                    deep_results.append(item)
+                    await page.close()
+                except:
+                    pass
+
+            if deep_results:
+                findings = deep_results + [f for f in findings if f not in deep_results]
+
+        await browser.close()
+
+    print(json.dumps(findings, indent=2))
+
+asyncio.run(research())
+'''
+        result = subprocess.run(
+            ["python", "-c", script],
+            capture_output=True, text=True,
+            cwd=str(BASE_DIR), timeout=120
+        )
+
+        if result.returncode == 0 and result.stdout.strip():
+            try:
+                findings = json.loads(result.stdout.strip())
+                output = f"Research: {topic}\nSources checked: {len(sources)}\nFindings: {len(findings)}\n\n"
+                for i, f in enumerate(findings[:15], 1):
+                    if "error" in f:
+                        output += f"  {i}. [ERROR] {f['source']}: {f['error']}\n"
+                    else:
+                        output += f"  {i}. [{f.get('source', '?')}] {f.get('title', '?')}\n"
+                        if f.get("url"):
+                            output += f"     {f['url']}\n"
+                        if f.get("content_preview"):
+                            output += f"     Preview: {f['content_preview'][:150]}...\n"
+                return output
+            except json.JSONDecodeError:
+                return result.stdout[:2000]
+        else:
+            # Fallback to simple HN research
+            import httpx
+            try:
+                r = httpx.get("https://hacker-news.firebaseio.com/v0/topstories.json", timeout=10)
+                stories = r.json()[:5]
+                details = []
+                for story_id in stories:
+                    r2 = httpx.get(f"https://hacker-news.firebaseio.com/v0/item/{story_id}.json", timeout=5)
+                    item = r2.json()
+                    details.append(f"- {item.get('title', '?')} ({item.get('url', 'no url')})")
+                return f"[Playwright failed, HN fallback]\nTop stories:\n" + "\n".join(details)
+            except Exception as e:
+                return f"Research failed: {e}\nPlaywright stderr: {result.stderr[-300:]}"
 
     def run(self):
         """Main agent loop."""

@@ -12,6 +12,7 @@ This is the communication layer that each node uses to:
 import asyncio
 import json
 import logging
+import os
 import time
 from typing import Callable, Dict, List, Optional
 
@@ -58,6 +59,7 @@ class NodeNetworkClient:
                     "node_id": self.node_id,
                     "domain": self.domain,
                     "expertise_scores": self.expertise_scores,
+                    "token": os.environ.get("DVCE_BROKER_TOKEN", "dvce-swarm-sovereign-2026"),
                 })
 
                 # Wait for ack

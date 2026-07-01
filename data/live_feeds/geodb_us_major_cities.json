@@ -1,0 +1,172 @@
+{
+  "links": [
+    {
+      "rel": "first",
+      "href": "/v1/geo/cities?offset=0&limit=10&sort=-population&countryIds=US&minPopulation=500000"
+    },
+    {
+      "rel": "next",
+      "href": "/v1/geo/cities?offset=10&limit=10&sort=-population&countryIds=US&minPopulation=500000"
+    },
+    {
+      "rel": "last",
+      "href": "/v1/geo/cities?offset=180&limit=10&sort=-population&countryIds=US&minPopulation=500000"
+    }
+  ],
+  "data": [
+    {
+      "id": 172136,
+      "wikiDataId": "Q104994",
+      "type": "ADM2",
+      "city": "Los Angeles County",
+      "name": "Los Angeles County",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "California",
+      "regionCode": "CA",
+      "regionWdId": "Q99",
+      "latitude": 34.05,
+      "longitude": -118.25,
+      "population": 10014009
+    },
+    {
+      "id": 123214,
+      "wikiDataId": "Q60",
+      "type": "CITY",
+      "city": "New York City",
+      "name": "New York City",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "New York",
+      "regionCode": "NY",
+      "regionWdId": "Q1384",
+      "latitude": 40.71427,
+      "longitude": -74.00597,
+      "population": 8804190
+    },
+    {
+      "id": 171371,
+      "wikiDataId": "Q108418",
+      "type": "ADM2",
+      "city": "Cook County",
+      "name": "Cook County",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "Illinois",
+      "regionCode": "IL",
+      "regionWdId": "Q1204",
+      "latitude": 41.8,
+      "longitude": -87.716666666,
+      "population": 5275541
+    },
+    {
+      "id": 170962,
+      "wikiDataId": "Q26676",
+      "type": "ADM2",
+      "city": "Harris County",
+      "name": "Harris County",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "Texas",
+      "regionCode": "TX",
+      "regionWdId": "Q1439",
+      "latitude": 29.86,
+      "longitude": -95.39,
+      "population": 4731145
+    },
+    {
+      "id": 172113,
+      "wikiDataId": "Q58691",
+      "type": "ADM2",
+      "city": "Maricopa County",
+      "name": "Maricopa County",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "Arizona",
+      "regionCode": "AZ",
+      "regionWdId": "Q816",
+      "latitude": 33.513888888,
+      "longitude": -112.475833333,
+      "population": 4420568
+    },
+    {
+      "id": 3855177,
+      "wikiDataId": "Q65",
+      "type": "CITY",
+      "city": "Los Angeles",
+      "name": "Los Angeles",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "California",
+      "regionCode": "CA",
+      "regionWdId": "Q99",
+      "latitude": 34.05223,
+      "longitude": -118.24368,
+      "population": 3898747
+    },
+    {
+      "id": 172156,
+      "wikiDataId": "Q108143",
+      "type": "ADM2",
+      "city": "San Diego County",
+      "name": "San Diego County",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "California",
+      "regionCode": "CA",
+      "regionWdId": "Q99",
+      "latitude": 33.02,
+      "longitude": -116.77,
+      "population": 3298634
+    },
+    {
+      "id": 172146,
+      "wikiDataId": "Q5925",
+      "type": "ADM2",
+      "city": "Orange County",
+      "name": "Orange County",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "California",
+      "regionCode": "CA",
+      "regionWdId": "Q99",
+      "latitude": 33.67,
+      "longitude": -117.78,
+      "population": 3186989
+    },
+    {
+      "id": 120473,
+      "wikiDataId": "Q1297",
+      "type": "CITY",
+      "city": "Chicago",
+      "name": "Chicago",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "Illinois",
+      "regionCode": "IL",
+      "regionWdId": "Q1204",
+      "latitude": 41.881944444,
+      "longitude": -87.627777777,
+      "population": 2746388
+    },
+    {
+      "id": 122111,
+      "wikiDataId": "Q18419",
+      "type": "CITY",
+      "city": "Brooklyn",
+      "name": "Brooklyn",
+      "country": "United States",
+      "countryCode": "US",
+      "region": "New York",
+      "regionCode": "NY",
+      "regionWdId": "Q1384",
+      "latitude": 40.650833333,
+      "longitude": -73.949722222,
+      "population": 2736074
+    }
+  ],
+  "metadata": {
+    "currentOffset": 0,
+    "totalCount": 186
+  }
+}

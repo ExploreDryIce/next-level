@@ -1,0 +1,6 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+COPY tests/swarm_scale_test/sim_node.py /app/sim_node.py
+
+CMD ["python", "sim_node.py"]

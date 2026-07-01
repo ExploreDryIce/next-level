@@ -382,11 +382,31 @@ class SwarmNode:
     # ─── MAIN LOOP ───
 
     async def _main_loop(self):
-        """Main event loop — periodic pattern sharing and health checks."""
+        """Main event loop — periodic pattern sharing, heartbeats, and self-healing."""
         gossip_interval = self.config.gossip_interval_seconds
+        heartbeat_failures = 0
 
         while self.running:
             try:
+                # Send heartbeat to broker
+                try:
+                    await self.network.send_heartbeat()
+                    heartbeat_failures = 0
+                except Exception:
+                    heartbeat_failures += 1
+
+                # If heartbeat fails 3x in a row, reconnect
+                if heartbeat_failures >= 3 or not self.network.connected:
+                    logger.warning(f"Connection stale ({heartbeat_failures} failures). Reconnecting...")
+                    try:
+                        await self.network.disconnect()
+                    except Exception:
+                        pass
+                    self.network.connected = False
+                    await self.network.connect()
+                    heartbeat_failures = 0
+                    logger.info("Reconnected to broker")
+
                 # Periodic status log
                 status = self.get_status()
                 logger.info(

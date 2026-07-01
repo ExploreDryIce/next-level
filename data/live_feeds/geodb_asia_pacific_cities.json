@@ -1,0 +1,172 @@
+{
+  "links": [
+    {
+      "rel": "first",
+      "href": "/v1/geo/cities?offset=0&limit=10&countryIds=JP,KR,SG,TW&minPopulation=500000&sort=-population"
+    },
+    {
+      "rel": "next",
+      "href": "/v1/geo/cities?offset=10&limit=10&countryIds=JP,KR,SG,TW&minPopulation=500000&sort=-population"
+    },
+    {
+      "rel": "last",
+      "href": "/v1/geo/cities?offset=60&limit=10&countryIds=JP,KR,SG,TW&minPopulation=500000&sort=-population"
+    }
+  ],
+  "data": [
+    {
+      "id": 3705817,
+      "wikiDataId": "Q1490",
+      "type": "CITY",
+      "city": "Tokyo",
+      "name": "Tokyo",
+      "country": "Japan",
+      "countryCode": "JP",
+      "region": "Tokyo",
+      "regionCode": "13",
+      "regionWdId": "Q1490",
+      "latitude": 35.689444444,
+      "longitude": 139.691666666,
+      "population": 14264798
+    },
+    {
+      "id": 3453247,
+      "wikiDataId": "Q8684",
+      "type": "CITY",
+      "city": "Seoul",
+      "name": "Seoul",
+      "country": "South Korea",
+      "countryCode": "KR",
+      "region": "Seoul",
+      "regionCode": "11",
+      "regionWdId": "Q8684",
+      "latitude": 37.56,
+      "longitude": 126.99,
+      "population": 9668465
+    },
+    {
+      "id": 3516906,
+      "wikiDataId": "Q334",
+      "type": "CITY",
+      "city": "Singapore",
+      "name": "Singapore",
+      "country": "Singapore",
+      "countryCode": "SG",
+      "region": "Singapore",
+      "regionCode": "SG",
+      "regionWdId": "Q334",
+      "latitude": 1.3,
+      "longitude": 103.8,
+      "population": 5866139
+    },
+    {
+      "id": 3453305,
+      "wikiDataId": "Q244898",
+      "type": "CITY",
+      "city": "New Taipei",
+      "name": "New Taipei",
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "region": "Taipei",
+      "regionCode": "TPE",
+      "regionWdId": "Q1867",
+      "latitude": 25.0125,
+      "longitude": 121.465,
+      "population": 4041149
+    },
+    {
+      "id": 68523,
+      "wikiDataId": "Q38283",
+      "type": "CITY",
+      "city": "Yokohama",
+      "name": "Yokohama",
+      "country": "Japan",
+      "countryCode": "JP",
+      "region": "Kanagawa Prefecture",
+      "regionCode": "14",
+      "regionWdId": "Q127513",
+      "latitude": 35.450333333,
+      "longitude": 139.634222222,
+      "population": 3757630
+    },
+    {
+      "id": 3453077,
+      "wikiDataId": "Q16520",
+      "type": "CITY",
+      "city": "Busan",
+      "name": "Busan",
+      "country": "South Korea",
+      "countryCode": "KR",
+      "region": "Busan",
+      "regionCode": "26",
+      "regionWdId": "Q16520",
+      "latitude": 35.18,
+      "longitude": 129.075,
+      "population": 3453198
+    },
+    {
+      "id": 3453112,
+      "wikiDataId": "Q20934",
+      "type": "CITY",
+      "city": "Incheon",
+      "name": "Incheon",
+      "country": "South Korea",
+      "countryCode": "KR",
+      "region": "Incheon",
+      "regionCode": "28",
+      "regionWdId": "Q20934",
+      "latitude": 37.463888888,
+      "longitude": 126.648611111,
+      "population": 3049315
+    },
+    {
+      "id": 3805457,
+      "wikiDataId": "Q245023",
+      "type": "CITY",
+      "city": "Taichung",
+      "name": "Taichung",
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "region": "Taipei",
+      "regionCode": "TPE",
+      "regionWdId": "Q1867",
+      "latitude": 24.143888888,
+      "longitude": 120.679444444,
+      "population": 2868452
+    },
+    {
+      "id": 3711265,
+      "wikiDataId": "Q35765",
+      "type": "CITY",
+      "city": "Osaka",
+      "name": "Osaka",
+      "country": "Japan",
+      "countryCode": "JP",
+      "region": "Osaka Prefecture",
+      "regionCode": "27",
+      "regionWdId": "Q122723",
+      "latitude": 34.69375,
+      "longitude": 135.502111111,
+      "population": 2751862
+    },
+    {
+      "id": 3453253,
+      "wikiDataId": "Q181557",
+      "type": "CITY",
+      "city": "Kaohsiung",
+      "name": "Kaohsiung",
+      "country": "Taiwan",
+      "countryCode": "TW",
+      "region": "Kaohsiung",
+      "regionCode": "KHH",
+      "regionWdId": "Q181557",
+      "latitude": 22.615,
+      "longitude": 120.2975,
+      "population": 2713032
+    }
+  ],
+  "metadata": {
+    "currentOffset": 0,
+    "totalCount": 65
+  }
+}

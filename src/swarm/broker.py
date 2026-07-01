@@ -18,11 +18,50 @@ import asyncio
 import json
 import time
 import logging
+import os
+import smtplib
+from email.mime.text import MIMEText
 from pathlib import Path
 from typing import Dict, List, Set
 from dataclasses import dataclass, field
 
 logger = logging.getLogger(__name__)
+
+# ═══════════════════════════════════════════════════════════════
+# SECURITY — Auth token + SMS alerting
+# ═══════════════════════════════════════════════════════════════
+
+BROKER_AUTH_TOKEN = os.environ.get("DVCE_BROKER_TOKEN", "dvce-swarm-sovereign-2026")
+
+# Known authorized node IDs
+AUTHORIZED_NODES = {"macbook-m4", "terrornode", "towerseven", "rondo", "dvce-streamlit", "dvce-api"}
+
+# SMS alert via AT&T email-to-SMS gateway
+SMS_GATEWAY = "8657769193@txt.att.net"
+ALERT_FROM = "alerts@dvce.io"
+
+
+def _send_sms_alert(message: str):
+    """Send SMS alert via email-to-SMS gateway."""
+    try:
+        msg = MIMEText(message)
+        msg["From"] = ALERT_FROM
+        msg["To"] = SMS_GATEWAY
+        msg["Subject"] = "DVCE"
+        # Use Gmail SMTP (requires app password in env)
+        gmail_user = os.environ.get("GMAIL_USER", "")
+        gmail_pass = os.environ.get("GMAIL_APP_PASSWORD", "")
+        if gmail_user and gmail_pass:
+            with smtplib.SMTP("smtp.gmail.com", 587) as server:
+                server.starttls()
+                server.login(gmail_user, gmail_pass)
+                server.send_message(msg)
+            logger.info(f"🚨 SMS alert sent: {message}")
+        else:
+            # Fallback: just log it
+            logger.warning(f"🚨 ALERT (no SMS config): {message}")
+    except Exception as e:
+        logger.error(f"SMS alert failed: {e}")
 
 
 @dataclass
@@ -44,6 +83,7 @@ class PatternBroker:
     Runs on the coordinator node (Mac). All other nodes connect to this.
     Receives patterns, decides relevance, forwards to interested nodes.
     Persists patterns to disk so intelligence survives restarts.
+    Now includes pattern quality scoring for intelligent filtering.
     """
 
     def __init__(self, host: str = "0.0.0.0", port: int = 9876):
@@ -65,12 +105,30 @@ class PatternBroker:
         self._dirty = False  # Patterns modified since last save
         self._load_pattern_store()
 
+        # Pattern quality scoring
+        self._scorer = None
+        try:
+            from pattern_scoring import PatternScorer
+            self._scorer = PatternScorer()
+            logger.info(f"   Pattern scorer loaded ({len(self._scorer.records)} records)")
+        except ImportError:
+            try:
+                from src.swarm.pattern_scoring import PatternScorer
+                self._scorer = PatternScorer()
+                logger.info(f"   Pattern scorer loaded ({len(self._scorer.records)} records)")
+            except ImportError:
+                logger.info("   Pattern scorer not available (pattern_scoring.py not found)")
+
     async def start(self):
         """Start the broker server."""
         self.stats["start_time"] = time.time()
 
-        # Start NATS bridge (runs alongside TCP for backward compat)
-        await self._start_nats_bridge()
+        # Start NATS bridge (optional — don't block if unavailable)
+        try:
+            await self._start_nats_bridge()
+        except Exception as e:
+            self._nats_connected = False
+            logger.info(f"   NATS bridge unavailable ({e}), running TCP only")
 
         self.server = await asyncio.start_server(
             self._handle_connection, self.host, self.port
@@ -92,13 +150,9 @@ class PatternBroker:
     async def _start_nats_bridge(self):
         """Initialize NATS JetStream bridge if available."""
         self._nats_connected = False
-        try:
-            from nats_bridge import NATSBridge
-            self._nats = NATSBridge(node_id="broker")
-            self._nats_connected = await self._nats.connect()
-        except Exception as e:
-            logger.info(f"   NATS bridge not available: {e}")
-            self._nats = None
+        self._nats = None
+        # NATS disabled — using TCP only for now
+        logger.info("   NATS bridge: disabled (TCP only)")
 
     async def _handle_connection(self, reader: asyncio.StreamReader, writer: asyncio.StreamWriter):
         """Handle a new node connection."""
@@ -119,6 +173,30 @@ class PatternBroker:
                 msg_type = message.get("type")
 
                 if msg_type == "register":
+                    # Security: verify auth token
+                    token = message.get("token", "")
+                    node_id = message.get("node_id", "unknown")
+                    
+                    if token != BROKER_AUTH_TOKEN:
+                        # Unauthorized attempt!
+                        peer = writer.get_extra_info("peername")
+                        alert_msg = f"UNAUTHORIZED node '{node_id}' from {peer} tried to join swarm"
+                        logger.warning(f"🚨 {alert_msg}")
+                        _send_sms_alert(alert_msg)
+                        
+                        # Reject
+                        reject = {"type": "rejected", "reason": "invalid token"}
+                        writer.write((json.dumps(reject) + "\n").encode())
+                        await writer.drain()
+                        break
+                    
+                    if node_id not in AUTHORIZED_NODES:
+                        # Unknown node ID — alert but allow if token is correct
+                        peer = writer.get_extra_info("peername")
+                        alert_msg = f"NEW node '{node_id}' from {peer} joined swarm (token valid)"
+                        logger.info(f"⚠️ {alert_msg}")
+                        _send_sms_alert(alert_msg)
+
                     # Node registering itself
                     node_info = ConnectedNode(
                         node_id=message["node_id"],
@@ -174,8 +252,14 @@ class PatternBroker:
                         node_info.patterns_received += len(patterns)
 
                 elif msg_type == "heartbeat":
+                    hb_node_id = message.get("node_id")
                     if node_info:
                         node_info.last_heartbeat = time.time()
+                    elif hb_node_id and hb_node_id in self.nodes:
+                        # Node sending heartbeat without local node_info — reconnect case
+                        node_info = self.nodes[hb_node_id]
+                        node_info.last_heartbeat = time.time()
+                        node_info.writer = writer
                         node_info.expertise_scores = message.get("expertise_scores", node_info.expertise_scores)
 
                 elif msg_type == "query":
@@ -200,21 +284,41 @@ class PatternBroker:
             writer.close()
 
     async def _broadcast_patterns(self, patterns: List[dict], exclude_node: str):
-        """Send patterns to all connected nodes except the source."""
-        message = json.dumps({
-            "type": "patterns",
-            "patterns": patterns,
-            "source": "broker",
-        }) + "\n"
-
+        """Send patterns to all connected nodes except the source.
+        
+        Applies pattern quality scoring to filter out proven-bad patterns
+        before relaying to each node's domain.
+        """
         for node_id, node in list(self.nodes.items()):
             if node_id == exclude_node:
                 continue
+
+            # Filter patterns by quality for this node's domain
+            patterns_to_send = patterns
+            if self._scorer:
+                patterns_to_send = self._scorer.filter_by_quality(
+                    patterns, min_score=0.3, target_domain=node.domain
+                )
+                # Record that these patterns were shared
+                for p in patterns_to_send:
+                    source_domain = p.get("domain", "unknown")
+                    pattern_type = p.get("event_type", p.get("pattern_type", "unknown"))
+                    self._scorer.record_pattern_shared(pattern_type, source_domain, node.domain)
+
+            if not patterns_to_send:
+                continue
+
+            message = json.dumps({
+                "type": "patterns",
+                "patterns": patterns_to_send,
+                "source": "broker",
+            }) + "\n"
+
             try:
                 node.writer.write(message.encode())
                 await node.writer.drain()
-                node.patterns_sent += len(patterns)
-                self.stats["total_patterns_relayed"] += len(patterns)
+                node.patterns_sent += len(patterns_to_send)
+                self.stats["total_patterns_relayed"] += len(patterns_to_send)
             except Exception as e:
                 logger.warning(f"   Failed to send to {node_id}: {e}")
 
@@ -246,7 +350,7 @@ class PatternBroker:
     def _get_status(self) -> dict:
         """Get broker status."""
         uptime = time.time() - self.stats["start_time"]
-        return {
+        status = {
             "type": "broker_status",
             "uptime_seconds": int(uptime),
             "connected_nodes": len(self.nodes),
@@ -265,6 +369,14 @@ class PatternBroker:
                 for n in self.nodes.values()
             ],
         }
+        # Add pattern scoring summary if available
+        if self._scorer:
+            status["pattern_scoring"] = {
+                "records": len(self._scorer.records),
+                "avg_quality": self._scorer.get_summary().get("avg_quality", 0),
+                "pending_predictions": len(self._scorer.pending),
+            }
+        return status
 
     # ─── PERSISTENCE ───
 
@@ -299,6 +411,10 @@ class PatternBroker:
             await asyncio.sleep(30)
             if self._dirty:
                 self._save_pattern_store()
+            # Also save pattern scores periodically
+            if self._scorer and self._scorer._dirty:
+                self._scorer.save()
+                self._scorer.cleanup_pending()
 
     async def _periodic_cleanup(self):
         """Remove expired patterns every hour."""

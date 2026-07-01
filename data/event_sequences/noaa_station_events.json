@@ -1,0 +1,184 @@
+[
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1781370300.0,
+    "severity_score": 0.02,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 100.4
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1781370600.0,
+    "severity_score": 0.02,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 100.4
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1781371500.0,
+    "severity_score": 0.02,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 100.4
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1781371800.0,
+    "severity_score": 0.02,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 100.4
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1781372100.0,
+    "severity_score": 0.02,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 100.4
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1781373000.0,
+    "severity_score": 0.02,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 100.4
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1781373060.0,
+    "severity_score": 0.047,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 100.9
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1781373300.0,
+    "severity_score": 0.02,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 100.4
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1781373600.0,
+    "severity_score": 0.02,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 100.4
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1781373900.0,
+    "severity_score": 0.02,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 100.4
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1781374200.0,
+    "severity_score": 0.11,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 102.2
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1781374500.0,
+    "severity_score": 0.02,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 100.4
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1781374800.0,
+    "severity_score": 0.11,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 102.2
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1781375100.0,
+    "severity_score": 0.11,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 102.2
+    }
+  }
+]

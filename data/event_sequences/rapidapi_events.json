@@ -1,0 +1,41 @@
+[
+  {
+    "event_type": "high_utility_rate_residential",
+    "timestamp": 1781379784.2676039,
+    "severity_score": 1.0,
+    "domain": "grid",
+    "source": "eia_utility_rates",
+    "metadata": {
+      "state": "CA",
+      "rate_cents_kwh": 33.35,
+      "above_avg_pct": 108.4,
+      "period": "2026-03"
+    }
+  },
+  {
+    "event_type": "high_utility_rate_residential",
+    "timestamp": 1781379784.2676039,
+    "severity_score": 0.837,
+    "domain": "grid",
+    "source": "eia_utility_rates",
+    "metadata": {
+      "state": "NY",
+      "rate_cents_kwh": 28.55,
+      "above_avg_pct": 78.4,
+      "period": "2026-03"
+    }
+  },
+  {
+    "event_type": "high_utility_rate_residential",
+    "timestamp": 1781379784.2676039,
+    "severity_score": 0.347,
+    "domain": "grid",
+    "source": "eia_utility_rates",
+    "metadata": {
+      "state": "MI",
+      "rate_cents_kwh": 21.2,
+      "above_avg_pct": 32.5,
+      "period": "2026-03"
+    }
+  }
+]

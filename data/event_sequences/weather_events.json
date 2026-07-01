@@ -1,13 +1,152 @@
 [
   {
+    "event_type": "extreme_heat",
+    "timestamp": 1782939600.0,
+    "severity_score": 0.31,
+    "domain": "weather",
+    "source": "open_meteo"
+  },
+  {
+    "event_type": "extreme_heat",
+    "timestamp": 1782943200.0,
+    "severity_score": 0.32,
+    "domain": "weather",
+    "source": "open_meteo"
+  },
+  {
+    "event_type": "extreme_heat",
+    "timestamp": 1783015200.0,
+    "severity_score": 0.33,
+    "domain": "weather",
+    "source": "open_meteo"
+  },
+  {
     "event_type": "heavy_precipitation",
-    "timestamp": 1781413200.0,
-    "severity_score": 0.212,
+    "timestamp": 1783047600.0,
+    "severity_score": 0.28,
     "domain": "weather",
     "source": "open_meteo",
     "metadata": {
-      "precipitation_mm": 5.3,
+      "precipitation_mm": 7.0,
       "location": "Nashville"
+    }
+  },
+  {
+    "event_type": "nws_alert_extreme_heat_warning",
+    "timestamp": 1782836460.0,
+    "severity_score": 0.8,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Extreme Heat Warning issued June 30 at 11:21AM CDT until July 1 at 7:00PM CDT by NWS Huntsville AL",
+      "areas": "Lauderdale; Colbert; Franklin; Lawrence; Limestone; Madison; Morgan; Marshall; Jackson; DeKalb; Cullman; Moore; Lincoln; Franklin"
+    }
+  },
+  {
+    "event_type": "nws_alert_heat_advisory",
+    "timestamp": 1782836460.0,
+    "severity_score": 0.5,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Heat Advisory issued June 30 at 11:21AM CDT until July 2 at 7:00PM CDT by NWS Huntsville AL",
+      "areas": "Lauderdale; Colbert; Franklin; Lawrence; Limestone; Madison; Morgan; Marshall; Jackson; DeKalb; Cullman; Moore; Lincoln; Franklin"
+    }
+  },
+  {
+    "event_type": "nws_alert_heat_advisory",
+    "timestamp": 1782837180.0,
+    "severity_score": 0.5,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Heat Advisory issued June 30 at 11:33AM CDT until July 3 at 8:00PM CDT by NWS Nashville TN",
+      "areas": "Pickett; Overton; Fentress; White; Cumberland; Coffee; Warren; Grundy; Van Buren"
+    }
+  },
+  {
+    "event_type": "nws_alert_extreme_heat_warning",
+    "timestamp": 1782837180.0,
+    "severity_score": 0.8,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Extreme Heat Warning issued June 30 at 11:33AM CDT until July 3 at 8:00PM CDT by NWS Nashville TN",
+      "areas": "Stewart; Montgomery; Robertson; Sumner; Macon; Clay; Houston; Humphreys; Dickson; Cheatham; Davidson; Wilson; Trousdale; Smith; Jackson; Putnam; Perry; Hickman; Lewis; Williamson; Maury; Marshall; Rutherford; Cannon; De Kalb; Bedford; Wayne; Lawrence; Giles"
+    }
+  },
+  {
+    "event_type": "nws_alert_heat_advisory",
+    "timestamp": 1782838560.0,
+    "severity_score": 0.5,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Heat Advisory issued June 30 at 12:56PM EDT until July 3 at 9:00PM EDT by NWS Morristown TN",
+      "areas": "Cherokee; Clay; Scott; Campbell; Claiborne; Hancock; Hawkins; Sullivan; Johnson; Morgan; Anderson; Union; Grainger; Hamblen; Northwest Cocke; Cocke Smoky Mountains; Northwest Greene; Southeast Greene; Washington; Unicoi; Northwest Carter; Southeast Carter; Roane; Loudon; Knox; Jefferson; NW Blount; Blount Smoky Mountains; North Sevier; Sevier Smoky Mountains; Sequatchie; Bledsoe; Rhea; Meigs; McMinn; Northwest Monroe; Southeast Monroe; Marion; Hamilton; Bradley; West Polk; East Polk; Lee; Wise; Scott; Russell; Washington"
+    }
+  },
+  {
+    "event_type": "nws_alert_heat_advisory",
+    "timestamp": 1782864240.0,
+    "severity_score": 0.5,
+    "domain": "weather",
+    "source": "nws",
+    "metadata": {
+      "headline": "Heat Advisory issued June 30 at 7:04PM CDT until July 3 at 8:00PM CDT by NWS Memphis TN",
+      "areas": "Clay; Greene; Craighead; Poinsett; Mississippi; Cross; Crittenden; St. Francis; Lee; Phillips; Dunklin; Pemiscot; DeSoto; Marshall; Benton; Tippah; Alcorn; Tishomingo; Tunica; Tate; Prentiss; Coahoma; Quitman; Panola; Tallahatchie; Lake; Obion; Weakley; Henry; Dyer; Gibson; Carroll; Benton; Lauderdale; Tipton; Haywood; Crockett; Madison; Chester; Henderson; Decatur; Shelby; Fayette; Hardeman; McNairy; Hardin"
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1782867000.0,
+    "severity_score": 0.02,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 100.4
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1782867060.0,
+    "severity_score": 0.002,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 100.0
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1782867600.0,
+    "severity_score": 0.02,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 100.4
+    }
+  },
+  {
+    "event_type": "extreme_heat_observed",
+    "timestamp": 1782867900.0,
+    "severity_score": 0.02,
+    "domain": "weather",
+    "source": "noaa_station",
+    "metadata": {
+      "station": "KPHX",
+      "location": "Phoenix",
+      "zone": "az_grid",
+      "temp_f": 100.4
     }
   }
 ]

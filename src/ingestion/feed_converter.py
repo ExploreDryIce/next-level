@@ -466,6 +466,248 @@ def convert_finnhub_economic_calendar() -> List[Dict[str, Any]]:
     return sorted(events, key=lambda e: e["timestamp"])
 
 
+def convert_noaa_station_obs() -> List[Dict[str, Any]]:
+    """NOAA hourly station observations → weather domain events."""
+    try:
+        from src.ingestion.noaa_stations import convert_noaa_observations
+    except ImportError:
+        try:
+            from noaa_stations import convert_noaa_observations
+        except ImportError:
+            return []
+    return convert_noaa_observations()
+
+
+def convert_opensky() -> List[Dict[str, Any]]:
+    """OpenSky aircraft state data → logistics domain events."""
+    path = DATA_DIR / "opensky_tn.json"
+    if not path.exists():
+        return []
+
+    try:
+        data = json.loads(path.read_text())
+    except:
+        return []
+
+    states = data.get("states", [])
+    if not states:
+        return []
+
+    events = []
+    ts = data.get("time", datetime.now().timestamp())
+
+    # Track flight density and anomalies
+    total_aircraft = len(states)
+    grounded = sum(1 for s in states if s[8])  # on_ground flag at index 8
+    high_altitude = sum(1 for s in states if s[13] and s[13] > 12000)  # baro_altitude > 12km
+
+    # Flight density event (useful for supply chain — air freight indicator)
+    events.append({
+        "event_type": "airspace_density_tn",
+        "timestamp": float(ts),
+        "severity_score": round(min(1.0, total_aircraft / 100.0), 3),
+        "domain": "logistics",
+        "source": "opensky",
+        "metadata": {
+            "total_aircraft": total_aircraft,
+            "grounded": grounded,
+            "high_altitude": high_altitude,
+            "region": "Tennessee",
+        },
+    })
+
+    # Flag any military/unusual callsigns
+    mil_prefixes = ["RCH", "DOOM", "JAKE", "EVAC", "SAM", "AF1", "AF2", "REACH"]
+    for state in states:
+        callsign = (state[1] or "").strip()
+        if any(callsign.startswith(p) for p in mil_prefixes):
+            events.append({
+                "event_type": f"military_aircraft_detected",
+                "timestamp": float(ts),
+                "severity_score": 0.6,
+                "domain": "logistics",
+                "source": "opensky",
+                "metadata": {
+                    "callsign": callsign,
+                    "origin_country": state[2],
+                    "altitude_m": state[13],
+                    "velocity_ms": state[9],
+                },
+            })
+
+    return events
+
+
+def convert_gdelt() -> List[Dict[str, Any]]:
+    """GDELT event data → geo/political domain events.
+
+    Looks for GDELT data in multiple possible locations:
+    - data/live_feeds/gdelt_events.json (from daily pull)
+    - data/live_feeds/gdelt_gkg.json (Global Knowledge Graph)
+    """
+    events = []
+
+    # Try GDELT events file
+    for filename in ["gdelt_events.json", "gdelt_gkg.json", "gdelt_tv.json"]:
+        path = DATA_DIR / filename
+        if not path.exists():
+            continue
+
+        try:
+            data = json.loads(path.read_text())
+        except:
+            continue
+
+        if isinstance(data, list):
+            items = data
+        elif isinstance(data, dict):
+            items = data.get("events", data.get("articles", data.get("results", [])))
+        else:
+            continue
+
+        for item in items[:100]:
+            # Handle different GDELT response formats
+            if isinstance(item, dict):
+                # Standard GDELT event
+                event_code = item.get("EventCode", item.get("eventcode", ""))
+                goldstein = item.get("GoldsteinScale", item.get("goldstein", 0))
+                actor1 = item.get("Actor1Name", item.get("actor1", ""))
+                actor2 = item.get("Actor2Name", item.get("actor2", ""))
+                source_url = item.get("SOURCEURL", item.get("url", ""))
+                date_str = item.get("SQLDATE", item.get("date", ""))
+                tone = item.get("AvgTone", item.get("tone", 0))
+
+                try:
+                    if date_str and len(str(date_str)) == 8:
+                        ts = datetime.strptime(str(date_str), "%Y%m%d").timestamp()
+                    elif date_str:
+                        ts = datetime.fromisoformat(str(date_str).replace("Z", "+00:00")).timestamp()
+                    else:
+                        ts = datetime.now().timestamp()
+                except:
+                    ts = datetime.now().timestamp()
+
+                # Goldstein scale: -10 (conflict) to +10 (cooperation)
+                # Map to severity: -10 → 1.0, 0 → 0.3, +10 → 0.0
+                try:
+                    goldstein_f = float(goldstein) if goldstein else 0
+                    severity = round(max(0.0, min(1.0, (5 - goldstein_f) / 10.0)), 3)
+                except:
+                    severity = 0.4
+
+                event_type_str = f"gdelt_{event_code}" if event_code else "gdelt_event"
+                if actor1 and actor2:
+                    event_type_str += f"_{actor1[:10]}_{actor2[:10]}".lower().replace(" ", "_")
+
+                events.append({
+                    "event_type": event_type_str,
+                    "timestamp": ts,
+                    "severity_score": severity,
+                    "domain": "geo",
+                    "source": "gdelt",
+                    "metadata": {
+                        "actor1": actor1,
+                        "actor2": actor2,
+                        "event_code": event_code,
+                        "goldstein": goldstein,
+                        "url": source_url[:200] if source_url else "",
+                    },
+                })
+
+    return sorted(events, key=lambda e: e["timestamp"])
+
+
+def convert_rss_headlines() -> List[Dict[str, Any]]:
+    """RSS/news headline data → financial/geo domain events.
+
+    Looks for headline data from Ground News, MarketWatch, NPR, Axios, etc.
+    stored by the intelligence pipeline in data/live_feeds/
+    """
+    events = []
+
+    # Common RSS-sourced headline files
+    headline_files = [
+        ("ground_news.json", "financial", "ground_news"),
+        ("marketwatch_headlines.json", "financial", "marketwatch"),
+        ("npr_headlines.json", "geo", "npr"),
+        ("axios_headlines.json", "geo", "axios"),
+        ("defense_news.json", "geo", "defense_news"),
+        ("reuters_headlines.json", "financial", "reuters"),
+        ("rss_headlines.json", "financial", "rss_mixed"),
+        ("news_headlines.json", "financial", "news_mixed"),
+    ]
+
+    high_impact_keywords = [
+        "war", "strike", "sanctions", "tariff", "crash", "surge", "collapse",
+        "earthquake", "hurricane", "flood", "outbreak", "breach", "hack",
+        "fed", "rate", "inflation", "recession", "default", "shutdown",
+        "nuclear", "missile", "invasion", "blockade", "embargo",
+    ]
+
+    for filename, default_domain, source_name in headline_files:
+        path = DATA_DIR / filename
+        if not path.exists():
+            continue
+
+        try:
+            data = json.loads(path.read_text())
+        except:
+            continue
+
+        # Handle both list and dict formats
+        if isinstance(data, list):
+            items = data
+        elif isinstance(data, dict):
+            items = data.get("articles", data.get("headlines", data.get("items", data.get("entries", []))))
+        else:
+            continue
+
+        for item in items[:50]:
+            if not isinstance(item, dict):
+                continue
+
+            headline = item.get("title", item.get("headline", ""))
+            pub_date = item.get("publishedAt", item.get("published", item.get("date", item.get("pubDate", ""))))
+            url = item.get("url", item.get("link", ""))
+
+            if not headline:
+                continue
+
+            # Parse timestamp
+            try:
+                if isinstance(pub_date, (int, float)):
+                    ts = float(pub_date)
+                elif pub_date:
+                    ts = datetime.fromisoformat(str(pub_date).replace("Z", "+00:00")).timestamp()
+                else:
+                    ts = datetime.now().timestamp()
+            except:
+                ts = datetime.now().timestamp()
+
+            # Severity from keywords
+            headline_lower = headline.lower()
+            severity = 0.3
+            if any(kw in headline_lower for kw in high_impact_keywords):
+                severity = 0.7
+
+            # Domain override for specific keywords
+            domain = default_domain
+            geo_keywords = ["war", "missile", "earthquake", "hurricane", "nuclear", "invasion"]
+            if any(kw in headline_lower for kw in geo_keywords):
+                domain = "geo"
+
+            events.append({
+                "event_type": f"headline_{source_name}",
+                "timestamp": ts,
+                "severity_score": severity,
+                "domain": domain,
+                "source": source_name,
+                "metadata": {"headline": headline[:120], "url": url[:200]},
+            })
+
+    return sorted(events, key=lambda e: e["timestamp"])
+
+
 def convert_all() -> Dict[str, List[Dict[str, Any]]]:
     """Run all converters and return events by domain."""
     all_events = {
@@ -474,26 +716,34 @@ def convert_all() -> Dict[str, List[Dict[str, Any]]]:
         "financial": [],
         "cyber": [],
         "grid": [],
+        "logistics": [],
     }
 
     converters = [
         ("geo", convert_earthquakes),
+        ("geo", convert_fema_disasters),
+        ("geo", convert_gdelt),
         ("weather", convert_weather_forecast),
         ("weather", convert_nws_alerts),
+        ("weather", convert_noaa_station_obs),
         ("financial", convert_treasury),
         ("financial", convert_crypto),
         ("financial", convert_finnhub_news),
         ("financial", convert_finnhub_economic_calendar),
+        ("financial", convert_rss_headlines),
         ("grid", convert_solar_flares),
-        ("cyber", convert_nvd_vulnerabilities),
         ("grid", convert_carbon_intensity),
-        ("geo", convert_fema_disasters),
+        ("cyber", convert_nvd_vulnerabilities),
+        ("logistics", convert_opensky),
     ]
 
     for domain, converter in converters:
-        events = converter()
-        all_events[domain].extend(events)
-        print(f"  {converter.__name__}: {len(events)} events → {domain}")
+        try:
+            events = converter()
+            all_events[domain].extend(events)
+            print(f"  {converter.__name__}: {len(events)} events → {domain}")
+        except Exception as e:
+            print(f"  {converter.__name__}: FAILED — {e}")
 
     return all_events
 

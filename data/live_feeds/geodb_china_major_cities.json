@@ -1,0 +1,172 @@
+{
+  "links": [
+    {
+      "rel": "first",
+      "href": "/v1/geo/cities?offset=0&limit=10&countryIds=CN&minPopulation=5000000&sort=-population"
+    },
+    {
+      "rel": "next",
+      "href": "/v1/geo/cities?offset=10&limit=10&countryIds=CN&minPopulation=5000000&sort=-population"
+    },
+    {
+      "rel": "last",
+      "href": "/v1/geo/cities?offset=90&limit=10&countryIds=CN&minPopulation=5000000&sort=-population"
+    }
+  ],
+  "data": [
+    {
+      "id": 3710839,
+      "wikiDataId": "Q11725",
+      "type": "CITY",
+      "city": "Chongqing",
+      "name": "Chongqing",
+      "country": "People's Republic of China",
+      "countryCode": "CN",
+      "region": "Chongqing",
+      "regionCode": "CQ",
+      "regionWdId": "Q11725",
+      "latitude": 29.55,
+      "longitude": 106.506944444,
+      "population": 32054159
+    },
+    {
+      "id": 3856768,
+      "wikiDataId": "Q8686",
+      "type": "CITY",
+      "city": "Shanghai",
+      "name": "Shanghai",
+      "country": "People's Republic of China",
+      "countryCode": "CN",
+      "region": "Shanghai",
+      "regionCode": "SH",
+      "regionWdId": "Q8686",
+      "latitude": 31.2325,
+      "longitude": 121.469166666,
+      "population": 24870895
+    },
+    {
+      "id": 3711753,
+      "wikiDataId": "Q956",
+      "type": "CITY",
+      "city": "Beijing",
+      "name": "Beijing",
+      "country": "People's Republic of China",
+      "countryCode": "CN",
+      "region": "Beijing",
+      "regionCode": "BJ",
+      "regionWdId": "Q956",
+      "latitude": 39.90403,
+      "longitude": 116.407526,
+      "population": 21893095
+    },
+    {
+      "id": 3706435,
+      "wikiDataId": "Q30002",
+      "type": "CITY",
+      "city": "Chengdu",
+      "name": "Chengdu",
+      "country": "People's Republic of China",
+      "countryCode": "CN",
+      "region": "Sichuan",
+      "regionCode": "SC",
+      "regionWdId": "Q19770",
+      "latitude": 30.66,
+      "longitude": 104.063333333,
+      "population": 20937757
+    },
+    {
+      "id": 3710972,
+      "wikiDataId": "Q16572",
+      "type": "CITY",
+      "city": "Guangzhou",
+      "name": "Guangzhou",
+      "country": "People's Republic of China",
+      "countryCode": "CN",
+      "region": "Guangdong",
+      "regionCode": "GD",
+      "regionWdId": "Q15175",
+      "latitude": 23.13,
+      "longitude": 113.26,
+      "population": 18676605
+    },
+    {
+      "id": 3711605,
+      "wikiDataId": "Q15174",
+      "type": "CITY",
+      "city": "Shenzhen",
+      "name": "Shenzhen",
+      "country": "People's Republic of China",
+      "countryCode": "CN",
+      "region": "Guangdong",
+      "regionCode": "GD",
+      "regionWdId": "Q15175",
+      "latitude": 22.546666666,
+      "longitude": 114.054444444,
+      "population": 17681600
+    },
+    {
+      "id": 3643093,
+      "wikiDataId": "Q12360235",
+      "type": "ADM2",
+      "city": "Beijing Shi",
+      "name": "Beijing Shi",
+      "country": "People's Republic of China",
+      "countryCode": "CN",
+      "region": "Beijing",
+      "regionCode": "BJ",
+      "regionWdId": "Q956",
+      "latitude": 40.2,
+      "longitude": 116.4167,
+      "population": 14933274
+    },
+    {
+      "id": 3710858,
+      "wikiDataId": "Q11736",
+      "type": "CITY",
+      "city": "Tianjin",
+      "name": "Tianjin",
+      "country": "People's Republic of China",
+      "countryCode": "CN",
+      "region": "Tianjin",
+      "regionCode": "TJ",
+      "regionWdId": "Q11736",
+      "latitude": 39.146666666,
+      "longitude": 117.205555555,
+      "population": 13866009
+    },
+    {
+      "id": 3710359,
+      "wikiDataId": "Q5826",
+      "type": "CITY",
+      "city": "Xi'an",
+      "name": "Xi'an",
+      "country": "People's Republic of China",
+      "countryCode": "CN",
+      "region": "Shaanxi",
+      "regionCode": "SN",
+      "regionWdId": "Q47974",
+      "latitude": 34.261111111,
+      "longitude": 108.942222222,
+      "population": 12952907
+    },
+    {
+      "id": 3707722,
+      "wikiDataId": "Q42622",
+      "type": "CITY",
+      "city": "Suzhou",
+      "name": "Suzhou",
+      "country": "People's Republic of China",
+      "countryCode": "CN",
+      "region": "Jiangsu",
+      "regionCode": "JS",
+      "regionWdId": "Q16963",
+      "latitude": 31.3,
+      "longitude": 120.619444444,
+      "population": 12748262
+    }
+  ],
+  "metadata": {
+    "currentOffset": 0,
+    "totalCount": 93
+  }
+}

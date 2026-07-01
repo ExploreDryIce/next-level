@@ -58,6 +58,7 @@ class SwarmPredictor:
         self.swarm_connected = False
         self.predictions_made = 0
         self.predictions_routed = 0
+        self._pattern_queue_list = []
         
         # Load local model as fallback
         self._load_local_predictor(local_model_path)
@@ -135,8 +136,8 @@ class SwarmPredictor:
         top_prediction = predictions[0]
         confidence = top_prediction.get("probability", 0)
 
-        # Only extract if high confidence
-        if confidence >= 0.6:
+        # Only extract if confidence is reasonable (above noise floor)
+        if confidence >= 0.3:
             # Build the pattern: last 3 events + prediction
             if len(history) >= 3:
                 pattern = {
@@ -151,21 +152,15 @@ class SwarmPredictor:
                     "ttl": 7,
                 }
                 # Queue for async sharing (don't block the prediction response)
-                self._pattern_queue.append(pattern)
-
-    @property
-    def _pattern_queue(self):
-        if not hasattr(self, "__pattern_queue"):
-            self.__pattern_queue = []
-        return self.__pattern_queue
+                self._pattern_queue_list.append(pattern)
 
     def flush_patterns_to_swarm(self):
         """Send queued patterns to the broker. Call periodically."""
-        if not self._pattern_queue:
+        if not self._pattern_queue_list:
             return 0
 
-        patterns_to_send = self._pattern_queue[:]
-        self._pattern_queue.clear()
+        patterns_to_send = self._pattern_queue_list[:]
+        self._pattern_queue_list.clear()
 
         try:
             import socket
@@ -198,7 +193,7 @@ class SwarmPredictor:
         except Exception as e:
             logger.warning(f"Could not flush patterns to swarm: {e}")
             # Put them back for next attempt
-            self._pattern_queue.extend(patterns_to_send)
+            self._pattern_queue_list.extend(patterns_to_send)
             return 0
 
     # ─── Properties matching EventPredictor interface ───

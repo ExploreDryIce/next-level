@@ -1,0 +1,15 @@
+[
+  {
+    "event_type": "airspace_density_tn",
+    "timestamp": 1782874419.0,
+    "severity_score": 0.29,
+    "domain": "logistics",
+    "source": "opensky",
+    "metadata": {
+      "total_aircraft": 29,
+      "grounded": 0,
+      "high_altitude": 1,
+      "region": "Tennessee"
+    }
+  }
+]

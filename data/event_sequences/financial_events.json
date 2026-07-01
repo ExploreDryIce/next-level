@@ -155,16 +155,6 @@
   },
   {
     "event_type": "national_debt_update",
-    "timestamp": 1779944400.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "fed_treasury",
-    "metadata": {
-      "total_debt": 39176301795549.4
-    }
-  },
-  {
-    "event_type": "national_debt_update",
     "timestamp": 1780030800.0,
     "severity_score": 0.3,
     "domain": "financial",
@@ -430,1115 +420,1112 @@
     }
   },
   {
-    "event_type": "crypto_surge_sol",
-    "timestamp": 1781219037.184254,
-    "severity_score": 0.326,
-    "domain": "financial",
-    "source": "coingecko",
-    "metadata": {
-      "coin": "Solana",
-      "price": 66.9,
-      "change_24h_pct": 6.52932,
-      "market_cap": 38785290550
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781115298.0,
+    "event_type": "national_debt_update",
+    "timestamp": 1781154000.0,
     "severity_score": 0.3,
     "domain": "financial",
-    "source": "finnhub_CoinDesk",
+    "source": "fed_treasury",
     "metadata": {
-      "headline": "Privacy returns to focus as Ethereum developers explore new token standards",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781116875.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Pending Bank of Japan rate decision may impact Bitcoin price: Should traders prepare?",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781117700.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "UK crypto advocates launch campaign against banks blocking exchange transfers",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781124175.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Bitcoin miner margins fall to record low: Will BTC\u2019s $60K floor hold?",
-      "category": "crypto"
+      "total_debt": 39220785117318.68
     }
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1781128860.0,
+    "timestamp": 1782759228.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Eli Lilly, Regeneron among first companies selected for FDA initiative to speed review of new manufa",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782759574.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Comcast's NBCUniversal spinoff raises hope for more deals. There may not be good options",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782759735.0,
     "severity_score": 0.7,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "ECB raises rates to nip war-driven inflation in the bud - Reuters",
+      "headline": "Europe's economic resilience gives ECB greater room to move rates, Lagarde says - Reuters",
       "category": "business"
     }
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1781129099.0,
+    "timestamp": 1782763213.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "Hegseth: US to bomb 'key facilities' in Iran on Wednesday - Reuters",
+      "headline": "Oil settles up on US-Iran strikes; cautious hopes for shipping cap gains - Reuters",
       "category": "business"
     }
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1781130300.0,
-    "severity_score": 0.3,
+    "timestamp": 1782763620.0,
+    "severity_score": 0.7,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "Protesters call on FIFA to kick Iran out of World Cup, citing regime involvement - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781130600.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "CFTC proposes framework favoring sports event contracts over gambling",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781132042.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Iran announces closure of Strait of Hormuz after US attacks - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781132296.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Wall Street indexes fall more than 1%, hit by tech, Iran war worries - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781135640.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "US military says none of its warships struck in Strait of Hormuz - Reuters",
+      "headline": "Oil stocks in US Strategic Petroleum Reserve fall by 5.5 million to lowest level since 1983 - Reuter",
       "category": "business"
     }
   },
   {
     "event_type": "market_news_top news",
-    "timestamp": 1781135812.0,
+    "timestamp": 1782764032.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_CNBC",
     "metadata": {
-      "headline": "Company moves from Singapore to cheaper, more spacious Malaysia show rising global mobility trend",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781136501.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "XRP transaction demand falls 91.5% as traders focus on $0.65 support",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781137980.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Oil prices settle lower after Trump cancels planned strikes against Iran - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781139780.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Equities rally, dollar dips with oil as Trump cancels Iran attacks - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781139900.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Gold rises 2% as Trump canceling Iran strikes eases inflation fears - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781139940.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Kenya sees risks to fiscal consolidation, oil output to power Uganda's growth - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781140773.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Taking Kharg Island would pose risks for US troops - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781142240.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Dollar falls after Trump halts US strikes on Iran - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781144520.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Indian shares fall on Iran war, hot US inflation; IT leads losses - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781145600.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "US Department of Justice formally moves to drop Halkbank case - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781146800.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Rupee drops on dollar demand from oil cos, nearly erases RBI-led gains - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781147923.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Delaware, New Jersey advance bills banning crypto ATMs",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781151420.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Iran says no final decision made on deal that Trump hopes could be signed soon - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781152475.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Bitcoin has reached a deep bear-market valuation zone. The hard part may come next.",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781153446.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "XRP holds above $1.10 as ETF inflows rise, but traders remain cautious",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781153512.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Analysts tip pressure for Bitcoin, gold as US inflation tops 4%",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781154240.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Once an Arab oil embargo victim, US becomes world's top oil exporter - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781154978.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "It's not just bitcoin ETFs. Corporate BTC buying has dried up too",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781156757.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Live updates: Soft core inflation gave crypto a bounce, but only bitcoin held up on the week",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781157444.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Teen crypto scammer stole $13M to splurge on private jets, Lambo",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781159280.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "India demands end to US attacks on ships after three sailors killed - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781160240.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Indian refiners bolster crude, LPG supplies despite Iran conflict - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781161200.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "US lawmakers seek coordinated federal response to crypto theft and scams",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781161200.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Bitso brings peso-backed MXNB stablecoin to XRP Ledger via Ripple partnership",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781161200.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Archax introduces real-time yield payments for tokenized securities on Hedera",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781161253.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "AI researcher claims he's already bypassed Anthropic's Fable 5 guardrails",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781161291.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "TradFi advisors want stablecoins, tokenization over Bitcoin: Bitwise",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781163673.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Ethiopia sees higher spending next fiscal year due to Iran war costs - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781165399.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Iran and Ukraine loom over G7 as France accommodates Trump - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781165570.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Singapore bank DBS to offer tokenized gold to retail customers",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781167306.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Italy PM calls for single EU voice in Russia talks, questions smaller formats - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1781167658.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "Treasury yields steady as investors monitor inflation data, U.S. strikes in Iran",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781167787.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Philippines' central bank says Binance and its local partner lack licenses to operate",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781168369.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "BlackRock's income-paying bitcoin ETF nears launch at a fee that undercuts rivals",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781170260.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Iron ore remains unaffected by Iran war, but China's May data baffles - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781173423.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Pakistan budget, hit by Iran war and IMF, to squeeze middle class - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781173939.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Japan\u2019s parliament poised to pass sweeping bill to regulate crypto like stocks",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781174705.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Bitcoin advances, holds above key technical level that ether, solana can't break through",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1781176864.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "Here are the odds of bear markets in each stock index this summer",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781177034.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "As SpaceX IPO approaches, Polymarket, Ventuals assign $2 trillion valuation onchain",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781177597.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "How family offices are investing in the final frontier beyond SpaceX",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781178777.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Michael Saylor and Jack Mallers go toe-to-toe over Strategy's bitcoin reporting metrics",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781179308.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "AI models led to a \u2018vulnerability apocalypse\u2019 in crypto security: Immunefi CEO",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781179683.0,
-    "severity_score": 0.7,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Audiera\u2019s AI token BEAT beats Bitcoin, Ethereum as price surges 1,500% in a month",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781179773.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Iran fights to keep Lebanon as leverage in high-stakes US deal - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1781179822.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "SpaceX IPO won\u2019t \u2018break\u2019 the bull market. But investors are worried about what comes next",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781180241.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Japan crypto bill advances with ETF, tax reform path: Report",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781180806.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "US, Iran haggle over frozen funds as they inch toward interim deal, sources say - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781181739.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "It's not SpaceX. Bitcoin ETF outflows may be an arbitrage story",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781182335.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Hungary to reverse crypto trading crackdown after EU scrutiny",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781182676.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Ondo Finance hires former Invesco ETF chief to build onchain investment products",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781182736.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Trump says US will hit Iran 'very hard,' take control of energy infrastructure - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781182751.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Digital Asset lands $355M as a16z doubles down on Wall Street blockchain rails",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1781183375.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "Jim Cramer's top 10 things to watch in the stock market Thursday",
+      "headline": "Our rating, price target and outlook for newly spun off Honeywell Aerospace",
       "category": "top news"
     }
   },
   {
     "event_type": "market_news_top news",
-    "timestamp": 1781184057.0,
+    "timestamp": 1782766020.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_CNBC",
     "metadata": {
-      "headline": "Baldwin, Khanna propose new direct foreign investment review board to probe Trump's deals",
+      "headline": "Salesforce is on an AI buying spree, but Wall Street still has its doubts",
       "category": "top news"
     }
   },
   {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781184432.0,
+    "event_type": "market_news_business",
+    "timestamp": 1782768507.0,
     "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Trading Day: Wall Street gains, Dow hits record closing high as fragile U.S.-Iran truce holds - Reut",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782768960.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "What's in Britain's Defence Investment Plan? - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782773357.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Wall Street ends higher as US, Iran attacks ease; major tech-related shares jump - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782773880.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Trump calls housing bill 'a big yawn,' presses voting curbs - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782774180.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Strawberries and ice cream push UK food price inflation to lowest since March 2025, BRC data shows -",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782777960.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Trump urges gasoline retailers to lower prices, warns of 'big problems' if they don't - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782780540.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "IMF reaches staff-level deal with Egypt that could unlock $1.6 billion - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782782280.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Oil prices little changed but set for steepest monthly and quarterly losses since 2020 - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782782580.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Gold set for worst quarterly loss in 13 years on hawkish Fed stance - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782793860.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Morning Bid: Investors go shopping for Q3 - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782795669.0,
+    "severity_score": 0.7,
     "domain": "financial",
     "source": "finnhub_CoinDesk",
     "metadata": {
-      "headline": "Citi opens new route into private markets with tokenized share offering",
+      "headline": "Ether, solana and dogecoin slide as Strategy's bitcoin sales plan pressures market",
       "category": "crypto"
     }
   },
   {
     "event_type": "market_news_crypto",
-    "timestamp": 1781185307.0,
+    "timestamp": 1782796517.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "XRP holds $1 support as network activity rises and leverage clears out",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782797580.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Kenya, Rwanda sign fuel import deal to boost supply security - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782798504.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Saudi Aramco helicopter crash kills 14 nationals, state news agency says - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782798590.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Cathie Wood\u2019s ARK adds $43.5M in crypto stocks amid market dip",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782800942.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Australia\u2019s crypto travel rule is coming into effect: Here\u2019s what's changing",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782801000.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Dubai set for crypto firm influx as MiCA deadline pushes companies to reassess Europe",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782802869.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Live updates: BlackRock's IBIT sheds $300 million as bitcoin demand dwindles",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782803680.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Bitcoin's 52-week correlation with USD/JPY hits -0.90, undercutting 'carry trade' theory",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782805131.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "UK economy grows as expected before Iran war impact, ONS data shows - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1782806585.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Buffett delays annual donation to Gates Foundation pending review of Jeffrey Epstein ties: WSJ",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782807406.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Celsius-linked Bitcoin miner Ionic Digital seeks Nasdaq direct listing amid AI pivot",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782810506.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Michigan judge blocks Kalshi from allowing residents to place sports bets",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782812796.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Indonesia's biofuel mandate faces test after global oil prices tumble - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782812890.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Two Revolutionary Guards members killed by gunmen in western Iran - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782813290.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "SEC wins $5.5 million default judgment over alleged fake crypto platform NanoBit",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782814128.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "UK to lower stablecoin capital buffers, undercutting EU's MiCA requirements",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1782814437.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "U.S. crude oil hovers above $70 as Trump, Iran issue mixed messages on talks in Qatar",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782814980.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Iran says it won't meet with U.S. envoys, clouding prospects for peace deal - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782815148.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "ESMA MiCA warning puts Binance EU service changes under scrutiny",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782815628.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Strategy heads for 11th losing month in 12 as bitcoin weakness continues",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782816061.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Hormuz disruption to stall 2026 LNG trade, demand to rise by 2050, says Shell - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782816486.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Bitcoin nears 2024 lows as options traders pay up for downside protection",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782816583.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "US envoy Witkoff and Kushner will be in Qatar, no meeting with Iran, Qatari official says - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782817200.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Solana Company to back Kazakhstan\u2019s $6B crypto megacity ambition",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782817240.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Morning Bid: Doubled by halftime - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782818314.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Bitcoin $4.4 billion supply overhang emerges as institutional demand wilts",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782818430.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "New York Life makes tokenization debut with onchain high-yield bond fund with Centrifuge",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782819704.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Asia's crude oil imports tick up in June but uncertainty reigns - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782820534.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Bitcoin\u2019s quiet $59,000-$60,000 range is starting to look dangerous",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782822063.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Spiko links EU regulated T-bill funds to Coinbase stablecoin rails",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782822600.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "StarkWare unveils Starknet quantum roadmap, says industry has no excuse",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782823461.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Swan's Cory Klippsten sees record Bitcoin holder supply revealing early bottom",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782824400.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Nasdaq expands distribution of its market data into blockchain infrastructure",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782824400.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Theo becomes first crypto-native investor in Fidelity tokenized fund",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1782824668.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Jim Cramer's top 10 things to watch in the stock market Tuesday",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782825257.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "UAE exports record oil volumes after OPEC exit, ship-tracking data shows - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782825287.0,
     "severity_score": 0.7,
     "domain": "financial",
     "source": "finnhub_Cointelegraph",
     "metadata": {
-      "headline": "Bitcoin tags $63.2K as BTC price action ignores inflation, Iran Hormuz closure",
+      "headline": "Strategy's new plan divides industry observers even as MSTR, STRC climb",
       "category": "crypto"
     }
   },
   {
     "event_type": "market_news_crypto",
-    "timestamp": 1781185550.0,
+    "timestamp": 1782825952.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_CoinDesk",
     "metadata": {
-      "headline": "CoinDesk 20 performance update: Uniswap (UNI) gains 4.5% as all constituents rise",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781185551.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Trump says he wants to \"take\" Iran's Kharg Island oil hub - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781185767.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Tether leads $1.4 billion funding round in German robotics company Neura",
+      "headline": "Tokenized securities need competition, not gatekeepers",
       "category": "crypto"
     }
   },
   {
     "event_type": "market_news_crypto",
-    "timestamp": 1781185813.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Canton Network developer raises $355 million to bring Wall Street onchain",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781186400.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "SpaceX stock is coming to Solana on the same day it lists on Nasdaq",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781188200.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "U.S. House bill would erect crypto-theft task force across law enforcement agencies",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781190000.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CoinDesk",
-    "metadata": {
-      "headline": "Crypto for Advisors: Crypto ETFs",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781190087.0,
+    "timestamp": 1782826779.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Cointelegraph",
     "metadata": {
-      "headline": "Franklin Templeton, BNP Paribas see tokenization boosting EU's capital efficiency",
+      "headline": "OKX launches AI marketplace for autonomous agent economy",
       "category": "crypto"
     }
   },
   {
     "event_type": "market_news_crypto",
-    "timestamp": 1781193600.0,
+    "timestamp": 1782828000.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Cointelegraph",
     "metadata": {
-      "headline": "MassPay taps Coinbase to expand stablecoin payouts",
+      "headline": "MetaMask launches stablecoin yield account with card spending",
       "category": "crypto"
     }
   },
   {
-    "event_type": "market_news_business",
-    "timestamp": 1781193601.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "Elections advertising spend for 2026 expected to reach record high, outpacing presidential years",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1781193901.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "The most successful people are willing to do these 3 'extremely uncomfortable' things, says expert",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781193924.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Iran war adds to AI boom as demand for gas turbines rises further, Siemens Energy says - Reuters",
-      "category": "business"
-    }
-  },
-  {
     "event_type": "market_news_crypto",
-    "timestamp": 1781195873.0,
+    "timestamp": 1782828000.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_CoinDesk",
     "metadata": {
-      "headline": "Banking rails are moving past the 'stablecoin winner' narrative: Sygnum",
+      "headline": "MetaMask launches Money Account with stablecoin yield and spending in one wallet",
       "category": "crypto"
     }
   },
   {
     "event_type": "market_news_top news",
-    "timestamp": 1781196687.0,
+    "timestamp": 1782828901.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_CNBC",
     "metadata": {
-      "headline": "Oracle shares tumble on earnings. But there's a silver lining for our AI chip and power stocks",
+      "headline": "Ex-Google recruiter: The No. 1 resume 'red flag' that makes hiring managers stop reading\u2014and how to ",
       "category": "top news"
     }
   },
   {
     "event_type": "market_news_crypto",
-    "timestamp": 1781197200.0,
+    "timestamp": 1782829953.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_CoinDesk",
     "metadata": {
-      "headline": "Coinbase launches AI agent accounts that can trade and spend on your behalf",
+      "headline": "Circle slides 13% as Stripe, Coinbase and BlackRock back rival stablecoin network",
       "category": "crypto"
     }
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1781197449.0,
+    "timestamp": 1782830018.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "US will receive a severe response if it attacks again, Iran's top joint military command says - Reut",
+      "headline": "Bird nests of fibre-optic cables show war's impact on Ukraine - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1782830459.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "We're selling some shares of a parabolic mover, more than tripling our money",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782830519.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Jefferies warns of crypto market volatility as Clarity Act faces Senate test",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782832144.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Iran war and AI boom drive wild ride on global markets - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1782832664.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Trump administration expands list of graduate degrees subject to higher borrowing limits",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782832927.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "France banned Iran opposition rally after monarchist threats, security note shows - Reuters",
       "category": "business"
     }
   },
   {
     "event_type": "market_news_crypto",
-    "timestamp": 1781200626.0,
+    "timestamp": 1782837106.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Chinese exile once linked to Trump strategist gets 30-year sentence in $1 billion fraud",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782837271.0,
     "severity_score": 0.7,
     "domain": "financial",
     "source": "finnhub_Cointelegraph",
     "metadata": {
-      "headline": "Coinbase eyes World Cup boost as prediction markets surge: Bernstein",
+      "headline": "Business use of stablecoins set for growth surge: Cybrid report",
       "category": "crypto"
     }
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1781200946.0,
+    "timestamp": 1782837477.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "Iranian attack on Kuwait airport caused injuries, serious damage, Kuwait aviation authority says - R",
+      "headline": "Iran thank Tijuana after World Cup exit, support Mexico as 'second team' - Reuters",
       "category": "business"
     }
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1781201022.0,
+    "timestamp": 1782837922.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "Trump cancels strikes against Iran planned for Thursday evening - Reuters",
+      "headline": "Netanyahu visits occupied southern Lebanon, says Israel won't leave yet - Reuters",
       "category": "business"
     }
   },
   {
     "event_type": "market_news_top news",
-    "timestamp": 1781201805.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_CNBC",
-    "metadata": {
-      "headline": "We're upgrading our rating on an industrial stock and plan to buy more",
-      "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781202594.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "Three signs that XRP price risks falling below $1 in June",
-      "category": "crypto"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781202943.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Iran's Fars news agency says Iran has not yet agreed text for MoU with U.S. - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_top news",
-    "timestamp": 1781204098.0,
+    "timestamp": 1782838693.0,
     "severity_score": 0.7,
     "domain": "financial",
     "source": "finnhub_CNBC",
     "metadata": {
-      "headline": "Intel soars on double upgrade from BofA. Here's what Jim Cramer says investors must do",
+      "headline": "Major egg producers settle price inflation probe for $3.3 million",
       "category": "top news"
-    }
-  },
-  {
-    "event_type": "market_news_crypto",
-    "timestamp": 1781206661.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Cointelegraph",
-    "metadata": {
-      "headline": "ETH futures traders lean into $1.6K range lows: Will Ether lead market recovery?",
-      "category": "crypto"
     }
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1781208061.0,
+    "timestamp": 1782838823.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "Wall Street indexes jump; Trump says strikes against Iran canceled - Reuters",
+      "headline": "US oil production rises to record high in April, EIA says - Reuters",
       "category": "business"
     }
   },
   {
-    "event_type": "market_news_top news",
-    "timestamp": 1781208357.0,
+    "event_type": "market_news_crypto",
+    "timestamp": 1782839957.0,
     "severity_score": 0.3,
     "domain": "financial",
-    "source": "finnhub_CNBC",
+    "source": "finnhub_Cointelegraph",
     "metadata": {
-      "headline": "Eaton moves one step closer to becoming a cleaner bet on the AI boom",
-      "category": "top news"
+      "headline": "Crypto companies have spent $189M so far on 2026 US election cycle: Report",
+      "category": "crypto"
     }
   },
   {
     "event_type": "market_news_crypto",
-    "timestamp": 1781208766.0,
+    "timestamp": 1782841471.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "AI\u2019s power crunch turns Bitcoin miners\u2019 grid access into an asset",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782841917.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_CoinDesk",
     "metadata": {
-      "headline": "Elon Musk's SpaceX prices shares at $135, raising $75 billion in largest-ever IPO",
+      "headline": "SEC giving novel ETFs a rethink as it opens comment period on overhauling U.S. rules",
       "category": "crypto"
     }
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1781209055.0,
+    "timestamp": 1782842318.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Reuters",
     "metadata": {
-      "headline": "US plans to deport Iranians to Central African Republic, sources say - Reuters",
+      "headline": "Hundreds of thousands of Lebanese head home as fighting eases, many still stranded - Reuters",
       "category": "business"
     }
   },
   {
     "event_type": "market_news_business",
-    "timestamp": 1781209116.0,
+    "timestamp": 1782842401.0,
     "severity_score": 0.3,
     "domain": "financial",
-    "source": "finnhub_Reuters",
+    "source": "finnhub_CNBC",
     "metadata": {
-      "headline": "Trump says 'great' Iran settlement will trigger opening of Strait of Hormuz - Reuters",
-      "category": "business"
-    }
-  },
-  {
-    "event_type": "market_news_business",
-    "timestamp": 1781209265.0,
-    "severity_score": 0.3,
-    "domain": "financial",
-    "source": "finnhub_Reuters",
-    "metadata": {
-      "headline": "Trump says he believes Iran's supreme leader has approved deal with US - Reuters",
+      "headline": "American Airlines brings grab-and-go lounge to New York's JFK",
       "category": "business"
     }
   },
   {
     "event_type": "market_news_crypto",
-    "timestamp": 1781213096.0,
+    "timestamp": 1782843476.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Cointelegraph",
     "metadata": {
-      "headline": "Citi launches blockchain marketplace for private companies shares: Report",
+      "headline": "Bitcoin price risks drop below $58K as US dollar hits 40-year high against yen",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782844355.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Next NATO summit in Albania in doubt amid US reluctance and low defence spending - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782844746.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Why OpenUSD's 'real threat' that tanked Circle stock still faces a steep uphill battle for adoption",
       "category": "crypto"
     }
   },
   {
     "event_type": "market_news_crypto",
-    "timestamp": 1781213697.0,
+    "timestamp": 1782845189.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Nasdaq brings proprietary market data onchain through Pyth",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1782845277.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Nvidia mostly sat out the chip sector's best quarter ever. What needs to change?",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1782846253.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Wall Street says sell Goldman, buy Capital One. Here's where we stand",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_top news",
+    "timestamp": 1782847269.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CNBC",
+    "metadata": {
+      "headline": "Social Security gender gap means women receive about $4,800 less in annual benefits. What to know be",
+      "category": "top news"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782847901.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Financial companies join forces for US dollar stablecoin, keeping reserve earnings",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782850909.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Companies spending the most on AI are growing jobs, Ramp study finds",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782851931.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "SEC seeks public comment on regulating next generation of ETFs",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782852771.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Faces of elimination: World Cup fans in their moment of loss - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782853219.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Phantom doubles down on perpetual futures with hire of Hyperliquid market builders",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782854019.0,
     "severity_score": 0.3,
     "domain": "financial",
     "source": "finnhub_Forexlive",
     "metadata": {
-      "headline": "Oil price drop on Trump's 39th 'deal' announcement. Pavlov's dog meets Shcrodinger's cat.",
+      "headline": "Trump's 2025 filing shows crypto paid off in a big way, more than $1bn in his pocket",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782854207.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Bitmine Ether buys eclipsed by $345M ETH ETF $345M outflows: Is sub $1.5K next?",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782855888.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Massachusetts AG files amended lawsuit against Kalshi over sports betting after court ruling",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782856148.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Bitcoin just $5K away from \u2018best investment opportunity\u2019 of bear market",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782858495.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "Trump pocketed more than $1 billion from crypto ties as industry headed toward slump",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782858658.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "S&P 500, Nasdaq register best quarter since 2020 despite Iran war - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782860566.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_CoinDesk",
+    "metadata": {
+      "headline": "U.S. senators seek to block foreign adversaries from AI technology in new bill",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782861069.0,
+    "severity_score": 0.7,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "Has Strategy\u2019s capital overhaul put an end to \u2018death spiral\u2019 fears?",
+      "category": "crypto"
+    }
+  },
+  {
+    "event_type": "market_news_business",
+    "timestamp": 1782866700.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Reuters",
+    "metadata": {
+      "headline": "Oil ticks higher as Iran's refusal to meet US envoys dims ceasefire hopes - Reuters",
+      "category": "business"
+    }
+  },
+  {
+    "event_type": "market_news_crypto",
+    "timestamp": 1782873007.0,
+    "severity_score": 0.3,
+    "domain": "financial",
+    "source": "finnhub_Cointelegraph",
+    "metadata": {
+      "headline": "UK crypto investors sue Binance, Changpeng Zhao for $200M",
       "category": "crypto"
     }
   },

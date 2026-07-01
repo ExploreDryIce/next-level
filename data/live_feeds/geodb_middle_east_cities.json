@@ -1,0 +1,172 @@
+{
+  "links": [
+    {
+      "rel": "first",
+      "href": "/v1/geo/cities?offset=0&limit=10&minPopulation=200000&sort=-population&countryIds=SA,AE,QA,KW"
+    },
+    {
+      "rel": "next",
+      "href": "/v1/geo/cities?offset=10&limit=10&minPopulation=200000&sort=-population&countryIds=SA,AE,QA,KW"
+    },
+    {
+      "rel": "last",
+      "href": "/v1/geo/cities?offset=30&limit=10&minPopulation=200000&sort=-population&countryIds=SA,AE,QA,KW"
+    }
+  ],
+  "data": [
+    {
+      "id": 105350,
+      "wikiDataId": "Q3692",
+      "type": "CITY",
+      "city": "Riyadh",
+      "name": "Riyadh",
+      "country": "Saudi Arabia",
+      "countryCode": "SA",
+      "region": "Riyadh Province",
+      "regionCode": "01",
+      "regionWdId": "Q1249255",
+      "latitude": 24.65,
+      "longitude": 46.71,
+      "population": 7009100
+    },
+    {
+      "id": 105153,
+      "wikiDataId": "Q374365",
+      "type": "CITY",
+      "city": "Jeddah",
+      "name": "Jeddah",
+      "country": "Saudi Arabia",
+      "countryCode": "SA",
+      "region": "Mecca Province",
+      "regionCode": "02",
+      "regionWdId": "Q234167",
+      "latitude": 21.542777777,
+      "longitude": 39.172777777,
+      "population": 4697000
+    },
+    {
+      "id": 3519123,
+      "wikiDataId": "Q612",
+      "type": "CITY",
+      "city": "Dubai",
+      "name": "Dubai",
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "region": "Emirate of Dubai",
+      "regionCode": "DU",
+      "regionWdId": "Q613",
+      "latitude": 25.269722222,
+      "longitude": 55.309444444,
+      "population": 3944751
+    },
+    {
+      "id": 70557,
+      "wikiDataId": "Q35178",
+      "type": "CITY",
+      "city": "Kuwait City",
+      "name": "Kuwait City",
+      "country": "Kuwait",
+      "countryCode": "KW",
+      "region": "Capital Governorate",
+      "regionCode": "KU",
+      "regionWdId": "Q1046645",
+      "latitude": 29.375,
+      "longitude": 47.98,
+      "population": 2989000
+    },
+    {
+      "id": 105952,
+      "wikiDataId": "Q5806",
+      "type": "CITY",
+      "city": "Mecca",
+      "name": "Mecca",
+      "country": "Saudi Arabia",
+      "countryCode": "SA",
+      "region": "Mecca Province",
+      "regionCode": "02",
+      "regionWdId": "Q234167",
+      "latitude": 21.4225,
+      "longitude": 39.826111111,
+      "population": 2427924
+    },
+    {
+      "id": 659,
+      "wikiDataId": "Q1519",
+      "type": "CITY",
+      "city": "Abu Dhabi",
+      "name": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "region": "Emirate of Abu Dhabi",
+      "regionCode": "AZ",
+      "regionWdId": "Q187712",
+      "latitude": 24.451111111,
+      "longitude": 54.396944444,
+      "population": 1570000
+    },
+    {
+      "id": 105666,
+      "wikiDataId": "Q35484",
+      "type": "CITY",
+      "city": "Medina",
+      "name": "Medina",
+      "country": "Saudi Arabia",
+      "countryCode": "SA",
+      "region": "Medina Province",
+      "regionCode": "03",
+      "regionWdId": "Q236027",
+      "latitude": 24.47,
+      "longitude": 39.61,
+      "population": 1411599
+    },
+    {
+      "id": 900,
+      "wikiDataId": "Q289693",
+      "type": "CITY",
+      "city": "Sharjah",
+      "name": "Sharjah",
+      "country": "United Arab Emirates",
+      "countryCode": "AE",
+      "region": "Emirate of Sharjah",
+      "regionCode": "SH",
+      "regionWdId": "Q188810",
+      "latitude": 25.3375,
+      "longitude": 55.411944444,
+      "population": 1247749
+    },
+    {
+      "id": 3453188,
+      "wikiDataId": "Q3861",
+      "type": "CITY",
+      "city": "Doha",
+      "name": "Doha",
+      "country": "Qatar",
+      "countryCode": "QA",
+      "region": "Ad Dawhah",
+      "regionCode": "AD",
+      "regionWdId": "Q594208",
+      "latitude": 25.286111111,
+      "longitude": 51.529444444,
+      "population": 1186023
+    },
+    {
+      "id": 105103,
+      "wikiDataId": "Q7636782",
+      "type": "CITY",
+      "city": "Sultanah",
+      "name": "Sultanah",
+      "country": "Saudi Arabia",
+      "countryCode": "SA",
+      "region": "Medina Province",
+      "regionCode": "03",
+      "regionWdId": "Q236027",
+      "latitude": 24.5,
+      "longitude": 39.5833,
+      "population": 946697
+    }
+  ],
+  "metadata": {
+    "currentOffset": 0,
+    "totalCount": 34
+  }
+}

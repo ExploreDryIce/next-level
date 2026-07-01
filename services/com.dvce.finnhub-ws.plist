@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.dvce.finnhub-ws</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/webber/Desktop/dvce/.venv/bin/python</string>
+        <string>-m</string>
+        <string>src.ingestion.finnhub_ws</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/webber/Desktop/next-level</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <dict>
+        <key>SuccessfulExit</key>
+        <false/>
+    </dict>
+    <key>StandardOutPath</key>
+    <string>/tmp/dvce-finnhub-ws.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/dvce-finnhub-ws.err</string>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PYTHONPATH</key>
+        <string>/Users/webber/Desktop/next-level</string>
+    </dict>
+</dict>
+</plist>

@@ -316,6 +316,28 @@ def save_history(pull_results: dict, event_count: int):
     return history
 
 
+def pull_noaa_stations() -> dict:
+    """Pull NOAA hourly station observations."""
+    try:
+        from src.ingestion.noaa_stations import pull_noaa_stations as _pull
+        return _pull()
+    except ImportError:
+        from noaa_stations import pull_noaa_stations as _pull
+        return _pull()
+
+
+def pull_rapidapi_feeds() -> dict:
+    """Pull RapidAPI + free utility rate feeds."""
+    try:
+        from src.ingestion.rapidapi_feeds import pull_utility_rates, pull_geodb_cities
+    except ImportError:
+        from rapidapi_feeds import pull_utility_rates, pull_geodb_cities
+    results = {}
+    results.update({f"eia_{k}": v for k, v in pull_utility_rates().items()})
+    results.update({f"geodb_{k}": v for k, v in pull_geodb_cities().items()})
+    return results
+
+
 if __name__ == "__main__":
     FEEDS_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -328,6 +350,18 @@ if __name__ == "__main__":
     no_auth_results = pull_no_auth_feeds()
     ok_count = sum(1 for v in no_auth_results.values() if v == "ok")
     logger.info(f"  No-auth: {ok_count}/{len(no_auth_results)} successful")
+
+    # Phase 1b: NOAA hourly stations
+    logger.info("Phase 1b: Pulling NOAA hourly stations...")
+    noaa_results = pull_noaa_stations()
+    noaa_ok = sum(1 for v in noaa_results.values() if v == "ok")
+    logger.info(f"  NOAA stations: {noaa_ok}/{len(noaa_results)} successful")
+
+    # Phase 1c: RapidAPI + utility rates
+    logger.info("Phase 1c: Pulling RapidAPI + utility rates...")
+    rapid_results = pull_rapidapi_feeds()
+    rapid_ok = sum(1 for v in rapid_results.values() if "ok" in str(v))
+    logger.info(f"  RapidAPI feeds: {rapid_ok}/{len(rapid_results)} successful")
 
     # Phase 2: Keyed feeds
     logger.info("Phase 2: Pulling keyed feeds...")
@@ -342,7 +376,7 @@ if __name__ == "__main__":
     logger.info(f"  Generated: {event_count} events")
 
     # Save history
-    all_results = {**no_auth_results, **keyed_results}
+    all_results = {**no_auth_results, **{f"noaa_{k}": v for k, v in noaa_results.items()}, **rapid_results, **keyed_results}
     history = save_history(all_results, event_count)
 
     logger.info("")

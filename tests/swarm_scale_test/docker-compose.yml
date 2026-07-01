@@ -1,0 +1,209 @@
+##
+## 10+ Node Swarm Scale Test
+##
+## Spins up a broker + 12 simulated swarm nodes (different domains)
+## to test pattern distribution, routing, and quality scoring at scale.
+##
+## Usage:
+##   docker compose up --build
+##   docker compose up -d && docker compose logs -f broker
+##   docker compose down
+##
+## What this tests:
+##   - Broker handles 12 concurrent connections
+##   - Patterns distribute correctly across domains
+##   - Quality scoring filters bad patterns
+##   - No message loss under load
+##   - Reconnection after node restart
+##
+
+services:
+  broker:
+    build:
+      context: ../..
+      dockerfile: tests/swarm_scale_test/Dockerfile.broker
+    ports:
+      - "19876:9876"
+    volumes:
+      - broker_data:/root/.dvce/swarm
+    healthcheck:
+      test: ["CMD", "python", "-c", "import socket; s=socket.socket(); s.connect(('localhost',9876)); s.close()"]
+      interval: 5s
+      timeout: 3s
+      retries: 3
+
+  # Financial domain nodes (3)
+  node-financial-1:
+    build:
+      context: ../..
+      dockerfile: tests/swarm_scale_test/Dockerfile.node
+    environment:
+      NODE_ID: financial-node-1
+      NODE_DOMAIN: financial
+      BROKER_HOST: broker
+      BROKER_PORT: "9876"
+      PATTERN_RATE: "5"
+    depends_on:
+      broker:
+        condition: service_healthy
+
+  node-financial-2:
+    build:
+      context: ../..
+      dockerfile: tests/swarm_scale_test/Dockerfile.node
+    environment:
+      NODE_ID: financial-node-2
+      NODE_DOMAIN: financial
+      BROKER_HOST: broker
+      BROKER_PORT: "9876"
+      PATTERN_RATE: "3"
+    depends_on:
+      broker:
+        condition: service_healthy
+
+  node-financial-3:
+    build:
+      context: ../..
+      dockerfile: tests/swarm_scale_test/Dockerfile.node
+    environment:
+      NODE_ID: financial-node-3
+      NODE_DOMAIN: financial
+      BROKER_HOST: broker
+      BROKER_PORT: "9876"
+      PATTERN_RATE: "4"
+    depends_on:
+      broker:
+        condition: service_healthy
+
+  # Weather domain nodes (3)
+  node-weather-1:
+    build:
+      context: ../..
+      dockerfile: tests/swarm_scale_test/Dockerfile.node
+    environment:
+      NODE_ID: weather-node-1
+      NODE_DOMAIN: weather
+      BROKER_HOST: broker
+      BROKER_PORT: "9876"
+      PATTERN_RATE: "6"
+    depends_on:
+      broker:
+        condition: service_healthy
+
+  node-weather-2:
+    build:
+      context: ../..
+      dockerfile: tests/swarm_scale_test/Dockerfile.node
+    environment:
+      NODE_ID: weather-node-2
+      NODE_DOMAIN: weather
+      BROKER_HOST: broker
+      BROKER_PORT: "9876"
+      PATTERN_RATE: "4"
+    depends_on:
+      broker:
+        condition: service_healthy
+
+  node-weather-3:
+    build:
+      context: ../..
+      dockerfile: tests/swarm_scale_test/Dockerfile.node
+    environment:
+      NODE_ID: weather-node-3
+      NODE_DOMAIN: weather
+      BROKER_HOST: broker
+      BROKER_PORT: "9876"
+      PATTERN_RATE: "5"
+    depends_on:
+      broker:
+        condition: service_healthy
+
+  # Geo domain nodes (2)
+  node-geo-1:
+    build:
+      context: ../..
+      dockerfile: tests/swarm_scale_test/Dockerfile.node
+    environment:
+      NODE_ID: geo-node-1
+      NODE_DOMAIN: geo
+      BROKER_HOST: broker
+      BROKER_PORT: "9876"
+      PATTERN_RATE: "3"
+    depends_on:
+      broker:
+        condition: service_healthy
+
+  node-geo-2:
+    build:
+      context: ../..
+      dockerfile: tests/swarm_scale_test/Dockerfile.node
+    environment:
+      NODE_ID: geo-node-2
+      NODE_DOMAIN: geo
+      BROKER_HOST: broker
+      BROKER_PORT: "9876"
+      PATTERN_RATE: "4"
+    depends_on:
+      broker:
+        condition: service_healthy
+
+  # Cyber domain nodes (2)
+  node-cyber-1:
+    build:
+      context: ../..
+      dockerfile: tests/swarm_scale_test/Dockerfile.node
+    environment:
+      NODE_ID: cyber-node-1
+      NODE_DOMAIN: cyber
+      BROKER_HOST: broker
+      BROKER_PORT: "9876"
+      PATTERN_RATE: "2"
+    depends_on:
+      broker:
+        condition: service_healthy
+
+  node-cyber-2:
+    build:
+      context: ../..
+      dockerfile: tests/swarm_scale_test/Dockerfile.node
+    environment:
+      NODE_ID: cyber-node-2
+      NODE_DOMAIN: cyber
+      BROKER_HOST: broker
+      BROKER_PORT: "9876"
+      PATTERN_RATE: "3"
+    depends_on:
+      broker:
+        condition: service_healthy
+
+  # Grid domain nodes (2)
+  node-grid-1:
+    build:
+      context: ../..
+      dockerfile: tests/swarm_scale_test/Dockerfile.node
+    environment:
+      NODE_ID: grid-node-1
+      NODE_DOMAIN: grid
+      BROKER_HOST: broker
+      BROKER_PORT: "9876"
+      PATTERN_RATE: "4"
+    depends_on:
+      broker:
+        condition: service_healthy
+
+  node-grid-2:
+    build:
+      context: ../..
+      dockerfile: tests/swarm_scale_test/Dockerfile.node
+    environment:
+      NODE_ID: grid-node-2
+      NODE_DOMAIN: grid
+      BROKER_HOST: broker
+      BROKER_PORT: "9876"
+      PATTERN_RATE: "3"
+    depends_on:
+      broker:
+        condition: service_healthy
+
+volumes:
+  broker_data:

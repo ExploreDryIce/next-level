@@ -1,71 +1,162 @@
 {
   "status": "ok",
-  "totalResults": 855,
+  "totalResults": 795,
   "articles": [
     {
       "source": {
         "id": null,
-        "name": "Crypto Briefing"
+        "name": "Compactmag.com"
       },
-      "author": "Editorial Team",
-      "title": "Iran reports missile strikes on US-linked targets in Iraq, rattling crypto markets",
-      "description": "Geopolitical tensions in Iraq highlight the vulnerability of crypto markets to external shocks, underscoring the interconnectedness of global assets.\nThe post Iran reports missile strikes on US-linked targets in Iraq, rattling crypto markets appeared first on\u2026",
-      "url": "https://cryptobriefing.com/iran-missile-strikes-iraq-crypto-markets/",
-      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/10182315/iran-launches-missile-strikes-in-iraq-and-syria-citing-secur-800x420.jpeg",
-      "publishedAt": "2026-06-10T22:23:23Z",
-      "content": "Bitcoin whipsawed and tokenized oil futures saw tens of millions in liquidations as geopolitical risk flared across digital asset markets. Iran\u2019s Islamic Revolutionary Guard Corps launched a missile \u2026 [+2088 chars]"
+      "author": "reasonableklout",
+      "title": "The AI Apocalypse Is Here",
+      "description": "Article URL: https://www.compactmag.com/article/the-ai-apocalypse-is-already-here/\nComments URL: https://news.ycombinator.com/item?id=49227521\nPoints: 6\n# Comments: 0",
+      "url": "https://www.compactmag.com/article/the-ai-apocalypse-is-already-here/",
+      "urlToImage": "https://storage.ghost.io/c/65/af/65afbdb5-30bf-4286-acc4-9535069adb42/content/images/size/w1200/2026/07/IMG_3716--2-.jpg",
+      "publishedAt": "2026-08-09T01:28:36Z",
+      "content": "Americans do not care for artificial intelligence. Recent polling\r\n shows that their attitudes mostly range from ambivalence to horror. Some observers have suggested that opposition to AI is due to p\u2026 [+63744 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Hosteltur.com"
+        "name": "Yahoo Entertainment"
       },
-      "author": "Hosteltur",
-      "title": "Crisis de queroseno: \u00bfse est\u00e1n preparando las aerol\u00edneas para un invierno de recortes?",
-      "description": "La Asamblea General Anual de IATA, celebrada en los \u00faltimos d\u00edas en R\u00edo de Janeiro, ha convertido la crisis del queroseno en el principal term\u00f3metro del sector a\u00e9reo mundial. La cita, acompa\u00f1ada por el World Air Transport Summit, re\u00fane a directivos que llegan\u2026",
-      "url": "https://www.hosteltur.com/176823_crisis-de-queroseno-se-estan-preparando-las-aerolineas-para-un-invierno-de-recortes.html",
-      "urlToImage": "https://static.hosteltur.com/app/public/uploads/img/articles/2026/06/10/L_111804_crisis-de-queroseno-se-estan-preparando-las-aerolineas-para-un-invierno-de-.jpg",
-      "publishedAt": "2026-06-10T22:00:01Z",
-      "content": "El debate ya no se limita al precio de los billetes ni a los recargos sobre determinadas rutas. Varias aerol\u00edneas preparan recortes sustanciales de sus programas de invierno, una temporada hist\u00f3ricam\u2026 [+4359 chars]"
+      "author": "Felicity Bradstock",
+      "title": "Airlines Scramble for Jet Fuel as Hormuz Disruption Drags On",
+      "description": "The prolonged disruption to shipping through the Strait of Hormuz has created a global jet fuel crunch, driving up airline costs and forcing carriers to seek...",
+      "url": "https://finance.yahoo.com/energy/articles/airlines-scramble-jet-fuel-hormuz-190000182.html",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/26E6C8FD0C05C22FBF113A43F4B36EE56B09941AE6B0586B09E5D060475BB81E/subgraphmysterio/resizefill_w1200_h676;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Foilprice.com%2F7b90c1f8cf2f50786e18bb2c08ed9641",
+      "publishedAt": "2026-08-08T19:00:00Z",
+      "content": "The months-long closure of the Strait of Hormuz has led to severe fuel shortages around the globe, as companies battle to continue operations. Airlines have been hit hard as they struggle to obtain e\u2026 [+5180 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "New Zealand Herald"
+        "name": "OilPrice.com"
       },
-      "author": "Graham Skellern",
-      "title": "Blue chips defy global headwinds as NZ reporting season exceeds forecasts",
-      "description": "Fisher & Paykel, Mainfreight and Infratil lift investor confidence.",
-      "url": "https://www.nzherald.co.nz/business/business-reports/capital-markets-report/blue-chips-defy-global-headwinds-as-nz-reporting-season-exceeds-forecasts/premium/2LPE2FIYLBDUZM6I22WCO4GRTM/",
-      "urlToImage": "https://www.nzherald.co.nz/resizer/v2/MYTA4FKHJZEF3D5SUIVAYU2HRU.jpg?auth=a171defc3042146efb5d9530ca27e7167a00caaa399a98c0f46148573a6562b2&width=1200&height=675&quality=70&focal=224%2C153&smart=false",
-      "publishedAt": "2026-06-10T21:00:00Z",
-      "content": "The elevated fuel price and shipping and supply chain disruption people were mindful of what impact the conflict would have on costs and confidence.\r\nAs it turned out, says Solly, the results general\u2026 [+15008 chars]"
+      "author": "Felicity Bradstock",
+      "title": "Airlines Scramble for Jet Fuel as Hormuz Disruption Drags On",
+      "description": "The months-long closure of the Strait of Hormuz has led to severe fuel shortages around the globe, as companies battle to continue operations. Airlines have been hit hard as they struggle to obtain enough jet fuel to maintain their regular flight schedules. T\u2026",
+      "url": "https://oilprice.com/Energy/Energy-General/Airlines-Scramble-for-Jet-Fuel-as-Hormuz-Disruption-Drags-On.html",
+      "urlToImage": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-08-06_68csbi0rtm.jpg",
+      "publishedAt": "2026-08-08T19:00:00Z",
+      "content": "Extreme heat and drought are\u2026\r\nDeclining energy affordability could trigger\u2026\r\nConflicting signals from Washington and\u2026\r\nSet us as your preferred Google source\r\nBy Felicity Bradstock - Aug 08, 2026, 2\u2026 [+5075 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Www.gov.uk"
+        "name": "MarketBeat"
       },
-      "author": "Foreign, Commonwealth & Development Office",
-      "title": "Joint Statement from UK and Australia on the Australia-UK Ministerial Consultations: 10 June 2026",
-      "description": "On 10 June 2026, the Foreign Secretary, Yvette Cooper and Defence Secretary John Healey MP, hosted the Deputy Prime Minister and Minister for Defence, the Hon Richard Marles MP, and the Minister for Foreign Affairs, Senator the Hon Penny Wong, for the Austral\u2026",
-      "url": "https://www.gov.uk/government/news/joint-statement-from-uk-and-australia-on-the-australia-uk-ministerial-consultations-10-june-2026",
-      "urlToImage": "https://www.gov.uk/assets/frontend/govuk-opengraph-image-4196a4d6333cf92aaf720047f56cfd91b3532d7635fc21ebcf0d5897df6b5f77.png",
-      "publishedAt": "2026-06-10T19:25:38Z",
-      "content": "On 10 June 2026, the Secretary of State for Foreign, Commonwealth and Development Affairs, the Rt Hon Yvette Cooper MP, and the Secretary of State for Defence, the Rt Hon John Healey MP, hosted the D\u2026 [+43795 chars]"
+      "author": "MarketBeat",
+      "title": "Loar Q2 Earnings Call Highlights",
+      "description": "Loar (NYSE:LOAR) reported record second-quarter sales, adjusted EBITDA and adjusted EBITDA margin, while raising its full-year 2026 outlook as commercial aer...",
+      "url": "https://www.marketbeat.com/instant-alerts/loar-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/4C19E302762AA516B1B6FD5969E3BE95E79F61769FB3C156226BC739F76AE2A1/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2F7f655c6e66d8aa76b27d047991b7c72d",
+      "publishedAt": "2026-08-08T17:03:53Z",
+      "content": "Key Points\r\n<ul><li>Interested in Loar Holdings Inc.? Here are five stocks we like better.\r\n</li><li>Record quarter: Loar's second-quarter sales rose 17% year over year to $172 million, while adjuste\u2026 [+8188 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Darioamodei.com"
+        "name": "MarketBeat"
+      },
+      "author": "MarketBeat",
+      "title": "Hyster-Yale Q2 Earnings Call Highlights",
+      "description": "Hyster-Yale (NYSE:HY) said second-quarter results showed further signs of a gradual recovery in the lift truck market, with sequential gains in bookings, rev...",
+      "url": "https://www.marketbeat.com/instant-alerts/hyster-yale-q2-earnings-call-highlights-2026-08-08/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/F576DD50D12097592B65C4B0C6BAEB6FE212D4E1E5784EDC57B7FEFF1D578311/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fmarketbeat_955%2Fd8fe397d0c0bbf7c0eb6a3804d5938f6",
+      "publishedAt": "2026-08-08T13:04:04Z",
+      "content": "Key Points\r\n<ul><li>Interested in Hyster-Yale, Inc.? Here are five stocks we like better.\r\n</li><li>Hyster-Yale's recovery continued in Q2: Bookings rose 17% sequentially to $680 million, while reven\u2026 [+8692 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Ibtimes.com.au"
+      },
+      "author": "George Anton",
+      "title": "iPhone 17 Prices Could Rise as Soon as Monday, New Rumor Claims Ahead of Chip Shortage Fallout",
+      "description": "Apple may raise iPhone 17 prices due to a global chip shortage, with potential increases expected before the iPhone 18 launch. Analysts suggest a US price hike is imminent.",
+      "url": "https://www.ibtimes.com.au/apple-iphone-17-price-increase-chip-shortage-1873778",
+      "urlToImage": "https://d.ibtimes.com.au/en/full/1894008/iphone-17.png",
+      "publishedAt": "2026-08-08T12:09:15Z",
+      "content": "Apple could raise prices on its current iPhone 17 lineup as soon as Monday, Aug. 10, according to a new rumor circulating online, a move that would arrive well ahead of the broader price increases ma\u2026 [+5999 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nakedcapitalism.com"
+      },
+      "author": "Yves Smith",
+      "title": "Saudi Arabia\u2019s $5 Oil Detour Is Expensive\u2014and Worth It",
+      "description": "Saudi Arabia's new long route to Asia is viable economically, but how safe is it from further Ansar Allah escalation?",
+      "url": "https://www.nakedcapitalism.com/2026/08/saudi-arabias-5-oil-detour-is-expensive-and-worth-it.html",
+      "urlToImage": null,
+      "publishedAt": "2026-08-08T07:55:40Z",
+      "content": "Yves here. I wish this post on the new Saudi oil transit route had maps, but I believe you can adequately get the drift of the gist. It also omits several factors. First is that the Yanbu port cannot\u2026 [+9972 chars]"
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "Writankar Mukherjee and Sharmistha Mukherjee",
+      "title": "Indian manufacturers turn to air freight as West Asia crisis disrupts sea shipments",
+      "description": "Indian manufacturers are airlifting components to ensure festive season production continuity.  Sea freight delays and congestion are making ocean shipping unreliable for these companies.  Air freight costs are significantly higher, but timely supplies are cr\u2026",
+      "url": "https://economictimes.indiatimes.com/industry/transportation/airlines-/-aviation/indian-manufacturers-turn-to-air-freight-as-west-asia-crisis-disrupts-sea-shipments/articleshow/133041727.cms",
+      "urlToImage": "https://img.etimg.com/thumb/msid-133041738,width-1200,height-630,imgsize-225806,overlay-economictimes/articleshow.jpg",
+      "publishedAt": "2026-08-08T00:00:00Z",
+      "content": "Kolkata | New Delhi: Indian electronics and automobile manufacturers are increasingly flying in raw materials and components despite sharply higher freight costs to ensure the ongoing festive-season \u2026 [+4013 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PRNewswire"
       },
       "author": null,
-      "title": "Policy on the AI Exponential",
-      "description": "Comments",
-      "url": "https://darioamodei.com/post/policy-on-the-ai-exponential",
-      "urlToImage": "https://cdn.prod.website-files.com/67ecbba31246a69e485fdd4b/6a29ae1af3fb3241e2c68979_og_policy-on-the-ai-exponential.jpg",
-      "publishedAt": "2026-06-10T18:36:04Z",
-      "content": "In one of the side plots to The Lord of the Rings, two of the Hobbits attempt to rouse Treebearda wise but ponderous sentient treeto defend his forest from an army that is cutting it down. The proble\u2026 [+34177 chars]"
+      "title": "Greenberg Traurig's Friederike G\u00f6rgens Named Law360 Rising Star",
+      "description": "WASHINGTON, Aug. 7, 2026 /PRNewswire/ -- Friederike S. G\u00f6rgens, a shareholder at global law firm Greenberg Traurig, LLP, has been named to Law360's 2026 Rising Stars list in the International Trade category. The list honors attorneys under 40 years old whose \u2026",
+      "url": "https://www.prnewswire.com/news-releases/greenberg-traurigs-friederike-gorgens-named-law360-rising-star-302846388.html",
+      "urlToImage": "https://mmx.prnewswire.com/media/MS1777985/Greenberg-Traurig-LLP-Logo.jpg?id=OA2840273&p=facebook",
+      "publishedAt": "2026-08-07T23:05:00Z",
+      "content": "WASHINGTON, Aug. 7, 2026 /PRNewswire/ -- Friederike S. G\u00f6rgens, a shareholder at global law firm Greenberg Traurig, LLP, has been named to Law360's 2026 Rising Stars list in the International Trade c\u2026 [+2344 chars]"
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "Reuters",
+      "title": "Early surge in US container imports coming to an end, shippers say",
+      "description": "US container import volume, driven by tariffs and war surcharges, has peaked.  Shippers are now well-stocked for the upcoming holiday shopping season.  Import volume is expected to decline for the remainder of 2026.  However, ocean transport prices will likel\u2026",
+      "url": "https://economictimes.indiatimes.com/news/international/world-news/early-surge-in-us-container-imports-coming-to-an-end-shippers-say/articleshow/133039246.cms",
+      "urlToImage": "https://img.etimg.com/thumb/msid-133039388,width-1200,height-630,imgsize-228904,overlay-economictimes/articleshow.jpg",
+      "publishedAt": "2026-08-07T17:22:41Z",
+      "content": "Los Angeles: An early seasonal surge in U.S. container import volume, driven by shippers racing to avoid higher fuel surcharges tied to the U.S.-Israeli war with Iran and new U.S. tariffs, is ending,\u2026 [+2021 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "WWD"
+      },
+      "author": "Arthur Zaczkiewicz",
+      "title": "As Peak Shipping Season Ends, Volume This Month Remains\u00a0High",
+      "description": "Global Port Tracker reports steady import volumes for U.S. ports, with retailers well-stocked for the holiday shopping season.",
+      "url": "http://wwd.com/sourcing-journal/logistics/as-peak-shipping-season-ends-volume-remains-high-1239097846/",
+      "urlToImage": "https://wwd.com/wp-content/uploads/2026/03/maerskshipfreightos.jpg?w=1000&h=563&crop=1",
+      "publishedAt": "2026-08-07T16:49:27Z",
+      "content": "The latest read from the Global Port Tracker shows the peak shipping season winding down, but import volume should remain high this month before steadily declining. The tracker was released Friday fr\u2026 [+3561 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Activistpost.com"
+      },
+      "author": "Editor",
+      "title": "The Fourth Turning Global War Has Already Bankrupted America \u2014 And Nobody\u2019s Counting the\u00a0Bodies",
+      "description": "The numbers came in just after dawn on the East Coast, and they told a story that no amount of White House spin could obscure. Oil futures had stabilized at $86 per barrel overnight\u2014a figure that would have seemed catastrophic eighteen months ago but now repr\u2026",
+      "url": "https://www.activistpost.com/the-fourth-turning-global-war-has-already-bankrupted-america-and-nobodys-counting-the-bodies/",
+      "urlToImage": "https://www.activistpost.com/wp-content/uploads/2026/08/istockphoto-172732356-612x612-1.jpg",
+      "publishedAt": "2026-08-07T16:00:00Z",
+      "content": "The numbers came in just after dawn on the East Coast, and they told a story that no amount of White House spin could obscure. Oil futures had stabilized at $86 per barrel overnighta figure that woul\u2026 [+18300 chars]"
     },
     {
       "source": {
@@ -73,181 +164,103 @@
         "name": "gcaptain.com"
       },
       "author": "Mike Schuler",
-      "title": "Why Port Efficiency Matters More Than Ever Amid Global Shipping Disruptions",
-      "description": "A new report from the World Bank and S&P Global Market Intelligence argues that ports are no longer merely victims of supply chain disruptions\u2014they are increasingly active participants in determining...",
-      "url": "https://gcaptain.com/why-port-efficiency-matters-more-than-ever-amid-global-shipping-disruptions/",
-      "urlToImage": "https://gcaptain.com/wp-content/uploads/2024/09/2024-08-29T193935Z_314911356_RC2UP9AYKIFG_RTRMADP_3_USA-OIL-CALIFORNIA-FUEL-scaled.jpg",
-      "publishedAt": "2026-06-10T16:40:19Z",
-      "content": "A new report from the World Bank and S&amp;P Global Market Intelligence argues that ports are no longer merely victims of supply chain disruptionsthey are increasingly active participants in determin\u2026 [+5069 chars]"
+      "title": "U.S. Container Import Peak Winds Down After Tariff-Driven Rush",
+      "description": "The early peak season for U.S. container imports is beginning to wind down after retailers accelerated shipments to get ahead of new tariffs and supply chain uncertainty stemming from the...",
+      "url": "https://gcaptain.com/u-s-container-import-peak-winds-down-after-tariff-driven-rush/",
+      "urlToImage": "https://gcaptain.com/wp-content/uploads/2026/01/Pier-300-Channel.jpg",
+      "publishedAt": "2026-08-07T15:52:40Z",
+      "content": "The early peak season for U.S. container imports is beginning to wind down after retailers accelerated shipments to get ahead of new tariffs and supply chain uncertainty stemming from the conflict wi\u2026 [+3380 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Crypto Briefing"
+        "name": "Yahoo Entertainment"
       },
-      "author": "Editorial Team",
-      "title": "Tehran Stock Exchange reopens with trading limits, 42 firms remain closed",
-      "description": "The reopening with trading limits highlights ongoing economic instability and uncertainty, affecting investor confidence and market reliability.\nThe post Tehran Stock Exchange reopens with trading limits, 42 firms remain closed appeared first on Crypto Briefi\u2026",
-      "url": "https://cryptobriefing.com/tehran-stock-exchange-reopens-trading-limits/",
-      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/10120554/72-of-stocks-bleed-as-tehran-stock-exchange-opens-after-80-d-800x420.jpeg",
-      "publishedAt": "2026-06-10T16:05:56Z",
-      "content": "After an 80-day shutdown triggered by escalating conflict with the US and Israel, Iran's main stock exchange is back online, but with heavy restrictions and over a third of the market still frozen. I\u2026 [+2802 chars]"
+      "author": "Exec-Edge",
+      "title": "Lands\u2019 End: This $400M Retailer Quietly Reinvented Its Business. Wall Street May Not Have Caught Up Yet \u2013 Initiation Report",
+      "description": "Download the Complete Report Here Lands\u2019 End, Inc. (LE) WHP JV Sets the Stage for Debt-Light Growth and Value Creation The WHP JV transforms Lands\u2019 End into...",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/lands-end-400m-retailer-quietly-154505048.html",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/8AAE76FBB95FD4C58B351B2F7443F719CE635FB1D00307531071E78494B06499/subgraphmysterio/resizefill_w1200_h4916;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fexec_edge_220%2Fb7048362f496aa9c00cddf7449d07a0d",
+      "publishedAt": "2026-08-07T15:45:05Z",
+      "content": "<li>Lands' End combines a scaled digital consumer business with a differentiated uniform platform. Lands' End, Inc. (NASDAQ: LE) is a leading digital retailer of solution-based apparel, swimwear, out\u2026 [+79831 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "BusinessLine"
+        "name": "Yahoo Entertainment"
       },
-      "author": "Suresh P Iyengar",
-      "title": "KKR bullish on India\u2019s long-term investment prospects",
-      "description": "Increased access to credit, financial products and digital financial services has been accelerating consumption upgrades and expanding the addressable market for businesses in India, it added.",
-      "url": "https://www.thehindubusinessline.com/news/kkr-bullish-on-indias-long-term-investment-prospects/article71085142.ece",
-      "urlToImage": "https://bl-i.thgim.com/public/incoming/9vxxor/article71085948.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-06-10%20at%2020.51.14.jpeg",
-      "publishedAt": "2026-06-10T15:16:59Z",
-      "content": "Despite near-term global uncertainties, leading global investment firm KKR believes the long-term investment case for India remains intact, positioning the country as a key beneficiary of emerging ma\u2026 [+3122 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GlobeNewswire"
-      },
-      "author": "Verified Market Research",
-      "title": "Global Seaweed Powder Market Set to Reach $369.36 Million by 2033, Propelled by Food & Beverage Reformulation and Cultivated Sourcing Expansion \u2013 Verified Market Research",
-      "description": "Rising demand for clean-label functional ingredients, advances in cultivation and processing technology, and tightening regulatory quality frameworks are reshaping the Global Seaweed Powder Market. Spanning food and beverage reformulation, animal feed, agricu\u2026",
-      "url": "https://www.globenewswire.com/news-release/2026/06/10/3309903/0/en/Global-Seaweed-Powder-Market-Set-to-Reach-369-36-Million-by-2033-Propelled-by-Food-Beverage-Reformulation-and-Cultivated-Sourcing-Expansion-Verified-Market-Research.html",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/707830b6-cf87-43db-be66-c125971e42be",
-      "publishedAt": "2026-06-10T14:57:00Z",
-      "content": "Lewes, Delaware, June 10, 2026 (GLOBE NEWSWIRE) -- The\u00a0Global Seaweed Powder Market was valued at $250.00 million in 2025 and is projected to reach $369.36 million by 2033, registering a compound ann\u2026 [+44237 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "gcaptain.com"
-      },
-      "author": "Lori Ann LaRocco",
-      "title": "Only One U.S. Port Makes Global Top 50 as Asia and Middle East Dominate",
-      "description": "The Port of Philadelphia was the only U.S. port to rank among the world\u2019s top 50 container ports in the Container Port Performance Index (CPPI) 2025, jointly issued by the...",
-      "url": "https://gcaptain.com/only-one-u-s-port-makes-global-top-50-as-asia-and-middle-east-dominate/",
-      "urlToImage": "https://gcaptain.com/wp-content/uploads/2019/06/MSC-Gayane.jpeg",
-      "publishedAt": "2026-06-10T14:42:02Z",
-      "content": "The Port of Philadelphia was the only U.S. port to rank among the world\u2019s top 50 container ports in the Container Port Performance Index (CPPI) 2025, jointly issued by the World Bank Group and S&amp;\u2026 [+4514 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "The Punch"
-      },
-      "author": "Punch Newspapers",
-      "title": "NCC, risk managers advocate overhaul of national security system",
-      "description": "The NCC and risk management professionals call for a coordinated overhaul of Nigeria\u2019s national security system to address rising physical, cyber, and oper\n\nRead More: https://punchng.com/ncc-risk-managers-advocate-overhaul-of-national-security-system/",
-      "url": "https://punchng.com/ncc-risk-managers-advocate-overhaul-of-national-security-system/",
-      "urlToImage": "https://cdn.punchng.com/wp-content/uploads/2026/06/10160659/WhatsApp-Image-2026-06-10-at-15.51.06-1200x630.webp",
-      "publishedAt": "2026-06-10T13:05:39Z",
-      "content": "The Nigerian Communications Commission and enterprise risk management professionals have called for a shift in the countrys security governance framework, urging a coordinated approach to addressing \u2026 [+7436 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "PRNewswire"
-      },
-      "author": null,
-      "title": "Container Port Performance Index 2025 Reveals Ports' Pivotal Role in Supply Chain Stability",
-      "description": "NEW YORK and WASHINGTON, June 10, 2026 /PRNewswire/ -- The Container Port Performance Index (CPPI) 2025, jointly issued by the World Bank Group and S&P Global Market Intelligence, shows that global port efficiency remains under pressure from geopolitical inst\u2026",
-      "url": "https://www.prnewswire.com/news-releases/container-port-performance-index-2025-reveals-ports-pivotal-role-in-supply-chain-stability-302796631.html",
-      "urlToImage": "https://mmx.prnewswire.com/media/MS540886/SP_Market_Intelligence_Logo.jpg?id=OA2695468&p=facebook",
-      "publishedAt": "2026-06-10T12:30:00Z",
-      "content": "NEW YORK and WASHINGTON, June 10, 2026 /PRNewswire/ -- The Container Port Performance Index (CPPI) 2025,\u00a0jointly issued by the World Bank Group\u00a0and S&amp;P Global Market Intelligence, shows that glob\u2026 [+5004 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "PRNewswire"
-      },
-      "author": null,
-      "title": "ATX Defense selected for $49 million Army cybersecurity compliance IDIQ contract vehicle",
-      "description": "NCODE contract expands access to CMMC Space for small-and mid-sized defense contractors preparing for Level 2 certification AUSTIN, Texas, June 10, 2026 /PRNewswire/ -- ATX Defense has been selected by the U.S. Army as one of eight awardees on a five-year, $4\u2026",
-      "url": "https://www.prnewswire.com/news-releases/atx-defense-selected-for-49-million-army-cybersecurity-compliance-idiq-contract-vehicle-302796696.html",
-      "urlToImage": "https://mma.prnewswire.com/media/2754720/ATX_Defense_Logo.jpg?p=facebook",
-      "publishedAt": "2026-06-10T12:06:00Z",
-      "content": "NCODE contract expands access to CMMC Space for small-and mid-sized defense contractors preparing for Level 2 certification\r\nAUSTIN, Texas, June 10, 2026 /PRNewswire/ -- ATX Defense\u00a0has been selected\u2026 [+3608 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Alltoc.com"
-      },
-      "author": "AllToc",
-      "title": "FAO-tracked world cereal prices hit 19-month high\u2014why? #food",
-      "description": "World cereal prices jump to a 19 month high World cereal prices rose to a 19 month high in May , driven by cost pressures tied to fuel and fertilizer. The increase is linked to the Strait of Hormuz blockade , which raises shipping and supply risks and can mak\u2026",
-      "url": "https://alltoc.com/food/fao-tracked-world-cereal-prices-hit-19-month-high-why",
-      "urlToImage": "https://alltoc.com/cdn/1050/og.png",
-      "publishedAt": "2026-06-10T12:03:46Z",
-      "content": "World cereal prices jump to a 19-month high\r\nWorld cereal prices rose to a 19-month high in May, driven by cost pressures tied to fuel and fertilizer. The increase is linked to the Strait of Hormuz b\u2026 [+1574 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "WWD"
-      },
-      "author": "Sarah Jones",
-      "title": "Sourcing Journal to Host Inaugural Visions of Tomorrow Event This\u00a0July",
-      "description": "Join us in New York on July 27 to celebrate supply chain innovation.",
-      "url": "http://wwd.com/sourcing-journal/industry-news/sourcing-journal-hosts-inaugural-visions-of-tomorrow-july-2026-1239003645/",
-      "urlToImage": "https://wwd.com/wp-content/uploads/2026/06/SJVisionsofTomorrowBrandingFinal.png?w=1000&h=563&crop=1",
-      "publishedAt": "2026-06-10T12:00:00Z",
-      "content": "Over the past few years, supply chain operations have shifted from a behind-the-scenes business function to front-and-center news.\r\nAs disruption becomes more expected than unexpected\u2014with transporta\u2026 [+2344 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Globalsecurity.org"
-      },
-      "author": "John Pike",
-      "title": "Joint Statement from UK and Australia on the Australia-UK Ministerial Consultations: 10 June 2026",
-      "description": "On 10 June 2026, the Foreign Secretary, Yvette Cooper and Defence Secretary John Healey MP, hosted the Deputy Prime Minister and Minister for Defence, the Hon Richard Marles MP, and the Minister for Foreign Affairs, Senator the Hon Penny Wong, for the Austral\u2026",
-      "url": "https://www.globalsecurity.org/wmd/library/news/uk/2026/uk-260610-ukmod01.htm",
-      "urlToImage": null,
-      "publishedAt": "2026-06-10T12:00:00Z",
-      "content": "Press release\r\nOn 10 June 2026, the Foreign Secretary, Yvette Cooper and Defence Secretary John Healey MP, hosted the Deputy Prime Minister and Minister for Defence, the Hon Richard Marles MP, and th\u2026 [+44549 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Globalsecurity.org"
-      },
-      "author": "John Pike",
-      "title": "Joint Statement from UK and Australia on the Australia-UK Ministerial Consultations (AUKMIN) June 2026",
-      "description": "No description",
-      "url": "https://www.globalsecurity.org/wmd/library/news/australia/2026/australia-260610-aumfa01.htm",
-      "urlToImage": null,
-      "publishedAt": "2026-06-10T12:00:00Z",
-      "content": "Minister for Foreign Affairs\r\nJoint statement10 June 2026\r\n<ol><li>On 10 June 2026, the Secretary of State for Foreign, Commonwealth and Development Affairs, the Rt Hon Yvette Cooper MP, and the Secr\u2026 [+44815 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Landezine.com"
-      },
-      "author": "Editorial",
-      "title": "28 June \u2013 2 July / UIA World Congress of Architects 2026 Barcelona Programme",
-      "description": "The UIA World Congress of Architects 2026 Barcelona (UIA2026BCN) will bring together more than 10,000 architects, researchers, students, and institutional representatives from over 130 countries for five days of conferences, workshops, exhibitions, and public\u2026",
-      "url": "https://landezine.com/28-june-2-july-uia-world-congress-of-architects-2026-barcelona-programme/",
-      "urlToImage": "https://landezine.com/wp-content/uploads/2026/06/General_UIA2026BCN_5.4-1270x870.jpg",
-      "publishedAt": "2026-06-10T10:55:47Z",
-      "content": "The UIA World Congress of Architects 2026 Barcelona (UIA2026BCN) will bring together more than 10,000 architects, researchers, students, and institutional representatives from over 130 countries for \u2026 [+15813 chars]"
+      "author": "Soumya Eswaran",
+      "title": "Could Taiwan Semiconductor Manufacturing (TSM) Be the Most Critical Bottleneck in the AI Chip Boom?",
+      "description": "Sands Capital, an investment management company, released its \u201cSands Capital Technology Innovators Fund\u201d Q2 2026 investor letter. A copy of the letter can be...",
+      "url": "https://finance.yahoo.com/technology/ai/articles/could-taiwan-semiconductor-manufacturing-tsm-152156862.html",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/CEBDD2F93FE6789B40ED365A2550E57F0BC006E9912D3BF76AEEAA98108A080C/subgraphmysterio/resizefill_w1200_h672;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F442e18eff9a8e446a0d4424af02ac033",
+      "publishedAt": "2026-08-07T15:21:56Z",
+      "content": "Sands Capital, an investment management company, released its \"Sands Capital Technology Innovators Fund\" Q2 2026 investor letter. A copy of the letter can bedownloaded here. In the quarter, global eq\u2026 [+4165 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "BusinessLine"
       },
-      "author": "Team BL, KS Badri Narayanan",
-      "title": "Sensex today | Stock Market Highlights: Sensex, Nifty end flat as early gains fade; gold prices slide sharply",
-      "description": "Sensex Today, Nifty 50 | Stock Market Highlights: Indian equity markets ended largely flat on Wednesday after erasing early gains. The BSE Sensex closed 64.42 points, or 0.09%, higher at 73,983.18, while the Nifty 50 declined 27.15 points, or 0.12%, to settle\u2026",
-      "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-10th-june-2026/article71081121.ece",
-      "urlToImage": "https://bl-i.thgim.com/public/incoming/8ourp5/article70916137.ece/alternates/LANDSCAPE_1200/Stock%20Market%20graph%20finances.jpg",
-      "publishedAt": "2026-06-10T10:37:18Z",
-      "content": "<li></li>\r\nJune 10, 2026 16:05The live blog is now closed.\r\n<li></li>\r\nJune 10, 2026 16:05Share market live: Airtel rebrands controversial Priority Postpaid as Fast Lane\r\nAirtel rebrands Priority Pos\u2026 [+77110 chars]"
+      "author": "cuelive",
+      "title": "MetaOptics Sharpens Focus on Metalens Commercialisation; Withdraws Nasdaq Listing Application, and Defers U.S. Dual Listing Plan",
+      "description": "MetaOptics Sharpens Focus on Metalens Commercialisation; Withdraws Nasdaq Listing Application, and Defers U.S. Dual Listing Plan",
+      "url": "https://www.thehindubusinessline.com/brandhub/pr-release/metaoptics-sharpens-focus-on-metalens-commercialisation-withdraws-nasdaq-listing-application-and-defers-u-s-dual-listing-plan/article71318568.ece",
+      "urlToImage": "https://www.thehindubusinessline.com/theme/images/og-image.png",
+      "publishedAt": "2026-08-07T15:00:16Z",
+      "content": "SINGAPORE , Aug. 7, 2026 /PRNewswire/ -- MetaOptics Ltd (Catalist: 9MT) (\"MetaOptics\" or the \"Company\", and together with its subsidiaries, the \"Group\") , a Singapore headquartered semiconductor opti\u2026 [+9865 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "OilPrice.com"
+      },
+      "author": "Leon Stille",
+      "title": "Saudi Arabia\u2019s $5 Oil Detour Is Expensive\u2014and Worth It",
+      "description": "The latest Saudi oil route looks absurd on a map. Crude moves west across Saudi Arabia to Yanbu, north through the Red Sea to Egypt, across the SUMED pipeline from Ain Sokhna to Sidi Kerir, then west through the Mediterranean before tankers sail around the Ca\u2026",
+      "url": "https://oilprice.com/Energy/Crude-Oil/Saudi-Arabias-5-Oil-Detour-Is-Expensiveand-Worth-It.html",
+      "urlToImage": "https://d32r1sh890xpii.cloudfront.net/article/1200x675/2026-08-07_vske1cqyot.jpg",
+      "publishedAt": "2026-08-07T14:49:00Z",
+      "content": "Saudi Arabia's East-West Pipeline bypasses\u2026\r\nPresident Donald Trump revealed on\u2026\r\nVenezuela's rising oil production is\u2026\r\nBy Leon Stille - Aug 07, 2026, 9:49 AM CDTThe latest Saudi oil route looks abs\u2026 [+8605 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Leon Stille",
+      "title": "Saudi Arabia\u2019s $5 Oil Detour Is Expensive\u2014and Worth It",
+      "description": "Rerouting Saudi crude to Asia via Yanbu, Egypt\u2019s SUMED pipeline and the Cape of Good Hope may add around $5 per barrel and up to four weeks to a voyage.",
+      "url": "https://finance.yahoo.com/energy/articles/saudi-arabia-5-oil-detour-144900286.html",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/E0C6837BB54509CBD42D26B93955A0A00DB8546A8632A9F7C13E0BD178666FAD/subgraphmysterio/resizefill_w1200_h675;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Foilprice.com%2F4b2922b374aa0b611c38a9730c04bcc9",
+      "publishedAt": "2026-08-07T14:49:00Z",
+      "content": "The latest Saudi oil route looks absurd on a map.\r\nCrude moves west across Saudi Arabia to Yanbu, north through the Red Sea to Egypt, across the SUMED pipeline from Ain Sokhna to Sidi Kerir, then wes\u2026 [+8778 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Securityweek.com"
+      },
+      "author": "SecurityWeek News",
+      "title": "In Other News: AI Slop Limits Apple Bounties, North Carolina Port Attacks, Hackers Target Wall Street",
+      "description": "Noteworthy stories that might have slipped under the radar: ban on Chinese data center tech, QuickFox VPN supply chain attack, IEH Corporation mailbox breached via phishing.\nThe post In Other News: AI Slop Limits Apple Bounties, North Carolina Port Attacks, H\u2026",
+      "url": "https://www.securityweek.com/in-other-news-ai-slop-limits-apple-bounties-north-carolina-port-attacks-hackers-target-wall-street/",
+      "urlToImage": "https://www.securityweek.com/wp-content/uploads/2023/10/cybersecurity-news.jpg",
+      "publishedAt": "2026-08-07T14:26:42Z",
+      "content": "SecurityWeeks weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage yet remain relevant to the broader threat landscape.\r\u2026 [+5456 chars]"
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "AP",
+      "title": "How the Iran-backed Houthis' claims of deadly attacks are stoking fears of a wider regional conflict",
+      "description": "Yemen's Houthi rebels claimed responsibility for deadly attacks this week. These actions escalated the conflict and raised regional concerns about wider escalation. The attacks targeted civilians and troops, and also impacted Red Sea shipping. Shipping data s\u2026",
+      "url": "https://economictimes.indiatimes.com/news/defence/how-the-iran-backed-houthis-claims-of-deadly-attacks-are-stoking-fears-of-a-wider-regional-conflict/articleshow/133035027.cms",
+      "urlToImage": "https://img.etimg.com/thumb/msid-133035133,width-1200,height-630,imgsize-158374,overlay-etdefence/articleshow.jpg",
+      "publishedAt": "2026-08-07T13:17:18Z",
+      "content": "Cairo: Yemen's Iran-backed Houthi rebels claimed responsibility for a series of deadly attacks this week, escalating the conflict between them and Saudi-backed Yemeni forces and raising fears of a wi\u2026 [+4213 chars]"
     }
   ]
 }

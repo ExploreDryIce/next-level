@@ -2,15 +2,15 @@
   "links": [
     {
       "rel": "first",
-      "href": "/v1/geo/cities?offset=0&limit=10&minPopulation=200000&sort=-population&countryIds=SA,AE,QA,KW"
+      "href": "/v1/geo/cities?offset=0&limit=10&countryIds=SA,AE,QA,KW&sort=-population&minPopulation=200000"
     },
     {
       "rel": "next",
-      "href": "/v1/geo/cities?offset=10&limit=10&minPopulation=200000&sort=-population&countryIds=SA,AE,QA,KW"
+      "href": "/v1/geo/cities?offset=10&limit=10&countryIds=SA,AE,QA,KW&sort=-population&minPopulation=200000"
     },
     {
       "rel": "last",
-      "href": "/v1/geo/cities?offset=30&limit=10&minPopulation=200000&sort=-population&countryIds=SA,AE,QA,KW"
+      "href": "/v1/geo/cities?offset=30&limit=10&countryIds=SA,AE,QA,KW&sort=-population&minPopulation=200000"
     }
   ],
   "data": [

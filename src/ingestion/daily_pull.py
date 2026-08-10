@@ -14,6 +14,7 @@ LaunchD: see services/com.dvce.swarm-feed.plist
 
 import httpx
 import json
+import re
 import time
 import logging
 from pathlib import Path
@@ -42,6 +43,25 @@ def load_keys() -> dict:
     if KEYS_FILE.exists():
         return json.loads(KEYS_FILE.read_text())
     return {}
+
+
+# Credentials travel as query parameters, and several upstreams echo the
+# request URL back inside their response (NASA returns it in links.next /
+# links.prev / links.self). Saving those responses verbatim published live
+# keys into this repo, so every payload is scrubbed before it is written.
+_CREDENTIAL_PARAM = re.compile(
+    r"(?i)\b(api_?key|appid|apikey|token|access_token|key)=[^&\s\"'<>]+"
+)
+
+
+def scrub_credentials(text: str) -> str:
+    """Replace credential query parameters with a placeholder."""
+    return _CREDENTIAL_PARAM.sub(r"\1=<REDACTED>", text)
+
+
+def write_feed(path: Path, payload: str) -> None:
+    """Write a feed payload with credentials stripped."""
+    path.write_text(scrub_credentials(payload))
 
 
 def pull_no_auth_feeds() -> dict:
@@ -109,7 +129,7 @@ def pull_no_auth_feeds() -> dict:
 
             if r.status_code == 200:
                 data = r.json() if "json" in r.headers.get("content-type", "") else {"raw": r.text[:5000]}
-                (FEEDS_DIR / f"{name}.json").write_text(json.dumps(data, indent=2)[:500000])
+                write_feed(FEEDS_DIR / f"{name}.json", json.dumps(data, indent=2)[:500000])
                 results[name] = "ok"
             else:
                 results[name] = f"http_{r.status_code}"
@@ -149,7 +169,7 @@ def pull_keyed_feeds(keys: dict) -> dict:
             r = client.get(url)
             if r.status_code == 200:
                 data = r.json()
-                (FEEDS_DIR / f"{name}.json").write_text(json.dumps(data, indent=2)[:500000])
+                write_feed(FEEDS_DIR / f"{name}.json", json.dumps(data, indent=2)[:500000])
                 results[name] = "ok"
             else:
                 results[name] = f"http_{r.status_code}"
@@ -168,7 +188,7 @@ def pull_keyed_feeds(keys: dict) -> dict:
                     f"https://api.stlouisfed.org/fred/series/observations?series_id={series}&api_key={fred_key}&file_type=json&sort_order=desc&limit=30"
                 )
                 if r.status_code == 200:
-                    (FEEDS_DIR / f"{name}.json").write_text(r.text[:100000])
+                    write_feed(FEEDS_DIR / f"{name}.json", r.text[:100000])
                     results[name] = "ok"
             except:
                 pass
@@ -193,7 +213,7 @@ def pull_keyed_feeds(keys: dict) -> dict:
             try:
                 r = client.get(url)
                 if r.status_code == 200:
-                    (FEEDS_DIR / f"{name}.json").write_text(json.dumps(r.json(), indent=2)[:200000])
+                    write_feed(FEEDS_DIR / f"{name}.json", json.dumps(r.json(), indent=2)[:200000])
                     results[name] = "ok"
                 else:
                     results[name] = f"http_{r.status_code}"
@@ -215,7 +235,7 @@ def pull_keyed_feeds(keys: dict) -> dict:
             try:
                 r = client.get(url)
                 if r.status_code == 200:
-                    (FEEDS_DIR / f"{name}.json").write_text(json.dumps(r.json(), indent=2)[:200000])
+                    write_feed(FEEDS_DIR / f"{name}.json", json.dumps(r.json(), indent=2)[:200000])
                     results[name] = "ok"
                 else:
                     results[name] = f"http_{r.status_code}"
@@ -239,7 +259,7 @@ def pull_keyed_feeds(keys: dict) -> dict:
                 if r.status_code == 200:
                     data = r.json()
                     if "Note" not in data and "Information" not in data:
-                        (FEEDS_DIR / f"{name}.json").write_text(json.dumps(data, indent=2)[:300000])
+                        write_feed(FEEDS_DIR / f"{name}.json", json.dumps(data, indent=2)[:300000])
                         results[name] = "ok"
                     else:
                         results[name] = "rate_limited"
@@ -263,7 +283,7 @@ def pull_keyed_feeds(keys: dict) -> dict:
             try:
                 r = client.get(f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={owm_key}&units=imperial")
                 if r.status_code == 200:
-                    (FEEDS_DIR / f"owm_{city}.json").write_text(json.dumps(r.json(), indent=2))
+                    write_feed(FEEDS_DIR / f"owm_{city}.json", json.dumps(r.json(), indent=2))
                     results[f"owm_{city}"] = "ok"
                 else:
                     results[f"owm_{city}"] = f"http_{r.status_code}"
@@ -287,7 +307,7 @@ def run_conversion():
     total = 0
     for domain, events in all_events.items():
         if events:
-            (EVENTS_DIR / f"{domain}_events.json").write_text(json.dumps(events, indent=2))
+            write_feed(EVENTS_DIR / f"{domain}_events.json", json.dumps(events, indent=2))
             total += len(events)
 
     # Combined
@@ -295,7 +315,7 @@ def run_conversion():
     for events in all_events.values():
         combined.extend(events)
     combined.sort(key=lambda e: e["timestamp"])
-    (EVENTS_DIR / "all_events_combined.json").write_text(json.dumps(combined, indent=2))
+    write_feed(EVENTS_DIR / "all_events_combined.json", json.dumps(combined, indent=2))
 
     return total
 
@@ -312,7 +332,7 @@ def save_history(pull_results: dict, event_count: int):
         "events_generated": event_count,
         "results": pull_results,
     }
-    (HISTORY_DIR / f"pull_{today}.json").write_text(json.dumps(history, indent=2))
+    write_feed(HISTORY_DIR / f"pull_{today}.json", json.dumps(history, indent=2))
     return history
 
 

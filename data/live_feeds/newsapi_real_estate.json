@@ -1,266 +1,266 @@
 {
   "status": "ok",
-  "totalResults": 3520,
+  "totalResults": 3815,
   "articles": [
     {
       "source": {
         "id": null,
-        "name": "CNBC"
+        "name": "Crypto Briefing"
       },
-      "author": "Alexa LoMonaco",
-      "title": "Jim Cramer says investors have 'lost their appetite for danger' as defensive stocks take the lead",
-      "description": "CNBC's Jim Cramer said investors are rotating into defensive sectors, signaling a growing preference for safety over risk.",
-      "url": "https://www.cnbc.com/2026/06/10/jim-cramer-investors-lost-appetite-danger-defensive-stocks-take-lead.html",
-      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107113454-NUP_198430_00638r.jpg?v=1695164732&w=1920&h=1080",
-      "publishedAt": "2026-06-10T22:23:57Z",
-      "content": "CNBC's Jim Cramer said Wednesday that investors are moving away from riskier parts of the market.\r\nAll three major indexes finished lower. The Dow Jones Industrial Average fell 953 points, or 1.87%, \u2026 [+1553 chars]"
+      "author": "Editorial Team",
+      "title": "Scott Bessent signals intent to curb rising bond yields",
+      "description": "Bessent's focus on reducing bond yields could stabilize housing and corporate investment, but hinges on geopolitical and fiscal conditions improving.\nThe post Scott Bessent signals intent to curb rising bond yields appeared first on Crypto Briefing.",
+      "url": "https://cryptobriefing.com/bessent-curb-rising-bond-yields/",
+      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/08/09095440/scott-bessent-reveals-tariff-plan-b-under-supreme-court-ruli-5-800x420.jpeg",
+      "publishedAt": "2026-08-09T13:54:44Z",
+      "content": "The Treasury secretary is betting that deregulation and fiscal discipline can do what direct intervention cannot: tame the 10-year yield Treasury Secretary Scott Bessent has made his priority clear s\u2026 [+2924 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "GlobeNewswire"
+        "name": "Biztoc.com"
       },
-      "author": "SafeSpace Global Corporation",
-      "title": "SafeSpace Global Announces Launch of New Addiction Treatment Vertical, Supported by Signed Master Services Agreement and Conditional $2 Million Funding Commitment",
-      "description": "KNOXVILLE, TN, June 10, 2026 (GLOBE NEWSWIRE) -- SafeSpace Global Corporation (\u201cSafeSpace Global\u201d or the \u201cCompany\u201d), a provider of AI-powered physical safety and security solutions for regulated care environments, today announced the launch of its new\u00a0Addicti\u2026",
-      "url": "https://www.globenewswire.com/news-release/2026/06/10/3310147/0/en/SafeSpace-Global-Announces-Launch-of-New-Addiction-Treatment-Vertical-Supported-by-Signed-Master-Services-Agreement-and-Conditional-2-Million-Funding-Commitment.html",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/e95639ca-a47d-4c90-a44e-cf8a03b6a6d2",
-      "publishedAt": "2026-06-10T21:31:00Z",
-      "content": "KNOXVILLE, TN, June 10, 2026 (GLOBE NEWSWIRE) -- SafeSpace Global Corporation (SafeSpace Global or the Company), a provider of AI-powered physical safety and security solutions for regulated care env\u2026 [+7524 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "OCRegister"
-      },
-      "author": "Bloomberg",
-      "title": "A $600 billion experiment kicks off at CalPERS",
-      "description": "It\u2019s the first US public pension to formally adopt the total portfolio approach used by about a dozen sovereign wealth funds in the Asia-Pacific region and Canada.",
-      "url": "https://www.ocregister.com/2026/06/10/a-600-billion-experiment-kicks-off-at-the-biggest-us-pension-fund/",
-      "urlToImage": "https://www.ocregister.com/wp-content/uploads/2026/06/OCR-Z-CALPERS-0614.jpg?w=1024&h=682",
-      "publishedAt": "2026-06-10T21:23:41Z",
-      "content": "By Martin Z Braun | Bloomberg Markets\r\nStephen Gilmores 40-year tour of global finance has given him a front-row seat to the Russian debt crisis, the bailout of a financial giant and the rise of sove\u2026 [+10550 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "PRNewswire"
-      },
-      "author": null,
-      "title": "Direct Equity Source Announces Significant New Construction Progress Across Expanding Portfolio",
-      "description": "AUSTIN, Texas, June 10, 2026 /PRNewswire/ -- Direct Equity Source today announced major construction milestones across its growing real estate portfolio, with four new facilities officially breaking ground in key markets across Texas and Florida. These develo\u2026",
-      "url": "https://www.prnewswire.com/news-releases/direct-equity-source-announces-significant-new-construction-progress-across-expanding-portfolio-302797303.html",
-      "urlToImage": "https://mmx.prnewswire.com/media/MS1698866/Direct_Equity_Source_Logo.jpg?id=OA2696965&p=facebook",
-      "publishedAt": "2026-06-10T21:19:00Z",
-      "content": "AUSTIN, Texas, June 10, 2026 /PRNewswire/ -- Direct Equity Source today announced major construction milestones across its growing real estate portfolio, with four new facilities officially breaking \u2026 [+1956 chars]"
-    },
-    {
-      "source": {
-        "id": "abc-news-au",
-        "name": "ABC News (AU)"
-      },
-      "author": "Georgia Hogge",
-      "title": "First home buyers left scrambling as stamp duty exemption ends",
-      "description": "Tasmania's free stamp duty scheme for first home buyers expires at the end of this month, leaving some in an anxious wait to settle before the cut off.",
-      "url": "https://www.abc.net.au/news/2026-06-11/tasmania-first-home-buyer-stamp-duty-exemption-ending/106746228",
-      "urlToImage": "https://live-production.wcms.abc-cdn.net.au/b2943dfec63dede9448696944ea96e83?impolicy=wcms_watermark_news&cropH=2295&cropW=4080&xPos=0&yPos=367&width=862&height=485&imformat=generic",
-      "publishedAt": "2026-06-10T21:16:40Z",
-      "content": "Heith Mineur is about to buy his first home and, like many first-time buyers, he is getting help from the government.\r\nThe 33-year-old is buying using the Tasmanian government's shared equity scheme,\u2026 [+6831 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Robb Report"
-      },
-      "author": "Wbowmandirt",
-      "title": "A Pasadena Estate That Starred in \u2018Dynasty\u2019 Just Listed for $45 Million",
-      "description": "Currently owned by \"Avengers: Endgame\" co-director Anthony Russo, the roughly 3-acre spread has also appeared in the film \"Billy Madison\" and the \"Don't Look Back in Anger\" music video by Oasis.",
-      "url": "http://robbreport.com/shelter/celebrity-homes/dynasty-estate-pasadena-1238321721/",
-      "urlToImage": "https://robbreport.com/wp-content/uploads/2026/06/DynastyHouse_PD_FI.jpg?w=681&h=383&crop=1",
-      "publishedAt": "2026-06-10T21:00:00Z",
-      "content": "Linda Evans and Joan Collins made 1980s TV history with\u00a0Dynasty\u2019s\u00a0famous\u00a0lily pond fight. Filmed largely by the legendary actresses themselves, the Season 3 showdown saw an enraged Krystle Carrington\u2026 [+2714 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "PRNewswire"
-      },
-      "author": null,
-      "title": "Lument Finance Trust, Inc. Declares Quarterly Cash Dividends for its Common and Preferred Stock",
-      "description": "NEW YORK, June 10, 2026 /PRNewswire/ -- Lument Finance Trust, Inc. (NYSE: LFT) (\"LFT\" or the \"Company\") announced the declaration of a cash dividend of $0.04 per share of common stock with respect to the second quarter of 2026. The dividend is payable on July\u2026",
-      "url": "https://www.prnewswire.com/news-releases/lument-finance-trust-inc-declares-quarterly-cash-dividends-for-its-common-and-preferred-stock-302797224.html",
-      "urlToImage": "https://mmx.prnewswire.com/media/MS572283/LUMENT-FinanceTrust_Logo.jpg?id=OA2696668&p=facebook",
-      "publishedAt": "2026-06-10T20:30:00Z",
-      "content": "NEW YORK, June 10, 2026 /PRNewswire/ -- Lument Finance Trust, Inc.\u00a0(NYSE:\u00a0LFT) (\"LFT\" or the \"Company\") announced the declaration of a cash dividend of $0.04 per share of common stock with respect to\u2026 [+3061 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Clubinsideronline.com"
-      },
-      "author": null,
-      "title": "Orangetheory Fitness Announces Expansion into Italy | Health and Fitness Club Industry News",
-      "description": "BOCA RATON, FL, WOODBURY, MN and ROME - Purpose Brands, one of the world's largest and most trusted portfolios of fitness, health and wellness franchise brands, announces that Icon Palestre, an Italian fitness management company led by CEO Felice Orsinetti, h\u2026",
-      "url": "http://www.clubinsideronline.com/news/chains/orangetheory-fitness-announces-expansion-into-italy/",
-      "urlToImage": "http://www.clubinsideronline.com/global/images/emblem.png",
-      "publishedAt": "2026-06-10T20:17:26Z",
-      "content": "Posted:June 4, 2026 in Chains\r\n&lt;&lt; Next StoryPrevious Story &gt;&gt;\r\nOrangetheory Fitness\r\nBOCA RATON, FL, WOODBURY, MN and ROME \u2013 Purpose Brands, one of the world\u2019s largest and most trusted po\u2026 [+2930 chars]"
-    },
-    {
-      "source": {
-        "id": "the-times-of-india",
-        "name": "The Times of India"
-      },
-      "author": "Reuters",
-      "title": "US stocks: US market indexes fall over 1%, dragged by tech and Iran war worries",
-      "description": "Major US stock markets experienced a significant drop on Wednesday. Chipmaker stocks continued their decline, while new tensions between the US and Iran added to investor worries. The S&P 500, Nasdaq Composite, and Dow Jones Industrial Average all saw substan\u2026",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-markets-indexes-fall-1-dragged-by-tech-and-iran-war-worries/articleshow/131644160.cms",
-      "urlToImage": "https://img.etimg.com/thumb/msid-131644167,width-1200,height-630,imgsize-123210,overlay-etmarkets/articleshow.jpg",
-      "publishedAt": "2026-06-10T20:01:52Z",
-      "content": "President Donald Trump said the U.S. would attack Iran again \"very hard\" following one of the most significant exchanges of fire overnight since an April ceasefire in the Middle East war. An index of\u2026 [+2352 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Slate Magazine"
-      },
-      "author": "Alex Kirshner",
-      "title": "The New York Knicks\u2019 Moment Is Even Bigger Than It Looks",
-      "description": "The New York Knicks have become the story that everyone\u2019s talking about\u2014even the country\u2019s most powerful figures.",
-      "url": "https://slate.com/culture/2026/06/new-york-knicks-basketball-trump-mamdani.html",
-      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/dGVAGkf9w3mB.2OWZxoKLQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA7Y2Y9d2VicA--/https://media.zenfs.com/en/slate_773/bc90fb96c25b4014f4539f1a35ea5f7d",
-      "publishedAt": "2026-06-10T19:45:00Z",
-      "content": "Theres no monoculture anymore. Sometimes, something feels like it has the attention of every person in the country, like the Game of Thrones finale or a presidential debate. But then it turns out tha\u2026 [+7291 chars]"
-    },
-    {
-      "source": {
-        "id": "the-times-of-india",
-        "name": "The Times of India"
-      },
-      "author": "AFP",
-      "title": "'The Donald of Dubai': UAE billionaire close to Trump bets $66 billion on AI to become the world's data king",
-      "description": "UAE real estate magnate Hussain Sajwani is investing billions in data centers to capitalize on the AI boom, aiming for global leadership. His company, DAMAC Digital, has secured sites in 13 countries and plans to build 6,000 megawatts of capacity, costing $66\u2026",
-      "url": "https://economictimes.indiatimes.com/news/international/uae/the-donald-of-dubai-uae-billionaire-close-to-trump-bets-66-billion-on-ai-to-become-the-worlds-data-king/articleshow/131643926.cms",
-      "urlToImage": "https://img.etimg.com/thumb/msid-131643957,width-1200,height-630,imgsize-76802,overlay-economictimes/articleshow.jpg",
-      "publishedAt": "2026-06-10T19:21:23Z",
-      "content": "Dubai: A UAE real estate magnate close to Donald Trump is pumping billions of dollars into data centres, hoping to cash in on the AI boom and become the global leader in the field.DAMAC Properties ch\u2026 [+3720 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "The Real Deal"
-      },
-      "author": "Grace McClung",
-      "title": "Pompano Beach mansion sells near $14M as high-end development takes hold",
-      "description": "An oceanfront Pompano Beach mansion fetched $13.8 million, making it the city\u2019s most-expensive single-family home sale ever.\u00a0 The sale of the 7,760-square-foot home at 2306 Bay Drive broke down to $1,780 per square foot. It shattered the previous record set b\u2026",
-      "url": "https://therealdeal.com/miami/2026/06/10/pompano-beach-mansion-sells-for-13-8-million-in-town-record/",
-      "urlToImage": "https://static.therealdeal.com/wp-content/uploads/2026/06/MIA_Pompano-Record-700x467.jpg",
-      "publishedAt": "2026-06-10T19:00:00Z",
-      "content": "An oceanfront Pompano Beach mansion fetched $13.8 million, making it the citys most-expensive single-family home sale ever.\u00a0\r\nThe sale of the 7,760-square-foot home at 2306 Bay Drive broke down to $1\u2026 [+2347 chars]"
+      "author": "fortune.com",
+      "title": "Corcoran Group CEO says Gen Z\u2019s housing market struggles mirror what boomers faced 30 years ago: \u2018Stop buying Starbucks coffee,\u2019 she advises",
+      "description": "Gen Z and young millennials face the prospect of renting with their parents for the foreseeable future, as getting onto the property market feels increasingly impossible. However, The Corcoran Group CEO Pamela Liebman, who has weathered 40 years in real estat\u2026",
+      "url": "https://biztoc.com/x/3fc1f52bd4c3ba32",
+      "urlToImage": "https://biztoc.com/cdn/3fc1f52bd4c3ba32_s.webp",
+      "publishedAt": "2026-08-09T13:34:03Z",
+      "content": "Gen Z and young millennials face the prospect of renting with their parents for the foreseeable future, as getting onto the property market feels increasingly impossible. However, The Corcoran Group \u2026 [+145 chars]"
     },
     {
       "source": {
         "id": "fortune",
         "name": "Fortune"
       },
-      "author": "John Kell",
-      "title": "How the World Cup is a high-stakes stage for Big Tech\u2019s AI push",
-      "description": "The World Cup, which kicks off on June 11, is a big moment for large tech players such as Lenovo, Google, and Salesforce to show off their AI capabilities.",
-      "url": "https://fortune.com/2026/06/10/world-cup-big-tech-lenovo-google/",
-      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2026/06/GettyImages-2279154447_60b2c3.jpg?resize=1200,600",
-      "publishedAt": "2026-06-10T18:59:52Z",
-      "content": "Personal-computer maker Lenovos World Cup debut as FIFAs official technology partner encompasses AI-enabled phones and tablets, an AI assistant thats offered to all participating teams, and even the \u2026 [+13708 chars]"
+      "author": "Orianna Rosa Royle",
+      "title": "Corcoran Group CEO says Gen Z\u2019s housing market struggles mirror what boomers faced 30 years ago: \u2018Stop buying Starbucks coffee,\u2019\u00a0she advises",
+      "description": "From skipping coffee runs to hosting dinner clubs, Corcoran Group CEO Pamela Liebman has one message for Gen Z: getting your first home takes sacrifices\u2014but it\u2019s doable, even in today\u2019s pricey market.",
+      "url": "https://fortune.com/article/corcoran-group-ceo-gen-z-housing-market-struggles-mirror-what-boomers-faced-30-years-ago/",
+      "urlToImage": "https://fortune.com/img-assets/wp-content/uploads/2025/10/GettyImages-1240428382-e1761130155762.jpg?resize=1200,600",
+      "publishedAt": "2026-08-09T13:15:43Z",
+      "content": "Gen Z and young millennials face the prospect of renting with their parents for the foreseeable future, as getting onto the property market feels increasingly impossible. However, The Corcoran Group \u2026 [+5127 chars]"
+    },
+    {
+      "source": {
+        "id": "techcrunch",
+        "name": "TechCrunch"
+      },
+      "author": "Dominic-madori Davis",
+      "title": "This\u00a0former\u00a0notorious red-light district\u00a0is now\u00a0one of the world\u2019s top AI hubs | TechCrunch",
+      "description": "More than 20 years ago, King's Cross was one of the seediest area's in London. Now it's sprouting something new.",
+      "url": "https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/",
+      "urlToImage": "https://techcrunch.com/wp-content/uploads/2026/08/VladSt.jpg?resize=1200,737",
+      "publishedAt": "2026-08-09T13:03:45Z",
+      "content": "What every U.K. AI startup wants to know these days is, how can I get office space in Kings Cross? \u00a0\r\nThe area is so hot that a VC firm allegedly recently won a deal by promising a founder office spa\u2026 [+6732 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "Commercial Observer"
       },
-      "author": "Gregory Cornfield",
-      "title": "Bay Club Company Buys El Segundo, Calif., Property for $46M",
-      "description": "Bay Club Company, which owns more than 35 recreation and lifestyle clubs on the West Coast, is expanding its real estate portfolio in Greater Los Angeles. Bay Club announced it put down $42 million to acquire a 5.4-acre campus that is home to Bay Club El Segu\u2026",
-      "url": "http://commercialobserver.com/2026/06/bay-club-la-continental-park/",
-      "urlToImage": "https://commercialobserver.com/wp-content/uploads/sites/3/2026/06/Bay-Club-El-Segundo-credit-Bay-Club-Company-WEB.jpg?quality=80&w=1200&h=630&crop=1",
-      "publishedAt": "2026-06-10T18:45:55Z",
-      "content": "Bay Club Company, which owns more than 35 recreation and lifestyle clubs on the West Coast, is expanding its real estate portfolio in Greater Los Angeles.\r\nBay Club announced it put down $42 million \u2026 [+2358 chars]"
+      "author": "Mgross170",
+      "title": "Sunday Summary: Seven. Hundred. Fifty. Billion.",
+      "description": "Three-quarters of a trillion dollars can buy you pretty much anything you want. If you took the gross national product of Chile, and added the GNP of Colombia, you\u2019d still have more than $100 billion left \u2014 and that can also get you pretty much anything in th\u2026",
+      "url": "http://commercialobserver.com/2026/08/sunday-summary-seven-hundred-fifty-billion/",
+      "urlToImage": "https://commercialobserver.com/wp-content/uploads/sites/3/2026/07/Commercial_Observer_DEF-WEB.jpg?quality=80&w=1200&h=630&crop=1",
+      "publishedAt": "2026-08-09T13:00:18Z",
+      "content": "Three-quarters of a trillion dollars can buy you pretty much anything you want.\r\nIf you took the gross national product of Chile, and added the GNP of Colombia, youd still have more than $100 billion\u2026 [+7735 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Robb Report"
+        "name": "Activistpost.com"
       },
-      "author": "Abigailtmontanez",
-      "title": "An Opulent Gilded Age Manhattan Townhouse Returns to Market for $17 Million",
-      "description": "At 20 feet wide and 90 feet deep, the Upper East Side home packs in five bedrooms, a private elevator, eight fireplaces, and grand entertaining space.",
-      "url": "http://robbreport.com/shelter/homes-for-sale/gilded-age-manhattan-townhouse-relists-for-17-million-1238324303/",
-      "urlToImage": "https://robbreport.com/wp-content/uploads/2026/06/163-East-64th-Street.jpg?w=681&h=383&crop=1",
-      "publishedAt": "2026-06-10T18:00:00Z",
-      "content": "The Neo-Georgian mansion at 163 East 64th Street has become something of a New York real estate curiosity, appearing on and off the market since 2003 and cycling through multiple brokerages along the\u2026 [+3352 chars]"
+      "author": "Editor",
+      "title": "Erdogan\u2019s Ottoman Gambit: Turkey Prepares for a New Regional Order",
+      "description": "Turkey is simultaneously dumping US Treasuries, deepening Russia\u2019s energy embrace, rolling out a tax regime to poach capital fleeing the Gulf\u2026 and squaring off against an Israeli political class that now speaks openly of Turkey as an enemy. It\u2019s strategic. Tu\u2026",
+      "url": "https://www.activistpost.com/erdogans-ottoman-gambit-turkey-prepares-for-a-new-regional-order/",
+      "urlToImage": "https://www.activistpost.com/wp-content/uploads/2026/08/istockphoto-2253506630-612x612-1.jpg",
+      "publishedAt": "2026-08-09T13:00:00Z",
+      "content": "Turkey is simultaneously dumping US Treasuries, deepening Russias energy embrace, rolling out a tax regime to poach capital fleeing the Gulf and squaring off against an Israeli political class that n\u2026 [+7697 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "PCMag.com"
+        "name": "The Atlantic"
       },
-      "author": "Kimberly Gedeon",
-      "title": "iOS 27 All But Confirmed an iPhone Fold Is Coming",
-      "description": "While Apple kept the spotlight on Siri AI and Apple Intelligence at WWDC 2026, several iOS 27 additions appear to be laying the groundwork for future hardware.\nApple will never confirm its rumored \"iPhone Fold\" until it actually announces one. But it's clear \u2026",
-      "url": "https://uk.pcmag.com/ios/165500/ios-27-all-but-confirmed-an-iphone-fold-is-coming",
-      "urlToImage": "https://sm.pcmag.com/t/pcmag_uk/opinion/i/ios-27-all/ios-27-all-but-confirmed-an-iphone-fold-is-coming_qp97.1200.jpg",
-      "publishedAt": "2026-06-10T17:59:09Z",
-      "content": "Apple will never confirm its rumored \"iPhone Fold\" until it actually announces one. But it's clear the company's first foray into the foldable market is right around the corner. At WWDC 2026, the Cup\u2026 [+3621 chars]"
+      "author": "Marie-Rose Sheinerman",
+      "title": "The Watchdogs Are Barking Themselves Hoarse",
+      "description": "The scandals of the president\u2019s first term now seem quaint.",
+      "url": "https://www.theatlantic.com/politics/2026/08/trump-ethics-corruption-crypto-watchdogs/688187/",
+      "urlToImage": "https://cdn.theatlantic.com/thumbor/cmzZQWql9GsCsguTobHRqXqgtJY=/0x85:3994x2165/1200x625/media/img/mt/2026/08/2026_08_07_Trumps_First_Term_Scandals_Now_Seem_Quaint_Marie_Rose_Sheinerman_SUB/original.jpg",
+      "publishedAt": "2026-08-09T12:00:00Z",
+      "content": "Last May, President Trump held an \u201cintimate\u201d dinner at his members-only golf club in Virginia for the top-220 investors in $TRUMP, a meme coin he launched days before the start of his second term tha\u2026 [+13511 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "PCMag.com"
+        "name": "Dailymail.com"
       },
-      "author": "Kimberly Gedeon",
-      "title": "iOS 27 All But Confirmed an iPhone Fold Is Coming",
-      "description": "While Apple kept the spotlight on Siri AI and Apple Intelligence at WWDC 2026, several iOS 27 additions appear to be laying the groundwork for future hardware.\nApple will never confirm its rumored \"iPhone Fold\" until it actually announces one. But it's clear \u2026",
-      "url": "https://uk.pcmag.com/ios/165500/ios-27-all-but-confirmed-an-iphone-fold-is-coming-wwdc-2026",
-      "urlToImage": "https://sm.pcmag.com/t/pcmag_uk/opinion/i/ios-27-all/ios-27-all-but-confirmed-an-iphone-fold-is-coming_jxjr.1200.jpg",
-      "publishedAt": "2026-06-10T17:59:09Z",
-      "content": "Apple will never confirm its rumored \"iPhone Fold\" until it actually announces one. But it's clear the company's first foray into the foldable market is right around the corner. At WWDC 2026, the Cup\u2026 [+3621 chars]"
+      "author": "Sadie Whitelocks",
+      "title": "Joni Mitchell's former Malibu beach house can be yours for $27 million - complete with a rare feature money can't buy",
+      "description": "The legendary singer-songwriter's custom-built oceanfront home has hit the market for the first time in nearly four decades.",
+      "url": "https://www.dailymail.com/yourmoney/article-16000045/joni-mitchell-malibu-beach-house-sale.html",
+      "urlToImage": "https://i.dailymail.com/1s/2026/07/24/05/110223219-0-image-a-5_1784868113364.jpg",
+      "publishedAt": "2026-08-09T11:24:30Z",
+      "content": "Owning a slice of music history doesn't come cheap but for $26.99 million, one lucky buyer could wake up every morning in the former Malibu beach retreat of music icon Joni Mitchell.\r\nThe legendary s\u2026 [+5948 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "Livemint"
+        "name": "Dailymail.com"
       },
-      "author": "Anshika Kayastha",
-      "title": "RBI tightens REIT, InvIT bank lending rules; rejects push for broader refinancing and land finance",
-      "description": "The central bank has capped bank exposure to completed, cash-generating assets, setting a 49% limit and barring refinancing of under-construction projects, as it issues final rules effective April 2027.",
-      "url": "https://www.livemint.com/industry/banking/rbi-tightens-reit-invit-bank-lending-rules-rejects-refinancing-land-finance-11781100909190.html",
-      "urlToImage": "https://www.livemint.com/lm-img/img/2026/06/10/1600x900/logo/INDIA-BANKS-FITCH-0_1781113812829_1781113825516_3d50e40d-0dfa-473f-af4d-755eeb881af7.JPG",
-      "publishedAt": "2026-06-10T17:57:46Z",
-      "content": "Mumbai: The Reserve Bank of India has tightened rules governing banks exposure to real estate investment trusts (Reits) and infrastructure investment trusts (InvITs), rejecting industry requests to p\u2026 [+4648 chars]"
-    },
-    {
-      "source": {
-        "id": "the-next-web",
-        "name": "The Next Web"
-      },
-      "author": "Cristian Dina",
-      "title": "SpaceX\u2019s IPO is expected to mint 4,000 new millionaires, from engineers to cafeteria workers",
-      "description": "More than 4,000 current and former SpaceX employees are expected to become millionaires when the company begins trading on Nasdaq this week, according to an analysis by Hill.com. Of those, approximately 400 are projected to hold stakes worth $100 million or m\u2026",
-      "url": "https://thenextweb.com/news/spacex-ipo-4000-millionaires-employees-wealth/",
-      "urlToImage": "https://media.thenextweb.com/2021/02/Elon-Musk-photo-by-Daniel-Oberhaus.avif",
-      "publishedAt": "2026-06-10T17:55:43Z",
-      "content": "TL;DR\r\nSpaceXs IPO is expected to create over 4,000 new millionaires, from engineers to cafeteria workers. Pricing is set for Wednesday at $135/share, with a $1.8 trillion Nasdaq listing on Thursday.\u2026 [+3737 chars]"
+      "author": "Sadie Whitelocks",
+      "title": "Joni Mitchell's former Malibu beach house can be yours for $27 million - complete with a rare feature money can't buy",
+      "description": "The legendary singer-songwriter's custom-built oceanfront home has hit the market for the first time in nearly four decades.",
+      "url": "https://www.dailymail.com/yourmoney/article-16000045/joni-mitchell-malibu-beach-house-sale.html",
+      "urlToImage": "https://i.dailymail.com/1s/2026/07/24/05/110223219-0-image-a-5_1784868113364.jpg",
+      "publishedAt": "2026-08-09T11:24:30Z",
+      "content": "Owning a slice of music history doesn't come cheap but for $26.99 million, one lucky buyer could wake up every morning in the former Malibu beach retreat of music icon Joni Mitchell.\r\nThe legendary s\u2026 [+5948 chars]"
     },
     {
       "source": {
         "id": null,
-        "name": "PRNewswire"
+        "name": "Forbes"
+      },
+      "author": "Alicia Park, Forbes Staff, \n Alicia Park, Forbes Staff\n https://www.forbes.com/sites/aliciapark/",
+      "title": "Two Divorces, Ten Children And A $2 Billion Fortune: Meet The Utah Couple Behind An E-Commerce Empire",
+      "description": "Once two cofounders reselling fridge magnets online ten years ago, David Wright and Melanie Alder have become Utah\u2019s newest billionaire couple.",
+      "url": "https://www.forbes.com/sites/aliciapark/2026/08/09/two-divorces-ten-children-and-a-2-billion-fortune-meet-the-utah-couple-behind-an-e-commerce-empire/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6a74e059474751a4c8a05509/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2026-08-09T10:30:00Z",
+      "content": "On September 19 last year, the husband-and-wife cofounders of e-commerce company Pattern, David Wright and Melanie Alder, walked up together to the NASDAQ podium in Times Squareboth dressed in black \u2026 [+17390 chars]"
+    },
+    {
+      "source": {
+        "id": "cbc-news",
+        "name": "CBC News"
       },
       "author": null,
-      "title": "NAI Burns Scalo Grows Florida Market Share, Announces Major Expansion into Southwest Florida with Key Acquisition",
-      "description": "FT. MYERS, Fla., June 10, 2026 /PRNewswire/ -- NAI Burns Scalo, a nationally renowned commercial real estate firm has acquired Cushman & Wakefield | Commercial Property Southwest Florida (CPSWFL) in Fort Myers. The acquisition was led by Brian Walker, Preside\u2026",
-      "url": "https://www.prnewswire.com/news-releases/nai-burns-scalo-grows-florida-market-share-announces-major-expansion-into-southwest-florida-with-key-acquisition-302796944.html",
-      "urlToImage": "https://mmx.prnewswire.com/media/MS1861363/NAI_Burns_Scalo_President_of_NAI_Burns_Scalo_Brian_Walker.jpg?id=OA2696028&p=facebook",
-      "publishedAt": "2026-06-10T17:54:00Z",
-      "content": "This evolution underscores the firm's commitment to building a full-service platform in Florida. Since announcing the opening of its Tampa office in March of 2025, NAI Burns Scalo has experienced tre\u2026 [+4716 chars]"
+      "title": "As housing starts expected to slow, major developer says Canada must continue building",
+      "description": "The CEO of the Skyline Group of Companies, one of the largest real estate companies in Canada, expects immigration and housing demand to pick up again in the future.",
+      "url": "https://www.cbc.ca/news/canada/nova-scotia/skyline-apartments-housing-construction-9.7298202",
+      "urlToImage": "https://i.cbc.ca/ais/16f84d2b-d674-4bc1-ab3d-bafeb54ac5fe,1786028069434/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C5438%2C3058%29%3BResize%3D620",
+      "publishedAt": "2026-08-09T09:00:00Z",
+      "content": "As some housing developers hold\r\nback\r\n on new construction projects, one of Canada's largest\r\n real estate companies says it intends to keep building and its important the country continues to do so\u2026 [+3153 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BBC News"
+      },
+      "author": "Ciaran Varley - BBC Sport journalist",
+      "title": "What are your favourite new kits for the coming season?",
+      "description": "BBC Sport have rounded up some of the best new kits released by clubs around the world over the summer - vote for your top 10",
+      "url": "https://www.bbc.com/sport/football/articles/c4g630klknjo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
+      "urlToImage": "https://s.yimg.com/lo/mysterio/api/0be2b11f36539e4a3b50dc3dfd3451f984078fc7ed55bea06b55035961703386/lightyear_networkapi/resizefill_w1024_h576%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbbc_us_articles_995%2F1d69aec1af02949b24063ee8a5c0d6c7",
+      "publishedAt": "2026-08-09T07:22:07Z",
+      "content": "As a new season draws near, football-hungry fans around the country will be tweaking their fantasy teams, making themselves experts on rumoured transfer targets and keeping eyes keenly trained on new\u2026 [+11722 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dubaichronicle.com"
+      },
+      "author": "Dubai Chronicle",
+      "title": "Dubai Real Estate Agents Get Greater Protection as Property Portals Move to Protect Listings",
+      "description": "Dubai Property Portals Move to Protect Real Estate Agents, Landlords and Fair Competition Dubai\u2019s real estate industry is becoming more sophisticated, and established property listing portals are taking steps to protect landlords, agents and legitimate proper\u2026",
+      "url": "https://www.dubaichronicle.com/2026/08/09/dubai-real-estate-agents-property-listing-protection/",
+      "urlToImage": "https://www.dubaichronicle.com/wp-content/uploads/2026/08/Dubai-Real-Estate-Agents-Get-Greater-Protection.png",
+      "publishedAt": "2026-08-09T05:52:53Z",
+      "content": "Dubais real estate industry is becoming more sophisticated, and established property listing portals are taking steps to protect landlords, agents and legitimate property listings.\r\nOne recent change\u2026 [+5065 chars]"
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "ETMarkets.com",
+      "title": "Q1 Results Tracker: Tata Motors, Vodafone Idea among 2,045 companies set to announce earnings this week",
+      "description": "Goldman Sachs expects the Nifty 50 to rebound to 26,500 by June 2027, above its current record high, as India\u2019s macro backdrop improves. Lower commodity prices, a stable currency, resilient domestic growth and better earnings prospects are supporting its bull\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/q1-results-tracker-tata-motors-vodafone-idea-among-2045-companies-set-to-announce-earnings-this-week/articleshow/133062827.cms",
+      "urlToImage": "https://img.etimg.com/thumb/msid-133062843,width-1200,height-630,imgsize-31090,overlay-etmarkets/articleshow.jpg",
+      "publishedAt": "2026-08-09T05:51:01Z",
+      "content": "The June quarter earnings season, which kicked off on July 9 with Tata Consultancy Services (TCS) reporting its results, is expected to gather pace this week. Corporate earnings are projected to grow\u2026 [+3364 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dailymail.com"
+      },
+      "author": "Sarah Brookes",
+      "title": "How luxury homeowners are winning from Albo's tax reforms - even as prices go down: '$30,000 a week'",
+      "description": "New tax laws have handed luxury homeowners a lucrative reason to sit tight, according to a real estate guru.",
+      "url": "https://www.dailymail.com/news/article-16029521/albanese-tax-negative-gearing-capital-gains-luxury-property.html",
+      "urlToImage": "https://i.dailymail.com/1s/2026/08/06/06/110469063-0-image-m-69_1785994814105.jpg",
+      "publishedAt": "2026-08-09T05:50:02Z",
+      "content": "Prime Minister Anthony Albanese's new tax laws have given luxury homeowners a lucrative incentive to hold onto their properties and collect high rental returns, according to a real estate expert.\u00a0\r\nB\u2026 [+5417 chars]"
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "Nikhil Agarwal",
+      "title": "AI trade gets crowded as India stages a comeback: What fund flows reveal",
+      "description": "As global investors crowd into AI-linked markets in South Korea and Taiwan, India is re-emerging as an anti-AI portfolio diversifier. Moderating long-only fund redemptions, $3.6 billion in recent foreign inflows, strong domestic SIP contributions, and potenti\u2026",
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/ai-trade-gets-crowded-as-india-stages-a-comeback-what-fund-flows-reveal/articleshow/133062811.cms",
+      "urlToImage": "https://img.etimg.com/thumb/msid-133062825,width-1200,height-630,imgsize-1108694,overlay-etmarkets/articleshow.jpg",
+      "publishedAt": "2026-08-09T05:48:46Z",
+      "content": "India is re-emerging as a portfolio diversifier just as global investors crowd back into artificial intelligence-linked markets, creating an early test of whether the year's dominant equity trade can\u2026 [+5589 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Wordpress.com"
+      },
+      "author": null,
+      "title": "Vibhor Kumar: The Enterprise AI Trust Stack: How OWNS, CALM, and ORBIT Fit Together",
+      "description": "Enterprise AI doesn\u2019t fail because strategy was wrong. Or because the platform wasn\u2019t ready. Or because the execution layer broke.\n\n\n\nIt fails because organizations treat those as three different conversations \u2014 run by three different teams, on three differen\u2026",
+      "url": "https://vibhorkumar.wordpress.com/2026/08/09/the-enterprise-ai-trust-stack-how-owns-calm-and-orbit-fit-together/",
+      "urlToImage": "https://vibhorkumar.wordpress.com/wp-content/uploads/2026/08/image-14.png",
+      "publishedAt": "2026-08-09T05:07:16Z",
+      "content": "Enterprise AI doesn\u2019t fail because strategy was wrong. Or because the platform wasn\u2019t ready. Or because the execution layer broke.\r\nIt fails because organizations treat those as three different conve\u2026 [+9834 chars]"
+    },
+    {
+      "source": {
+        "id": "the-irish-times",
+        "name": "The Irish Times"
+      },
+      "author": "Caroline O'Doherty",
+      "title": "How Ireland\u2019s land is used and why it has to change",
+      "description": "Agriculture takes up 74 per cent of the country\u2019s land",
+      "url": "https://www.irishtimes.com/life-style/2026/08/09/how-irelands-land-is-used-and-why-it-has-to-change/",
+      "urlToImage": "https://www.irishtimes.com/resizer/v2/ELY63ABCLVC75P2ND4T3KNEKIQ.JPG?smart=true&auth=f6744e395f193e79f3375d1c7df08cd7b59d93c158a557d175e00d47a289509c&width=1200&height=630",
+      "publishedAt": "2026-08-09T05:00:00Z",
+      "content": "Marina Conway has what sounds like an enviable dilemma: a piece of land and freedom to use it as she likes. \r\nI have 19.5 acres I recently inherited in my great-grandmothers home place, she says. \r\nH\u2026 [+15519 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Wordupnews.com"
+      },
+      "author": "Newsadmin",
+      "title": "How to Start a Cleaning Business: A Step-by-Step Guide",
+      "description": "The cleaning services industry in the United States employs more than 3 million people and generates over $100 billion a year, and it doesn\u2019t ask for a fraction of that revenue as an entry fee. A laptop for scheduling, a car, and a few hundred dollars in supp\u2026",
+      "url": "https://wordupnews.com/business/how-to-start-a-cleaning-business-a-step-by-step-guide/",
+      "urlToImage": "https://wordupnews.com/wp-content/uploads/2026/08/cleaning-business-1-1000x600.png",
+      "publishedAt": "2026-08-09T04:41:53Z",
+      "content": "The cleaning services industry in the United States employs more than 3 million people and generates over $100 billion a year, and it doesnt ask for a fraction of that revenue as an entry fee. A lapt\u2026 [+14647 chars]"
+    },
+    {
+      "source": {
+        "id": "the-times-of-india",
+        "name": "The Times of India"
+      },
+      "author": "Glynda Alves",
+      "title": "Where art thou? From royal silverware to rare watches, what collectors are bidding for now",
+      "description": "As collectors broaden their horizons beyond canvases, Glynda Alves finds that India\u2019s auction houses are witnessing growing demand for items beyond the frame",
+      "url": "https://economictimes.indiatimes.com/magazines/panache/where-art-thou-from-royal-silverware-to-rare-watches-what-collectors-are-bidding-for-now/articleshow/133061886.cms",
+      "urlToImage": "https://img.etimg.com/thumb/msid-133062087,width-1200,height-630,imgsize-204968,overlay-etpanache/articleshow.jpg",
+      "publishedAt": "2026-08-09T04:38:04Z",
+      "content": "Auction paddles once rose almost only for paintings. But today, coveted lots arent just for your walls; bidding wars are just as likely for a valuable timepiece, a royal tea service or a first-editio\u2026 [+8183 chars]"
     }
   ]
 }

@@ -1,9 +1,185 @@
 {
-  "@context": {
-    "@version": "1.1"
-  },
+  "@context": [
+    "https://geojson.org/geojson-ld/geojson-context.jsonld",
+    {
+      "@version": "1.1",
+      "wx": "https://api.weather.gov/ontology#",
+      "@vocab": "https://api.weather.gov/ontology#"
+    }
+  ],
   "type": "FeatureCollection",
-  "features": [],
+  "features": [
+    {
+      "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ccfa792d80533cad98d1b9ff95bd531117f0f80.001.1",
+      "type": "Feature",
+      "geometry": null,
+      "properties": {
+        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.7ccfa792d80533cad98d1b9ff95bd531117f0f80.001.1",
+        "@type": "wx:Alert",
+        "id": "urn:oid:2.49.0.1.840.0.7ccfa792d80533cad98d1b9ff95bd531117f0f80.001.1",
+        "areaDesc": "Clay; Greene; Craighead; Poinsett; Mississippi; Cross; Crittenden; St. Francis; Lee; Phillips; Dunklin; Pemiscot; DeSoto; Tunica; Tate; Coahoma; Quitman; Panola; Tallahatchie; Lake; Obion; Weakley; Dyer; Gibson; Lauderdale; Tipton; Haywood; Crockett; Shelby; Fayette",
+        "geocode": {
+          "SAME": [
+            "005021",
+            "005055",
+            "005031",
+            "005111",
+            "005093",
+            "005037",
+            "005035",
+            "005123",
+            "005077",
+            "005107",
+            "029069",
+            "029155",
+            "028033",
+            "028143",
+            "028137",
+            "028027",
+            "028119",
+            "028107",
+            "028135",
+            "047095",
+            "047131",
+            "047183",
+            "047045",
+            "047053",
+            "047097",
+            "047167",
+            "047075",
+            "047033",
+            "047157",
+            "047047"
+          ],
+          "UGC": [
+            "ARZ009",
+            "ARZ018",
+            "ARZ026",
+            "ARZ027",
+            "ARZ028",
+            "ARZ035",
+            "ARZ036",
+            "ARZ048",
+            "ARZ049",
+            "ARZ058",
+            "MOZ113",
+            "MOZ115",
+            "MSZ001",
+            "MSZ007",
+            "MSZ008",
+            "MSZ010",
+            "MSZ011",
+            "MSZ012",
+            "MSZ020",
+            "TNZ001",
+            "TNZ002",
+            "TNZ003",
+            "TNZ019",
+            "TNZ020",
+            "TNZ048",
+            "TNZ049",
+            "TNZ050",
+            "TNZ051",
+            "TNZ088",
+            "TNZ089"
+          ]
+        },
+        "affectedZones": [
+          "https://api.weather.gov/zones/forecast/ARZ009",
+          "https://api.weather.gov/zones/forecast/ARZ018",
+          "https://api.weather.gov/zones/forecast/ARZ026",
+          "https://api.weather.gov/zones/forecast/ARZ027",
+          "https://api.weather.gov/zones/forecast/ARZ028",
+          "https://api.weather.gov/zones/forecast/ARZ035",
+          "https://api.weather.gov/zones/forecast/ARZ036",
+          "https://api.weather.gov/zones/forecast/ARZ048",
+          "https://api.weather.gov/zones/forecast/ARZ049",
+          "https://api.weather.gov/zones/forecast/ARZ058",
+          "https://api.weather.gov/zones/forecast/MOZ113",
+          "https://api.weather.gov/zones/forecast/MOZ115",
+          "https://api.weather.gov/zones/forecast/MSZ001",
+          "https://api.weather.gov/zones/forecast/MSZ007",
+          "https://api.weather.gov/zones/forecast/MSZ008",
+          "https://api.weather.gov/zones/forecast/MSZ010",
+          "https://api.weather.gov/zones/forecast/MSZ011",
+          "https://api.weather.gov/zones/forecast/MSZ012",
+          "https://api.weather.gov/zones/forecast/MSZ020",
+          "https://api.weather.gov/zones/forecast/TNZ001",
+          "https://api.weather.gov/zones/forecast/TNZ002",
+          "https://api.weather.gov/zones/forecast/TNZ003",
+          "https://api.weather.gov/zones/forecast/TNZ019",
+          "https://api.weather.gov/zones/forecast/TNZ020",
+          "https://api.weather.gov/zones/forecast/TNZ048",
+          "https://api.weather.gov/zones/forecast/TNZ049",
+          "https://api.weather.gov/zones/forecast/TNZ050",
+          "https://api.weather.gov/zones/forecast/TNZ051",
+          "https://api.weather.gov/zones/forecast/TNZ088",
+          "https://api.weather.gov/zones/forecast/TNZ089"
+        ],
+        "references": [
+          {
+            "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc144e96bdf9877fc4c9716cb8cee9305aaa95f3.001.1",
+            "identifier": "urn:oid:2.49.0.1.840.0.bc144e96bdf9877fc4c9716cb8cee9305aaa95f3.001.1",
+            "sender": "w-nws.webmaster@noaa.gov",
+            "sent": "2026-08-09T11:08:00-05:00"
+          }
+        ],
+        "sent": "2026-08-09T22:51:00-05:00",
+        "effective": "2026-08-09T22:51:00-05:00",
+        "onset": "2026-08-10T11:00:00-05:00",
+        "expires": "2026-08-10T13:15:00-05:00",
+        "ends": "2026-08-10T20:00:00-05:00",
+        "status": "Actual",
+        "messageType": "Update",
+        "category": "Met",
+        "severity": "Moderate",
+        "certainty": "Likely",
+        "urgency": "Expected",
+        "event": "Heat Advisory",
+        "sender": "w-nws.webmaster@noaa.gov",
+        "senderName": "NWS Memphis TN",
+        "headline": "Heat Advisory issued August 9 at 10:51PM CDT until August 10 at 8:00PM CDT by NWS Memphis TN",
+        "description": "* WHAT...Heat index values up to 108 expected.\n\n* WHERE...Portions of East Arkansas, North Mississippi, Southeast\nMissouri, and West Tennessee.\n\n* WHEN...From 11 AM to 8 PM CDT Monday.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.",
+        "instruction": "Drink plenty of fluids, stay in an air-conditioned room, stay out of\nthe sun, and check up on relatives and neighbors.\n\nTo reduce risk during outdoor work, the Occupational Safety and\nHealth Administration recommends scheduling frequent rest breaks in\nshaded or air conditioned environments. Anyone overcome by heat\nshould be moved to a cool and shaded location. Heat stroke is an\nemergency! Call 9 1 1.",
+        "response": "Execute",
+        "note": null,
+        "parameters": {
+          "AWIPSidentifier": [
+            "NPWMEG"
+          ],
+          "WMOidentifier": [
+            "WWUS74 KMEG 100351"
+          ],
+          "NWSheadline": [
+            "HEAT ADVISORY REMAINS IN EFFECT FROM 11 AM TO 8 PM CDT MONDAY"
+          ],
+          "BLOCKCHANNEL": [
+            "EAS",
+            "NWEM",
+            "CMAS"
+          ],
+          "VTEC": [
+            "/O.CON.KMEG.HT.Y.0016.260810T1600Z-260811T0100Z/"
+          ],
+          "eventEndingTime": [
+            "2026-08-10T20:00:00-05:00"
+          ]
+        },
+        "scope": "Public",
+        "code": "IPAWSv1.0",
+        "language": "en-US",
+        "web": "http://www.weather.gov",
+        "eventCode": {
+          "SAME": [
+            "NWS"
+          ],
+          "NationalWeatherService": [
+            "HTY"
+          ]
+        }
+      }
+    }
+  ],
   "title": "Current watches, warnings, and advisories for Tennessee",
-  "updated": "2026-06-11T23:00:00+00:00"
+  "updated": "2026-08-10T14:24:40+00:00"
 }

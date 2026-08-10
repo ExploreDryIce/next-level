@@ -2,15 +2,15 @@
   "links": [
     {
       "rel": "first",
-      "href": "/v1/geo/cities?offset=0&limit=10&countryIds=JP,KR,SG,TW&minPopulation=500000&sort=-population"
+      "href": "/v1/geo/cities?offset=0&limit=10&countryIds=JP,KR,SG,TW&sort=-population&minPopulation=500000"
     },
     {
       "rel": "next",
-      "href": "/v1/geo/cities?offset=10&limit=10&countryIds=JP,KR,SG,TW&minPopulation=500000&sort=-population"
+      "href": "/v1/geo/cities?offset=10&limit=10&countryIds=JP,KR,SG,TW&sort=-population&minPopulation=500000"
     },
     {
       "rel": "last",
-      "href": "/v1/geo/cities?offset=60&limit=10&countryIds=JP,KR,SG,TW&minPopulation=500000&sort=-population"
+      "href": "/v1/geo/cities?offset=60&limit=10&countryIds=JP,KR,SG,TW&sort=-population&minPopulation=500000"
     }
   ],
   "data": [

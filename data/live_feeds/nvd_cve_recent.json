@@ -1,17 +1,17 @@
 {
   "resultsPerPage": 20,
   "startIndex": 0,
-  "totalResults": 357479,
+  "totalResults": 374932,
   "format": "NVD_CVE",
   "version": "2.0",
-  "timestamp": "2026-06-11T23:00:33.511",
+  "timestamp": "2026-08-10T14:25:07.839",
   "vulnerabilities": [
     {
       "cve": {
         "id": "CVE-1999-0095",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1988-10-01T04:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:47:34.460",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
@@ -22,6 +22,23 @@
           {
             "lang": "es",
             "value": "El comando de depuraci\u00f3n de Sendmail est\u00e1 activado, permitiendo a atacantes ejecutar comandos como root."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -129,13 +146,30 @@
         "id": "CVE-1999-0082",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1988-11-11T05:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:47:32.300",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "CWD ~root command in ftpd allows root access."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -216,13 +250,30 @@
         "id": "CVE-1999-1471",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1989-01-01T05:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:50:30.747",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "Buffer overflow in passwd in BSD based operating systems 4.3 and earlier allows local users to gain root privileges by specifying a long shell or GECOS field."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -337,13 +388,30 @@
         "id": "CVE-1999-1122",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1989-07-26T04:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:49:46.027",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "Vulnerability in restore in SunOS 4.0.3 and earlier allows local users to gain privileges."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -464,13 +532,30 @@
         "id": "CVE-1999-1467",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1989-10-26T04:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:50:30.147",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "Vulnerability in rcp on SunOS 4.0.x allows remote attackers from trusted hosts to execute arbitrary commands as root, possibly related to the configuration of the nobody user."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -600,13 +685,30 @@
         "id": "CVE-1999-1506",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1990-01-29T05:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:50:35.230",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "Vulnerability in SMI Sendmail 4.0 and earlier, on SunOS up to 4.0.3, allows remote attackers to access user bin."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -731,13 +833,51 @@
         "id": "CVE-1999-0084",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1990-05-01T04:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:47:32.553",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+            "affectedData": [
+              {
+                "vendor": "sun",
+                "product": "nfs",
+                "defaultStatus": "unknown",
+                "cpes": [
+                  "cpe:2.3:a:sun:nfs:*:*:*:*:*:*:*:*"
+                ],
+                "versions": [
+                  {
+                    "version": "0",
+                    "lessThan": "4.1.3",
+                    "versionType": "custom",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -786,6 +926,28 @@
               "obtainUserPrivilege": false,
               "obtainOtherPrivilege": false,
               "userInteractionRequired": false
+            }
+          ],
+          "ssvcV203": [
+            {
+              "source": "134c704f-9b21-4f2e-91b3-4a467353bcc0",
+              "ssvcData": {
+                "timestamp": "2024-08-01T20:30:39.205373Z",
+                "id": "CVE-1999-0084",
+                "options": [
+                  {
+                    "exploitation": "none"
+                  },
+                  {
+                    "automatable": "no"
+                  },
+                  {
+                    "technicalImpact": "total"
+                  }
+                ],
+                "role": "CISA Coordinator",
+                "version": "2.0.3"
+              }
             }
           ]
         },
@@ -845,13 +1007,30 @@
         "id": "CVE-2000-0388",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1990-05-09T04:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:51:36.727",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "Buffer overflow in FreeBSD libmytinfo library allows local users to execute commands via a long TERMCAP environmental variable."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -955,13 +1134,30 @@
         "id": "CVE-1999-0209",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1990-08-14T04:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:47:54.977",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "The SunView (SunTools) selection_svc facility allows remote users to read files."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -1067,13 +1263,30 @@
         "id": "CVE-1999-1198",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1990-10-03T04:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:49:55.630",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "BuildDisk program on NeXT systems before 2.0 does not prompt users for the root password, which allows local users to gain root privileges."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -1192,13 +1405,30 @@
         "id": "CVE-1999-1391",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1990-10-03T04:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:50:20.377",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "Vulnerability in NeXT 1.0a and 1.0 with publicly accessible printers allows local users to gain privileges via a combination of the npd program and weak directory permissions."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -1321,7 +1551,7 @@
         "id": "CVE-1999-1392",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1990-10-03T04:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:50:20.500",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
@@ -1332,6 +1562,23 @@
           {
             "lang": "es",
             "value": "Vulnerabilidad en el script de instalaci\u00f3n restore0.9  en  NeXT 1.0a y 1.0 permite a usuarios locales conseguir privilegios de root."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -1462,13 +1709,30 @@
         "id": "CVE-1999-1057",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1990-10-25T04:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:49:36.917",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "VMS 4.0 through 5.3 allows local users to gain privileges via the ANALYZE/PROCESS_DUMP dcl command."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -1587,13 +1851,30 @@
         "id": "CVE-1999-1554",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1990-10-31T05:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:50:42.350",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "/usr/sbin/Mail on SGI IRIX 3.3 and 3.3.1 does not properly set the group ID to the group ID of the user who started Mail, which allows local users to read the mail of other users."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -1708,13 +1989,30 @@
         "id": "CVE-1999-1197",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1990-12-20T05:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:49:55.497",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "TIOCCONS in SunOS 4.1.1 does not properly check the permissions of a user who tries to redirect console output and input, which could allow a local user to gain privileges."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -1816,13 +2114,30 @@
         "id": "CVE-1999-1115",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1990-12-31T05:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:49:45.133",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "Vulnerability in the /etc/suid_exec program in HP Apollo Domain/OS sr10.2 and sr10.3 beta, related to the Korn Shell (ksh)."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -1938,13 +2253,30 @@
         "id": "CVE-1999-1258",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1991-01-15T05:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:50:03.313",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "rpc.pwdauthd in SunOS 4.1.1 and earlier does not properly prevent remote access to the daemon, which allows remote attackers to obtain sensitive system information."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -2042,13 +2374,30 @@
         "id": "CVE-1999-1438",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1991-02-22T05:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:50:26.483",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "Vulnerability in /bin/mail in SunOS 4.1.1 and earlier allows local users to gain root privileges via certain command line arguments."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -2169,13 +2518,30 @@
         "id": "CVE-1999-1211",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1991-03-27T05:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:49:57.387",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "Vulnerability in in.telnetd in SunOS 4.1.1 and earlier allows local users to gain root privileges."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {
@@ -2270,13 +2636,30 @@
         "id": "CVE-1999-1212",
         "sourceIdentifier": "cve@mitre.org",
         "published": "1991-03-27T05:00:00.000",
-        "lastModified": "2026-04-16T00:27:16.627",
+        "lastModified": "2026-06-16T21:49:57.500",
         "vulnStatus": "Modified",
         "cveTags": [],
         "descriptions": [
           {
             "lang": "en",
             "value": "Vulnerability in in.rlogind in SunOS 4.0.3 and 4.0.3c allows local users to gain root privileges."
+          }
+        ],
+        "affected": [
+          {
+            "source": "cve@mitre.org",
+            "affectedData": [
+              {
+                "vendor": "n/a",
+                "product": "n/a",
+                "versions": [
+                  {
+                    "version": "n/a",
+                    "status": "affected"
+                  }
+                ]
+              }
+            ]
           }
         ],
         "metrics": {

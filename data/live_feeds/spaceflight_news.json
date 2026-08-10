@@ -1,87 +1,144 @@
 {
-  "count": 34606,
+  "count": 35561,
   "next": "https://api.spaceflightnewsapi.net/v4/articles/?limit=10&offset=10",
   "previous": null,
   "results": [
     {
-      "id": 38427,
-      "title": "NASA Award Boosts Space Technology Research Capabilities",
+      "id": 39415,
+      "title": "Lion Nebula roars to life for Webb",
+      "authors": [
+        {
+          "name": "ESA",
+          "socials": null
+        }
+      ],
+      "url": "https://www.esa.int/ESA_Multimedia/Images/2026/08/Lion_Nebula_roars_to_life_for_Webb",
+      "image_url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/lion_nebula_roars_to_life_for_webb/27409830-1-eng-GB/Lion_Nebula_roars_to_life_for_Webb_card_full.jpg",
+      "news_site": "ESA",
+      "summary": "Observing across the starry \u201cplains\u201d of space, the NASA/ESA/CSA James Webb Space Telescope has taken images of NGC 2392, nicknamed the Lion Nebula.",
+      "published_at": "2026-08-10T14:00:00Z",
+      "updated_at": "2026-08-10T14:10:21.470450Z",
+      "featured": false,
+      "launches": [],
+      "events": []
+    },
+    {
+      "id": 39414,
+      "title": "Launch Into a New School Year With NASA",
       "authors": [
         {
           "name": "NASA",
           "socials": null
         }
       ],
-      "url": "https://www.nasa.gov/learning-resources/stem-engagement-at-nasa/murep/nasa-award-boosts-space-technology-research-capabilities/",
-      "image_url": "https://www.nasa.gov/wp-content/uploads/2022/12/calibration-gas-system-cgs.png",
+      "url": "https://www.nasa.gov/learning-resources/launch-into-a-new-school-year-with-nasa/",
+      "image_url": "https://www.nasa.gov/wp-content/uploads/2026/08/bts-2026-express-2.jpg",
       "news_site": "NASA",
-      "summary": "NASA is introducing a new funding opportunity to accelerate academic research and technology development. The Minority University Research and Education Project Space Technology Artemis Research (M\u2011STAR) application window opened Thursday and will remain open through 11:59 p.m. EDT on Tuesday, Aug. 11. The research funded through this award supports the agency\u2019s priorities for exploring the [\u2026]",
-      "published_at": "2026-06-11T21:14:44Z",
-      "updated_at": "2026-06-11T21:20:06.217998Z",
+      "summary": "A new school year brings fresh opportunities to get involved with NASA. Whether you\u2019re curious about space or eager to build real STEM skills, NASA offers a world of experiences putting you close to the action. As we enter a new golden age of exploration, there\u2019s no better time to jump in, try something bold, [\u2026]",
+      "published_at": "2026-08-10T13:59:28Z",
+      "updated_at": "2026-08-10T14:00:14.637269Z",
       "featured": false,
       "launches": [],
       "events": []
     },
     {
-      "id": 38426,
-      "title": "NASA\u2019s Chandra Discovers Possible Supernova Remnant in Galactic Center",
+      "id": 39413,
+      "title": "Live coverage: SpaceX to launch 29 Starlink satellites on Falcon 9 rocket from Cape Canaveral",
       "authors": [
         {
-          "name": "NASA",
+          "name": "Will Robinson-Smith",
           "socials": null
         }
       ],
-      "url": "https://science.nasa.gov/missions/chandra/nasas-chandra-discovers-possible-supernova-remnant-in-galactic-center/",
-      "image_url": "https://science.nasa.gov/wp-content/uploads/2026/06/sgrc.jpg",
-      "news_site": "NASA",
-      "summary": "Using data from NASA\u2019s Chandra X-ray Observatory, astronomers may have found a supernova remnant in an intriguing neighborhood in the middle of our galaxy. A paper describing these new findings published in The Astrophysical Journal. Supernova remnants are the expanding remains of exploded stars and provide elements \u2013 like iron, oxygen, and silicon \u2013 that [\u2026]",
-      "published_at": "2026-06-11T20:41:44Z",
-      "updated_at": "2026-06-11T21:10:12.619382Z",
+      "url": "https://spaceflightnow.com/2026/08/10/live-coverage-spacex-to-launch-29-starlink-satellites-on-falcon-9-rocket-from-cape-canaveral-16/",
+      "image_url": "http://spaceflightnow.com/wp-content/uploads/2024/10/20241022_Starlink_6-61_prelaunch_AB-1-678x445.jpg",
+      "news_site": "Spaceflight Now",
+      "summary": "The Starlink 10-19 mission is SpaceX\u2019s 72nd flight of its broadband internet satellites this year. Liftoff from pad 40 at Cape Canaveral Space Force Station is scheduled for 12:20 p.m. EDT (1620 UTC). ",
+      "published_at": "2026-08-10T13:40:12Z",
+      "updated_at": "2026-08-10T13:40:33.050967Z",
       "featured": false,
       "launches": [],
       "events": []
     },
     {
-      "id": 38424,
-      "title": "I Am Artemis: Elkin Norena",
+      "id": 39411,
+      "title": "Chinese Long March 7A rocket explodes shortly after liftoff",
       "authors": [
         {
-          "name": "NASA",
+          "name": "Andrew Jones",
           "socials": null
         }
       ],
-      "url": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-elkin-norena/",
-      "image_url": "https://www.nasa.gov/wp-content/uploads/2026/06/0u6a3284.jpg",
-      "news_site": "NASA",
-      "summary": "Listen to this audio excerpt from Elkin Norena, Resident management officer, NASA\u2019s Space Launch System Program: NASA\u2019s Elkin Norena has helped the agency launch more than a dozen space shuttle missions \u2013 that\u2019s more than a dozen crews to low Earth orbit and more than a dozen historic missions. They were missions that helped build [\u2026]",
-      "published_at": "2026-06-11T20:07:33Z",
-      "updated_at": "2026-06-11T20:10:14.323849Z",
+      "url": "https://spacenews.com/chinese-long-march-7a-rocket-explodes-shortly-after-liftoff/",
+      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2025/11/Shijian28-CZ7A-WSLSC-30nov2025-CASC.jpg?fit=1024%2C686&ssl=1",
+      "news_site": "SpaceNews",
+      "summary": "\nHELSINKI \u2014 China appears to have lost an unknown payload after a Long March 7A rocket exploded less than 90 seconds into flight, according to amateur footage. The Long March [\u2026]\nThe post Chinese Long March 7A rocket explodes shortly after liftoff appeared first on SpaceNews.",
+      "published_at": "2026-08-10T13:24:02Z",
+      "updated_at": "2026-08-10T13:30:32.115522Z",
       "featured": false,
       "launches": [],
       "events": []
     },
     {
-      "id": 38425,
-      "title": "Japan\u2019s H3 to return to flight with debut launch of lightest configuration",
+      "id": 39412,
+      "title": "Wildfires, drought and extreme heat, 2026",
       "authors": [
         {
-          "name": "William Graham",
+          "name": "ESA",
           "socials": null
         }
       ],
-      "url": "https://www.nasaspaceflight.com/2026/06/h3-return-to-flight/",
-      "image_url": "https://www.nasaspaceflight.com/wp-content/uploads/2026/06/h3-f6.jpg",
+      "url": "https://www.esa.int/Applications/Observing_the_Earth/FutureEO/Space_for_our_climate/Wildfires_drought_and_extreme_heat_2026",
+      "image_url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/drought_hits_rivers_in_southern_norway/27411534-1-eng-GB/Drought_hits_rivers_in_southern_Norway_card_full.jpg",
+      "news_site": "ESA",
+      "summary": "Earth observation satellites help us monitor phenomena such as wildfires, drought and heatwaves from space. This page is updated on a regular basis with a selection of ESA\u2019s most recent news-related images showing how the effects of climate change are impacting our world.",
+      "published_at": "2026-08-10T13:00:00Z",
+      "updated_at": "2026-08-10T13:40:20.452367Z",
+      "featured": false,
+      "launches": [],
+      "events": []
+    },
+    {
+      "id": 39410,
+      "title": "National security doesn\u2019t need more maps or imagery; it needs measurement",
+      "authors": [
+        {
+          "name": "NicoleToigo",
+          "socials": null
+        }
+      ],
+      "url": "https://spacenews.com/national-security-doesnt-need-more-maps-or-imagery-it-needs-measurement/",
+      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/EDC-california-scaled.png?fit=1024%2C562&ssl=1",
+      "news_site": "SpaceNews",
+      "summary": "\nA decade ago, a United States carrier strike group departing San Diego could cross the Pacific with only intermittent detection. China might catch a glimpse \u2014 a satellite pass here, [\u2026]\nThe post National security doesn\u2019t need more maps or imagery; it needs measurement appeared first on SpaceNews.",
+      "published_at": "2026-08-10T13:00:00Z",
+      "updated_at": "2026-08-10T13:11:09.686617Z",
+      "featured": false,
+      "launches": [],
+      "events": []
+    },
+    {
+      "id": 39409,
+      "title": "Launch Preview: Chinese failure opens busy international launch salvo",
+      "authors": [
+        {
+          "name": "Sean Yoder",
+          "socials": null
+        }
+      ],
+      "url": "https://www.nasaspaceflight.com/2026/08/launch-preview-081026/",
+      "image_url": "https://www.nasaspaceflight.com/wp-content/uploads/2024/12/h3.jpg",
       "news_site": "NASASpaceflight",
-      "summary": "Japan\u2019s H3 rocket will return to flight Friday, with a launch that also marks the\u2026\nThe post Japan\u2019s H3 to return to flight with debut launch of lightest configuration appeared first on NASASpaceFlight.com.",
-      "published_at": "2026-06-11T20:05:57Z",
-      "updated_at": "2026-06-11T20:10:21.387895Z",
+      "summary": "The week of Aug. 10 opened with an extraordinary Monday, four launches across three countries\u2026\nThe post Launch Preview: Chinese failure opens busy international launch salvo appeared first on NASASpaceFlight.com.",
+      "published_at": "2026-08-10T12:49:20Z",
+      "updated_at": "2026-08-10T12:50:20.648146Z",
       "featured": false,
       "launches": [],
       "events": []
     },
     {
-      "id": 38423,
-      "title": "Vandenberg offers new launch site for small and medium rockets",
+      "id": 39406,
+      "title": "Tank problem delays first RFA launch",
       "authors": [
         {
           "name": "Jeff Foust",
@@ -95,114 +152,50 @@
           }
         }
       ],
-      "url": "https://spacenews.com/vandenberg-offers-new-launch-site-for-small-and-medium-rockets/",
-      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/slc9.jpeg?fit=1024%2C799&ssl=1",
+      "url": "https://spacenews.com/tank-problem-delays-first-rfa-launch/",
+      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/rfaone-saxavord.jpeg?fit=1024%2C682&ssl=1",
       "news_site": "SpaceNews",
-      "summary": "\nThe U.S. Space Force is seeking potential users of a new launch site at Vandenberg Space Force Base reserved for smaller rockets.\nThe post Vandenberg offers new launch site for small and medium rockets appeared first on SpaceNews.",
-      "published_at": "2026-06-11T19:56:01Z",
-      "updated_at": "2026-06-11T20:00:55.214878Z",
+      "summary": "\nThe majority owner of Rocket Factory Augsburg is still confident the company will conduct its first orbital launch attempt this year despite a setback in testing.\nThe post Tank problem delays first RFA launch appeared first on SpaceNews.",
+      "published_at": "2026-08-10T12:17:07Z",
+      "updated_at": "2026-08-10T12:20:52.259127Z",
       "featured": false,
       "launches": [],
       "events": []
     },
     {
-      "id": 38422,
-      "title": "Understanding what\u2019s next for orbital data centers",
+      "id": 39405,
+      "title": "Astrolight, ATMOS Space Cargo eye first in-flight laser link between reentry vehicle, satellite",
       "authors": [
         {
-          "name": "SpaceNews Editor",
+          "name": "Jaros\u0142aw Adamowski",
           "socials": null
         }
       ],
-      "url": "https://spacenews.com/understanding-whats-next-for-orbital-data-centers/",
-      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/space-minds-podcast-orbital-data-centers-starcloud-2000-1500-1.jpg?fit=1024%2C768&ssl=1",
+      "url": "https://spacenews.com/astrolight-atmos-space-cargo-eye-first-in-flight-laser-link-between-reentry-vehicle-satellite/",
+      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/08/Photo-by-ATMOS-Space-Cargo.png?fit=1024%2C512&ssl=1",
       "news_site": "SpaceNews",
-      "summary": "\nThis episode of Space Minds is from SpaceNews\u2019 recent event on orbital data centers. There, SpaceNews journalists talk with industry leaders and analysts about what\u2019s driving interest in the technology, [\u2026]\nThe post Understanding what\u2019s next for orbital data centers appeared first on SpaceNews.",
-      "published_at": "2026-06-11T19:38:03Z",
-      "updated_at": "2026-06-11T19:40:19.421840Z",
+      "summary": "\nWARSAW, Poland \u2014 The Lithuanian space laser communications company Astrolight has signed a memorandum of understanding with ATMOS Space Cargo, to demonstrate in-flight optical communications link between a reentry spacecraft [\u2026]\nThe post Astrolight, ATMOS Space Cargo eye first in-flight laser link between reentry vehicle, satellite appeared first on SpaceNews.",
+      "published_at": "2026-08-10T12:00:00Z",
+      "updated_at": "2026-08-10T12:10:18.645928Z",
       "featured": false,
       "launches": [],
       "events": []
     },
     {
-      "id": 38421,
-      "title": "NASA Robotic Tech Demo Will Advance Prototype Gamma-Ray Detectors",
+      "id": 39404,
+      "title": "How ESA mimics and models the 2026 total solar eclipse",
       "authors": [
         {
-          "name": "NASA",
+          "name": "ESA",
           "socials": null
         }
       ],
-      "url": "https://science.nasa.gov/missions/tech-demonstration/nasa-robotic-tech-demo-will-advance-prototype-gamma-ray-detectors/",
-      "image_url": "https://assets.science.nasa.gov/dynamicimage/assets/science/missions/a-step/34340D_0569_PSE_NASA_Goddard_Gamma-Ray_Tracker_Assembly_Process_WEB_16x9.jpg",
-      "news_site": "NASA",
-      "summary": "A new type of gamma-ray sensor developed by NASA will take part in a robotic arm demonstration on the agency\u2019s upcoming Fly Foundational Robots mission.",
-      "published_at": "2026-06-11T18:59:37Z",
-      "updated_at": "2026-06-11T19:10:10.309580Z",
-      "featured": false,
-      "launches": [],
-      "events": []
-    },
-    {
-      "id": 38420,
-      "title": "Senate NDAA backs plan to fold SDA, Space RCO into Space Force",
-      "authors": [
-        {
-          "name": "Sandra Erwin",
-          "socials": null
-        }
-      ],
-      "url": "https://spacenews.com/senate-ndaa-backs-plan-to-fold-sda-space-rco-into-space-force/",
-      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/8961053-e1781203114473.jpg?fit=1024%2C604&ssl=1",
-      "news_site": "SpaceNews",
-      "summary": "\nThe committee's 2027 defense bill would eliminate separate statutory requirements for the two acquisition organizations while advancing broader Pentagon procurement reforms\nThe post Senate NDAA backs plan to fold SDA, Space RCO into Space Force appeared first on SpaceNews.",
-      "published_at": "2026-06-11T18:40:55Z",
-      "updated_at": "2026-06-11T18:50:22.669954Z",
-      "featured": false,
-      "launches": [],
-      "events": []
-    },
-    {
-      "id": 38419,
-      "title": "ESA astronaut assignment on Artemis 3 part of negotiations on revised Artemis roles",
-      "authors": [
-        {
-          "name": "Jeff Foust",
-          "socials": {
-            "x": "https://x.com/jeff_foust",
-            "youtube": "",
-            "instagram": "",
-            "linkedin": "https://www.linkedin.com/in/jefffoust",
-            "mastodon": "https://mastodon.social/@jfoust",
-            "bluesky": "https://bsky.app/profile/jfoust.bsky.social"
-          }
-        }
-      ],
-      "url": "https://spacenews.com/esa-astronaut-assignment-on-artemis-3-part-of-negotiations-on-revised-artemis-roles/",
-      "image_url": "https://i0.wp.com/spacenews.com/wp-content/uploads/2026/06/art3parmitano.jpeg?fit=1024%2C924&ssl=1",
-      "news_site": "SpaceNews",
-      "summary": "\nThe assignment of an ESA astronaut to Artemis 3 is part of negotiations for revised roles in the overall effort, with a goal of getting its astronauts on the moon.\nThe post ESA astronaut assignment on Artemis 3 part of negotiations on revised Artemis roles appeared first on SpaceNews.",
-      "published_at": "2026-06-11T17:33:50Z",
-      "updated_at": "2026-06-11T17:40:33.126577Z",
-      "featured": false,
-      "launches": [],
-      "events": []
-    },
-    {
-      "id": 38418,
-      "title": "Soccer Meets Space Science",
-      "authors": [
-        {
-          "name": "NASA",
-          "socials": null
-        }
-      ],
-      "url": "https://www.nasa.gov/image-article/soccer-meets-space-science/",
-      "image_url": "https://www.nasa.gov/wp-content/uploads/2026/06/iss074e0349331.jpg",
-      "news_site": "NASA",
-      "summary": "A soccer ball floats in microgravity in this March 2, 2026, picture from the International Space Station. The space station crew tested soccer balls to study how internal mass affects motion and stability in microgravity. The findings have improved understanding of how embedded technologies, including match-ball sensors, can influence performance during play. Through research aboard [\u2026]",
-      "published_at": "2026-06-11T16:55:12Z",
-      "updated_at": "2026-06-11T17:00:13.173181Z",
+      "url": "https://www.esa.int/Enabling_Support/Space_Engineering_Technology/How_ESA_mimics_and_models_the_2026_total_solar_eclipse",
+      "image_url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/08/proba-3_mimics_the_2026_total_solar_eclipse/27410604-1-eng-GB/Proba-3_mimics_the_2026_total_solar_eclipse_card_full.png",
+      "news_site": "ESA",
+      "summary": "On 12 August 2026, parts of Europe will experience a total solar eclipse. With the Sun's bright disc covered, its surrounding atmosphere \u2013 the solar corona \u2013 will become visible to the naked eye. Unfortunately, total solar eclipses are rare and last at most a few minutes, giving scientists little time to study the Sun\u2019s enigmatic halo.\u00a0\u00a0",
+      "published_at": "2026-08-10T11:59:00Z",
+      "updated_at": "2026-08-10T12:10:12.476376Z",
       "featured": false,
       "launches": [],
       "events": []

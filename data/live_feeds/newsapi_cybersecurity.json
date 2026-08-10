@@ -1,240 +1,19 @@
 {
   "status": "ok",
-  "totalResults": 535,
+  "totalResults": 775,
   "articles": [
     {
       "source": {
-        "id": null,
-        "name": "SiliconANGLE News"
+        "id": "the-next-web",
+        "name": "The Next Web"
       },
-      "author": "Zeus Kerravala",
-      "title": "Securing the AI workforce: Zscaler\u2019s zero-trust play for agentic AI",
-      "description": "Since\u00a0Zscaler Inc.\u2018s launch, the company\u2019s mission has been to disrupt traditional access and security with its Zero Trust platform. At its user event, Zenith Live, in Las Vegas, the company made its case for what its next act would look like: becoming the fo\u2026",
-      "url": "https://siliconangle.com/2026/06/10/securing-ai-workforce-zscalers-zero-trust-play-agentic-ai/",
-      "urlToImage": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/06/jaychaudhry2026.jpg",
-      "publishedAt": "2026-06-10T22:31:29Z",
-      "content": "Since\u00a0Zscaler Inc.\u2018s launch, the companys mission has been to disrupt traditional access and security with its Zero Trust platform. At its user event, Zenith Live, in Las Vegas, the company made its \u2026 [+11609 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "insider@insider.com (Lillian Brown)",
-      "title": "Where to watch NBA Finals: Spurs vs. Knicks live streams, odds, venue",
-      "description": "The Spurs and Knicks clash once again in Game 4. We'll show you where to watch the NBA Finals around the globe.",
-      "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-nba-finals-knicks-vs-spurs-2026-g4",
-      "urlToImage": "https://i.insider.com/6a29c47e3b1b48ae08760025?width=1200&format=jpeg",
-      "publishedAt": "2026-06-10T21:31:01Z",
-      "content": "Game 4 of the NBA Finals has arrived, and the San Antonio Spurs have successfully staved off the potential for a sweep, but whether they can truly get back in contention remains to be seen. We've rou\u2026 [+5953 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BleepingComputer"
-      },
-      "author": "Bill Toulas",
-      "title": "Path traversal flaw in AI dev platform Langflow exploited in attacks",
-      "description": "Attackers are actively exploiting CVE-2026-5027, a high-severity path traversal vulnerability in the AI development platform Langflow, to write arbitrary files on exposed servers. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
-      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2026/06/10/Langflow.jpg",
-      "publishedAt": "2026-06-10T21:23:44Z",
-      "content": "Attackers are actively exploiting CVE-2026-5027, a high-severity path traversal vulnerability in the AI development platform Langflow, to write arbitrary files on exposed servers.\r\nLangflow is an ope\u2026 [+2705 chars]"
-    },
-    {
-      "source": {
-        "id": "wired",
-        "name": "Wired"
-      },
-      "author": "Lily Hay Newman",
-      "title": "CISA Tells US Agencies to Fix Security Bugs in as Little as 3 Days Thanks to AI Threats",
-      "description": "\u201cDefenders cannot afford to take weeks to patch,\u201d one Cybersecurity and Infrastructure Security Agency official warned on Wednesday.",
-      "url": "https://www.wired.com/story/cisa-ai-vulnerability-directive/",
-      "urlToImage": "https://media.wired.com/photos/6a29bec26f45b6c55c01d0d6/191:100/w_1280,c_limit/CISA-AI-Security-Patch-2268298926.jpg",
-      "publishedAt": "2026-06-10T20:55:40Z",
-      "content": "With new generations of AI models fueling both rapid software vulnerability discovery and the potential for faster exploitation by malicious hackers, the United States Cybersecurity and Infrastructur\u2026 [+3945 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "SiliconANGLE News"
-      },
-      "author": "Maria Deutscher",
-      "title": "Cyera raises $600M at $12B valuation amid flurry of cybersecurity investments",
-      "description": "Cyera Ltd., a startup that helps organizations track and secure their data assets, has raised $600 million from investors at a $12 billion valuation. The company is one of three cybersecurity providers to have disclosed funding rounds today. The other two, Pi\u2026",
-      "url": "https://siliconangle.com/2026/06/10/cyera-raises-600m-12b-valuation-amid-flurry-cybersecurity-investments/",
-      "urlToImage": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/06/Cyera.png",
-      "publishedAt": "2026-06-10T20:37:40Z",
-      "content": "Cyera Ltd., a startup that helps organizations track and secure their data assets, has raised $600 million from investors at a $12 billion valuation.\r\nThe company is one of three cybersecurity provid\u2026 [+5005 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Crypto Briefing"
-      },
-      "author": "Editorial Team",
-      "title": "Oracle PeopleSoft servers targeted in data theft attacks linked to ShinyHunters",
-      "description": "The attacks highlight vulnerabilities in enterprise systems, emphasizing the need for robust cybersecurity measures to protect sensitive data.\nThe post Oracle PeopleSoft servers targeted in data theft attacks linked to ShinyHunters appeared first on Crypto Br\u2026",
-      "url": "https://cryptobriefing.com/shinyhunters-oracle-peoplesoft-bitcoin-ransom/",
-      "urlToImage": "https://static.cryptobriefing.com/wp-content/uploads/2026/06/10145107/shinyhunters-wage-broad-corporate-extortion-spree-krebs-on-s-800x420.png",
-      "publishedAt": "2026-06-10T18:51:14Z",
-      "content": "The notorious data extortion group is exploiting vulnerabilities in legacy enterprise systems and demanding Bitcoin ransoms, raising fresh questions about crypto's role in cybercrime. ShinyHunters, o\u2026 [+2337 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BleepingComputer"
-      },
-      "author": "Lawrence Abrams",
-      "title": "Oracle PeopleSoft servers hacked in ShinyHunters data theft attacks",
-      "description": "Oracle PeopleSoft servers are being targeted in ongoing data theft attacks by the ShinyHunters extortion gang, which claims to have stolen data from over 100 organizations. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/oracle-peoplesoft-servers-hacked-in-shinyhunters-data-theft-attacks/",
-      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2025/03/21/Oracle.jpg",
-      "publishedAt": "2026-06-10T18:31:57Z",
-      "content": "Oracle PeopleSoft servers are being targeted in ongoing data theft attacks by the ShinyHunters extortion gang, which claims to have stolen data from over 100 organizations.\r\nPeopleSoft is an enterpri\u2026 [+4115 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Forrester.com"
-      },
-      "author": "Jeff Pollard",
-      "title": "How Fable 5 And Mythos 5 Change AI Security, Data Retention, And Vendor Risk",
-      "description": "Anthropic\u2019s Fable 5 and Mythos 5 is the most 2026 product launch you\u2019ll read this year. The same model can find nation-state zero days, design novel drug candidates, and play FireRed on a Gameboy Advance with nothing but screenshots. And for the gaming fans o\u2026",
-      "url": "https://www.forrester.com/blogs/how-fable-5-and-mythos-5-change-ai-security-data-retention-and-vendor-risk/",
-      "urlToImage": "https://go.forrester.com/wp-content/uploads/2026/06/Blog-Mythos-5-Fable-5.jpg",
-      "publishedAt": "2026-06-10T17:34:03Z",
-      "content": "Anthropics Fable 5 and Mythos 5 is the most 2026 product launch youll read this year. The same model can find nation-state zero days, design novel drug candidates, and play FireRed on a Gameboy Advan\u2026 [+12491 chars]"
-    },
-    {
-      "source": {
-        "id": "business-insider",
-        "name": "Business Insider"
-      },
-      "author": "insider@insider.com (Lillian Brown)",
-      "title": "Where to watch World Cup: Free live streams, schedule, venues, odds",
-      "description": "The biggest football competition in the world returns. We'll show you where to watch the World Cup online from anywhere.",
-      "url": "https://www.businessinsider.com/guides/streaming/where-to-watch-fifa-world-cup-2026",
-      "urlToImage": "https://i.insider.com/6a29726a59f798e5451f5923?width=1200&format=jpeg",
-      "publishedAt": "2026-06-10T17:03:36Z",
-      "content": "After almost four years, the FIFA World Cup returns, and Argentina will attempt to defend its title against a stacked field. We've scoured the viewing options and rounded up everything you need to kn\u2026 [+7898 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BusinessLine"
-      },
-      "author": "Nishant  Sahdev",
-      "title": "How India can protect its digital ecosystem",
-      "description": "In the age of Mythos, building firewalls is a relic of the past. Systems must now detect an anomaly and \u201cre-wire\u201d their own logic in real-time",
-      "url": "https://www.thehindubusinessline.com/opinion/how-india-can-protect-its-digital-ecosystem/article71086075.ece",
-      "urlToImage": "https://bl-i.thgim.com/public/incoming/2cb3oq/article71086079.ece/alternates/LANDSCAPE_1200/BL11_Think_AI_brain.jpg",
-      "publishedAt": "2026-06-10T16:08:18Z",
-      "content": "In May 1940, the worlds military elite believed that the Belgian fortress of Eben-Emael was the most impregnable structure ever built. It was a masterpiece of concrete and steel, designed to withstan\u2026 [+6539 chars]"
-    },
-    {
-      "source": {
-        "id": "techradar",
-        "name": "TechRadar"
-      },
-      "author": "Sead Fadilpa\u0161i\u0107",
-      "title": "French government internal messaging tool Tchap hit by data breach \u2014 but it doesn't know if any data was compromised",
-      "description": "A cybercriminal claimed the Tchap breach on a dark web forum, saying they stole gigabytes of sensitive data.",
-      "url": "https://www.techradar.com/pro/security/french-government-internal-messaging-tool-tchap-hit-by-data-breach-but-it-doesnt-know-if-any-data-was-compromised",
-      "urlToImage": "https://cdn.mos.cms.futurecdn.net/uqHgSPQbsfgCGZPfmJ2cn-1920-80.jpg",
-      "publishedAt": "2026-06-10T14:09:30Z",
-      "content": "<ul><li>French government\u2011only chat app Tchap breached via stolen valid account, attacker claims 13.5GB exfiltrated</li><li>Alleged haul includes 73k accounts, 640k+ messages, 800+ chat rooms; privat\u2026 [+2508 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "BleepingComputer"
-      },
-      "author": "Sergiu Gatlan",
-      "title": "Microsoft patches Exchange Server zero-day exploited in attacks",
-      "description": "Microsoft has patched an actively exploited Exchange Server vulnerability that allows threat actors to execute arbitrary JavaScript code in cross-site scripting (XSS) attacks targeting Outlook Web Access users. [...]",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-exchange-server-zero-day-exploited-in-attacks/",
-      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2026/06/10/Microsoft-Exchange.jpg",
-      "publishedAt": "2026-06-10T13:44:19Z",
-      "content": "Microsoft has patched an actively exploited Exchange Server vulnerability that allows threat actors to execute arbitrary JavaScript code in cross-site scripting (XSS) attacks targeting Outlook Web Ac\u2026 [+2448 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Bitdefender.com"
-      },
-      "author": "Graham Cluley",
-      "title": "Why schools remain one of cybercriminals\u2019 favourite targets",
-      "description": "Schools on both sides of the Atlantic have been revealed in recent days to have been hit by hackers, reminding all of us that ransomware gangs see educational instituions as targets all year round.\n\nRead more in my article on the Hot for Security blog.",
-      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/why-schools-remain-one-of-cybercriminals-favourite-targets",
-      "urlToImage": "https://blogapp.bitdefender.com/hotforsecurity/content/images/2026/06/empty-school.jpeg",
-      "publishedAt": "2026-06-10T13:18:27Z",
-      "content": "Schools on both sides of the Atlantic have been revealed in recent days to have been hit by hackers, reminding all of us that ransomware gangs see educational instituions as targets all year round.\r\n\u2026 [+3326 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GlobeNewswire"
-      },
-      "author": "American News Group",
-      "title": "The Decade-Defining Race to Lock Down the World's Data Before Quantum Breaks It",
-      "description": "Issued on behalf of Quantum Secure Encryption Corp.  The world spent the last decade racing to build quantum computers. It will spend the next one racing...",
-      "url": "https://www.globenewswire.com/news-release/2026/06/10/3309708/0/en/The-Decade-Defining-Race-to-Lock-Down-the-World-s-Data-Before-Quantum-Breaks-It.html",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/134c155d-474f-4885-ac65-3b8adb6fb783",
-      "publishedAt": "2026-06-10T12:45:00Z",
-      "content": "Issued on behalf of Quantum Secure Encryption Corp.\r\nThe world spent the last decade racing to build quantum computers. It will spend the next one racing to survive them and the market for the defens\u2026 [+18044 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "SiliconANGLE News"
-      },
-      "author": "Duncan Riley",
-      "title": "Zscaler unveils ZAgent Framework to automate zero-trust SASE operations",
-      "description": "Zscaler Inc. today unveiled a major expansion of its zero-trust SASE platform, adding an agentic framework that lets administrators manage the system through natural-language prompts and extending its protection to unmanaged devices, business partners and mul\u2026",
-      "url": "https://siliconangle.com/2026/06/10/zscaler-unveils-zagent-framework-automate-zero-trust-sase-operations/",
-      "urlToImage": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2020/04/zscaler.png",
-      "publishedAt": "2026-06-10T12:05:37Z",
-      "content": "Zscaler Inc. today unveiled a major expansion of its zero-trust SASE platform, adding an agentic framework that lets administrators manage the system through natural-language prompts and extending it\u2026 [+5501 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "GlobeNewswire"
-      },
-      "author": "Zscaler, Inc.",
-      "title": "Zscaler Research Finds Cybercrime Economics Are Shifting as AI Trades Mass Volume for Lethal Precision",
-      "description": "While total phishing volume declined for the second year in a row, ThreatLabz identified 413,524 AI-generated site instances, underscoring how quickly adversaries can scale high-fidelity phishing While total phishing volume declined for the second year in a r\u2026",
-      "url": "https://www.globenewswire.com/news-release/2026/06/10/3309665/0/en/Zscaler-Research-Finds-Cybercrime-Economics-Are-Shifting-as-AI-Trades-Mass-Volume-for-Lethal-Precision.html",
-      "urlToImage": "https://ml.globenewswire.com/Resource/Download/bc212637-6ad5-43b1-9aa5-f998c8fe68ba",
-      "publishedAt": "2026-06-10T12:05:00Z",
-      "content": "News Highlights\u00a0\r\n<ul><li>Quality Over Quantity: Phishing volume fell 20% for the second year in a row as attackers recalibrate to high-fidelity, AI-accelerated lures.</li><li>Services Sector Surge: \u2026 [+6859 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "Nakedcapitalism.com"
-      },
-      "author": "Conor Gallagher",
-      "title": "A New Epstein Island in Albania? Jared Kushner and Ivanka Trump\u2019s Zionist-Mafia-Linked Bunker Resort",
-      "description": "A billionaire bunker in a notorious sex trafficking hub backed by Persian Gulf money, Zionists, Epstein pals, US spooks, and the mob. Does something smell fishy?",
-      "url": "https://www.nakedcapitalism.com/2026/06/a-new-epstein-island-in-albania-jared-kushner-and-ivanka-trumps-zionist-mafia-linked-bunker-resort.html",
-      "urlToImage": "https://www.nakedcapitalism.com/wp-content/uploads/2026/06/Screenshot-2026-06-09-at-7.15.11\u202fAM-1024x574.png",
-      "publishedAt": "2026-06-10T09:00:48Z",
-      "content": "Protests in Albania continued on Tuesday following last weeks news that Jared Kushner and Ivanka Trump were planning on developing the countrys largest island and surrounding area into whats being bi\u2026 [+12356 chars]"
-    },
-    {
-      "source": {
-        "id": null,
-        "name": "We Live Security"
-      },
-      "author": null,
-      "title": "SMB cyber-readiness: What makes or breaks it",
-      "description": "A company that's expecting a cyberattack but hasn\u2019t actively prepared for it risks making the hardest decisions at the worst possible moment",
-      "url": "https://www.welivesecurity.com/en/business-security/smb-cyber-readiness-what-makes-breaks-it/",
-      "urlToImage": "https://web-assets.esetstatic.com/wls/2026/06-26/smb-cyber-readiness.jpg",
-      "publishedAt": "2026-06-10T09:00:00Z",
-      "content": "\u201cFix the roof while the sun is shining.\u201d\r\n\u2013 proverb\r\nCybersecurity has a familiar way of saying the storm will come: \u201ca breach is a matter of when, not if.\u201d While the industry\u2019s sternest maxim has pr\u2026 [+8747 chars]"
+      "author": "Ana Maria Constantin",
+      "title": "Three labs, three breaches, one vendor. The AI hacking story was never about the models.",
+      "description": "Over roughly two weeks, three frontier labs disclosed that their models had reached the open internet during safety testing and compromised outside organisations.\u00a0Every disclosure named the same evaluation partner: Irregular, a company with offices in Israel \u2026",
+      "url": "https://thenextweb.com/news/irregular-ai-testing-vendor-openai-anthropic-meta-breaches",
+      "urlToImage": "https://media.thenextweb.com/2026/08/irregular-ai-testing-vendor-openai-anthropic-meta-breaches.jpg",
+      "publishedAt": "2026-08-09T13:42:35Z",
+      "content": "Over roughly two weeks, three frontier labs disclosed that their models had reached the open internet during safety testing and compromised outside organisations.\u00a0Every disclosure named the same eval\u2026 [+3922 chars]"
     },
     {
       "source": {
@@ -242,25 +21,246 @@
         "name": "Securityaffairs.com"
       },
       "author": "Pierluigi Paganini",
-      "title": "France\u2019s Government Messaging App Tchap Got Breached",
-      "description": "France\u2019s government chat app Tchap was breached after a single account was compromised, exposing messages and data from public channels. Tchap, the encrypted messaging platform developed by the French government for its civil servants and made mandatory last \u2026",
-      "url": "https://securityaffairs.com/193393/security/frances-government-messaging-app-tchap-got-breached.html",
-      "urlToImage": "https://securityaffairs.com/wp-content/uploads/2018/12/travel-alert-registry-france.jpg",
-      "publishedAt": "2026-06-10T08:14:15Z",
-      "content": "France\u2019s Government Messaging App Tchap Got Breached\r\nTchap, the encrypted messaging platform developed by the French government for its civil servants and made mandatory last year, was breached on J\u2026 [+4286 chars]"
+      "title": "Security Affairs newsletter Round 589 by Pierluigi Paganini \u2013 INTERNATIONAL EDITION",
+      "description": "A new round of the weekly Security Affairs newsletter has arrived! Every week, the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including international press. Palo Alto Ne\u2026",
+      "url": "https://securityaffairs.com/196911/security/security-affairs-newsletter-round-589-by-pierluigi-paganini-international-edition.html",
+      "urlToImage": "https://securityaffairs.com/wp-content/uploads/2015/03/newsletter.png",
+      "publishedAt": "2026-08-09T11:49:08Z",
+      "content": "Security Affairs newsletter Round 589 by Pierluigi Paganini INTERNATIONAL EDITION\r\nEnjoy a new round of the weekly SecurityAffairs newsletter, including international press.\r\n<table><tr><td>Palo Alto\u2026 [+6037 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Business Standard"
+      },
+      "author": "BS Web Team",
+      "title": "Block card, inform bank, reset passwords: What to do after financial fraud",
+      "description": "What to do after financial fraud: Call 1930 and file a complaint on the official cybercrime portal",
+      "url": "https://www.business-standard.com/finance/personal-finance/block-card-inform-bank-reset-passwords-what-to-do-after-financial-fraud-126080701338_1.html",
+      "urlToImage": "https://bsmedia.business-standard.com/_media/bs/img/article/2014-11/20/thumb/featurecrop/1200X628/1416499238-626.jpg",
+      "publishedAt": "2026-08-09T08:00:38Z",
+      "content": "Call 1930 and file a complaint on the official cybercrime portal\r\nFinancial Fraud Protection: Fraud doesnt always end with one attempt.\r\nBS Web TeamNew Delhi8 min read Last Updated : Aug 09 2026 | 1:\u2026 [+9222 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Help Net Security"
+      },
+      "author": "Anamarija Pogorelec",
+      "title": "Week in review: Cisco fixes IMC bug, Patch Tuesday forecast, Black Hat USA 2026",
+      "description": "Here\u2019s an overview of some of last week\u2019s most interesting news, articles, interviews and videos: Mapping the malware blast radius a single alert won\u2019t show you In this interview with Help Net Security, Mike Wiacek, founder and CTO of Stairwell, explains Back\u2026",
+      "url": "https://www.helpnetsecurity.com/2026/08/09/week-in-review-cisco-fixes-imc-bug-patch-tuesday-forecast-black-hat-usa-2026/",
+      "urlToImage": "https://img.helpnetsecurity.com/wp-content/uploads/2024/03/25124830/cybersecurity-week-review-1-1500.webp",
+      "publishedAt": "2026-08-09T08:00:30Z",
+      "content": "Heres an overview of some of last weeks most interesting news, articles, interviews and videos:\r\nMapping the malware blast radius a single alert wont show youIn this interview with Help Net Security,\u2026 [+18955 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Post"
+      },
+      "author": "Daniel Farr",
+      "title": "Chaos as California city declares state of emergency after hackers cripple 911 system",
+      "description": "A California city pulled the plug on its entire computer network after a cyberattack knocked out key systems, including 911 routing and police and fire dispatch.",
+      "url": "https://nypost.com/2026/08/08/us-news/cyberattack-knocks-out-california-citys-911-system/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2026/08/136877893.jpg?quality=75&strip=all&w=1200",
+      "publishedAt": "2026-08-09T02:59:59Z",
+      "content": "A California city pulled the plug on its entire computer network after a cyberattack knocked out key systems, including 911 routing and police and fire dispatch.\r\nSuisun City declared a state of emer\u2026 [+2282 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PCMag.com"
+      },
+      "author": "Kim Key",
+      "title": "AI Gone Rogue: The 5 Scariest Hacks and Smartest Defenses From Black Hat 2026",
+      "description": "From OpenAI's emergency warning to the US government backing unregulated AI, here are the most unbelievable things we saw on the front lines of cyber warfare at Black Hat this year.\nThis week, PCMag's security team touched down in the sweltering heat of Las V\u2026",
+      "url": "https://uk.pcmag.com/security/166626/ai-gone-rogue-the-5-scariest-hacks-and-smartest-defenses-from-black-hat-2026",
+      "urlToImage": "https://sm.pcmag.com/t/pcmag_uk/news/a/ai-gone-ro/ai-gone-rogue-the-5-scariest-hacks-and-smartest-defenses-fro_gf95.1200.jpg",
+      "publishedAt": "2026-08-08T18:00:00Z",
+      "content": "This week, PCMag's security team touched down in the sweltering heat of Las Vegas to join thousands of hackers, researchers, and enterprise defenders at Black Hat. Walking the show floor, one topic d\u2026 [+4753 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Daily Caller"
+      },
+      "author": "Sean Moran",
+      "title": "These AI Models Can\u2019t Stop Breaking Out Of Their Cages",
+      "description": "Leading artificial intelligence (AI) models continue to break containment during safety testing.",
+      "url": "https://dailycaller.com/2026/08/08/ai-models-breaking-containment-safety-training-meta-anthropic-openai",
+      "urlToImage": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https://cdn01.dailycaller.com/wp-content/uploads/2026/08/AI%20Robot%207x3%20Getty",
+      "publishedAt": "2026-08-08T16:23:43Z",
+      "content": "Multiple leading artificial intelligence (AI) models continue to break containment during safety testing. \r\nMeta became the third major AI company whose models have gone rogue. Its AI hacked into ano\u2026 [+5481 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Freerepublic.com"
+      },
+      "author": "American Thinker",
+      "title": "Four Prosecutors Refused To Pursue Hacker Behind 2020 Breach Of 633K Arizona Voters",
+      "description": "After a hacker exfiltrated the data of 633,000 Maricopa County, Arizona, voter records in 2020, zero prosecutors at any level of government would prosecute despite urging from the FBI. Documents released Thursday morning by the White House Government Transpar\u2026",
+      "url": "https://freerepublic.com/focus/f-chat/4391084/posts",
+      "urlToImage": null,
+      "publishedAt": "2026-08-08T13:00:32Z",
+      "content": "Skip to comments.\r\nFour Prosecutors Refused To Pursue Hacker Behind 2020 Breach Of 633K Arizona VotersAmerican Thinker ^\r\n | 6 Aug, 2026\r\n | Breccan F. Thies\r\nPosted on 08/08/2026 6:00:32 AM PDT by M\u2026 [+4647 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Samantha Subin",
+      "title": "Hugging Face hack marks start of dangerous AI cyber era and many firms 'don't even know it'",
+      "description": "The Black Hat cybersecurity conference in Las Vegas couldn't have come at a better time, with AI agent hacks stacking up from Anthropic, Meta and OpenAI.",
+      "url": "https://www.cnbc.com/2026/08/08/hugging-face-ai-hack-cybersecurity-black-hat.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/108346935-1786143490931-gettyimages-2219339316-AA_14062025_2286644.jpeg?v=1786143564&w=1920&h=1080",
+      "publishedAt": "2026-08-08T12:00:01Z",
+      "content": "Cybersecurity executives are ready to close the book on the now-infamous Hugging Faceartificial intelligence hacking incident and start talking solutions.\r\n\"We need to chill the hype a little bit,\" s\u2026 [+7397 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Alina Maria Stan",
+      "title": "American models broke into Hugging Face. A Chinese model was used to investigate.",
+      "description": "Hugging Face chief executive Cl\u00e9ment Delangue\u00a0told CNBC that China is winning the AI race, with Chinese-developed models accounting for 41% of downloads on his platform over the past year, the largest share of any single country. China has now surpassed the U\u2026",
+      "url": "https://thenextweb.com/news/hugging-face-delangue-china-open-models-winning",
+      "urlToImage": "https://media.thenextweb.com/2026/08/hugging-face-delangue-china-open-models-winnin.jpg",
+      "publishedAt": "2026-08-08T11:39:25Z",
+      "content": "Hugging Face chief executive Cl\u00e9ment Delangue\u00a0told CNBC that China is winning the AI race, with Chinese-developed models accounting for 41% of downloads on his platform over the past year, the larges\u2026 [+7289 chars]"
+    },
+    {
+      "source": {
+        "id": "techradar",
+        "name": "TechRadar"
+      },
+      "author": "benedict.collins@futurenet.com (Benedict Collins) , Benedict Collins",
+      "title": "Why are so many AI models going 'rogue'? The experts weigh in",
+      "description": "AI models are breaking free of testing at unprecedented rates",
+      "url": "https://www.techradar.com/pro/security/why-are-so-many-ai-models-going-rogue-the-experts-weigh-in",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/PAztEScphfxGJfYno5NjrL-2560-80.jpg",
+      "publishedAt": "2026-08-08T10:25:00Z",
+      "content": "Over the past month, it seems like every frontier model has broken free of its constraints and launched a devastating attack against one or more other companies.\r\nOne of OpenAI\u2019s models escaped a tes\u2026 [+8840 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Venturesquare.net"
+      },
+      "author": "\uba85\uc2b9\uc740",
+      "title": "\uc778\ud130\ub137 \ud5c8\uc6a9\ub41c \u2018\ubbf8\ud1a0\uc2a4 5\u2019, \uc124\uc815 \uc624\ub958 \ucc3e\uc740 \u2018\ud0a4\ubbf8 K3\u2019\u2026AI \uc5d0\uc774\uc804\ud2b8 \ud1b5\uc81c \uacbd\uace0",
+      "description": "\uc601\uad6d AISI\uc758 \uc2dc\ud5d8\uc5d0\uc11c \ud074\ub85c\ub4dc \ubbf8\ud1a0\uc2a4 5\uac00 \uac00\uc9dc \uae43\ud5c8\ube0c \uacc4\uc815\uacfc \uc0ac\ud68c\uacf5\ud559\uc744 \ub3d9\uc6d0\ud574 \uc2e4\uc81c \uac1c\ubc1c\uc790\uc5d0\uac8c \uc545\uc131 \ucf54\ub4dc\ub97c \uc2b9\uc778\ubc1b\uc73c\ub824 \ud55c \uc0ac\uc2e4\uc774 \uacf5\uac1c\ub410\ub2e4. \ubcc4\ub3c4 \uc2dc\ud5d8\uc5d0\uc11c\ub294 \uc911\uad6d \ubb38\uc0f7AI\uc758 \ud0a4\ubbf8 K3\uac00 \uc798\ubabb \uad6c\uc131\ub41c \uc0cc\ub4dc\ubc15\uc2a4\uc758 \ud2c8\uc744 \ucc3e\uc544 \uc778\ud130\ub137\uc5d0\uc11c \uacfc\uc81c \ub2f5\uc744 \uad6c\ud55c \uac83\uc73c\ub85c WIRED\uac00 \ubcf4\ub3c4\ud588\ub2e4. \ub450 \uc0ac\uac74\uc758 \uc870\uac74\uacfc \ud53c\ud574 \uc218\uc900\uc740 \ub2e4\ub974\uc9c0\ub9cc, \uae30\uc5c5\uc5d0\ub294 \ud504\ub86c\ud504\ud2b8\uac00 \uc544\ub2cc \ub124\ud2b8\uc6cc\ud06c\u00b7\uad8c\ud55c\u00b7\uac10\uc2dc\u00b7\uc0ac\ub78c \uc2b9\uc778\uc73c\ub85c \uc5d0\uc774\uc804\ud2b8\uc758 \ud589\ub3d9 \uacbd\uacc4\ub97c \uac15\uc81c\ud574\uc57c \ud55c\ub2e4\ub294 \uacf5\ud1b5 \uacfc\uc81c\uac00 \ub0a8\uc558\ub2e4.",
+      "url": "https://www.venturesquare.net/1104579/",
+      "urlToImage": "https://www.venturesquare.net/wp-content/uploads/2026/08/ai-agent-containment-thumbnail-640x360-1.jpg",
+      "publishedAt": "2026-08-08T08:55:19Z",
+      "content": "<ul><li> AISI 5 .</li><li> AI K3 WIRED .</li><li> , \u00b7\u00b7\u00b7 .</li></ul>\r\n AISI 5 .: AI \r\nGPT (jailbreak) (Hugging Face) . , AI .\r\n AI . , .\r\n AI(AI Security Institute\u00b7AISI) 5(Claude Mythos 5) . AI(Moonsh\u2026 [+17575 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Securityaffairs.com"
+      },
+      "author": "Pierluigi Paganini",
+      "title": "Unlimited Technology Systems Data Breach Exposes Data of 3.8 Million Healthcare Patients",
+      "description": "Hackers stole personal, medical, and insurance data of 3.8 million people from Unlimited Technology Systems\u2019 data center. Unlimited Technology Systems disclosed a data breach affecting more than 3.8 million people after hackers accessed one of its commercial \u2026",
+      "url": "https://securityaffairs.com/196843/data-breach/unlimited-technology-systems-data-breach-exposes-data-of-3-8-million-healthcare-patients.html",
+      "urlToImage": "https://securityaffairs.com/wp-content/uploads/2026/08/image-17.png",
+      "publishedAt": "2026-08-08T07:25:10Z",
+      "content": "Unlimited Technology Systems Data Breach Exposes Data of 3.8 Million Healthcare Patients\r\nUnlimited Technology Systems disclosed a data breach affecting more than 3.8 million people after hackers acc\u2026 [+2351 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Naturalnews.com"
+      },
+      "author": "Chase Codewell",
+      "title": "Meta says its AI hacked another company during testing",
+      "description": "Meta reports Muse Spark 1.1 breach during third-party testing Meta said Wednesday that Muse Spark 1.1, an AI model marketed as \u201csuperintelligent,\u201d exploited a security vulnerability in systems operated by cybersecurity firm Irregular, accessed the open intern\u2026",
+      "url": "https://www.naturalnews.com/2026-08-08-meta-says-its-ai-hacked-another-company-testing.html",
+      "urlToImage": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/08/ai-security-meta-ai-muse-spark-11-3219-original.jpg",
+      "publishedAt": "2026-08-08T06:00:00Z",
+      "content": "Meta reports Muse Spark 1.1 breach during third-party testing\r\nMeta said Wednesday that Muse Spark 1.1, an AI model marketed as \"superintelligent,\" exploited a security vulnerability in systems opera\u2026 [+6662 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Digital Journal"
+      },
+      "author": "Paul Wallis",
+      "title": "Op-Ed: Are \u2018Common Vulnerabilities and Exposures\u2019 the reality of chronic cyber insecurity?",
+      "description": "Bottom lines can\u2019t be ignored. Nor can CVEs. \u00a0\nThe post Op-Ed: Are \u2018Common Vulnerabilities and Exposures\u2019 the reality of chronic cyber insecurity? appeared first on Digital Journal.",
+      "url": "https://www.digitaljournal.com/article/op-ed-are-common-vulnerabilities-and-exposures-the-reality-of-chronic-cyber-insecurity/",
+      "urlToImage": "https://www.digitaljournal.com/wp-content/uploads/2026/04/e2c272bbe87510fd7b3adb56b8df266525976092-1.jpg",
+      "publishedAt": "2026-08-08T02:23:53Z",
+      "content": "Common Vulnerabilities and Exposures (CVEs) are exactly that. Theyre endemic problems for cybersecurity. Lists of known CVEs are generated in an ongoing litany of risks for systems of all kinds.\r\nThi\u2026 [+4375 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forkast.news"
+      },
+      "author": "Lena Park",
+      "title": "OpenAI Pauses Astra at \u2018Critical\u2019 Cyber Threshold \u2014 First Frontier Model to Trigger Highest Preparedness Framework Level",
+      "description": "OpenAI has officially crossed a threshold that industry observers have long anticipated but hoped to avoid, marking its upcoming model, Astra, with the first public Critical flag under its internal Preparedness Framework. This designation represents a signifi\u2026",
+      "url": "https://forkast.news/openai-pauses-astra-at-critical-cyber-threshold-first-frontier-model-to-trigger-highest-preparedness-framework-level/",
+      "urlToImage": "https://forkast.news/wp-content/uploads/2026/08/forkast-128859-1024x572.jpg",
+      "publishedAt": "2026-08-08T00:44:36Z",
+      "content": "OpenAI has officially crossed a threshold that industry observers have long anticipated but hoped to avoid, marking its upcoming model, Astra, with the first public Critical flag under its internal P\u2026 [+3992 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Boing Boing"
+      },
+      "author": "Boing Boing's Shop",
+      "title": "This $100 subscription helps protect against identity theft and financial fraud",
+      "description": "TL;DR: If you regularly bank, shop, and manage your finances online, this discounted\u00a015-month subscription offers an affordable way to monitor your identity and respond quickly if fraud occurs\u2014grab it now for just $99.99 (reg. $187.35).\nWith\u00a0LifeLock Core Ide\u2026",
+      "url": "https://boingboing.net/2026/08/07/this-100-subscription-helps-protect-against-identity-theft-and-financial-fraud.html",
+      "urlToImage": "https://i0.wp.com/boingboing.net/wp-content/uploads/2026/08/LifeLock-Core-Identity-Theft-Protection.jpg?fit=1260%2C946&quality=60&ssl=1",
+      "publishedAt": "2026-08-07T21:00:00Z",
+      "content": "Disclosure: Boing Boing earns a commission on purchases made through links in this post.\r\nTL;DR: If you regularly bank, shop, and manage your finances online, this discounted\u00a015-month subscription of\u2026 [+2365 chars]"
     },
     {
       "source": {
         "id": null,
         "name": "BleepingComputer"
       },
-      "author": "Sergiu Gatlan",
-      "title": "Ivanti: Max severity Sentry flaw allows code execution as root",
-      "description": "Ivanti has patched two critical vulnerabilities in its Sentry secure mobile gateway solution, including a maximum-severity flaw that enables remote attackers to execute code with root privileges. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/",
-      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2026/06/10/Ivanti.jpg",
-      "publishedAt": "2026-06-10T06:26:28Z",
-      "content": "Security software company Ivanti has released patches to address two critical vulnerabilities in its Sentry secure mobile gateway solution, including a maximum-severity flaw that enables remote attac\u2026 [+2622 chars]"
+      "author": "Mayank Parmar",
+      "title": "Metabase SQLi zero-day exploited in customer data-theft attacks",
+      "description": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/framework-tally-disclose-metabase-data-theft-attacks/",
+      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2026/08/07/metabase-header.jpg",
+      "publishedAt": "2026-08-07T20:14:46Z",
+      "content": "A critical Metabase SQL injection vulnerability was exploited in zero-day attacks to breach customer instances in data theft attacks, known to impact Framework and Tally.\r\nMetabase disclosed the atta\u2026 [+5260 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "4sysops.com"
+      },
+      "author": "IT News",
+      "title": "OpenAI pauses Astra after model nears \u201ccritical\u201d cyber capability threshold",
+      "description": "OpenAI has paused internal work on its upcoming Astra model after evaluations found that it may possess \u201ccritical\u201d cybersecurity capabilities. The company is expanding testing, tightening security controls, and slowing development until Astra meets the safegu\u2026",
+      "url": "https://4sysops.com/archives/openai-pauses-astra-after-model-nears-critical-cyber-capability-threshold/",
+      "urlToImage": "https://4sysops.com/wp-content/uploads/2026/08/openai-pauses-astra-after-model-nears-critical-cyber-capability-threshold.jpg",
+      "publishedAt": "2026-08-07T19:38:46Z",
+      "content": "Astra may cross OpenAIs highest cyber-risk threshold\r\nOpenAI said it cannot rule out that Astra has reached the critical cybersecurity level defined by its Preparedness Framework. That threshold cove\u2026 [+1368 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "BleepingComputer"
+      },
+      "author": "Bill Toulas",
+      "title": "Unlimited Technology Systems breach impacts 3.8 million people",
+      "description": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025. [...]",
+      "url": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/",
+      "urlToImage": "https://www.bleepstatic.com/content/hl-images/2024/01/03/healthcare.jpg",
+      "publishedAt": "2026-08-07T19:30:41Z",
+      "content": "Healthcare software company Unlimited Technology Systems reported that more than 3.8 million people were impacted by a data breach incident that occurred in October 2025.\r\nThe organization submitted \u2026 [+2846 chars]"
     }
   ]
 }

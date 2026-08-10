@@ -1,134 +1,62 @@
 [
   {
     "state": "TN",
-    "period": "2026-04",
-    "price_cents_kwh": 14.94,
+    "period": "2026-05",
+    "price_cents_kwh": 14.47,
     "sector": "residential"
   },
   {
     "state": "MO",
-    "period": "2026-04",
-    "price_cents_kwh": 14.01,
+    "period": "2026-05",
+    "price_cents_kwh": 13.68,
     "sector": "residential"
   },
   {
     "state": "GA",
-    "period": "2026-04",
-    "price_cents_kwh": 15.37,
+    "period": "2026-05",
+    "price_cents_kwh": 15.84,
     "sector": "residential"
   },
   {
     "state": "TX",
-    "period": "2026-04",
-    "price_cents_kwh": 16.99,
+    "period": "2026-05",
+    "price_cents_kwh": 16.44,
     "sector": "residential"
   },
   {
     "state": "CA",
-    "period": "2026-04",
-    "price_cents_kwh": 35.25,
+    "period": "2026-05",
+    "price_cents_kwh": 33.25,
     "sector": "residential"
   },
   {
     "state": "NY",
-    "period": "2026-04",
-    "price_cents_kwh": 29.45,
+    "period": "2026-05",
+    "price_cents_kwh": 29.93,
     "sector": "residential"
   },
   {
     "state": "IL",
-    "period": "2026-04",
-    "price_cents_kwh": 20.47,
+    "period": "2026-05",
+    "price_cents_kwh": 23.85,
     "sector": "residential"
   },
   {
     "state": "WA",
-    "period": "2026-04",
-    "price_cents_kwh": 14.36,
+    "period": "2026-05",
+    "price_cents_kwh": 14.95,
     "sector": "residential"
   },
   {
     "state": "FL",
-    "period": "2026-04",
-    "price_cents_kwh": 15.38,
+    "period": "2026-05",
+    "price_cents_kwh": 15.17,
     "sector": "residential"
   },
   {
     "state": "AZ",
-    "period": "2026-04",
-    "price_cents_kwh": 15.48,
+    "period": "2026-05",
+    "price_cents_kwh": 15.23,
     "sector": "residential"
-  },
-  {
-    "state": "PA",
-    "period": "2026-04",
-    "price_cents_kwh": 21.47,
-    "sector": "residential"
-  },
-  {
-    "state": "MI",
-    "period": "2026-04",
-    "price_cents_kwh": 21.39,
-    "sector": "residential"
-  },
-  {
-    "state": "LA",
-    "period": "2026-04",
-    "price_cents_kwh": 14.44,
-    "sector": "residential"
-  },
-  {
-    "state": "OH",
-    "period": "2026-04",
-    "price_cents_kwh": 19.49,
-    "sector": "residential"
-  },
-  {
-    "state": "TN",
-    "period": "2026-04",
-    "price_cents_kwh": 6.95,
-    "sector": "industrial"
-  },
-  {
-    "state": "MO",
-    "period": "2026-04",
-    "price_cents_kwh": 8.28,
-    "sector": "industrial"
-  },
-  {
-    "state": "GA",
-    "period": "2026-04",
-    "price_cents_kwh": 6.84,
-    "sector": "industrial"
-  },
-  {
-    "state": "TX",
-    "period": "2026-04",
-    "price_cents_kwh": 6.33,
-    "sector": "industrial"
-  },
-  {
-    "state": "CA",
-    "period": "2026-04",
-    "price_cents_kwh": 19.87,
-    "sector": "industrial"
-  },
-  {
-    "state": "NY",
-    "period": "2026-04",
-    "price_cents_kwh": 8.62,
-    "sector": "industrial"
-  },
-  {
-    "state": "IL",
-    "period": "2026-04",
-    "price_cents_kwh": 9.74,
-    "sector": "industrial"
-  },
-  {
-    "state": "WA",
-    "period": "2026-04",
-    "price_cents_kwh": 7.01,
-    "sector": "industrial"
   }
 ]

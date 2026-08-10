@@ -2,15 +2,15 @@
   "links": [
     {
       "rel": "first",
-      "href": "/v1/geo/cities?offset=0&limit=10&countryIds=CN&minPopulation=5000000&sort=-population"
+      "href": "/v1/geo/cities?offset=0&limit=10&minPopulation=5000000&countryIds=CN&sort=-population"
     },
     {
       "rel": "next",
-      "href": "/v1/geo/cities?offset=10&limit=10&countryIds=CN&minPopulation=5000000&sort=-population"
+      "href": "/v1/geo/cities?offset=10&limit=10&minPopulation=5000000&countryIds=CN&sort=-population"
     },
     {
       "rel": "last",
-      "href": "/v1/geo/cities?offset=90&limit=10&countryIds=CN&minPopulation=5000000&sort=-population"
+      "href": "/v1/geo/cities?offset=90&limit=10&minPopulation=5000000&countryIds=CN&sort=-population"
     }
   ],
   "data": [

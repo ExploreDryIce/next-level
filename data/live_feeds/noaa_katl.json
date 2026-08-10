@@ -45,7 +45,7 @@
   "type": "FeatureCollection",
   "features": [
     {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:35:00+00:00",
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T14:05:00+00:00",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -55,7 +55,7 @@
         ]
       },
       "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:35:00+00:00",
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T14:05:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
           "unitCode": "wmoUnit:m",
@@ -64,14 +64,14 @@
         "station": "https://api.weather.gov/stations/KATL",
         "stationId": "KATL",
         "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T02:35:00+00:00",
+        "timestamp": "2026-08-10T14:05:00+00:00",
         "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
         "presentWeather": [],
         "temperature": {
           "unitCode": "wmoUnit:degC",
-          "value": 30,
+          "value": 29,
           "qualityControl": "V"
         },
         "dewpoint": {
@@ -81,12 +81,12 @@
         },
         "windDirection": {
           "unitCode": "wmoUnit:degree_(angle)",
-          "value": 0,
+          "value": 240,
           "qualityControl": "V"
         },
         "windSpeed": {
           "unitCode": "wmoUnit:km_h-1",
-          "value": 0,
+          "value": 12.96,
           "qualityControl": "V"
         },
         "windGust": {
@@ -96,7 +96,7 @@
         },
         "barometricPressure": {
           "unitCode": "wmoUnit:Pa",
-          "value": 101998.03,
+          "value": 102302.8,
           "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -124,7 +124,7 @@
         },
         "relativeHumidity": {
           "unitCode": "wmoUnit:percent",
-          "value": 66.179964877284,
+          "value": 70.108741837117,
           "qualityControl": "V"
         },
         "windChill": {
@@ -134,22 +134,22 @@
         },
         "heatIndex": {
           "unitCode": "wmoUnit:degC",
-          "value": 34.14538911634833,
+          "value": 32.747452877489444,
           "qualityControl": "V"
         },
         "cloudLayers": [
           {
             "base": {
               "unitCode": "wmoUnit:m",
-              "value": 3810
+              "value": 609.6
             },
-            "amount": "CLR"
+            "amount": "FEW"
           }
         ]
       }
     },
     {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:30:00+00:00",
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T14:00:00+00:00",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -159,7 +159,7 @@
         ]
       },
       "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:30:00+00:00",
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T14:00:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
           "unitCode": "wmoUnit:m",
@@ -168,326 +168,14 @@
         "station": "https://api.weather.gov/stations/KATL",
         "stationId": "KATL",
         "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T02:30:00+00:00",
+        "timestamp": "2026-08-10T14:00:00+00:00",
         "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
         "presentWeather": [],
         "temperature": {
           "unitCode": "wmoUnit:degC",
-          "value": 30,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 23,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 0,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 0,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101998.03,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 66.179964877284,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 34.14538911634833,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 3810
-            },
-            "amount": "CLR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:25:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:25:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T02:25:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 30,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 23,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 0,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 0,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101998.03,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 66.179964877284,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 34.14538911634833,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 3810
-            },
-            "amount": "CLR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:20:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:20:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T02:20:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 30,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 23,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 0,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 0,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101998.03,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 66.179964877284,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 34.14538911634833,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 3810
-            },
-            "amount": "CLR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:15:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:15:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T02:15:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31,
+          "value": 29,
           "qualityControl": "V"
         },
         "dewpoint": {
@@ -502,7 +190,7 @@
         },
         "windSpeed": {
           "unitCode": "wmoUnit:km_h-1",
-          "value": 5.544,
+          "value": 12.96,
           "qualityControl": "V"
         },
         "windGust": {
@@ -512,7 +200,7 @@
         },
         "barometricPressure": {
           "unitCode": "wmoUnit:Pa",
-          "value": 101998.03,
+          "value": 102302.8,
           "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -540,7 +228,7 @@
         },
         "relativeHumidity": {
           "unitCode": "wmoUnit:percent",
-          "value": 62.497648839725,
+          "value": 70.108741837117,
           "qualityControl": "V"
         },
         "windChill": {
@@ -550,22 +238,22 @@
         },
         "heatIndex": {
           "unitCode": "wmoUnit:degC",
-          "value": 35.48413286559167,
+          "value": 32.747452877489444,
           "qualityControl": "V"
         },
         "cloudLayers": [
           {
             "base": {
               "unitCode": "wmoUnit:m",
-              "value": 3810
+              "value": 609.6
             },
-            "amount": "CLR"
+            "amount": "FEW"
           }
         ]
       }
     },
     {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:10:00+00:00",
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:55:00+00:00",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -575,7 +263,7 @@
         ]
       },
       "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:10:00+00:00",
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:55:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
           "unitCode": "wmoUnit:m",
@@ -584,14 +272,14 @@
         "station": "https://api.weather.gov/stations/KATL",
         "stationId": "KATL",
         "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T02:10:00+00:00",
+        "timestamp": "2026-08-10T13:55:00+00:00",
         "rawMessage": "",
         "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
         "presentWeather": [],
         "temperature": {
           "unitCode": "wmoUnit:degC",
-          "value": 31,
+          "value": 29,
           "qualityControl": "V"
         },
         "dewpoint": {
@@ -601,12 +289,12 @@
         },
         "windDirection": {
           "unitCode": "wmoUnit:degree_(angle)",
-          "value": 0,
+          "value": 240,
           "qualityControl": "V"
         },
         "windSpeed": {
           "unitCode": "wmoUnit:km_h-1",
-          "value": 0,
+          "value": 12.96,
           "qualityControl": "V"
         },
         "windGust": {
@@ -616,7 +304,7 @@
         },
         "barometricPressure": {
           "unitCode": "wmoUnit:Pa",
-          "value": 101998.03,
+          "value": 102302.8,
           "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -644,7 +332,7 @@
         },
         "relativeHumidity": {
           "unitCode": "wmoUnit:percent",
-          "value": 62.497648839725,
+          "value": 70.108741837117,
           "qualityControl": "V"
         },
         "windChill": {
@@ -654,7 +342,7 @@
         },
         "heatIndex": {
           "unitCode": "wmoUnit:degC",
-          "value": 35.48413286559167,
+          "value": 32.747452877489444,
           "qualityControl": "V"
         },
         "cloudLayers": [
@@ -669,7 +357,7 @@
       }
     },
     {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:05:00+00:00",
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:52:00+00:00",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -679,7 +367,7 @@
         ]
       },
       "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:05:00+00:00",
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:52:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
           "unitCode": "wmoUnit:m",
@@ -688,29 +376,29 @@
         "station": "https://api.weather.gov/stations/KATL",
         "stationId": "KATL",
         "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T02:05:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
+        "timestamp": "2026-08-10T13:52:00+00:00",
+        "rawMessage": "KATL 101352Z 23005KT 10SM FEW016 SCT140 BKN200 BKN250 29/23 A3021 RMK AO2 SLP218 T02890228 $",
+        "textDescription": "Mostly Cloudy",
+        "icon": "https://api.weather.gov/icons/land/day/bkn?size=medium",
         "presentWeather": [],
         "temperature": {
           "unitCode": "wmoUnit:degC",
-          "value": 31,
+          "value": 28.9,
           "qualityControl": "V"
         },
         "dewpoint": {
           "unitCode": "wmoUnit:degC",
-          "value": 23,
+          "value": 22.8,
           "qualityControl": "V"
         },
         "windDirection": {
           "unitCode": "wmoUnit:degree_(angle)",
-          "value": 0,
+          "value": 230,
           "qualityControl": "V"
         },
         "windSpeed": {
           "unitCode": "wmoUnit:km_h-1",
-          "value": 0,
+          "value": 9.36,
           "qualityControl": "V"
         },
         "windGust": {
@@ -720,324 +408,12 @@
         },
         "barometricPressure": {
           "unitCode": "wmoUnit:Pa",
-          "value": 101998.03,
+          "value": 102300,
           "qualityControl": "V"
         },
         "seaLevelPressure": {
           "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 62.497648839725,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 35.48413286559167,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 3810
-            },
-            "amount": "CLR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:00:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T02:00:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T02:00:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 24,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 200,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 5.544,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101964.16,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 66.381888793879,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 36.542062604902775,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 3810
-            },
-            "amount": "CLR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:55:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:55:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T01:55:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 24,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 0,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 0,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101964.16,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 66.381888793879,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 36.542062604902775,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 3810
-            },
-            "amount": "CLR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:52:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:52:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T01:52:00+00:00",
-        "rawMessage": "KATL 010152Z 19003KT 10SM FEW050 SCT250 31/24 A3011 RMK AO2 SLP183 CB DSNT W-NW T03060239 $",
-        "textDescription": "Partly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 30.6,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 23.9,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 190,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 5.4,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101970,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101830,
+          "value": 102180,
           "qualityControl": "V"
         },
         "visibility": {
@@ -1070,7 +446,7 @@
         },
         "relativeHumidity": {
           "unitCode": "wmoUnit:percent",
-          "value": 67.509233391141,
+          "value": 69.66682889015,
           "qualityControl": "V"
         },
         "windChill": {
@@ -1080,1405 +456,43 @@
         },
         "heatIndex": {
           "unitCode": "wmoUnit:degC",
-          "value": 35.868991103132224,
+          "value": 32.45016276071278,
           "qualityControl": "V"
         },
         "cloudLayers": [
           {
             "base": {
               "unitCode": "wmoUnit:m",
-              "value": 1520
+              "value": 490
             },
             "amount": "FEW"
           },
           {
             "base": {
               "unitCode": "wmoUnit:m",
-              "value": 7620
+              "value": 4270
             },
             "amount": "SCT"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:50:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:50:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T01:50:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Mostly Clear",
-        "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 24,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 190,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 5.544,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 29.628,
-          "qualityControl": "C"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101964.16,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 66.381888793879,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 36.542062604902775,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 1524
-            },
-            "amount": "FEW"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:45:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:45:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T01:45:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 24,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 200,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 5.544,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101964.16,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 66.381888793879,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 36.542062604902775,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 3810
-            },
-            "amount": "CLR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:40:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:40:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T01:40:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 24,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 220,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 5.544,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101930.3,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 66.381888793879,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 36.542062604902775,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 3810
-            },
-            "amount": "CLR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:35:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:35:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T01:35:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 24,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 210,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 5.544,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101930.3,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 66.381888793879,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 36.542062604902775,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 3810
-            },
-            "amount": "CLR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:30:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:30:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T01:30:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 24,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 220,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 7.416,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101930.3,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 66.381888793879,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 36.542062604902775,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 3810
-            },
-            "amount": "CLR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:25:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:25:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T01:25:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 24,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 220,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 5.544,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101930.3,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 66.381888793879,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 36.542062604902775,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 3810
-            },
-            "amount": "CLR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:20:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:20:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T01:20:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 24,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 210,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 7.416,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101930.3,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 66.381888793879,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 36.542062604902775,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 3810
-            },
-            "amount": "CLR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:15:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:15:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T01:15:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 23,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 190,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 7.416,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101896.44,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 62.497648839725,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 35.48413286559167,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 3810
-            },
-            "amount": "CLR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:10:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:10:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T01:10:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Clear",
-        "icon": "https://api.weather.gov/icons/land/night/skc?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 23,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 190,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 7.416,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101896.44,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 62.497648839725,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 35.48413286559167,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 3810
-            },
-            "amount": "CLR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:05:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:05:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T01:05:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Mostly Clear",
-        "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 23,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 200,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 7.416,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101930.3,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 62.497648839725,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 35.48413286559167,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 1676.4
-            },
-            "amount": "FEW"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:00:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T01:00:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T01:00:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Mostly Clear",
-        "icon": "https://api.weather.gov/icons/land/night/few?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 23,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 200,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 7.416,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101896.44,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 62.497648839725,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 35.48413286559167,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 1676.4
-            },
-            "amount": "FEW"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T00:55:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T00:55:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T00:55:00+00:00",
-        "rawMessage": "",
-        "textDescription": "Partly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 24,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 210,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 7.416,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101896.44,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16093.44,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 66.381888793879,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 36.542062604902775,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 1676.4
-            },
-            "amount": "SCT"
-          }
-        ]
-      }
-    },
-    {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T00:52:00+00:00",
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -84.42,
-          33.65
-        ]
-      },
-      "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T00:52:00+00:00",
-        "@type": "wx:ObservationStation",
-        "elevation": {
-          "unitCode": "wmoUnit:m",
-          "value": 315
-        },
-        "station": "https://api.weather.gov/stations/KATL",
-        "stationId": "KATL",
-        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T00:52:00+00:00",
-        "rawMessage": "KATL 010052Z 21004KT 10SM FEW050 FEW200 SCT250 31/24 A3009 RMK AO2 SLP177 OCNL LTGIC DSNT NW CB DSNT NW T03110239 $",
-        "textDescription": "Partly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
-        "presentWeather": [],
-        "temperature": {
-          "unitCode": "wmoUnit:degC",
-          "value": 31.1,
-          "qualityControl": "V"
-        },
-        "dewpoint": {
-          "unitCode": "wmoUnit:degC",
-          "value": 23.9,
-          "qualityControl": "V"
-        },
-        "windDirection": {
-          "unitCode": "wmoUnit:degree_(angle)",
-          "value": 210,
-          "qualityControl": "V"
-        },
-        "windSpeed": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": 7.56,
-          "qualityControl": "V"
-        },
-        "windGust": {
-          "unitCode": "wmoUnit:km_h-1",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "barometricPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101900,
-          "qualityControl": "V"
-        },
-        "seaLevelPressure": {
-          "unitCode": "wmoUnit:Pa",
-          "value": 101770,
-          "qualityControl": "V"
-        },
-        "visibility": {
-          "unitCode": "wmoUnit:m",
-          "value": 16090,
-          "qualityControl": "C"
-        },
-        "maxTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "minTemperatureLast24Hours": {
-          "unitCode": "wmoUnit:degC",
-          "value": null
-        },
-        "precipitationLastHour": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "precipitationLast3Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "precipitationLast6Hours": {
-          "unitCode": "wmoUnit:mm",
-          "value": null,
-          "qualityControl": "Z"
-        },
-        "relativeHumidity": {
-          "unitCode": "wmoUnit:percent",
-          "value": 65.609017254783,
-          "qualityControl": "V"
-        },
-        "windChill": {
-          "unitCode": "wmoUnit:degC",
-          "value": null,
-          "qualityControl": "V"
-        },
-        "heatIndex": {
-          "unitCode": "wmoUnit:degC",
-          "value": 36.56896396758833,
-          "qualityControl": "V"
-        },
-        "cloudLayers": [
-          {
-            "base": {
-              "unitCode": "wmoUnit:m",
-              "value": 1520
-            },
-            "amount": "FEW"
           },
           {
             "base": {
               "unitCode": "wmoUnit:m",
               "value": 6100
             },
-            "amount": "FEW"
+            "amount": "BKN"
           },
           {
             "base": {
               "unitCode": "wmoUnit:m",
               "value": 7620
             },
-            "amount": "SCT"
+            "amount": "BKN"
           }
         ]
       }
     },
     {
-      "id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T00:50:00+00:00",
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:50:00+00:00",
       "type": "Feature",
       "geometry": {
         "type": "Point",
@@ -2488,7 +502,7 @@
         ]
       },
       "properties": {
-        "@id": "https://api.weather.gov/stations/KATL/observations/2026-07-01T00:50:00+00:00",
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:50:00+00:00",
         "@type": "wx:ObservationStation",
         "elevation": {
           "unitCode": "wmoUnit:m",
@@ -2497,14 +511,14 @@
         "station": "https://api.weather.gov/stations/KATL",
         "stationId": "KATL",
         "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
-        "timestamp": "2026-07-01T00:50:00+00:00",
+        "timestamp": "2026-08-10T13:50:00+00:00",
         "rawMessage": "",
-        "textDescription": "Partly Cloudy",
-        "icon": "https://api.weather.gov/icons/land/night/sct?size=medium",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
         "presentWeather": [],
         "temperature": {
           "unitCode": "wmoUnit:degC",
-          "value": 32,
+          "value": 28,
           "qualityControl": "V"
         },
         "dewpoint": {
@@ -2514,12 +528,12 @@
         },
         "windDirection": {
           "unitCode": "wmoUnit:degree_(angle)",
-          "value": 210,
+          "value": 230,
           "qualityControl": "V"
         },
         "windSpeed": {
           "unitCode": "wmoUnit:km_h-1",
-          "value": 7.416,
+          "value": 9.252,
           "qualityControl": "V"
         },
         "windGust": {
@@ -2529,7 +543,7 @@
         },
         "barometricPressure": {
           "unitCode": "wmoUnit:Pa",
-          "value": 101896.44,
+          "value": 102302.8,
           "qualityControl": "V"
         },
         "seaLevelPressure": {
@@ -2557,7 +571,7 @@
         },
         "relativeHumidity": {
           "unitCode": "wmoUnit:percent",
-          "value": 59.044795274558,
+          "value": 74.302363036119,
           "qualityControl": "V"
         },
         "windChill": {
@@ -2567,26 +581,2088 @@
         },
         "heatIndex": {
           "unitCode": "wmoUnit:degC",
-          "value": 36.78839360480611,
+          "value": 31.256348574509445,
           "qualityControl": "V"
         },
         "cloudLayers": [
           {
             "base": {
               "unitCode": "wmoUnit:m",
-              "value": 1524
+              "value": 1219.2
             },
-            "amount": "SCT"
+            "amount": "FEW"
+          },
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3657.6
+            },
+            "amount": "FEW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:45:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:45:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T13:45:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 28,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 23,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 210,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 11.124,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102302.8,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 74.302363036119,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 31.256348574509445,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 1219.2
+            },
+            "amount": "FEW"
+          },
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3657.6
+            },
+            "amount": "FEW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:40:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:40:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T13:40:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 28,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 23,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 220,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 11.124,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102302.8,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 74.302363036119,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 31.256348574509445,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 1219.2
+            },
+            "amount": "FEW"
+          },
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3657.6
+            },
+            "amount": "FEW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:35:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:35:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T13:35:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 28,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 23,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 220,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 11.124,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102302.8,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 74.302363036119,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 31.256348574509445,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 1219.2
+            },
+            "amount": "FEW"
+          },
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3657.6
+            },
+            "amount": "FEW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:30:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:30:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T13:30:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 28,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 23,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 210,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 9.252,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102302.8,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 74.302363036119,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 31.256348574509445,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 1219.2
+            },
+            "amount": "FEW"
+          },
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3657.6
+            },
+            "amount": "FEW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:25:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:25:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T13:25:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 27,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 23,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 220,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 11.124,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102302.8,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 78.780719493487,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 29.626439648343332,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 1219.2
+            },
+            "amount": "FEW"
+          },
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3657.6
+            },
+            "amount": "FEW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:20:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:20:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T13:20:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 27,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 23,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 220,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 9.252,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102302.8,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 78.780719493487,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 29.626439648343332,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 1219.2
+            },
+            "amount": "FEW"
+          },
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3657.6
+            },
+            "amount": "FEW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:15:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:15:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T13:15:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 27,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 23,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 200,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 7.416,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102302.8,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 78.780719493487,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 29.626439648343332,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 1219.2
+            },
+            "amount": "FEW"
+          },
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3657.6
+            },
+            "amount": "FEW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:10:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:10:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T13:10:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 27,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 23,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 220,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 7.416,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102302.8,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 78.780719493487,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 29.626439648343332,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 1219.2
+            },
+            "amount": "FEW"
+          },
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3657.6
+            },
+            "amount": "FEW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:05:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:05:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T13:05:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 27,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 23,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 200,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 5.544,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102302.8,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 78.780719493487,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 29.626439648343332,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 1219.2
+            },
+            "amount": "FEW"
+          },
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3657.6
+            },
+            "amount": "FEW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:00:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T13:00:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T13:00:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 27,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 23,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 190,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 5.544,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102268.94,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 78.780719493487,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 29.626439648343332,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 1219.2
+            },
+            "amount": "FEW"
+          },
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3657.6
+            },
+            "amount": "FEW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:55:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:55:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T12:55:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Mostly Clear",
+        "icon": "https://api.weather.gov/icons/land/day/few?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 26,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 23,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 190,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 7.416,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102268.94,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 83.565344534735,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 27.79749079685333,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 1219.2
+            },
+            "amount": "FEW"
+          },
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3657.6
+            },
+            "amount": "FEW"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:52:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:52:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T12:52:00+00:00",
+        "rawMessage": "KATL 101252Z 20005KT 10SM FEW040 FEW120 SCT180 BKN250 26/23 A3020 RMK AO2 SLP216 T02610228 $",
+        "textDescription": "",
+        "icon": null,
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 26.1,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 22.8,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 200,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 9.36,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102270,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102160,
+          "qualityControl": "V"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16090,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLastHour": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "precipitationLast6Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 82.07222228655,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 27.948341466615556,
+          "qualityControl": "V"
+        },
+        "cloudLayers": []
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:50:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:50:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T12:50:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 26,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 23,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 200,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 9.252,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102268.94,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 83.565344534735,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 27.79749079685333,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3810
+            },
+            "amount": "CLR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:45:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:45:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T12:45:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 26,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 23,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 190,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 7.416,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102268.94,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 83.565344534735,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 27.79749079685333,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3810
+            },
+            "amount": "CLR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:40:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:40:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T12:40:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 26,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 23,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 180,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 9.252,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102268.94,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 83.565344534735,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 27.79749079685333,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3810
+            },
+            "amount": "CLR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:35:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:35:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T12:35:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 26,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 23,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 180,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 5.544,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102268.94,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 83.565344534735,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 27.79749079685333,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3810
+            },
+            "amount": "CLR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:30:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:30:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T12:30:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 26,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 22,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 170,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 5.544,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102235.08,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 78.63985107242,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 27.614217970210557,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3810
+            },
+            "amount": "CLR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:25:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:25:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T12:25:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 26,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 22,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 150,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 7.416,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102235.08,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 78.63985107242,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 27.614217970210557,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3810
+            },
+            "amount": "CLR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:20:00+00:00",
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.42,
+          33.65
+        ]
+      },
+      "properties": {
+        "@id": "https://api.weather.gov/stations/KATL/observations/2026-08-10T12:20:00+00:00",
+        "@type": "wx:ObservationStation",
+        "elevation": {
+          "unitCode": "wmoUnit:m",
+          "value": 315
+        },
+        "station": "https://api.weather.gov/stations/KATL",
+        "stationId": "KATL",
+        "stationName": "Atlanta, Hartsfield - Jackson Atlanta International Airport",
+        "timestamp": "2026-08-10T12:20:00+00:00",
+        "rawMessage": "",
+        "textDescription": "Clear",
+        "icon": "https://api.weather.gov/icons/land/day/skc?size=medium",
+        "presentWeather": [],
+        "temperature": {
+          "unitCode": "wmoUnit:degC",
+          "value": 26,
+          "qualityControl": "V"
+        },
+        "dewpoint": {
+          "unitCode": "wmoUnit:degC",
+          "value": 22,
+          "qualityControl": "V"
+        },
+        "windDirection": {
+          "unitCode": "wmoUnit:degree_(angle)",
+          "value": 160,
+          "qualityControl": "V"
+        },
+        "windSpeed": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": 7.416,
+          "qualityControl": "V"
+        },
+        "windGust": {
+          "unitCode": "wmoUnit:km_h-1",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "barometricPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": 102235.08,
+          "qualityControl": "V"
+        },
+        "seaLevelPressure": {
+          "unitCode": "wmoUnit:Pa",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "visibility": {
+          "unitCode": "wmoUnit:m",
+          "value": 16093.44,
+          "qualityControl": "C"
+        },
+        "maxTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "minTemperatureLast24Hours": {
+          "unitCode": "wmoUnit:degC",
+          "value": null
+        },
+        "precipitationLast3Hours": {
+          "unitCode": "wmoUnit:mm",
+          "value": null,
+          "qualityControl": "Z"
+        },
+        "relativeHumidity": {
+          "unitCode": "wmoUnit:percent",
+          "value": 78.63985107242,
+          "qualityControl": "V"
+        },
+        "windChill": {
+          "unitCode": "wmoUnit:degC",
+          "value": null,
+          "qualityControl": "V"
+        },
+        "heatIndex": {
+          "unitCode": "wmoUnit:degC",
+          "value": 27.614217970210557,
+          "qualityControl": "V"
+        },
+        "cloudLayers": [
+          {
+            "base": {
+              "unitCode": "wmoUnit:m",
+              "value": 3810
+            },
+            "amount": "CLR"
           }
         ]
       }
     }
   ],
   "pagination": {
-    "next": "https://api.weather.gov/stations/KATL/observations?cursor=eyJzIjoiMjAyNi0wNy0wMVQwMDo1MDowMCswMDowMCJ9"
+    "next": "https://api.weather.gov/stations/KATL/observations?cursor=eyJzIjoiMjAyNi0wOC0xMFQxMjoyMDowMCswMDowMCJ9"
   },
   "_dvce_station": "KATL",
   "_dvce_zone": "ga_hub",
   "_dvce_name": "Atlanta",
-  "_dvce_pulled_at": "2026-07-01T02:53:58.497677+00:00"
+  "_dvce_pulled_at": "2026-08-10T14:25:19.007397+00:00"
 }

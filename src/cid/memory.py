@@ -13,7 +13,9 @@ All stored as JSON on disk at ~/.cid/
 Queryable by category, project, recency, and semantic similarity.
 """
 
+import fcntl
 import json
+import os
 import time
 import uuid
 from pathlib import Path
@@ -84,6 +86,11 @@ class MemoryStore:
         self._sessions_dir.mkdir(exist_ok=True)
         self._projects_dir.mkdir(exist_ok=True)
         self._memories: List[Memory] = []
+        # Ids this process has created or changed, and ids it has removed.
+        # _save() applies only these on top of the current file, so concurrent
+        # stores in other processes do not overwrite each other.
+        self._dirty: set[str] = set()
+        self._deleted: set[str] = set()
         self._load()
 
     # ─── Core Operations ──────────────────────────────────────────
@@ -109,6 +116,7 @@ class MemoryStore:
             access_count=0,
         )
         self._memories.append(memory)
+        self._dirty.add(memory.id)
         self._save()
         return memory
 
@@ -160,8 +168,12 @@ class MemoryStore:
             mem.access_count += 1
             results.append(mem)
 
-        if results:
-            self._save()
+        # Deliberately no _save() here. Persisting access counters on every
+        # read turned lookups into full-file rewrites, which is what let one
+        # client clobber another's memories just by reading. The counters ride
+        # along with the next genuine write instead.
+        for mem in results:
+            self._dirty.add(mem.id)
 
         return results
 
@@ -219,6 +231,8 @@ class MemoryStore:
         before = len(self._memories)
         self._memories = [m for m in self._memories if m.id != memory_id]
         if len(self._memories) < before:
+            self._deleted.add(memory_id)
+            self._dirty.discard(memory_id)
             self._save()
             return True
         return False
@@ -251,11 +265,58 @@ class MemoryStore:
             except Exception:
                 self._memories = []
 
+    def _read_disk(self) -> Dict[str, dict]:
+        """Current on-disk memories, keyed by id."""
+        if not self._memories_path.exists():
+            return {}
+        try:
+            return {m["id"]: m for m in json.loads(self._memories_path.read_text())}
+        except Exception:
+            return {}
+
     def _save(self):
-        """Save memories to disk."""
-        self._memories_path.write_text(
-            json.dumps([m.to_dict() for m in self._memories], indent=2)
-        )
+        """Merge this process's changes into the store on disk.
+
+        A store is a long-lived singleton, and several of them exist at once —
+        Claude Code and Kiro each hold one over MCP, plus the cid-agent service.
+        Writing self._memories wholesale meant whichever process saved last
+        silently destroyed everything the others had added since they loaded,
+        and it also resurrected content that had been edited on disk.
+
+        So only the records this process actually touched are applied, on top of
+        whatever is on disk right now. Everything else is left alone. The whole
+        read-modify-write runs under an exclusive lock, and the result is put in
+        place atomically, so a concurrent saver cannot observe a partial file.
+        """
+        self._memories_path.touch(exist_ok=True)
+
+        with open(self._memories_path, "r+", encoding="utf-8") as handle:
+            fcntl.flock(handle.fileno(), fcntl.LOCK_EX)
+            try:
+                merged = self._read_disk()
+
+                for memory_id in self._deleted:
+                    merged.pop(memory_id, None)
+
+                by_id = {m.id: m for m in self._memories}
+                for memory_id in self._dirty:
+                    memory = by_id.get(memory_id)
+                    if memory is not None:
+                        merged[memory_id] = memory.to_dict()
+
+                records = sorted(merged.values(), key=lambda m: m.get("created_at", 0))
+
+                tmp = self._memories_path.with_suffix(".json.tmp")
+                tmp.write_text(json.dumps(records, indent=2), encoding="utf-8")
+                tmp.chmod(self._memories_path.stat().st_mode & 0o777)
+                os.replace(tmp, self._memories_path)
+            finally:
+                fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
+
+        # Adopt the merged view so this process sees others' work too.
+        self._memories = [Memory.from_dict(m) for m in records]
+        self._dirty.clear()
+        self._deleted.clear()
 
 
 # ─── Singleton ────────────────────────────────────────────────────────────

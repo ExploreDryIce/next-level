@@ -59,7 +59,10 @@ class NodeNetworkClient:
                     "node_id": self.node_id,
                     "domain": self.domain,
                     "expertise_scores": self.expertise_scores,
-                    "token": os.environ.get("DVCE_BROKER_TOKEN", "dvce-swarm-sovereign-2026"),
+                    # No default: the previous fallback published the real token
+                    # in a public repo. An unset var should fail to authenticate
+                    # loudly rather than succeed on a known secret.
+                    "token": os.environ["DVCE_BROKER_TOKEN"],
                 })
 
                 # Wait for ack

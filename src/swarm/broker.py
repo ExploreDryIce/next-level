@@ -31,7 +31,32 @@ logger = logging.getLogger(__name__)
 # SECURITY — Auth token + SMS alerting
 # ═══════════════════════════════════════════════════════════════
 
-BROKER_AUTH_TOKEN = os.environ.get("DVCE_BROKER_TOKEN", "dvce-swarm-sovereign-2026")
+def _load_auth_tokens() -> tuple[str, frozenset[str]]:
+    """Resolve the broker auth token from the environment.
+
+    There is deliberately no default. This value used to carry a hardcoded
+    fallback, which meant the real token sat in a public repository and a
+    missing env var failed open onto a known secret. Now a missing var stops
+    the broker instead.
+
+    DVCE_BROKER_TOKEN_LEGACY holds comma-separated tokens that are still
+    accepted while nodes are migrated. Empty it once every node is moved.
+    """
+    primary = os.environ.get("DVCE_BROKER_TOKEN", "").strip()
+    if not primary:
+        raise SystemExit(
+            "DVCE_BROKER_TOKEN is not set. The broker will not start without it.\n"
+            "Set it in com.dvce.broker.plist (EnvironmentVariables) or the shell."
+        )
+    legacy = {
+        t.strip()
+        for t in os.environ.get("DVCE_BROKER_TOKEN_LEGACY", "").split(",")
+        if t.strip()
+    }
+    return primary, frozenset({primary} | legacy)
+
+
+BROKER_AUTH_TOKEN, ACCEPTED_AUTH_TOKENS = _load_auth_tokens()
 
 # Known authorized node IDs
 AUTHORIZED_NODES = {
@@ -205,7 +230,7 @@ class PatternBroker:
                     token = message.get("token", "")
                     node_id = message.get("node_id", "unknown")
                     
-                    if token != BROKER_AUTH_TOKEN:
+                    if token not in ACCEPTED_AUTH_TOKENS:
                         # Unauthorized attempt!
                         peer = writer.get_extra_info("peername")
                         alert_msg = f"UNAUTHORIZED node '{node_id}' from {peer} tried to join swarm"
@@ -218,6 +243,14 @@ class PatternBroker:
                         await writer.drain()
                         break
                     
+                    if token != BROKER_AUTH_TOKEN:
+                        # Accepted, but on a legacy token — this node still
+                        # needs migrating before the legacy list is emptied.
+                        logger.warning(
+                            f"🔑 '{node_id}' authenticated with a LEGACY token — migrate it "
+                            f"to DVCE_BROKER_TOKEN, then clear DVCE_BROKER_TOKEN_LEGACY."
+                        )
+
                     if node_id not in AUTHORIZED_NODES:
                         # Unknown node ID — alert but allow if token is correct
                         peer = writer.get_extra_info("peername")

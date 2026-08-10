@@ -12,3 +12,8 @@ __pycache__/
 # OS
 .DS_Store
 .keys.json
+
+# Runtime logs — these leaked API keys into a public repo (2026-08-10).
+# Never track them: request URLs carry credentials as query params.
+logs/
+*.log

@@ -34,7 +34,10 @@ logger = logging.getLogger(__name__)
 BROKER_AUTH_TOKEN = os.environ.get("DVCE_BROKER_TOKEN", "dvce-swarm-sovereign-2026")
 
 # Known authorized node IDs
-AUTHORIZED_NODES = {"macbook-m4", "terrornode", "towerseven", "rondo", "dvce-streamlit", "dvce-api"}
+AUTHORIZED_NODES = {
+    "macbook-m4", "terrornode", "towerseven", "towerseven-comms",
+    "rondo", "dvce-streamlit", "dvce-api",
+}
 
 # ═══════════════════════════════════════════════════════════════
 # CONNECTION HEALTH — bounds on how long a socket may sit idle
@@ -222,6 +225,16 @@ class PatternBroker:
                         logger.info(f"⚠️ {alert_msg}")
                         _send_sms_alert(alert_msg)
 
+                    # Warn on a node_id collision — two processes sharing one id
+                    # silently displace each other in the registry.
+                    existing = self.nodes.get(node_id)
+                    if existing is not None:
+                        logger.warning(
+                            f"⚠️ node_id collision: '{node_id}' already registered as "
+                            f"domain={existing.domain}, now claiming domain="
+                            f"{message.get('domain')}. Give each process a unique node_id."
+                        )
+
                     # Node registering itself
                     node_info = ConnectedNode(
                         node_id=message["node_id"],
@@ -303,7 +316,10 @@ class PatternBroker:
         except (asyncio.IncompleteReadError, ConnectionResetError, json.JSONDecodeError) as e:
             logger.info(f"   Connection closed: {addr} ({e.__class__.__name__})")
         finally:
-            if node_info and node_info.node_id in self.nodes:
+            # Only drop the entry if it still points at THIS connection. Two
+            # processes registering under one node_id would otherwise evict a
+            # live node the moment the duplicate hangs up.
+            if node_info and self.nodes.get(node_info.node_id) is node_info:
                 del self.nodes[node_info.node_id]
                 logger.info(f"   ❌ Node disconnected: {node_info.node_id}")
             writer.close()

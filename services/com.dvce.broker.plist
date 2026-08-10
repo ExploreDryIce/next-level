@@ -13,6 +13,16 @@
         <string>--port</string>
         <string>9876</string>
     </array>
+    <key>SoftResourceLimits</key>
+    <dict>
+        <key>NumberOfFiles</key>
+        <integer>8192</integer>
+    </dict>
+    <key>HardResourceLimits</key>
+    <dict>
+        <key>NumberOfFiles</key>
+        <integer>8192</integer>
+    </dict>
     <key>RunAtLoad</key>
     <true/>
     <key>KeepAlive</key>

@@ -36,6 +36,16 @@ BROKER_AUTH_TOKEN = os.environ.get("DVCE_BROKER_TOKEN", "dvce-swarm-sovereign-20
 # Known authorized node IDs
 AUTHORIZED_NODES = {"macbook-m4", "terrornode", "towerseven", "rondo", "dvce-streamlit", "dvce-api"}
 
+# ═══════════════════════════════════════════════════════════════
+# CONNECTION HEALTH — bounds on how long a socket may sit idle
+# ═══════════════════════════════════════════════════════════════
+
+# A peer that dies without sending FIN leaves its handler parked on readline()
+# and its file descriptor open. These bounds make that recoverable.
+SOCKET_READ_TIMEOUT = 120.0   # seconds with no traffic before we re-check health
+NODE_STALE_AFTER = 300.0      # seconds without a heartbeat before we drop a node
+CLEANUP_INTERVAL = 60.0       # seconds between reaping sweeps
+
 # SMS alert via AT&T email-to-SMS gateway
 SMS_GATEWAY = "8657769193@txt.att.net"
 ALERT_FROM = "alerts@dvce.io"
@@ -165,7 +175,22 @@ class PatternBroker:
         try:
             while True:
                 # Read message (newline-delimited JSON)
-                data = await reader.readline()
+                try:
+                    data = await asyncio.wait_for(
+                        reader.readline(), timeout=SOCKET_READ_TIMEOUT
+                    )
+                except asyncio.TimeoutError:
+                    # Silent socket. Drop it if the node has also stopped
+                    # heartbeating — otherwise a dead peer holds this handler
+                    # and its file descriptor open forever.
+                    if node_info is None:
+                        logger.info(f"   ⏱️ Dropping idle unregistered connection: {addr}")
+                        break
+                    if (time.time() - node_info.last_heartbeat) > NODE_STALE_AFTER:
+                        logger.info(f"   ⏱️ Dropping silent node: {node_info.node_id}")
+                        break
+                    continue
+
                 if not data:
                     break
 
@@ -282,6 +307,12 @@ class PatternBroker:
                 del self.nodes[node_info.node_id]
                 logger.info(f"   ❌ Node disconnected: {node_info.node_id}")
             writer.close()
+            # close() only schedules teardown; without awaiting it the socket
+            # can linger in ESTABLISHED and keep its descriptor allocated.
+            try:
+                await writer.wait_closed()
+            except (ConnectionResetError, BrokenPipeError, OSError):
+                pass
 
     async def _broadcast_patterns(self, patterns: List[dict], exclude_node: str):
         """Send patterns to all connected nodes except the source.
@@ -417,19 +448,40 @@ class PatternBroker:
                 self._scorer.cleanup_pending()
 
     async def _periodic_cleanup(self):
-        """Remove expired patterns every hour."""
+        """Reap dead node sockets every minute; expire patterns every hour."""
+        last_pattern_sweep = time.time()
+
         while True:
-            await asyncio.sleep(3600)  # 1 hour
+            await asyncio.sleep(CLEANUP_INTERVAL)
             now = time.time()
-            before = len(self.pattern_pool)
-            self.pattern_pool = [
-                p for p in self.pattern_pool
-                if (now - p.get("timestamp", 0)) / 86400 <= p.get("ttl", 7)
+
+            # Drop nodes that stopped heartbeating. Each one holds a file
+            # descriptor; left unchecked they accumulate until accept() fails
+            # with EMFILE and the broker silently stops admitting the swarm.
+            stale = [
+                node_id for node_id, node in self.nodes.items()
+                if (now - node.last_heartbeat) > NODE_STALE_AFTER
             ]
-            removed = before - len(self.pattern_pool)
-            if removed > 0:
-                logger.info(f"   🧹 Cleanup: removed {removed} expired patterns")
-                self._dirty = True
+            for node_id in stale:
+                node = self.nodes.pop(node_id)
+                try:
+                    node.writer.close()
+                except (ConnectionResetError, BrokenPipeError, OSError):
+                    pass
+                logger.info(f"   🧹 Reaped stale node: {node_id}")
+
+            # Expire patterns hourly
+            if now - last_pattern_sweep >= 3600:
+                last_pattern_sweep = now
+                before = len(self.pattern_pool)
+                self.pattern_pool = [
+                    p for p in self.pattern_pool
+                    if (now - p.get("timestamp", 0)) / 86400 <= p.get("ttl", 7)
+                ]
+                removed = before - len(self.pattern_pool)
+                if removed > 0:
+                    logger.info(f"   🧹 Cleanup: removed {removed} expired patterns")
+                    self._dirty = True
 
 
 # ============================================================================

@@ -23,6 +23,7 @@ Usage in DVCE:
 
 import asyncio
 import json
+import os
 import sys
 import time
 import logging
@@ -168,12 +169,15 @@ class SwarmPredictor:
             sock.settimeout(5)
             sock.connect((self.broker_host, self.broker_port))
 
-            # Register
+            # Register. The token was missing entirely here, so every flush
+            # was rejected as UNAUTHORIZED and the queued patterns were
+            # dropped — silently, because the ack below is never inspected.
             msg = json.dumps({
                 "type": "register",
                 "node_id": self.node_id,
                 "domain": self.domain,
                 "expertise_scores": {self.domain: 0.5},
+                "token": os.environ["DVCE_BROKER_TOKEN"],
             }) + "\n"
             sock.sendall(msg.encode())
             sock.recv(4096)  # ack

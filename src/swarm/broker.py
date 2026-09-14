@@ -16,6 +16,7 @@ Protocol: JSON over TCP (simple, debuggable, upgradeable to NATS later)
 
 import asyncio
 import json
+import re
 import time
 import logging
 import os
@@ -61,8 +62,58 @@ BROKER_AUTH_TOKEN, ACCEPTED_AUTH_TOKENS = _load_auth_tokens()
 # Known authorized node IDs
 AUTHORIZED_NODES = {
     "macbook-m4", "terrornode", "towerseven", "towerseven-comms",
-    "rondo", "dvce-streamlit", "dvce-api",
+    "rondo", "dvce-streamlit", "dvce-api", "finnhub-realtime",
 }
+
+# ═══════════════════════════════════════════════════════════════
+# MESSAGE AUTH + PATTERN VALIDATION (2026-09-14 audit)
+# ═══════════════════════════════════════════════════════════════
+# Until 2026-09-14 only `register` checked the token: `patterns`, `heartbeat`
+# and `query` were accepted on connections that never authenticated
+# (finnhub_realtime and comms-pi pushed thousands of patterns that way), and a
+# `heartbeat` naming a known node_id from ANY socket took over that node's
+# writer. Every message except `register` now requires a connection that has
+# registered with a valid token. `status` is read-only and still answered for
+# loopback clients (local control tools) without registering.
+UNAUTHENTICATED_LOOPBACK_TYPES = {"status"}
+LOOPBACK_HOSTS = {"127.0.0.1", "::1", "localhost"}
+
+MAX_PATTERNS_PER_MESSAGE = 1000
+MAX_PATTERN_BYTES = 16_000
+_EVENT_TYPE_RE = re.compile(r"^[a-z][a-z0-9_]{0,63}$")
+
+
+def validate_patterns(patterns) -> tuple[list, int]:
+    """Return (valid_patterns, n_rejected). Shared patterns are relayed to every
+    node and persisted, so malformed or oversized ones are dropped here."""
+    if not isinstance(patterns, list):
+        return [], 1
+    valid, rejected = [], 0
+    for p in patterns[:MAX_PATTERNS_PER_MESSAGE]:
+        if not isinstance(p, dict):
+            rejected += 1
+            continue
+        try:
+            if len(json.dumps(p)) > MAX_PATTERN_BYTES:
+                rejected += 1
+                continue
+        except (TypeError, ValueError):
+            rejected += 1
+            continue
+        et = p.get("event_type")
+        if et is not None and not (isinstance(et, str) and _EVENT_TYPE_RE.match(et)):
+            rejected += 1
+            continue
+        seq = p.get("sequence")
+        if seq is not None and not (
+            isinstance(seq, list) and len(seq) <= 64
+            and all(isinstance(x, str) and _EVENT_TYPE_RE.match(x) for x in seq)
+        ):
+            rejected += 1
+            continue
+        valid.append(p)
+    rejected += max(0, len(patterns) - MAX_PATTERNS_PER_MESSAGE)
+    return valid, rejected
 
 # ═══════════════════════════════════════════════════════════════
 # CONNECTION HEALTH — bounds on how long a socket may sit idle
@@ -223,7 +274,22 @@ class PatternBroker:
                     break
 
                 message = json.loads(data.decode().strip())
+                if not isinstance(message, dict):
+                    break
                 msg_type = message.get("type")
+
+                if msg_type != "register" and node_info is None:
+                    peer_host = addr[0] if isinstance(addr, tuple) and addr else ""
+                    if not (msg_type in UNAUTHENTICATED_LOOPBACK_TYPES and peer_host in LOOPBACK_HOSTS):
+                        logger.warning(
+                            f"🚫 Rejected unauthenticated '{msg_type}' from {addr} "
+                            f"(source_node={message.get('source_node') or message.get('node_id')!r}) "
+                            f"— register with a valid token first"
+                        )
+                        reject = {"type": "rejected", "reason": "not authenticated"}
+                        writer.write((json.dumps(reject) + "\n").encode())
+                        await writer.drain()
+                        break
 
                 if msg_type == "register":
                     # Security: verify auth token
@@ -296,10 +362,12 @@ class PatternBroker:
 
                 elif msg_type == "patterns":
                     # Node sharing patterns
-                    patterns = message.get("patterns", [])
-                    source_node = message.get("source_node", "unknown")
+                    patterns, n_rejected = validate_patterns(message.get("patterns", []))
+                    # Attribute to the authenticated node, not a self-declared name.
+                    source_node = node_info.node_id
 
-                    logger.info(f"   📨 Received {len(patterns)} patterns from {source_node}")
+                    logger.info(f"   📨 Received {len(patterns)} patterns from {source_node}"
+                                + (f" ({n_rejected} rejected as malformed)" if n_rejected else ""))
 
                     # Store in pool
                     for p in patterns:
@@ -319,19 +387,15 @@ class PatternBroker:
                         domain = node_info.domain if node_info else "general"
                         asyncio.create_task(self._nats.publish_patterns(patterns, domain=domain))
 
-                    if node_info:
-                        node_info.patterns_received += len(patterns)
+                    node_info.patterns_received += len(patterns)
 
                 elif msg_type == "heartbeat":
-                    hb_node_id = message.get("node_id")
-                    if node_info:
-                        node_info.last_heartbeat = time.time()
-                    elif hb_node_id and hb_node_id in self.nodes:
-                        # Node sending heartbeat without local node_info — reconnect case
-                        node_info = self.nodes[hb_node_id]
-                        node_info.last_heartbeat = time.time()
-                        node_info.writer = writer
-                        node_info.expertise_scores = message.get("expertise_scores", node_info.expertise_scores)
+                    # Only reachable on an authenticated connection (checked above).
+                    # The old "reconnect by heartbeat" path let any socket adopt a
+                    # registered node_id and hijack its writer; a reconnecting node
+                    # must register again.
+                    node_info.last_heartbeat = time.time()
+                    node_info.expertise_scores = message.get("expertise_scores", node_info.expertise_scores)
 
                 elif msg_type == "query":
                     # Route a prediction query to the best node

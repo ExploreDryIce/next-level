@@ -38,6 +38,7 @@ Launchd/systemd: runs as a persistent background service alongside the broker.
 
 import asyncio
 import json
+import os
 import logging
 import time
 from collections import deque
@@ -347,21 +348,39 @@ class FinnhubRealtimeFeed:
             events_to_send = self._event_buffer[:]
             self._event_buffer.clear()
 
+            token = os.environ.get("DVCE_BROKER_TOKEN", "")
+            if not token:
+                # The broker rejects unauthenticated patterns (2026-09-14).
+                # Events are already on disk, so skip the flush loudly.
+                logger.warning("DVCE_BROKER_TOKEN not set; not flushing events to broker")
+                continue
+
             try:
                 reader, writer = await asyncio.open_connection(
                     self.broker_host, self.broker_port
                 )
-                msg = json.dumps({
-                    "type": "patterns",
-                    "source_node": "finnhub_realtime",
-                    "patterns": events_to_send,
-                }) + "\n"
-                writer.write(msg.encode())
+                writer.write((json.dumps({
+                    "type": "register",
+                    "node_id": "finnhub-realtime",
+                    "domain": "financial",
+                    "expertise_scores": {"financial": 0.5},
+                    "token": token,
+                }) + "\n").encode())
                 await writer.drain()
+                ack = json.loads((await asyncio.wait_for(reader.readline(), timeout=5)) or b"{}")
+                if ack.get("type") != "registered":
+                    logger.warning(f"Broker refused registration: {ack}")
+                else:
+                    writer.write((json.dumps({
+                        "type": "patterns",
+                        "source_node": "finnhub-realtime",
+                        "patterns": events_to_send,
+                    }) + "\n").encode())
+                    await writer.drain()
+                    logger.debug(f"Flushed {len(events_to_send)} events to broker")
                 writer.close()
                 await writer.wait_closed()
-                logger.debug(f"Flushed {len(events_to_send)} events to broker")
-            except (ConnectionRefusedError, OSError) as e:
+            except (ConnectionRefusedError, OSError, asyncio.TimeoutError, json.JSONDecodeError) as e:
                 logger.debug(f"Broker not reachable for flush: {e}")
                 # Events already saved to disk, so not lost
 

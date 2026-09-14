@@ -137,6 +137,14 @@ class SwarmPredictor:
         top_prediction = predictions[0]
         confidence = top_prediction.get("probability", 0)
 
+        # Never share a pattern built on inputs the model doesn't know: those
+        # predictions are the corpus prior (e.g. gp_military_strike), not a
+        # learned transition. The snapshot engine probed with raw, unmapped
+        # names and queued one such fabricated pattern per snapshot (2026-09-14).
+        vocab = getattr(self.local_predictor, "vocab", None) or {}
+        if vocab and any(e.get("event_type") not in vocab for e in history[-3:]):
+            return
+
         # Only extract if confidence is reasonable (above noise floor)
         if confidence >= 0.3:
             # Build the pattern: last 3 events + prediction

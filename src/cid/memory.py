@@ -16,6 +16,7 @@ Queryable by category, project, recency, and semantic similarity.
 import fcntl
 import json
 import os
+import tempfile
 import time
 import uuid
 from pathlib import Path
@@ -64,6 +65,10 @@ class Memory:
 
 
 # ─── Memory Store ─────────────────────────────────────────────────────────
+
+
+class CorruptMemoryStoreError(RuntimeError):
+    """memories.json exists but cannot be parsed; saving would destroy it."""
 
 
 class MemoryStore:
@@ -266,13 +271,23 @@ class MemoryStore:
                 self._memories = []
 
     def _read_disk(self) -> Dict[str, dict]:
-        """Current on-disk memories, keyed by id."""
+        """Current on-disk memories, keyed by id.
+
+        A missing or empty file is an empty store. An unparseable file raises:
+        treating it as empty (the old behaviour) meant the next save would
+        replace every memory with only this process's unsaved records.
+        """
         if not self._memories_path.exists():
             return {}
-        try:
-            return {m["id"]: m for m in json.loads(self._memories_path.read_text())}
-        except Exception:
+        text = self._memories_path.read_text()
+        if not text.strip():
             return {}
+        try:
+            return {m["id"]: m for m in json.loads(text)}
+        except (ValueError, KeyError, TypeError) as exc:
+            raise CorruptMemoryStoreError(
+                f"{self._memories_path} is not valid memory JSON ({exc}); refusing to overwrite it"
+            ) from exc
 
     def _save(self):
         """Merge this process's changes into the store on disk.
@@ -288,9 +303,13 @@ class MemoryStore:
         read-modify-write runs under an exclusive lock, and the result is put in
         place atomically, so a concurrent saver cannot observe a partial file.
         """
-        self._memories_path.touch(exist_ok=True)
-
-        with open(self._memories_path, "r+", encoding="utf-8") as handle:
+        # Lock a sibling file that is never replaced. Locking memories.json
+        # itself did not serialise writers: os.replace swaps in a new inode, so
+        # a writer that opened the path after the swap locked a different file
+        # than one still holding the old inode, and both committed (2026-09-14
+        # stress test: 34 of 240 concurrent remember() calls survived).
+        lock_path = self._memories_path.with_name(self._memories_path.name + ".lock")
+        with open(lock_path, "a+", encoding="utf-8") as handle:
             fcntl.flock(handle.fileno(), fcntl.LOCK_EX)
             try:
                 merged = self._read_disk()
@@ -306,10 +325,22 @@ class MemoryStore:
 
                 records = sorted(merged.values(), key=lambda m: m.get("created_at", 0))
 
-                tmp = self._memories_path.with_suffix(".json.tmp")
-                tmp.write_text(json.dumps(records, indent=2), encoding="utf-8")
-                tmp.chmod(self._memories_path.stat().st_mode & 0o777)
-                os.replace(tmp, self._memories_path)
+                # Unique temp name per write: a shared ".json.tmp" let concurrent
+                # writers clobber or delete each other's temp file.
+                mode = (self._memories_path.stat().st_mode & 0o777) if self._memories_path.exists() else 0o600
+                fd, tmp_name = tempfile.mkstemp(dir=self._memories_path.parent,
+                                                prefix=".memories.", suffix=".tmp")
+                try:
+                    with os.fdopen(fd, "w", encoding="utf-8") as tmp:
+                        tmp.write(json.dumps(records, indent=2))
+                        tmp.flush()
+                        os.fsync(tmp.fileno())
+                    os.chmod(tmp_name, mode)
+                    os.replace(tmp_name, self._memories_path)
+                except BaseException:
+                    if os.path.exists(tmp_name):
+                        os.unlink(tmp_name)
+                    raise
             finally:
                 fcntl.flock(handle.fileno(), fcntl.LOCK_UN)
 

@@ -17,3 +17,9 @@ __pycache__/
 # Never track them: request URLs carry credentials as query params.
 logs/
 *.log
+
+# Runtime churn from the hourly puller (src/ingestion/daily_pull.py et al.).
+# Regenerated every run; mirrors dvce's data/live_events/ + data/event_sequences/.
+data/live_feeds/
+data/pull_history/
+data/event_sequences/

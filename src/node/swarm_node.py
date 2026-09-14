@@ -177,6 +177,15 @@ class SwarmNode:
             self.tokenizer.vocabulary.freeze()
             logger.info(f"   Vocabulary: {self.tokenizer.vocabulary.size} types")
 
+        # Read the checkpoint first: its saved config decides whether the
+        # decoder's cross-attention is causally masked (causal_memory). A
+        # checkpoint trained with the mask must run with it, and one trained
+        # without must run without, or predictions silently change.
+        checkpoint = None
+        if self.config.model_path and Path(self.config.model_path).exists():
+            checkpoint = torch.load(self.config.model_path, map_location=self.device)
+        saved_cfg = (checkpoint or {}).get("config") or {}
+
         # Build model
         config = TorchModelConfig(
             vocab_size=self.tokenizer.vocabulary.size,
@@ -189,13 +198,16 @@ class SwarmNode:
             max_seq_len=256,
             time_encoding_dim=s["time_dim"],
             learning_rate=3e-4,
+            # Only passed when on: a node whose bundled torch_model.py predates
+            # the field must still load legacy checkpoints, but must fail
+            # loudly (TypeError) rather than silently run a causal-trained
+            # checkpoint without the mask.
+            **({"causal_memory": True} if saved_cfg.get("causal_memory") else {}),
         )
 
         self.model = EventTransformerTorch(config)
 
-        # Load checkpoint if exists
-        if self.config.model_path and Path(self.config.model_path).exists():
-            checkpoint = torch.load(self.config.model_path, map_location=self.device)
+        if checkpoint is not None:
             self.model.load_state_dict(checkpoint["model_state_dict"])
             logger.info(f"   Loaded checkpoint: {self.config.model_path}")
 

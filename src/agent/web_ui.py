@@ -11,10 +11,17 @@ Provides a simple web interface to:
 
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import json
+import os
+
 import httpx
 import urllib.parse
 
 TERRORNODE = "http://100.99.237.66:7777"
+
+
+def _auth_headers() -> dict:
+    token = os.environ.get("DVCE_AGENT_TOKEN", "")
+    return {"Authorization": f"Bearer {token}"} if token else {}
 PORT = 7778
 
 HTML = """<!DOCTYPE html>
@@ -171,7 +178,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             # Proxy to TerrorNode
             target = TERRORNODE + self.path[4:]  # Strip /api prefix
             try:
-                r = httpx.get(target, timeout=10)
+                r = httpx.get(target, headers=_auth_headers(), timeout=10)
                 self.send_response(r.status_code)
                 self.send_header("Content-Type", "application/json")
                 self.end_headers()
@@ -191,7 +198,7 @@ class ProxyHandler(BaseHTTPRequestHandler):
             length = int(self.headers.get("Content-Length", 0))
             body = self.rfile.read(length)
             try:
-                r = httpx.post(target, content=body, headers={"Content-Type": "application/json"}, timeout=10)
+                r = httpx.post(target, content=body, headers={"Content-Type": "application/json", **_auth_headers()}, timeout=10)
                 self.send_response(r.status_code)
                 self.send_header("Content-Type", "application/json")
                 self.end_headers()
@@ -214,5 +221,7 @@ if __name__ == "__main__":
     print(f"   Open: http://localhost:{PORT}")
     print(f"   Proxying to: {TERRORNODE}")
     print()
-    server = HTTPServer(("0.0.0.0", PORT), ProxyHandler)
+    # Local-only: this proxy injects the worker token, so exposing it on the
+    # network would hand the token's powers to anyone who can reach it.
+    server = HTTPServer(("127.0.0.1", PORT), ProxyHandler)
     server.serve_forever()

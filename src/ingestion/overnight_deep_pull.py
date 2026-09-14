@@ -15,6 +15,11 @@ from pathlib import Path
 from datetime import datetime, timedelta
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+try:
+    from log_redaction import install as _install_log_redaction
+except ImportError:
+    from src.ingestion.log_redaction import install as _install_log_redaction
+_install_log_redaction()
 logger = logging.getLogger(__name__)
 
 BASE_DIR = Path(__file__).resolve().parents[2]

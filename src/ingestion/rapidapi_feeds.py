@@ -339,6 +339,11 @@ def convert_geodb_events() -> List[Dict[str, Any]]:
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+    try:
+        from log_redaction import install as _install_log_redaction
+    except ImportError:
+        from src.ingestion.log_redaction import install as _install_log_redaction
+    _install_log_redaction()
 
     FEEDS_DIR.mkdir(parents=True, exist_ok=True)
 

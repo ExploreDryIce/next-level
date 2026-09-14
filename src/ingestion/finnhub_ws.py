@@ -410,6 +410,11 @@ def main():
         format="%(asctime)s [%(levelname)s] %(message)s",
         datefmt="%H:%M:%S",
     )
+    try:
+        from log_redaction import install as _install_log_redaction
+    except ImportError:
+        from src.ingestion.log_redaction import install as _install_log_redaction
+    _install_log_redaction()
 
     logger.info("=" * 60)
     logger.info("FINNHUB REALTIME WEBSOCKET FEED")

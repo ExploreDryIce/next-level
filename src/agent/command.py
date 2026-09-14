@@ -16,6 +16,8 @@ Usage:
 
 import sys
 import json
+import os
+
 import httpx
 
 TERRORNODE_IP = "100.99.237.66"
@@ -23,10 +25,16 @@ AGENT_PORT = 7777
 BASE_URL = f"http://{TERRORNODE_IP}:{AGENT_PORT}"
 
 
+def _auth_headers() -> dict:
+    """The TerrorNode worker requires a bearer token (2026-09-14)."""
+    token = os.environ.get("DVCE_AGENT_TOKEN", "")
+    return {"Authorization": f"Bearer {token}"} if token else {}
+
+
 def send_task(action: str, params: dict = None, priority: int = 5):
     """Send a task to TerrorNode agent."""
     try:
-        r = httpx.post(f"{BASE_URL}/task", json={
+        r = httpx.post(f"{BASE_URL}/task", headers=_auth_headers(), json={
             "action": action,
             "params": params or {},
             "priority": priority,
@@ -47,7 +55,7 @@ def send_task(action: str, params: dict = None, priority: int = 5):
 def get_status():
     """Get TerrorNode agent status."""
     try:
-        r = httpx.get(f"{BASE_URL}/status", timeout=5)
+        r = httpx.get(headers=_auth_headers(), url=f"{BASE_URL}/status", timeout=5)
         if r.status_code == 200:
             data = r.json()
             print("🖥️  TerrorNode Agent")
@@ -69,7 +77,7 @@ def get_status():
 def get_results():
     """Get recent task results."""
     try:
-        r = httpx.get(f"{BASE_URL}/results", timeout=5)
+        r = httpx.get(headers=_auth_headers(), url=f"{BASE_URL}/results", timeout=5)
         if r.status_code == 200:
             results = r.json()
             if not results:

@@ -19,7 +19,11 @@ Or as a service (Windows):
     schtasks /create /tn "DVCE-Agent" /tr "python C:\path\to\worker.py" /sc onstart
 """
 
+import hmac
 import json
+import os
+import re
+import shlex
 import time
 import subprocess
 import logging
@@ -46,6 +50,29 @@ LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
 
 # HTTP port for receiving tasks from Mac
 AGENT_PORT = 7777
+
+# Security (2026-09-14 audit): the HTTP endpoint accepted tasks, including
+# arbitrary shell, from anyone who could reach :7777, and the `script` param
+# was pasted into a shell=True command line (command injection). Now:
+#   * every HTTP request needs `Authorization: Bearer $DVCE_AGENT_TOKEN`;
+#     the HTTP server refuses to start without the variable;
+#   * the `shell` action is off unless DVCE_AGENT_ALLOW_SHELL=1;
+#   * train/pull scripts must be a plain relative scripts/*.py path.
+AGENT_TOKEN = os.environ.get("DVCE_AGENT_TOKEN", "")
+ALLOW_SHELL = os.environ.get("DVCE_AGENT_ALLOW_SHELL") == "1"
+_SAFE_SCRIPT = re.compile(r"^scripts/[A-Za-z0-9_\-/]+\.py$")
+
+
+def _safe_script(path: str) -> str:
+    if not isinstance(path, str) or ".." in path or not _SAFE_SCRIPT.match(path):
+        raise ValueError(f"refusing script path {path!r}: must match scripts/<name>.py")
+    return path
+
+
+def _authorized(header_value: str) -> bool:
+    if not AGENT_TOKEN or not header_value or not header_value.startswith("Bearer "):
+        return False
+    return hmac.compare_digest(header_value[len("Bearer "):].encode(), AGENT_TOKEN.encode())
 
 
 class Task:
@@ -156,20 +183,21 @@ class AgentWorker:
         logger.info(f"Done: {task.task_id} → {task.status}")
 
     def _do_train(self, params: dict) -> str:
-        script = params.get("script", "scripts/overnight_train.py")
-        env_vars = f"set PYTHONPATH=C:\\Users\\jwebb\\Desktop\\dvce\\src && "
-        cmd = f"{env_vars}python {script}"
-        result = subprocess.run(cmd, shell=True, capture_output=True, text=True,
-                               cwd=str(BASE_DIR), timeout=3600)
+        script = _safe_script(params.get("script", "scripts/overnight_train.py"))
+        env = dict(os.environ, PYTHONPATH=r"C:\Users\jwebb\Desktop\dvce\src")
+        result = subprocess.run(["python", script], capture_output=True, text=True,
+                               cwd=str(BASE_DIR), timeout=3600, env=env)
         return result.stdout[-500:] if result.stdout else result.stderr[-500:]
 
     def _do_pull(self, params: dict) -> str:
-        script = params.get("script", "scripts/us_weather_pull.py")
-        result = subprocess.run(f"python {script}", shell=True, capture_output=True,
+        script = _safe_script(params.get("script", "scripts/us_weather_pull.py"))
+        result = subprocess.run(["python", script], capture_output=True,
                                text=True, cwd=str(BASE_DIR), timeout=600)
         return result.stdout[-500:] if result.stdout else result.stderr[-500:]
 
     def _do_shell(self, params: dict) -> str:
+        if not ALLOW_SHELL:
+            return "shell action disabled (set DVCE_AGENT_ALLOW_SHELL=1 on this machine to enable)"
         cmd = params.get("command", "echo no command")
         timeout = params.get("timeout", 300)
         result = subprocess.run(cmd, shell=True, capture_output=True, text=True,
@@ -502,7 +530,15 @@ asyncio.run(research())
         agent = self
 
         class Handler(BaseHTTPRequestHandler):
+            def _deny(self):
+                self.send_response(401)
+                self.send_header("Content-Type", "application/json")
+                self.end_headers()
+                self.wfile.write(b'{"error": "unauthorized"}')
+
             def do_POST(self):
+                if not _authorized(self.headers.get("Authorization", "")):
+                    return self._deny()
                 if self.path == "/task":
                     length = int(self.headers.get("Content-Length", 0))
                     body = json.loads(self.rfile.read(length))
@@ -520,6 +556,8 @@ asyncio.run(research())
                     self.end_headers()
 
             def do_GET(self):
+                if not _authorized(self.headers.get("Authorization", "")):
+                    return self._deny()
                 if self.path == "/status":
                     status = {
                         "agent": "running",
@@ -546,6 +584,9 @@ asyncio.run(research())
             def log_message(self, format, *args):
                 pass  # Suppress HTTP logs
 
+        if not AGENT_TOKEN:
+            logger.error("DVCE_AGENT_TOKEN is not set; NOT starting the HTTP task server.")
+            return
         server = HTTPServer(("0.0.0.0", AGENT_PORT), Handler)
         logger.info(f"HTTP server listening on port {AGENT_PORT}")
         server.serve_forever()

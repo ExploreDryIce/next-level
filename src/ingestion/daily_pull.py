@@ -43,6 +43,39 @@ KEYS_FILE = BASE_DIR / ".keys.json"
 HEADERS = {"User-Agent": "DVCE-Swarm/1.0 (automated-daily-pull)"}
 
 
+
+def _capped_json(data, max_chars: int) -> str:
+    """Serialise data, shrinking it structurally to fit max_chars.
+
+    The old `json.dumps(...)[:N]` cut the string mid-token, which wrote invalid
+    JSON (e.g. nws_alerts_all.json was exactly 200,000 bytes and unparseable)
+    that feed_converter's bare excepts then dropped without a trace. Lists are
+    trimmed from the end, top-level or under common list keys, until the
+    result fits; the output is always valid JSON with a truncation marker.
+    """
+    text = json.dumps(data, indent=2)
+    if len(text) <= max_chars:
+        return text
+    import copy
+    trimmed = copy.deepcopy(data)
+    target = None
+    if isinstance(trimmed, list):
+        target = trimmed
+    elif isinstance(trimmed, dict):
+        for key in ("features", "data", "results", "articles", "items", "observations",
+                    "vulnerabilities", "events", "series"):
+            if isinstance(trimmed.get(key), list):
+                target = trimmed[key]
+                break
+    while target and len(text) > max_chars:
+        del target[max(1, len(target) // 2):]
+        if isinstance(trimmed, dict):
+            trimmed["_truncated"] = True
+        text = json.dumps(trimmed, indent=2)
+    if len(text) > max_chars:
+        logger.warning("feed too large to cap structurally (%d chars); writing it whole", len(text))
+    return text
+
 def load_keys() -> dict:
     """Load API keys from .keys.json (gitignored)."""
     if KEYS_FILE.exists():
@@ -134,7 +167,7 @@ def pull_no_auth_feeds() -> dict:
 
             if r.status_code == 200:
                 data = r.json() if "json" in r.headers.get("content-type", "") else {"raw": r.text[:5000]}
-                write_feed(FEEDS_DIR / f"{name}.json", json.dumps(data, indent=2)[:500000])
+                write_feed(FEEDS_DIR / f"{name}.json", _capped_json(data, 500000))
                 results[name] = "ok"
             else:
                 results[name] = f"http_{r.status_code}"
@@ -174,7 +207,7 @@ def pull_keyed_feeds(keys: dict) -> dict:
             r = client.get(url)
             if r.status_code == 200:
                 data = r.json()
-                write_feed(FEEDS_DIR / f"{name}.json", json.dumps(data, indent=2)[:500000])
+                write_feed(FEEDS_DIR / f"{name}.json", _capped_json(data, 500000))
                 results[name] = "ok"
             else:
                 results[name] = f"http_{r.status_code}"
@@ -218,7 +251,7 @@ def pull_keyed_feeds(keys: dict) -> dict:
             try:
                 r = client.get(url)
                 if r.status_code == 200:
-                    write_feed(FEEDS_DIR / f"{name}.json", json.dumps(r.json(), indent=2)[:200000])
+                    write_feed(FEEDS_DIR / f"{name}.json", _capped_json(r.json(), 200000))
                     results[name] = "ok"
                 else:
                     results[name] = f"http_{r.status_code}"
@@ -240,7 +273,7 @@ def pull_keyed_feeds(keys: dict) -> dict:
             try:
                 r = client.get(url)
                 if r.status_code == 200:
-                    write_feed(FEEDS_DIR / f"{name}.json", json.dumps(r.json(), indent=2)[:200000])
+                    write_feed(FEEDS_DIR / f"{name}.json", _capped_json(r.json(), 200000))
                     results[name] = "ok"
                 else:
                     results[name] = f"http_{r.status_code}"
@@ -264,7 +297,7 @@ def pull_keyed_feeds(keys: dict) -> dict:
                 if r.status_code == 200:
                     data = r.json()
                     if "Note" not in data and "Information" not in data:
-                        write_feed(FEEDS_DIR / f"{name}.json", json.dumps(data, indent=2)[:300000])
+                        write_feed(FEEDS_DIR / f"{name}.json", _capped_json(data, 300000))
                         results[name] = "ok"
                     else:
                         results[name] = "rate_limited"

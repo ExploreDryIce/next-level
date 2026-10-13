@@ -7,7 +7,12 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import List, Optional
 import json
+import os
 import platform
+
+# The checkpoint the DVCE API serves from (via the swarm bridge). A node that
+# claims to predict must load this same bundle: best_model.pt + vocab.json.
+PRODUCTION_MODEL_DIR = Path.home() / ".dvce" / "models" / "dvce-FINAL-small-fast"
 
 
 @dataclass
@@ -25,9 +30,15 @@ class NodeConfig:
     tailscale_ip: Optional[str] = None    # This node's Tailscale IP
 
     # Model
-    model_size: str = "standard"          # tiny | standard | large
+    model_size: str = "standard"          # tiny | standard | large — only used for
+                                          # checkpoints that do not record their own dims
     model_path: Optional[str] = None      # Path to .pt checkpoint
     vocab_path: Optional[str] = None      # Path to vocab.json
+    model_dir: Optional[str] = None       # Bundle dir holding best_model.pt + vocab.json.
+                                          # If this (or model_path) is set, the node refuses
+                                          # to start without it. If neither is set the node
+                                          # runs with NO model (heartbeat-only), never with
+                                          # random weights.
 
     # Hardware
     device: str = "auto"                  # auto | cpu | cuda | mps
@@ -85,6 +96,9 @@ def mac_node_config() -> NodeConfig:
         broker_port=9876,
         tailscale_ip=None,  # Will be set at runtime
         model_size="large",
+        # The production bundle. DVCE_NODE_MODEL_DIR overrides the location;
+        # if the bundle is missing the node exits instead of running untrained.
+        model_dir=os.environ.get("DVCE_NODE_MODEL_DIR") or str(PRODUCTION_MODEL_DIR),
         device="mps",
         max_memory_mb=8192,
         gossip_interval_seconds=30,

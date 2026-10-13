@@ -1,24 +1,26 @@
 """
 DVCE ↔ Swarm Bridge
 
-This module plugs the swarm intelligence layer into DVCE's prediction pipeline.
-It replaces the direct model call with a swarm-aware predictor that:
+SwarmPredictor has the same interface as DVCE's EventPredictor and is what the
+DVCE API loads when this repo is present.
 
-1. Checks local expertise for the query domain
-2. If local expertise is high → predict locally (fast path)
-3. If local expertise is low → route to a better node via broker
-4. After every prediction → extract patterns and share with swarm
-5. Periodically incorporate foreign patterns to improve local model
+What it does TODAY (verified 2026-10-13):
+1. Every prediction is made by the local EventPredictor, on this machine, from
+   the local checkpoint. The numbers are identical to calling EventPredictor
+   directly. No other node is consulted and nothing is "swarm-enhanced".
+2. After a prediction on known event types with probability >= 0.3, it queues
+   a single-observation pattern (last 3 inputs + top prediction).
+3. flush_patterns_to_swarm() pushes that queue to the broker, which stores and
+   relays it. No node reads those patterns back into a model.
+
+What it does NOT do: expertise checks, routing to another node, merging of
+answers, or learning from foreign patterns. `predictions_routed` is always 0
+and `swarm_connected` is always False. The routing design is in
+docs/SWARM_QUERY_ROUTING.md.
 
 Usage in DVCE:
-    # In prediction_api.py, replace:
-    #   predictor = EventPredictor.from_s3(...)
-    # With:
-    #   predictor = SwarmPredictor(node_config)
-    
     predictor = SwarmPredictor()
     predictions = predictor.predict(event_history, top_k=5)
-    # Same interface, but now backed by the swarm
 """
 
 import asyncio
@@ -35,12 +37,12 @@ logger = logging.getLogger(__name__)
 
 class SwarmPredictor:
     """
-    Drop-in replacement for EventPredictor that routes through the swarm.
-    
-    Maintains the same interface as EventPredictor (predict, predict_sequence)
-    but adds swarm intelligence: routing, pattern sharing, network-enhanced accuracy.
-    
-    Falls back to local prediction if broker is unreachable (graceful degradation).
+    Drop-in replacement for EventPredictor that also queues patterns for the broker.
+
+    Same interface as EventPredictor (predict, predict_sequence, vocab,
+    event_types, domains). Predictions come from the local model only; the
+    broker is used solely as a place to push patterns, and predictions do not
+    depend on it being reachable.
     """
 
     def __init__(
@@ -56,16 +58,20 @@ class SwarmPredictor:
         self.domain = domain
         self.node_id = node_id
         self.local_predictor = None
-        self.swarm_connected = False
+        self.swarm_connected = False   # never set: there is no live swarm session
         self.predictions_made = 0
-        self.predictions_routed = 0
+        self.predictions_routed = 0    # never incremented: there is no routing
         self._pattern_queue_list = []
         
-        # Load local model as fallback
+        # The local model is the only predictor there is (not a fallback).
         self._load_local_predictor(local_model_path)
+        logger.info(
+            "SwarmPredictor ready: predictions are local-model only (no routing, "
+            "no foreign patterns applied); the broker only receives queued patterns"
+        )
 
     def _load_local_predictor(self, model_path: Optional[str]):
-        """Load the local DVCE predictor as fallback."""
+        """Load the local DVCE predictor — the only source of predictions."""
         try:
             sys.path.insert(0, "/Users/webber/Desktop/dvce/src")
             from dvce.services.event_prediction.inference import EventPredictor
@@ -85,7 +91,10 @@ class SwarmPredictor:
                         break
 
             if self.local_predictor is None:
-                logger.warning("No local model found — predictions will require broker")
+                logger.warning(
+                    "No local model found — predict() will return []. "
+                    "The broker cannot answer predictions."
+                )
 
         except Exception as e:
             logger.error(f"Failed to load local predictor: {e}")
@@ -96,14 +105,15 @@ class SwarmPredictor:
         top_k: int = 10,
     ) -> List[Dict[str, Any]]:
         """
-        Predict next events — swarm-enhanced with local fallback.
-        
-        Same interface as EventPredictor.predict().
+        Predict next events with the local model.
+
+        Same interface and same output as EventPredictor.predict(). The swarm
+        does not take part in the prediction.
         """
         self.predictions_made += 1
 
-        # For now: use local predictor (Phase 1 behavior)
-        # Phase 2+: check expertise, route if needed
+        # Local model only. Routing is not implemented
+        # (docs/SWARM_QUERY_ROUTING.md).
         if self.local_predictor:
             predictions = self.local_predictor.predict(event_history, top_k=top_k)
 
@@ -127,9 +137,10 @@ class SwarmPredictor:
 
     def _maybe_extract_pattern(self, history: List[dict], predictions: List[dict]):
         """
-        After a prediction, check if it's high-confidence enough to share.
-        This feeds the swarm — every DVCE prediction potentially generates
-        a pattern that helps other nodes.
+        After a prediction, queue it as a pattern if it clears the noise floor.
+
+        A queued pattern is one model output seen once (observation_count=1),
+        not a validated regularity, and no node currently consumes it.
         """
         if not predictions:
             return
@@ -188,7 +199,20 @@ class SwarmPredictor:
                 "token": os.environ["DVCE_BROKER_TOKEN"],
             }) + "\n"
             sock.sendall(msg.encode())
-            sock.recv(4096)  # ack
+            ack = sock.recv(4096)
+            try:
+                rejected = json.loads(ack.decode().strip() or "{}").get("type") == "rejected"
+            except (ValueError, AttributeError):
+                rejected = False
+            if rejected:
+                # Previously this was reported as a successful flush.
+                sock.close()
+                logger.warning(
+                    f"Broker rejected registration for '{self.node_id}' — "
+                    f"{len(patterns_to_send)} patterns NOT sent, kept in queue"
+                )
+                self._pattern_queue_list.extend(patterns_to_send)
+                return 0
 
             # Send patterns
             msg = json.dumps({
@@ -199,11 +223,14 @@ class SwarmPredictor:
             sock.sendall(msg.encode())
             sock.close()
 
-            logger.info(f"Flushed {len(patterns_to_send)} patterns to swarm")
+            logger.info(
+                f"Pushed {len(patterns_to_send)} queued patterns to the broker "
+                f"(stored and relayed; not confirmed as used by any node)"
+            )
             return len(patterns_to_send)
 
         except Exception as e:
-            logger.warning(f"Could not flush patterns to swarm: {e}")
+            logger.warning(f"Could not push patterns to the broker: {e}")
             # Put them back for next attempt
             self._pattern_queue_list.extend(patterns_to_send)
             return 0

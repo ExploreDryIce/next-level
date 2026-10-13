@@ -218,7 +218,7 @@ Source: github.com/public-apis/public-apis (curated June 2026)
 9. **URLhaus + NVD** → Cyber specialist (threat feeds)
 10. **UK Carbon Intensity + National Grid ESO** → Grid specialist
 
-### Phase 2: Free Key (Register `uppittylocker@proton.me` once)
+### Phase 2: Free Key (Register one project email once)
 
 11. **OpenWeatherMap** → Weather specialist (broader coverage)
 12. **Alpha Vantage** → Financial specialist (stock data)

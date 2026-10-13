@@ -4,7 +4,9 @@
 
 set -e
 
-REMOTE_USER="jwebber533@gmail.com"
+# The TerrorNode login is a personal account name, so it is not kept in this
+# (public) repo. Set TERRORNODE_SSH_USER in your shell before running.
+REMOTE_USER="${TERRORNODE_SSH_USER:?Set TERRORNODE_SSH_USER to the TerrorNode SSH login}"
 REMOTE_HOST="100.99.237.66"
 REMOTE_DIR="C:/Users/jwebb/swarm"
 

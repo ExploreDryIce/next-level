@@ -26,6 +26,16 @@ A network of specialized AI models on heterogeneous hardware that share anonymiz
 
 Each node runs a right-sized model for its hardware, shares patterns (not data) with the network, and routes queries to the most qualified specialist.
 
+> **Deployed status, 2026-10-13.** The paragraph above and "How It Works" below
+> describe the design. The running deployment does less: the broker is a relay
+> and heartbeat registry, a query returns the name of a node and forwards
+> nothing, nodes register and heartbeat but make no predictions and exchange no
+> model-derived patterns, and every prediction served by DVCE comes from one
+> local model. The "0.6ms" figure below is broker reply latency, not routed
+> inference. The offline experiments in "What's Been Proven" were run on split
+> datasets, not on the deployed network. See `docs/SWARM_QUERY_ROUTING.md` for
+> what has to be true before routing is built.
+
 ---
 
 ## What's Been Proven

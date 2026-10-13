@@ -179,8 +179,10 @@ class SwarmPredictor:
         if not self._pattern_queue_list:
             return 0
 
-        patterns_to_send = self._pattern_queue_list[:]
-        self._pattern_queue_list.clear()
+        # Swap rather than copy-then-clear: the snapshot refresh thread and a
+        # request can both be in predict(), and a pattern appended between the
+        # copy and the clear was silently dropped.
+        patterns_to_send, self._pattern_queue_list = self._pattern_queue_list, []
 
         try:
             import socket

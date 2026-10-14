@@ -35,8 +35,8 @@ A distributed AI prediction swarm — multiple specialized models on heterogeneo
 - TowerSeven: `@reboot` cron job
 
 ## SSH Access
-- TerrorNode: `sshpass -p '3614' ssh "jwebber533@gmail.com@100.99.237.66"`
-- TowerSeven: `sshpass -p 'jbooger33%' ssh webber@towerseven.local`
+- TerrorNode: key-based SSH as the TerrorNode login (set `TERRORNODE_SSH_USER`); no password here.
+- TowerSeven: `ssh webber@towerseven.local` (key-based); no password here.
 
 ## What to Build Next
 - Wire SwarmPredictor into DVCE's prediction_api.py

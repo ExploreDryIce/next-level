@@ -1,13 +1,19 @@
 """
-Swarm Node — the core runtime for a DVCE prediction node.
+Swarm Node — the runtime for one machine in the DVCE swarm.
 
-Each node:
-1. Loads a specialized model for its domain
-2. Runs predictions on incoming events
-3. Extracts patterns from successful predictions
-4. Shares patterns with peers via the message broker
-5. Incorporates foreign patterns to improve over time
-6. Advertises expertise scores for routing
+What a node does TODAY (verified 2026-10-13, see docs/SWARM_QUERY_ROUTING.md):
+1. Loads the trained checkpoint named in its config, or exits if that
+   checkpoint is configured but unusable. A node with no checkpoint configured
+   runs with NO model. It never runs on random weights.
+2. Registers with the broker and sends a heartbeat every gossip interval.
+
+What it does NOT do yet, although the methods exist:
+- Nothing calls predict(): the broker does not route queries to nodes.
+- Nothing calls extract_patterns() or send_patterns(): a node shares nothing.
+- Nothing reads patterns the broker relays: listen_for_patterns() is never
+  started, so foreign_patterns stays empty.
+- The expertise scores it advertises are configured constants (default 0.5),
+  not measured accuracy.
 
 This is the single script that runs on every machine in the swarm,
 configured differently per hardware/role.
@@ -15,18 +21,81 @@ configured differently per hardware/role.
 
 import asyncio
 import json
+import platform
 import time
 import logging
 from pathlib import Path
-from typing import Dict, List, Optional, Any
+from typing import Dict, List, Optional, Any, Tuple
 from dataclasses import dataclass, asdict
 
-import numpy as np
 import torch
 
 from config import NodeConfig
 
 logger = logging.getLogger(__name__)
+
+# Vocab used by pre-bundle checkpoints that ship without their own vocab.json.
+LEGACY_VOCAB_PATH = Path(__file__).parent.parent.parent / "experiments/models/vocab.json"
+
+# Dimensions for checkpoints that do not record their own architecture.
+LEGACY_MODEL_SIZES = {
+    "tiny":     {"d_model": 64,  "n_heads": 2, "n_layers": 2, "d_ff": 256,  "time_encoding_dim": 16},
+    "standard": {"d_model": 128, "n_heads": 4, "n_layers": 4, "d_ff": 512,  "time_encoding_dim": 32},
+    "large":    {"d_model": 256, "n_heads": 8, "n_layers": 4, "d_ff": 1024, "time_encoding_dim": 64},
+}
+_ARCH_KEYS = ("d_model", "n_heads", "n_layers", "d_ff", "time_encoding_dim")
+_SPECIAL_TOKENS = ("<PAD>", "<BOS>", "<EOS>", "<UNK>")
+
+
+class ModelNotLoadedError(RuntimeError):
+    """The node has no trained model: none configured, or the configured one is unusable."""
+
+
+def resolve_model_files(config: NodeConfig) -> Tuple[Optional[Path], Optional[Path]]:
+    """Return the (checkpoint, vocab) paths the config asks for.
+
+    (None, None) means no model is configured at all. Existence is not checked
+    here — a configured-but-missing file must surface as an error, not as
+    "no model configured".
+    """
+    explicit_vocab = Path(config.vocab_path).expanduser() if config.vocab_path else None
+    if config.model_path:
+        checkpoint = Path(config.model_path).expanduser()
+        sibling = checkpoint.parent / "vocab.json"
+        return checkpoint, explicit_vocab or (sibling if sibling.exists() else LEGACY_VOCAB_PATH)
+    model_dir = getattr(config, "model_dir", None)
+    if model_dir:
+        bundle = Path(model_dir).expanduser()
+        return bundle / "best_model.pt", explicit_vocab or bundle / "vocab.json"
+    return None, None
+
+
+def load_type_to_id(vocab_path: Path) -> Dict[str, int]:
+    """Read a vocab.json (flat {type: id} or nested {"type_to_id": {...}}).
+
+    The ids are the checkpoint's embedding rows, so they are taken exactly as
+    saved rather than re-assigned in file order.
+    """
+    data = json.loads(vocab_path.read_text())
+    raw = data["type_to_id"] if "type_to_id" in data else data
+    type_to_id = {str(k): int(v) for k, v in raw.items()}
+    if sorted(type_to_id.values()) != list(range(len(type_to_id))):
+        raise ModelNotLoadedError(f"{vocab_path}: token ids are not a contiguous 0..N-1 range")
+    missing = [t for t in _SPECIAL_TOKENS if t not in type_to_id]
+    if missing:
+        raise ModelNotLoadedError(f"{vocab_path}: special tokens missing: {missing}")
+    return type_to_id
+
+
+def architecture_for(saved_cfg: dict, model_size: str) -> Dict[str, int]:
+    """Model dimensions: the checkpoint's own if it recorded them, else the size table.
+
+    The production checkpoint (d_model=192, 6 heads, 6 layers) matches no entry
+    in the size table, which is why nodes could not load it.
+    """
+    if all(k in saved_cfg for k in _ARCH_KEYS):
+        return {k: int(saved_cfg[k]) for k in _ARCH_KEYS}
+    return dict(LEGACY_MODEL_SIZES[model_size])
 
 
 # ============================================================================
@@ -70,6 +139,9 @@ class SwarmNode:
         self.model = None
         self.tokenizer = None
         self.device = None
+        # Truth about the model, reported in status. Stays loaded=False unless
+        # trained weights were actually read from a checkpoint.
+        self.model_info: Dict[str, Any] = {"loaded": False, "checkpoint": None}
         self.local_patterns: List[Pattern] = []
         self.foreign_patterns: List[Pattern] = []
         self.expertise_scores: Dict[str, float] = {}
@@ -116,13 +188,18 @@ class SwarmNode:
         self.stats["uptime_start"] = time.time()
 
         logger.info(f"✅ Node {self.config.node_id} online")
-        logger.info(f"   Expertise: {self.expertise_scores}")
-
-        # Connect to broker and run
-        await asyncio.gather(
-            self.network.connect(),
-            self._main_loop(),
+        logger.info(f"   Model: {self._model_label()}")
+        logger.info(f"   Advertised expertise (configured, not measured): {self.expertise_scores}")
+        logger.info(
+            "   Role: heartbeat-only — no queries are routed to this node and it "
+            "neither sends nor reads patterns"
         )
+
+        # Register first, then heartbeat. Running both concurrently made the
+        # main loop see "not connected" on its first pass and register a second
+        # time, which the broker logs as a node_id collision at every start.
+        await self.network.connect()
+        await self._main_loop()
 
     async def stop(self):
         """Gracefully shut down the node."""
@@ -133,7 +210,42 @@ class SwarmNode:
     # ─── MODEL ───
 
     def _load_model(self):
-        """Load the prediction model based on config."""
+        """Load the trained checkpoint named in the config.
+
+        Raises ModelNotLoadedError if a checkpoint is configured but cannot be
+        loaded exactly. If none is configured the node keeps model=None. There
+        is no path that leaves a randomly initialised model in place.
+        """
+        # Expertise is advertised regardless of the model; it is a configured
+        # constant, not a measurement.
+        if self.config.expertise_scores:
+            self.expertise_scores = self.config.expertise_scores
+        else:
+            self.expertise_scores = {self.config.domain: 0.5}
+
+        checkpoint_path, vocab_path = resolve_model_files(self.config)
+        if checkpoint_path is None:
+            self.model = None
+            self.tokenizer = None
+            self.model_info = {"loaded": False, "checkpoint": None,
+                               "reason": "no checkpoint configured"}
+            logger.warning(
+                "   NO MODEL: no checkpoint is configured for this node. It will "
+                "register and heartbeat only; it cannot predict or extract patterns."
+            )
+            return
+
+        if not checkpoint_path.exists():
+            raise ModelNotLoadedError(
+                f"Checkpoint not found: {checkpoint_path}. Refusing to start with "
+                f"random weights. Restore the checkpoint, or point DVCE_NODE_MODEL_DIR "
+                f"/ the node config at a directory holding best_model.pt + vocab.json."
+            )
+        if not vocab_path.exists():
+            raise ModelNotLoadedError(
+                f"Vocabulary not found: {vocab_path} (needed by {checkpoint_path})."
+            )
+
         import sys
         # Add local directory to path (for remote nodes with dvce copied locally)
         local_dir = str(Path(__file__).parent)
@@ -148,56 +260,47 @@ class SwarmNode:
         from dvce.services.event_prediction.torch_model import (
             EventTransformerTorch, TorchModelConfig
         )
-        from dvce.services.event_prediction.tokenizer import EventTokenizer
+        from dvce.services.event_prediction.tokenizer import EventTokenizer, EventVocabulary
 
-        # Model dimensions per size
-        sizes = {
-            "tiny":     {"d_model": 64,  "n_heads": 2, "n_layers": 2, "d_ff": 256,  "time_dim": 16},
-            "standard": {"d_model": 128, "n_heads": 4, "n_layers": 4, "d_ff": 512,  "time_dim": 32},
-            "large":    {"d_model": 256, "n_heads": 8, "n_layers": 4, "d_ff": 1024, "time_dim": 64},
-        }
-        s = sizes[self.config.model_size]
+        type_to_id = load_type_to_id(vocab_path)
 
-        # Load vocab
-        vocab_path = self.config.vocab_path or str(
-            Path(__file__).parent.parent.parent / "experiments/models/vocab.json"
+        # Read the checkpoint first: its saved config decides the architecture
+        # and whether the decoder's cross-attention is causally masked
+        # (causal_memory). A checkpoint trained with the mask must run with it,
+        # and one trained without must run without, or predictions silently change.
+        checkpoint = torch.load(str(checkpoint_path), map_location=self.device)
+        if not isinstance(checkpoint, dict) or "model_state_dict" not in checkpoint:
+            raise ModelNotLoadedError(f"{checkpoint_path}: no model_state_dict in checkpoint")
+        state_dict = checkpoint["model_state_dict"]
+        saved_cfg = checkpoint.get("config") or {}
+
+        embedding_rows = state_dict["event_embed.weight"].shape[0]
+        if embedding_rows != len(type_to_id):
+            raise ModelNotLoadedError(
+                f"Vocabulary/checkpoint mismatch: {vocab_path} has {len(type_to_id)} "
+                f"types but {checkpoint_path} was trained on {embedding_rows}."
+            )
+
+        context_dim = int(saved_cfg.get("context_dim", 64))
+        max_seq_len = int(saved_cfg.get("max_seq_len", 256))
+
+        vocabulary = EventVocabulary()
+        vocabulary._type_to_id = dict(type_to_id)
+        vocabulary._id_to_type = {v: k for k, v in type_to_id.items()}
+        vocabulary.freeze()
+        self.tokenizer = EventTokenizer(
+            vocabulary=vocabulary, context_dim=context_dim, max_sequence_length=max_seq_len
         )
-
-        self.tokenizer = EventTokenizer(context_dim=64, max_sequence_length=256)
-        if Path(vocab_path).exists():
-            import json as _json
-            vocab_data = _json.loads(Path(vocab_path).read_text())
-            # Handle both formats: flat dict or nested {"type_to_id": {...}}
-            if "type_to_id" in vocab_data:
-                type_to_id = vocab_data["type_to_id"]
-            else:
-                type_to_id = vocab_data
-            for event_type in type_to_id:
-                self.tokenizer.vocabulary.encode(event_type)
-            self.tokenizer.vocabulary.freeze()
-            logger.info(f"   Vocabulary: {self.tokenizer.vocabulary.size} types")
-
-        # Read the checkpoint first: its saved config decides whether the
-        # decoder's cross-attention is causally masked (causal_memory). A
-        # checkpoint trained with the mask must run with it, and one trained
-        # without must run without, or predictions silently change.
-        checkpoint = None
-        if self.config.model_path and Path(self.config.model_path).exists():
-            checkpoint = torch.load(self.config.model_path, map_location=self.device)
-        saved_cfg = (checkpoint or {}).get("config") or {}
+        logger.info(f"   Vocabulary: {vocabulary.size} types from {vocab_path}")
 
         # Build model
         config = TorchModelConfig(
-            vocab_size=self.tokenizer.vocabulary.size,
-            context_dim=64,
-            d_model=s["d_model"],
-            n_heads=s["n_heads"],
-            n_layers=s["n_layers"],
-            d_ff=s["d_ff"],
+            vocab_size=len(type_to_id),
+            context_dim=context_dim,
             dropout=0.1,
-            max_seq_len=256,
-            time_encoding_dim=s["time_dim"],
+            max_seq_len=max_seq_len,
             learning_rate=3e-4,
+            **architecture_for(saved_cfg, self.config.model_size),
             # Only passed when on: a node whose bundled torch_model.py predates
             # the field must still load legacy checkpoints, but must fail
             # loudly (TypeError) rather than silently run a causal-trained
@@ -205,28 +308,55 @@ class SwarmNode:
             **({"causal_memory": True} if saved_cfg.get("causal_memory") else {}),
         )
 
-        self.model = EventTransformerTorch(config)
+        model = EventTransformerTorch(config)
+        try:
+            model.load_state_dict(state_dict)
+        except RuntimeError as e:
+            raise ModelNotLoadedError(
+                f"{checkpoint_path} does not fit the model built for it "
+                f"(d_model={config.d_model}, layers={config.n_layers}): {e}"
+            ) from e
 
-        if checkpoint is not None:
-            self.model.load_state_dict(checkpoint["model_state_dict"])
-            logger.info(f"   Loaded checkpoint: {self.config.model_path}")
-
-        self.model.to(self.device)
-        self.model.eval()
+        model.to(self.device)
+        model.eval()
+        self.model = model
 
         total_params = sum(p.numel() for p in self.model.parameters())
+        self.model_info = {
+            "loaded": True,
+            "checkpoint": str(checkpoint_path),
+            "vocab_size": len(type_to_id),
+            "params": total_params,
+            "causal_memory": bool(saved_cfg.get("causal_memory")),
+        }
+        logger.info(f"   Loaded checkpoint: {checkpoint_path}")
         logger.info(f"   Model: {total_params:,} params on {self.device}")
 
-        # Load expertise scores
-        if self.config.expertise_scores:
-            self.expertise_scores = self.config.expertise_scores
-        else:
-            self.expertise_scores = {self.config.domain: 0.5}
+    def _model_label(self) -> str:
+        """One-line description of the model for logs."""
+        if not self.model_info.get("loaded"):
+            return "none"
+        return (
+            f"trained checkpoint {self.model_info['checkpoint']} "
+            f"({self.model_info['vocab_size']} types, {self.model_info['params']:,} params)"
+        )
+
+    def _require_model(self):
+        if self.model is None:
+            raise ModelNotLoadedError(
+                f"Node {self.config.node_id} has no model loaded "
+                f"({self.model_info.get('reason', 'not started')})."
+            )
 
     # ─── PREDICTION ───
 
     def predict(self, event_sequence: List[Dict[str, Any]], top_k: int = 5) -> List[Dict]:
-        """Run prediction on an event sequence. Returns top-K next event predictions."""
+        """Run prediction on an event sequence. Returns top-K next event predictions.
+
+        Raises ModelNotLoadedError if the node has no trained model. Nothing in
+        the swarm calls this yet (there is no query routing).
+        """
+        self._require_model()
         from dvce.services.event_prediction.torch_trainer import (
             EventSequenceTorchDataset, collate_fn
         )
@@ -242,6 +372,8 @@ class SwarmNode:
                 batch["severities"], batch["context_vectors"],
                 batch["attention_mask"], top_k=top_k,
             )
+            for p in predictions:
+                p["event_type"] = self.tokenizer.vocabulary.decode(p["event_type_id"])
 
             self.stats["predictions_made"] += 1
             return predictions
@@ -253,7 +385,12 @@ class SwarmNode:
     # ─── PATTERN EXTRACTION ───
 
     def extract_patterns(self, sequences: List[List[Dict]]) -> List[Pattern]:
-        """Extract shareable patterns from successful predictions."""
+        """Extract shareable patterns from the model's confident next-event calls.
+
+        Raises ModelNotLoadedError if the node has no trained model. Nothing
+        calls this yet, so a running node extracts no patterns.
+        """
+        self._require_model()
         from dvce.services.event_prediction.torch_trainer import (
             EventSequenceTorchDataset, collate_fn
         )
@@ -381,7 +518,12 @@ class SwarmNode:
             "domain": self.config.domain,
             "device": self.device,
             "model_size": self.config.model_size,
+            "model_loaded": bool(self.model_info.get("loaded")),
+            "model_checkpoint": self.model_info.get("checkpoint"),
+            "model_vocab_size": self.model_info.get("vocab_size"),
+            "role": "heartbeat-only",
             "expertise_scores": self.expertise_scores,
+            "expertise_measured": False,
             "local_patterns": len(self.local_patterns),
             "foreign_patterns": len(self.foreign_patterns),
             "predictions_made": self.stats["predictions_made"],
@@ -423,6 +565,8 @@ class SwarmNode:
                 status = self.get_status()
                 logger.info(
                     f"[{self.config.node_id}] "
+                    f"role={status['role']} "
+                    f"model={'trained' if status['model_loaded'] else 'none'} "
                     f"predictions={status['predictions_made']} "
                     f"patterns_local={status['local_patterns']} "
                     f"patterns_foreign={status['foreign_patterns']} "
@@ -490,9 +634,12 @@ def main():
 
     # Create and start node
     node = SwarmNode(config)
-    asyncio.run(node.start())
+    try:
+        asyncio.run(node.start())
+    except ModelNotLoadedError as e:
+        logger.critical(f"❌ Node {config.node_id} NOT started — no trained model: {e}")
+        raise SystemExit(2)
 
 
 if __name__ == "__main__":
-    import platform
     main()

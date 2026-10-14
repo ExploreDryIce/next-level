@@ -6,10 +6,16 @@ relays patterns between nodes. In Phase 3+, this becomes NATS JetStream.
 
 For now: a simple async TCP server that:
 1. Accepts connections from nodes
-2. Receives patterns from any node  
-3. Broadcasts relevant patterns to other nodes
+2. Receives whatever registered clients push (raw feed events and sequence
+   patterns alike) and stores it in one pool
+3. Relays those items to the other connected nodes
 4. Tracks node health (heartbeats)
-5. Maintains the expertise routing table
+5. Records the expertise scores nodes declare about themselves
+
+What it does not do: it runs no model, it does not check that a pushed item
+was learned by anything, and it does not route queries. A `query` message gets
+back the name of the node with the highest self-declared score; the query is
+not forwarded and no prediction is returned. See docs/SWARM_QUERY_ROUTING.md.
 
 Protocol: JSON over TCP (simple, debuggable, upgradeable to NATS later)
 """
@@ -125,22 +131,25 @@ SOCKET_READ_TIMEOUT = 120.0   # seconds with no traffic before we re-check healt
 NODE_STALE_AFTER = 300.0      # seconds without a heartbeat before we drop a node
 CLEANUP_INTERVAL = 60.0       # seconds between reaping sweeps
 
-# SMS alert via AT&T email-to-SMS gateway
-SMS_GATEWAY = "8657769193@txt.att.net"
+# SMS alerts go to a carrier email-to-SMS address (e.g. <number>@txt.att.net).
+# The recipient is personal data, so it is read from the environment and never
+# kept in this (public) repo. Unset means SMS alerting is off.
+SMS_ALERT_ENV = "DVCE_ALERT_SMS_TO"
 ALERT_FROM = "alerts@dvce.io"
 
 
 def _send_sms_alert(message: str):
-    """Send SMS alert via email-to-SMS gateway."""
+    """Send SMS alert via email-to-SMS gateway. Log-only if not configured."""
     try:
-        msg = MIMEText(message)
-        msg["From"] = ALERT_FROM
-        msg["To"] = SMS_GATEWAY
-        msg["Subject"] = "DVCE"
+        recipient = os.environ.get(SMS_ALERT_ENV, "").strip()
         # Use Gmail SMTP (requires app password in env)
         gmail_user = os.environ.get("GMAIL_USER", "")
         gmail_pass = os.environ.get("GMAIL_APP_PASSWORD", "")
-        if gmail_user and gmail_pass:
+        if recipient and gmail_user and gmail_pass:
+            msg = MIMEText(message)
+            msg["From"] = ALERT_FROM
+            msg["To"] = recipient
+            msg["Subject"] = "DVCE"
             with smtplib.SMTP("smtp.gmail.com", 587) as server:
                 server.starttls()
                 server.login(gmail_user, gmail_pass)
@@ -151,6 +160,22 @@ def _send_sms_alert(message: str):
             logger.warning(f"🚨 ALERT (no SMS config): {message}")
     except Exception as e:
         logger.error(f"SMS alert failed: {e}")
+
+
+# What the broker can and cannot do, reported verbatim in `status` so a
+# dashboard cannot mistake a relay for a learning system.
+BROKER_CAPABILITIES = {
+    "relay": True,
+    "query_routing": False,
+    "model_inference": False,
+    "expertise_scores": "self-declared by each node, not measured",
+    "patterns_sent": "written to the node's socket; delivery and use are not confirmed",
+    "pattern_pool": "everything registered clients pushed; see pattern_pool_breakdown",
+}
+QUERY_NOT_FORWARDED_NOTE = (
+    "advisory only: names the node with the highest self-declared score; "
+    "the query is not forwarded and no prediction is returned"
+)
 
 
 @dataclass
@@ -227,7 +252,8 @@ class PatternBroker:
         logger.info(f"🌐 Pattern Broker running on {addr[0]}:{addr[1]}")
         logger.info(f"   Pattern store: {self._store_path} ({len(self.pattern_pool)} patterns loaded)")
         logger.info(f"   NATS bridge: {'connected' if self._nats_connected else 'unavailable (TCP only)'}")
-        logger.info(f"   Waiting for swarm nodes to connect...")
+        logger.info("   Role: relay + heartbeat registry only (no model, no query routing)")
+        logger.info("   Waiting for swarm nodes to connect...")
 
         # Start periodic tasks
         asyncio.create_task(self._periodic_save())
@@ -398,7 +424,7 @@ class PatternBroker:
                     node_info.expertise_scores = message.get("expertise_scores", node_info.expertise_scores)
 
                 elif msg_type == "query":
-                    # Route a prediction query to the best node
+                    # Advisory only: names a node, forwards nothing (see _route_query)
                     query_domain = message.get("domain", "")
                     response = await self._route_query(message, query_domain)
                     writer.write((json.dumps(response) + "\n").encode())
@@ -467,7 +493,12 @@ class PatternBroker:
                 logger.warning(f"   Failed to send to {node_id}: {e}")
 
     async def _route_query(self, query: dict, domain: str) -> dict:
-        """Route a prediction query to the best-suited node."""
+        """Name the node with the highest self-declared score for a domain.
+
+        This does not route anything: the query is not sent to that node and no
+        prediction comes back. The scores are whatever each node put in its
+        register/heartbeat message (0.5 by default), not measured accuracy.
+        """
         best_node = None
         best_score = 0.0
 
@@ -483,16 +514,44 @@ class PatternBroker:
                 "routed_to": best_node.node_id,
                 "expertise_score": best_score,
                 "domain": domain,
+                "forwarded": False,
+                "note": QUERY_NOT_FORWARDED_NOTE,
             }
         else:
             return {
                 "type": "route",
                 "routed_to": None,
                 "error": f"No node with expertise in '{domain}'",
+                "forwarded": False,
+                "note": QUERY_NOT_FORWARDED_NOTE,
             }
 
+    def _pool_breakdown(self) -> dict:
+        """What the pool actually holds, by shape and by who pushed it.
+
+        `pattern_pool_size` counts everything any registered client pushed.
+        Only items with a `sequence` are patterns in the swarm sense (context
+        events → next event); the rest are single raw feed events.
+        """
+        sequence_patterns = 0
+        by_source: Dict[str, int] = {}
+        for p in self.pattern_pool:
+            if isinstance(p.get("sequence"), list):
+                sequence_patterns += 1
+            source = str(p.get("source_node") or p.get("source") or "unknown")
+            by_source[source] = by_source.get(source, 0) + 1
+        return {
+            "sequence_patterns": sequence_patterns,
+            "raw_events": len(self.pattern_pool) - sequence_patterns,
+            "by_declared_source": by_source,
+        }
+
     def _get_status(self) -> dict:
-        """Get broker status."""
+        """Get broker status.
+
+        Existing keys are kept for the tools that read them; `capabilities`
+        and `pattern_pool_breakdown` say what those numbers do and do not mean.
+        """
         uptime = time.time() - self.stats["start_time"]
         status = {
             "type": "broker_status",
@@ -501,11 +560,14 @@ class PatternBroker:
             "pattern_pool_size": len(self.pattern_pool),
             "total_patterns_relayed": self.stats["total_patterns_relayed"],
             "pattern_store_path": str(self._store_path),
+            "pattern_pool_breakdown": self._pool_breakdown(),
+            "capabilities": dict(BROKER_CAPABILITIES),
             "nodes": [
                 {
                     "node_id": n.node_id,
                     "domain": n.domain,
                     "expertise": n.expertise_scores,
+                    "expertise_measured": False,
                     "patterns_received": n.patterns_received,
                     "patterns_sent": n.patterns_sent,
                     "last_heartbeat_ago": int(time.time() - n.last_heartbeat),

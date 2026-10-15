@@ -606,7 +606,11 @@ class SwarmNode:
 # ============================================================================
 
 def setup_logging(log_file: Optional[str] = None) -> None:
-    """Log to stderr, and to a rotating file when one is given (service mode)."""
+    """Log to stderr; in service mode (a log file given) INFO goes to a rotating file.
+
+    With a log file, stderr only carries warnings and errors: service managers
+    (launchd, Task Scheduler redirects) capture stderr into files nobody rotates.
+    """
     from logging.handlers import RotatingFileHandler
 
     fmt = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
@@ -614,6 +618,8 @@ def setup_logging(log_file: Optional[str] = None) -> None:
     root.setLevel(logging.INFO)
     stream = logging.StreamHandler()
     stream.setFormatter(fmt)
+    if log_file:
+        stream.setLevel(logging.WARNING)
     root.addHandler(stream)
     if log_file:
         path = Path(log_file).expanduser()

@@ -288,6 +288,8 @@ def test_log_file_is_rotated(tmp_path):
         logging.getLogger("swarm_node").info("hello from the node")
         rotating[0].flush()
         assert "hello from the node" in log.read_text()
+        streams = [h for h in added if type(h) is logging.StreamHandler]
+        assert [h.level for h in streams] == [logging.WARNING]   # service stderr stays quiet
     finally:
         for h in list(root.handlers):
             if h not in before:

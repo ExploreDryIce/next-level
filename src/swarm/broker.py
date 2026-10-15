@@ -27,9 +27,10 @@ import time
 import logging
 import os
 import smtplib
+from collections import deque
 from email.mime.text import MIMEText
 from pathlib import Path
-from typing import Dict, List, Set
+from typing import Callable, Deque, Dict, List, Optional, Tuple
 from dataclasses import dataclass, field
 
 logger = logging.getLogger(__name__)
@@ -131,6 +132,22 @@ SOCKET_READ_TIMEOUT = 120.0   # seconds with no traffic before we re-check healt
 NODE_STALE_AFTER = 300.0      # seconds without a heartbeat before we drop a node
 CLEANUP_INTERVAL = 60.0       # seconds between reaping sweeps
 
+# ═══════════════════════════════════════════════════════════════
+# OUTBOUND FLOW CONTROL — a slow reader must only hurt itself
+# ═══════════════════════════════════════════════════════════════
+# Until 2026-10-15 a relay was written and drained inline, inside the handler
+# of the node that PUSHED the patterns. A recipient that never read its socket
+# (every swarm node did: listen_for_patterns() was never started) filled its
+# buffers, drain() never returned, and the pusher's handler stopped reading the
+# pusher's own messages and heartbeats; every later relay queued behind it.
+# Now each registered node has its own bounded outbound queue drained by its
+# own writer task. Relays that do not fit are dropped and counted.
+OUTBOUND_MAX_MESSAGES = 1000            # queued messages per node
+OUTBOUND_MAX_BYTES = 8 * 1024 * 1024    # queued bytes per node
+DIRECT_SEND_TIMEOUT = 10.0              # drain bound for replies to unregistered peers
+CLOSE_TIMEOUT = 5.0                     # graceful close bound before abort()
+DROP_LOG_EVERY = 100                    # log every Nth dropped relay per node
+
 # SMS alerts go to a carrier email-to-SMS address (e.g. <number>@txt.att.net).
 # The recipient is personal data, so it is read from the environment and never
 # kept in this (public) repo. Unset means SMS alerting is off.
@@ -188,6 +205,71 @@ class ConnectedNode:
     last_heartbeat: float = 0.0
     patterns_received: int = 0
     patterns_sent: int = 0
+    # Outbound flow control (see OUTBOUND_* above). The queue holds
+    # (encoded_line, n_patterns) and is drained only by this node's writer task.
+    outbound: Deque[Tuple[bytes, int]] = field(default_factory=deque)
+    outbound_bytes: int = 0
+    messages_dropped: int = 0
+    patterns_dropped: int = 0
+    _wakeup: Optional[asyncio.Event] = None
+    _writer_task: Optional[asyncio.Task] = None
+
+    def enqueue(self, line: bytes, n_patterns: int = 0, control: bool = False) -> bool:
+        """Queue a line for this node without ever waiting on its socket.
+
+        Relays that would push the queue past its bounds are dropped and
+        counted. Control replies (ack, status, query) are always queued; they
+        are tiny and only sent in answer to the node's own request.
+        """
+        if not control and (
+            len(self.outbound) >= OUTBOUND_MAX_MESSAGES
+            or self.outbound_bytes + len(line) > OUTBOUND_MAX_BYTES
+        ):
+            self.messages_dropped += 1
+            self.patterns_dropped += n_patterns
+            if self.messages_dropped == 1 or self.messages_dropped % DROP_LOG_EVERY == 0:
+                logger.warning(
+                    f"   🐢 {self.node_id} is not keeping up with relays: dropped "
+                    f"{self.messages_dropped} messages ({self.patterns_dropped} patterns) so far; "
+                    f"queued={len(self.outbound)} msgs / {self.outbound_bytes} bytes"
+                )
+            return False
+        self.outbound.append((line, n_patterns))
+        self.outbound_bytes += len(line)
+        if self._wakeup is not None:
+            self._wakeup.set()
+        return True
+
+    def start_writer(self, on_sent: Callable[[int], None]) -> None:
+        """Start the task that drains `outbound` into this node's socket."""
+        self._wakeup = asyncio.Event()
+        if self.outbound:
+            self._wakeup.set()
+        self._writer_task = asyncio.create_task(self._write_loop(on_sent))
+
+    def stop_writer(self) -> None:
+        if self._writer_task is not None and not self._writer_task.done():
+            self._writer_task.cancel()
+
+    async def _write_loop(self, on_sent: Callable[[int], None]) -> None:
+        try:
+            while True:
+                await self._wakeup.wait()
+                self._wakeup.clear()
+                while self.outbound:
+                    line, n_patterns = self.outbound.popleft()
+                    self.outbound_bytes -= len(line)
+                    self.writer.write(line)
+                    # Only this task waits here. A node that stops reading
+                    # stalls its own queue; nothing else in the broker waits.
+                    await self.writer.drain()
+                    if n_patterns:
+                        self.patterns_sent += n_patterns
+                        on_sent(n_patterns)
+        except asyncio.CancelledError:
+            raise
+        except (ConnectionError, OSError, RuntimeError) as e:
+            logger.info(f"   Writer for {self.node_id} stopped: {e.__class__.__name__}: {e}")
 
 
 class PatternBroker:
@@ -212,6 +294,10 @@ class PatternBroker:
             "total_connections": 0,
             "start_time": 0,
         }
+        # start() sets this for real; handlers read it, so it must exist even
+        # when a test drives _handle_connection without start().
+        self._nats_connected = False
+        self._nats = None
 
         # Persistence
         self._store_path = Path.home() / ".dvce" / "swarm" / "pattern_store.json"
@@ -313,8 +399,7 @@ class PatternBroker:
                             f"— register with a valid token first"
                         )
                         reject = {"type": "rejected", "reason": "not authenticated"}
-                        writer.write((json.dumps(reject) + "\n").encode())
-                        await writer.drain()
+                        await self._send_direct(writer, reject)
                         break
 
                 if msg_type == "register":
@@ -331,8 +416,7 @@ class PatternBroker:
                         
                         # Reject
                         reject = {"type": "rejected", "reason": "invalid token"}
-                        writer.write((json.dumps(reject) + "\n").encode())
-                        await writer.drain()
+                        await self._send_direct(writer, reject)
                         break
                     
                     if token != BROKER_AUTH_TOKEN:
@@ -360,7 +444,10 @@ class PatternBroker:
                             f"{message.get('domain')}. Give each process a unique node_id."
                         )
 
-                    # Node registering itself
+                    # Node registering itself. A second register on the same
+                    # connection replaces its entry; stop the old writer first.
+                    if node_info is not None:
+                        node_info.stop_writer()
                     node_info = ConnectedNode(
                         node_id=message["node_id"],
                         domain=message["domain"],
@@ -383,8 +470,8 @@ class PatternBroker:
                             for n in self.nodes.values()
                         ],
                     }
-                    writer.write((json.dumps(ack) + "\n").encode())
-                    await writer.drain()
+                    node_info.start_writer(self._count_relayed)
+                    node_info.enqueue((json.dumps(ack) + "\n").encode(), control=True)
 
                 elif msg_type == "patterns":
                     # Node sharing patterns
@@ -427,35 +514,36 @@ class PatternBroker:
                     # Advisory only: names a node, forwards nothing (see _route_query)
                     query_domain = message.get("domain", "")
                     response = await self._route_query(message, query_domain)
-                    writer.write((json.dumps(response) + "\n").encode())
-                    await writer.drain()
+                    node_info.enqueue((json.dumps(response) + "\n").encode(), control=True)
 
                 elif msg_type == "status":
                     # Return broker status
                     status = self._get_status()
-                    writer.write((json.dumps(status) + "\n").encode())
-                    await writer.drain()
+                    if node_info is not None:
+                        node_info.enqueue((json.dumps(status) + "\n").encode(), control=True)
+                    else:
+                        # Loopback control tool that never registered.
+                        await self._send_direct(writer, status)
 
         except (asyncio.IncompleteReadError, ConnectionResetError, json.JSONDecodeError) as e:
             logger.info(f"   Connection closed: {addr} ({e.__class__.__name__})")
+        except ValueError as e:
+            # readline() raises ValueError for a line over the stream limit.
+            logger.info(f"   Connection closed: {addr} (oversized line: {e})")
         finally:
+            if node_info is not None:
+                node_info.stop_writer()
             # Only drop the entry if it still points at THIS connection. Two
             # processes registering under one node_id would otherwise evict a
             # live node the moment the duplicate hangs up.
             if node_info and self.nodes.get(node_info.node_id) is node_info:
                 del self.nodes[node_info.node_id]
                 logger.info(f"   ❌ Node disconnected: {node_info.node_id}")
-            writer.close()
-            # close() only schedules teardown; without awaiting it the socket
-            # can linger in ESTABLISHED and keep its descriptor allocated.
-            try:
-                await writer.wait_closed()
-            except (ConnectionResetError, BrokenPipeError, OSError):
-                pass
+            await self._close_writer(writer)
 
     async def _broadcast_patterns(self, patterns: List[dict], exclude_node: str):
-        """Send patterns to all connected nodes except the source.
-        
+        """Queue patterns for all connected nodes except the source.
+
         Applies pattern quality scoring to filter out proven-bad patterns
         before relaying to each node's domain.
         """
@@ -478,19 +566,47 @@ class PatternBroker:
             if not patterns_to_send:
                 continue
 
-            message = json.dumps({
+            line = (json.dumps({
                 "type": "patterns",
                 "patterns": patterns_to_send,
                 "source": "broker",
-            }) + "\n"
+            }) + "\n").encode()
 
-            try:
-                node.writer.write(message.encode())
-                await node.writer.drain()
-                node.patterns_sent += len(patterns_to_send)
-                self.stats["total_patterns_relayed"] += len(patterns_to_send)
-            except Exception as e:
-                logger.warning(f"   Failed to send to {node_id}: {e}")
+            # Never awaits the recipient's socket: the line goes on that node's
+            # bounded queue, or is dropped and counted if the node is behind.
+            node.enqueue(line, n_patterns=len(patterns_to_send))
+
+    def _count_relayed(self, n_patterns: int) -> None:
+        self.stats["total_patterns_relayed"] += n_patterns
+
+    @staticmethod
+    async def _send_direct(writer: asyncio.StreamWriter, message: dict) -> None:
+        """Reply to a peer that has no outbound queue (it never registered).
+
+        Bounded: a peer that does not read cannot hold the handler for longer
+        than DIRECT_SEND_TIMEOUT.
+        """
+        writer.write((json.dumps(message) + "\n").encode())
+        try:
+            await asyncio.wait_for(writer.drain(), timeout=DIRECT_SEND_TIMEOUT)
+        except (asyncio.TimeoutError, ConnectionError, OSError):
+            pass
+
+    @staticmethod
+    async def _close_writer(writer: asyncio.StreamWriter) -> None:
+        """Close a connection; abort it if unsent data keeps it from closing.
+
+        close() only schedules teardown and waits for the send buffer to flush,
+        which never happens for a peer that stopped reading; the socket would
+        linger in ESTABLISHED holding its descriptor.
+        """
+        writer.close()
+        try:
+            await asyncio.wait_for(writer.wait_closed(), timeout=CLOSE_TIMEOUT)
+        except asyncio.TimeoutError:
+            writer.transport.abort()
+        except (ConnectionResetError, BrokenPipeError, OSError):
+            pass
 
     async def _route_query(self, query: dict, domain: str) -> dict:
         """Name the node with the highest self-declared score for a domain.
@@ -571,6 +687,9 @@ class PatternBroker:
                     "patterns_received": n.patterns_received,
                     "patterns_sent": n.patterns_sent,
                     "last_heartbeat_ago": int(time.time() - n.last_heartbeat),
+                    "messages_dropped": n.messages_dropped,
+                    "patterns_dropped": n.patterns_dropped,
+                    "outbound_queued": len(n.outbound),
                 }
                 for n in self.nodes.values()
             ],
@@ -639,9 +758,12 @@ class PatternBroker:
             ]
             for node_id in stale:
                 node = self.nodes.pop(node_id)
+                node.stop_writer()
                 try:
-                    node.writer.close()
-                except (ConnectionResetError, BrokenPipeError, OSError):
+                    # abort, not close: a stale node usually has unsent data
+                    # queued, and close() would wait for it forever.
+                    node.writer.transport.abort()
+                except (ConnectionResetError, BrokenPipeError, OSError, AttributeError):
                     pass
                 logger.info(f"   🧹 Reaped stale node: {node_id}")
 

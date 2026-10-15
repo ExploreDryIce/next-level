@@ -7,8 +7,8 @@ Written 2026-10-13.
 
 | Piece | What it really does |
 |---|---|
-| `src/swarm/broker.py` | TCP relay and heartbeat registry. Stores whatever registered clients push and relays it to connected nodes. A `query` message returns the name of the node with the highest self-declared score; the query is not forwarded and no prediction comes back. |
-| `src/node/swarm_node.py` | Loads its configured checkpoint (or holds no model), registers, heartbeats. `predict()` and `extract_patterns()` exist but nothing calls them. It never reads its socket after registering, so relayed patterns are never consumed. |
+| `src/swarm/broker.py` | TCP relay and heartbeat registry. Stores whatever registered clients push and relays it to connected nodes through a bounded per-node queue; relays a slow node cannot take are dropped and counted (`messages_dropped` in status). A `query` message returns the name of the node with the highest self-declared score; the query is not forwarded and no prediction comes back. |
+| `src/node/swarm_node.py` | Loads its configured checkpoint (or holds no model), registers, heartbeats. `predict()` and `extract_patterns()` exist but nothing calls them. A reader task drains its socket for the life of each connection; relayed patterns are counted and discarded, not used. |
 | `src/integrations/dvce_swarm_bridge.py` | `SwarmPredictor` answers every prediction with the local `EventPredictor`. It queues single-observation patterns and pushes them to the broker. |
 | Expertise scores | A constant each node puts in its own register message (default `{domain: 0.5}`). Not measured. |
 | Node domains | `financial`, `tech`, `grid`, `comms`. These are not the model's domains, which are the vocabulary prefixes `br hw cx sc gp fn wx cy`. |
@@ -100,7 +100,7 @@ A node is not eligible to receive queries until all of these hold:
 ## Order of work
 
 1. Shared held-out set and a script that writes measured per-prefix scores for a checkpoint.
-2. Node: reader loop, reference-encoder `predict`, `query`/`answer` messages.
+2. Node: reader loop (done 2026-10-15: drains and discards), reference-encoder `predict`, `query`/`answer` messages.
 3. Broker: store measured scores, forward `query`, relay `answer` by `query_id`.
 4. Bridge: speculative local inference plus the routing rule, behind a flag that defaults to off.
 5. Turn the flag on only after a specialist passes items 1–9 above.

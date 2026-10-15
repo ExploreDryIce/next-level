@@ -5,13 +5,16 @@ What a node does TODAY (verified 2026-10-13, see docs/SWARM_QUERY_ROUTING.md):
 1. Loads the trained checkpoint named in its config, or exits if that
    checkpoint is configured but unusable. A node with no checkpoint configured
    runs with NO model. It never runs on random weights.
-2. Registers with the broker and sends a heartbeat every gossip interval.
+2. Registers with the broker once and sends a heartbeat every
+   min(gossip interval, HEARTBEAT_MAX_INTERVAL) seconds.
+3. Reads its socket continuously (network.py reader task) so the broker's
+   relays never back up; relayed patterns are counted and discarded.
+4. Reconnects with exponential backoff when the connection really drops.
 
 What it does NOT do yet, although the methods exist:
 - Nothing calls predict(): the broker does not route queries to nodes.
 - Nothing calls extract_patterns() or send_patterns(): a node shares nothing.
-- Nothing reads patterns the broker relays: listen_for_patterns() is never
-  started, so foreign_patterns stays empty.
+- Relayed patterns are not stored or used, so foreign_patterns stays empty.
 - The expertise scores it advertises are configured constants (default 0.5),
   not measured accuracy.
 
@@ -21,6 +24,7 @@ configured differently per hardware/role.
 
 import asyncio
 import json
+import os
 import platform
 import time
 import logging
@@ -33,6 +37,15 @@ import torch
 from config import NodeConfig
 
 logger = logging.getLogger(__name__)
+
+# The broker drops a node after NODE_STALE_AFTER (300 s) without a heartbeat.
+# TowerSeven's gossip interval is 300 s, so heartbeating on the gossip interval
+# alone put it right on that edge; heartbeats are capped well below it.
+HEARTBEAT_MAX_INTERVAL = 60
+
+LOG_FILE_ENV = "DVCE_NODE_LOG_FILE"
+LOG_MAX_BYTES = 10 * 1024 * 1024
+LOG_BACKUPS = 5
 
 # Vocab used by pre-bundle checkpoints that ship without their own vocab.json.
 LEGACY_VOCAB_PATH = Path(__file__).parent.parent.parent / "experiments/models/vocab.json"
@@ -180,7 +193,9 @@ class SwarmNode:
             broker_host=self.config.broker_host,
             broker_port=self.config.broker_port,
             expertise_scores=self.expertise_scores,
-            on_patterns_received=self.receive_patterns,
+            # No callback: relayed patterns are drained and counted, not kept.
+            # Storing them would grow memory without bound and nothing uses them.
+            on_patterns_received=None,
         )
 
         # Start main loop
@@ -191,15 +206,19 @@ class SwarmNode:
         logger.info(f"   Model: {self._model_label()}")
         logger.info(f"   Advertised expertise (configured, not measured): {self.expertise_scores}")
         logger.info(
-            "   Role: heartbeat-only — no queries are routed to this node and it "
-            "neither sends nor reads patterns"
+            "   Role: heartbeat-only — no queries are routed to this node; it sends "
+            "no patterns and discards the ones the broker relays"
         )
 
         # Register first, then heartbeat. Running both concurrently made the
         # main loop see "not connected" on its first pass and register a second
         # time, which the broker logs as a node_id collision at every start.
+        # connect() is also serialised by a lock inside the client.
         await self.network.connect()
-        await self._main_loop()
+        try:
+            await self._main_loop()
+        finally:
+            await self.network.disconnect()
 
     async def stop(self):
         """Gracefully shut down the node."""
@@ -535,51 +554,50 @@ class SwarmNode:
 
     # ─── MAIN LOOP ───
 
+    def heartbeat_interval(self) -> float:
+        return float(min(self.config.gossip_interval_seconds, HEARTBEAT_MAX_INTERVAL))
+
     async def _main_loop(self):
-        """Main event loop — periodic pattern sharing, heartbeats, and self-healing."""
-        gossip_interval = self.config.gossip_interval_seconds
-        heartbeat_failures = 0
+        """Heartbeat on a fixed interval; reconnect (with backoff) only when the link drops.
+
+        Reads happen in the client's reader task, so a heartbeat is never held
+        up by, and never waits for, anything the broker sends.
+        """
+        interval = self.heartbeat_interval()
+        status_every = max(1, int(self.config.gossip_interval_seconds // interval))
+        beats = 0
 
         while self.running:
             try:
-                # Send heartbeat to broker
-                try:
-                    await self.network.send_heartbeat()
-                    heartbeat_failures = 0
-                except Exception:
-                    heartbeat_failures += 1
-
-                # If heartbeat fails 3x in a row, reconnect
-                if heartbeat_failures >= 3 or not self.network.connected:
-                    logger.warning(f"Connection stale ({heartbeat_failures} failures). Reconnecting...")
-                    try:
-                        await self.network.disconnect()
-                    except Exception:
-                        pass
-                    self.network.connected = False
-                    await self.network.connect()
-                    heartbeat_failures = 0
+                if not self.network.connected:
+                    logger.warning("Not connected to broker; reconnecting")
+                    await self.network.reconnect()
                     logger.info("Reconnected to broker")
 
-                # Periodic status log
-                status = self.get_status()
-                logger.info(
-                    f"[{self.config.node_id}] "
-                    f"role={status['role']} "
-                    f"model={'trained' if status['model_loaded'] else 'none'} "
-                    f"predictions={status['predictions_made']} "
-                    f"patterns_local={status['local_patterns']} "
-                    f"patterns_foreign={status['foreign_patterns']} "
-                    f"uptime={status['uptime_seconds']}s"
-                )
+                if not await self.network.send_heartbeat():
+                    continue  # link marked lost; reconnect on the next pass
 
-                # Wait for next gossip round
-                await asyncio.sleep(gossip_interval)
+                if beats % status_every == 0:
+                    status = self.get_status()
+                    net = self.network.stats
+                    logger.info(
+                        f"[{self.config.node_id}] "
+                        f"role={status['role']} "
+                        f"model={'trained' if status['model_loaded'] else 'none'} "
+                        f"registrations={net['registrations']} "
+                        f"broker_msgs={net['messages_received']} "
+                        f"relayed_patterns_discarded={net['patterns_relayed_to_us']} "
+                        f"uptime={status['uptime_seconds']}s"
+                    )
+                beats += 1
+
+                # Sleep until the next heartbeat, or wake early if the link drops.
+                await self.network.wait_lost(interval)
 
             except asyncio.CancelledError:
                 break
             except Exception as e:
-                logger.error(f"Main loop error: {e}")
+                logger.error(f"Main loop error: {e.__class__.__name__}: {e}")
                 await asyncio.sleep(5)
 
 
@@ -587,21 +605,38 @@ class SwarmNode:
 # ENTRY POINT
 # ============================================================================
 
+def setup_logging(log_file: Optional[str] = None) -> None:
+    """Log to stderr, and to a rotating file when one is given (service mode)."""
+    from logging.handlers import RotatingFileHandler
+
+    fmt = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
+    root = logging.getLogger()
+    root.setLevel(logging.INFO)
+    stream = logging.StreamHandler()
+    stream.setFormatter(fmt)
+    root.addHandler(stream)
+    if log_file:
+        path = Path(log_file).expanduser()
+        path.parent.mkdir(parents=True, exist_ok=True)
+        handler = RotatingFileHandler(path, maxBytes=LOG_MAX_BYTES, backupCount=LOG_BACKUPS,
+                                      encoding="utf-8")
+        handler.setFormatter(fmt)
+        root.addHandler(handler)
+
+
 def main():
     """Start a swarm node based on command-line args or auto-detection."""
     import argparse
-
-    logging.basicConfig(
-        level=logging.INFO,
-        format="%(asctime)s [%(levelname)s] %(message)s",
-        datefmt="%H:%M:%S",
-    )
 
     parser = argparse.ArgumentParser(description="DVCE Swarm Node")
     parser.add_argument("--config", type=str, help="Path to node config JSON")
     parser.add_argument("--profile", type=str, choices=["mac", "terrornode", "towerseven", "mac_i5"],
                         help="Use a pre-configured profile")
+    parser.add_argument("--log-file", type=str, default=os.environ.get(LOG_FILE_ENV),
+                        help=f"Also log to this file, rotated at {LOG_MAX_BYTES // (1024 * 1024)} MB "
+                             f"x {LOG_BACKUPS} (default: ${LOG_FILE_ENV})")
     args = parser.parse_args()
+    setup_logging(args.log_file)
 
     # Load config
     if args.config:

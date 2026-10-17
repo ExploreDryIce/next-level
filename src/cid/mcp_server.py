@@ -28,6 +28,7 @@ from mcp.server.stdio import stdio_server
 from mcp.types import Tool, TextContent
 
 from cid.memory import get_memory_store
+from cid.redaction import MemoryRejected
 
 
 # ─── MCP Server Setup ─────────────────────────────────────────────────────
@@ -127,6 +128,14 @@ async def list_tools():
 @app.call_tool()
 async def call_tool(name: str, arguments: dict):
     """Handle tool calls from the agent."""
+    try:
+        return await _call_tool(name, arguments)
+    except MemoryRejected as e:
+        # Nothing was stored. The message names the rule or watch id only.
+        return [TextContent(type="text", text=f"NOT STORED. {e}")]
+
+
+async def _call_tool(name: str, arguments: dict):
     store = get_memory_store()
 
     if name == "cid_recall":

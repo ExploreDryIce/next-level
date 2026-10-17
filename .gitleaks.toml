@@ -4,6 +4,11 @@
 
 title = "Next-Level Secret Detection"
 
+# A custom config REPLACES gitleaks' built-in rules unless it extends them.
+# Without this block the hook and the CI scan had zero rules (review H1).
+[extend]
+useDefault = true
+
 [allowlist]
   paths = [
     '''\.keys\.json''',

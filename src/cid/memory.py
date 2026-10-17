@@ -23,6 +23,8 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 from dataclasses import dataclass, field, asdict
 
+from cid.redaction import MemoryRejected, check_memory_text  # noqa: F401  (re-exported)
+
 
 # ─── Storage Path ─────────────────────────────────────────────────────────
 
@@ -108,7 +110,13 @@ class MemoryStore:
         tags: Optional[List[str]] = None,
         metadata: Optional[Dict[str, Any]] = None,
     ) -> Memory:
-        """Store a new memory."""
+        """Store a new memory.
+
+        Raises MemoryRejected (nothing is stored) if the content, tags or
+        metadata hold a secret-shaped string or a client's watch data; see
+        cid/redaction.py.
+        """
+        check_memory_text(content, tags or [], metadata or {})
         memory = Memory(
             id=str(uuid.uuid4())[:8],
             category=category,
@@ -215,7 +223,12 @@ class MemoryStore:
         }
 
     def end_session(self, project: str, summary: str, decisions: Optional[List[str]] = None):
-        """End a session — save what happened."""
+        """End a session — save what happened.
+
+        Every part is checked before anything is stored, so a rejected
+        decision does not leave the summary saved on its own.
+        """
+        check_memory_text(summary, decisions or [])
         self.remember(
             content=summary,
             category="session",
